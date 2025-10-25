@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/limmax"
+    },
+    "facing=east": {
+      "model": "cum:block/limmax",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/limmax",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/limmax",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+JVM:         C:\Users\Fabio Ferlito\.mcreator\gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.15+6\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\AccessTransformer\output.jar", "--output", "C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\SideStripper\output.jar", "--data", "C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\SideStripper\string_data.sas"
+Classpath:   C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.7\mergetool-1.1.7-fatjar.jar
+Working Dir: C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\AccessTransformer\output.jar
+Output: C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\SideStripper\output.jar
+Data:   C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\SideStripper\string_data.sas

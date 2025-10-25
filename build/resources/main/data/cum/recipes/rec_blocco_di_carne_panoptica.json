@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "cum:energia"
+    },
+    "b": {
+      "item": "cum:lingotto_ultrakillante"
+    },
+    "c": {
+      "item": "cum:blocco_di_carne"
+    }
+  },
+  "result": {
+    "item": "cum:blocco_di_carne_panoptica",
+    "count": 1
+  }
+}

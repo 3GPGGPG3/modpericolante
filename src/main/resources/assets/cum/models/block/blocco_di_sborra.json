@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cum:block/cumcc",
+    "particle": "cum:block/cumcc"
+  },
+  "render_type": "solid"
+}

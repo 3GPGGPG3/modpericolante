@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cum:luna_del_godo"
+    },
+    {
+      "item": "cum:luna_del_godo"
+    },
+    {
+      "item": "cum:luna_del_godo"
+    },
+    {
+      "item": "cum:luna_del_godo"
+    }
+  ],
+  "result": {
+    "item": "cum:blocco_lunare",
+    "count": 1
+  }
+}

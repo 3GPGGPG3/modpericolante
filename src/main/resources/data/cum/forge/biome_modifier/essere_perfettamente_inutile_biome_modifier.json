@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "cum:bioma_derivato",
+  "spawners": {
+    "type": "cum:essere_perfettamente_inutile",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

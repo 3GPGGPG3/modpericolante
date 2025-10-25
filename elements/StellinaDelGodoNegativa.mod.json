@@ -1,0 +1,27 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:StellaDelGodoNegativa"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "ambient.cave"
+    },
+    "igniteFire": true,
+    "power": 1.0,
+    "damage": 1.5,
+    "knockback": 2,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "StellinaDelGodoNegativaProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "StellinaDelGodoNegativaProjectileHitsLivingEntity"
+    }
+  }
+}

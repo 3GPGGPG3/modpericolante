@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 2.45,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "cum:ultrakillante_ore"
+  },
+  "result": "cum:lingotto_ultrakillante"
+}

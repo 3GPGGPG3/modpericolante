@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/velocconsauto"
+    },
+    "facing=east": {
+      "model": "cum:block/velocconsauto",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/velocconsauto",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/velocconsauto",
+      "y": 270
+    }
+  }
+}

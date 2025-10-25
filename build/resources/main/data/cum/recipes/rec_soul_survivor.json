@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "cum:energia"
+    },
+    "b": {
+      "item": "cum:blocco_di_carne_vivente"
+    }
+  },
+  "result": {
+    "item": "cum:soul_survivor",
+    "count": 1
+  }
+}

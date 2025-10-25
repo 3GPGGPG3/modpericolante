@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/divtrans_ped"
+    },
+    "facing=east": {
+      "model": "cum:block/divtrans_ped",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/divtrans_ped",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/divtrans_ped",
+      "y": 270
+    }
+  }
+}

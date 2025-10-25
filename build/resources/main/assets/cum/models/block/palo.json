@@ -1,0 +1,9 @@
+{
+  "parent": "cum:custom/pallo",
+  "textures": {
+    "all": "cum:block/palo",
+    "particle": "cum:block/palo",
+    "0": "cum:block/palo"
+  },
+  "render_type": "solid"
+}

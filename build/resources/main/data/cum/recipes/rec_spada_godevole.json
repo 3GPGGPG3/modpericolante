@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:stella_del_godo"
+    },
+    "b": {
+      "item": "cum:blocco_pericolante"
+    }
+  },
+  "result": {
+    "item": "cum:spada_godevole",
+    "count": 1
+  }
+}

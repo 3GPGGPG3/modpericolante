@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cum:si"
+    },
+    {
+      "item": "cum:no"
+    }
+  ],
+  "result": {
+    "item": "cum:oggetto_neutro",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LingottoUltrakillante"
+      },
+      {
+        "value": "CUSTOM:LingottoUltrakillante"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LingottoUltrakillante"
+      },
+      {
+        "value": "CUSTOM:LingottoUltrakillante"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MetalloUltrakillante"
+    },
+    "name": "rec_metallo_ultrakillante",
+    "namespace": "mod"
+  }
+}

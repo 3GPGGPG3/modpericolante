@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:experience_bottle"
+    },
+    "b": {
+      "item": "cum:energia"
+    }
+  },
+  "result": {
+    "item": "cum:clonatore",
+    "count": 2
+  }
+}

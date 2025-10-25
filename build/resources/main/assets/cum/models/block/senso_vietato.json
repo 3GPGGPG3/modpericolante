@@ -1,0 +1,10 @@
+{
+  "parent": "cum:custom/sensovietato",
+  "textures": {
+    "all": "cum:block/palo",
+    "particle": "cum:block/palo",
+    "0": "cum:block/palo",
+    "3": "cum:block/sensovietato"
+  },
+  "render_type": "solid"
+}

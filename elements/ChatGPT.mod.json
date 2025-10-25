@@ -1,0 +1,206 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 415,
+    "height": 211,
+    "inventoryOffsetX": -33,
+    "inventoryOffsetY": 22,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pietra",
+          "text": "Pietra",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PietraOnButtonClicked"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 117,
+          "y": 28,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_terra",
+          "text": "Terra",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "TerraOnButtonClicked"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 62,
+          "y": 28,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_erba",
+          "text": "Erba",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ErbaOnButtonClicked"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 12,
+          "y": 28,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pericolante",
+          "text": "Pericolante",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PericolanteOnButtonClicked"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 247,
+          "y": 28,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_diamante",
+          "text": "Diamante",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DiamanteOnButtonClicked"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 177,
+          "y": 28,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_vuoi_che_ti_crei_un_blocco_per_m",
+          "text": {
+            "fixedValue": "Vuoi che ti crei un blocco per Minecraft? Fammi sapere!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 77,
+          "y": 18,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chatgpt1.png",
+          "use1Xscale": false,
+          "x": 267,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 331,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fammi_una_relazione",
+          "text": "Fammi una relazione",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "FammiRelazioneOnButtonClicked"
+          },
+          "width": 124,
+          "height": 20,
+          "x": 12,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_oppure_cosa_posso_fare_per_te",
+          "text": {
+            "fixedValue": "Oppure cosa posso fare per te?"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 12,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_qua_verranno_generate_le_cose",
+          "text": {
+            "fixedValue": "Sono a tua disposizione!"
+          },
+          "displayCondition": {
+            "name": "DisplayQuaSi"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 327,
+          "y": 123,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_indietro",
+          "text": "INDIETRO",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "IndietroOnButtonClicked"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 347,
+          "y": 28,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 3,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

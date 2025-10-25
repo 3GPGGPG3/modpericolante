@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/div_di_sos"
+    },
+    "facing=east": {
+      "model": "cum:block/div_di_sos",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/div_di_sos",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/div_di_sos",
+      "y": 270
+    }
+  }
+}

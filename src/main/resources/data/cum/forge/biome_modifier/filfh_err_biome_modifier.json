@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "cum:bioma_non_sicuro",
+  "spawners": {
+    "type": "cum:filfh_err",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

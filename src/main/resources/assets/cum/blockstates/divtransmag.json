@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/divtransmag"
+    },
+    "facing=east": {
+      "model": "cum:block/divtransmag",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/divtransmag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/divtransmag",
+      "y": 270
+    }
+  }
+}

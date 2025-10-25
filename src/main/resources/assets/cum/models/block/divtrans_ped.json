@@ -1,0 +1,11 @@
+{
+  "parent": "cum:custom/ddivtrped",
+  "textures": {
+    "all": "cum:block/palo",
+    "particle": "cum:block/palo",
+    "1": "cum:block/palo",
+    "3": "cum:block/ddivtrped",
+    "missing": "cum:block/ddivtrped"
+  },
+  "render_type": "solid"
+}

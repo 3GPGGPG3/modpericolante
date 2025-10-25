@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:blocco_lunare"
+    },
+    "b": {
+      "item": "cum:luna_del_godo"
+    }
+  },
+  "result": {
+    "item": "cum:armatura_lunare_helmet",
+    "count": 1
+  }
+}

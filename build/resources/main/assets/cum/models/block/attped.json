@@ -1,0 +1,10 @@
+{
+  "parent": "cum:custom/attrped",
+  "textures": {
+    "all": "cum:block/palo",
+    "particle": "cum:block/palo",
+    "0": "cum:block/palo",
+    "1": "cum:block/attpedon"
+  },
+  "render_type": "solid"
+}

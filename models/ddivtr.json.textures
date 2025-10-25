@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "palo",
+        "2": "ddivtr"
+      },
+      "name": "default"
+    }
+  }
+}

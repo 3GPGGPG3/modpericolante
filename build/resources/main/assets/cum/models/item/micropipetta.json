@@ -1,0 +1,7 @@
+{
+  "parent": "cum:custom/micropipetta",
+  "textures": {
+    "0": "cum:block/micropipetta",
+    "particle": "minecraft:item/empty_slot_amethyst_shard"
+  }
+}

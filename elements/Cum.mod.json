@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Ccum"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:cumsound"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 2.6,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "cum.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "CumProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "CumProjectileHitsPlayer"
+    },
+    "onHitsEntity": {
+      "name": "CumProjectileHitsLivingEntity"
+    }
+  }
+}

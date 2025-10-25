@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cum:block/bloccodicarnelat",
+    "up": "cum:block/bloccodicarnelat",
+    "north": "cum:block/bloccodicarnelat",
+    "east": "cum:block/bloccodicarnelat",
+    "south": "cum:block/bloccodicarnelat",
+    "west": "cum:block/bloccodicarnelat",
+    "particle": "cum:block/bloccodicarnelat"
+  },
+  "render_type": "solid"
+}

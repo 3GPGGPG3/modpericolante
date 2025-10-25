@@ -1,0 +1,6 @@
+JVM:         C:\Users\Fabio Ferlito\.mcreator\gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.15+6\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\rename\output.jar", "--outJar", "C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\AccessTransformer\output.jar", "--atFile", "C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\FABIOF~1\AppData\Local\Temp\FG_ats_17280518196648675089.cfg"
+Classpath:   C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.1\accesstransformers-8.2.1-fatjar.jar
+Working Dir: C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

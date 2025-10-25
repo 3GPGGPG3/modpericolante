@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s si è sborrato.",
+    "itemDeathMessage": "%1$s è stato sborrato da %2$s mentre si segava il %3$s",
+    "playerDeathMessage": "%1$s è stato sborrato mentre scappava da %2$s"
+  }
+}

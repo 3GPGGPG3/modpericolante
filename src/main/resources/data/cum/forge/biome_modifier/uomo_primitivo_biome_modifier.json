@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "cum:bioma_primitivo",
+  "spawners": {
+    "type": "cum:uomo_primitivo",
+    "weight": 20,
+    "minCount": 3,
+    "maxCount": 6
+  }
+}

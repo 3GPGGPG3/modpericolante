@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:lingotto_ultrakillante"
+    },
+    "b": {
+      "item": "cum:batteria"
+    },
+    "c": {
+      "item": "cum:energia"
+    }
+  },
+  "result": {
+    "item": "cum:armatura_ultrakillante_leggings",
+    "count": 1
+  }
+}

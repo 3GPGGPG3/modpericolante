@@ -1,0 +1,80 @@
+{
+  "_fv": 73,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "assodicuori",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Asso di Cuori",
+    "rarity": "RARE",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:Talismani"
+      },
+      {
+        "value": "CUSTOM:CoseBalatranti"
+      },
+      {
+        "value": "CUSTOM:CarteDaGioco"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 16,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 5.6,
+    "specialInformation": {
+      "fixedValue": [
+        "Talismano che quando tenuto aumenta la vita massima."
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "AssoDiCuoriItemInInventoryTick"
+    },
+    "onDroppedByPlayer": {
+      "name": "ILGODOItemIsDroppedByPlayer"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": "CUSTOM:BloccoDiSborra"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "none",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": "ambient.crimson_forest.mood"
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0
+  }
+}

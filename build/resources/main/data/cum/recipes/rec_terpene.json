@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "cum:pene"
+    },
+    {
+      "item": "cum:pene"
+    },
+    {
+      "item": "cum:pene"
+    }
+  ],
+  "result": {
+    "item": "cum:terpene",
+    "count": 1
+  }
+}

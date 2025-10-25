@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "provetta",
+        "2": "liquido"
+      },
+      "name": "default"
+    }
+  }
+}

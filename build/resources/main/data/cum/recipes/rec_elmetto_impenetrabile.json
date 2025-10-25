@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:impenetrable_template"
+    },
+    "b": {
+      "item": "minecraft:netherite_helmet"
+    },
+    "c": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "cum:impenetrazione_helmet",
+    "count": 1
+  }
+}

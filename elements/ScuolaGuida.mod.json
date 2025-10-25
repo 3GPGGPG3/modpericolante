@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Scuola guida",
+    "icon": {
+      "value": "CUSTOM:BloccoPericolante"
+    },
+    "showSearch": true
+  }
+}

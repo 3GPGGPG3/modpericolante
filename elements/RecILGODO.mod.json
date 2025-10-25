@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SpadaSuperGodevole"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloccoPericoloso"
+      },
+      {
+        "value": "CUSTOM:SpadaSuperGodevole"
+      },
+      {
+        "value": "CUSTOM:BloccoPericoloso"
+      },
+      {
+        "value": "CUSTOM:StellaDelGodo"
+      },
+      {
+        "value": "CUSTOM:BloccoMedio"
+      },
+      {
+        "value": "CUSTOM:StellaDelGodo"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ILGODO"
+    },
+    "name": "rec_ilgodo",
+    "namespace": "mod"
+  }
+}

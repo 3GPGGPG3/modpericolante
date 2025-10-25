@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cum:block/pietra_balatrante",
+    "particle": "cum:block/pietra_balatrante"
+  },
+  "render_type": "solid"
+}

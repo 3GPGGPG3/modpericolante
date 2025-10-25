@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "cum:questoeilgodo_negativo"
+    },
+    "title": {
+      "translate": "advancements.tunonhaiidea.title"
+    },
+    "description": {
+      "translate": "advancements.tunonhaiidea.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tunonhaiidea_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cum:questoeilgodo_negativo"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 12
+  },
+  "parent": "cum:tunonhaiidea"
+}

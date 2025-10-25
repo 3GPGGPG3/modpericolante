@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:energia"
+    },
+    "b": {
+      "item": "cum:ultrakillante_block"
+    },
+    "c": {
+      "item": "cum:blood_bucket"
+    }
+  },
+  "result": {
+    "item": "cum:tecnologia_v_1nante",
+    "count": 1
+  }
+}

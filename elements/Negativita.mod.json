@@ -1,0 +1,28 @@
+{
+  "_fv": 73,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Negativo",
+    "supportedSlots": "any",
+    "weight": 3,
+    "anvilCost": 3,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:EctoplasmaNegativo"
+      },
+      {
+        "value": "CUSTOM:StellaDelGodoNegativa"
+      },
+      {
+        "value": "CUSTOM:StaffaDelGodoNegativa"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": true,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}

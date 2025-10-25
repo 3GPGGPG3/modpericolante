@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/senso_unico_frontale"
+    },
+    "facing=east": {
+      "model": "cum:block/senso_unico_frontale",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/senso_unico_frontale",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/senso_unico_frontale",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cum:block/bloccononsicuro",
+    "particle": "cum:block/bloccononsicuro"
+  },
+  "render_type": "solid"
+}

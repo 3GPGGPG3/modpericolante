@@ -1,0 +1,10 @@
+{
+  "parent": "cum:custom/dirobbdritt",
+  "textures": {
+    "all": "cum:block/palo",
+    "particle": "cum:block/palo",
+    "2": "cum:block/dirobbdirt",
+    "4": "cum:block/palo"
+  },
+  "render_type": "solid"
+}

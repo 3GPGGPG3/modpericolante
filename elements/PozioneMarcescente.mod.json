@@ -1,0 +1,32 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Pozione marcescente",
+    "splashName": "Pozione marcescente lanciabile",
+    "lingeringName": "Pozione marcescente persistente",
+    "arrowName": "Freccia marcescente",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:MarcescenzaScarlatta"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "NAUSEA"
+        },
+        "duration": 1000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

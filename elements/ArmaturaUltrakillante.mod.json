@@ -1,0 +1,116 @@
+{
+  "_fv": 73,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "armaturaultrakillante_head",
+    "enableBody": true,
+    "textureBody": "armaturaultrakillante_body",
+    "enableLeggings": true,
+    "textureLeggings": "armaturaultrakillante_leggings",
+    "enableBoots": false,
+    "textureBoots": "armaturaultrakillante_boots",
+    "onBodyTick": {
+      "name": "ArmaturaUltrakillanteChestplateTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "ArmaturaUltrakillanteLeggingsTickEvent"
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:CoseUltrakillanti"
+      }
+    ],
+    "armorTextureFile": "armaturaultrakillante",
+    "helmetName": "Elmetto Ultrakillante",
+    "bodyName": "Chestplate Ultrakillante",
+    "leggingsName": "Gambe Ultrakillanti",
+    "bootsName": "Scarpe Ultrakillanti",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "Shift to dash. You have 3 stamina.",
+        "Stamina recharges in time. If that doesn't happen, step on BLOCCO ULTRARIATTIVANTE."
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": true
+    },
+    "bodyGlowCondition": {
+      "fixedValue": true
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": true
+    },
+    "bootsGlowCondition": {
+      "fixedValue": true
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 100,
+    "damageValueHelmet": 20,
+    "damageValueBody": 50,
+    "damageValueLeggings": 42,
+    "damageValueBoots": 19,
+    "enchantability": 15,
+    "toughness": 5.5,
+    "knockbackResistance": 0.4,
+    "equipSound": {
+      "value": "ambient.cave"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:UltrakillanteBlock"
+      }
+    ]
+  }
+}

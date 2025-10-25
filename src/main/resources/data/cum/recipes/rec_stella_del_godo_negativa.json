@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cum:stella_del_godo"
+    },
+    {
+      "item": "cum:ectoplasma"
+    }
+  ],
+  "result": {
+    "item": "cum:stella_del_godo_negativa",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "cum:liurnia_sburrestre",
+  "spawners": {
+    "type": "cum:olivia",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 15
+  }
+}

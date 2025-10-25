@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StaffaDelGodoNegativa"
+      },
+      {
+        "value": "Items.NETHERITE_UPGRADE"
+      },
+      {
+        "value": "CUSTOM:StaffaDelGodoNegativa"
+      },
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": "CUSTOM:StaffaDelGodoNegativa"
+      },
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": "Blocks.NETHERITE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:StellaDelGodo"
+      },
+      {
+        "value": "Blocks.NETHERITE_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:QUESTOEILGODO"
+    },
+    "name": "rec_questoeilgodo",
+    "namespace": "mod"
+  }
+}

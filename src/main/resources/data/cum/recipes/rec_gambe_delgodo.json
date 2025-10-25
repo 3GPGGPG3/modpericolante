@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:blocco_medio"
+    },
+    "b": {
+      "item": "cum:stella_del_godo"
+    },
+    "c": {
+      "item": "cum:blocco_pericolante"
+    }
+  },
+  "result": {
+    "item": "cum:armatura_del_godo_leggings",
+    "count": 2
+  }
+}

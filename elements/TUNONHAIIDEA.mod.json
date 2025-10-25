@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "TU NON HAI IDEA!!!",
+    "achievementDescription": "Crea un artefatto leggendario dalla potenza incredibile... talmente pericoloso da poter terminare la tua stessa esistenza in ceneri.",
+    "achievementIcon": {
+      "value": "CUSTOM:QUESTOEILGODONegativo"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 12,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:TUNONHAIIDEA"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:QUESTOEILGODONegativo</field></block></value></block></next></block></xml>"
+  }
+}

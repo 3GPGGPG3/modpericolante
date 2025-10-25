@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cum:ectoplasma"
+    },
+    {
+      "item": "cum:cianografia"
+    }
+  ],
+  "result": {
+    "item": "cum:cianografia_negativa",
+    "count": 1
+  }
+}

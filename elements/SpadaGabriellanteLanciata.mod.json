@@ -1,0 +1,21 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:SpadaGabriellante"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "item.shield.block"
+    },
+    "igniteFire": true,
+    "power": 2.0,
+    "damage": 4.300000000000001,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.7,
+    "modelHeight": 0.7
+  }
+}

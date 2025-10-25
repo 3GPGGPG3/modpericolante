@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StellaDelGodo"
+      },
+      {
+        "value": "CUSTOM:StellaDelGodo"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StellaDelGodo"
+      },
+      {
+        "value": "CUSTOM:StellaDelGodo"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BloccoPericolante"
+    },
+    "name": "rec_blocco_pericolante_2",
+    "namespace": "mod"
+  }
+}

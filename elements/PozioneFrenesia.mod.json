@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Pozione della fiamma della frenesia",
+    "splashName": "Pozione lanciabile della fiamma della frenesia",
+    "lingeringName": "Pozione persistente della fiamma della frenesia",
+    "arrowName": "Freccia della fiamma della frenesia",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Follia"
+        },
+        "duration": 120,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

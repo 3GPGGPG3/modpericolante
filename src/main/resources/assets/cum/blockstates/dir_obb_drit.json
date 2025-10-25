@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/dir_obb_drit"
+    },
+    "facing=east": {
+      "model": "cum:block/dir_obb_drit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/dir_obb_drit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/dir_obb_drit",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "cum:pene_duro"
+    },
+    {
+      "item": "cum:indicatore_al_cavolo_rosso"
+    }
+  ],
+  "result": {
+    "item": "cum:cazzo_rosso",
+    "count": 1
+  }
+}

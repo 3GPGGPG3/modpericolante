@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "cum:block/dimensione_pericolante_portal_ew"
+    },
+    "axis=x": {
+      "model": "cum:block/dimensione_pericolante_portal_ns"
+    }
+  }
+}

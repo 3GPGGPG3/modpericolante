@@ -1,0 +1,363 @@
+{
+  "cumsound": {
+    "subtitle": "subtitles.cumsound",
+    "sounds": [
+      {
+        "name": "cum:cumsoundww",
+        "stream": false
+      }
+    ]
+  },
+  "mp_hurt": {
+    "sounds": [
+      {
+        "name": "cum:mp_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "mp_death": {
+    "sounds": [
+      {
+        "name": "cum:mp_deathscream",
+        "stream": false
+      }
+    ]
+  },
+  "mp_die": {
+    "sounds": [
+      {
+        "name": "cum:mp_die",
+        "stream": false
+      }
+    ]
+  },
+  "mp_die2": {
+    "sounds": [
+      {
+        "name": "cum:mp_die2",
+        "stream": false
+      }
+    ]
+  },
+  "mp_judgment2": {
+    "sounds": [
+      {
+        "name": "cum:mp_judgement2",
+        "stream": false
+      }
+    ]
+  },
+  "mp_judgment": {
+    "sounds": [
+      {
+        "name": "cum:mp_judgement",
+        "stream": false
+      }
+    ]
+  },
+  "sp_destroy": {
+    "sounds": [
+      {
+        "name": "cum:sp_destroy",
+        "stream": false
+      }
+    ]
+  },
+  "sp_destroy2": {
+    "sounds": [
+      {
+        "name": "cum:sp_destroy2",
+        "stream": false
+      }
+    ]
+  },
+  "sp_hurt": {
+    "sounds": [
+      {
+        "name": "cum:sp_grunt",
+        "stream": false
+      }
+    ]
+  },
+  "sp_death": {
+    "sounds": [
+      {
+        "name": "cum:sp_outro",
+        "stream": false
+      }
+    ]
+  },
+  "sp_thiswillhurt": {
+    "sounds": [
+      {
+        "name": "cum:sp_thiswillhurt",
+        "stream": false
+      }
+    ]
+  },
+  "mp_thyend": {
+    "sounds": [
+      {
+        "name": "cum:mp_thyend",
+        "stream": false
+      }
+    ]
+  },
+  "mp_thyend2": {
+    "sounds": [
+      {
+        "name": "cum:mp_thyend2",
+        "stream": false
+      }
+    ]
+  },
+  "mp_weak": {
+    "sounds": [
+      {
+        "name": "cum:mp_weak",
+        "stream": false
+      }
+    ]
+  },
+  "sp_yes": {
+    "sounds": [
+      {
+        "name": "cum:sp_yesthatsit",
+        "stream": false
+      }
+    ]
+  },
+  "sp_youcant": {
+    "sounds": [
+      {
+        "name": "cum:sp_youcantescape",
+        "stream": false
+      }
+    ]
+  },
+  "sp_youcant2": {
+    "sounds": [
+      {
+        "name": "cum:sp_youcantescape2_1",
+        "stream": false
+      }
+    ]
+  },
+  "ilfumattiastory": {
+    "sounds": [
+      {
+        "name": "cum:il_fu_mattia_pascal_story",
+        "stream": true
+      }
+    ]
+  },
+  "ilfumattia": {
+    "sounds": [
+      {
+        "name": "cum:il_fu_mattia_pascal_",
+        "stream": true
+      }
+    ]
+  },
+  "chaos": {
+    "sounds": [
+      {
+        "name": "cum:chaos",
+        "stream": true
+      }
+    ]
+  },
+  "order1": {
+    "sounds": [
+      {
+        "name": "cum:minos_prime_intro",
+        "stream": true
+      }
+    ]
+  },
+  "order2": {
+    "sounds": [
+      {
+        "name": "cum:order",
+        "stream": true
+      }
+    ]
+  },
+  "pandemonium": {
+    "sounds": [
+      {
+        "name": "cum:pandemonium",
+        "stream": true
+      }
+    ]
+  },
+  "war1": {
+    "sounds": [
+      {
+        "name": "cum:sisyphus_prime_intro",
+        "stream": true
+      }
+    ]
+  },
+  "war2": {
+    "sounds": [
+      {
+        "name": "cum:war",
+        "stream": true
+      }
+    ]
+  },
+  "gab_enough": {
+    "sounds": [
+      {
+        "name": "cum:gab_enough",
+        "stream": false
+      }
+    ]
+  },
+  "gb_hurt1": {
+    "sounds": [
+      {
+        "name": "cum:gab_hurt1.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_hurt2": {
+    "sounds": [
+      {
+        "name": "cum:gab_hurt2.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_hurt3": {
+    "sounds": [
+      {
+        "name": "cum:gab_hurt3.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_hurt4": {
+    "sounds": [
+      {
+        "name": "cum:gab_hurt4.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_youdefythelight": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt1.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_therecanbeonlylight": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt3.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_amereobject": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt2.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_foolishnessmachine": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt4.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_animperfectiontobe": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt5",
+        "stream": false
+      }
+    ]
+  },
+  "gb_notevenmortal": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt6.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_youoarelessthannothing": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt7.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_youareanerrortobecorrected": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt8.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_thelightisperfection": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt9.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_youareoutclassed": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt10.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_yourcimeisexistence": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt11.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_youmakeeventhe": {
+    "sounds": [
+      {
+        "name": "cum:gab_taunt12.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_dies": {
+    "sounds": [
+      {
+        "name": "cum:gab_woes.wav",
+        "stream": false
+      }
+    ]
+  },
+  "gb_bighurt": {
+    "sounds": [
+      {
+        "name": "cum:gab_bighurt1.wav",
+        "stream": false
+      }
+    ]
+  }
+}

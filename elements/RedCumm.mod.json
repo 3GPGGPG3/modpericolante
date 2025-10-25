@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:RedCum"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:cumsound"
+    },
+    "igniteFire": true,
+    "power": 1.4000000000000001,
+    "damage": 3.8000000000000003,
+    "knockback": 8,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "RedCummProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "CumProjectileHitsPlayer"
+    },
+    "onHitsEntity": {
+      "name": "CumProjectileHitsLivingEntity"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcb",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:stella_del_godo"
+    },
+    "b": {
+      "item": "cum:blocco_pericolante"
+    },
+    "c": {
+      "item": "cum:blocco_medio"
+    }
+  },
+  "result": {
+    "item": "cum:armatura_del_godo_helmet",
+    "count": 2
+  }
+}

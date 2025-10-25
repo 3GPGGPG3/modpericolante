@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MetalloUltrakillante"
+      },
+      {
+        "value": "CUSTOM:MetalloUltrakillante"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MetalloUltrakillante"
+      },
+      {
+        "value": "CUSTOM:MetalloUltrakillante"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UltrakillanteBlock"
+    },
+    "name": "ultrakillante_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

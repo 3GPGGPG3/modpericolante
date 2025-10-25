@@ -1,0 +1,146 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 207,
+    "height": 133,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": -16,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_metti_gli_oggetti_dello_stesso_t",
+          "text": {
+            "fixedValue": "Metti gli oggetti dello stesso tipo."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 121,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 150,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stack",
+          "text": "Stack",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StackButton"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 228,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Clonatore"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -16750900,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 186,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "+"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 174,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_mettere_il_clonatore",
+          "text": {
+            "fixedValue": "Mettere il clonatore"
+          },
+          "displayCondition": {
+            "name": "StackIf1"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 182,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_mettere_loggetto_che_vuoi_clona",
+          "text": {
+            "fixedValue": "Mettere l'oggetto che vuoi clonare e staccare"
+          },
+          "displayCondition": {
+            "name": "StackIf0"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 147,
+          "y": 69,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 42,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

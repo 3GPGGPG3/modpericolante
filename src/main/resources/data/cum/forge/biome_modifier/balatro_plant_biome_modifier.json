@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "cum:bioma_balatrante",
+  "features": "cum:balatro_plant",
+  "step": "vegetal_decoration"
+}

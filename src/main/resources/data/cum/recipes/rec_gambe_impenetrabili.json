@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:impenetrable_template"
+    },
+    "b": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "c": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "cum:impenetrazione_leggings",
+    "count": 1
+  }
+}

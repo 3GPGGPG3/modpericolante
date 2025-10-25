@@ -1,0 +1,27 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:StellaPericolosa"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.anvil.place"
+    },
+    "igniteFire": true,
+    "power": 1.0,
+    "damage": 1.5,
+    "knockback": 2,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "StellaPericolosaProiettileProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "StellaPericolosaProiettileProjectileHitsLivingEntity"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "cum:blocco_pericolante"
+    },
+    "title": {
+      "translate": "advancements.pericoloo.title"
+    },
+    "description": {
+      "translate": "advancements.pericoloo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pericoloo_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "cum:dimensione_pericolante"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "cum:oh_si_olivia"
+}

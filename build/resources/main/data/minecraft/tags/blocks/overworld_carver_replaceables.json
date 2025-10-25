@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "cum:blocco_medio_inverso",
+    "cum:blocco_pericolante_inverso",
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "cum:pietra_balatrante",
+    "cum:balatro_grass",
+    "cum:balatro_dirt",
+    "cum:blocco_pericolante_negativo",
+    "cum:blocco_medio_negativo",
+    "cum:blocco_pericoloso_negativo",
+    "cum:blocco_non_sicuro",
+    "cum:blocco_neutro",
+    "cum:blocco_sicuro",
+    "minecraft:bedrock",
+    "cum:blocco_pericolante",
+    "minecraft:reinforced_deepslate",
+    "cum:blocco_medio",
+    "cum:blocco_pericoloso"
+  ]
+}

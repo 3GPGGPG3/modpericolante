@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "cum:blocco_di_sborra"
+    },
+    {
+      "item": "cum:indicatore_al_cavolo_rosso"
+    }
+  ],
+  "result": {
+    "item": "cum:blocco_di_sborra_rossa",
+    "count": 1
+  }
+}

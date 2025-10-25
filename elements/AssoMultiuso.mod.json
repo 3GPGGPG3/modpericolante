@@ -1,0 +1,83 @@
+{
+  "_fv": 73,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "assomultiuso",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Asso multiuso",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:Talismani"
+      },
+      {
+        "value": "CUSTOM:CoseBalatranti"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 5,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 80,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.6,
+    "specialInformation": {
+      "fixedValue": [
+        "Determina gli effetti di tutti i talismani (non può accendere il portale pericolante)."
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "AssoDiQuadriRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "AssoDiQuadriLivingEntityIsHitWithItem"
+    },
+    "onItemInInventoryTick": {
+      "name": "AssoMultiusoOgniTickMentreLoggettoENellinventario"
+    },
+    "onDroppedByPlayer": {
+      "name": "AssoMultiusoQuandoLoggettoVieneGettatoATerraDaUnGiocatore"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:Cum"
+    },
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": "block.basalt.place"
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0
+  }
+}

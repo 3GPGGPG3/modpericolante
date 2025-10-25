@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/blocco_di_carne"
+    },
+    "facing=east": {
+      "model": "cum:block/blocco_di_carne",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/blocco_di_carne",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/blocco_di_carne",
+      "y": 270
+    }
+  }
+}

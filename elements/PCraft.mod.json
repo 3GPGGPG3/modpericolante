@@ -1,0 +1,207 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 300,
+    "height": 210,
+    "inventoryOffsetX": -64,
+    "inventoryOffsetY": 24,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "1.png",
+          "use1Xscale": false,
+          "x": 72,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_jenny",
+          "text": "Jenny",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "RagazzaOnButtonClicked"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 86,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_choose_your_villager",
+          "text": {
+            "fixedValue": "Scegli la tua villica"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 161,
+          "y": 19,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "2.png",
+          "use1Xscale": false,
+          "x": 272,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ellie",
+          "text": "Ellie",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "RagazzaOnButtonClicked"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 287,
+          "y": 136,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "3.png",
+          "use1Xscale": false,
+          "x": 172,
+          "y": 35,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_villager_girl",
+          "text": "Ragazza villager",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "RagazzaOnButtonClicked"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 166,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_pagamento",
+          "text": {
+            "fixedValue": "Pagamento una sessione:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 236,
+          "y": 163,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_5_diamanti",
+          "text": {
+            "fixedValue": "5 diamanti"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 301,
+          "y": 174,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_5_smeraldi",
+          "text": {
+            "fixedValue": "5 smeraldi"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 301,
+          "y": 184,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_indietro",
+          "text": "INDIETRO",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "IndietroOnButtonClicked"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 290,
+          "y": 10,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 244,
+          "y": 191,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_ricevi_qua_il_tuo_scontrino",
+          "text": {
+            "fixedValue": "Ricevi qua il tuo scontrino"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 240,
+          "y": 187,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

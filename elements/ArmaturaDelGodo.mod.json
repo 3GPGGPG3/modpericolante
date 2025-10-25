@@ -1,0 +1,122 @@
+{
+  "_fv": 73,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "elmodelgodo",
+    "enableBody": true,
+    "textureBody": "chestplatedelgodo",
+    "enableLeggings": true,
+    "textureLeggings": "gambedelgodo",
+    "enableBoots": true,
+    "textureBoots": "scarpedelgodo",
+    "onHelmetTick": {
+      "name": "ArmaturaDelGodoHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "ArmaturaDelGodoChestplateTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "ArmaturaDelGodoLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "ArmaturaDelGodoBootsTickEvent"
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:CosePericolanti"
+      }
+    ],
+    "armorTextureFile": "armaturadelgodo",
+    "helmetName": "Elmetto del godo",
+    "bodyName": "Chestplate del godo",
+    "leggingsName": "Gambe del godo",
+    "bootsName": "Scarpe del godo",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "armaturadelgodo.png",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "armaturadelgodo.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "armaturadelgodo.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "armaturadelgodo.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": true
+    },
+    "bodyGlowCondition": {
+      "fixedValue": true
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": true
+    },
+    "bootsGlowCondition": {
+      "fixedValue": true
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 38,
+    "damageValueHelmet": 10,
+    "damageValueBody": 17,
+    "damageValueLeggings": 14,
+    "damageValueBoots": 9,
+    "enchantability": 12,
+    "toughness": 3.8000000000000003,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": "ambient.cave"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:StellaDelGodo"
+      },
+      {
+        "value": "CUSTOM:StellaDelGodoNegativa"
+      }
+    ]
+  }
+}

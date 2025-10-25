@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cum:block/baltro_grass_bottom",
+    "particle": "cum:block/baltro_grass_bottom"
+  },
+  "render_type": "solid"
+}

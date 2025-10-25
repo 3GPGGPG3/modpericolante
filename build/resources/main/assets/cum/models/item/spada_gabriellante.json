@@ -1,0 +1,7 @@
+{
+  "parent": "cum:custom/spadadigabriel",
+  "textures": {
+    "0": "cum:block/spadagabriellante",
+    "particle": "minecraft:item/bow_pulling_2"
+  }
+}

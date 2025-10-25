@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "cum:blocco_di_sborra_rossa"
+    }
+  ],
+  "result": {
+    "item": "cum:red_cum",
+    "count": 3
+  }
+}

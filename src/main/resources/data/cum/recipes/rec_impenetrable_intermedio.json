@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "b": {
+      "item": "cum:blocco_di_diamante_vuoto"
+    },
+    "c": {
+      "item": "minecraft:netherite_block"
+    },
+    "d": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "item": "cum:impenetrabile_intermedio",
+    "count": 1
+  }
+}

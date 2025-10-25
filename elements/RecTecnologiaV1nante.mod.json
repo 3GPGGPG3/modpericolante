@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": "CUSTOM:UltrakillanteBlock"
+      },
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": "CUSTOM:Blood.bucket"
+      },
+      {
+        "value": "CUSTOM:Energia"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TecnologiaV1nante"
+    },
+    "name": "rec_tecnologia_v_1nante",
+    "namespace": "mod"
+  }
+}

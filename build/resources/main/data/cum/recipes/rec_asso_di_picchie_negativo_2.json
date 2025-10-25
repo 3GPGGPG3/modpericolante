@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cum:dimensione_pericolante"
+    },
+    {
+      "item": "cum:ectoplasma_negativo"
+    }
+  ],
+  "result": {
+    "item": "cum:asso_di_picchie_negativo",
+    "count": 1
+  }
+}

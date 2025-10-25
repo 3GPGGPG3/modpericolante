@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cum:puntale_contaminato"
+    },
+    {
+      "item": "cum:ectoplasma"
+    }
+  ],
+  "result": {
+    "item": "cum:puntale_contaminato_negativo",
+    "count": 1
+  }
+}

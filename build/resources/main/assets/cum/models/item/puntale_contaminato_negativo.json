@@ -1,0 +1,7 @@
+{
+  "parent": "cum:custom/puntale",
+  "textures": {
+    "0": "cum:block/puntale",
+    "particle": "cum:item/puntale_negativo"
+  }
+}

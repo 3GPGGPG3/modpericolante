@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "cac",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:staffa_del_godo_negativa"
+    },
+    "b": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "c": {
+      "item": "cum:energia"
+    },
+    "d": {
+      "item": "minecraft:netherite_block"
+    },
+    "e": {
+      "item": "cum:stella_del_godo"
+    }
+  },
+  "result": {
+    "item": "cum:questoeilgodo",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:spada_lunare_2"
+    },
+    "b": {
+      "item": "cum:luna_del_godo"
+    }
+  },
+  "result": {
+    "item": "cum:spada_lunare_2",
+    "count": 1
+  }
+}

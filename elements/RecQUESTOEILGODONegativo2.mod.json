@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": "CUSTOM:EctoplasmaNegativo"
+      },
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": "CUSTOM:QUESTOEILGODO"
+      },
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": "CUSTOM:Energia"
+      },
+      {
+        "value": "CUSTOM:Batteria"
+      },
+      {
+        "value": "CUSTOM:Energia"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:QUESTOEILGODONegativo"
+    },
+    "name": "rec_questoeilgodo_negativo_2",
+    "namespace": "mod"
+  }
+}

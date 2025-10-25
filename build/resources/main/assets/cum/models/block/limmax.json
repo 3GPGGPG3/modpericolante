@@ -1,0 +1,10 @@
+{
+  "parent": "cum:custom/limmax",
+  "textures": {
+    "all": "cum:block/palo",
+    "particle": "cum:block/palo",
+    "0": "cum:block/palo",
+    "2": "cum:block/limmax"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cum:block/balatro_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "cum:block/balatro_log"
+    },
+    "axis=z": {
+      "model": "cum:block/balatro_log",
+      "x": 90
+    }
+  }
+}

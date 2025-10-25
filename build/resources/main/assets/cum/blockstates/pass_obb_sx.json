@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/pass_obb_sx"
+    },
+    "facing=east": {
+      "model": "cum:block/pass_obb_sx",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/pass_obb_sx",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/pass_obb_sx",
+      "y": 270
+    }
+  }
+}

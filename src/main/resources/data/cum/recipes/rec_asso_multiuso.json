@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "cum:dimensione_pericolante"
+    },
+    {
+      "item": "cum:asso_di_quadri"
+    },
+    {
+      "item": "cum:asso_di_cuori"
+    },
+    {
+      "item": "cum:asso_di_fiori"
+    }
+  ],
+  "result": {
+    "item": "cum:asso_multiuso",
+    "count": 1
+  }
+}

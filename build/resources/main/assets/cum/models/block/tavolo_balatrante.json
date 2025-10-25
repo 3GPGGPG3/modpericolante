@@ -1,0 +1,9 @@
+{
+  "parent": "cum:custom/balatro_tavolo_ufficiale",
+  "textures": {
+    "all": "cum:block/tavolotalatrante",
+    "particle": "cum:block/tavolotalatrante",
+    "0": "cum:block/tavolotalatrante"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "cum:custom/veloccons_extra",
+  "textures": {
+    "all": "cum:block/palo",
+    "particle": "cum:block/palo",
+    "0": "cum:block/palo",
+    "1": "cum:block/velocitaconsigliata_extra"
+  },
+  "render_type": "solid"
+}

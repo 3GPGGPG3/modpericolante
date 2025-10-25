@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/attped"
+    },
+    "facing=east": {
+      "model": "cum:block/attped",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/attped",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/attped",
+      "y": 270
+    }
+  }
+}

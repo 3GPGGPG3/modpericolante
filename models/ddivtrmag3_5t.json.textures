@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "palo",
+        "3": "ddivtrmag3_5t",
+        "missing": "ddivtrmag3_5t"
+      },
+      "name": "default"
+    }
+  }
+}

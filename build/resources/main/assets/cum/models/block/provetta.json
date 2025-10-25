@@ -1,0 +1,9 @@
+{
+  "parent": "cum:custom/provetta",
+  "textures": {
+    "all": "cum:block/provetta",
+    "particle": "cum:block/provetta",
+    "0": "cum:block/provetta"
+  },
+  "render_type": "solid"
+}

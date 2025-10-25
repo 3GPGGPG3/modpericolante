@@ -1,0 +1,86 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 212,
+    "height": 125,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": -18,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_selezionare_la_funzione_a_cui_ac",
+          "text": {
+            "fixedValue": "Selezionare la funzione a cui accedere."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fx",
+          "text": "F(x)",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "FunzioneFgxClicked"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 123,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fx1",
+          "text": "f(x)",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Funzionefxclicked"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 191,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fx2",
+          "text": "f'(x)",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "FunzionefpxClicked"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 258,
+          "y": 75,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 18,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

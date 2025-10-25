@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s si è rotto la minchia.",
+    "itemDeathMessage": "%1$s si è rotto la minchia a causa di %2$s che ha rotto con %3$s",
+    "playerDeathMessage": "%1$s si è rotto la minchia mentre provava a scappare da %2$s"
+  }
+}

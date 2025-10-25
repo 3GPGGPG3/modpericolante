@@ -1,0 +1,11 @@
+{
+  "parent": "cum:custom/passobblsx",
+  "textures": {
+    "all": "cum:block/palo",
+    "particle": "cum:block/palo",
+    "0": "cum:block/palo",
+    "1": "cum:block/dirobbdirt",
+    "missing": "cum:block/dirobbdirt"
+  },
+  "render_type": "solid"
+}

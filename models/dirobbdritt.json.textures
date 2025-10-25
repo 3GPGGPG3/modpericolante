@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "dirobbdirt",
+        "4": "palo"
+      },
+      "name": "default"
+    }
+  }
+}

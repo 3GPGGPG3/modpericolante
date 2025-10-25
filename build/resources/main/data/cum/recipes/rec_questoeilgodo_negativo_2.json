@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "cum:energia"
+    },
+    {
+      "item": "cum:ectoplasma_negativo"
+    },
+    {
+      "item": "cum:energia"
+    },
+    {
+      "item": "cum:energia"
+    },
+    {
+      "item": "cum:questoeilgodo"
+    },
+    {
+      "item": "cum:energia"
+    },
+    {
+      "item": "cum:energia"
+    },
+    {
+      "item": "cum:batteria"
+    },
+    {
+      "item": "cum:energia"
+    }
+  ],
+  "result": {
+    "item": "cum:questoeilgodo_negativo",
+    "count": 1
+  }
+}

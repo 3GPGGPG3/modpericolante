@@ -1,0 +1,10 @@
+{
+  "parent": "cum:custom/beker",
+  "textures": {
+    "all": "minecraft:block/bedrock",
+    "particle": "minecraft:block/bedrock",
+    "0": "cum:block/",
+    "missing": "cum:block/"
+  },
+  "render_type": "solid"
+}

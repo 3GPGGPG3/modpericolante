@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "cum:bioma_pericollante",
+  "spawners": {
+    "type": "cum:pericolante_7",
+    "weight": 7,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 192,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_chatgpt",
+          "text": "ChatGPT",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ChatGPTOnButtonClicked"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 122,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Batteria"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 277,
+          "y": 97,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_scommessa",
+          "text": "Scommessa",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ScommessaOnButtonClicked"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 185,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_scegli_cosa_fare_col_tuo_telefon",
+          "text": {
+            "fixedValue": "Scegli cosa fare col tuo telefono"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 127,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_carica_la_batteria",
+          "text": "Carica la batteria",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CaricaLaBatteriaOnButtonClicked"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 154,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_casa",
+          "text": "MAPS",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MAPSOnButtonClicked"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 259,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pncraft",
+          "text": "P##nCraft",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PCraftOnButtonClicked"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 179,
+          "y": 75,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 7,
+      "sy": 7,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

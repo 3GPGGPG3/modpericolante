@@ -1,0 +1,95 @@
+{
+  "_fv": 73,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:BiomaPericollante"
+      },
+      {
+        "value": "CUSTOM:MonteAbbummatu"
+      },
+      {
+        "value": "CUSTOM:BiomaPericolanteInverso"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:BloccoPericoloso"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "seaLevel": 32,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 192.0,
+    "skyType": "NORMAL",
+    "airColor": {
+      "value": -6711040,
+      "falpha": 0.0
+    },
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": false,
+    "hasFog": false,
+    "ambientLight": 0.19999999999999998,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": false,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": false,
+    "hasRaids": true,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": {
+      "value": "CUSTOM:BloccoPericolante"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Asso di Picche",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Questo talismano consente di potere entrare nella dimensione pericolante.",
+        "Inibisce l'azione pericolosa del blocco pericolante (SE integro)",
+        "Non può rompere bedrock."
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:CosePericolanti"
+      },
+      {
+        "value": "CUSTOM:Talismani"
+      },
+      {
+        "value": "CUSTOM:CoseBalatranti"
+      },
+      {
+        "value": "CUSTOM:CarteDaGioco"
+      }
+    ],
+    "texture": "assopicche",
+    "portalTexture": "pericoloso",
+    "enablePortal": true
+  }
+}

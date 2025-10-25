@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cum:block/ultrakillante_ore",
+    "particle": "cum:block/ultrakillante_ore"
+  },
+  "render_type": "solid"
+}

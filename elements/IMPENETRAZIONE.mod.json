@@ -1,0 +1,128 @@
+{
+  "_fv": 73,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "impenetrazione_head",
+    "enableBody": true,
+    "textureBody": "impenetrazione_body",
+    "enableLeggings": true,
+    "textureLeggings": "impenetrazione_leggings",
+    "enableBoots": true,
+    "textureBoots": "impenetrazione_boots",
+    "onHelmetTick": {
+      "name": "IMPENETRAZIONEHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "IMPENETRAZIONEHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "IMPENETRAZIONEHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "IMPENETRAZIONEHelmetTickEvent"
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:IlFuMattiaPascal"
+      }
+    ],
+    "armorTextureFile": "impenetrazione",
+    "helmetName": "Elmetto IMPENETRABILE",
+    "bodyName": "Chestplate IMPENETRABILE",
+    "leggingsName": "Gambe IMPENETRABILE",
+    "bootsName": "Scarpe IMPENETRABILE",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "Shift to dash. You have 3 stamina.",
+        "Stamina recharges in time. If that doesn't happen, step on BLOCCO ULTRARIATTIVANTE."
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": true
+    },
+    "bodyGlowCondition": {
+      "fixedValue": true
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": true
+    },
+    "bootsGlowCondition": {
+      "fixedValue": true
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 300,
+    "damageValueHelmet": 60,
+    "damageValueBody": 150,
+    "damageValueLeggings": 126,
+    "damageValueBoots": 57,
+    "enchantability": 15,
+    "toughness": 16.5,
+    "knockbackResistance": 1.2,
+    "equipSound": {
+      "value": "block.anvil.place"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:IMPENETRAZIONE.helmet"
+      },
+      {
+        "value": "CUSTOM:IMPENETRAZIONE.body"
+      },
+      {
+        "value": "CUSTOM:IMPENETRAZIONE.legs"
+      },
+      {
+        "value": "CUSTOM:IMPENETRAZIONE.boots"
+      }
+    ]
+  }
+}

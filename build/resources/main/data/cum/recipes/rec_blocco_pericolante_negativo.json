@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cum:blocco_pericolante"
+    },
+    {
+      "item": "cum:ectoplasma"
+    }
+  ],
+  "result": {
+    "item": "cum:blocco_pericolante_negativo",
+    "count": 1
+  }
+}

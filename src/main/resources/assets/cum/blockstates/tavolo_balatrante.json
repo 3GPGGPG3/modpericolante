@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/tavolo_balatrante"
+    },
+    "facing=east": {
+      "model": "cum:block/tavolo_balatrante",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/tavolo_balatrante",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/tavolo_balatrante",
+      "y": 270
+    }
+  }
+}

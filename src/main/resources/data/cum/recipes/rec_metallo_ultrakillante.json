@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cum:lingotto_ultrakillante"
+    },
+    {
+      "item": "cum:lingotto_ultrakillante"
+    },
+    {
+      "item": "cum:lingotto_ultrakillante"
+    },
+    {
+      "item": "cum:lingotto_ultrakillante"
+    }
+  ],
+  "result": {
+    "item": "cum:metallo_ultrakillante",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "cum:blocco_lunare",
+    "cum:impalatore",
+    "cum:blocco_integrale",
+    "cum:ultrakillante_block",
+    "cum:ultrakillante_ore",
+    "cum:metallo_ultrakillante",
+    "cum:blocco_pericoloso_inverso",
+    "cum:blocco_pericolante_inverso",
+    "cum:blocco_pericoloso_negativo",
+    "cum:blocco_pericolante_negativo",
+    "cum:blocco_pericoloso",
+    "cum:blocco_pericolante"
+  ]
+}

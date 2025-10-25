@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "cum:block/baltro_grass_bottom",
+    "top": "cum:block/balatro_grass_top",
+    "side": "cum:block/balatro_grass_side",
+    "overlay": "cum:block/balatro_grass_side",
+    "particle": "cum:block/baltro_grass_bottom"
+  },
+  "render_type": "solid"
+}

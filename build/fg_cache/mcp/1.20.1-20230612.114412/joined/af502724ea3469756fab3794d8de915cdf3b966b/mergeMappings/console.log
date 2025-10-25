@@ -1,0 +1,16 @@
+JVM:         C:\Users\Fabio Ferlito\.mcreator\gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.15+6\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\mergeMappings\output.jar"
+Classpath:   C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo\build\fg_cache\mcp\1.20.1-20230612.114412\joined\af502724ea3469756fab3794d8de915cdf3b966b\mergeMappings\output.jar

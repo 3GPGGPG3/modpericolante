@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "fortezza_pericolante",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 10,
+    "separation": 5,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BiomaPericollante"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "MOTION_BLOCKING",
+    "useStartHeight": false,
+    "startHeightProviderType": "BIASED_TO_BOTTOM",
+    "startHeightMin": 33,
+    "startHeightMax": 80,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

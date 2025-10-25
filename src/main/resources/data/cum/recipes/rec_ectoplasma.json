@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:black_dye"
+    },
+    "b": {
+      "item": "minecraft:yellow_candle"
+    },
+    "c": {
+      "item": "minecraft:blue_dye"
+    },
+    "d": {
+      "item": "minecraft:blue_candle"
+    },
+    "e": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "cum:ectoplasma",
+    "count": 2
+  }
+}

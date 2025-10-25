@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cum:stella_del_godo"
+    },
+    {
+      "item": "cum:stella_del_godo"
+    },
+    {
+      "item": "cum:stella_del_godo"
+    },
+    {
+      "item": "cum:stella_del_godo"
+    }
+  ],
+  "result": {
+    "item": "cum:blocco_pericolante",
+    "count": 1
+  }
+}

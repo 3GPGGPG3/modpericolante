@@ -1,0 +1,199 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.cum.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.level.block.Block;
+
+import net.mcreator.cum.block.VelocconsextraBlock;
+import net.mcreator.cum.block.VelocconsautoBlock;
+import net.mcreator.cum.block.UltrakillanteOreBlock;
+import net.mcreator.cum.block.UltrakillanteBlockBlock;
+import net.mcreator.cum.block.TerraVuotaBlock;
+import net.mcreator.cum.block.TavoloBalatranteBlock;
+import net.mcreator.cum.block.SensoVietatoBlock;
+import net.mcreator.cum.block.SensoUnicoFrontaleBlock;
+import net.mcreator.cum.block.ProvettaConLiquidoBlock;
+import net.mcreator.cum.block.ProvettaConDNAFrammentatoBlock;
+import net.mcreator.cum.block.ProvettaBlock;
+import net.mcreator.cum.block.PietraVuotaBlock;
+import net.mcreator.cum.block.PietraBalatranteBlock;
+import net.mcreator.cum.block.PericolanteVuotoBlock;
+import net.mcreator.cum.block.PerAttpedBlock;
+import net.mcreator.cum.block.PassObbSxBlock;
+import net.mcreator.cum.block.PassObbDxBlock;
+import net.mcreator.cum.block.PaloBlock;
+import net.mcreator.cum.block.OliviaBlockBlock;
+import net.mcreator.cum.block.MetalloUltrakillanteBlock;
+import net.mcreator.cum.block.MatriceBlock;
+import net.mcreator.cum.block.ManoscrittoDiIgieneBlock;
+import net.mcreator.cum.block.LimmaxBlock;
+import net.mcreator.cum.block.InizioVerBlock;
+import net.mcreator.cum.block.InizioOrBlock;
+import net.mcreator.cum.block.ImpalatoreBlock;
+import net.mcreator.cum.block.GeneratoreBlock;
+import net.mcreator.cum.block.GelDiAgarosioBlock;
+import net.mcreator.cum.block.FrigoBlock;
+import net.mcreator.cum.block.FineVerBlock;
+import net.mcreator.cum.block.FineOrBlock;
+import net.mcreator.cum.block.DivtranspubblBlock;
+import net.mcreator.cum.block.DivtransmagBlock;
+import net.mcreator.cum.block.DivtransPedBlock;
+import net.mcreator.cum.block.DivtransBlock;
+import net.mcreator.cum.block.DivDiSosBlock;
+import net.mcreator.cum.block.DivDiSorMagBlock;
+import net.mcreator.cum.block.DivDiSorBlock;
+import net.mcreator.cum.block.DivDiFerBlock;
+import net.mcreator.cum.block.DirObbSxBlock;
+import net.mcreator.cum.block.DirObbDxBlock;
+import net.mcreator.cum.block.DirObbDritBlock;
+import net.mcreator.cum.block.DimensioneSullaSicurezzaPortalBlock;
+import net.mcreator.cum.block.DimensionePericolantePortalBlock;
+import net.mcreator.cum.block.DimensionePericolanteNegativaPortalBlock;
+import net.mcreator.cum.block.ContinuoOrBlock;
+import net.mcreator.cum.block.ContinuazioneVerBlock;
+import net.mcreator.cum.block.CavoloRossoBlock;
+import net.mcreator.cum.block.BloodBlock;
+import net.mcreator.cum.block.BloccoViridaeBlock;
+import net.mcreator.cum.block.BloccoUltrariattivanteBlock;
+import net.mcreator.cum.block.BloccoSicuroBlock;
+import net.mcreator.cum.block.BloccoPericolosoNegativoBlock;
+import net.mcreator.cum.block.BloccoPericolosoInversoBlock;
+import net.mcreator.cum.block.BloccoPericolosoBlock;
+import net.mcreator.cum.block.BloccoPericolanteNegativoBlock;
+import net.mcreator.cum.block.BloccoPericolanteInversoBlock;
+import net.mcreator.cum.block.BloccoPericolanteBlock;
+import net.mcreator.cum.block.BloccoNonSicuroBlock;
+import net.mcreator.cum.block.BloccoNeutroBlock;
+import net.mcreator.cum.block.BloccoMedioNegativoBlock;
+import net.mcreator.cum.block.BloccoMedioInversoBlock;
+import net.mcreator.cum.block.BloccoMedioBlock;
+import net.mcreator.cum.block.BloccoLunareBlock;
+import net.mcreator.cum.block.BloccoIntegraleBlock;
+import net.mcreator.cum.block.BloccoInsicuroBlock;
+import net.mcreator.cum.block.BloccoDiSborraRossaBlock;
+import net.mcreator.cum.block.BloccoDiSborraBlock;
+import net.mcreator.cum.block.BloccoDiSangueBlock;
+import net.mcreator.cum.block.BloccoDiDiamanteVuotoBlock;
+import net.mcreator.cum.block.BloccoDiCarneViventeBlock;
+import net.mcreator.cum.block.BloccoDiCarnePanopticaBlock;
+import net.mcreator.cum.block.BloccoDiCarneBlock;
+import net.mcreator.cum.block.BloccoDerivanteBlock;
+import net.mcreator.cum.block.BloccoDErbaVuotoBlock;
+import net.mcreator.cum.block.BekerBlock;
+import net.mcreator.cum.block.BalatroPlantBlock;
+import net.mcreator.cum.block.BalatroLogBlock;
+import net.mcreator.cum.block.BalatroLeavesBlock;
+import net.mcreator.cum.block.BalatroGrassBlock;
+import net.mcreator.cum.block.BalatroDirtBlock;
+import net.mcreator.cum.block.AttpedBlock;
+import net.mcreator.cum.block.AttciclBlock;
+import net.mcreator.cum.block.AcquaDelGodoBlock;
+import net.mcreator.cum.CumMod;
+
+public class CumModBlocks {
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, CumMod.MODID);
+	public static final RegistryObject<Block> BLOCCO_DI_SBORRA = REGISTRY.register("blocco_di_sborra", () -> new BloccoDiSborraBlock());
+	public static final RegistryObject<Block> BLOCCO_PERICOLANTE = REGISTRY.register("blocco_pericolante", () -> new BloccoPericolanteBlock());
+	public static final RegistryObject<Block> BLOCCO_PERICOLOSO = REGISTRY.register("blocco_pericoloso", () -> new BloccoPericolosoBlock());
+	public static final RegistryObject<Block> BLOCCO_MEDIO = REGISTRY.register("blocco_medio", () -> new BloccoMedioBlock());
+	public static final RegistryObject<Block> DIMENSIONE_PERICOLANTE_PORTAL = REGISTRY.register("dimensione_pericolante_portal", () -> new DimensionePericolantePortalBlock());
+	public static final RegistryObject<Block> BLOCCO_DI_CARNE = REGISTRY.register("blocco_di_carne", () -> new BloccoDiCarneBlock());
+	public static final RegistryObject<Block> BEKER = REGISTRY.register("beker", () -> new BekerBlock());
+	public static final RegistryObject<Block> CAVOLO_ROSSO = REGISTRY.register("cavolo_rosso", () -> new CavoloRossoBlock());
+	public static final RegistryObject<Block> PALO = REGISTRY.register("palo", () -> new PaloBlock());
+	public static final RegistryObject<Block> ATTPED = REGISTRY.register("attped", () -> new AttpedBlock());
+	public static final RegistryObject<Block> ATTCICL = REGISTRY.register("attcicl", () -> new AttciclBlock());
+	public static final RegistryObject<Block> VELOCCONSEXTRA = REGISTRY.register("velocconsextra", () -> new VelocconsextraBlock());
+	public static final RegistryObject<Block> VELOCCONSAUTO = REGISTRY.register("velocconsauto", () -> new VelocconsautoBlock());
+	public static final RegistryObject<Block> DIVTRANS = REGISTRY.register("divtrans", () -> new DivtransBlock());
+	public static final RegistryObject<Block> SENSO_VIETATO = REGISTRY.register("senso_vietato", () -> new SensoVietatoBlock());
+	public static final RegistryObject<Block> LIMMAX = REGISTRY.register("limmax", () -> new LimmaxBlock());
+	public static final RegistryObject<Block> DIVTRANS_PED = REGISTRY.register("divtrans_ped", () -> new DivtransPedBlock());
+	public static final RegistryObject<Block> BLOCCO_DI_SANGUE = REGISTRY.register("blocco_di_sangue", () -> new BloccoDiSangueBlock());
+	public static final RegistryObject<Block> DIV_DI_FER = REGISTRY.register("div_di_fer", () -> new DivDiFerBlock());
+	public static final RegistryObject<Block> DIV_DI_SOS = REGISTRY.register("div_di_sos", () -> new DivDiSosBlock());
+	public static final RegistryObject<Block> DIV_DI_SOR = REGISTRY.register("div_di_sor", () -> new DivDiSorBlock());
+	public static final RegistryObject<Block> DIV_DI_SOR_MAG = REGISTRY.register("div_di_sor_mag", () -> new DivDiSorMagBlock());
+	public static final RegistryObject<Block> DIVTRANSMAG = REGISTRY.register("divtransmag", () -> new DivtransmagBlock());
+	public static final RegistryObject<Block> DIVTRANSPUBBL = REGISTRY.register("divtranspubbl", () -> new DivtranspubblBlock());
+	public static final RegistryObject<Block> SENSO_UNICO_FRONTALE = REGISTRY.register("senso_unico_frontale", () -> new SensoUnicoFrontaleBlock());
+	public static final RegistryObject<Block> DIR_OBB_DRIT = REGISTRY.register("dir_obb_drit", () -> new DirObbDritBlock());
+	public static final RegistryObject<Block> DIR_OBB_DX = REGISTRY.register("dir_obb_dx", () -> new DirObbDxBlock());
+	public static final RegistryObject<Block> DIR_OBB_SX = REGISTRY.register("dir_obb_sx", () -> new DirObbSxBlock());
+	public static final RegistryObject<Block> PASS_OBB_DX = REGISTRY.register("pass_obb_dx", () -> new PassObbDxBlock());
+	public static final RegistryObject<Block> PASS_OBB_SX = REGISTRY.register("pass_obb_sx", () -> new PassObbSxBlock());
+	public static final RegistryObject<Block> INIZIO_VER = REGISTRY.register("inizio_ver", () -> new InizioVerBlock());
+	public static final RegistryObject<Block> CONTINUAZIONE_VER = REGISTRY.register("continuazione_ver", () -> new ContinuazioneVerBlock());
+	public static final RegistryObject<Block> FINE_VER = REGISTRY.register("fine_ver", () -> new FineVerBlock());
+	public static final RegistryObject<Block> INIZIO_OR = REGISTRY.register("inizio_or", () -> new InizioOrBlock());
+	public static final RegistryObject<Block> CONTINUO_OR = REGISTRY.register("continuo_or", () -> new ContinuoOrBlock());
+	public static final RegistryObject<Block> FINE_OR = REGISTRY.register("fine_or", () -> new FineOrBlock());
+	public static final RegistryObject<Block> BLOCCO_SICURO = REGISTRY.register("blocco_sicuro", () -> new BloccoSicuroBlock());
+	public static final RegistryObject<Block> BLOCCO_NON_SICURO = REGISTRY.register("blocco_non_sicuro", () -> new BloccoNonSicuroBlock());
+	public static final RegistryObject<Block> BLOCCO_NEUTRO = REGISTRY.register("blocco_neutro", () -> new BloccoNeutroBlock());
+	public static final RegistryObject<Block> DIMENSIONE_SULLA_SICUREZZA_PORTAL = REGISTRY.register("dimensione_sulla_sicurezza_portal", () -> new DimensioneSullaSicurezzaPortalBlock());
+	public static final RegistryObject<Block> BLOCCO_PERICOLANTE_NEGATIVO = REGISTRY.register("blocco_pericolante_negativo", () -> new BloccoPericolanteNegativoBlock());
+	public static final RegistryObject<Block> BLOCCO_MEDIO_NEGATIVO = REGISTRY.register("blocco_medio_negativo", () -> new BloccoMedioNegativoBlock());
+	public static final RegistryObject<Block> BLOCCO_PERICOLOSO_NEGATIVO = REGISTRY.register("blocco_pericoloso_negativo", () -> new BloccoPericolosoNegativoBlock());
+	public static final RegistryObject<Block> DIMENSIONE_PERICOLANTE_NEGATIVA_PORTAL = REGISTRY.register("dimensione_pericolante_negativa_portal", () -> new DimensionePericolanteNegativaPortalBlock());
+	public static final RegistryObject<Block> BLOCCO_DI_SBORRA_ROSSA = REGISTRY.register("blocco_di_sborra_rossa", () -> new BloccoDiSborraRossaBlock());
+	public static final RegistryObject<Block> BLOCCO_D_ERBA_VUOTO = REGISTRY.register("blocco_d_erba_vuoto", () -> new BloccoDErbaVuotoBlock());
+	public static final RegistryObject<Block> TERRA_VUOTA = REGISTRY.register("terra_vuota", () -> new TerraVuotaBlock());
+	public static final RegistryObject<Block> PIETRA_VUOTA = REGISTRY.register("pietra_vuota", () -> new PietraVuotaBlock());
+	public static final RegistryObject<Block> BLOCCO_DI_DIAMANTE_VUOTO = REGISTRY.register("blocco_di_diamante_vuoto", () -> new BloccoDiDiamanteVuotoBlock());
+	public static final RegistryObject<Block> PERICOLANTE_VUOTO = REGISTRY.register("pericolante_vuoto", () -> new PericolanteVuotoBlock());
+	public static final RegistryObject<Block> GENERATORE = REGISTRY.register("generatore", () -> new GeneratoreBlock());
+	public static final RegistryObject<Block> BLOCCO_DI_CARNE_VIVENTE = REGISTRY.register("blocco_di_carne_vivente", () -> new BloccoDiCarneViventeBlock());
+	public static final RegistryObject<Block> BLOCCO_PERICOLANTE_INVERSO = REGISTRY.register("blocco_pericolante_inverso", () -> new BloccoPericolanteInversoBlock());
+	public static final RegistryObject<Block> BLOCCO_MEDIO_INVERSO = REGISTRY.register("blocco_medio_inverso", () -> new BloccoMedioInversoBlock());
+	public static final RegistryObject<Block> BLOCCO_PERICOLOSO_INVERSO = REGISTRY.register("blocco_pericoloso_inverso", () -> new BloccoPericolosoInversoBlock());
+	public static final RegistryObject<Block> BLOCCO_INSICURO = REGISTRY.register("blocco_insicuro", () -> new BloccoInsicuroBlock());
+	public static final RegistryObject<Block> BLOCCO_VIRIDAE = REGISTRY.register("blocco_viridae", () -> new BloccoViridaeBlock());
+	public static final RegistryObject<Block> METALLO_ULTRAKILLANTE = REGISTRY.register("metallo_ultrakillante", () -> new MetalloUltrakillanteBlock());
+	public static final RegistryObject<Block> TAVOLO_BALATRANTE = REGISTRY.register("tavolo_balatrante", () -> new TavoloBalatranteBlock());
+	public static final RegistryObject<Block> PIETRA_BALATRANTE = REGISTRY.register("pietra_balatrante", () -> new PietraBalatranteBlock());
+	public static final RegistryObject<Block> ACQUA_DEL_GODO = REGISTRY.register("acqua_del_godo", () -> new AcquaDelGodoBlock());
+	public static final RegistryObject<Block> BALATRO_GRASS = REGISTRY.register("balatro_grass", () -> new BalatroGrassBlock());
+	public static final RegistryObject<Block> BALATRO_DIRT = REGISTRY.register("balatro_dirt", () -> new BalatroDirtBlock());
+	public static final RegistryObject<Block> BALATRO_LOG = REGISTRY.register("balatro_log", () -> new BalatroLogBlock());
+	public static final RegistryObject<Block> BALATRO_LEAVES = REGISTRY.register("balatro_leaves", () -> new BalatroLeavesBlock());
+	public static final RegistryObject<Block> PER_ATTPED = REGISTRY.register("per_attped", () -> new PerAttpedBlock());
+	public static final RegistryObject<Block> ULTRAKILLANTE_ORE = REGISTRY.register("ultrakillante_ore", () -> new UltrakillanteOreBlock());
+	public static final RegistryObject<Block> ULTRAKILLANTE_BLOCK = REGISTRY.register("ultrakillante_block", () -> new UltrakillanteBlockBlock());
+	public static final RegistryObject<Block> BALATRO_PLANT = REGISTRY.register("balatro_plant", () -> new BalatroPlantBlock());
+	public static final RegistryObject<Block> MANOSCRITTO_DI_IGIENE = REGISTRY.register("manoscritto_di_igiene", () -> new ManoscrittoDiIgieneBlock());
+	public static final RegistryObject<Block> BLOCCO_ULTRARIATTIVANTE = REGISTRY.register("blocco_ultrariattivante", () -> new BloccoUltrariattivanteBlock());
+	public static final RegistryObject<Block> BLOCCO_DI_CARNE_PANOPTICA = REGISTRY.register("blocco_di_carne_panoptica", () -> new BloccoDiCarnePanopticaBlock());
+	public static final RegistryObject<Block> OLIVIA_BLOCK = REGISTRY.register("olivia_block", () -> new OliviaBlockBlock());
+	public static final RegistryObject<Block> BLOOD = REGISTRY.register("blood", () -> new BloodBlock());
+	public static final RegistryObject<Block> BLOCCO_INTEGRALE = REGISTRY.register("blocco_integrale", () -> new BloccoIntegraleBlock());
+	public static final RegistryObject<Block> BLOCCO_DERIVANTE = REGISTRY.register("blocco_derivante", () -> new BloccoDerivanteBlock());
+	public static final RegistryObject<Block> IMPALATORE = REGISTRY.register("impalatore", () -> new ImpalatoreBlock());
+	public static final RegistryObject<Block> BLOCCO_LUNARE = REGISTRY.register("blocco_lunare", () -> new BloccoLunareBlock());
+	public static final RegistryObject<Block> GEL_DI_AGAROSIO = REGISTRY.register("gel_di_agarosio", () -> new GelDiAgarosioBlock());
+	public static final RegistryObject<Block> MATRICE = REGISTRY.register("matrice", () -> new MatriceBlock());
+	public static final RegistryObject<Block> FRIGO = REGISTRY.register("frigo", () -> new FrigoBlock());
+	public static final RegistryObject<Block> PROVETTA = REGISTRY.register("provetta", () -> new ProvettaBlock());
+	public static final RegistryObject<Block> PROVETTA_CON_LIQUIDO = REGISTRY.register("provetta_con_liquido", () -> new ProvettaConLiquidoBlock());
+	public static final RegistryObject<Block> PROVETTA_CON_DNA_FRAMMENTATO = REGISTRY.register("provetta_con_dna_frammentato", () -> new ProvettaConDNAFrammentatoBlock());
+
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class BlocksClientSideHandler {
+		@SubscribeEvent
+		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+			BloccoDErbaVuotoBlock.blockColorLoad(event);
+		}
+	}
+}

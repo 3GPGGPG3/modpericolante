@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "palo",
+        "3": "ddivdisos",
+        "missing": "ddivdisos"
+      },
+      "name": "default"
+    }
+  }
+}

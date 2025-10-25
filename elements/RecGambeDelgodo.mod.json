@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BloccoMedio"
+      },
+      {
+        "value": "CUSTOM:StellaDelGodo"
+      },
+      {
+        "value": "CUSTOM:BloccoMedio"
+      },
+      {
+        "value": "CUSTOM:BloccoPericolante"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloccoPericolante"
+      },
+      {
+        "value": "CUSTOM:BloccoPericolante"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloccoPericolante"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ArmaturaDelGodo.legs"
+    },
+    "name": "rec_gambe_delgodo",
+    "namespace": "mod"
+  }
+}

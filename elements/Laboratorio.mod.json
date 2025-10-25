@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Laboratorio",
+    "icon": {
+      "value": "CUSTOM:EcoRI"
+    },
+    "showSearch": false
+  }
+}

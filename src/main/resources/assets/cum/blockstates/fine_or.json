@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/fine_or"
+    },
+    "facing=east": {
+      "model": "cum:block/fine_or",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/fine_or",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/fine_or",
+      "y": 270
+    }
+  }
+}

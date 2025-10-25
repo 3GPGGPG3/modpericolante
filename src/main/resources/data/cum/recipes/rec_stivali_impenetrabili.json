@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_block"
+    },
+    "b": {
+      "item": "minecraft:netherite_boots"
+    },
+    "c": {
+      "item": "cum:impenetrable_template"
+    }
+  },
+  "result": {
+    "item": "cum:impenetrazione_boots",
+    "count": 1
+  }
+}

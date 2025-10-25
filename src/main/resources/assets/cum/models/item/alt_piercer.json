@@ -1,0 +1,7 @@
+{
+  "parent": "cum:custom/alt_piercer",
+  "textures": {
+    "0": "cum:block/alt_piercer",
+    "particle": "minecraft:item/bow_pulling_2"
+  }
+}

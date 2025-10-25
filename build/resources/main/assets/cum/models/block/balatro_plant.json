@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cum:block/balatro_log_vines",
+    "particle": "cum:block/balatro_log_vines"
+  },
+  "render_type": "cutout"
+}

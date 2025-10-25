@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cum:ectoplasma"
+    },
+    {
+      "item": "cum:perkeo"
+    }
+  ],
+  "result": {
+    "item": "cum:perkeo_negativo",
+    "count": 1
+  }
+}

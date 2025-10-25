@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ImpenetrabileIntermedio"
+      },
+      {
+        "value": "CUSTOM:ImpenetrabileIntermedio"
+      },
+      {
+        "value": "CUSTOM:ImpenetrabileIntermedio"
+      },
+      {
+        "value": "CUSTOM:ImpenetrabileIntermedio"
+      },
+      {
+        "value": "Blocks.AMETHYST_CLUSTER"
+      },
+      {
+        "value": "CUSTOM:ImpenetrabileIntermedio"
+      },
+      {
+        "value": "CUSTOM:ImpenetrabileIntermedio"
+      },
+      {
+        "value": "CUSTOM:ImpenetrabileIntermedio"
+      },
+      {
+        "value": "CUSTOM:ImpenetrabileIntermedio"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ImpenetrableTemplate"
+    },
+    "name": "rec_impenetrable_template",
+    "namespace": "mod"
+  }
+}
