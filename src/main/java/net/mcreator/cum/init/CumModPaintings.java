@@ -19,4 +19,5 @@ public class CumModPaintings {
 	public static final RegistryObject<PaintingVariant> CANI_CASINO = REGISTRY.register("cani_casino", () -> new PaintingVariant(64, 32));
 	public static final RegistryObject<PaintingVariant> UN_VOTO_IN_MENO = REGISTRY.register("un_voto_in_meno", () -> new PaintingVariant(64, 32));
 	public static final RegistryObject<PaintingVariant> WANTED_IL_FU_MATTIA_PASCAL = REGISTRY.register("wanted_il_fu_mattia_pascal", () -> new PaintingVariant(32, 32));
+	public static final RegistryObject<PaintingVariant> GODOPERKEO = REGISTRY.register("godoperkeo", () -> new PaintingVariant(16, 32));
 }

@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#is_overworld",
+  "biomes": "cum:bioma_primitivo",
   "features": "cum:ultrakillante_ore",
   "step": "underground_ores"
 }

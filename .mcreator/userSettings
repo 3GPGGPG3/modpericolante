@@ -1,5 +1,5 @@
 {
-  "workspacePanelIconSize": "LARGE",
+  "workspacePanelIconSize": "TILES",
   "workspacePanelSortType": "TYPE",
   "workspacePanelSortAscending": true,
   "projectBrowserSplitPos": 0,
