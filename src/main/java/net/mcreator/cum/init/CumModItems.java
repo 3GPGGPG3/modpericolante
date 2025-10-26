@@ -121,6 +121,7 @@ import net.mcreator.cum.item.DieciDiCuoriItem;
 import net.mcreator.cum.item.DNAItem;
 import net.mcreator.cum.item.DNAFrammentatoItem;
 import net.mcreator.cum.item.CuboItem;
+import net.mcreator.cum.item.ConoItemItem;
 import net.mcreator.cum.item.ClonatoreItem;
 import net.mcreator.cum.item.CipollaMarciaItem;
 import net.mcreator.cum.item.CinDiQuadriItem;
@@ -424,6 +425,11 @@ public class CumModItems {
 	public static final RegistryObject<Item> DNA_FRAMMENTATO = REGISTRY.register("dna_frammentato", () -> new DNAFrammentatoItem());
 	public static final RegistryObject<Item> CAMPIONE_DI_DNA_FRAMMENTATO = REGISTRY.register("campione_di_dna_frammentato", () -> new CampioneDiDNAFrammentatoItem());
 	public static final RegistryObject<Item> CAMPIONE_DI_DNA = REGISTRY.register("campione_di_dna", () -> new CampioneDiDNAItem());
+	public static final RegistryObject<Item> PEASHOOTER_SPAWN_EGG = REGISTRY.register("peashooter_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.PEASHOOTER, -16764160, -16751104, new Item.Properties()));
+	public static final RegistryObject<Item> DAVE_SPAWN_EGG = REGISTRY.register("dave_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.DAVE, -6737152, -6710887, new Item.Properties()));
+	public static final RegistryObject<Item> CONO_ITEM = REGISTRY.register("cono_item", () -> new ConoItemItem());
+	public static final RegistryObject<Item> CONO_BLOCK = block(CumModBlocks.CONO_BLOCK);
+	public static final RegistryObject<Item> NOCCIOLINA_SPAWN_EGG = REGISTRY.register("nocciolina_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.NOCCIOLINA, -10079488, -6724096, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

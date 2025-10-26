@@ -61,6 +61,7 @@ import net.mcreator.cum.block.DimensionePericolantePortalBlock;
 import net.mcreator.cum.block.DimensionePericolanteNegativaPortalBlock;
 import net.mcreator.cum.block.ContinuoOrBlock;
 import net.mcreator.cum.block.ContinuazioneVerBlock;
+import net.mcreator.cum.block.ConoBlockBlock;
 import net.mcreator.cum.block.CavoloRossoBlock;
 import net.mcreator.cum.block.BloodBlock;
 import net.mcreator.cum.block.BloccoViridaeBlock;
@@ -186,6 +187,7 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> PROVETTA = REGISTRY.register("provetta", () -> new ProvettaBlock());
 	public static final RegistryObject<Block> PROVETTA_CON_LIQUIDO = REGISTRY.register("provetta_con_liquido", () -> new ProvettaConLiquidoBlock());
 	public static final RegistryObject<Block> PROVETTA_CON_DNA_FRAMMENTATO = REGISTRY.register("provetta_con_dna_frammentato", () -> new ProvettaConDNAFrammentatoBlock());
+	public static final RegistryObject<Block> CONO_BLOCK = REGISTRY.register("cono_block", () -> new ConoBlockBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -28,8 +28,10 @@ import net.mcreator.cum.client.renderer.Pericolante1Renderer;
 import net.mcreator.cum.client.renderer.PerInv3Renderer;
 import net.mcreator.cum.client.renderer.PerInv2Renderer;
 import net.mcreator.cum.client.renderer.PerInv1Renderer;
+import net.mcreator.cum.client.renderer.PeashooterRenderer;
 import net.mcreator.cum.client.renderer.PaperonDePaperoniRenderer;
 import net.mcreator.cum.client.renderer.OliviaRenderer;
+import net.mcreator.cum.client.renderer.NocciolinaRenderer;
 import net.mcreator.cum.client.renderer.MirabellaRenderer;
 import net.mcreator.cum.client.renderer.MinosPrimeRenderer;
 import net.mcreator.cum.client.renderer.MattiaPascalRenderer;
@@ -45,6 +47,7 @@ import net.mcreator.cum.client.renderer.FilfhRenderer;
 import net.mcreator.cum.client.renderer.FilfhErrRenderer;
 import net.mcreator.cum.client.renderer.EsserePerfettamenteInutileRenderer;
 import net.mcreator.cum.client.renderer.DiFazioRenderer;
+import net.mcreator.cum.client.renderer.DaveRenderer;
 import net.mcreator.cum.client.renderer.AssassinaDeiNeriColtelliRenderer;
 import net.mcreator.cum.client.renderer.AnticorpoRenderer;
 import net.mcreator.cum.client.renderer.AlessandroManzoniRenderer;
@@ -103,5 +106,9 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.PER_INV_3.get(), PerInv3Renderer::new);
 		event.registerEntityRenderer(CumModEntities.PUNTALE_SPARATO.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PUNTALE_NEGATIVO_SPARATO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.PEASHOOTER.get(), PeashooterRenderer::new);
+		event.registerEntityRenderer(CumModEntities.SEMI_SPARATI.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.DAVE.get(), DaveRenderer::new);
+		event.registerEntityRenderer(CumModEntities.NOCCIOLINA.get(), NocciolinaRenderer::new);
 	}
 }

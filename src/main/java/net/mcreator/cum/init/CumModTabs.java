@@ -6,19 +6,14 @@ package net.mcreator.cum.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.cum.CumMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CumModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CumMod.MODID);
 	public static final RegistryObject<CreativeModeTab> IL_FU_MATTIA_PASCAL = REGISTRY.register("il_fu_mattia_pascal",
@@ -135,6 +130,7 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.ULTRAKILLANTE_BLOCK.get().asItem());
 				tabData.accept(CumModItems.ARMATURA_ULTRAKILLANTE_CHESTPLATE.get());
 				tabData.accept(CumModItems.ARMATURA_ULTRAKILLANTE_LEGGINGS.get());
+				tabData.accept(CumModItems.OLIVIA_SPAWN_EGG.get());
 				tabData.accept(CumModItems.PAPERON_DE_PAPERONI_SPAWN_EGG.get());
 				tabData.accept(CumModItems.BASTONE_PAPERONE.get());
 				tabData.accept(CumModItems.MATTIA_PASCAL_SPAWN_EGG.get());
@@ -211,6 +207,10 @@ public class CumModTabs {
 				tabData.accept(CumModItems.DNA_FRAMMENTATO.get());
 				tabData.accept(CumModItems.CAMPIONE_DI_DNA_FRAMMENTATO.get());
 				tabData.accept(CumModItems.CAMPIONE_DI_DNA.get());
+				tabData.accept(CumModItems.PEASHOOTER_SPAWN_EGG.get());
+				tabData.accept(CumModItems.DAVE_SPAWN_EGG.get());
+				tabData.accept(CumModItems.CONO_ITEM.get());
+				tabData.accept(CumModItems.NOCCIOLINA_SPAWN_EGG.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -421,6 +421,7 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.CONTINUO_OR.get().asItem());
 				tabData.accept(CumModBlocks.FINE_OR.get().asItem());
 				tabData.accept(CumModBlocks.PER_ATTPED.get().asItem());
+				tabData.accept(CumModItems.CONO_ITEM.get());
 			}).withSearchBar().withTabsBefore(COSE_ULTRAKILLANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> MACCHINE_UTENSILI = REGISTRY.register("macchine_utensili",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.macchine_utensili")).icon(() -> new ItemStack(CumModItems.ENERGIA.get())).displayItems((parameters, tabData) -> {
@@ -457,11 +458,4 @@ public class CumModTabs {
 				tabData.accept(CumModItems.CAMPIONE_DI_DNA_FRAMMENTATO.get());
 				tabData.accept(CumModItems.CAMPIONE_DI_DNA.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(CumModItems.OLIVIA_SPAWN_EGG.get());
-		}
-	}
 }

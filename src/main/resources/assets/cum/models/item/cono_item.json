@@ -1,0 +1,7 @@
+{
+  "parent": "cum:custom/cono",
+  "textures": {
+    "0": "cum:block/cono",
+    "particle": "cum:item/cono"
+  }
+}

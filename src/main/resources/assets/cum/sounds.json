@@ -359,5 +359,77 @@
         "stream": false
       }
     ]
+  },
+  "dave1": {
+    "sounds": [
+      {
+        "name": "cum:dave1",
+        "stream": false
+      }
+    ]
+  },
+  "dave2": {
+    "sounds": [
+      {
+        "name": "cum:dave2",
+        "stream": false
+      }
+    ]
+  },
+  "dave3": {
+    "sounds": [
+      {
+        "name": "cum:dave3",
+        "stream": false
+      }
+    ]
+  },
+  "dave4": {
+    "sounds": [
+      {
+        "name": "cum:dave4",
+        "stream": false
+      }
+    ]
+  },
+  "dave5_contento": {
+    "sounds": [
+      {
+        "name": "cum:dave5_contento",
+        "stream": false
+      }
+    ]
+  },
+  "dave6": {
+    "sounds": [
+      {
+        "name": "cum:dave6",
+        "stream": false
+      }
+    ]
+  },
+  "dave7": {
+    "sounds": [
+      {
+        "name": "cum:dave7",
+        "stream": false
+      }
+    ]
+  },
+  "dave8_arrabbiato": {
+    "sounds": [
+      {
+        "name": "cum:dave8_arrabbiato",
+        "stream": false
+      }
+    ]
+  },
+  "dave9": {
+    "sounds": [
+      {
+        "name": "cum:dave9",
+        "stream": false
+      }
+    ]
   }
 }

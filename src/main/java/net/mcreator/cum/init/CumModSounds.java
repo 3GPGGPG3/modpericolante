@@ -60,4 +60,13 @@ public class CumModSounds {
 	public static final RegistryObject<SoundEvent> GB_YOUMAKEEVENTHE = REGISTRY.register("gb_youmakeeventhe", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "gb_youmakeeventhe")));
 	public static final RegistryObject<SoundEvent> GB_DIES = REGISTRY.register("gb_dies", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "gb_dies")));
 	public static final RegistryObject<SoundEvent> GB_BIGHURT = REGISTRY.register("gb_bighurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "gb_bighurt")));
+	public static final RegistryObject<SoundEvent> DAVE1 = REGISTRY.register("dave1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "dave1")));
+	public static final RegistryObject<SoundEvent> DAVE2 = REGISTRY.register("dave2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "dave2")));
+	public static final RegistryObject<SoundEvent> DAVE3 = REGISTRY.register("dave3", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "dave3")));
+	public static final RegistryObject<SoundEvent> DAVE4 = REGISTRY.register("dave4", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "dave4")));
+	public static final RegistryObject<SoundEvent> DAVE5_CONTENTO = REGISTRY.register("dave5_contento", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "dave5_contento")));
+	public static final RegistryObject<SoundEvent> DAVE6 = REGISTRY.register("dave6", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "dave6")));
+	public static final RegistryObject<SoundEvent> DAVE7 = REGISTRY.register("dave7", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "dave7")));
+	public static final RegistryObject<SoundEvent> DAVE8_ARRABBIATO = REGISTRY.register("dave8_arrabbiato", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "dave8_arrabbiato")));
+	public static final RegistryObject<SoundEvent> DAVE9 = REGISTRY.register("dave9", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "dave9")));
 }

@@ -26,6 +26,7 @@ import net.mcreator.cum.entity.StellinaDelGodoEntity;
 import net.mcreator.cum.entity.StellaPericolosaProiettileEntity;
 import net.mcreator.cum.entity.SpadaGabriellanteLanciataEntity;
 import net.mcreator.cum.entity.SisyphusPrimeEntity;
+import net.mcreator.cum.entity.SemiSparatiEntity;
 import net.mcreator.cum.entity.ScheggiaDiPietraBalatranteProjectileEntity;
 import net.mcreator.cum.entity.RedCummEntity;
 import net.mcreator.cum.entity.PuntaleSparatoEntity;
@@ -41,8 +42,10 @@ import net.mcreator.cum.entity.Pericolante1Entity;
 import net.mcreator.cum.entity.PerInv3Entity;
 import net.mcreator.cum.entity.PerInv2Entity;
 import net.mcreator.cum.entity.PerInv1Entity;
+import net.mcreator.cum.entity.PeashooterEntity;
 import net.mcreator.cum.entity.PaperonDePaperoniEntity;
 import net.mcreator.cum.entity.OliviaEntity;
+import net.mcreator.cum.entity.NocciolinaEntity;
 import net.mcreator.cum.entity.MirabellaEntity;
 import net.mcreator.cum.entity.MinosPrimeEntity;
 import net.mcreator.cum.entity.MattiaPascalEntity;
@@ -59,6 +62,7 @@ import net.mcreator.cum.entity.FilfhErrEntity;
 import net.mcreator.cum.entity.FilfhEntity;
 import net.mcreator.cum.entity.EsserePerfettamenteInutileEntity;
 import net.mcreator.cum.entity.DiFazioEntity;
+import net.mcreator.cum.entity.DaveEntity;
 import net.mcreator.cum.entity.CumEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
 import net.mcreator.cum.entity.AnticorpoEntity;
@@ -226,6 +230,20 @@ public class CumModEntities {
 			EntityType.Builder.<PuntaleSparatoEntity>of(PuntaleSparatoEntity::new, MobCategory.MISC).setCustomClientFactory(PuntaleSparatoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<PuntaleNegativoSparatoEntity>> PUNTALE_NEGATIVO_SPARATO = register("puntale_negativo_sparato", EntityType.Builder.<PuntaleNegativoSparatoEntity>of(PuntaleNegativoSparatoEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(PuntaleNegativoSparatoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<PeashooterEntity>> PEASHOOTER = register("peashooter",
+			EntityType.Builder.<PeashooterEntity>of(PeashooterEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PeashooterEntity::new)
+
+					.sized(0.6f, 0.8f));
+	public static final RegistryObject<EntityType<SemiSparatiEntity>> SEMI_SPARATI = register("semi_sparati",
+			EntityType.Builder.<SemiSparatiEntity>of(SemiSparatiEntity::new, MobCategory.MISC).setCustomClientFactory(SemiSparatiEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.3f, 0.3f));
+	public static final RegistryObject<EntityType<DaveEntity>> DAVE = register("dave",
+			EntityType.Builder.<DaveEntity>of(DaveEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DaveEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<NocciolinaEntity>> NOCCIOLINA = register("nocciolina",
+			EntityType.Builder.<NocciolinaEntity>of(NocciolinaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NocciolinaEntity::new)
+
+					.sized(0.6f, 0.9f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -274,6 +292,9 @@ public class CumModEntities {
 			AssassinaDeiNeriColtelliEntity.init();
 			PerInv2Entity.init();
 			PerInv3Entity.init();
+			PeashooterEntity.init();
+			DaveEntity.init();
+			NocciolinaEntity.init();
 		});
 	}
 
@@ -317,5 +338,8 @@ public class CumModEntities {
 		event.put(ASSASSINA_DEI_NERI_COLTELLI.get(), AssassinaDeiNeriColtelliEntity.createAttributes().build());
 		event.put(PER_INV_2.get(), PerInv2Entity.createAttributes().build());
 		event.put(PER_INV_3.get(), PerInv3Entity.createAttributes().build());
+		event.put(PEASHOOTER.get(), PeashooterEntity.createAttributes().build());
+		event.put(DAVE.get(), DaveEntity.createAttributes().build());
+		event.put(NOCCIOLINA.get(), NocciolinaEntity.createAttributes().build());
 	}
 }
