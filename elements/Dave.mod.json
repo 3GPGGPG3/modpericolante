@@ -82,7 +82,8 @@
       "fixedValue": true
     },
     "flyingMob": false,
-    "inventorySize": 9,
+    "guiBoundTo": "PVZshop",
+    "inventorySize": 2,
     "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,

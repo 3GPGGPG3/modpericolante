@@ -15,11 +15,13 @@ public class DaveEntityIsHurtProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if (world instanceof Level _level) {
-			if (!_level.isClientSide()) {
-				_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave8_arrabbiato")), SoundSource.AMBIENT, 1, 1);
-			} else {
-				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave8_arrabbiato")), SoundSource.AMBIENT, 1, 1, false);
+		if (!(entity instanceof Mob _mobEnt0 && _mobEnt0.isAggressive())) {
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave8_arrabbiato")), SoundSource.AMBIENT, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave8_arrabbiato")), SoundSource.AMBIENT, 1, 1, false);
+				}
 			}
 		}
 		if (entity instanceof Mob _entity && sourceentity instanceof LivingEntity _ent)

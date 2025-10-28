@@ -54,6 +54,7 @@ import net.mcreator.cum.entity.LinfocitaTEntity;
 import net.mcreator.cum.entity.LinfocitaBEntity;
 import net.mcreator.cum.entity.KillerEntity;
 import net.mcreator.cum.entity.IlFuMattiaPascal2Entity;
+import net.mcreator.cum.entity.GirasoleEntity;
 import net.mcreator.cum.entity.GdCubeEntity;
 import net.mcreator.cum.entity.GabrielEntity;
 import net.mcreator.cum.entity.FlashPanopticomEntity;
@@ -233,7 +234,7 @@ public class CumModEntities {
 	public static final RegistryObject<EntityType<PeashooterEntity>> PEASHOOTER = register("peashooter",
 			EntityType.Builder.<PeashooterEntity>of(PeashooterEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PeashooterEntity::new)
 
-					.sized(0.6f, 0.8f));
+					.sized(0.6f, 1.2f));
 	public static final RegistryObject<EntityType<SemiSparatiEntity>> SEMI_SPARATI = register("semi_sparati",
 			EntityType.Builder.<SemiSparatiEntity>of(SemiSparatiEntity::new, MobCategory.MISC).setCustomClientFactory(SemiSparatiEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.3f, 0.3f));
 	public static final RegistryObject<EntityType<DaveEntity>> DAVE = register("dave",
@@ -243,7 +244,11 @@ public class CumModEntities {
 	public static final RegistryObject<EntityType<NocciolinaEntity>> NOCCIOLINA = register("nocciolina",
 			EntityType.Builder.<NocciolinaEntity>of(NocciolinaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NocciolinaEntity::new)
 
-					.sized(0.6f, 0.9f));
+					.sized(0.6f, 1f));
+	public static final RegistryObject<EntityType<GirasoleEntity>> GIRASOLE = register("girasole",
+			EntityType.Builder.<GirasoleEntity>of(GirasoleEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GirasoleEntity::new)
+
+					.sized(0.6f, 1f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -295,6 +300,7 @@ public class CumModEntities {
 			PeashooterEntity.init();
 			DaveEntity.init();
 			NocciolinaEntity.init();
+			GirasoleEntity.init();
 		});
 	}
 
@@ -341,5 +347,6 @@ public class CumModEntities {
 		event.put(PEASHOOTER.get(), PeashooterEntity.createAttributes().build());
 		event.put(DAVE.get(), DaveEntity.createAttributes().build());
 		event.put(NOCCIOLINA.get(), NocciolinaEntity.createAttributes().build());
+		event.put(GIRASOLE.get(), GirasoleEntity.createAttributes().build());
 	}
 }

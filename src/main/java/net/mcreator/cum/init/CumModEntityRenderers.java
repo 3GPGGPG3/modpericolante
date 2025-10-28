@@ -40,6 +40,7 @@ import net.mcreator.cum.client.renderer.LinfocitaTRenderer;
 import net.mcreator.cum.client.renderer.LinfocitaBRenderer;
 import net.mcreator.cum.client.renderer.KillerRenderer;
 import net.mcreator.cum.client.renderer.IlFuMattiaPascal2Renderer;
+import net.mcreator.cum.client.renderer.GirasoleRenderer;
 import net.mcreator.cum.client.renderer.GdCubeRenderer;
 import net.mcreator.cum.client.renderer.GabrielRenderer;
 import net.mcreator.cum.client.renderer.FlashPanopticomRenderer;
@@ -110,5 +111,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.SEMI_SPARATI.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.DAVE.get(), DaveRenderer::new);
 		event.registerEntityRenderer(CumModEntities.NOCCIOLINA.get(), NocciolinaRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIRASOLE.get(), GirasoleRenderer::new);
 	}
 }

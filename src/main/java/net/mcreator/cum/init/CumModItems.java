@@ -430,6 +430,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> CONO_ITEM = REGISTRY.register("cono_item", () -> new ConoItemItem());
 	public static final RegistryObject<Item> CONO_BLOCK = block(CumModBlocks.CONO_BLOCK);
 	public static final RegistryObject<Item> NOCCIOLINA_SPAWN_EGG = REGISTRY.register("nocciolina_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.NOCCIOLINA, -10079488, -6724096, new Item.Properties()));
+	public static final RegistryObject<Item> GIRASOLE_SPAWN_EGG = REGISTRY.register("girasole_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIRASOLE, -12968704, -1777408, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

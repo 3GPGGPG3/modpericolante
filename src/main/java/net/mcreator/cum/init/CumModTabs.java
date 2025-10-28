@@ -211,6 +211,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.DAVE_SPAWN_EGG.get());
 				tabData.accept(CumModItems.CONO_ITEM.get());
 				tabData.accept(CumModItems.NOCCIOLINA_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIRASOLE_SPAWN_EGG.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {

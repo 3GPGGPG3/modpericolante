@@ -1,0 +1,350 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 193,
+    "inventoryOffsetX": -112,
+    "inventoryOffsetY": 16,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_buy",
+          "text": "Noce",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NoceBuy"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 216,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dave_foto_vera.png",
+          "use1Xscale": false,
+          "x": 289,
+          "y": 91,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ciao_vicino_io_sono_dave_il_pazz",
+          "text": {
+            "fixedValue": "ciAo viCIno io SonO DaVe il pAZZO ,mA puOI CHIamaRmi anChE DAvE iL pAZzO!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 20,
+          "y": 28,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_puoi_comprare_delle_piante_in_ca",
+          "text": {
+            "fixedValue": "puOi CompRArE deLLe PiaNtE iN CamBiO dI sEMi."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 20,
+          "y": 39,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "girasole_foto.png",
+          "use1Xscale": true,
+          "x": 78,
+          "y": 50,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "noce_foto.png",
+          "use1Xscale": true,
+          "x": 16,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pianta_foto.png",
+          "use1Xscale": true,
+          "x": 202,
+          "y": 50,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sparasemi_foto.png",
+          "use1Xscale": true,
+          "x": 138,
+          "y": 50,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_girasole",
+          "text": "Girasole",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GirasoleBuy"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 203,
+          "y": 147,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sparasemi",
+          "text": "Sparasemi",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SparasemiBuy"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 201,
+          "y": 169,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_la_pianta",
+          "text": "La pianta",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "LaPiantaBuy"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 201,
+          "y": 191,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_buy",
+          "text": {
+            "fixedValue": "BUY:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 227,
+          "y": 113,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_put_here_your_seeds",
+          "text": {
+            "fixedValue": "Put here your seeds"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 298,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Ccum"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 339,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_10_seeds",
+          "text": {
+            "fixedValue": "40 seeds"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 33,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_20_seeds",
+          "text": {
+            "fixedValue": "20 seeds"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 94,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_50_seeds",
+          "text": {
+            "fixedValue": "50 seeds"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 154,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_100_seeds",
+          "text": {
+            "fixedValue": "64 seeds"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 219,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_metti_il_cursore_al_centro_per_v",
+          "text": {
+            "fixedValue": "Metti il cursore al centro"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 31,
+          "y": 108,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_della_pianta_per_vederne",
+          "text": {
+            "fixedValue": "della pianta per vederne"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 34,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_il_prezzo",
+          "text": {
+            "fixedValue": "il prezzo."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 72,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 186,
+          "y": 111,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_prendi_le_piante_acquistate",
+          "text": {
+            "fixedValue": "prendi le piante acquistate"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 182,
+          "y": 108,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 17,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

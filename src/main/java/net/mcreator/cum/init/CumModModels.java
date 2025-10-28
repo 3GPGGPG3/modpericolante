@@ -16,6 +16,7 @@ import net.mcreator.cum.client.model.Modelnocciolina;
 import net.mcreator.cum.client.model.Modelmalicious_face;
 import net.mcreator.cum.client.model.Modellinfocita_b_o_plasmacellula;
 import net.mcreator.cum.client.model.Modelil_fu_mattia_pascal;
+import net.mcreator.cum.client.model.Modelgirasole;
 import net.mcreator.cum.client.model.Modelgabriel;
 import net.mcreator.cum.client.model.Modelflesh_panopticom;
 import net.mcreator.cum.client.model.Modelfilfh;
@@ -31,6 +32,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelfilfh.LAYER_LOCATION, Modelfilfh::createBodyLayer);
 		event.registerLayerDefinition(Modelpaperon_de_paperoni.LAYER_LOCATION, Modelpaperon_de_paperoni::createBodyLayer);
 		event.registerLayerDefinition(Modelpeashooter.LAYER_LOCATION, Modelpeashooter::createBodyLayer);
+		event.registerLayerDefinition(Modelgirasole.LAYER_LOCATION, Modelgirasole::createBodyLayer);
 		event.registerLayerDefinition(Modelgabriel.LAYER_LOCATION, Modelgabriel::createBodyLayer);
 		event.registerLayerDefinition(Modelcube.LAYER_LOCATION, Modelcube::createBodyLayer);
 		event.registerLayerDefinition(Modelanticorpo.LAYER_LOCATION, Modelanticorpo::createBodyLayer);
