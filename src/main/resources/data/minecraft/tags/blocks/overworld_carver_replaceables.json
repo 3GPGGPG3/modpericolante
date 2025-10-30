@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "cum:blocco_medio_inverso",
-    "cum:blocco_pericolante_inverso",
     "minecraft:stone",
     "minecraft:dirt",
     "minecraft:grass_block",
@@ -16,9 +14,11 @@
     "cum:blocco_neutro",
     "cum:blocco_sicuro",
     "minecraft:bedrock",
+    "cum:blocco_medio_inverso",
     "cum:blocco_pericolante",
     "minecraft:reinforced_deepslate",
     "cum:blocco_medio",
+    "cum:blocco_pericolante_inverso",
     "cum:blocco_pericoloso"
   ]
 }

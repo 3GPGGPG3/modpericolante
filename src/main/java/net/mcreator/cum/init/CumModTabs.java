@@ -75,6 +75,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.ASSO_DI_PICCHIE_NEGATIVO.get());
 				tabData.accept(CumModItems.CAZZO_ROSSO.get());
 				tabData.accept(CumModItems.CAZZO_ROSSO_ROTTO.get());
+				tabData.accept(CumModItems.RED_CUM.get());
 				tabData.accept(CumModBlocks.BLOCCO_DI_SBORRA_ROSSA.get().asItem());
 				tabData.accept(CumModBlocks.BLOCCO_D_ERBA_VUOTO.get().asItem());
 				tabData.accept(CumModItems.TELEFONO.get());
@@ -212,6 +213,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.CONO_ITEM.get());
 				tabData.accept(CumModItems.NOCCIOLINA_SPAWN_EGG.get());
 				tabData.accept(CumModItems.GIRASOLE_SPAWN_EGG.get());
+				tabData.accept(CumModItems.FRENZIED_CUM.get());
+				tabData.accept(CumModItems.PENE_DELLA_FRENESIA.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {

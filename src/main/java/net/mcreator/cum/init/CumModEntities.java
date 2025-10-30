@@ -57,6 +57,7 @@ import net.mcreator.cum.entity.IlFuMattiaPascal2Entity;
 import net.mcreator.cum.entity.GirasoleEntity;
 import net.mcreator.cum.entity.GdCubeEntity;
 import net.mcreator.cum.entity.GabrielEntity;
+import net.mcreator.cum.entity.FrenziedCumProjectileEntity;
 import net.mcreator.cum.entity.FlashPanopticomEntity;
 import net.mcreator.cum.entity.FireballStrayProjEntity;
 import net.mcreator.cum.entity.FilfhErrEntity;
@@ -249,6 +250,8 @@ public class CumModEntities {
 			EntityType.Builder.<GirasoleEntity>of(GirasoleEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GirasoleEntity::new)
 
 					.sized(0.6f, 1f));
+	public static final RegistryObject<EntityType<FrenziedCumProjectileEntity>> FRENZIED_CUM_PROJECTILE = register("frenzied_cum_projectile", EntityType.Builder.<FrenziedCumProjectileEntity>of(FrenziedCumProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(FrenziedCumProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

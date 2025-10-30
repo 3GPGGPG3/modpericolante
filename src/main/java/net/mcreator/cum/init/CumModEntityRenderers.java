@@ -112,5 +112,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.DAVE.get(), DaveRenderer::new);
 		event.registerEntityRenderer(CumModEntities.NOCCIOLINA.get(), NocciolinaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.GIRASOLE.get(), GirasoleRenderer::new);
+		event.registerEntityRenderer(CumModEntities.FRENZIED_CUM_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }
