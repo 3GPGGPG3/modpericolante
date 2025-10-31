@@ -30,6 +30,7 @@ public class ChatGPTScreen extends AbstractContainerScreen<ChatGPTMenu> {
 	Button button_diamante;
 	Button button_fammi_una_relazione;
 	Button button_indietro;
+	Button button_plasmide;
 
 	public ChatGPTScreen(ChatGPTMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -140,5 +141,13 @@ public class ChatGPTScreen extends AbstractContainerScreen<ChatGPTMenu> {
 		}).bounds(this.leftPos + 341, this.topPos + 13, 67, 20).build();
 		guistate.put("button:button_indietro", button_indietro);
 		this.addRenderableWidget(button_indietro);
+		button_plasmide = Button.builder(Component.translatable("gui.cum.chat_gpt.button_plasmide"), e -> {
+			if (true) {
+				CumMod.PACKET_HANDLER.sendToServer(new ChatGPTButtonMessage(7, x, y, z));
+				ChatGPTButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
+		}).bounds(this.leftPos + 6, this.topPos + 38, 67, 20).build();
+		guistate.put("button:button_plasmide", button_plasmide);
+		this.addRenderableWidget(button_plasmide);
 	}
 }

@@ -61,6 +61,7 @@ import net.mcreator.cum.item.PuntaleItem;
 import net.mcreator.cum.item.PuntaleContaminatoNegativoItem;
 import net.mcreator.cum.item.PuntaleContaminatoItem;
 import net.mcreator.cum.item.ProseccoItem;
+import net.mcreator.cum.item.PlasmidevuotoItem;
 import net.mcreator.cum.item.PerkeoNegativoItem;
 import net.mcreator.cum.item.PerkeoItem;
 import net.mcreator.cum.item.PeneItem;
@@ -68,6 +69,7 @@ import net.mcreator.cum.item.PeneDuroItem;
 import net.mcreator.cum.item.PeneDellaFrenesiaItem;
 import net.mcreator.cum.item.PaneIntegraleItem;
 import net.mcreator.cum.item.PaneDerivanteItem;
+import net.mcreator.cum.item.PallottoladoroItem;
 import net.mcreator.cum.item.OttoDiQuadriItem;
 import net.mcreator.cum.item.OttoDiPicchieItem;
 import net.mcreator.cum.item.OttoDiFioriItem;
@@ -93,6 +95,7 @@ import net.mcreator.cum.item.ImpenetrabileIntermedioItem;
 import net.mcreator.cum.item.IlFuMattiaPascalDiscoItem;
 import net.mcreator.cum.item.IMPENETRAZIONEItem;
 import net.mcreator.cum.item.ILGODOItem;
+import net.mcreator.cum.item.GenesgunItem;
 import net.mcreator.cum.item.GelDiAgarosioItem;
 import net.mcreator.cum.item.FrenziedCumItem;
 import net.mcreator.cum.item.FrammentoDiVetroItem;
@@ -435,6 +438,9 @@ public class CumModItems {
 	public static final RegistryObject<Item> GIRASOLE_SPAWN_EGG = REGISTRY.register("girasole_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIRASOLE, -12968704, -1777408, new Item.Properties()));
 	public static final RegistryObject<Item> FRENZIED_CUM = REGISTRY.register("frenzied_cum", () -> new FrenziedCumItem());
 	public static final RegistryObject<Item> PENE_DELLA_FRENESIA = REGISTRY.register("pene_della_frenesia", () -> new PeneDellaFrenesiaItem());
+	public static final RegistryObject<Item> GENESGUN = REGISTRY.register("genesgun", () -> new GenesgunItem());
+	public static final RegistryObject<Item> PALLOTTOLADORO = REGISTRY.register("pallottoladoro", () -> new PallottoladoroItem());
+	public static final RegistryObject<Item> PLASMIDEVUOTO = REGISTRY.register("plasmidevuoto", () -> new PlasmidevuotoItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

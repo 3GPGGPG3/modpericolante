@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.cum.world.inventory.ChatGPTMenu;
 import net.mcreator.cum.procedures.TerraOnButtonClickedProcedure;
+import net.mcreator.cum.procedures.PlasmideonbuttonclickedProcedure;
 import net.mcreator.cum.procedures.PietraOnButtonClickedProcedure;
 import net.mcreator.cum.procedures.PericolanteOnButtonClickedProcedure;
 import net.mcreator.cum.procedures.IndietroOnButtonClickedProcedure;
@@ -95,6 +96,10 @@ public class ChatGPTButtonMessage {
 		if (buttonID == 6) {
 
 			IndietroOnButtonClickedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 7) {
+
+			PlasmideonbuttonclickedProcedure.execute(entity);
 		}
 	}
 

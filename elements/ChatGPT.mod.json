@@ -193,6 +193,22 @@
           "y": 28,
           "locked": false
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_plasmide",
+          "text": "Plasmide",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Plasmideonbuttonclicked"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 12,
+          "y": 53,
+          "locked": false
+        }
       }
     ],
     "gridSettings": {

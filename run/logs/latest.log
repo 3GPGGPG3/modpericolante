@@ -1,29 +1,30 @@
-[30Oct2025 15:30:07.365] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[30Oct2025 15:30:07.385] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[30Oct2025 15:30:07.553] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[30Oct2025 15:30:07.671] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[30Oct2025 15:30:07.898] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[30Oct2025 15:30:08.086] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Fabio%20Ferlito/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[30Oct2025 15:30:08.094] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.5186, Intel
-[30Oct2025 15:30:08.579] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[30Oct2025 15:30:08.584] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[30Oct2025 15:30:08.591] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[30Oct2025 15:30:08.600] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[30Oct2025 15:30:08.738] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[30Oct2025 15:30:11.247] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[30Oct2025 15:30:18.251] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 668 milliseconds
-[30Oct2025 15:30:20.079] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[30Oct2025 15:30:20.080] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[30Oct2025 15:30:20.106] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30Oct2025 15:30:20.115] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[30Oct2025 15:30:20.291] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[30Oct2025 15:30:20.604] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[30Oct2025 15:30:20.607] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[30Oct2025 15:30:23.168] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[30Oct2025 15:30:23.660] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[30Oct2025 15:30:24.004] [Worker-Main-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
-[30Oct2025 15:30:24.016] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[30Oct2025 15:30:24.888] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
+[31Oct2025 16:04:29.920] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\domyc\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[31Oct2025 16:04:29.923] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[31Oct2025 16:04:30.122] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[31Oct2025 16:04:30.208] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[31Oct2025 16:04:30.291] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[31Oct2025 16:04:30.452] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Arc(TM) Graphics GL version 4.6.0 - Build 31.0.101.5007, Intel
+[31Oct2025 16:04:30.460] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/domyc/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[31Oct2025 16:04:30.881] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[31Oct2025 16:04:30.886] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[31Oct2025 16:04:30.892] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[31Oct2025 16:04:30.898] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[31Oct2025 16:04:30.999] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[31Oct2025 16:04:33.242] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\domyc\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[31Oct2025 16:04:38.182] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 184 milliseconds
+[31Oct2025 16:04:40.232] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/domyc/MCreatorWorkspaces/modpericolante/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[31Oct2025 16:04:40.233] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/domyc/MCreatorWorkspaces/modpericolante/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[31Oct2025 16:04:40.277] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[31Oct2025 16:04:40.295] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[31Oct2025 16:04:40.411] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[31Oct2025 16:04:40.662] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[31Oct2025 16:04:40.663] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[31Oct2025 16:04:42.217] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[31Oct2025 16:04:42.534] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[31Oct2025 16:04:42.669] [Worker-Main-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
+[31Oct2025 16:04:42.791] [Worker-Main-8/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[31Oct2025 16:04:42.810] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[31Oct2025 16:04:43.121] [Worker-Main-11/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -45,7 +46,7 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Oct2025 15:30:24.913] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
+[31Oct2025 16:04:43.118] [Worker-Main-10/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -67,7 +68,7 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Oct2025 15:30:25.158] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
+[31Oct2025 16:04:43.158] [Worker-Main-6/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
 com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -95,7 +96,7 @@ com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Oct2025 15:30:25.410] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
+[31Oct2025 16:04:43.166] [Worker-Main-7/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -117,344 +118,84 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Oct2025 15:30:25.727] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/dna_joker with size 16x17 limits mip level from 2 to 0
-[30Oct2025 15:30:26.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30Oct2025 15:30:26.430] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
-[30Oct2025 15:30:26.432] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
-[30Oct2025 15:30:27.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
-[30Oct2025 15:30:29.758] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[30Oct2025 15:30:29.759] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[30Oct2025 15:30:31.695] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
-[30Oct2025 15:30:31.698] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[30Oct2025 15:30:31.887] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
-[30Oct2025 15:30:31.993] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[30Oct2025 15:30:31.996] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[30Oct2025 15:30:31.999] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[30Oct2025 15:30:32.003] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[30Oct2025 15:30:32.029] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[30Oct2025 15:30:32.032] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[30Oct2025 15:30:32.033] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[30Oct2025 15:30:32.035] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[30Oct2025 15:30:32.366] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[30Oct2025 15:30:32.616] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[30Oct2025 15:30:32.633] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/paintings.png-atlas
-[30Oct2025 15:30:32.670] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
-[30Oct2025 15:30:33.387] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[30Oct2025 15:30:41.363] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[30Oct2025 15:30:44.257] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[30Oct2025 15:30:44.379] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@1eff74f2, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2b57dc2}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@619944a7}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
-[30Oct2025 15:30:44.379] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1276 advancements
-[30Oct2025 15:30:45.201] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[30Oct2025 15:30:45.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30Oct2025 15:30:48.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Oct2025 15:30:52.780] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:52.822] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:52.822] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:52.822] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:52.844] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:52.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:52.884] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:52.884] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:52.884] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:53.222] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:53.721] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:54.229] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:54.733] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:55.236] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Oct2025 15:30:55.732] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[30Oct2025 15:30:56.258] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7541 ms
-[30Oct2025 15:30:56.259] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[30Oct2025 15:30:56.888] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[30Oct2025 15:30:56.891] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[30Oct2025 15:30:57.080] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[30Oct2025 15:30:59.200] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[30Oct2025 15:30:59.390] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8de6f432] logged in with entity id 132 at (-8.333041278639566, 68.0, -75.329234843251)
-[30Oct2025 15:30:59.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[30Oct2025 15:31:00.886] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 187 advancements
-[30Oct2025 15:32:21.273] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 188 advancements
-[30Oct2025 15:33:17.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[30Oct2025 15:33:18.005] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[30Oct2025 15:33:21.166] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 188 advancements
-[30Oct2025 15:33:27.368] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/685, l='ServerLevel[New Worl]', x=9.35, y=67.00, z=-66.77] died: ! 1 ! was slain by Dev
-[30Oct2025 15:33:32.610] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[30Oct2025 15:33:32.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:overworld
-[30Oct2025 15:33:32.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_sulla_sicurezza
-[30Oct2025 15:33:32.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_end
-[30Oct2025 15:33:32.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante
-[30Oct2025 15:33:32.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_derivata
-[30Oct2025 15:33:32.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante_negativa
-[30Oct2025 15:33:32.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_primitiva
-[30Oct2025 15:33:32.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_nether
-[30Oct2025 15:33:32.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_balatrante
-[30Oct2025 15:33:35.569] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/745, l='ServerLevel[New Worl]', x=7.86, y=68.00, z=-61.26] died: ! 1 ! was slain by Dev
-[30Oct2025 15:33:43.268] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/856, l='ServerLevel[New Worl]', x=-11.54, y=68.00, z=-65.94] died: ! 1 ! was slain by Dev
-[30Oct2025 15:33:47.218] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/869, l='ServerLevel[New Worl]', x=-14.32, y=68.00, z=-63.30] died: ! 1 ! was slain by Dev
-[30Oct2025 15:33:49.268] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/866, l='ServerLevel[New Worl]', x=-10.27, y=68.00, z=-65.74] died: ! 1 ! was slain by Dev
-[30Oct2025 15:33:50.418] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/871, l='ServerLevel[New Worl]', x=-10.02, y=68.00, z=-67.11] died: ! 1 ! was slain by Dev
-[30Oct2025 15:33:59.117] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/977, l='ServerLevel[New Worl]', x=-1.35, y=69.00, z=-56.86] died: ! 1 ! was slain by Dev
-[30Oct2025 15:34:08.483] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/1012, l='ServerLevel[New Worl]', x=4.48, y=68.00, z=-63.28] died: ! 2 ! was slain by Dev
-[30Oct2025 15:34:32.066] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1121, l='ServerLevel[New Worl]', x=20.39, y=65.00, z=-50.36] died: ! 1 ! was slain by Dev
-[30Oct2025 15:34:35.965] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1139, l='ServerLevel[New Worl]', x=26.37, y=66.00, z=-55.78] died: ! 1 ! was slain by Dev
-[30Oct2025 15:34:37.167] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1132, l='ServerLevel[New Worl]', x=27.10, y=66.00, z=-56.90] died: ! 1 ! was slain by Dev
-[30Oct2025 15:34:38.769] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1136, l='ServerLevel[New Worl]', x=26.71, y=66.00, z=-56.65] died: ! 1 ! was slain by Dev
-[30Oct2025 15:34:45.169] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1124, l='ServerLevel[New Worl]', x=7.30, y=68.00, z=-58.06] died: ! 1 ! was slain by Dev
-[30Oct2025 15:34:53.667] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1134, l='ServerLevel[New Worl]', x=3.30, y=62.00, z=-41.30] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:08.118] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1460, l='ServerLevel[New Worl]', x=-12.88, y=69.00, z=-54.13] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:12.816] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1439, l='ServerLevel[New Worl]', x=-8.16, y=69.00, z=-52.29] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:14.568] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1458, l='ServerLevel[New Worl]', x=-12.08, y=69.00, z=-52.99] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:14.568] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1452, l='ServerLevel[New Worl]', x=-12.84, y=69.00, z=-51.72] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:15.219] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1464, l='ServerLevel[New Worl]', x=-12.41, y=69.00, z=-55.86] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:19.066] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1444, l='ServerLevel[New Worl]', x=-12.03, y=69.00, z=-73.00] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:22.269] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1456, l='ServerLevel[New Worl]', x=-17.12, y=68.00, z=-62.91] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:24.167] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1462, l='ServerLevel[New Worl]', x=-14.42, y=69.00, z=-61.08] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:25.216] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1436, l='ServerLevel[New Worl]', x=-14.43, y=69.00, z=-60.75] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:26.268] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1454, l='ServerLevel[New Worl]', x=-14.36, y=69.00, z=-61.36] died: ! 1 ! was slain by Dev
-[30Oct2025 15:35:47.818] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/1778, l='ServerLevel[New Worl]', x=-13.50, y=69.00, z=-72.44] died: ! 2 ! was slain by Dev
-[30Oct2025 15:35:50.067] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/1782, l='ServerLevel[New Worl]', x=-11.39, y=69.00, z=-78.41] died: ! 2 ! was slain by Dev
-[30Oct2025 15:35:51.317] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/1780, l='ServerLevel[New Worl]', x=-11.49, y=69.00, z=-79.69] died: ! 2 ! was slain by Dev
-[30Oct2025 15:35:55.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[30Oct2025 15:35:55.422] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[30Oct2025 15:36:11.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[30Oct2025 15:36:11.498] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[30Oct2025 15:36:27.017] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/2077, l='ServerLevel[New Worl]', x=-10.47, y=69.00, z=-61.49] died: ! 1 ! was slain by Dev
-[30Oct2025 15:36:30.867] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/2068, l='ServerLevel[New Worl]', x=-2.58, y=68.00, z=-63.40] died: ! 1 ! was slain by Dev
-[30Oct2025 15:36:37.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by ! 1 !
-[30Oct2025 15:36:37.878] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by ! 1 !
-[30Oct2025 15:37:02.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported 122 entities to Dev]
-[30Oct2025 15:37:02.331] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported 122 entities to Dev
-[30Oct2025 15:37:02.376] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/2079, l='ServerLevel[New Worl]', x=-30.44, y=66.00, z=45.70] died: ! 1 ! was squished too much
-[30Oct2025 15:37:02.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by ¡ 3 ¡
-[30Oct2025 15:37:02.467] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/2075, l='ServerLevel[New Worl]', x=-30.70, y=66.00, z=45.30] died: ! 1 ! was squished too much
-[30Oct2025 15:37:02.476] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by ¡ 3 ¡
-[30Oct2025 15:37:02.618] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/2066, l='ServerLevel[New Worl]', x=-30.70, y=66.00, z=45.30] died: ! 1 ! was squished too much
-[30Oct2025 15:37:02.966] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/2062, l='ServerLevel[New Worl]', x=-30.70, y=66.00, z=45.30] died: ! 1 ! was squished too much
-[30Oct2025 15:37:03.116] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/2073, l='ServerLevel[New Worl]', x=-30.70, y=66.00, z=45.30] died: ! 1 ! was squished too much
-[30Oct2025 15:37:03.166] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/2071, l='ServerLevel[New Worl]', x=-30.70, y=66.00, z=45.30] died: ! 1 ! was squished too much
-[30Oct2025 15:37:03.465] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/2081, l='ServerLevel[New Worl]', x=-30.70, y=66.00, z=45.30] died: ! 1 ! was squished too much
-[30Oct2025 15:37:11.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was doomed to fall by Cubo di geometry dash
-[30Oct2025 15:37:11.244] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was doomed to fall by Cubo di geometry dash
-[30Oct2025 15:37:27.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by ¡ 3 ¡
-[30Oct2025 15:37:27.872] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by ¡ 3 ¡
-[30Oct2025 15:37:36.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by ¡ 3 ¡
-[30Oct2025 15:37:36.880] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by ¡ 3 ¡
-[30Oct2025 15:38:24.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by ! 1 !
-[30Oct2025 15:38:24.135] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by ! 1 !
-[30Oct2025 15:38:38.617] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/3594, l='ServerLevel[New Worl]', x=13.70, y=59.00, z=-12.30] died: ! 2 ! was slain by Dev
-[30Oct2025 15:38:46.815] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/3588, l='ServerLevel[New Worl]', x=4.30, y=54.00, z=-14.88] died: ! 2 ! was slain by Dev
-[30Oct2025 15:38:48.816] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/3581, l='ServerLevel[New Worl]', x=2.30, y=52.00, z=-16.70] died: ! 1 ! was slain by Dev
-[30Oct2025 15:39:13.460] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[30Oct2025 15:39:13.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:overworld
-[30Oct2025 15:39:13.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_sulla_sicurezza
-[30Oct2025 15:39:13.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_end
-[30Oct2025 15:39:13.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante
-[30Oct2025 15:39:13.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_derivata
-[30Oct2025 15:39:13.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante_negativa
-[30Oct2025 15:39:13.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_primitiva
-[30Oct2025 15:39:13.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_nether
-[30Oct2025 15:39:13.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_balatrante
-[30Oct2025 15:39:19.971] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 189 advancements
-[30Oct2025 15:39:37.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported 164 entities to Dev]
-[30Oct2025 15:39:37.092] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported 164 entities to Dev
-[30Oct2025 15:39:37.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by ¡ 3 ¡
-[30Oct2025 15:39:37.118] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/3590, l='ServerLevel[New Worl]', x=-6.63, y=68.00, z=-19.43] died: ! 2 ! was squished too much
-[30Oct2025 15:39:37.122] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by ¡ 3 ¡
-[30Oct2025 15:39:41.295] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/3569, l='ServerLevel[New Worl]', x=-4.02, y=67.00, z=-12.89] died: ! 1 ! was blown up by Creeper
-[30Oct2025 15:39:48.319] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/3592, l='ServerLevel[New Worl]', x=-0.49, y=67.18, z=-15.21] died: ! 2 ! was impaled by Drowned
-[30Oct2025 15:41:10.521] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 192 advancements
-[30Oct2025 15:41:25.207] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PerInv3Entity['¡ 3 ¡'/8, l='ServerLevel[New Worl]', x=2.70, y=58.00, z=-19.30] died: ¡ 3 ¡ was killed
-[30Oct2025 15:41:25.208] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PerInv3Entity['¡ 3 ¡'/16, l='ServerLevel[New Worl]', x=-15.31, y=54.19, z=-16.95] died: ¡ 3 ¡ was killed
-[30Oct2025 15:41:25.208] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PerInv3Entity['¡ 3 ¡'/26, l='ServerLevel[New Worl]', x=-7.30, y=65.00, z=-21.30] died: ¡ 3 ¡ was killed
-[30Oct2025 15:41:25.208] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PerInv3Entity['¡ 3 ¡'/34, l='ServerLevel[New Worl]', x=-14.30, y=64.20, z=-19.25] died: ¡ 3 ¡ was killed
-[30Oct2025 15:41:25.209] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PerInv3Entity['¡ 3 ¡'/41, l='ServerLevel[New Worl]', x=-11.30, y=61.20, z=-21.30] died: ¡ 3 ¡ was killed
-[30Oct2025 15:41:25.209] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PerInv3Entity['¡ 3 ¡'/47, l='ServerLevel[New Worl]', x=-20.47, y=29.00, z=-11.65] died: ¡ 3 ¡ was killed
-[30Oct2025 15:41:25.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 6 entities]
-[30Oct2025 15:41:25.217] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 6 entities
-[30Oct2025 15:41:31.773] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/3575, l='ServerLevel[New Worl]', x=6.45, y=69.00, z=-9.52] died: ! 1 ! was slain by Dev
-[30Oct2025 15:41:54.321] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/5672, l='ServerLevel[New Worl]', x=-6.07, y=67.00, z=1.30] died: ! 1 ! was slain by Dev
-[30Oct2025 15:42:01.737] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
-[30Oct2025 15:42:34.724] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/5689, l='ServerLevel[New Worl]', x=-5.66, y=63.00, z=-12.33] died: ! 2 ! was slain by Dev
-[30Oct2025 15:42:42.724] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/5674, l='ServerLevel[New Worl]', x=-9.49, y=68.00, z=-5.55] died: ! 1 ! was slain by Dev
-[30Oct2025 15:42:48.325] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/5691, l='ServerLevel[New Worl]', x=-21.18, y=67.00, z=-4.58] died: ! 2 ! was slain by Dev
-[30Oct2025 15:42:50.522] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/5683, l='ServerLevel[New Worl]', x=-24.64, y=69.00, z=-14.44] died: ! 2 ! was slain by Dev
-[30Oct2025 15:42:52.277] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/5687, l='ServerLevel[New Worl]', x=-26.18, y=69.00, z=-6.64] died: ! 2 ! was slain by Dev
-[30Oct2025 15:42:56.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported 169 entities to Dev]
-[30Oct2025 15:42:56.843] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported 169 entities to Dev
-[30Oct2025 15:42:56.926] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 195 advancements
-[30Oct2025 15:42:58.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was shot by Malicious Face
-[30Oct2025 15:42:58.778] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was shot by Malicious Face
-[30Oct2025 15:42:59.669] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/3583, l='ServerLevel[New Worl]', x=-11.41, y=66.00, z=3.57] died: ! 1 ! was blown up by Creeper
-[30Oct2025 15:43:04.168] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/5659, l='ServerLevel[New Worl]', x=-9.30, y=67.00, z=-1.69] died: ! 1 ! was shot by Malicious Face
-[30Oct2025 15:43:07.227] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 195 advancements
-[30Oct2025 15:43:16.868] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/5669, l='ServerLevel[New Worl]', x=-3.13, y=67.00, z=-5.86] died: ! 1 ! was shot by Malicious Face
-[30Oct2025 15:44:31.423] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/8233, l='ServerLevel[New Worl]', x=7.55, y=69.00, z=26.49] died: !! 3 !! was slain by Dev
-[30Oct2025 15:44:37.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[30Oct2025 15:44:37.921] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[30Oct2025 15:45:21.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
-[30Oct2025 15:45:21.237] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
-[30Oct2025 15:45:21.237] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/6847, l='ServerLevel[New Worl]', x=0.70, y=59.00, z=-12.30] died: !! 3 !! was killed
-[30Oct2025 15:45:21.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 205 entities]
-[30Oct2025 15:45:21.249] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 205 entities
-[30Oct2025 15:45:23.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
-[30Oct2025 15:45:23.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 156 entities]
-[30Oct2025 15:45:23.332] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
-[30Oct2025 15:45:23.357] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 156 entities
-[30Oct2025 15:45:41.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set spawn point to -62, 75, 94 [0.0] in minecraft:overworld for Dev]
-[30Oct2025 15:45:41.822] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set spawn point to -62, 75, 94 [0.0] in minecraft:overworld for Dev
-[30Oct2025 15:45:45.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[30Oct2025 15:45:45.268] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[30Oct2025 15:46:01.473] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/9443, l='ServerLevel[New Worl]', x=-67.12, y=72.00, z=102.10] died: ! 2 ! was slain by Dev
-[30Oct2025 15:46:03.373] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/9431, l='ServerLevel[New Worl]', x=-66.09, y=72.00, z=107.21] died: ! 2 ! was slain by Dev
-[30Oct2025 15:46:11.824] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/9441, l='ServerLevel[New Worl]', x=-87.80, y=74.00, z=120.09] died: ! 2 ! was slain by Dev
-[30Oct2025 15:46:14.476] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/9427, l='ServerLevel[New Worl]', x=-88.44, y=72.00, z=113.56] died: ! 2 ! was slain by Dev
-[30Oct2025 15:46:20.324] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/9429, l='ServerLevel[New Worl]', x=-75.30, y=72.00, z=100.14] died: ! 2 ! was slain by Dev
-[30Oct2025 15:46:32.872] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/9437, l='ServerLevel[New Worl]', x=-69.13, y=72.00, z=143.25] died: ! 2 ! was slain by Dev
-[30Oct2025 15:46:34.673] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/9439, l='ServerLevel[New Worl]', x=-73.89, y=72.00, z=146.90] died: ! 2 ! was slain by Dev
-[30Oct2025 15:46:35.873] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/9435, l='ServerLevel[New Worl]', x=-74.31, y=72.00, z=148.41] died: ! 2 ! was slain by Dev
-[30Oct2025 15:46:44.525] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante2Entity['! 2 !'/9433, l='ServerLevel[New Worl]', x=-75.87, y=72.00, z=122.01] died: ! 2 ! was slain by Dev
-[30Oct2025 15:47:01.622] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/9888, l='ServerLevel[New Worl]', x=-70.63, y=72.00, z=115.62] died: !! 3 !! was slain by Dev
-[30Oct2025 15:47:14.575] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/9913, l='ServerLevel[New Worl]', x=-78.70, y=70.00, z=120.70] died: !! 3 !! was slain by Dev
-[30Oct2025 15:47:40.973] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/9996, l='ServerLevel[New Worl]', x=-87.54, y=72.00, z=110.95] died: !! 3 !! was slain by Dev
-[30Oct2025 15:47:54.225] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/9998, l='ServerLevel[New Worl]', x=-80.32, y=72.00, z=131.63] died: !! 3 !! was slain by Dev
-[30Oct2025 15:48:19.522] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/10278, l='ServerLevel[New Worl]', x=-59.30, y=73.00, z=100.75] died: !! 4 !! was slain by Dev
-[30Oct2025 15:48:28.777] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/10400, l='ServerLevel[New Worl]', x=-72.07, y=72.00, z=114.87] died: !! 4 !! was slain by Dev
-[30Oct2025 15:48:34.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by !! 4 !!
-[30Oct2025 15:48:34.920] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by !! 4 !!
-[30Oct2025 15:48:40.823] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/10432, l='ServerLevel[New Worl]', x=-67.74, y=72.00, z=116.85] died: !! 4 !! was slain by Dev
-[30Oct2025 15:48:42.176] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/10434, l='ServerLevel[New Worl]', x=-68.34, y=72.00, z=118.68] died: !! 4 !! was slain by Dev
-[30Oct2025 15:48:49.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by !! 4 !!
-[30Oct2025 15:48:49.419] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by !! 4 !!
-[30Oct2025 15:48:53.575] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/10438, l='ServerLevel[New Worl]', x=-66.81, y=72.00, z=109.81] died: !! 4 !! was slain by Dev
-[30Oct2025 15:48:57.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[30Oct2025 15:48:57.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[30Oct2025 15:50:09.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
-[30Oct2025 15:50:09.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed Dev]
-[30Oct2025 15:50:09.972] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
-[30Oct2025 15:50:09.973] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed Dev
-[30Oct2025 15:50:14.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
-[30Oct2025 15:50:14.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 153 entities]
-[30Oct2025 15:50:14.230] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
-[30Oct2025 15:50:14.231] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 153 entities
-[30Oct2025 15:50:18.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[30Oct2025 15:50:18.968] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[30Oct2025 15:50:28.217] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/11594, l='ServerLevel[New Worl]', x=-69.99, y=72.00, z=112.46] died: death.attack.mob.player
-[30Oct2025 15:50:36.224] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/11591, l='ServerLevel[New Worl]', x=-66.68, y=72.00, z=111.77] died: !! 3 !! was slain by Dev
-[30Oct2025 15:50:36.874] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/11597, l='ServerLevel[New Worl]', x=-68.17, y=72.00, z=109.79] died: !! 3 !! was slain by Dev
-[30Oct2025 15:50:41.074] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/11599, l='ServerLevel[New Worl]', x=-57.05, y=75.00, z=100.52] died: !! 3 !! was slain by Dev
-[30Oct2025 15:50:46.667] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 196 advancements
-[30Oct2025 15:51:09.816] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/11856, l='ServerLevel[New Worl]', x=-40.53, y=72.00, z=119.45] died: death.attack.mob.player
-[30Oct2025 15:51:10.465] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/11845, l='ServerLevel[New Worl]', x=-41.10, y=72.00, z=121.36] died: death.attack.mob.player
-[30Oct2025 15:51:11.117] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/11829, l='ServerLevel[New Worl]', x=-42.31, y=72.00, z=121.83] died: death.attack.mob.player
-[30Oct2025 15:51:11.718] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/11840, l='ServerLevel[New Worl]', x=-43.47, y=72.00, z=119.30] died: death.attack.mob.player
-[30Oct2025 15:51:12.916] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/11850, l='ServerLevel[New Worl]', x=-42.27, y=72.00, z=121.65] died: death.attack.mob.player
-[30Oct2025 15:51:24.124] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/12021, l='ServerLevel[New Worl]', x=-34.23, y=71.00, z=142.04] died: !! 4 !! was slain by Dev
-[30Oct2025 15:51:36.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/12027, l='ServerLevel[New Worl]', x=-71.32, y=72.00, z=139.87] died: !! 3 !! was slain by Dev
-[30Oct2025 15:51:42.426] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/12029, l='ServerLevel[New Worl]', x=-40.47, y=72.00, z=127.11] died: !! 3 !! was slain by Dev
-[30Oct2025 15:51:52.724] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/12025, l='ServerLevel[New Worl]', x=-32.39, y=71.00, z=144.33] died: !! 3 !! was slain by Dev
-[30Oct2025 15:51:54.124] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/12031, l='ServerLevel[New Worl]', x=-32.40, y=71.00, z=143.53] died: !! 3 !! was slain by Dev
-[30Oct2025 15:52:28.625] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/12604, l='ServerLevel[New Worl]', x=-34.15, y=72.00, z=118.31] died: !! 4 !! was slain by Dev
-[30Oct2025 15:52:31.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by !! 3 !!
-[30Oct2025 15:52:31.171] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by !! 3 !!
-[30Oct2025 15:52:39.975] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/12593, l='ServerLevel[New Worl]', x=-46.83, y=74.00, z=109.35] died: !! 3 !! was slain by Dev
-[30Oct2025 15:52:42.575] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/12595, l='ServerLevel[New Worl]', x=-49.35, y=72.00, z=119.13] died: !! 3 !! was slain by Dev
-[30Oct2025 15:52:45.472] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/12597, l='ServerLevel[New Worl]', x=-41.83, y=72.00, z=128.83] died: !! 3 !! was slain by Dev
-[30Oct2025 15:53:05.624] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/12957, l='ServerLevel[New Worl]', x=-87.55, y=73.77, z=124.88] died: !! 4 !! was slain by Dev
-[30Oct2025 15:53:12.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by !! 4 !!
-[30Oct2025 15:53:12.219] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by !! 4 !!
-[30Oct2025 15:53:22.424] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/13146, l='ServerLevel[New Worl]', x=-85.41, y=72.00, z=130.56] died: !! 4 !! was slain by Dev
-[30Oct2025 15:53:30.375] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/13454, l='ServerLevel[New Worl]', x=-80.05, y=72.00, z=135.46] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:53:34.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[30Oct2025 15:53:34.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[30Oct2025 15:53:45.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Cover Me in Debris]
-[30Oct2025 15:53:45.073] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Cover Me in Debris]
-[30Oct2025 15:53:45.118] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 199 advancements
-[30Oct2025 15:54:18.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[30Oct2025 15:54:18.070] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[30Oct2025 15:54:27.272] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/13635, l='ServerLevel[New Worl]', x=-96.76, y=72.00, z=131.56] died: !! 3 !! was slain by Dev
-[30Oct2025 15:54:31.076] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/13677, l='ServerLevel[New Worl]', x=-101.60, y=72.00, z=138.15] died: !! 3 !! was slain by Dev
-[30Oct2025 15:54:35.225] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/13724, l='ServerLevel[New Worl]', x=-110.47, y=72.00, z=136.37] died: !! 4 !! was slain by Dev
-[30Oct2025 15:54:45.572] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/13800, l='ServerLevel[New Worl]', x=-105.12, y=72.00, z=138.90] died: !! 4 !! was slain by Dev
-[30Oct2025 15:54:48.123] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/13823, l='ServerLevel[New Worl]', x=-101.20, y=72.00, z=136.93] died: !! 4 !! was slain by Dev
-[30Oct2025 15:54:51.922] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/13842, l='ServerLevel[New Worl]', x=-91.48, y=72.00, z=135.84] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:55:20.325] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/13876, l='ServerLevel[New Worl]', x=-41.30, y=73.00, z=122.60] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:55:27.023] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/13872, l='ServerLevel[New Worl]', x=-37.35, y=72.00, z=125.33] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:55:42.315] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/14072, l='ServerLevel[New Worl]', x=-47.17, y=72.00, z=131.14] died: death.attack.mob.player
-[30Oct2025 15:55:48.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/14076, l='ServerLevel[New Worl]', x=-39.62, y=72.00, z=128.68] died: !! 4 !! was slain by Dev
-[30Oct2025 15:56:00.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by !! 4 !!
-[30Oct2025 15:56:00.919] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by !! 4 !!
-[30Oct2025 15:56:08.325] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/14080, l='ServerLevel[New Worl]', x=-40.79, y=72.00, z=119.25] died: !! 4 !! was slain by Dev
-[30Oct2025 15:56:10.275] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/14070, l='ServerLevel[New Worl]', x=-44.11, y=72.00, z=120.60] died: !! 4 !! was slain by Dev
-[30Oct2025 15:56:12.673] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/14078, l='ServerLevel[New Worl]', x=-49.76, y=72.00, z=122.85] died: !! 4 !! was slain by Dev
-[30Oct2025 15:56:15.664] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/14082, l='ServerLevel[New Worl]', x=-57.35, y=72.00, z=128.44] died: death.attack.mob.player
-[30Oct2025 15:56:18.624] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/14084, l='ServerLevel[New Worl]', x=-56.91, y=72.00, z=138.91] died: !! 4 !! was slain by Dev
-[30Oct2025 15:56:39.964] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/14604, l='ServerLevel[New Worl]', x=-18.36, y=72.17, z=119.73] died: death.attack.mob.player
-[30Oct2025 15:56:44.765] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante4Entity['!! 4 !!'/14074, l='ServerLevel[New Worl]', x=-36.19, y=71.00, z=137.35] died: death.attack.mob.player
-[30Oct2025 15:57:04.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by !!! 5 !!!
-[30Oct2025 15:57:04.667] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by !!! 5 !!!
-[30Oct2025 15:57:15.465] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 199 advancements
-[30Oct2025 15:57:21.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by !!! 5 !!!
-[30Oct2025 15:57:21.971] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by !!! 5 !!!
-[30Oct2025 15:57:27.115] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[30Oct2025 15:57:27.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:overworld
-[30Oct2025 15:57:27.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_sulla_sicurezza
-[30Oct2025 15:57:27.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_end
-[30Oct2025 15:57:27.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante
-[30Oct2025 15:57:27.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_derivata
-[30Oct2025 15:57:27.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante_negativa
-[30Oct2025 15:57:27.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_primitiva
-[30Oct2025 15:57:27.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_nether
-[30Oct2025 15:57:27.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_balatrante
-[30Oct2025 15:57:46.839] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/14817, l='ServerLevel[New Worl]', x=-8.04, y=72.00, z=118.22] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:57:50.994] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/14826, l='ServerLevel[New Worl]', x=-12.52, y=72.00, z=130.05] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:57:56.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/14824, l='ServerLevel[New Worl]', x=-12.77, y=72.00, z=130.39] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:57:59.089] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/14820, l='ServerLevel[New Worl]', x=-7.79, y=72.00, z=135.39] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:00.989] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/14813, l='ServerLevel[New Worl]', x=-1.63, y=72.00, z=135.77] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:02.841] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/14815, l='ServerLevel[New Worl]', x=4.39, y=71.00, z=139.29] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:09.696] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/14822, l='ServerLevel[New Worl]', x=-1.17, y=72.00, z=121.21] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:21.440] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/15551, l='ServerLevel[New Worl]', x=13.83, y=71.00, z=107.20] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:33.691] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/15545, l='ServerLevel[New Worl]', x=10.94, y=71.00, z=115.25] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:35.790] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/15553, l='ServerLevel[New Worl]', x=8.76, y=71.00, z=121.70] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:39.292] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/15559, l='ServerLevel[New Worl]', x=2.23, y=72.00, z=123.85] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:41.088] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/15541, l='ServerLevel[New Worl]', x=-2.72, y=72.00, z=122.80] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:42.942] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/15555, l='ServerLevel[New Worl]', x=-4.16, y=72.00, z=121.03] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:44.140] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/15549, l='ServerLevel[New Worl]', x=-5.41, y=72.00, z=121.64] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:46.840] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/15557, l='ServerLevel[New Worl]', x=-6.37, y=72.00, z=113.38] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:58:50.341] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/15547, l='ServerLevel[New Worl]', x=13.76, y=71.00, z=117.00] died: !!! 5 !!! was slain by Dev
-[30Oct2025 15:59:37.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by !!! 5 !!!
-[30Oct2025 15:59:37.469] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by !!! 5 !!!
-[30Oct2025 15:59:54.589] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante5Entity['!!! 5 !!!'/15543, l='ServerLevel[New Worl]', x=-16.80, y=71.00, z=99.52] died: !!! 5 !!! was slain by Dev
-[30Oct2025 16:00:00.761] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[30Oct2025 16:00:00.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:overworld
-[30Oct2025 16:00:00.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_sulla_sicurezza
-[30Oct2025 16:00:00.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_end
-[30Oct2025 16:00:00.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante
-[30Oct2025 16:00:00.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_derivata
-[30Oct2025 16:00:00.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante_negativa
-[30Oct2025 16:00:00.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_primitiva
-[30Oct2025 16:00:00.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_nether
-[30Oct2025 16:00:00.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_balatrante
-[30Oct2025 16:00:01.235] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[30Oct2025 16:00:01.275] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[30Oct2025 16:00:01.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[30Oct2025 16:00:01.294] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[30Oct2025 16:00:01.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[30Oct2025 16:00:01.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[30Oct2025 16:00:01.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[30Oct2025 16:00:02.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:overworld
-[30Oct2025 16:00:03.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_sulla_sicurezza
-[30Oct2025 16:00:03.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_end
-[30Oct2025 16:00:03.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante
-[30Oct2025 16:00:03.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_derivata
-[30Oct2025 16:00:03.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante_negativa
-[30Oct2025 16:00:03.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_primitiva
-[30Oct2025 16:00:03.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_nether
-[30Oct2025 16:00:03.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_balatrante
-[30Oct2025 16:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New Worl): All chunks are saved
-[30Oct2025 16:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
-[30Oct2025 16:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[30Oct2025 16:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
-[30Oct2025 16:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
-[30Oct2025 16:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
-[30Oct2025 16:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
-[30Oct2025 16:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[30Oct2025 16:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
-[30Oct2025 16:00:04.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[31Oct2025 16:04:43.182] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/dna_joker with size 16x17 limits mip level from 2 to 0
+[31Oct2025 16:04:43.747] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
+[31Oct2025 16:04:43.748] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
+[31Oct2025 16:04:44.026] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
+[31Oct2025 16:04:45.491] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[31Oct2025 16:04:45.491] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[31Oct2025 16:04:45.954] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[31Oct2025 16:04:45.954] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[31Oct2025 16:04:46.062] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[31Oct2025 16:04:46.086] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[31Oct2025 16:04:46.087] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[31Oct2025 16:04:46.089] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[31Oct2025 16:04:46.090] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[31Oct2025 16:04:46.097] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[31Oct2025 16:04:46.097] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[31Oct2025 16:04:46.098] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[31Oct2025 16:04:46.099] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[31Oct2025 16:04:46.255] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[31Oct2025 16:04:46.340] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[31Oct2025 16:04:46.345] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/paintings.png-atlas
+[31Oct2025 16:04:46.354] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[31Oct2025 16:04:49.795] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[31Oct2025 16:05:12.814] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[31Oct2025 16:05:14.930] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[31Oct2025 16:05:15.018] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@373c367, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@79690a0a}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@685e97e0}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
+[31Oct2025 16:05:15.019] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1276 advancements
+[31Oct2025 16:05:15.554] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[31Oct2025 16:05:15.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[31Oct2025 16:05:17.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Oct2025 16:05:19.381] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Oct2025 16:05:19.419] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Oct2025 16:05:19.420] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Oct2025 16:05:19.420] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Oct2025 16:05:19.421] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Oct2025 16:05:19.574] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[31Oct2025 16:05:20.071] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[31Oct2025 16:05:20.280] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3221 ms
+[31Oct2025 16:05:20.285] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[31Oct2025 16:05:20.497] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[31Oct2025 16:05:20.500] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[31Oct2025 16:05:20.681] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[31Oct2025 16:05:21.698] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[31Oct2025 16:05:21.756] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:418c0902] logged in with entity id 32 at (-236.00520701679008, 71.0, 169.4173562014668)
+[31Oct2025 16:05:21.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[31Oct2025 16:05:22.462] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 199 advancements
+[31Oct2025 16:08:32.139] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[31Oct2025 16:08:32.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:overworld
+[31Oct2025 16:08:32.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_balatrante
+[31Oct2025 16:08:32.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_derivata
+[31Oct2025 16:08:32.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante
+[31Oct2025 16:08:32.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_sulla_sicurezza
+[31Oct2025 16:08:32.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_nether
+[31Oct2025 16:08:32.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante_negativa
+[31Oct2025 16:08:32.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_end
+[31Oct2025 16:08:32.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_primitiva
+[31Oct2025 16:08:34.601] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[31Oct2025 16:08:34.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[31Oct2025 16:08:34.616] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[31Oct2025 16:08:34.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Oct2025 16:08:34.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Oct2025 16:08:34.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Oct2025 16:08:35.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:overworld
+[31Oct2025 16:08:36.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_balatrante
+[31Oct2025 16:08:36.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_derivata
+[31Oct2025 16:08:36.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante
+[31Oct2025 16:08:36.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_sulla_sicurezza
+[31Oct2025 16:08:36.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_nether
+[31Oct2025 16:08:36.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_pericolante_negativa
+[31Oct2025 16:08:36.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/minecraft:the_end
+[31Oct2025 16:08:36.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worl]'/cum:dimensione_primitiva
+[31Oct2025 16:08:36.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New Worl): All chunks are saved
+[31Oct2025 16:08:36.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
+[31Oct2025 16:08:36.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
+[31Oct2025 16:08:36.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
+[31Oct2025 16:08:36.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
+[31Oct2025 16:08:36.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Oct2025 16:08:36.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
+[31Oct2025 16:08:36.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Oct2025 16:08:36.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
+[31Oct2025 16:08:36.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[31Oct2025 16:08:37.537] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

@@ -105,8 +105,8 @@
           },
           "width": 61,
           "height": 20,
-          "x": 205,
-          "y": 86,
+          "x": 206,
+          "y": 78,
           "locked": false
         }
       },
@@ -179,6 +179,22 @@
           "height": 24,
           "x": 143,
           "y": 84,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_seconda_funzione",
+          "text": "Seconda Funzione",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Secondafunzioneclick"
+          },
+          "width": 108,
+          "height": 20,
+          "x": 184,
+          "y": 99,
           "locked": false
         }
       }

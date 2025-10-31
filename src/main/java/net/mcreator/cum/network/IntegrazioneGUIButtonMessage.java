@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.cum.world.inventory.IntegrazioneGUIMenu;
+import net.mcreator.cum.procedures.SecondafunzioneclickProcedure;
 import net.mcreator.cum.procedures.IntegraClickProcedure;
 import net.mcreator.cum.CumMod;
 
@@ -65,6 +66,10 @@ public class IntegrazioneGUIButtonMessage {
 		if (buttonID == 0) {
 
 			IntegraClickProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 1) {
+
+			SecondafunzioneclickProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

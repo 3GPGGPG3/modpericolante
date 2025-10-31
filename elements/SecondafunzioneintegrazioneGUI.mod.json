@@ -1,0 +1,150 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -3940648,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 154,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:EcoRI"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -1629919,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 137,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -7417,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 171,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ecori",
+          "text": {
+            "fixedValue": "ECoRI"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gene",
+          "text": {
+            "fixedValue": "Gene"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 171,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "plasmidejpg-removebg-preview.png",
+          "use1Xscale": true,
+          "x": 208,
+          "y": 39,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -19961,
+            "falpha": 0.0
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 247,
+          "y": 69,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

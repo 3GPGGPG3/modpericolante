@@ -215,6 +215,9 @@ public class CumModTabs {
 				tabData.accept(CumModItems.GIRASOLE_SPAWN_EGG.get());
 				tabData.accept(CumModItems.FRENZIED_CUM.get());
 				tabData.accept(CumModItems.PENE_DELLA_FRENESIA.get());
+				tabData.accept(CumModItems.GENESGUN.get());
+				tabData.accept(CumModItems.PALLOTTOLADORO.get());
+				tabData.accept(CumModItems.PLASMIDEVUOTO.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -461,5 +464,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.DNA_FRAMMENTATO.get());
 				tabData.accept(CumModItems.CAMPIONE_DI_DNA_FRAMMENTATO.get());
 				tabData.accept(CumModItems.CAMPIONE_DI_DNA.get());
+				tabData.accept(CumModItems.GENESGUN.get());
+				tabData.accept(CumModItems.PALLOTTOLADORO.get());
+				tabData.accept(CumModItems.PLASMIDEVUOTO.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 }

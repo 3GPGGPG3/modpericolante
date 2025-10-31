@@ -24,6 +24,7 @@ public class IntegrazioneGUIScreen extends AbstractContainerScreen<IntegrazioneG
 	private final int x, y, z;
 	private final Player entity;
 	Button button_integra;
+	Button button_seconda_funzione;
 
 	public IntegrazioneGUIScreen(IntegrazioneGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -83,8 +84,16 @@ public class IntegrazioneGUIScreen extends AbstractContainerScreen<IntegrazioneG
 				CumMod.PACKET_HANDLER.sendToServer(new IntegrazioneGUIButtonMessage(0, x, y, z));
 				IntegrazioneGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 79, this.topPos + 49, 61, 20).build();
+		}).bounds(this.leftPos + 80, this.topPos + 41, 61, 20).build();
 		guistate.put("button:button_integra", button_integra);
 		this.addRenderableWidget(button_integra);
+		button_seconda_funzione = Button.builder(Component.translatable("gui.cum.integrazione_gui.button_seconda_funzione"), e -> {
+			if (true) {
+				CumMod.PACKET_HANDLER.sendToServer(new IntegrazioneGUIButtonMessage(1, x, y, z));
+				IntegrazioneGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		}).bounds(this.leftPos + 58, this.topPos + 62, 108, 20).build();
+		guistate.put("button:button_seconda_funzione", button_seconda_funzione);
+		this.addRenderableWidget(button_seconda_funzione);
 	}
 }

@@ -44,6 +44,7 @@ import net.mcreator.cum.entity.PerInv2Entity;
 import net.mcreator.cum.entity.PerInv1Entity;
 import net.mcreator.cum.entity.PeashooterEntity;
 import net.mcreator.cum.entity.PaperonDePaperoniEntity;
+import net.mcreator.cum.entity.PallottoladoroprojectileEntity;
 import net.mcreator.cum.entity.OliviaEntity;
 import net.mcreator.cum.entity.NocciolinaEntity;
 import net.mcreator.cum.entity.MirabellaEntity;
@@ -252,6 +253,9 @@ public class CumModEntities {
 					.sized(0.6f, 1f));
 	public static final RegistryObject<EntityType<FrenziedCumProjectileEntity>> FRENZIED_CUM_PROJECTILE = register("frenzied_cum_projectile", EntityType.Builder.<FrenziedCumProjectileEntity>of(FrenziedCumProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(FrenziedCumProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<PallottoladoroprojectileEntity>> PALLOTTOLADOROPROJECTILE = register("pallottoladoroprojectile",
+			EntityType.Builder.<PallottoladoroprojectileEntity>of(PallottoladoroprojectileEntity::new, MobCategory.MISC).setCustomClientFactory(PallottoladoroprojectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.1f, 0.1f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
