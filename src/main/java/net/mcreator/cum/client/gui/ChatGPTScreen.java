@@ -146,7 +146,7 @@ public class ChatGPTScreen extends AbstractContainerScreen<ChatGPTMenu> {
 				CumMod.PACKET_HANDLER.sendToServer(new ChatGPTButtonMessage(7, x, y, z));
 				ChatGPTButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
-		}).bounds(this.leftPos + 6, this.topPos + 38, 67, 20).build();
+		}).bounds(this.leftPos + 166, this.topPos + 68, 67, 20).build();
 		guistate.put("button:button_plasmide", button_plasmide);
 		this.addRenderableWidget(button_plasmide);
 	}

@@ -46,6 +46,9 @@
       "value": "CUSTOM:Pallottoladoroprojectile"
     },
     "projectileDisableAmmoCheck": false,
+    "onRangedItemUsed": {
+      "name": "GenesgunRangedItemShootsProjectile"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

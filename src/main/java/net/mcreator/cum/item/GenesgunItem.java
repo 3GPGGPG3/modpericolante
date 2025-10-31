@@ -19,6 +19,7 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
+import net.mcreator.cum.procedures.GenesgunRangedItemShootsProjectileProcedure;
 import net.mcreator.cum.entity.PallottoladoroprojectileEntity;
 
 import com.google.common.collect.Multimap;
@@ -88,6 +89,7 @@ public class GenesgunItem extends Item {
 							player.getInventory().removeItem(stack);
 					}
 				}
+				GenesgunRangedItemShootsProjectileProcedure.execute(entity, itemstack);
 			}
 		}
 	}

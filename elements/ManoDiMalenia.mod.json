@@ -46,7 +46,11 @@
     "enableMeleeDamage": true,
     "damageVsEntity": 25.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Tasto destro: scatto in avanti.",
+        "Esegui uno scatto di 6 blocchi in avanti e avrai circa 1s di tempo",
+        "per infliggerer molti danni, poiché dovrai riposare la mano."
+      ]
     },
     "glowCondition": {
       "fixedValue": false

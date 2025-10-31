@@ -198,15 +198,15 @@
         "type": "button",
         "data": {
           "name": "button_plasmide",
-          "text": "Plasmide",
+          "text": "Fammi un plasmide",
           "isUndecorated": false,
           "onClick": {
             "name": "Plasmideonbuttonclicked"
           },
           "width": 67,
           "height": 20,
-          "x": 12,
-          "y": 53,
+          "x": 172,
+          "y": 83,
           "locked": false
         }
       }

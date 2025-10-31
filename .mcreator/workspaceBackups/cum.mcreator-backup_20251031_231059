@@ -11085,6 +11085,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cum/models/item/mano_di_malenia.json",
+          "src/main/resources/assets/cum/models/item/mano_di_malenia_0.json",
           "src/main/java/net/mcreator/cum/item/ManoDiMaleniaItem.java"
         ]
       }
@@ -11139,6 +11140,66 @@
           {
             "name": "entity",
             "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManoDiMaleniaRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mano_di_malenia_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/ManoDiMaleniaRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GenesgunRangedItemShootsProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genesgun_ranged_item_shoots_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/GenesgunRangedItemShootsProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -11763,8 +11824,8 @@
       "effect.cum.sanguinamentoeffect": "Sanguinamento",
       "item.cum.qu_di_cuori": "4 di Cuori",
       "subtitles.mp_judgment": "",
-      "gui.cum.secondafunzioneintegrazione_gui.label_ecori": "ECoRI",
       "block.cum.blocco_pericolante_negativo": "Blocco pericolante negativo",
+      "gui.cum.secondafunzioneintegrazione_gui.label_ecori": "ECoRI",
       "block.cum.metallo_ultrakillante": "Metallo Ultrakillante",
       "item.cum.spada_super_godevole": "Spada super godevole",
       "entity.cum.plasmacellula": "Plasmacellula",
@@ -11777,17 +11838,17 @@
       "item.cum.sei_di_quadri": "6 di Quadri",
       "item.cum.cin_di_quadri": "5 di Quadri",
       "biome.cum.bioma_non_sicuro": "Bioma Non Sicuro",
-      "gui.cum.integrazione_gui.button_seconda_funzione": "Seconda Funzione",
       "gui.cum.chat_gpt.button_terra": "Terra",
+      "gui.cum.integrazione_gui.button_seconda_funzione": "Seconda Funzione",
       "block.cum.blocco_di_sborra": "Blocco di sborra",
-      "subtitles.gb_therecanbeonlylight": "",
       "entity.cum.stray": "Stray",
+      "subtitles.gb_therecanbeonlylight": "",
       "gui.cum.azioni_del_telefono.label_scegli_cosa_fare_col_tuo_telefon": "Scegli cosa fare col tuo telefono",
       "item.cum.pane_derivante.description_0": "in dx.",
       "item.cum.dimensione_pericolante": "Asso di Picche",
-      "item.cum.tre_di_quadri.description_0": "+3 fiche.",
-      "block.cum.inizio_ver": "Inizio (verticale)",
       "subtitles.gb_amereobject": "",
+      "block.cum.inizio_ver": "Inizio (verticale)",
+      "item.cum.tre_di_quadri.description_0": "+3 fiche.",
       "painting.cum.cani_casino.author": "Paperino",
       "gui.cum.derivazione_gui.label_dx": "dx",
       "gui.cum.consegna_relazione.tooltip_consegna_qui_la_relazione": "Consegna qui la relazione",
@@ -12434,9 +12495,12 @@
       "gui.cum.secondafunzioneintegrazione_gui.label_gene": "Gene",
       "block.cum.blocco_di_carne_vivente": "Blocco di carne vivente",
       "item_group.cum.talismani": "Talismani",
+      "item.cum.mano_di_malenia.description_1": "Esegui uno scatto di 6 blocchi in avanti e avrai circa 1s di tempo",
+      "item.cum.mano_di_malenia.description_0": "Tasto destro: scatto in avanti.",
       "block.cum.blocco_medio": "Blocco medio",
       "item.cum.dimensione_pericolante.description_0": "Questo talismano consente di potere entrare nella dimensione pericolante.",
       "subtitles.gb_dies": "",
+      "item.cum.mano_di_malenia.description_2": "per infliggerer molti danni, poiché dovrai riposare la mano.",
       "item.cum.cin_di_cuori": "5 di Cuori",
       "subtitles.gb_youmakeeventhe": "",
       "item.cum.qu_di_cuori.description_0": "+4 fiche.",
