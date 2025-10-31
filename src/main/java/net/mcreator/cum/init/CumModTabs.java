@@ -218,6 +218,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.GENESGUN.get());
 				tabData.accept(CumModItems.PALLOTTOLADORO.get());
 				tabData.accept(CumModItems.PLASMIDEVUOTO.get());
+				tabData.accept(CumModItems.MANO_DI_MALENIA.get());
+				tabData.accept(CumModItems.MALENIA_BLADE_OF_MIQUELLA_SPAWN_EGG.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {

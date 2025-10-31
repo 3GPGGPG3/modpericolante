@@ -51,6 +51,7 @@ import net.mcreator.cum.entity.MirabellaEntity;
 import net.mcreator.cum.entity.MinosPrimeEntity;
 import net.mcreator.cum.entity.MattiaPascalEntity;
 import net.mcreator.cum.entity.MaliciousFaceEntity;
+import net.mcreator.cum.entity.MaleniaBladeOfMiquellaEntity;
 import net.mcreator.cum.entity.LinfocitaTEntity;
 import net.mcreator.cum.entity.LinfocitaBEntity;
 import net.mcreator.cum.entity.KillerEntity;
@@ -256,6 +257,11 @@ public class CumModEntities {
 	public static final RegistryObject<EntityType<PallottoladoroprojectileEntity>> PALLOTTOLADOROPROJECTILE = register("pallottoladoroprojectile",
 			EntityType.Builder.<PallottoladoroprojectileEntity>of(PallottoladoroprojectileEntity::new, MobCategory.MISC).setCustomClientFactory(PallottoladoroprojectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.1f, 0.1f));
+	public static final RegistryObject<EntityType<MaleniaBladeOfMiquellaEntity>> MALENIA_BLADE_OF_MIQUELLA = register("malenia_blade_of_miquella",
+			EntityType.Builder.<MaleniaBladeOfMiquellaEntity>of(MaleniaBladeOfMiquellaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3)
+					.setCustomClientFactory(MaleniaBladeOfMiquellaEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -308,6 +314,7 @@ public class CumModEntities {
 			DaveEntity.init();
 			NocciolinaEntity.init();
 			GirasoleEntity.init();
+			MaleniaBladeOfMiquellaEntity.init();
 		});
 	}
 
@@ -355,5 +362,6 @@ public class CumModEntities {
 		event.put(DAVE.get(), DaveEntity.createAttributes().build());
 		event.put(NOCCIOLINA.get(), NocciolinaEntity.createAttributes().build());
 		event.put(GIRASOLE.get(), GirasoleEntity.createAttributes().build());
+		event.put(MALENIA_BLADE_OF_MIQUELLA.get(), MaleniaBladeOfMiquellaEntity.createAttributes().build());
 	}
 }

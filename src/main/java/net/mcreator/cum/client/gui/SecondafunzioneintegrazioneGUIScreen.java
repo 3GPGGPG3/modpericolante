@@ -6,6 +6,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.cum.world.inventory.SecondafunzioneintegrazioneGUIMenu;
@@ -19,6 +20,7 @@ public class SecondafunzioneintegrazioneGUIScreen extends AbstractContainerScree
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Button button_integra;
 
 	public SecondafunzioneintegrazioneGUIScreen(SecondafunzioneintegrazioneGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -63,12 +65,16 @@ public class SecondafunzioneintegrazioneGUIScreen extends AbstractContainerScree
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.cum.secondafunzioneintegrazione_gui.label_ecori"), 8, 66, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.cum.secondafunzioneintegrazione_gui.label_gene"), 45, 66, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.cum.secondafunzioneintegrazione_gui.label_ecori"), 6, 44, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.cum.secondafunzioneintegrazione_gui.label_gene"), 44, 43, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
+		button_integra = Button.builder(Component.translatable("gui.cum.secondafunzioneintegrazione_gui.button_integra"), e -> {
+		}).bounds(this.leftPos + 7, this.topPos + 59, 61, 20).build();
+		guistate.put("button:button_integra", button_integra);
+		this.addRenderableWidget(button_integra);
 	}
 }

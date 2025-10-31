@@ -36,6 +36,7 @@ import net.mcreator.cum.client.renderer.MirabellaRenderer;
 import net.mcreator.cum.client.renderer.MinosPrimeRenderer;
 import net.mcreator.cum.client.renderer.MattiaPascalRenderer;
 import net.mcreator.cum.client.renderer.MaliciousFaceRenderer;
+import net.mcreator.cum.client.renderer.MaleniaBladeOfMiquellaRenderer;
 import net.mcreator.cum.client.renderer.LinfocitaTRenderer;
 import net.mcreator.cum.client.renderer.LinfocitaBRenderer;
 import net.mcreator.cum.client.renderer.KillerRenderer;
@@ -114,5 +115,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.GIRASOLE.get(), GirasoleRenderer::new);
 		event.registerEntityRenderer(CumModEntities.FRENZIED_CUM_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PALLOTTOLADOROPROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.MALENIA_BLADE_OF_MIQUELLA.get(), MaleniaBladeOfMiquellaRenderer::new);
 	}
 }

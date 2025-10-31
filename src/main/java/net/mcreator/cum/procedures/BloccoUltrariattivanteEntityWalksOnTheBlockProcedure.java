@@ -42,5 +42,13 @@ public class BloccoUltrariattivanteEntityWalksOnTheBlockProcedure {
 				_so = _sc.addObjective("stacaricando", ObjectiveCriteria.DUMMY, Component.literal("stacaricando"), ObjectiveCriteria.RenderType.INTEGER);
 			_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
 		}
+		{
+			Entity _ent = entity;
+			Scoreboard _sc = _ent.level().getScoreboard();
+			Objective _so = _sc.getObjective("mano_malenia");
+			if (_so == null)
+				_so = _sc.addObjective("mano_malenia", ObjectiveCriteria.DUMMY, Component.literal("mano_malenia"), ObjectiveCriteria.RenderType.INTEGER);
+			_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
+		}
 	}
 }

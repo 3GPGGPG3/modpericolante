@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "mano_di_malenia"
+      },
+      "name": "default"
+    }
+  }
+}

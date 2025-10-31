@@ -85,6 +85,7 @@ import net.mcreator.cum.item.NoItem;
 import net.mcreator.cum.item.NeroColtelloItem;
 import net.mcreator.cum.item.MoltItem;
 import net.mcreator.cum.item.MicropipettaItem;
+import net.mcreator.cum.item.ManoDiMaleniaItem;
 import net.mcreator.cum.item.MacchinaDelTempoItem;
 import net.mcreator.cum.item.LunaDelGodoItem;
 import net.mcreator.cum.item.LingottoUltrakillanteItem;
@@ -441,6 +442,9 @@ public class CumModItems {
 	public static final RegistryObject<Item> GENESGUN = REGISTRY.register("genesgun", () -> new GenesgunItem());
 	public static final RegistryObject<Item> PALLOTTOLADORO = REGISTRY.register("pallottoladoro", () -> new PallottoladoroItem());
 	public static final RegistryObject<Item> PLASMIDEVUOTO = REGISTRY.register("plasmidevuoto", () -> new PlasmidevuotoItem());
+	public static final RegistryObject<Item> MANO_DI_MALENIA = REGISTRY.register("mano_di_malenia", () -> new ManoDiMaleniaItem());
+	public static final RegistryObject<Item> MALENIA_BLADE_OF_MIQUELLA_SPAWN_EGG = REGISTRY.register("malenia_blade_of_miquella_spawn_egg",
+			() -> new ForgeSpawnEggItem(CumModEntities.MALENIA_BLADE_OF_MIQUELLA, -10066432, -10092544, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cum:item/mano_di_malenia"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cooldown": 0.000000001
+      },
+      "model": "cum:item/mano_di_malenia_0"
+    }
+  ]
+}

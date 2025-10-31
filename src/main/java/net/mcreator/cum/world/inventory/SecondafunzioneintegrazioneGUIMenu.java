@@ -78,12 +78,12 @@ public class SecondafunzioneintegrazioneGUIMenu extends AbstractContainerMenu im
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 29, 21) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 29, 6) {
 			private final int slot = 0;
 			private int x = SecondafunzioneintegrazioneGUIMenu.this.x;
 			private int y = SecondafunzioneintegrazioneGUIMenu.this.y;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 12, 47) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 11, 26) {
 			private final int slot = 1;
 			private int x = SecondafunzioneintegrazioneGUIMenu.this.x;
 			private int y = SecondafunzioneintegrazioneGUIMenu.this.y;
@@ -93,7 +93,7 @@ public class SecondafunzioneintegrazioneGUIMenu extends AbstractContainerMenu im
 				return CumModItems.ECO_RI.get() == stack.getItem();
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 46, 46) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 47, 26) {
 			private final int slot = 2;
 			private int x = SecondafunzioneintegrazioneGUIMenu.this.x;
 			private int y = SecondafunzioneintegrazioneGUIMenu.this.y;
