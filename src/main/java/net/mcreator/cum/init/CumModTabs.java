@@ -171,6 +171,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.QUESTOEILGODO_NEGATIVO.get());
 				tabData.accept(CumModBlocks.IMPALATORE.get().asItem());
 				tabData.accept(CumModItems.CLONATORE.get());
+				tabData.accept(CumModItems.MACCHINA_DEL_TEMPO.get());
 				tabData.accept(CumModItems.UOMO_PRIMITIVO_SPAWN_EGG.get());
 				tabData.accept(CumModItems.LUNA_DEL_GODO.get());
 				tabData.accept(CumModItems.SPADA_LUNARE_1.get());
@@ -231,6 +232,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PLASMIDECONTET.get());
 				tabData.accept(CumModItems.PBR_322.get());
 				tabData.accept(CumModItems.ARMATURADELSANGUE_BOOTS.get());
+				tabData.accept(CumModBlocks.SLAB_DI_SANGUE.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -410,6 +412,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.STRAY_SPAWN_EGG.get());
 				tabData.accept(CumModItems.BLOOD_BUCKET.get());
 				tabData.accept(CumModItems.TECNOLOGIA_V_1NANTE.get());
+				tabData.accept(CumModBlocks.SLAB_DI_SANGUE.get().asItem());
 			}).withTabsBefore(CARTE_DA_GIOCO.getId()).build());
 	public static final RegistryObject<CreativeModeTab> SCUOLA_GUIDA = REGISTRY.register("scuola_guida",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.scuola_guida")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {

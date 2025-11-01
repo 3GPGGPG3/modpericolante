@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cum:block/slab_di_sangue"
+    },
+    "type=top": {
+      "model": "cum:block/slab_di_sangue_top"
+    },
+    "type=double": {
+      "model": "cum:block/slab_di_sangue_full"
+    }
+  }
+}

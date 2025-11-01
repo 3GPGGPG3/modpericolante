@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "cum:block/bloccodisangue",
+    "bottom": "cum:block/bloccodisangue",
+    "top": "cum:block/bloccodisangue",
+    "side": "cum:block/bloccodisangue"
+  },
+  "render_type": "solid"
+}

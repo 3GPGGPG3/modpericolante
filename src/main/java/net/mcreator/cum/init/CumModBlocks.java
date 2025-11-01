@@ -20,6 +20,7 @@ import net.mcreator.cum.block.UltrakillanteOreBlock;
 import net.mcreator.cum.block.UltrakillanteBlockBlock;
 import net.mcreator.cum.block.TerraVuotaBlock;
 import net.mcreator.cum.block.TavoloBalatranteBlock;
+import net.mcreator.cum.block.SlabDiSangueBlock;
 import net.mcreator.cum.block.SensoVietatoBlock;
 import net.mcreator.cum.block.SensoUnicoFrontaleBlock;
 import net.mcreator.cum.block.ProvettaConLiquidoBlock;
@@ -188,6 +189,7 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> PROVETTA_CON_LIQUIDO = REGISTRY.register("provetta_con_liquido", () -> new ProvettaConLiquidoBlock());
 	public static final RegistryObject<Block> PROVETTA_CON_DNA_FRAMMENTATO = REGISTRY.register("provetta_con_dna_frammentato", () -> new ProvettaConDNAFrammentatoBlock());
 	public static final RegistryObject<Block> CONO_BLOCK = REGISTRY.register("cono_block", () -> new ConoBlockBlock());
+	public static final RegistryObject<Block> SLAB_DI_SANGUE = REGISTRY.register("slab_di_sangue", () -> new SlabDiSangueBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

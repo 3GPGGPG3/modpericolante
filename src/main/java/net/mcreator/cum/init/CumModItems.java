@@ -457,6 +457,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> PLASMIDECONTET = REGISTRY.register("plasmidecontet", () -> new PlasmidecontetItem());
 	public static final RegistryObject<Item> PBR_322 = REGISTRY.register("pbr_322", () -> new PBR32Item());
 	public static final RegistryObject<Item> ARMATURADELSANGUE_BOOTS = REGISTRY.register("armaturadelsangue_boots", () -> new ArmaturadelsangueItem.Boots());
+	public static final RegistryObject<Item> SLAB_DI_SANGUE = block(CumModBlocks.SLAB_DI_SANGUE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -12,6 +12,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:MacchineUtensili"
+      },
+      {
+        "value": "CUSTOM:IlFuMattiaPascal"
       }
     ],
     "stackSize": 1,
