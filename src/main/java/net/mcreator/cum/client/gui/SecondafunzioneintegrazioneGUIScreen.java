@@ -10,6 +10,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.cum.world.inventory.SecondafunzioneintegrazioneGUIMenu;
+import net.mcreator.cum.network.SecondafunzioneintegrazioneGUIButtonMessage;
+import net.mcreator.cum.CumMod;
 
 import java.util.HashMap;
 
@@ -65,14 +67,19 @@ public class SecondafunzioneintegrazioneGUIScreen extends AbstractContainerScree
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.cum.secondafunzioneintegrazione_gui.label_ecori"), 6, 44, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.cum.secondafunzioneintegrazione_gui.label_gene"), 44, 43, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.cum.secondafunzioneintegrazione_gui.label_ecori"), 6, 48, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.cum.secondafunzioneintegrazione_gui.label_gene"), 44, 47, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.cum.secondafunzioneintegrazione_gui.label_plasmide"), 31, 13, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
 		button_integra = Button.builder(Component.translatable("gui.cum.secondafunzioneintegrazione_gui.button_integra"), e -> {
+			if (true) {
+				CumMod.PACKET_HANDLER.sendToServer(new SecondafunzioneintegrazioneGUIButtonMessage(0, x, y, z));
+				SecondafunzioneintegrazioneGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}).bounds(this.leftPos + 7, this.topPos + 59, 61, 20).build();
 		guistate.put("button:button_integra", button_integra);
 		this.addRenderableWidget(button_integra);

@@ -62,6 +62,8 @@ import net.mcreator.cum.item.PuntaleContaminatoNegativoItem;
 import net.mcreator.cum.item.PuntaleContaminatoItem;
 import net.mcreator.cum.item.ProseccoItem;
 import net.mcreator.cum.item.PlasmidevuotoItem;
+import net.mcreator.cum.item.PlasmidecontetItem;
+import net.mcreator.cum.item.PlasmideampItem;
 import net.mcreator.cum.item.PerkeoNegativoItem;
 import net.mcreator.cum.item.PerkeoItem;
 import net.mcreator.cum.item.PeneItem;
@@ -70,6 +72,7 @@ import net.mcreator.cum.item.PeneDellaFrenesiaItem;
 import net.mcreator.cum.item.PaneIntegraleItem;
 import net.mcreator.cum.item.PaneDerivanteItem;
 import net.mcreator.cum.item.PallottoladoroItem;
+import net.mcreator.cum.item.PBR32Item;
 import net.mcreator.cum.item.OttoDiQuadriItem;
 import net.mcreator.cum.item.OttoDiPicchieItem;
 import net.mcreator.cum.item.OttoDiFioriItem;
@@ -96,7 +99,9 @@ import net.mcreator.cum.item.ImpenetrabileIntermedioItem;
 import net.mcreator.cum.item.IlFuMattiaPascalDiscoItem;
 import net.mcreator.cum.item.IMPENETRAZIONEItem;
 import net.mcreator.cum.item.ILGODOItem;
+import net.mcreator.cum.item.GenetetracillinaItem;
 import net.mcreator.cum.item.GenesgunItem;
+import net.mcreator.cum.item.GeneampicillinaItem;
 import net.mcreator.cum.item.GelDiAgarosioItem;
 import net.mcreator.cum.item.FrenziedCumItem;
 import net.mcreator.cum.item.FrammentoDiVetroItem;
@@ -445,6 +450,11 @@ public class CumModItems {
 	public static final RegistryObject<Item> MANO_DI_MALENIA = REGISTRY.register("mano_di_malenia", () -> new ManoDiMaleniaItem());
 	public static final RegistryObject<Item> MALENIA_BLADE_OF_MIQUELLA_SPAWN_EGG = REGISTRY.register("malenia_blade_of_miquella_spawn_egg",
 			() -> new ForgeSpawnEggItem(CumModEntities.MALENIA_BLADE_OF_MIQUELLA, -10066432, -10092544, new Item.Properties()));
+	public static final RegistryObject<Item> GENEAMPICILLINA = REGISTRY.register("geneampicillina", () -> new GeneampicillinaItem());
+	public static final RegistryObject<Item> GENETETRACILLINA = REGISTRY.register("genetetracillina", () -> new GenetetracillinaItem());
+	public static final RegistryObject<Item> PLASMIDEAMP = REGISTRY.register("plasmideamp", () -> new PlasmideampItem());
+	public static final RegistryObject<Item> PLASMIDECONTET = REGISTRY.register("plasmidecontet", () -> new PlasmidecontetItem());
+	public static final RegistryObject<Item> PBR_322 = REGISTRY.register("pbr_322", () -> new PBR32Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items
