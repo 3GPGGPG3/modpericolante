@@ -6,14 +6,19 @@ package net.mcreator.cum.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.cum.CumMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CumModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CumMod.MODID);
 	public static final RegistryObject<CreativeModeTab> IL_FU_MATTIA_PASCAL = REGISTRY.register("il_fu_mattia_pascal",
@@ -225,6 +230,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PLASMIDEAMP.get());
 				tabData.accept(CumModItems.PLASMIDECONTET.get());
 				tabData.accept(CumModItems.PBR_322.get());
+				tabData.accept(CumModItems.ARMATURADELSANGUE_BOOTS.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -480,4 +486,11 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PLASMIDECONTET.get());
 				tabData.accept(CumModItems.PBR_322.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(CumModItems.ARMATURADELSANGUE_BOOTS.get());
+		}
+	}
 }

@@ -160,6 +160,7 @@ import net.mcreator.cum.item.AssoDiFioriItem;
 import net.mcreator.cum.item.AssoDiFioriDiVetroItem;
 import net.mcreator.cum.item.AssoDiCuoriItem;
 import net.mcreator.cum.item.AssoDiCuoriDiVetroItem;
+import net.mcreator.cum.item.ArmaturadelsangueItem;
 import net.mcreator.cum.item.ArmaturaUltrakillanteItem;
 import net.mcreator.cum.item.ArmaturaLunareItem;
 import net.mcreator.cum.item.ArmaturaDelGodoItem;
@@ -455,6 +456,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> PLASMIDEAMP = REGISTRY.register("plasmideamp", () -> new PlasmideampItem());
 	public static final RegistryObject<Item> PLASMIDECONTET = REGISTRY.register("plasmidecontet", () -> new PlasmidecontetItem());
 	public static final RegistryObject<Item> PBR_322 = REGISTRY.register("pbr_322", () -> new PBR32Item());
+	public static final RegistryObject<Item> ARMATURADELSANGUE_BOOTS = REGISTRY.register("armaturadelsangue_boots", () -> new ArmaturadelsangueItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,23 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Sanguinamento Coagulato",
+    "icon": "sanguinamento_coagulato",
+    "color": {
+      "value": -11401722,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": false,
+    "isProtectedByTotem": false,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "Sanguinamentocoagulatoprocedure"
+    }
+  }
+}

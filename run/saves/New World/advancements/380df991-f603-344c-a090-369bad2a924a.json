@@ -8,9 +8,12 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-10-31 23:18:29 +0100",
+      "minecraft:river": "2025-11-01 15:53:16 +0100",
       "minecraft:stony_shore": "2025-10-31 23:01:44 +0100",
       "minecraft:grove": "2025-10-31 23:28:26 +0100",
       "minecraft:forest": "2025-10-31 23:28:36 +0100",
+      "minecraft:ocean": "2025-11-01 15:54:05 +0100",
+      "minecraft:flower_forest": "2025-11-01 15:26:30 +0100",
       "minecraft:plains": "2025-10-31 22:30:26 +0100"
     },
     "done": false
@@ -230,6 +233,84 @@
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2025-10-31 23:27:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-11-01 15:25:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-11-01 15:25:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-11-01 15:25:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-11-01 15:25:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-11-01 15:25:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-11-01 15:25:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-11-01 15:25:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-11-01 15:25:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-11-01 15:25:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2025-11-01 15:27:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-11-01 15:27:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2025-11-01 15:27:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-11-01 15:27:45 +0100"
     },
     "done": true
   },

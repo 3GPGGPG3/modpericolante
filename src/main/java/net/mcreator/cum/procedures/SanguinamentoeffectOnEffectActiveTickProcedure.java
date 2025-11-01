@@ -15,7 +15,7 @@ public class SanguinamentoeffectOnEffectActiveTickProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		CumMod.queueServerWork(30, () -> {
+		CumMod.queueServerWork(10, () -> {
 			world.setBlock(BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), CumModBlocks.BLOOD.get().defaultBlockState(), 3);
 		});
 		CumMod.queueServerWork(20, () -> {
