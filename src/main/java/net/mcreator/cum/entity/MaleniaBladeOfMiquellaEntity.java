@@ -108,7 +108,7 @@ public class MaleniaBladeOfMiquellaEntity extends Monster {
 	@Override
 	public void playerTouch(Player sourceentity) {
 		super.playerTouch(sourceentity);
-		MaleniaBladeOfMiquellaPlayerCollidesWithThisEntityProcedure.execute(this);
+		MaleniaBladeOfMiquellaPlayerCollidesWithThisEntityProcedure.execute(sourceentity);
 	}
 
 	@Override

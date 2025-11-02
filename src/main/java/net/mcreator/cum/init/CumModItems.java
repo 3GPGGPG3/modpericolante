@@ -92,6 +92,7 @@ import net.mcreator.cum.item.ManoDiMaleniaItem;
 import net.mcreator.cum.item.MacchinaDelTempoItem;
 import net.mcreator.cum.item.LunaDelGodoItem;
 import net.mcreator.cum.item.LingottoUltrakillanteItem;
+import net.mcreator.cum.item.LaPiantaItem;
 import net.mcreator.cum.item.JokerItem;
 import net.mcreator.cum.item.IndicatoreAlCavoloRossoItem;
 import net.mcreator.cum.item.ImpenetrableTemplateItem;
@@ -162,6 +163,7 @@ import net.mcreator.cum.item.AssoDiCuoriItem;
 import net.mcreator.cum.item.AssoDiCuoriDiVetroItem;
 import net.mcreator.cum.item.ArmaturadelsangueItem;
 import net.mcreator.cum.item.ArmaturaUltrakillanteItem;
+import net.mcreator.cum.item.ArmaturaPenalizzataItem;
 import net.mcreator.cum.item.ArmaturaLunareItem;
 import net.mcreator.cum.item.ArmaturaDelGodoItem;
 import net.mcreator.cum.item.AltPiercerItem;
@@ -458,6 +460,12 @@ public class CumModItems {
 	public static final RegistryObject<Item> PBR_322 = REGISTRY.register("pbr_322", () -> new PBR32Item());
 	public static final RegistryObject<Item> ARMATURADELSANGUE_BOOTS = REGISTRY.register("armaturadelsangue_boots", () -> new ArmaturadelsangueItem.Boots());
 	public static final RegistryObject<Item> SLAB_DI_SANGUE = block(CumModBlocks.SLAB_DI_SANGUE);
+	public static final RegistryObject<Item> SHREK_SPAWN_EGG = REGISTRY.register("shrek_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.SHREK, -16764160, -16751104, new Item.Properties()));
+	public static final RegistryObject<Item> LA_PIANTA = REGISTRY.register("la_pianta", () -> new LaPiantaItem());
+	public static final RegistryObject<Item> ARMATURA_PENALIZZATA_HELMET = REGISTRY.register("armatura_penalizzata_helmet", () -> new ArmaturaPenalizzataItem.Helmet());
+	public static final RegistryObject<Item> ARMATURA_PENALIZZATA_CHESTPLATE = REGISTRY.register("armatura_penalizzata_chestplate", () -> new ArmaturaPenalizzataItem.Chestplate());
+	public static final RegistryObject<Item> ARMATURA_PENALIZZATA_LEGGINGS = REGISTRY.register("armatura_penalizzata_leggings", () -> new ArmaturaPenalizzataItem.Leggings());
+	public static final RegistryObject<Item> ARMATURA_PENALIZZATA_BOOTS = REGISTRY.register("armatura_penalizzata_boots", () -> new ArmaturaPenalizzataItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -17,6 +17,7 @@ import net.mcreator.cum.client.renderer.V1Renderer;
 import net.mcreator.cum.client.renderer.UomoPrimitivoRenderer;
 import net.mcreator.cum.client.renderer.StrayRenderer;
 import net.mcreator.cum.client.renderer.SisyphusPrimeRenderer;
+import net.mcreator.cum.client.renderer.ShrekRenderer;
 import net.mcreator.cum.client.renderer.PlasmacellulaRenderer;
 import net.mcreator.cum.client.renderer.Pericolante7Renderer;
 import net.mcreator.cum.client.renderer.Pericolante6Renderer;
@@ -116,5 +117,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.FRENZIED_CUM_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PALLOTTOLADOROPROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.MALENIA_BLADE_OF_MIQUELLA.get(), MaleniaBladeOfMiquellaRenderer::new);
+		event.registerEntityRenderer(CumModEntities.SHREK.get(), ShrekRenderer::new);
 	}
 }

@@ -26,6 +26,7 @@ import net.mcreator.cum.entity.StellinaDelGodoEntity;
 import net.mcreator.cum.entity.StellaPericolosaProiettileEntity;
 import net.mcreator.cum.entity.SpadaGabriellanteLanciataEntity;
 import net.mcreator.cum.entity.SisyphusPrimeEntity;
+import net.mcreator.cum.entity.ShrekEntity;
 import net.mcreator.cum.entity.SemiSparatiEntity;
 import net.mcreator.cum.entity.ScheggiaDiPietraBalatranteProjectileEntity;
 import net.mcreator.cum.entity.RedCummEntity;
@@ -262,6 +263,10 @@ public class CumModEntities {
 					.setCustomClientFactory(MaleniaBladeOfMiquellaEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ShrekEntity>> SHREK = register("shrek",
+			EntityType.Builder.<ShrekEntity>of(ShrekEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ShrekEntity::new)
+
+					.sized(0.9f, 2.3f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -315,6 +320,7 @@ public class CumModEntities {
 			NocciolinaEntity.init();
 			GirasoleEntity.init();
 			MaleniaBladeOfMiquellaEntity.init();
+			ShrekEntity.init();
 		});
 	}
 
@@ -363,5 +369,6 @@ public class CumModEntities {
 		event.put(NOCCIOLINA.get(), NocciolinaEntity.createAttributes().build());
 		event.put(GIRASOLE.get(), GirasoleEntity.createAttributes().build());
 		event.put(MALENIA_BLADE_OF_MIQUELLA.get(), MaleniaBladeOfMiquellaEntity.createAttributes().build());
+		event.put(SHREK.get(), ShrekEntity.createAttributes().build());
 	}
 }

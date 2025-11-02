@@ -2,7 +2,6 @@ package net.mcreator.cum.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -12,6 +11,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.cum.init.CumModItems;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -35,7 +36,7 @@ public class LaPiantaBuyProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(Blocks.GRASS).copy();
+				ItemStack _setstack = new ItemStack(CumModItems.LA_PIANTA.get()).copy();
 				_setstack.setCount(1);
 				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();

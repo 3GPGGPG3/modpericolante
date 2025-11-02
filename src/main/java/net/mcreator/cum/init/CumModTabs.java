@@ -233,6 +233,12 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PBR_322.get());
 				tabData.accept(CumModItems.ARMATURADELSANGUE_BOOTS.get());
 				tabData.accept(CumModBlocks.SLAB_DI_SANGUE.get().asItem());
+				tabData.accept(CumModItems.SHREK_SPAWN_EGG.get());
+				tabData.accept(CumModItems.LA_PIANTA.get());
+				tabData.accept(CumModItems.ARMATURA_PENALIZZATA_HELMET.get());
+				tabData.accept(CumModItems.ARMATURA_PENALIZZATA_CHESTPLATE.get());
+				tabData.accept(CumModItems.ARMATURA_PENALIZZATA_LEGGINGS.get());
+				tabData.accept(CumModItems.ARMATURA_PENALIZZATA_BOOTS.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {

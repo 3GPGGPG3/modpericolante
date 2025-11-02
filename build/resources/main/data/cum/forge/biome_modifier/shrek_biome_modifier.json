@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "swamp",
+    "mangrove_swamp"
+  ],
+  "spawners": {
+    "type": "cum:shrek",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

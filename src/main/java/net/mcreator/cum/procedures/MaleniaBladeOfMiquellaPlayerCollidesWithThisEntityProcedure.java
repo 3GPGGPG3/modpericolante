@@ -7,10 +7,10 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.mcreator.cum.init.CumModMobEffects;
 
 public class MaleniaBladeOfMiquellaPlayerCollidesWithThisEntityProcedure {
-	public static void execute(Entity entity) {
-		if (entity == null)
+	public static void execute(Entity sourceentity) {
+		if (sourceentity == null)
 			return;
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+		if (sourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(CumModMobEffects.MARCESCENZA_SCARLATTA.get(), 260, 0, false, false));
 	}
 }
