@@ -85,7 +85,7 @@ public class PVZshopMenu extends AbstractContainerMenu implements Supplier<Map<I
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return CumModItems.CCUM.get() == stack.getItem();
+				return CumModItems.SOLE.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 173, 88) {

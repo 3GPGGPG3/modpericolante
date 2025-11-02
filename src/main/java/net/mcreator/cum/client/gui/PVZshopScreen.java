@@ -91,7 +91,7 @@ public class PVZshopScreen extends AbstractContainerScreen<PVZshopMenu> {
 		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_ciao_vicino_io_sono_dave_il_pazz"), 6, 4, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_puoi_comprare_delle_piante_in_ca"), 6, 15, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_buy"), 213, 89, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_put_here_your_seeds"), 284, 30, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_put_here_your_seeds"), 287, 30, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_metti_il_cursore_al_centro_per_v"), 17, 84, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_della_pianta_per_vederne"), 20, 92, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_il_prezzo"), 58, 101, -12829636, false);

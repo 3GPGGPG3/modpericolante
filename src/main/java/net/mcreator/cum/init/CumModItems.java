@@ -29,6 +29,7 @@ import net.mcreator.cum.item.StellaDelGodoItem;
 import net.mcreator.cum.item.StaffaDelGodoNegativaItem;
 import net.mcreator.cum.item.StaffaDelGodoItem;
 import net.mcreator.cum.item.SpadaSuperGodevoleItem;
+import net.mcreator.cum.item.SpadaSolareItem;
 import net.mcreator.cum.item.SpadaLunare4Item;
 import net.mcreator.cum.item.SpadaLunare3Item;
 import net.mcreator.cum.item.SpadaLunare2Item;
@@ -36,6 +37,7 @@ import net.mcreator.cum.item.SpadaLunare1Item;
 import net.mcreator.cum.item.SpadaGodevoleItem;
 import net.mcreator.cum.item.SpadaGabriellanteItem;
 import net.mcreator.cum.item.SoulSurvivorItem;
+import net.mcreator.cum.item.SoleItem;
 import net.mcreator.cum.item.SiItem;
 import net.mcreator.cum.item.SetteDiQuadriItem;
 import net.mcreator.cum.item.SetteDiPicchieItem;
@@ -466,6 +468,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> ARMATURA_PENALIZZATA_CHESTPLATE = REGISTRY.register("armatura_penalizzata_chestplate", () -> new ArmaturaPenalizzataItem.Chestplate());
 	public static final RegistryObject<Item> ARMATURA_PENALIZZATA_LEGGINGS = REGISTRY.register("armatura_penalizzata_leggings", () -> new ArmaturaPenalizzataItem.Leggings());
 	public static final RegistryObject<Item> ARMATURA_PENALIZZATA_BOOTS = REGISTRY.register("armatura_penalizzata_boots", () -> new ArmaturaPenalizzataItem.Boots());
+	public static final RegistryObject<Item> SOLE = REGISTRY.register("sole", () -> new SoleItem());
+	public static final RegistryObject<Item> SPADA_SOLARE = REGISTRY.register("spada_solare", () -> new SpadaSolareItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

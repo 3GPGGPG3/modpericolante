@@ -57,7 +57,7 @@
         "data": {
           "name": "label_puoi_comprare_delle_piante_in_ca",
           "text": {
-            "fixedValue": "puOi CompRArE deLLe PiaNtE iN CamBiO dI sEMi."
+            "fixedValue": "puOi CompRArE deLLe PiaNtE iN CamBiO dI sOlI."
           },
           "color": {
             "value": -12829636,
@@ -177,13 +177,13 @@
         "data": {
           "name": "label_put_here_your_seeds",
           "text": {
-            "fixedValue": "Put here your seeds"
+            "fixedValue": "Put here your suns"
           },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 298,
+          "x": 301,
           "y": 54,
           "locked": false
         }
@@ -192,7 +192,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:Ccum"
+            "value": "CUSTOM:Sole"
           },
           "disablePlacement": {
             "fixedValue": false
@@ -212,7 +212,7 @@
         "data": {
           "name": "tooltip_10_seeds",
           "text": {
-            "fixedValue": "40 seeds"
+            "fixedValue": "40 suns"
           },
           "width": 24,
           "height": 24,
@@ -226,7 +226,7 @@
         "data": {
           "name": "tooltip_20_seeds",
           "text": {
-            "fixedValue": "20 seeds"
+            "fixedValue": "20 suns"
           },
           "width": 24,
           "height": 24,
@@ -240,7 +240,7 @@
         "data": {
           "name": "tooltip_50_seeds",
           "text": {
-            "fixedValue": "50 seeds"
+            "fixedValue": "50 suns"
           },
           "width": 24,
           "height": 24,

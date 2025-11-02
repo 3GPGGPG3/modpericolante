@@ -239,6 +239,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.ARMATURA_PENALIZZATA_CHESTPLATE.get());
 				tabData.accept(CumModItems.ARMATURA_PENALIZZATA_LEGGINGS.get());
 				tabData.accept(CumModItems.ARMATURA_PENALIZZATA_BOOTS.get());
+				tabData.accept(CumModItems.SOLE.get());
+				tabData.accept(CumModItems.SPADA_SOLARE.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
