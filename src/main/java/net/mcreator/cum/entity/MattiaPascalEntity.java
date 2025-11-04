@@ -175,7 +175,7 @@ public class MattiaPascalEntity extends PathfinderMob {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		MattiaPascalEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		MattiaPascalEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

@@ -1,6 +1,7 @@
 package net.mcreator.cum.client.model;
 
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.client.model.geom.builders.MeshDefinition;
@@ -74,5 +75,9 @@ public class Modelil_fu_mattia_pascal<T extends Entity> extends EntityModel<T> {
 	}
 
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+		this.gambasx.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
+		this.bracciodx.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.gambadx.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
+		this.bracciosx.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
 	}
 }

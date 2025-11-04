@@ -9,7 +9,9 @@
     "criteria": {
       "minecraft:sparse_jungle": "2025-11-02 15:03:12 +0100",
       "minecraft:lukewarm_ocean": "2025-11-02 21:51:39 +0100",
-      "minecraft:stony_shore": "2025-11-02 15:05:57 +0100"
+      "minecraft:river": "2025-11-04 19:44:41 +0100",
+      "minecraft:stony_shore": "2025-11-02 15:05:57 +0100",
+      "minecraft:jungle": "2025-11-04 19:53:42 +0100"
     },
     "done": false
   },
@@ -424,6 +426,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-11-02 23:01:43 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2025-11-02 23:05:39 +0100"
@@ -433,12 +441,6 @@
   "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
       "has_string": "2025-11-02 23:05:39 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-11-02 23:01:43 +0100"
     },
     "done": true
   },

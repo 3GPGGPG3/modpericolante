@@ -94,5 +94,9 @@ public class Modelil_fu_mattia_pascal<T extends Entity> extends EntityModel<T> {
 
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
 			float headPitch) {
+		this.gambasx.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
+		this.bracciodx.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.gambadx.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
+		this.bracciosx.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
 	}
 }
