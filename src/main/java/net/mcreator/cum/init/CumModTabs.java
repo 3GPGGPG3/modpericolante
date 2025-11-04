@@ -241,6 +241,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.ARMATURA_PENALIZZATA_BOOTS.get());
 				tabData.accept(CumModItems.SOLE.get());
 				tabData.accept(CumModItems.SPADA_SOLARE.get());
+				tabData.accept(CumModItems.RADIANT_POWER_OF_THE_SUN.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -421,6 +422,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.BLOOD_BUCKET.get());
 				tabData.accept(CumModItems.TECNOLOGIA_V_1NANTE.get());
 				tabData.accept(CumModBlocks.SLAB_DI_SANGUE.get().asItem());
+				tabData.accept(CumModItems.RADIANT_POWER_OF_THE_SUN.get());
 			}).withTabsBefore(CARTE_DA_GIOCO.getId()).build());
 	public static final RegistryObject<CreativeModeTab> SCUOLA_GUIDA = REGISTRY.register("scuola_guida",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.scuola_guida")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {

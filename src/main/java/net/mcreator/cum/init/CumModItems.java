@@ -52,6 +52,7 @@ import net.mcreator.cum.item.RelazioneVuotaItem;
 import net.mcreator.cum.item.RelazioneItem;
 import net.mcreator.cum.item.RedCumItem;
 import net.mcreator.cum.item.ReceiptItem;
+import net.mcreator.cum.item.RadiantPowerOfTheSunItem;
 import net.mcreator.cum.item.QuDiQuadriItem;
 import net.mcreator.cum.item.QuDiPicchieItem;
 import net.mcreator.cum.item.QuDiFioriItem;
@@ -470,6 +471,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> ARMATURA_PENALIZZATA_BOOTS = REGISTRY.register("armatura_penalizzata_boots", () -> new ArmaturaPenalizzataItem.Boots());
 	public static final RegistryObject<Item> SOLE = REGISTRY.register("sole", () -> new SoleItem());
 	public static final RegistryObject<Item> SPADA_SOLARE = REGISTRY.register("spada_solare", () -> new SpadaSolareItem());
+	public static final RegistryObject<Item> RADIANT_POWER_OF_THE_SUN = REGISTRY.register("radiant_power_of_the_sun", () -> new RadiantPowerOfTheSunItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

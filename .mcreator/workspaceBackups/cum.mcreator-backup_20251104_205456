@@ -6280,6 +6280,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -11693,6 +11697,101 @@
           "src/main/resources/assets/cum/models/item/spada_solare.json"
         ]
       }
+    },
+    {
+      "name": "RadiantPowerOfTheSun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiant_power_of_the_sun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/RadiantPowerOfTheSunItem.java",
+          "src/main/resources/assets/cum/models/item/radiant_power_of_the_sun.json"
+        ]
+      }
+    },
+    {
+      "name": "RadiantPowerOfTheSunItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiant_power_of_the_sun_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/RadiantPowerOfTheSunItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadiantPowerOfTheSunRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiant_power_of_the_sun_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/RadiantPowerOfTheSunRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpadaSolareRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spada_solare_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/SpadaSolareRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -12531,6 +12630,7 @@
       "gui.cum.mira_gui.label_consegna_compito": "Consegna compito",
       "gui.cum.chat_gpt.label_vuoi_che_ti_crei_un_blocco_per_m": "Vuoi che ti crei un blocco per Minecraft? Fammi sapere!",
       "subtitles.gb_foolishnessmachine": "",
+      "item.cum.radiant_power_of_the_sun.description_0": "It\u0027s close to Sisyphus Prime\u0027s power.",
       "gui.cum.chat_gpt.button_plasmide": "Fammi un plasmide",
       "item.cum.cin_di_picchie": "5 di Picchie",
       "block.cum.pass_obb_dx": "Passaggio obbligatorio a destra",
@@ -12676,6 +12776,7 @@
       "item.cum.otto_di_cuori": "8 di Cuori",
       "item.cum.plasmideamp": "Plasmide con amp+",
       "gui.cum.derivazione_gui.label_d": "d",
+      "item.cum.radiant_power_of_the_sun": "Potere radiante del sole (PRDS)",
       "block.cum.blocco_pericolante_inverso": "Blocco pericolante inverso",
       "gui.cum.derivazione_gui.label_c": "+ c",
       "item.cum.spada_godevole.description_0": "Questa spada godevole può essere messa in combinazione con un altra per ottenere una spada ancora più godevole.",

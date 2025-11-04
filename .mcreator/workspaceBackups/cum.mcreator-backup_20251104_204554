@@ -6280,6 +6280,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -11680,6 +11684,54 @@
           "src/main/java/net/mcreator/cum/item/SoleItem.java"
         ]
       }
+    },
+    {
+      "name": "SpadaSolare",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spada_solare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/SpadaSolareItem.java",
+          "src/main/resources/assets/cum/models/item/spada_solare.json"
+        ]
+      }
+    },
+    {
+      "name": "RadiantPowerOfTheSun",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiant_power_of_the_sun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/RadiantPowerOfTheSunItem.java",
+          "src/main/resources/assets/cum/models/item/radiant_power_of_the_sun.json"
+        ]
+      }
+    },
+    {
+      "name": "RadiantPowerOfTheSunItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiant_power_of_the_sun_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/RadiantPowerOfTheSunItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -12583,6 +12635,7 @@
       "entity.cum.olivia": "Olivia",
       "block.cum.balatro_grass": "Prato balatrante",
       "painting.cum.paperone_casino_2.title": "Paperone Balatrante2",
+      "item.cum.spada_solare": "Spada Solare",
       "item.cum.bastone_paperone": "Bastone di Paperone",
       "item.cum.due_di_cuori.description_0": "+2 fiche.",
       "item.cum.impenetrabile_intermedio.description_0": "You\u0027re not almost there.",
@@ -12662,6 +12715,7 @@
       "item.cum.otto_di_cuori": "8 di Cuori",
       "item.cum.plasmideamp": "Plasmide con amp+",
       "gui.cum.derivazione_gui.label_d": "d",
+      "item.cum.radiant_power_of_the_sun": "Sole",
       "block.cum.blocco_pericolante_inverso": "Blocco pericolante inverso",
       "gui.cum.derivazione_gui.label_c": "+ c",
       "item.cum.spada_godevole.description_0": "Questa spada godevole può essere messa in combinazione con un altra per ottenere una spada ancora più godevole.",
