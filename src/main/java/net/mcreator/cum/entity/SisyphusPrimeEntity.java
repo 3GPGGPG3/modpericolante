@@ -120,7 +120,7 @@ public class SisyphusPrimeEntity extends Monster {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		SisyphusPrimeEntityDiesProcedure.execute(this);
+		SisyphusPrimeEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override
