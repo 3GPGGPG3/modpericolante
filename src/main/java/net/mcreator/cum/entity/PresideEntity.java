@@ -20,7 +20,6 @@ import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
@@ -34,7 +33,6 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 import net.minecraft.nbt.CompoundTag;
 
-import net.mcreator.cum.procedures.PresideincazzatoProcedure;
 import net.mcreator.cum.procedures.PresideOnEntityTickUpdateProcedure;
 import net.mcreator.cum.procedures.PresideEntityDiesProcedure;
 import net.mcreator.cum.init.CumModEntities;
@@ -71,37 +69,17 @@ public class PresideEntity extends PathfinderMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
+		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(5, new FloatGoal(this));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Player.class, false, false) {
-			@Override
-			public boolean canUse() {
-				double x = PresideEntity.this.getX();
-				double y = PresideEntity.this.getY();
-				double z = PresideEntity.this.getZ();
-				Entity entity = PresideEntity.this;
-				Level world = PresideEntity.this.level();
-				return super.canUse() && PresideincazzatoProcedure.execute(entity);
-			}
-
-			@Override
-			public boolean canContinueToUse() {
-				double x = PresideEntity.this.getX();
-				double y = PresideEntity.this.getY();
-				double z = PresideEntity.this.getZ();
-				Entity entity = PresideEntity.this;
-				Level world = PresideEntity.this.level();
-				return super.canContinueToUse() && PresideincazzatoProcedure.execute(entity);
-			}
-		});
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1));
+		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(6, new FloatGoal(this));
 	}
 
 	@Override

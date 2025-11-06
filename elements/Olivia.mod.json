@@ -5,7 +5,7 @@
     "mobName": "Olivia",
     "mobLabel": "Olivia",
     "mobModelName": "ModelOlivia",
-    "mobModelTexture": "olivia.png",
+    "mobModelTexture": "olivia_really_olivant.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -22,7 +22,16 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "animations": [],
+    "animations": [
+      {
+        "animation": {
+          "value": "CUSTOM:OliviaAnimation.walking"
+        },
+        "speed": 1.0,
+        "walking": true,
+        "amplitude": 1.0
+      }
+    ],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
