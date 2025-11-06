@@ -32,6 +32,7 @@ import net.mcreator.cum.entity.ScheggiaDiPietraBalatranteProjectileEntity;
 import net.mcreator.cum.entity.RedCummEntity;
 import net.mcreator.cum.entity.PuntaleSparatoEntity;
 import net.mcreator.cum.entity.PuntaleNegativoSparatoEntity;
+import net.mcreator.cum.entity.PresideEntity;
 import net.mcreator.cum.entity.PlasmacellulaEntity;
 import net.mcreator.cum.entity.Pericolante7Entity;
 import net.mcreator.cum.entity.Pericolante6Entity;
@@ -267,6 +268,10 @@ public class CumModEntities {
 			EntityType.Builder.<ShrekEntity>of(ShrekEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ShrekEntity::new)
 
 					.sized(0.9f, 2.3f));
+	public static final RegistryObject<EntityType<PresideEntity>> PRESIDE = register("preside",
+			EntityType.Builder.<PresideEntity>of(PresideEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(32).setUpdateInterval(3).setCustomClientFactory(PresideEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -321,6 +326,7 @@ public class CumModEntities {
 			GirasoleEntity.init();
 			MaleniaBladeOfMiquellaEntity.init();
 			ShrekEntity.init();
+			PresideEntity.init();
 		});
 	}
 
@@ -370,5 +376,6 @@ public class CumModEntities {
 		event.put(GIRASOLE.get(), GirasoleEntity.createAttributes().build());
 		event.put(MALENIA_BLADE_OF_MIQUELLA.get(), MaleniaBladeOfMiquellaEntity.createAttributes().build());
 		event.put(SHREK.get(), ShrekEntity.createAttributes().build());
+		event.put(PRESIDE.get(), PresideEntity.createAttributes().build());
 	}
 }

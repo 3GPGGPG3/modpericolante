@@ -1,0 +1,22 @@
+package net.mcreator.cum.procedures;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.cum.init.CumModMobEffects;
+import net.mcreator.cum.init.CumModItems;
+
+public class NormadivietousotelefonoEntitySwingsItemProcedure {
+	public static void execute(Entity entity) {
+		if (entity == null)
+			return;
+		if (entity instanceof Player _player) {
+			ItemStack _stktoremove = new ItemStack(CumModItems.NORMADIVIETOUSOTELEFONO.get());
+			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+		}
+		if (entity instanceof LivingEntity _entity)
+			_entity.removeEffect(CumModMobEffects.DIVIETOUSOCELLULAREEFFECT.get());
+	}
+}

@@ -87,6 +87,7 @@ import net.mcreator.cum.item.NoveDiQuadriItem;
 import net.mcreator.cum.item.NoveDiPicchieItem;
 import net.mcreator.cum.item.NoveDiFioriItem;
 import net.mcreator.cum.item.NoveDiCuoriItem;
+import net.mcreator.cum.item.NormadivietousotelefonoItem;
 import net.mcreator.cum.item.NoItem;
 import net.mcreator.cum.item.NeroColtelloItem;
 import net.mcreator.cum.item.MoltItem;
@@ -472,6 +473,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> SOLE = REGISTRY.register("sole", () -> new SoleItem());
 	public static final RegistryObject<Item> SPADA_SOLARE = REGISTRY.register("spada_solare", () -> new SpadaSolareItem());
 	public static final RegistryObject<Item> RADIANT_POWER_OF_THE_SUN = REGISTRY.register("radiant_power_of_the_sun", () -> new RadiantPowerOfTheSunItem());
+	public static final RegistryObject<Item> PRESIDE_SPAWN_EGG = REGISTRY.register("preside_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.PRESIDE, -16776961, -4815611, new Item.Properties()));
+	public static final RegistryObject<Item> NORMADIVIETOUSOTELEFONO = REGISTRY.register("normadivietousotelefono", () -> new NormadivietousotelefonoItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

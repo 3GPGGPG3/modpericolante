@@ -15,6 +15,7 @@ import net.mcreator.cum.potion.SanguinamentocoagulatoMobEffect;
 import net.mcreator.cum.potion.PenalizzatoMobEffect;
 import net.mcreator.cum.potion.MarcescenzaScarlattaMobEffect;
 import net.mcreator.cum.potion.FolliaMobEffect;
+import net.mcreator.cum.potion.DivietousocellulareeffectMobEffect;
 import net.mcreator.cum.CumMod;
 
 public class CumModMobEffects {
@@ -24,4 +25,5 @@ public class CumModMobEffects {
 	public static final RegistryObject<MobEffect> SANGUINAMENTOEFFECT = REGISTRY.register("sanguinamentoeffect", () -> new SanguinamentoeffectMobEffect());
 	public static final RegistryObject<MobEffect> SANGUINAMENTOCOAGULATO = REGISTRY.register("sanguinamentocoagulato", () -> new SanguinamentocoagulatoMobEffect());
 	public static final RegistryObject<MobEffect> PENALIZZATO = REGISTRY.register("penalizzato", () -> new PenalizzatoMobEffect());
+	public static final RegistryObject<MobEffect> DIVIETOUSOCELLULAREEFFECT = REGISTRY.register("divietousocellulareeffect", () -> new DivietousocellulareeffectMobEffect());
 }

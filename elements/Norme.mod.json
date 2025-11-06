@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Norme",
+    "icon": {
+      "value": "CUSTOM:Relazione"
+    },
+    "showSearch": true
+  }
+}

@@ -23,6 +23,7 @@ import net.mcreator.cum.client.model.Modelflesh_panopticom;
 import net.mcreator.cum.client.model.Modelfilfh;
 import net.mcreator.cum.client.model.Modelcube;
 import net.mcreator.cum.client.model.Modelanticorpo;
+import net.mcreator.cum.client.model.ModelPreside;
 import net.mcreator.cum.client.model.ModelOlivia;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -35,6 +36,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelpeashooter.LAYER_LOCATION, Modelpeashooter::createBodyLayer);
 		event.registerLayerDefinition(Modelgirasole.LAYER_LOCATION, Modelgirasole::createBodyLayer);
 		event.registerLayerDefinition(Modelgabriel.LAYER_LOCATION, Modelgabriel::createBodyLayer);
+		event.registerLayerDefinition(ModelPreside.LAYER_LOCATION, ModelPreside::createBodyLayer);
 		event.registerLayerDefinition(Modelcube.LAYER_LOCATION, Modelcube::createBodyLayer);
 		event.registerLayerDefinition(Modelanticorpo.LAYER_LOCATION, Modelanticorpo::createBodyLayer);
 		event.registerLayerDefinition(Modelflesh_panopticom.LAYER_LOCATION, Modelflesh_panopticom::createBodyLayer);
