@@ -7,6 +7,8 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HierarchicalModel;
 
+import net.mcreator.cum.procedures.OliviaSpogliataProcedure;
+import net.mcreator.cum.procedures.OliviaNormaleProcedure;
 import net.mcreator.cum.entity.OliviaEntity;
 import net.mcreator.cum.client.model.animations.OliviaAnimation;
 import net.mcreator.cum.client.model.ModelOlivia;
@@ -32,7 +34,15 @@ public class OliviaRenderer extends MobRenderer<OliviaEntity, ModelOlivia<Olivia
 			@Override
 			public void setupAnim(OliviaEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 				this.root().getAllParts().forEach(ModelPart::resetPose);
-				this.animateWalk(OliviaAnimation.walking, limbSwing, limbSwingAmount, 1f, 1f);
+				if (OliviaNormaleProcedure.execute(entity))
+					this.animateWalk(OliviaAnimation.WALKING_ANIMATION, limbSwing, limbSwingAmount, 1f, 1f);
+				this.animate(entity.animationState1, OliviaAnimation.SPOGLIATI_ANIMATION, ageInTicks, 1f);
+				if (OliviaSpogliataProcedure.execute(entity))
+					this.animateWalk(OliviaAnimation.WALKINGSPOGLIATA_ANIMATION, limbSwing, limbSwingAmount, 1f, 1f);
+				this.animate(entity.animationState3, OliviaAnimation.IDLEVESTITA_ANIMATION, ageInTicks, 1f);
+				this.animate(entity.animationState4, OliviaAnimation.IDLENUDA_ANIMATION, ageInTicks, 1f);
+				this.animate(entity.animationState5, OliviaAnimation.SEXING_ANIMATION, ageInTicks, 1f);
+				this.animate(entity.animationState6, OliviaAnimation.INFILING_ANIMATION, ageInTicks, 1f);
 			}
 		};
 

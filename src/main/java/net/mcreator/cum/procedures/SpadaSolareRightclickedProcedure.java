@@ -40,7 +40,7 @@ public class SpadaSolareRightclickedProcedure {
 						entityToSpawn.zPower = az;
 						return entityToSpawn;
 					}
-				}.getFireball(projectileLevel, entity, 2, 2, 2);
+				}.getFireball(projectileLevel, entity, (entity.getLookAngle().x), (entity.getLookAngle().y), (entity.getLookAngle().z));
 				_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
 				_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, (float) 2.6, 2);
 				projectileLevel.addFreshEntity(_entityToSpawn);

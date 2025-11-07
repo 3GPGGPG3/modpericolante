@@ -25,10 +25,79 @@
     "animations": [
       {
         "animation": {
-          "value": "CUSTOM:OliviaAnimation.walking"
+          "value": "CUSTOM:OliviaAnimation.WALKING_ANIMATION"
         },
         "speed": 1.0,
+        "condition": {
+          "name": "OliviaNormale"
+        },
         "walking": true,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:OliviaAnimation.SPOGLIATI_ANIMATION"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "OliviaMentreSpoglia"
+        },
+        "walking": false,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:OliviaAnimation.WALKINGSPOGLIATA_ANIMATION"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "OliviaSpogliata"
+        },
+        "walking": true,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:OliviaAnimation.IDLEVESTITA_ANIMATION"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "OliviaIdleVestita"
+        },
+        "walking": false,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:OliviaAnimation.IDLENUDA_ANIMATION"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "OliviaIdleNudaCondition"
+        },
+        "walking": false,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:OliviaAnimation.SEXING_ANIMATION"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "OliviaSexing"
+        },
+        "walking": false,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:OliviaAnimation.INFILING_ANIMATION"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "OliviaInfiling"
+        },
+        "walking": false,
         "amplitude": 1.0
       }
     ],
@@ -91,7 +160,7 @@
       "fixedValue": true
     },
     "flyingMob": false,
-    "inventorySize": 9,
+    "inventorySize": 1,
     "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,
@@ -130,17 +199,48 @@
     },
     "entityDataEntries": [
       {
-        "name": "Walk",
+        "name": "walk_normal",
+        "type": "logic",
+        "value": true
+      },
+      {
+        "name": "walk_naked",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "spogliati",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "angry",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "sexing",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "infiling",
         "type": "logic",
         "value": false
       }
     ],
-    "onMobTickUpdate": {
-      "name": "OliviaOnEntityTickUpdate"
+    "whenMobIsHurt": {
+      "name": "OliviaEntityIsHurt"
+    },
+    "onRightClickedOn": {
+      "name": "OliviaRightClickedOnEntity"
+    },
+    "onPlayerCollidesWith": {
+      "name": "SpogliatiClicked"
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">OliviaDeveStareFerma,OliviaDeveStareFerma</field><next><block type=\"look_around\"><field name=\"condition\">OliviaDeveStareFerma,OliviaDeveStareFerma</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">OliviaDeveStareFerma,OliviaDeveStareFerma</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Terpene</field></block></value><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">OliviaDeveStareFerma,OliviaDeveStareFerma</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:PeneDuro</field></block></value><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">OliviaDeveStareFerma,OliviaDeveStareFerma</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CazzoRosso</field></block></value><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">TRUE</field><field name=\"condition\">OliviaDeveStareFerma,OliviaDeveStareFerma</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:PeneDellaFrenesia</field></block></value><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">TRUE</field><field name=\"condition\">OliviaDeveStareFerma,OliviaDeveStareFerma</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Pene</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
