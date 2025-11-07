@@ -1,298 +1,388 @@
-[07Nov2025 00:00:05.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[07Nov2025 00:00:12.095] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.129] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.151] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.181] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.203] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.229] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.251] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.336] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.338] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.357] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.357] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.386] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.386] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.386] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:12.688] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:13.187] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:13.695] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:14.182] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:14.692] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:15.199] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:15.796] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:16.182] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:16.833] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:17.198] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:17.680] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:18.188] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:18.733] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07Nov2025 00:00:19.242] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[07Nov2025 00:00:19.694] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[07Nov2025 00:00:20.971] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15293 ms
-[07Nov2025 00:00:20.988] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[07Nov2025 00:00:21.770] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[07Nov2025 00:00:21.776] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[07Nov2025 00:00:22.280] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[07Nov2025 00:00:23.718] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[07Nov2025 00:00:24.019] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:10005291] logged in with entity id 494 at (-3.5, 73.0, -8.5)
-[07Nov2025 00:00:24.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[07Nov2025 00:00:24.656] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2918ms or 58 ticks behind
-[07Nov2025 00:00:26.666] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 104 advancements
-[07Nov2025 00:00:35.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by Gabriel, judge of Hell
-[07Nov2025 00:00:35.874] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by Gabriel, judge of Hell
-[07Nov2025 00:00:43.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by Gabriel, judge of Hell
-[07Nov2025 00:00:43.201] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by Gabriel, judge of Hell
-[07Nov2025 00:00:43.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[07Nov2025 00:00:43.281] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[07Nov2025 00:00:44.112] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4474ms or 89 ticks behind
-[07Nov2025 00:00:46.352] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: cum:gb_hurt2
-[07Nov2025 00:00:50.026] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[07Nov2025 00:00:50.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07Nov2025 00:00:52.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[07Nov2025 00:00:52.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[07Nov2025 00:00:52.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07Nov2025 00:00:52.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07Nov2025 00:00:52.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[07Nov2025 00:00:52.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[07Nov2025 00:00:52.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[07Nov2025 00:00:52.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[07Nov2025 00:01:19.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the weather to clear]
-[07Nov2025 00:01:19.381] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the weather to clear
-[07Nov2025 00:01:26.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gamerule doWeatherCycle is now set to: false]
-[07Nov2025 00:01:26.639] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gamerule doWeatherCycle is now set to: false
-[07Nov2025 00:02:04.034] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/1057, l='ServerLevel[New World]', x=-2.48, y=72.00, z=-4.30] died: Olivia was shot by Dev
-[07Nov2025 00:03:07.054] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/1247, l='ServerLevel[New World]', x=-99.70, y=77.00, z=-19.30] died: Olivia was shot by Dev
-[07Nov2025 00:03:17.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[07Nov2025 00:03:17.937] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[07Nov2025 00:03:30.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [La Pianta] to Dev]
-[07Nov2025 00:03:30.869] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [La Pianta] to Dev
-[07Nov2025 00:03:31.674] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Entità penalizzata
-[07Nov2025 00:03:42.009] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/1425, l='ServerLevel[New World]', x=-76.18, y=79.00, z=-33.04] died: Preside was slain by Dev
-[07Nov2025 00:03:46.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[07Nov2025 00:03:46.908] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[07Nov2025 00:04:05.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[07Nov2025 00:04:05.007] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[07Nov2025 00:04:39.611] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/1723, l='ServerLevel[New World]', x=-85.62, y=76.00, z=-30.74] died: Preside was shot by Dev
-[07Nov2025 00:05:16.369] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/1753, l='ServerLevel[New World]', x=-83.30, y=75.00, z=-26.34] died: Olivia was shot by Dev
-[07Nov2025 00:05:28.656] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 105 advancements
-[07Nov2025 00:06:09.062] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/2283, l='ServerLevel[New World]', x=6.50, y=62.59, z=10.50] died: Preside was shot by Dev
-[07Nov2025 00:06:12.732] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MattiaPascalEntity['Mattia Pascal'/17, l='ServerLevel[New World]', x=-5.35, y=70.00, z=-3.30] died: Mattia Pascal was killed
-[07Nov2025 00:06:12.749] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IlFuMattiaPascal2Entity['Il fu Mattia Pascal'/172, l='ServerLevel[New World]', x=-91.36, y=28.92, z=-85.97] died: Il fu Mattia Pascal was killed
-[07Nov2025 00:06:12.751] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IlFuMattiaPascal2Entity['Il fu Mattia Pascal'/204, l='ServerLevel[New World]', x=-23.30, y=60.00, z=-127.61] died: Il fu Mattia Pascal was killed
-[07Nov2025 00:06:12.752] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/205, l='ServerLevel[New World]', x=-41.31, y=88.00, z=-116.63] died: Preside was killed
-[07Nov2025 00:06:12.752] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/209, l='ServerLevel[New World]', x=-42.48, y=95.00, z=-143.41] died: Preside was killed
-[07Nov2025 00:06:12.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/230, l='ServerLevel[New World]', x=-46.42, y=95.00, z=-152.60] died: Preside was killed
-[07Nov2025 00:06:12.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/231, l='ServerLevel[New World]', x=-42.22, y=95.00, z=-144.97] died: Preside was killed
-[07Nov2025 00:06:12.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/232, l='ServerLevel[New World]', x=-42.01, y=95.00, z=-148.85] died: Preside was killed
-[07Nov2025 00:06:12.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/233, l='ServerLevel[New World]', x=-41.70, y=95.00, z=-154.14] died: Preside was killed
-[07Nov2025 00:06:12.755] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/234, l='ServerLevel[New World]', x=-36.43, y=95.00, z=-151.21] died: Preside was killed
-[07Nov2025 00:06:12.755] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/235, l='ServerLevel[New World]', x=-42.16, y=95.00, z=-146.30] died: Preside was killed
-[07Nov2025 00:06:12.755] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/236, l='ServerLevel[New World]', x=-43.90, y=95.00, z=-152.49] died: Preside was killed
-[07Nov2025 00:06:12.755] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/237, l='ServerLevel[New World]', x=-39.60, y=94.00, z=-146.04] died: Preside was killed
-[07Nov2025 00:06:12.755] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/238, l='ServerLevel[New World]', x=-46.52, y=95.00, z=-148.90] died: Preside was killed
-[07Nov2025 00:06:12.761] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/239, l='ServerLevel[New World]', x=-36.60, y=95.00, z=-153.78] died: Preside was killed
-[07Nov2025 00:06:12.762] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/240, l='ServerLevel[New World]', x=-45.55, y=95.00, z=-152.06] died: Preside was killed
-[07Nov2025 00:06:12.762] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/241, l='ServerLevel[New World]', x=-41.37, y=95.00, z=-154.75] died: Preside was killed
-[07Nov2025 00:06:12.763] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/242, l='ServerLevel[New World]', x=-39.43, y=95.00, z=-154.31] died: Preside was killed
-[07Nov2025 00:06:12.763] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/243, l='ServerLevel[New World]', x=-43.05, y=95.00, z=-151.79] died: Preside was killed
-[07Nov2025 00:06:12.763] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/244, l='ServerLevel[New World]', x=-47.63, y=95.00, z=-151.66] died: Preside was killed
-[07Nov2025 00:06:12.763] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/245, l='ServerLevel[New World]', x=-38.82, y=95.00, z=-159.19] died: Preside was killed
-[07Nov2025 00:06:12.763] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/246, l='ServerLevel[New World]', x=-39.41, y=95.00, z=-155.41] died: Preside was killed
-[07Nov2025 00:06:12.764] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/247, l='ServerLevel[New World]', x=-47.64, y=95.00, z=-146.45] died: Preside was killed
-[07Nov2025 00:06:12.764] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/248, l='ServerLevel[New World]', x=-42.27, y=95.00, z=-151.50] died: Preside was killed
-[07Nov2025 00:06:12.764] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/249, l='ServerLevel[New World]', x=-43.69, y=95.00, z=-151.46] died: Preside was killed
-[07Nov2025 00:06:12.764] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/250, l='ServerLevel[New World]', x=-46.78, y=95.00, z=-150.64] died: Preside was killed
-[07Nov2025 00:06:12.764] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/251, l='ServerLevel[New World]', x=-40.90, y=95.00, z=-153.12] died: Preside was killed
-[07Nov2025 00:06:12.765] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/252, l='ServerLevel[New World]', x=-45.57, y=95.00, z=-146.04] died: Preside was killed
-[07Nov2025 00:06:12.765] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/253, l='ServerLevel[New World]', x=-44.66, y=95.00, z=-147.23] died: Preside was killed
-[07Nov2025 00:06:12.765] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/254, l='ServerLevel[New World]', x=-44.86, y=95.00, z=-151.66] died: Preside was killed
-[07Nov2025 00:06:12.765] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/255, l='ServerLevel[New World]', x=-46.33, y=95.00, z=-151.67] died: Preside was killed
-[07Nov2025 00:06:12.774] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/256, l='ServerLevel[New World]', x=-40.93, y=95.00, z=-155.51] died: Preside was killed
-[07Nov2025 00:06:12.775] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/257, l='ServerLevel[New World]', x=-41.85, y=95.00, z=-147.51] died: Preside was killed
-[07Nov2025 00:06:12.778] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/258, l='ServerLevel[New World]', x=-41.11, y=95.00, z=-150.72] died: Preside was killed
-[07Nov2025 00:06:12.779] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/259, l='ServerLevel[New World]', x=-41.67, y=95.00, z=-151.39] died: Preside was killed
-[07Nov2025 00:06:12.815] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/260, l='ServerLevel[New World]', x=-36.70, y=94.00, z=-150.55] died: Preside was killed
-[07Nov2025 00:06:12.815] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/261, l='ServerLevel[New World]', x=-42.25, y=95.00, z=-149.65] died: Preside was killed
-[07Nov2025 00:06:12.815] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/262, l='ServerLevel[New World]', x=-40.10, y=95.00, z=-146.70] died: Preside was killed
-[07Nov2025 00:06:12.816] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/263, l='ServerLevel[New World]', x=-43.83, y=95.00, z=-144.30] died: Preside was killed
-[07Nov2025 00:06:12.816] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/264, l='ServerLevel[New World]', x=-40.30, y=95.00, z=-152.76] died: Preside was killed
-[07Nov2025 00:06:12.832] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/265, l='ServerLevel[New World]', x=-35.36, y=94.00, z=-150.29] died: Preside was killed
-[07Nov2025 00:06:12.833] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/266, l='ServerLevel[New World]', x=-34.21, y=93.00, z=-144.21] died: Preside was killed
-[07Nov2025 00:06:12.833] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/267, l='ServerLevel[New World]', x=-39.24, y=95.00, z=-149.83] died: Preside was killed
-[07Nov2025 00:06:12.833] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/268, l='ServerLevel[New World]', x=-41.86, y=95.00, z=-150.48] died: Preside was killed
-[07Nov2025 00:06:12.842] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/269, l='ServerLevel[New World]', x=-34.76, y=94.00, z=-147.79] died: Preside was killed
-[07Nov2025 00:06:12.843] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/270, l='ServerLevel[New World]', x=-33.12, y=94.00, z=-149.70] died: Preside was killed
-[07Nov2025 00:06:12.843] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/271, l='ServerLevel[New World]', x=-41.62, y=95.00, z=-145.62] died: Preside was killed
-[07Nov2025 00:06:12.843] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/272, l='ServerLevel[New World]', x=-42.38, y=95.00, z=-152.17] died: Preside was killed
-[07Nov2025 00:06:12.843] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/273, l='ServerLevel[New World]', x=-40.78, y=95.00, z=-147.20] died: Preside was killed
-[07Nov2025 00:06:12.844] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/274, l='ServerLevel[New World]', x=-42.64, y=95.00, z=-145.66] died: Preside was killed
-[07Nov2025 00:06:12.844] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/275, l='ServerLevel[New World]', x=-44.56, y=95.00, z=-152.70] died: Preside was killed
-[07Nov2025 00:06:12.844] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/276, l='ServerLevel[New World]', x=-45.71, y=95.00, z=-149.57] died: Preside was killed
-[07Nov2025 00:06:12.844] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/277, l='ServerLevel[New World]', x=-36.70, y=94.00, z=-149.87] died: Preside was killed
-[07Nov2025 00:06:12.845] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/278, l='ServerLevel[New World]', x=-38.61, y=95.00, z=-150.04] died: Preside was killed
-[07Nov2025 00:06:12.845] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/279, l='ServerLevel[New World]', x=-34.98, y=94.00, z=-146.63] died: Preside was killed
-[07Nov2025 00:06:12.845] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/280, l='ServerLevel[New World]', x=-36.09, y=94.00, z=-149.70] died: Preside was killed
-[07Nov2025 00:06:12.846] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/281, l='ServerLevel[New World]', x=-45.38, y=95.00, z=-150.61] died: Preside was killed
-[07Nov2025 00:06:12.885] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/282, l='ServerLevel[New World]', x=-36.78, y=94.00, z=-148.09] died: Preside was killed
-[07Nov2025 00:06:12.892] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/283, l='ServerLevel[New World]', x=-45.74, y=95.00, z=-144.75] died: Preside was killed
-[07Nov2025 00:06:12.893] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/284, l='ServerLevel[New World]', x=-47.89, y=95.00, z=-144.07] died: Preside was killed
-[07Nov2025 00:06:12.895] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/285, l='ServerLevel[New World]', x=-41.11, y=95.00, z=-146.45] died: Preside was killed
-[07Nov2025 00:06:12.897] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/286, l='ServerLevel[New World]', x=-38.63, y=94.00, z=-145.46] died: Preside was killed
-[07Nov2025 00:06:12.898] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/287, l='ServerLevel[New World]', x=-46.38, y=95.00, z=-146.42] died: Preside was killed
-[07Nov2025 00:06:12.899] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/288, l='ServerLevel[New World]', x=-38.55, y=94.00, z=-144.82] died: Preside was killed
-[07Nov2025 00:06:12.900] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/289, l='ServerLevel[New World]', x=-37.64, y=94.00, z=-144.34] died: Preside was killed
-[07Nov2025 00:06:12.900] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/290, l='ServerLevel[New World]', x=-48.00, y=95.00, z=-149.03] died: Preside was killed
-[07Nov2025 00:06:12.900] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/291, l='ServerLevel[New World]', x=-35.24, y=93.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:12.901] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/292, l='ServerLevel[New World]', x=-33.54, y=93.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:12.901] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/293, l='ServerLevel[New World]', x=-20.36, y=94.00, z=-146.42] died: Preside was killed
-[07Nov2025 00:06:12.901] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/294, l='ServerLevel[New World]', x=-27.33, y=94.00, z=-148.36] died: Preside was killed
-[07Nov2025 00:06:12.901] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/295, l='ServerLevel[New World]', x=-24.62, y=94.00, z=-150.50] died: Preside was killed
-[07Nov2025 00:06:12.902] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/296, l='ServerLevel[New World]', x=-24.63, y=95.00, z=-158.31] died: Preside was killed
-[07Nov2025 00:06:12.902] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/297, l='ServerLevel[New World]', x=-22.47, y=95.00, z=-154.52] died: Preside was killed
-[07Nov2025 00:06:12.902] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/298, l='ServerLevel[New World]', x=-25.57, y=94.00, z=-150.89] died: Preside was killed
-[07Nov2025 00:06:12.902] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/299, l='ServerLevel[New World]', x=-20.90, y=95.00, z=-152.51] died: Preside was killed
-[07Nov2025 00:06:12.906] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/300, l='ServerLevel[New World]', x=-19.77, y=94.00, z=-148.77] died: Preside was killed
-[07Nov2025 00:06:12.910] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/301, l='ServerLevel[New World]', x=-27.01, y=95.00, z=-155.78] died: Preside was killed
-[07Nov2025 00:06:12.910] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/302, l='ServerLevel[New World]', x=-24.64, y=95.00, z=-156.30] died: Preside was killed
-[07Nov2025 00:06:12.910] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/303, l='ServerLevel[New World]', x=-27.86, y=94.00, z=-148.97] died: Preside was killed
-[07Nov2025 00:06:12.910] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/304, l='ServerLevel[New World]', x=-26.00, y=94.00, z=-152.49] died: Preside was killed
-[07Nov2025 00:06:12.946] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/305, l='ServerLevel[New World]', x=-30.50, y=94.00, z=-153.30] died: Preside was killed
-[07Nov2025 00:06:12.947] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/306, l='ServerLevel[New World]', x=-31.08, y=94.00, z=-149.26] died: Preside was killed
-[07Nov2025 00:06:12.947] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/307, l='ServerLevel[New World]', x=-30.52, y=94.00, z=-154.18] died: Preside was killed
-[07Nov2025 00:06:12.947] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/308, l='ServerLevel[New World]', x=-26.59, y=94.00, z=-146.77] died: Preside was killed
-[07Nov2025 00:06:12.947] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/309, l='ServerLevel[New World]', x=-29.89, y=94.00, z=-153.70] died: Preside was killed
-[07Nov2025 00:06:12.948] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/310, l='ServerLevel[New World]', x=-29.63, y=94.00, z=-151.37] died: Preside was killed
-[07Nov2025 00:06:12.948] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/311, l='ServerLevel[New World]', x=-28.16, y=94.00, z=-148.37] died: Preside was killed
-[07Nov2025 00:06:12.948] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/312, l='ServerLevel[New World]', x=-31.70, y=94.00, z=-150.02] died: Preside was killed
-[07Nov2025 00:06:12.948] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/313, l='ServerLevel[New World]', x=-29.42, y=92.00, z=-138.95] died: Preside was killed
-[07Nov2025 00:06:12.949] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/314, l='ServerLevel[New World]', x=-46.45, y=89.00, z=-119.60] died: Preside was killed
-[07Nov2025 00:06:12.949] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/315, l='ServerLevel[New World]', x=-33.95, y=92.00, z=-133.75] died: Preside was killed
-[07Nov2025 00:06:12.952] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/316, l='ServerLevel[New World]', x=-10.52, y=81.00, z=-121.60] died: Preside was killed
-[07Nov2025 00:06:12.960] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/317, l='ServerLevel[New World]', x=-11.56, y=81.00, z=-122.61] died: Preside was killed
-[07Nov2025 00:06:12.962] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/318, l='ServerLevel[New World]', x=-41.65, y=94.00, z=-139.37] died: Preside was killed
-[07Nov2025 00:06:12.962] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/319, l='ServerLevel[New World]', x=-30.14, y=93.00, z=-144.00] died: Preside was killed
-[07Nov2025 00:06:12.962] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/320, l='ServerLevel[New World]', x=-27.84, y=91.00, z=-135.49] died: Preside was killed
-[07Nov2025 00:06:12.965] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/354, l='ServerLevel[New World]', x=-35.05, y=93.00, z=-139.82] died: Preside was killed
-[07Nov2025 00:06:12.965] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/355, l='ServerLevel[New World]', x=-54.37, y=95.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:12.965] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/356, l='ServerLevel[New World]', x=-56.48, y=94.00, z=-133.61] died: Preside was killed
-[07Nov2025 00:06:12.965] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/357, l='ServerLevel[New World]', x=-12.59, y=85.00, z=-125.03] died: Preside was killed
-[07Nov2025 00:06:12.965] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/358, l='ServerLevel[New World]', x=-59.63, y=95.00, z=-134.48] died: Preside was killed
-[07Nov2025 00:06:12.965] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/359, l='ServerLevel[New World]', x=-42.56, y=95.00, z=-144.02] died: Preside was killed
-[07Nov2025 00:06:12.966] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/360, l='ServerLevel[New World]', x=-58.16, y=95.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:12.966] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/361, l='ServerLevel[New World]', x=-30.57, y=88.00, z=-110.62] died: Preside was killed
-[07Nov2025 00:06:12.967] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/362, l='ServerLevel[New World]', x=-36.43, y=94.00, z=-144.00] died: Preside was killed
-[07Nov2025 00:06:12.967] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/363, l='ServerLevel[New World]', x=-44.94, y=95.00, z=-144.00] died: Preside was killed
-[07Nov2025 00:06:12.967] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/364, l='ServerLevel[New World]', x=-49.11, y=91.00, z=-120.37] died: Preside was killed
-[07Nov2025 00:06:12.967] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/365, l='ServerLevel[New World]', x=-27.84, y=93.00, z=-144.00] died: Preside was killed
-[07Nov2025 00:06:12.967] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/366, l='ServerLevel[New World]', x=-52.67, y=95.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:12.968] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/367, l='ServerLevel[New World]', x=-31.98, y=93.00, z=-144.00] died: Preside was killed
-[07Nov2025 00:06:12.968] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/368, l='ServerLevel[New World]', x=-40.99, y=95.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:12.968] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/369, l='ServerLevel[New World]', x=-40.04, y=94.00, z=-136.03] died: Preside was killed
-[07Nov2025 00:06:12.968] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/370, l='ServerLevel[New World]', x=-47.25, y=83.00, z=-91.47] died: Preside was killed
-[07Nov2025 00:06:12.968] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/371, l='ServerLevel[New World]', x=-39.03, y=94.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:12.968] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/372, l='ServerLevel[New World]', x=-34.59, y=93.00, z=-143.50] died: Preside was killed
-[07Nov2025 00:06:12.968] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/373, l='ServerLevel[New World]', x=-39.68, y=94.00, z=-144.00] died: Preside was killed
-[07Nov2025 00:06:12.974] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/374, l='ServerLevel[New World]', x=-46.08, y=95.00, z=-144.00] died: Preside was killed
-[07Nov2025 00:06:12.978] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/375, l='ServerLevel[New World]', x=-38.42, y=94.00, z=-144.00] died: Preside was killed
-[07Nov2025 00:06:12.978] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/376, l='ServerLevel[New World]', x=-41.63, y=95.00, z=-142.31] died: Preside was killed
-[07Nov2025 00:06:12.979] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/377, l='ServerLevel[New World]', x=-41.61, y=95.00, z=-144.00] died: Preside was killed
-[07Nov2025 00:06:12.979] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/378, l='ServerLevel[New World]', x=-31.91, y=92.00, z=-134.32] died: Preside was killed
-[07Nov2025 00:06:12.979] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/379, l='ServerLevel[New World]', x=-25.74, y=85.00, z=-103.22] died: Preside was killed
-[07Nov2025 00:06:12.979] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/380, l='ServerLevel[New World]', x=-50.38, y=95.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:13.166] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/381, l='ServerLevel[New World]', x=-53.37, y=95.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:13.167] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/382, l='ServerLevel[New World]', x=-62.74, y=94.00, z=-155.45] died: Preside was killed
-[07Nov2025 00:06:13.167] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/383, l='ServerLevel[New World]', x=-60.88, y=94.00, z=-153.57] died: Preside was killed
-[07Nov2025 00:06:13.168] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/384, l='ServerLevel[New World]', x=-62.13, y=93.00, z=-157.96] died: Preside was killed
-[07Nov2025 00:06:13.168] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/385, l='ServerLevel[New World]', x=-54.54, y=93.00, z=-157.78] died: Preside was killed
-[07Nov2025 00:06:13.168] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/386, l='ServerLevel[New World]', x=-54.16, y=95.00, z=-149.03] died: Preside was killed
-[07Nov2025 00:06:13.168] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/387, l='ServerLevel[New World]', x=-55.41, y=94.00, z=-155.57] died: Preside was killed
-[07Nov2025 00:06:13.168] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/388, l='ServerLevel[New World]', x=-57.50, y=94.00, z=-152.87] died: Preside was killed
-[07Nov2025 00:06:13.169] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/389, l='ServerLevel[New World]', x=-48.98, y=95.00, z=-158.50] died: Preside was killed
-[07Nov2025 00:06:13.169] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/390, l='ServerLevel[New World]', x=-62.49, y=95.00, z=-150.23] died: Preside was killed
-[07Nov2025 00:06:13.173] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/391, l='ServerLevel[New World]', x=-57.47, y=94.00, z=-151.99] died: Preside was killed
-[07Nov2025 00:06:13.180] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/392, l='ServerLevel[New World]', x=-59.91, y=94.00, z=-152.62] died: Preside was killed
-[07Nov2025 00:06:13.182] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/393, l='ServerLevel[New World]', x=-62.40, y=93.00, z=-157.17] died: Preside was killed
-[07Nov2025 00:06:13.183] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/394, l='ServerLevel[New World]', x=-61.73, y=94.00, z=-154.77] died: Preside was killed
-[07Nov2025 00:06:13.185] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/395, l='ServerLevel[New World]', x=-60.79, y=94.00, z=-155.18] died: Preside was killed
-[07Nov2025 00:06:13.186] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/396, l='ServerLevel[New World]', x=-57.33, y=95.00, z=-149.84] died: Preside was killed
-[07Nov2025 00:06:13.186] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/397, l='ServerLevel[New World]', x=-59.15, y=95.00, z=-150.80] died: Preside was killed
-[07Nov2025 00:06:13.200] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/398, l='ServerLevel[New World]', x=-48.88, y=95.00, z=-152.70] died: Preside was killed
-[07Nov2025 00:06:13.201] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/399, l='ServerLevel[New World]', x=-55.14, y=95.00, z=-145.54] died: Preside was killed
-[07Nov2025 00:06:13.201] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/400, l='ServerLevel[New World]', x=-57.72, y=94.00, z=-155.48] died: Preside was killed
-[07Nov2025 00:06:13.202] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/401, l='ServerLevel[New World]', x=-54.75, y=94.00, z=-153.51] died: Preside was killed
-[07Nov2025 00:06:13.202] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/402, l='ServerLevel[New World]', x=-61.30, y=94.00, z=-156.31] died: Preside was killed
-[07Nov2025 00:06:13.202] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/403, l='ServerLevel[New World]', x=-56.27, y=94.00, z=-153.60] died: Preside was killed
-[07Nov2025 00:06:13.283] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/404, l='ServerLevel[New World]', x=-49.91, y=95.00, z=-148.58] died: Preside was killed
-[07Nov2025 00:06:13.284] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/405, l='ServerLevel[New World]', x=-54.29, y=94.00, z=-154.33] died: Preside was killed
-[07Nov2025 00:06:13.285] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/406, l='ServerLevel[New World]', x=-54.05, y=95.00, z=-152.70] died: Preside was killed
-[07Nov2025 00:06:13.285] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/407, l='ServerLevel[New World]', x=-56.63, y=95.00, z=-146.62] died: Preside was killed
-[07Nov2025 00:06:13.285] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/408, l='ServerLevel[New World]', x=-49.55, y=95.00, z=-152.48] died: Preside was killed
-[07Nov2025 00:06:13.286] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/409, l='ServerLevel[New World]', x=-51.96, y=95.00, z=-148.78] died: Preside was killed
-[07Nov2025 00:06:13.286] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/410, l='ServerLevel[New World]', x=-48.43, y=95.00, z=-151.41] died: Preside was killed
-[07Nov2025 00:06:13.289] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/411, l='ServerLevel[New World]', x=-49.76, y=95.00, z=-150.99] died: Preside was killed
-[07Nov2025 00:06:13.290] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/412, l='ServerLevel[New World]', x=-50.78, y=95.00, z=-146.00] died: Preside was killed
-[07Nov2025 00:06:13.290] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/413, l='ServerLevel[New World]', x=-49.28, y=95.00, z=-149.16] died: Preside was killed
-[07Nov2025 00:06:13.291] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/414, l='ServerLevel[New World]', x=-48.52, y=95.00, z=-145.67] died: Preside was killed
-[07Nov2025 00:06:13.293] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/415, l='ServerLevel[New World]', x=-48.25, y=95.00, z=-152.15] died: Preside was killed
-[07Nov2025 00:06:13.294] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/416, l='ServerLevel[New World]', x=-58.77, y=95.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:13.296] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/417, l='ServerLevel[New World]', x=-59.38, y=95.00, z=-144.00] died: Preside was killed
-[07Nov2025 00:06:13.299] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/418, l='ServerLevel[New World]', x=-40.29, y=95.00, z=-144.02] died: Preside was killed
-[07Nov2025 00:06:13.300] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/419, l='ServerLevel[New World]', x=-58.58, y=94.00, z=-129.47] died: Preside was killed
-[07Nov2025 00:06:13.300] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/420, l='ServerLevel[New World]', x=-57.52, y=95.00, z=-144.02] died: Preside was killed
-[07Nov2025 00:06:13.300] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/421, l='ServerLevel[New World]', x=-46.71, y=95.00, z=-144.01] died: Preside was killed
-[07Nov2025 00:06:13.300] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/422, l='ServerLevel[New World]', x=-64.46, y=89.00, z=-128.60] died: Preside was killed
-[07Nov2025 00:06:13.301] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/423, l='ServerLevel[New World]', x=-48.34, y=85.00, z=-103.29] died: Preside was killed
-[07Nov2025 00:06:13.301] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/424, l='ServerLevel[New World]', x=-65.47, y=92.00, z=-149.30] died: Preside was killed
-[07Nov2025 00:06:13.301] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/425, l='ServerLevel[New World]', x=-66.50, y=91.00, z=-148.37] died: Preside was killed
-[07Nov2025 00:06:13.301] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/426, l='ServerLevel[New World]', x=-64.12, y=95.00, z=-149.57] died: Preside was killed
-[07Nov2025 00:06:13.409] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/427, l='ServerLevel[New World]', x=-64.02, y=94.00, z=-156.73] died: Preside was killed
-[07Nov2025 00:06:13.410] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/433, l='ServerLevel[New World]', x=-69.60, y=90.00, z=-138.77] died: Preside was killed
-[07Nov2025 00:06:13.411] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/434, l='ServerLevel[New World]', x=-68.46, y=81.00, z=-129.61] died: Preside was killed
-[07Nov2025 00:06:13.416] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/496, l='ServerLevel[New World]', x=-57.77, y=89.00, z=-166.87] died: Preside was killed
-[07Nov2025 00:06:13.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/497, l='ServerLevel[New World]', x=-62.88, y=90.00, z=-164.33] died: Preside was killed
-[07Nov2025 00:06:13.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/501, l='ServerLevel[New World]', x=-41.64, y=95.00, z=-165.25] died: Preside was killed
-[07Nov2025 00:06:13.428] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/502, l='ServerLevel[New World]', x=-45.42, y=94.00, z=-165.26] died: Preside was killed
-[07Nov2025 00:06:13.430] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/504, l='ServerLevel[New World]', x=-46.41, y=94.00, z=-164.38] died: Preside was killed
-[07Nov2025 00:06:13.430] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/505, l='ServerLevel[New World]', x=-43.68, y=95.00, z=-160.73] died: Preside was killed
-[07Nov2025 00:06:13.431] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/509, l='ServerLevel[New World]', x=-18.80, y=95.00, z=-161.18] died: Preside was killed
-[07Nov2025 00:06:13.435] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/554, l='ServerLevel[New World]', x=-64.40, y=90.00, z=-166.26] died: Preside was killed
-[07Nov2025 00:06:13.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
-[07Nov2025 00:06:13.459] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
-[07Nov2025 00:06:13.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 625 entities]
-[07Nov2025 00:06:13.481] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 625 entities
-[07Nov2025 00:06:24.746] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[07Nov2025 00:06:24.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07Nov2025 00:06:24.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[07Nov2025 00:06:24.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[07Nov2025 00:06:24.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07Nov2025 00:06:24.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07Nov2025 00:06:24.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[07Nov2025 00:06:24.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[07Nov2025 00:06:24.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[07Nov2025 00:06:24.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[07Nov2025 00:06:25.176] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[07Nov2025 00:06:25.313] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[07Nov2025 00:06:25.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[07Nov2025 00:06:25.344] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[07Nov2025 00:06:25.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[07Nov2025 00:06:25.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[07Nov2025 00:06:25.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[07Nov2025 00:06:26.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[07Nov2025 00:06:30.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[07Nov2025 00:06:30.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[07Nov2025 00:06:30.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[07Nov2025 00:06:30.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[07Nov2025 00:06:30.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[07Nov2025 00:06:30.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[07Nov2025 00:06:30.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[07Nov2025 00:06:30.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[07Nov2025 00:06:30.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[07Nov2025 00:06:30.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
-[07Nov2025 00:06:30.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
-[07Nov2025 00:06:30.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07Nov2025 00:06:30.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07Nov2025 00:06:30.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
-[07Nov2025 00:06:30.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
-[07Nov2025 00:06:30.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
-[07Nov2025 00:06:30.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
-[07Nov2025 00:06:30.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07Nov2025 17:47:13.553] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\domyc\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[07Nov2025 17:47:13.565] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[07Nov2025 17:47:13.837] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[07Nov2025 17:47:14.094] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[07Nov2025 17:47:14.414] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[07Nov2025 17:47:14.642] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Arc(TM) Graphics GL version 4.6.0 - Build 31.0.101.5007, Intel
+[07Nov2025 17:47:14.652] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/domyc/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[07Nov2025 17:47:15.832] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Nov2025 17:47:15.841] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Nov2025 17:47:15.853] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Nov2025 17:47:15.862] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[07Nov2025 17:47:16.022] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[07Nov2025 17:47:21.022] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\domyc\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[07Nov2025 17:47:31.766] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 435 milliseconds
+[07Nov2025 17:47:33.706] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/domyc/MCreatorWorkspaces/modpericolante/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[07Nov2025 17:47:33.707] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/domyc/MCreatorWorkspaces/modpericolante/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[07Nov2025 17:47:33.776] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Nov2025 17:47:33.802] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[07Nov2025 17:47:33.985] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[07Nov2025 17:47:34.333] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[07Nov2025 17:47:34.335] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[07Nov2025 17:47:36.081] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[07Nov2025 17:47:36.401] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[07Nov2025 17:47:36.526] [Worker-Main-8/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
+[07Nov2025 17:47:36.679] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Nov2025 17:47:36.682] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[07Nov2025 17:47:36.988] [Worker-Main-9/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
+net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
+	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:321) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Nov2025 17:47:36.992] [Worker-Main-7/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
+net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
+	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:321) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Nov2025 17:47:37.007] [Worker-Main-9/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/di_maleniamano.json
+com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:82) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:376) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:305) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Nov2025 17:47:37.010] [Worker-Main-17/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/hand_of_malenia.json
+com.google.gson.JsonParseException: Invalid rotation -5.5 found, only -45/-22.5/0/22.5/45 allowed
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:82) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:376) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:305) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Nov2025 17:47:37.012] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/malenia_mano.json
+com.google.gson.JsonParseException: Invalid rotation -3.0 found, only -45/-22.5/0/22.5/45 allowed
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:82) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:376) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:305) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Nov2025 17:47:37.014] [Worker-Main-12/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/mano_di_malenia.json
+com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:82) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:376) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:305) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Nov2025 17:47:37.015] [Worker-Main-4/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
+com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/0/22.5/45 allowed
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:82) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:376) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:305) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Nov2025 17:47:37.043] [Worker-Main-15/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
+net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
+	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:321) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Nov2025 17:47:37.048] [Worker-Main-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/mano_di_malenia with size 1370x1370 limits mip level from 2 to 1
+[07Nov2025 17:47:37.050] [Worker-Main-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/dna_joker with size 16x17 limits mip level from 1 to 0
+[07Nov2025 17:47:37.679] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
+[07Nov2025 17:47:37.680] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
+[07Nov2025 17:47:37.870] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
+[07Nov2025 17:47:39.685] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[07Nov2025 17:47:39.685] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[07Nov2025 17:47:39.757] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[07Nov2025 17:47:39.759] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[07Nov2025 17:47:39.904] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x2 minecraft:textures/atlas/blocks.png-atlas
+[07Nov2025 17:47:39.959] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[07Nov2025 17:47:39.977] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[07Nov2025 17:47:39.979] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[07Nov2025 17:47:39.982] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[07Nov2025 17:47:39.993] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[07Nov2025 17:47:39.994] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[07Nov2025 17:47:39.995] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[07Nov2025 17:47:39.996] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[07Nov2025 17:47:40.308] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[07Nov2025 17:47:40.447] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[07Nov2025 17:47:40.450] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/paintings.png-atlas
+[07Nov2025 17:47:40.457] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[07Nov2025 17:47:41.056] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[07Nov2025 17:47:43.722] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[07Nov2025 17:47:46.188] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[07Nov2025 17:47:46.281] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@46d2be66, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@119de68f}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@4e6881e}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
+[07Nov2025 17:47:46.281] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1276 advancements
+[07Nov2025 17:47:46.929] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[07Nov2025 17:47:46.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Nov2025 17:47:48.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Nov2025 17:47:50.814] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Nov2025 17:47:50.814] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Nov2025 17:47:50.814] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Nov2025 17:47:50.814] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Nov2025 17:47:50.814] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Nov2025 17:47:50.930] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Nov2025 17:47:51.431] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[07Nov2025 17:47:51.879] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Nov2025 17:47:51.886] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3469 ms
+[07Nov2025 17:47:52.115] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[07Nov2025 17:47:52.118] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[07Nov2025 17:47:52.350] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[07Nov2025 17:47:53.528] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[07Nov2025 17:47:53.674] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7769c5ba] logged in with entity id 244 at (275.36871847494757, 71.0, -39.37378909983613)
+[07Nov2025 17:47:53.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[07Nov2025 17:47:54.381] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 66 advancements
+[07Nov2025 17:48:06.998] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/1, l='ServerLevel[New World]', x=262.95, y=71.00, z=-40.51] died: Preside was shot by Dev
+[07Nov2025 17:48:11.687] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/4, l='ServerLevel[New World]', x=272.72, y=67.00, z=-49.99] died: Preside was shot by Dev
+[07Nov2025 17:48:20.691] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/56, l='ServerLevel[New World]', x=300.69, y=71.00, z=9.37] died: Preside was shot by Dev
+[07Nov2025 17:48:37.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Norma divieto uso telefono] to Dev]
+[07Nov2025 17:48:37.170] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Norma divieto uso telefono] to Dev
+[07Nov2025 17:48:39.992] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 73 advancements
+[07Nov2025 17:49:06.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Telefono] to Dev]
+[07Nov2025 17:49:06.397] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Telefono] to Dev
+[07Nov2025 17:49:34.441] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/913, l='ServerLevel[New World]', x=283.57, y=71.00, z=-13.24] died: Preside was shot by Dev
+[07Nov2025 17:50:12.237] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/58, l='ServerLevel[New World]', x=309.28, y=72.00, z=3.12] died: Preside was shot by Dev
+[07Nov2025 17:50:14.989] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/93, l='ServerLevel[New World]', x=306.69, y=71.00, z=16.37] died: Preside was shot by Dev
+[07Nov2025 17:50:17.986] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/72, l='ServerLevel[New World]', x=310.54, y=72.00, z=18.25] died: Preside was shot by Dev
+[07Nov2025 17:50:19.787] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/90, l='ServerLevel[New World]', x=317.96, y=71.00, z=14.05] died: Preside was shot by Dev
+[07Nov2025 17:50:21.290] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/96, l='ServerLevel[New World]', x=321.33, y=71.00, z=15.67] died: Preside was shot by Dev
+[07Nov2025 17:50:23.486] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/59, l='ServerLevel[New World]', x=324.47, y=72.00, z=27.25] died: Preside was shot by Dev
+[07Nov2025 17:50:25.086] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/123, l='ServerLevel[New World]', x=330.42, y=71.00, z=39.42] died: Preside was shot by Dev
+[07Nov2025 17:50:26.642] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/124, l='ServerLevel[New World]', x=333.37, y=71.00, z=43.58] died: Preside was shot by Dev
+[07Nov2025 17:50:28.687] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/122, l='ServerLevel[New World]', x=324.74, y=69.00, z=47.86] died: Preside was shot by Dev
+[07Nov2025 17:50:30.039] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/83, l='ServerLevel[New World]', x=323.53, y=68.00, z=51.07] died: Preside was shot by Dev
+[07Nov2025 17:50:31.888] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/88, l='ServerLevel[New World]', x=314.24, y=69.00, z=49.48] died: Preside was shot by Dev
+[07Nov2025 17:50:36.287] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/1343, l='ServerLevel[New World]', x=316.00, y=68.00, z=49.91] died: Preside was shot by Dev
+[07Nov2025 17:50:37.935] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/98, l='ServerLevel[New World]', x=308.59, y=71.00, z=45.21] died: Preside was shot by Dev
+[07Nov2025 17:50:44.838] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/102, l='ServerLevel[New World]', x=307.17, y=67.00, z=53.56] died: Preside was shot by Dev
+[07Nov2025 17:50:48.687] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/94, l='ServerLevel[New World]', x=297.61, y=71.00, z=36.37] died: Preside was shot by Dev
+[07Nov2025 17:50:52.437] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/92, l='ServerLevel[New World]', x=299.23, y=70.00, z=22.21] died: Preside was shot by Dev
+[07Nov2025 17:50:54.636] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/55, l='ServerLevel[New World]', x=292.55, y=72.00, z=12.67] died: Preside was shot by Dev
+[07Nov2025 17:50:56.086] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/57, l='ServerLevel[New World]', x=286.67, y=72.00, z=12.68] died: Preside was shot by Dev
+[07Nov2025 17:50:58.489] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/37, l='ServerLevel[New World]', x=305.23, y=74.00, z=-8.40] died: Preside was shot by Dev
+[07Nov2025 17:51:03.689] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/89, l='ServerLevel[New World]', x=316.39, y=72.00, z=22.41] died: Preside was shot by Dev
+[07Nov2025 17:51:05.038] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/97, l='ServerLevel[New World]', x=320.37, y=72.00, z=25.63] died: Preside was shot by Dev
+[07Nov2025 17:51:06.337] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/125, l='ServerLevel[New World]', x=319.05, y=71.00, z=34.23] died: Preside was shot by Dev
+[07Nov2025 17:51:08.637] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/95, l='ServerLevel[New World]', x=323.96, y=68.00, z=29.63] died: Preside was shot by Dev
+[07Nov2025 17:51:14.235] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/81, l='ServerLevel[New World]', x=333.37, y=71.00, z=18.63] died: Preside was shot by Dev
+[07Nov2025 17:51:16.286] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/73, l='ServerLevel[New World]', x=336.37, y=71.00, z=5.61] died: Preside was shot by Dev
+[07Nov2025 17:51:22.686] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/91, l='ServerLevel[New World]', x=322.15, y=68.00, z=51.09] died: Preside was shot by Dev
+[07Nov2025 17:51:31.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[07Nov2025 17:51:31.132] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[07Nov2025 17:51:56.936] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/1850, l='ServerLevel[New World]', x=279.45, y=72.00, z=36.37] died: Olivia was shot by Dev
+[07Nov2025 17:52:50.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[07Nov2025 17:52:50.858] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[07Nov2025 17:53:02.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by Il fu Mattia Pascal
+[07Nov2025 17:53:02.593] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by Il fu Mattia Pascal
+[07Nov2025 17:53:03.723] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[07Nov2025 17:53:03.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07Nov2025 17:53:03.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
+[07Nov2025 17:53:03.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
+[07Nov2025 17:53:03.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
+[07Nov2025 17:53:03.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
+[07Nov2025 17:53:03.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07Nov2025 17:53:03.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
+[07Nov2025 17:53:03.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07Nov2025 17:53:03.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
+[07Nov2025 17:53:30.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 64 [Zombie Spawn Egg] to Dev]
+[07Nov2025 17:53:30.792] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 64 [Zombie Spawn Egg] to Dev
+[07Nov2025 17:54:00.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 64 [Sparasemi Spawn Egg] to Dev]
+[07Nov2025 17:54:00.799] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 64 [Sparasemi Spawn Egg] to Dev
+[07Nov2025 17:54:18.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Spyglass] to Dev]
+[07Nov2025 17:54:18.209] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Spyglass] to Dev
+[07Nov2025 17:54:38.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 13000]
+[07Nov2025 17:54:38.680] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 13000
+[07Nov2025 17:55:00.138] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/2627, l='ServerLevel[New World]', x=249.76, y=72.00, z=-40.87] died: Olivia was shot by Dev
+[07Nov2025 17:56:02.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Summoned new Uomo Primitivo]
+[07Nov2025 17:56:02.251] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Summoned new Uomo Primitivo
+[07Nov2025 17:56:38.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Summoned new Dave]
+[07Nov2025 17:56:38.399] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Summoned new Dave
+[07Nov2025 17:57:25.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 64 [Girasole Spawn Egg] to Dev]
+[07Nov2025 17:57:25.202] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 64 [Girasole Spawn Egg] to Dev
+[07Nov2025 17:58:36.891] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[07Nov2025 18:00:07.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Blocco Ultrariattivante] to Dev]
+[07Nov2025 18:00:07.369] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Blocco Ultrariattivante] to Dev
+[07Nov2025 18:00:08.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev drowned whilst trying to escape Skeleton
+[07Nov2025 18:00:08.195] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev drowned whilst trying to escape Skeleton
+[07Nov2025 18:02:14.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was burnt to a crisp whilst fighting Cubo di geometry dash
+[07Nov2025 18:02:14.142] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was burnt to a crisp whilst fighting Cubo di geometry dash
+[07Nov2025 18:02:28.480] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[07Nov2025 18:02:28.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07Nov2025 18:02:28.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
+[07Nov2025 18:02:28.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
+[07Nov2025 18:02:28.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
+[07Nov2025 18:02:28.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
+[07Nov2025 18:02:28.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07Nov2025 18:02:28.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
+[07Nov2025 18:02:28.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07Nov2025 18:02:28.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
+[07Nov2025 18:02:29.292] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[07Nov2025 18:02:29.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[07Nov2025 18:02:29.303] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[07Nov2025 18:02:29.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Nov2025 18:02:29.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Nov2025 18:02:29.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Nov2025 18:02:29.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07Nov2025 18:02:30.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
+[07Nov2025 18:02:30.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
+[07Nov2025 18:02:30.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
+[07Nov2025 18:02:30.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
+[07Nov2025 18:02:30.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07Nov2025 18:02:30.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
+[07Nov2025 18:02:30.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07Nov2025 18:02:30.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
+[07Nov2025 18:02:30.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[07Nov2025 18:02:30.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
+[07Nov2025 18:02:30.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
+[07Nov2025 18:02:30.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
+[07Nov2025 18:02:30.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
+[07Nov2025 18:02:30.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Nov2025 18:02:30.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
+[07Nov2025 18:02:30.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Nov2025 18:02:30.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
+[07Nov2025 18:02:30.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07Nov2025 18:02:43.487] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

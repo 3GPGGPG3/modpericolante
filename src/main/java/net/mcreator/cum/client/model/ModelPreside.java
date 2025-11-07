@@ -63,9 +63,9 @@ public class ModelPreside<T extends Entity> extends EntityModel<T> {
 
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		this.bracciodestro.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
-		this.gambadestra.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
+		this.gambadestra.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
 		this.gambasinistra.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
-		this.bracciosinistro.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
+		this.bracciosinistro.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
 		this.testa.yRot = netHeadYaw / (180F / (float) Math.PI);
 		this.testa.xRot = headPitch / (180F / (float) Math.PI);
 	}

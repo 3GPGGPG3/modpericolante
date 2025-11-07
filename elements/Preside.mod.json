@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Preside",
     "mobLabel": "Preside",
-    "mobModelName": "ModelPreside",
+    "mobModelName": "Biped",
     "mobModelTexture": "preside.png",
     "transparentModelCondition": {
       "fixedValue": false
@@ -65,7 +65,7 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Creature",
+    "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 1,
     "attackKnockback": 0.0,
@@ -122,22 +122,25 @@
     "raidCelebrationSound": {
       "value": ""
     },
-    "entityDataEntries": [
-      {
-        "name": "incazzato",
-        "type": "logic",
-        "value": false
-      }
-    ],
-    "whenMobDies": {
-      "name": "PresideEntityDies"
+    "entityDataEntries": [],
+    "whenMobIsHurt": {
+      "name": "PresideEntityIsHurt"
+    },
+    "whenThisMobKillsAnother": {
+      "name": "PresideThisEntityKillsAnotherOne"
     },
     "onMobTickUpdate": {
       "name": "PresideOnEntityTickUpdate"
     },
+    "onPlayerCollidesWith": {
+      "name": "PresidePlayerCollidesWithThisEntity"
+    },
+    "onInitialSpawn": {
+      "name": "PresideOnInitialEntitySpawn"
+    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">Presideincazzato,Presideincazzato</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">Presideincazzato,Presideincazzato</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],

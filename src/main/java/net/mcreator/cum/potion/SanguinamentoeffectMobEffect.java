@@ -18,11 +18,6 @@ public class SanguinamentoeffectMobEffect extends MobEffect {
 	}
 
 	@Override
-	public boolean isInstantenous() {
-		return true;
-	}
-
-	@Override
 	public List<ItemStack> getCurativeItems() {
 		ArrayList<ItemStack> cures = new ArrayList<ItemStack>();
 		cures.add(new ItemStack(Items.TOTEM_OF_UNDYING));
