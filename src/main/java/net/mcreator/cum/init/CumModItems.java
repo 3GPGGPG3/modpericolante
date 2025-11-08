@@ -478,6 +478,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> NORMADIVIETOUSOTELEFONO = REGISTRY.register("normadivietousotelefono", () -> new NormadivietousotelefonoItem());
 	public static final RegistryObject<Item> REGGISENO_DI_OLIVIA = REGISTRY.register("reggiseno_di_olivia", () -> new ReggisenoDiOliviaItem());
 	public static final RegistryObject<Item> MATRICE_CON_DNA_FRAMMENTATO = block(CumModBlocks.MATRICE_CON_DNA_FRAMMENTATO);
+	public static final RegistryObject<Item> GIOLITTI_SPAWN_EGG = REGISTRY.register("giolitti_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOLITTI, -13953792, -16185582, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

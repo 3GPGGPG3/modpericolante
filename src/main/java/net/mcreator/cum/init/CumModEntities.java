@@ -59,6 +59,7 @@ import net.mcreator.cum.entity.LinfocitaBEntity;
 import net.mcreator.cum.entity.KillerEntity;
 import net.mcreator.cum.entity.IlFuMattiaPascal2Entity;
 import net.mcreator.cum.entity.GirasoleEntity;
+import net.mcreator.cum.entity.GiolittiEntity;
 import net.mcreator.cum.entity.GdCubeEntity;
 import net.mcreator.cum.entity.GabrielEntity;
 import net.mcreator.cum.entity.FrenziedCumProjectileEntity;
@@ -272,6 +273,10 @@ public class CumModEntities {
 			EntityType.Builder.<PresideEntity>of(PresideEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(PresideEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiolittiEntity>> GIOLITTI = register("giolitti",
+			EntityType.Builder.<GiolittiEntity>of(GiolittiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(GiolittiEntity::new)
+
+					.sized(0.8f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -327,6 +332,7 @@ public class CumModEntities {
 			MaleniaBladeOfMiquellaEntity.init();
 			ShrekEntity.init();
 			PresideEntity.init();
+			GiolittiEntity.init();
 		});
 	}
 
@@ -377,5 +383,6 @@ public class CumModEntities {
 		event.put(MALENIA_BLADE_OF_MIQUELLA.get(), MaleniaBladeOfMiquellaEntity.createAttributes().build());
 		event.put(SHREK.get(), ShrekEntity.createAttributes().build());
 		event.put(PRESIDE.get(), PresideEntity.createAttributes().build());
+		event.put(GIOLITTI.get(), GiolittiEntity.createAttributes().build());
 	}
 }

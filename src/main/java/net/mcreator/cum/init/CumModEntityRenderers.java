@@ -44,6 +44,7 @@ import net.mcreator.cum.client.renderer.LinfocitaBRenderer;
 import net.mcreator.cum.client.renderer.KillerRenderer;
 import net.mcreator.cum.client.renderer.IlFuMattiaPascal2Renderer;
 import net.mcreator.cum.client.renderer.GirasoleRenderer;
+import net.mcreator.cum.client.renderer.GiolittiRenderer;
 import net.mcreator.cum.client.renderer.GdCubeRenderer;
 import net.mcreator.cum.client.renderer.GabrielRenderer;
 import net.mcreator.cum.client.renderer.FlashPanopticomRenderer;
@@ -120,5 +121,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.MALENIA_BLADE_OF_MIQUELLA.get(), MaleniaBladeOfMiquellaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.SHREK.get(), ShrekRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PRESIDE.get(), PresideRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOLITTI.get(), GiolittiRenderer::new);
 	}
 }
