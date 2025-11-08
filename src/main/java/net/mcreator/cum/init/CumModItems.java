@@ -50,6 +50,7 @@ import net.mcreator.cum.item.SeiDiCuoriItem;
 import net.mcreator.cum.item.ScheggiaDiPietraBalatranteItem;
 import net.mcreator.cum.item.RelazioneVuotaItem;
 import net.mcreator.cum.item.RelazioneItem;
+import net.mcreator.cum.item.ReggisenoDiOliviaItem;
 import net.mcreator.cum.item.RedCumItem;
 import net.mcreator.cum.item.ReceiptItem;
 import net.mcreator.cum.item.RadiantPowerOfTheSunItem;
@@ -475,6 +476,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> RADIANT_POWER_OF_THE_SUN = REGISTRY.register("radiant_power_of_the_sun", () -> new RadiantPowerOfTheSunItem());
 	public static final RegistryObject<Item> PRESIDE_SPAWN_EGG = REGISTRY.register("preside_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.PRESIDE, -16776961, -4815611, new Item.Properties()));
 	public static final RegistryObject<Item> NORMADIVIETOUSOTELEFONO = REGISTRY.register("normadivietousotelefono", () -> new NormadivietousotelefonoItem());
+	public static final RegistryObject<Item> REGGISENO_DI_OLIVIA = REGISTRY.register("reggiseno_di_olivia", () -> new ReggisenoDiOliviaItem());
+	public static final RegistryObject<Item> MATRICE_CON_DNA_FRAMMENTATO = block(CumModBlocks.MATRICE_CON_DNA_FRAMMENTATO);
 
 	// Start of user code block custom items
 	// End of user code block custom items

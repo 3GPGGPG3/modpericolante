@@ -44,7 +44,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": true,
-    "damageVsEntity": 25.0,
+    "damageVsEntity": 32.0,
     "specialInformation": {
       "fixedValue": [
         "Tasto destro: scatto in avanti.",

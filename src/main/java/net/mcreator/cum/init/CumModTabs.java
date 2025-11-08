@@ -244,6 +244,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.RADIANT_POWER_OF_THE_SUN.get());
 				tabData.accept(CumModItems.PRESIDE_SPAWN_EGG.get());
 				tabData.accept(CumModItems.NORMADIVIETOUSOTELEFONO.get());
+				tabData.accept(CumModItems.REGGISENO_DI_OLIVIA.get());
+				tabData.accept(CumModBlocks.MATRICE_CON_DNA_FRAMMENTATO.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -500,6 +502,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PLASMIDEAMP.get());
 				tabData.accept(CumModItems.PLASMIDECONTET.get());
 				tabData.accept(CumModItems.PBR_322.get());
+				tabData.accept(CumModBlocks.MATRICE_CON_DNA_FRAMMENTATO.get().asItem());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> NORME = REGISTRY.register("norme",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.norme")).icon(() -> new ItemStack(CumModItems.RELAZIONE.get())).displayItems((parameters, tabData) -> {

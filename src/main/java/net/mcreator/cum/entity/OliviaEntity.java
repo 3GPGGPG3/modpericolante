@@ -19,7 +19,6 @@ import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
@@ -51,7 +50,7 @@ import net.mcreator.cum.procedures.OliviaDeveStareFermaProcedure;
 import net.mcreator.cum.init.CumModItems;
 import net.mcreator.cum.init.CumModEntities;
 
-public class OliviaEntity extends PathfinderMob {
+public class OliviaEntity extends Monster {
 	public static final EntityDataAccessor<Boolean> DATA_walk_normal = SynchedEntityData.defineId(OliviaEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<Boolean> DATA_walk_naked = SynchedEntityData.defineId(OliviaEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<Boolean> DATA_spogliati = SynchedEntityData.defineId(OliviaEntity.class, EntityDataSerializers.BOOLEAN);
@@ -321,7 +320,7 @@ public class OliviaEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level();
 
-		OliviaRightClickedOnEntityProcedure.execute(world, entity);
+		OliviaRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 
@@ -340,7 +339,7 @@ public class OliviaEntity extends PathfinderMob {
 	@Override
 	public void playerTouch(Player sourceentity) {
 		super.playerTouch(sourceentity);
-		SpogliatiClickedProcedure.execute(this.level(), this);
+		SpogliatiClickedProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this, sourceentity);
 	}
 
 	public static void init() {
@@ -353,7 +352,7 @@ public class OliviaEntity extends PathfinderMob {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.25);
 		builder = builder.add(Attributes.MAX_HEALTH, 20);
 		builder = builder.add(Attributes.ARMOR, 3);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 5);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 8);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 25);
 		return builder;
 	}

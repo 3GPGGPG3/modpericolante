@@ -35,6 +35,7 @@ import net.mcreator.cum.block.PassObbDxBlock;
 import net.mcreator.cum.block.PaloBlock;
 import net.mcreator.cum.block.OliviaBlockBlock;
 import net.mcreator.cum.block.MetalloUltrakillanteBlock;
+import net.mcreator.cum.block.MatriceConDNAFrammentatoBlock;
 import net.mcreator.cum.block.MatriceBlock;
 import net.mcreator.cum.block.ManoscrittoDiIgieneBlock;
 import net.mcreator.cum.block.LimmaxBlock;
@@ -190,6 +191,7 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> PROVETTA_CON_DNA_FRAMMENTATO = REGISTRY.register("provetta_con_dna_frammentato", () -> new ProvettaConDNAFrammentatoBlock());
 	public static final RegistryObject<Block> CONO_BLOCK = REGISTRY.register("cono_block", () -> new ConoBlockBlock());
 	public static final RegistryObject<Block> SLAB_DI_SANGUE = REGISTRY.register("slab_di_sangue", () -> new SlabDiSangueBlock());
+	public static final RegistryObject<Block> MATRICE_CON_DNA_FRAMMENTATO = REGISTRY.register("matrice_con_dna_frammentato", () -> new MatriceConDNAFrammentatoBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

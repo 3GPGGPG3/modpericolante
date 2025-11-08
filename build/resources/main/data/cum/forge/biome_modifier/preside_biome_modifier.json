@@ -5,8 +5,8 @@
   },
   "spawners": {
     "type": "cum:preside",
-    "weight": 20,
+    "weight": 10,
     "minCount": 1,
-    "maxCount": 10
+    "maxCount": 1
   }
 }
