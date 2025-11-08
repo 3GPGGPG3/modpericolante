@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.cum.potion.VacatiolegisMobEffect;
 import net.mcreator.cum.potion.SanguinamentoeffectMobEffect;
 import net.mcreator.cum.potion.SanguinamentocoagulatoMobEffect;
 import net.mcreator.cum.potion.PenalizzatoMobEffect;
@@ -26,4 +27,5 @@ public class CumModMobEffects {
 	public static final RegistryObject<MobEffect> SANGUINAMENTOCOAGULATO = REGISTRY.register("sanguinamentocoagulato", () -> new SanguinamentocoagulatoMobEffect());
 	public static final RegistryObject<MobEffect> PENALIZZATO = REGISTRY.register("penalizzato", () -> new PenalizzatoMobEffect());
 	public static final RegistryObject<MobEffect> DIVIETOUSOCELLULAREEFFECT = REGISTRY.register("divietousocellulareeffect", () -> new DivietousocellulareeffectMobEffect());
+	public static final RegistryObject<MobEffect> VACATIOLEGIS = REGISTRY.register("vacatiolegis", () -> new VacatiolegisMobEffect());
 }

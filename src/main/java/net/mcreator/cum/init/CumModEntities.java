@@ -269,7 +269,7 @@ public class CumModEntities {
 
 					.sized(0.9f, 2.3f));
 	public static final RegistryObject<EntityType<PresideEntity>> PRESIDE = register("preside",
-			EntityType.Builder.<PresideEntity>of(PresideEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(32).setUpdateInterval(3).setCustomClientFactory(PresideEntity::new)
+			EntityType.Builder.<PresideEntity>of(PresideEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(PresideEntity::new)
 
 					.sized(0.6f, 1.8f));
 
