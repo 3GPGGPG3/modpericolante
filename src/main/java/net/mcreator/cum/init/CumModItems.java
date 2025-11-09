@@ -30,6 +30,7 @@ import net.mcreator.cum.item.StaffaDelGodoNegativaItem;
 import net.mcreator.cum.item.StaffaDelGodoItem;
 import net.mcreator.cum.item.SpadaSuperGodevoleItem;
 import net.mcreator.cum.item.SpadaSolareItem;
+import net.mcreator.cum.item.SpadaRandomItem;
 import net.mcreator.cum.item.SpadaLunare4Item;
 import net.mcreator.cum.item.SpadaLunare3Item;
 import net.mcreator.cum.item.SpadaLunare2Item;
@@ -479,6 +480,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> REGGISENO_DI_OLIVIA = REGISTRY.register("reggiseno_di_olivia", () -> new ReggisenoDiOliviaItem());
 	public static final RegistryObject<Item> MATRICE_CON_DNA_FRAMMENTATO = block(CumModBlocks.MATRICE_CON_DNA_FRAMMENTATO);
 	public static final RegistryObject<Item> GIOLITTI_SPAWN_EGG = REGISTRY.register("giolitti_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOLITTI, -13953792, -16185582, new Item.Properties()));
+	public static final RegistryObject<Item> DANIELE_LUCIANO_SPAWN_EGG = REGISTRY.register("daniele_luciano_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.DANIELE_LUCIANO, -39322, -10066330, new Item.Properties()));
+	public static final RegistryObject<Item> SPADA_RANDOM = REGISTRY.register("spada_random", () -> new SpadaRandomItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

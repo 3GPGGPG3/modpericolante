@@ -70,6 +70,7 @@ import net.mcreator.cum.entity.FilfhEntity;
 import net.mcreator.cum.entity.EsserePerfettamenteInutileEntity;
 import net.mcreator.cum.entity.DiFazioEntity;
 import net.mcreator.cum.entity.DaveEntity;
+import net.mcreator.cum.entity.DanieleLucianoEntity;
 import net.mcreator.cum.entity.CumEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
 import net.mcreator.cum.entity.AnticorpoEntity;
@@ -277,6 +278,10 @@ public class CumModEntities {
 			EntityType.Builder.<GiolittiEntity>of(GiolittiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(GiolittiEntity::new)
 
 					.sized(0.8f, 1.8f));
+	public static final RegistryObject<EntityType<DanieleLucianoEntity>> DANIELE_LUCIANO = register("daniele_luciano",
+			EntityType.Builder.<DanieleLucianoEntity>of(DanieleLucianoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DanieleLucianoEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -333,6 +338,7 @@ public class CumModEntities {
 			ShrekEntity.init();
 			PresideEntity.init();
 			GiolittiEntity.init();
+			DanieleLucianoEntity.init();
 		});
 	}
 
@@ -384,5 +390,6 @@ public class CumModEntities {
 		event.put(SHREK.get(), ShrekEntity.createAttributes().build());
 		event.put(PRESIDE.get(), PresideEntity.createAttributes().build());
 		event.put(GIOLITTI.get(), GiolittiEntity.createAttributes().build());
+		event.put(DANIELE_LUCIANO.get(), DanieleLucianoEntity.createAttributes().build());
 	}
 }

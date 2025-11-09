@@ -53,6 +53,7 @@ import net.mcreator.cum.client.renderer.FilfhErrRenderer;
 import net.mcreator.cum.client.renderer.EsserePerfettamenteInutileRenderer;
 import net.mcreator.cum.client.renderer.DiFazioRenderer;
 import net.mcreator.cum.client.renderer.DaveRenderer;
+import net.mcreator.cum.client.renderer.DanieleLucianoRenderer;
 import net.mcreator.cum.client.renderer.AssassinaDeiNeriColtelliRenderer;
 import net.mcreator.cum.client.renderer.AnticorpoRenderer;
 import net.mcreator.cum.client.renderer.AlessandroManzoniRenderer;
@@ -122,5 +123,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.SHREK.get(), ShrekRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PRESIDE.get(), PresideRenderer::new);
 		event.registerEntityRenderer(CumModEntities.GIOLITTI.get(), GiolittiRenderer::new);
+		event.registerEntityRenderer(CumModEntities.DANIELE_LUCIANO.get(), DanieleLucianoRenderer::new);
 	}
 }

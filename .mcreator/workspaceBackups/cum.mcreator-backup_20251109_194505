@@ -12369,6 +12369,109 @@
           "src/main/resources/assets/cum/blockstates/matrice_con_dna_frammentato.json"
         ]
       }
+    },
+    {
+      "name": "Giolitti",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giolitti",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/client/renderer/GiolittiRenderer.java",
+          "src/main/java/net/mcreator/cum/entity/GiolittiEntity.java",
+          "src/main/resources/assets/cum/models/item/giolitti_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "GiolittiRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giolitti_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/GiolittiRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiolittiQuadro",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giolitti_quadro",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Giudice",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giudice",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DanieleLuciano",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daniele_luciano",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/entity/DanieleLucianoEntity.java",
+          "src/main/resources/assets/cum/models/item/daniele_luciano_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/client/renderer/DanieleLucianoRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SpadaRandomLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spada_random_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/SpadaRandomLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpadaRandom",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spada_random"
     }
   ],
   "variable_elements": [],
@@ -13070,6 +13173,7 @@
       "item.cum.puntale_contaminato_negativo.description_0": "Non si può più usare in nessun modo.",
       "gui.cum.micropipetta_gui.tooltip_currently_taking": "Currently: taking",
       "item.cum.puntale_contaminato_negativo.description_2": "+1 slot item.",
+      "painting.cum.giolitti_quadro.title": "L\u0027ASINO",
       "block.cum.div_di_fer": "Divieto di fermata",
       "item.cum.campione_di_dna_frammentato": "Campione di DNA frammentato",
       "item.cum.qu_di_quadri.description_0": "+4 fiche.",
@@ -13350,6 +13454,7 @@
       "effect.cum.sanguinamentocoagulato": "Sanguinamento Coagulato",
       "item.cum.tuta_leggings": "Tuta",
       "subtitles.war": "",
+      "item.cum.daniele_luciano_spawn_egg": "Daniele Luciano Spawn Egg",
       "item.cum.questoeilgodo_negativo.description_0": "QUESTO E\u0027 IL GODO",
       "item.cum.per_inv_3_spawn_egg": "Pericolante Inverso 3 Spawn Egg",
       "item.cum.questoeilgodo_negativo.description_1": "+1 slot item",
@@ -13384,12 +13489,14 @@
       "block.cum.divtransmag": "Divieto di transito per veicoli di massa complessiva a pieno carico superiore a 3,5t",
       "block.cum.blocco_pericolante": "Blocco pericolante",
       "item.cum.anticorpo_spawn_egg": "Anticorpo Spawn Egg",
+      "painting.cum.giolitti_quadro.author": "Giornalista",
       "item.cum.questoeilgodo_negativo": "QUESTO E\u0027 IL GODO negativo",
       "item.cum.due_di_cuori": "2 di Cuori",
       "item.cum.ectoplasma_negativo": "Ectoplasma negativo",
       "block.cum.velocconsauto": "Velocità consigliata (autostrada)",
       "item.cum.armatura_ultrakillante_leggings": "Gambe Ultrakillanti",
       "gui.cum.spada_balatrante_gui.label_mano_di_poker": "Mano",
+      "entity.cum.daniele_luciano": "Daniele Luciano",
       "item.cum.staffa_del_godo_negativa": "Staffa del godo negativa",
       "item.cum.telefono.description_0": "Si possono svolgere varie attività.",
       "block.cum.ultrakillante_ore": "Metallo Ultrakillante grezzo",
@@ -13406,6 +13513,7 @@
       "gui.cum.micropipetta_gui.shooting_mode": "Shooting mode",
       "gui.cum.penalizzato_overlay.label_penalizzato": "Penalizzato",
       "gui.cum.p_craft.label_pagamento": "Pagamento una sessione:",
+      "painting.cum.giudice.author": "Bolognese con l\u0027uovo",
       "item.cum.lingotto_ultrakillante": "Lingotto Ultrakillante",
       "advancements.tunonhaiidea.title": "TU NON HAI IDEA!!!",
       "item.cum.armatura_penalizzata_boots": "Scarpe Penalizzate",
@@ -13471,6 +13579,7 @@
       "item.cum.disc_pandemonium.desc": "Heaven Pierce Her - PANDEMONIUM",
       "gui.cum.azioni_del_telefono.button_chatgpt": "ChatGPT",
       "subtitles.chaos": "",
+      "entity.cum.giolitti": "Giolitti",
       "item.cum.tre_di_quadri": "3 di Quadri",
       "gui.cum.chat_gpt.label_che_vlbcoco_vuoi": "CHe vlbcoco vuoi?",
       "item.cum.linfocita_b_spawn_egg": "Linfocita B Spawn Egg",
@@ -13554,6 +13663,8 @@
       "item.cum.malenia_blade_of_miquella_spawn_egg": "Malenia, Blade Of Miquella Spawn Egg",
       "item.cum.sette_di_quadri.description_0": "+7 fiche.",
       "entity.cum.malenia_blade_of_miquella": "Malenia, Blade Of Miquella",
+      "item.cum.giolitti_spawn_egg": "Giolitti Spawn Egg",
+      "painting.cum.giudice.title": "Giudice",
       "death.attack.marcescenza_scarlattaa.player": "Il morbo della marcescenza scarlatta ha consumato %1$s mentre provava a sfuggire da %2$s",
       "item.cum.il_fu_mattia_pascal_disco.desc": "Canzone PIENA ispirata dal romanzo \"Il Fu Mattia Pascal\" di Luigi Pirandello.",
       "item.cum.impenetrazione_helmet": "Elmetto IMPENETRABILE",

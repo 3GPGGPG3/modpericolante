@@ -11,6 +11,6 @@ public class MaleniaBladeOfMiquellaPlayerCollidesWithThisEntityProcedure {
 		if (sourceentity == null)
 			return;
 		if (sourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(CumModMobEffects.MARCESCENZA_SCARLATTA.get(), 260, 0, false, false));
+			_entity.addEffect(new MobEffectInstance(CumModMobEffects.MARCESCENZA_SCARLATTA.get(), 99999, 0, false, false));
 	}
 }

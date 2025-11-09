@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "painting",
+  "definition": {
+    "texture": "quadro_giudice_godo",
+    "width": 32,
+    "height": 16,
+    "title": "Giudice",
+    "author": "Bolognese con l'uovo"
+  }
+}

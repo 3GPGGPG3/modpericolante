@@ -247,6 +247,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.REGGISENO_DI_OLIVIA.get());
 				tabData.accept(CumModBlocks.MATRICE_CON_DNA_FRAMMENTATO.get().asItem());
 				tabData.accept(CumModItems.GIOLITTI_SPAWN_EGG.get());
+				tabData.accept(CumModItems.DANIELE_LUCIANO_SPAWN_EGG.get());
+				tabData.accept(CumModItems.SPADA_RANDOM.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
