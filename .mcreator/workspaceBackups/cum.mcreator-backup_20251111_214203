@@ -19,9 +19,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/block/BloccoDiSborraBlock.java",
+          "src/main/resources/assets/cum/models/block/blocco_di_sborra.json",
           "src/main/resources/assets/cum/models/item/blocco_di_sborra.json",
           "src/main/resources/assets/cum/blockstates/blocco_di_sborra.json",
-          "src/main/resources/assets/cum/models/block/blocco_di_sborra.json",
           "src/main/resources/data/cum/loot_tables/blocks/blocco_di_sborra.json"
         ]
       }
@@ -481,8 +481,8 @@
       "registry_name": "pene",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/pene.json",
-          "src/main/java/net/mcreator/cum/item/PeneItem.java"
+          "src/main/java/net/mcreator/cum/item/PeneItem.java",
+          "src/main/resources/assets/cum/models/item/pene.json"
         ]
       }
     },
@@ -494,8 +494,8 @@
       "registry_name": "ccum",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/ccum.json",
-          "src/main/java/net/mcreator/cum/item/CcumItem.java"
+          "src/main/java/net/mcreator/cum/item/CcumItem.java",
+          "src/main/resources/assets/cum/models/item/ccum.json"
         ]
       }
     },
@@ -577,8 +577,8 @@
       "registry_name": "pene_duro",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/item/PeneDuroItem.java",
-          "src/main/resources/assets/cum/models/item/pene_duro.json"
+          "src/main/resources/assets/cum/models/item/pene_duro.json",
+          "src/main/java/net/mcreator/cum/item/PeneDuroItem.java"
         ]
       }
     },
@@ -915,11 +915,14 @@
       "registry_name": "cavolo_rosso",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/block/CavoloRossoBlock.java",
-          "src/main/resources/data/cum/loot_tables/blocks/cavolo_rosso.json",
-          "src/main/resources/assets/cum/blockstates/cavolo_rosso.json",
+          "src/main/resources/data/cum/worldgen/placed_feature/cavolo_rosso.json",
           "src/main/resources/assets/cum/models/item/cavolo_rosso.json",
-          "src/main/resources/assets/cum/models/block/cavolo_rosso.json"
+          "src/main/resources/assets/cum/blockstates/cavolo_rosso.json",
+          "src/main/resources/assets/cum/models/block/cavolo_rosso.json",
+          "src/main/resources/data/cum/worldgen/configured_feature/cavolo_rosso.json",
+          "src/main/java/net/mcreator/cum/block/CavoloRossoBlock.java",
+          "src/main/resources/data/cum/forge/biome_modifier/cavolo_rosso_biome_modifier.json",
+          "src/main/resources/data/cum/loot_tables/blocks/cavolo_rosso.json"
         ]
       }
     },
@@ -1482,8 +1485,8 @@
       "registry_name": "indicatore_al_cavolo_rosso",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/item/IndicatoreAlCavoloRossoItem.java",
-          "src/main/resources/assets/cum/models/item/indicatore_al_cavolo_rosso.json"
+          "src/main/resources/assets/cum/models/item/indicatore_al_cavolo_rosso.json",
+          "src/main/java/net/mcreator/cum/item/IndicatoreAlCavoloRossoItem.java"
         ]
       }
     },
@@ -2797,8 +2800,8 @@
       "registry_name": "cazzo_rotto",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/item/CazzoRottoItem.java",
-          "src/main/resources/assets/cum/models/item/cazzo_rotto.json"
+          "src/main/resources/assets/cum/models/item/cazzo_rotto.json",
+          "src/main/java/net/mcreator/cum/item/CazzoRottoItem.java"
         ]
       }
     },
@@ -3038,8 +3041,8 @@
       "registry_name": "cazzo_rosso",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/cazzo_rosso.json",
-          "src/main/java/net/mcreator/cum/item/CazzoRossoItem.java"
+          "src/main/java/net/mcreator/cum/item/CazzoRossoItem.java",
+          "src/main/resources/assets/cum/models/item/cazzo_rosso.json"
         ]
       }
     },
@@ -3128,8 +3131,8 @@
       "registry_name": "red_cum",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/red_cum.json",
-          "src/main/java/net/mcreator/cum/item/RedCumItem.java"
+          "src/main/java/net/mcreator/cum/item/RedCumItem.java",
+          "src/main/resources/assets/cum/models/item/red_cum.json"
         ]
       }
     },
@@ -3153,11 +3156,11 @@
       "registry_name": "blocco_di_sborra_rossa",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/blockstates/blocco_di_sborra_rossa.json",
+          "src/main/resources/data/cum/loot_tables/blocks/blocco_di_sborra_rossa.json",
           "src/main/resources/assets/cum/models/block/blocco_di_sborra_rossa.json",
           "src/main/resources/assets/cum/models/item/blocco_di_sborra_rossa.json",
-          "src/main/java/net/mcreator/cum/block/BloccoDiSborraRossaBlock.java",
-          "src/main/resources/data/cum/loot_tables/blocks/blocco_di_sborra_rossa.json"
+          "src/main/resources/assets/cum/blockstates/blocco_di_sborra_rossa.json",
+          "src/main/java/net/mcreator/cum/block/BloccoDiSborraRossaBlock.java"
         ]
       }
     },
@@ -3798,9 +3801,9 @@
       "registry_name": "killer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/entity/KillerEntity.java",
+          "src/main/java/net/mcreator/cum/client/renderer/KillerRenderer.java",
           "src/main/resources/assets/cum/models/item/killer_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/client/renderer/KillerRenderer.java"
+          "src/main/java/net/mcreator/cum/entity/KillerEntity.java"
         ]
       }
     },
@@ -4501,10 +4504,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/cum/loot_tables/blocks/blocco_viridae.json",
-          "src/main/resources/assets/cum/models/item/blocco_viridae.json",
+          "src/main/java/net/mcreator/cum/block/BloccoViridaeBlock.java",
           "src/main/resources/assets/cum/blockstates/blocco_viridae.json",
           "src/main/resources/assets/cum/models/block/blocco_viridae.json",
-          "src/main/java/net/mcreator/cum/block/BloccoViridaeBlock.java"
+          "src/main/resources/assets/cum/models/item/blocco_viridae.json"
         ]
       }
     },
@@ -4546,9 +4549,9 @@
       "registry_name": "virus",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/VirusRenderer.java",
+          "src/main/java/net/mcreator/cum/entity/VirusEntity.java",
           "src/main/resources/assets/cum/models/item/virus_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/VirusEntity.java"
+          "src/main/java/net/mcreator/cum/client/renderer/VirusRenderer.java"
         ]
       }
     },
@@ -4928,9 +4931,9 @@
       "registry_name": "linfocita_b",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/cum/client/renderer/LinfocitaBRenderer.java",
           "src/main/resources/assets/cum/models/item/linfocita_b_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/LinfocitaBEntity.java",
-          "src/main/java/net/mcreator/cum/client/renderer/LinfocitaBRenderer.java"
+          "src/main/java/net/mcreator/cum/entity/LinfocitaBEntity.java"
         ]
       }
     },
@@ -4976,8 +4979,8 @@
       "registry_name": "plasmacellula",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/plasmacellula_spawn_egg.json",
           "src/main/java/net/mcreator/cum/client/renderer/PlasmacellulaRenderer.java",
+          "src/main/resources/assets/cum/models/item/plasmacellula_spawn_egg.json",
           "src/main/java/net/mcreator/cum/entity/PlasmacellulaEntity.java"
         ]
       }
@@ -5024,9 +5027,9 @@
       "registry_name": "anticorpo",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/anticorpo_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/entity/AnticorpoEntity.java",
           "src/main/java/net/mcreator/cum/client/renderer/AnticorpoRenderer.java",
-          "src/main/java/net/mcreator/cum/entity/AnticorpoEntity.java"
+          "src/main/resources/assets/cum/models/item/anticorpo_spawn_egg.json"
         ]
       }
     },
@@ -6566,11 +6569,11 @@
       "registry_name": "olivia_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/block/olivia_block.json",
           "src/main/resources/data/cum/loot_tables/blocks/olivia_block.json",
+          "src/main/java/net/mcreator/cum/block/OliviaBlockBlock.java",
           "src/main/resources/assets/cum/models/item/olivia_block.json",
-          "src/main/resources/assets/cum/blockstates/olivia_block.json",
-          "src/main/java/net/mcreator/cum/block/OliviaBlockBlock.java"
+          "src/main/resources/assets/cum/models/block/olivia_block.json",
+          "src/main/resources/assets/cum/blockstates/olivia_block.json"
         ]
       }
     },
@@ -10321,10 +10324,10 @@
       "registry_name": "peashooter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/peashooter_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/PeashooterEntity.java",
+          "src/main/java/net/mcreator/cum/client/renderer/PeashooterRenderer.java",
           "src/main/resources/data/cum/forge/biome_modifier/peashooter_biome_modifier.json",
-          "src/main/java/net/mcreator/cum/client/renderer/PeashooterRenderer.java"
+          "src/main/java/net/mcreator/cum/entity/PeashooterEntity.java",
+          "src/main/resources/assets/cum/models/item/peashooter_spawn_egg.json"
         ]
       }
     },
@@ -10460,8 +10463,8 @@
       "registry_name": "cono_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/item/ConoItemItem.java",
-          "src/main/resources/assets/cum/models/item/cono_item.json"
+          "src/main/resources/assets/cum/models/item/cono_item.json",
+          "src/main/java/net/mcreator/cum/item/ConoItemItem.java"
         ]
       }
     },
@@ -10575,10 +10578,10 @@
       "registry_name": "nocciolina",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/NocciolinaRenderer.java",
           "src/main/java/net/mcreator/cum/entity/NocciolinaEntity.java",
-          "src/main/resources/assets/cum/models/item/nocciolina_spawn_egg.json",
-          "src/main/resources/data/cum/forge/biome_modifier/nocciolina_biome_modifier.json"
+          "src/main/resources/data/cum/forge/biome_modifier/nocciolina_biome_modifier.json",
+          "src/main/java/net/mcreator/cum/client/renderer/NocciolinaRenderer.java",
+          "src/main/resources/assets/cum/models/item/nocciolina_spawn_egg.json"
         ]
       }
     },
@@ -12504,6 +12507,42 @@
           "src/main/java/net/mcreator/cum/entity/SeiSetteEntity.java"
         ]
       }
+    },
+    {
+      "name": "PianteControZombie",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piante_contro_zombie",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CoseOlivanti",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cose_olivanti",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VascaElettroforetica",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasca_elettroforetica",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cum/models/item/vasca_elettroforetica.json",
+          "src/main/resources/data/cum/loot_tables/blocks/vasca_elettroforetica.json",
+          "src/main/resources/assets/cum/blockstates/vasca_elettroforetica.json",
+          "src/main/java/net/mcreator/cum/block/VascaElettroforeticaBlock.java",
+          "src/main/resources/assets/cum/models/block/vasca_elettroforetica.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -13527,7 +13566,7 @@
       "item.cum.spada_random": "Spada random",
       "item.cum.ectoplasma_negativo": "Ectoplasma negativo",
       "block.cum.velocconsauto": "Velocità consigliata (autostrada)",
-      "entity.cum.sei_sette": "Killer",
+      "entity.cum.sei_sette": "67",
       "item.cum.armatura_ultrakillante_leggings": "Gambe Ultrakillanti",
       "gui.cum.spada_balatrante_gui.label_mano_di_poker": "Mano",
       "entity.cum.daniele_luciano": "Daniele Luciano",
@@ -13594,6 +13633,7 @@
       "death.attack.sborrato": "%1$s si è sborrato.",
       "gui.cum.frigo_gui.label_empty": "--\u003e",
       "block.cum.frigo": "Frigo",
+      "item_group.cum.piante_contro_zombie": "Piante Contro Zombie",
       "item.cum.pene": "Pene",
       "advancements.pericoloo.title": "Pericoloooo!!!",
       "item.cum.nove_di_quadri.description_0": "+9 fiche.",
@@ -13619,6 +13659,7 @@
       "item.cum.linfocita_b_spawn_egg": "Linfocita B Spawn Egg",
       "death.attack.sanguinamento.player": "%1$s died whilst trying to escape %2$s",
       "item.cum.stella_del_godo": "Stella del godo",
+      "item_group.cum.cose_olivanti": "Cose Olivanti",
       "item.cum.campione_di_dna": "Campione di DNA",
       "item.cum.oggetto_insicuro": "Oggetto insicuro",
       "item.cum.essere_perfettamente_inutile_spawn_egg": "Essere perfettamente inutile Spawn Egg",
@@ -13665,6 +13706,7 @@
       "item.cum.dieci_di_cuori.description_0": "+10 fiche.",
       "gui.cum.pv_zshop.tooltip_50_seeds": "50 suns",
       "item.cum.disc_pandemonium": "Disco musicale",
+      "block.cum.vasca_elettroforetica": "Vasca elettroforetica",
       "entity.cum.il_fu_mattia_pascal_2": "Il fu Mattia Pascal",
       "item.cum.dieci_di_picchie": "10 di Picchie",
       "item.cum.otto_di_fiori.description_0": "+8 fiche.",
@@ -13857,7 +13899,7 @@
       "item.cum.pericolante_4_spawn_egg": "Pericolante 4 Spawn Egg",
       "item.cum.ilgodo.description_0": "QUESTO E\u0027 FORTISSIMO PRENDILO PRENDILO!!",
       "block.cum.blocco_non_sicuro": "Blocco non sicuro",
-      "item.cum.sei_sette_spawn_egg": "Killer Spawn Egg",
+      "item.cum.sei_sette_spawn_egg": "67 Spawn Egg",
       "item.minecraft.lingering_potion.effect.pozione_frenesia": "Pozione persistente della fiamma della frenesia",
       "item.cum.gabriel_spawn_egg": "Gabriel, judge of Hell Spawn Egg",
       "item.cum.dispositivo_neutralizzante.description_0": "Dispositivo che se equipaggiato in mano rimuove tutto dall\u0027entità.",
