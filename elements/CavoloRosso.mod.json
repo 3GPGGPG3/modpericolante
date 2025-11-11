@@ -48,6 +48,12 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:Laboratorio"
+      },
+      {
+        "value": "CUSTOM:CoseOlivanti"
       }
     ],
     "hardness": 0.0,
@@ -96,8 +102,8 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": false,
-    "frequencyOnChunks": 5,
-    "generateFeature": false,
+    "frequencyOnChunks": 3,
+    "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:LiurniaSburrestre"
@@ -107,7 +113,7 @@
       }
     ],
     "generationType": "Flower",
-    "patchSize": 64,
+    "patchSize": 20,
     "generateAtAnyHeight": false
   }
 }

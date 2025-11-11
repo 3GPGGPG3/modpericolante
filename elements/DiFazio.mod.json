@@ -39,6 +39,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:Laboratorio"
       }
     ],
     "isBoss": false,

@@ -482,6 +482,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> GIOLITTI_SPAWN_EGG = REGISTRY.register("giolitti_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOLITTI, -13953792, -16185582, new Item.Properties()));
 	public static final RegistryObject<Item> DANIELE_LUCIANO_SPAWN_EGG = REGISTRY.register("daniele_luciano_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.DANIELE_LUCIANO, -39322, -10066330, new Item.Properties()));
 	public static final RegistryObject<Item> SPADA_RANDOM = REGISTRY.register("spada_random", () -> new SpadaRandomItem());
+	public static final RegistryObject<Item> SEI_SETTE_SPAWN_EGG = REGISTRY.register("sei_sette_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.SEI_SETTE, -16777216, -16777216, new Item.Properties()));
+	public static final RegistryObject<Item> VASCA_ELETTROFORETICA = block(CumModBlocks.VASCA_ELETTROFORETICA);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -28,6 +28,7 @@ import net.mcreator.cum.entity.SpadaGabriellanteLanciataEntity;
 import net.mcreator.cum.entity.SisyphusPrimeEntity;
 import net.mcreator.cum.entity.ShrekEntity;
 import net.mcreator.cum.entity.SemiSparatiEntity;
+import net.mcreator.cum.entity.SeiSetteEntity;
 import net.mcreator.cum.entity.ScheggiaDiPietraBalatranteProjectileEntity;
 import net.mcreator.cum.entity.RedCummEntity;
 import net.mcreator.cum.entity.PuntaleSparatoEntity;
@@ -282,6 +283,8 @@ public class CumModEntities {
 			EntityType.Builder.<DanieleLucianoEntity>of(DanieleLucianoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DanieleLucianoEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SeiSetteEntity>> SEI_SETTE = register("sei_sette",
+			EntityType.Builder.<SeiSetteEntity>of(SeiSetteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(SeiSetteEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -339,6 +342,7 @@ public class CumModEntities {
 			PresideEntity.init();
 			GiolittiEntity.init();
 			DanieleLucianoEntity.init();
+			SeiSetteEntity.init();
 		});
 	}
 
@@ -391,5 +395,6 @@ public class CumModEntities {
 		event.put(PRESIDE.get(), PresideEntity.createAttributes().build());
 		event.put(GIOLITTI.get(), GiolittiEntity.createAttributes().build());
 		event.put(DANIELE_LUCIANO.get(), DanieleLucianoEntity.createAttributes().build());
+		event.put(SEI_SETTE.get(), SeiSetteEntity.createAttributes().build());
 	}
 }

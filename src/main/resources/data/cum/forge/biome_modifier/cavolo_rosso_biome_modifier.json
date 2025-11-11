@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "cum:liurnia_sburrestre",
+    "plains"
+  ],
+  "features": "cum:cavolo_rosso",
+  "step": "vegetal_decoration"
+}

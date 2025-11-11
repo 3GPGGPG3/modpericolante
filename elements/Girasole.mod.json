@@ -48,6 +48,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:PianteControZombie"
       }
     ],
     "isBoss": false,

@@ -98,10 +98,14 @@ public class KillerEntity extends Monster {
 		this.targetSelector.addGoal(31, new NearestAttackableTargetGoal(this, FilfhErrEntity.class, false, false));
 		this.targetSelector.addGoal(32, new NearestAttackableTargetGoal(this, VirusEntity.class, false, false));
 		this.targetSelector.addGoal(33, new NearestAttackableTargetGoal(this, PerInv1Entity.class, false, false));
-		this.targetSelector.addGoal(34, new NearestAttackableTargetGoal(this, KillerEntity.class, false, false));
-		this.targetSelector.addGoal(35, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(36, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(37, new FloatGoal(this));
+		this.targetSelector.addGoal(34, new NearestAttackableTargetGoal(this, PerInv2Entity.class, false, false));
+		this.targetSelector.addGoal(35, new NearestAttackableTargetGoal(this, PerInv3Entity.class, false, false));
+		this.targetSelector.addGoal(36, new NearestAttackableTargetGoal(this, GiolittiEntity.class, false, false));
+		this.targetSelector.addGoal(37, new NearestAttackableTargetGoal(this, SeiSetteEntity.class, false, false));
+		this.targetSelector.addGoal(38, new NearestAttackableTargetGoal(this, KillerEntity.class, false, false));
+		this.targetSelector.addGoal(39, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(40, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(41, new FloatGoal(this));
 	}
 
 	@Override

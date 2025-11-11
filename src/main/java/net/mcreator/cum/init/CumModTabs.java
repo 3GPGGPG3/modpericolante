@@ -249,7 +249,31 @@ public class CumModTabs {
 				tabData.accept(CumModItems.GIOLITTI_SPAWN_EGG.get());
 				tabData.accept(CumModItems.DANIELE_LUCIANO_SPAWN_EGG.get());
 				tabData.accept(CumModItems.SPADA_RANDOM.get());
+				tabData.accept(CumModItems.SEI_SETTE_SPAWN_EGG.get());
+				tabData.accept(CumModBlocks.VASCA_ELETTROFORETICA.get().asItem());
 			}).build());
+	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(CumModBlocks.BLOCCO_DI_SBORRA.get().asItem());
+				tabData.accept(CumModItems.PENE.get());
+				tabData.accept(CumModItems.CCUM.get());
+				tabData.accept(CumModItems.PENE_DURO.get());
+				tabData.accept(CumModBlocks.CAVOLO_ROSSO.get().asItem());
+				tabData.accept(CumModItems.INDICATORE_AL_CAVOLO_ROSSO.get());
+				tabData.accept(CumModItems.CAZZO_ROTTO.get());
+				tabData.accept(CumModItems.CAZZO_ROSSO.get());
+				tabData.accept(CumModItems.CAZZO_ROSSO_ROTTO.get());
+				tabData.accept(CumModItems.RED_CUM.get());
+				tabData.accept(CumModBlocks.BLOCCO_DI_SBORRA_ROSSA.get().asItem());
+				tabData.accept(CumModItems.TELEFONO.get());
+				tabData.accept(CumModItems.TERPENE.get());
+				tabData.accept(CumModItems.OLIVIA_SPAWN_EGG.get());
+				tabData.accept(CumModBlocks.OLIVIA_BLOCK.get().asItem());
+				tabData.accept(CumModItems.PROSECCO.get());
+				tabData.accept(CumModItems.FRENZIED_CUM.get());
+				tabData.accept(CumModItems.PENE_DELLA_FRENESIA.get());
+				tabData.accept(CumModItems.REGGISENO_DI_OLIVIA.get());
+			}).withTabsBefore(IL_FU_MATTIA_PASCAL.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.STELLA_DEL_GODO.get());
@@ -299,7 +323,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PER_INV_2_SPAWN_EGG.get());
 				tabData.accept(CumModItems.PER_INV_3_SPAWN_EGG.get());
 				tabData.accept(CumModItems.SPADA_LUNARE_4.get());
-			}).withTabsBefore(IL_FU_MATTIA_PASCAL.getId()).build());
+			}).withTabsBefore(COSE_OLIVANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.DIMENSIONE_PERICOLANTE.get());
@@ -348,6 +372,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PERKEO_NEGATIVO.get());
 				tabData.accept(CumModItems.DNA.get());
 				tabData.accept(CumModItems.DNA_FRAMMENTATO.get());
+				tabData.accept(CumModItems.LA_PIANTA.get());
 			}).withTabsBefore(TALISMANI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> CARTE_DA_GIOCO = REGISTRY.register("carte_da_gioco",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.carte_da_gioco")).icon(() -> new ItemStack(CumModItems.SEI_DI_FIORI.get())).displayItems((parameters, tabData) -> {
@@ -431,6 +456,47 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.SLAB_DI_SANGUE.get().asItem());
 				tabData.accept(CumModItems.RADIANT_POWER_OF_THE_SUN.get());
 			}).withTabsBefore(CARTE_DA_GIOCO.getId()).build());
+	public static final RegistryObject<CreativeModeTab> LABORATORIO = REGISTRY.register("laboratorio",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.laboratorio")).icon(() -> new ItemStack(CumModItems.ECO_RI.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(CumModItems.DI_FAZIO_SPAWN_EGG.get());
+				tabData.accept(CumModItems.FRAMMENTO_DI_VETRO.get());
+				tabData.accept(CumModBlocks.CAVOLO_ROSSO.get().asItem());
+				tabData.accept(CumModItems.INDICATORE_AL_CAVOLO_ROSSO.get());
+				tabData.accept(CumModItems.ENERGIA.get());
+				tabData.accept(CumModBlocks.BLOCCO_VIRIDAE.get().asItem());
+				tabData.accept(CumModItems.VIRUS_SPAWN_EGG.get());
+				tabData.accept(CumModItems.LINFOCITA_B_SPAWN_EGG.get());
+				tabData.accept(CumModItems.PLASMACELLULA_SPAWN_EGG.get());
+				tabData.accept(CumModItems.ANTICORPO_SPAWN_EGG.get());
+				tabData.accept(CumModItems.LINFOCITA_T_SPAWN_EGG.get());
+				tabData.accept(CumModItems.DNA.get());
+				tabData.accept(CumModItems.GEL_DI_AGAROSIO_BUCKET.get());
+				tabData.accept(CumModBlocks.MATRICE.get().asItem());
+				tabData.accept(CumModBlocks.FRIGO.get().asItem());
+				tabData.accept(CumModItems.MICROPIPETTA.get());
+				tabData.accept(CumModItems.PUNTALE.get());
+				tabData.accept(CumModItems.PUNTALE_CONTAMINATO.get());
+				tabData.accept(CumModItems.ECO_RI.get());
+				tabData.accept(CumModBlocks.PROVETTA.get().asItem());
+				tabData.accept(CumModBlocks.PROVETTA_CON_LIQUIDO.get().asItem());
+				tabData.accept(CumModBlocks.PROVETTA_CON_DNA_FRAMMENTATO.get().asItem());
+				tabData.accept(CumModItems.CIPOLLA_MARCIA.get());
+				tabData.accept(CumModItems.PUNTALENEGATIVO.get());
+				tabData.accept(CumModItems.PUNTALE_CONTAMINATO_NEGATIVO.get());
+				tabData.accept(CumModItems.DNA_FRAMMENTATO.get());
+				tabData.accept(CumModItems.CAMPIONE_DI_DNA_FRAMMENTATO.get());
+				tabData.accept(CumModItems.CAMPIONE_DI_DNA.get());
+				tabData.accept(CumModItems.GENESGUN.get());
+				tabData.accept(CumModItems.PALLOTTOLADORO.get());
+				tabData.accept(CumModItems.PLASMIDEVUOTO.get());
+				tabData.accept(CumModItems.GENEAMPICILLINA.get());
+				tabData.accept(CumModItems.GENETETRACILLINA.get());
+				tabData.accept(CumModItems.PLASMIDEAMP.get());
+				tabData.accept(CumModItems.PLASMIDECONTET.get());
+				tabData.accept(CumModItems.PBR_322.get());
+				tabData.accept(CumModBlocks.MATRICE_CON_DNA_FRAMMENTATO.get().asItem());
+				tabData.accept(CumModBlocks.VASCA_ELETTROFORETICA.get().asItem());
+			}).withTabsBefore(COSE_ULTRAKILLANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> SCUOLA_GUIDA = REGISTRY.register("scuola_guida",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.scuola_guida")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModBlocks.PALO.get().asItem());
@@ -462,7 +528,7 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.FINE_OR.get().asItem());
 				tabData.accept(CumModBlocks.PER_ATTPED.get().asItem());
 				tabData.accept(CumModItems.CONO_ITEM.get());
-			}).withSearchBar().withTabsBefore(COSE_ULTRAKILLANTI.getId()).build());
+			}).withSearchBar().withTabsBefore(LABORATORIO.getId()).build());
 	public static final RegistryObject<CreativeModeTab> MACCHINE_UTENSILI = REGISTRY.register("macchine_utensili",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.macchine_utensili")).icon(() -> new ItemStack(CumModItems.ENERGIA.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.TELEFONO.get());
@@ -477,40 +543,22 @@ public class CumModTabs {
 				tabData.accept(CumModItems.MACCHINA_DEL_TEMPO.get());
 				tabData.accept(CumModBlocks.FRIGO.get().asItem());
 			}).withTabsBefore(SCUOLA_GUIDA.getId()).build());
-	public static final RegistryObject<CreativeModeTab> LABORATORIO = REGISTRY.register("laboratorio",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.laboratorio")).icon(() -> new ItemStack(CumModItems.ECO_RI.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(CumModItems.ENERGIA.get());
-				tabData.accept(CumModItems.DNA.get());
-				tabData.accept(CumModItems.GEL_DI_AGAROSIO_BUCKET.get());
-				tabData.accept(CumModBlocks.MATRICE.get().asItem());
-				tabData.accept(CumModBlocks.FRIGO.get().asItem());
-				tabData.accept(CumModItems.MICROPIPETTA.get());
-				tabData.accept(CumModItems.PUNTALE.get());
-				tabData.accept(CumModItems.PUNTALE_CONTAMINATO.get());
-				tabData.accept(CumModItems.ECO_RI.get());
-				tabData.accept(CumModBlocks.PROVETTA.get().asItem());
-				tabData.accept(CumModBlocks.PROVETTA_CON_LIQUIDO.get().asItem());
-				tabData.accept(CumModBlocks.PROVETTA_CON_DNA_FRAMMENTATO.get().asItem());
-				tabData.accept(CumModItems.CIPOLLA_MARCIA.get());
-				tabData.accept(CumModItems.PUNTALENEGATIVO.get());
-				tabData.accept(CumModItems.PUNTALE_CONTAMINATO_NEGATIVO.get());
-				tabData.accept(CumModItems.DNA_FRAMMENTATO.get());
-				tabData.accept(CumModItems.CAMPIONE_DI_DNA_FRAMMENTATO.get());
-				tabData.accept(CumModItems.CAMPIONE_DI_DNA.get());
-				tabData.accept(CumModItems.GENESGUN.get());
-				tabData.accept(CumModItems.PALLOTTOLADORO.get());
-				tabData.accept(CumModItems.PLASMIDEVUOTO.get());
-				tabData.accept(CumModItems.GENEAMPICILLINA.get());
-				tabData.accept(CumModItems.GENETETRACILLINA.get());
-				tabData.accept(CumModItems.PLASMIDEAMP.get());
-				tabData.accept(CumModItems.PLASMIDECONTET.get());
-				tabData.accept(CumModItems.PBR_322.get());
-				tabData.accept(CumModBlocks.MATRICE_CON_DNA_FRAMMENTATO.get().asItem());
+	public static final RegistryObject<CreativeModeTab> PIANTE_CONTRO_ZOMBIE = REGISTRY.register("piante_contro_zombie",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.piante_contro_zombie")).icon(() -> new ItemStack(CumModItems.SOLE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(CumModItems.PEASHOOTER_SPAWN_EGG.get());
+				tabData.accept(CumModItems.DAVE_SPAWN_EGG.get());
+				tabData.accept(CumModItems.CONO_ITEM.get());
+				tabData.accept(CumModItems.NOCCIOLINA_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIRASOLE_SPAWN_EGG.get());
+				tabData.accept(CumModItems.LA_PIANTA.get());
+				tabData.accept(CumModItems.SOLE.get());
+				tabData.accept(CumModItems.SPADA_SOLARE.get());
+				tabData.accept(CumModItems.RADIANT_POWER_OF_THE_SUN.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> NORME = REGISTRY.register("norme",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.norme")).icon(() -> new ItemStack(CumModItems.RELAZIONE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.NORMADIVIETOUSOTELEFONO.get());
-			}).withSearchBar().withTabsBefore(LABORATORIO.getId()).build());
+			}).withSearchBar().withTabsBefore(PIANTE_CONTRO_ZOMBIE.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

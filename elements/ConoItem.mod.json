@@ -15,6 +15,9 @@
       },
       {
         "value": "CUSTOM:ScuolaGuida"
+      },
+      {
+        "value": "CUSTOM:PianteControZombie"
       }
     ],
     "stackSize": 1,

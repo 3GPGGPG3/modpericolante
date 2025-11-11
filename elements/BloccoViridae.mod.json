@@ -45,6 +45,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:Laboratorio"
       }
     ],
     "destroyTool": "Not specified",

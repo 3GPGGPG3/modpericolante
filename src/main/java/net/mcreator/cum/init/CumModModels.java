@@ -10,6 +10,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.cum.client.model.Modelshrek;
+import net.mcreator.cum.client.model.Modelseisette;
 import net.mcreator.cum.client.model.Modelpeashooter;
 import net.mcreator.cum.client.model.Modelpaperon_de_paperoni;
 import net.mcreator.cum.client.model.Modelorthomyxoviridae;
@@ -26,11 +27,13 @@ import net.mcreator.cum.client.model.Modelcube;
 import net.mcreator.cum.client.model.Modelanticorpo;
 import net.mcreator.cum.client.model.ModelPreside;
 import net.mcreator.cum.client.model.ModelOlivia;
+import net.mcreator.cum.client.model.ModelCustomModel;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class CumModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modelseisette.LAYER_LOCATION, Modelseisette::createBodyLayer);
 		event.registerLayerDefinition(Modelnocciolina.LAYER_LOCATION, Modelnocciolina::createBodyLayer);
 		event.registerLayerDefinition(Modelfilfh.LAYER_LOCATION, Modelfilfh::createBodyLayer);
 		event.registerLayerDefinition(Modelpaperon_de_paperoni.LAYER_LOCATION, Modelpaperon_de_paperoni::createBodyLayer);
@@ -43,6 +46,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelanticorpo.LAYER_LOCATION, Modelanticorpo::createBodyLayer);
 		event.registerLayerDefinition(Modelflesh_panopticom.LAYER_LOCATION, Modelflesh_panopticom::createBodyLayer);
 		event.registerLayerDefinition(Modellinfocita_b_o_plasmacellula.LAYER_LOCATION, Modellinfocita_b_o_plasmacellula::createBodyLayer);
+		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modelmalicious_face.LAYER_LOCATION, Modelmalicious_face::createBodyLayer);
 		event.registerLayerDefinition(Modelshrek.LAYER_LOCATION, Modelshrek::createBodyLayer);
 		event.registerLayerDefinition(Modelil_fu_mattia_pascal.LAYER_LOCATION, Modelil_fu_mattia_pascal::createBodyLayer);

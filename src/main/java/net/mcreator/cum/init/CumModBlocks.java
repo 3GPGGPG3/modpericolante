@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.cum.block.VelocconsextraBlock;
 import net.mcreator.cum.block.VelocconsautoBlock;
+import net.mcreator.cum.block.VascaElettroforeticaBlock;
 import net.mcreator.cum.block.UltrakillanteOreBlock;
 import net.mcreator.cum.block.UltrakillanteBlockBlock;
 import net.mcreator.cum.block.TerraVuotaBlock;
@@ -192,6 +193,7 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> CONO_BLOCK = REGISTRY.register("cono_block", () -> new ConoBlockBlock());
 	public static final RegistryObject<Block> SLAB_DI_SANGUE = REGISTRY.register("slab_di_sangue", () -> new SlabDiSangueBlock());
 	public static final RegistryObject<Block> MATRICE_CON_DNA_FRAMMENTATO = REGISTRY.register("matrice_con_dna_frammentato", () -> new MatriceConDNAFrammentatoBlock());
+	public static final RegistryObject<Block> VASCA_ELETTROFORETICA = REGISTRY.register("vasca_elettroforetica", () -> new VascaElettroforeticaBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

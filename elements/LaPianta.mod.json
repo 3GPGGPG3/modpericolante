@@ -12,6 +12,12 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:CoseBalatranti"
+      },
+      {
+        "value": "CUSTOM:PianteControZombie"
       }
     ],
     "stackSize": 1,
