@@ -90,6 +90,7 @@ import net.mcreator.cum.item.NoveDiPicchieItem;
 import net.mcreator.cum.item.NoveDiFioriItem;
 import net.mcreator.cum.item.NoveDiCuoriItem;
 import net.mcreator.cum.item.NormadivietousotelefonoItem;
+import net.mcreator.cum.item.NormadivietodisessoItem;
 import net.mcreator.cum.item.NoItem;
 import net.mcreator.cum.item.NeroColtelloItem;
 import net.mcreator.cum.item.MoltItem;
@@ -484,6 +485,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> SPADA_RANDOM = REGISTRY.register("spada_random", () -> new SpadaRandomItem());
 	public static final RegistryObject<Item> SEI_SETTE_SPAWN_EGG = REGISTRY.register("sei_sette_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.SEI_SETTE, -16777216, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> VASCA_ELETTROFORETICA = block(CumModBlocks.VASCA_ELETTROFORETICA);
+	public static final RegistryObject<Item> NORMADIVIETODISESSO = REGISTRY.register("normadivietodisesso", () -> new NormadivietodisessoItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

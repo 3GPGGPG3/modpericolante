@@ -33,6 +33,9 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
@@ -49,6 +52,7 @@ import net.mcreator.cum.init.CumModEntities;
 import javax.annotation.Nullable;
 
 public class PresideEntity extends Monster {
+	public static final EntityDataAccessor<Boolean> DATA_Vacatio_legis = SynchedEntityData.defineId(PresideEntity.class, EntityDataSerializers.BOOLEAN);
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.YELLOW, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public PresideEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -68,6 +72,12 @@ public class PresideEntity extends Monster {
 	@Override
 	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
+	}
+
+	@Override
+	protected void defineSynchedData() {
+		super.defineSynchedData();
+		this.entityData.define(DATA_Vacatio_legis, false);
 	}
 
 	@Override
@@ -171,6 +181,19 @@ public class PresideEntity extends Monster {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		PresideOnInitialEntitySpawnProcedure.execute(this);
 		return retval;
+	}
+
+	@Override
+	public void addAdditionalSaveData(CompoundTag compound) {
+		super.addAdditionalSaveData(compound);
+		compound.putBoolean("DataVacatio_legis", this.entityData.get(DATA_Vacatio_legis));
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundTag compound) {
+		super.readAdditionalSaveData(compound);
+		if (compound.contains("DataVacatio_legis"))
+			this.entityData.set(DATA_Vacatio_legis, compound.getBoolean("DataVacatio_legis"));
 	}
 
 	@Override

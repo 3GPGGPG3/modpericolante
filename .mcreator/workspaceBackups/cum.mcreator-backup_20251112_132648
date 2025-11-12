@@ -915,11 +915,14 @@
       "registry_name": "cavolo_rosso",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/block/CavoloRossoBlock.java",
-          "src/main/resources/data/cum/loot_tables/blocks/cavolo_rosso.json",
-          "src/main/resources/assets/cum/blockstates/cavolo_rosso.json",
+          "src/main/resources/data/cum/worldgen/placed_feature/cavolo_rosso.json",
           "src/main/resources/assets/cum/models/item/cavolo_rosso.json",
-          "src/main/resources/assets/cum/models/block/cavolo_rosso.json"
+          "src/main/resources/assets/cum/blockstates/cavolo_rosso.json",
+          "src/main/resources/assets/cum/models/block/cavolo_rosso.json",
+          "src/main/resources/data/cum/worldgen/configured_feature/cavolo_rosso.json",
+          "src/main/java/net/mcreator/cum/block/CavoloRossoBlock.java",
+          "src/main/resources/data/cum/forge/biome_modifier/cavolo_rosso_biome_modifier.json",
+          "src/main/resources/data/cum/loot_tables/blocks/cavolo_rosso.json"
         ]
       }
     },
@@ -4546,9 +4549,9 @@
       "registry_name": "virus",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/VirusRenderer.java",
+          "src/main/java/net/mcreator/cum/entity/VirusEntity.java",
           "src/main/resources/assets/cum/models/item/virus_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/VirusEntity.java"
+          "src/main/java/net/mcreator/cum/client/renderer/VirusRenderer.java"
         ]
       }
     },
@@ -4928,9 +4931,9 @@
       "registry_name": "linfocita_b",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/cum/client/renderer/LinfocitaBRenderer.java",
           "src/main/resources/assets/cum/models/item/linfocita_b_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/LinfocitaBEntity.java",
-          "src/main/java/net/mcreator/cum/client/renderer/LinfocitaBRenderer.java"
+          "src/main/java/net/mcreator/cum/entity/LinfocitaBEntity.java"
         ]
       }
     },
@@ -4976,8 +4979,8 @@
       "registry_name": "plasmacellula",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/plasmacellula_spawn_egg.json",
           "src/main/java/net/mcreator/cum/client/renderer/PlasmacellulaRenderer.java",
+          "src/main/resources/assets/cum/models/item/plasmacellula_spawn_egg.json",
           "src/main/java/net/mcreator/cum/entity/PlasmacellulaEntity.java"
         ]
       }
@@ -5024,9 +5027,9 @@
       "registry_name": "anticorpo",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/anticorpo_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/entity/AnticorpoEntity.java",
           "src/main/java/net/mcreator/cum/client/renderer/AnticorpoRenderer.java",
-          "src/main/java/net/mcreator/cum/entity/AnticorpoEntity.java"
+          "src/main/resources/assets/cum/models/item/anticorpo_spawn_egg.json"
         ]
       }
     },
@@ -10321,10 +10324,10 @@
       "registry_name": "peashooter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/peashooter_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/PeashooterEntity.java",
+          "src/main/java/net/mcreator/cum/client/renderer/PeashooterRenderer.java",
           "src/main/resources/data/cum/forge/biome_modifier/peashooter_biome_modifier.json",
-          "src/main/java/net/mcreator/cum/client/renderer/PeashooterRenderer.java"
+          "src/main/java/net/mcreator/cum/entity/PeashooterEntity.java",
+          "src/main/resources/assets/cum/models/item/peashooter_spawn_egg.json"
         ]
       }
     },
@@ -10460,8 +10463,8 @@
       "registry_name": "cono_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/item/ConoItemItem.java",
-          "src/main/resources/assets/cum/models/item/cono_item.json"
+          "src/main/resources/assets/cum/models/item/cono_item.json",
+          "src/main/java/net/mcreator/cum/item/ConoItemItem.java"
         ]
       }
     },
@@ -10575,10 +10578,10 @@
       "registry_name": "nocciolina",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/NocciolinaRenderer.java",
           "src/main/java/net/mcreator/cum/entity/NocciolinaEntity.java",
-          "src/main/resources/assets/cum/models/item/nocciolina_spawn_egg.json",
-          "src/main/resources/data/cum/forge/biome_modifier/nocciolina_biome_modifier.json"
+          "src/main/resources/data/cum/forge/biome_modifier/nocciolina_biome_modifier.json",
+          "src/main/java/net/mcreator/cum/client/renderer/NocciolinaRenderer.java",
+          "src/main/resources/assets/cum/models/item/nocciolina_spawn_egg.json"
         ]
       }
     },
@@ -11796,10 +11799,10 @@
       "registry_name": "preside",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/PresideRenderer.java",
           "src/main/resources/data/cum/forge/biome_modifier/preside_biome_modifier.json",
-          "src/main/java/net/mcreator/cum/entity/PresideEntity.java",
-          "src/main/resources/assets/cum/models/item/preside_spawn_egg.json"
+          "src/main/resources/assets/cum/models/item/preside_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/client/renderer/PresideRenderer.java",
+          "src/main/java/net/mcreator/cum/entity/PresideEntity.java"
         ]
       }
     },
@@ -12524,6 +12527,129 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "VascaElettroforetica",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasca_elettroforetica",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cum/models/item/vasca_elettroforetica.json",
+          "src/main/resources/data/cum/loot_tables/blocks/vasca_elettroforetica.json",
+          "src/main/resources/assets/cum/blockstates/vasca_elettroforetica.json",
+          "src/main/java/net/mcreator/cum/block/VascaElettroforeticaBlock.java",
+          "src/main/resources/assets/cum/models/block/vasca_elettroforetica.json"
+        ]
+      }
+    },
+    {
+      "name": "Normadivietodisesso",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normadivietodisesso",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cum/models/item/normadivietodisesso.json",
+          "src/main/java/net/mcreator/cum/item/NormadivietodisessoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Normadivietodisessorightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normadivietodisessorightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/NormadivietodisessorightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Normadivietodisessoentitytswingitem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normadivietodisessoentitytswingitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/NormadivietodisessoentitytswingitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Divietodisessoeffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divietodisessoeffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/potion/DivietodisessoeffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Divietodisessoeffecteffectstartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divietodisessoeffecteffectstartedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/DivietodisessoeffecteffectstartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -13140,8 +13266,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "biome.cum.bioma_primitivo": "Bioma Primitivo",
       "entity.cum.girasole": "Girasole",
+      "biome.cum.bioma_primitivo": "Bioma Primitivo",
       "item.cum.puntale_contaminato": "Puntale contaminato",
       "effect.cum.marcescenza_scarlatta": "Marcescenza scarlatta",
       "gui.cum.integrazione_gui.label_mettere_loggetto_primitivo": "Mettere l\u0027oggetto derivato.",
@@ -13163,9 +13289,9 @@
       "item.cum.sei_di_quadri": "6 di Quadri",
       "item.cum.cin_di_quadri": "5 di Quadri",
       "biome.cum.bioma_non_sicuro": "Bioma Non Sicuro",
-      "entity.cum.shrek": "Shrek",
-      "gui.cum.integrazione_gui.button_seconda_funzione": "Seconda Funzione",
       "gui.cum.chat_gpt.button_terra": "Terra",
+      "gui.cum.integrazione_gui.button_seconda_funzione": "Seconda Funzione",
+      "entity.cum.shrek": "Shrek",
       "block.cum.blocco_di_sborra": "Blocco di sborra",
       "subtitles.gb_therecanbeonlylight": "",
       "entity.cum.stray": "Stray",
@@ -13682,11 +13808,13 @@
       "gui.cum.micropipetta_gui.tooltip_currently_shooting1": "Currently: shooting",
       "item.cum.disc_order_1": "Disco musicale",
       "gui.cum.micropipetta_gui.tooltip_currently_shooting2": "Currently: shooting",
+      "item.cum.normadivietodisesso": "Norma divieto di sesso",
       "item.cum.dispositivo_teletrasportante": "Dispositivo teletrasportante",
       "block.cum.blocco_di_carne_panoptica": "Blocco Di Carne Panoptica",
       "item.cum.dieci_di_cuori.description_0": "+10 fiche.",
       "gui.cum.pv_zshop.tooltip_50_seeds": "50 suns",
       "item.cum.disc_pandemonium": "Disco musicale",
+      "block.cum.vasca_elettroforetica": "Vasca elettroforetica",
       "entity.cum.il_fu_mattia_pascal_2": "Il fu Mattia Pascal",
       "item.cum.dieci_di_picchie": "10 di Picchie",
       "item.cum.otto_di_fiori.description_0": "+8 fiche.",
@@ -13715,6 +13843,7 @@
       "item.cum.ectoplasma_negativo.description_1": "Applica  n e g a t i v o  a certi oggetti -1 oggetto dalla mano.",
       "item.cum.qu_di_picchie.description_0": "+4 fiche.",
       "item.cum.ectoplasma_negativo.description_0": "+1 slot item",
+      "item.cum.normadivietodisesso.description_0": "Questa norma vieta di compiere atti espliciti",
       "entity.cum.peashooter": "Sparasemi",
       "item.cum.spada_random.description_0": "Tutto ciò che riguarda questa spada è casuale.",
       "item.cum.malenia_blade_of_miquella_spawn_egg": "Malenia, Blade Of Miquella Spawn Egg",
@@ -13779,6 +13908,7 @@
       "block.cum.blocco_integrale": "Blocco Integratore",
       "gui.cum.pv_zshop.label_put_here_your_seeds": "Put here your suns",
       "block.cum.pass_obb_sx": "Passaggio obbligatorio a sinistra",
+      "effect.cum.divietodisessoeffect": "Divieto di sesso",
       "item.cum.sei_di_cuori": "6 di Cuori",
       "item.cum.macchina_del_tempo.description_4": "UOMO AVVISATO, MEZZO BOCCIATO.",
       "item.cum.macchina_del_tempo.description_3": "A TUO RISCHIO E PERICOLO.",

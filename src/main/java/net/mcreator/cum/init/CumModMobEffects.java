@@ -17,6 +17,7 @@ import net.mcreator.cum.potion.PenalizzatoMobEffect;
 import net.mcreator.cum.potion.MarcescenzaScarlattaMobEffect;
 import net.mcreator.cum.potion.FolliaMobEffect;
 import net.mcreator.cum.potion.DivietousocellulareeffectMobEffect;
+import net.mcreator.cum.potion.DivietodisessoeffectMobEffect;
 import net.mcreator.cum.CumMod;
 
 public class CumModMobEffects {
@@ -28,4 +29,5 @@ public class CumModMobEffects {
 	public static final RegistryObject<MobEffect> PENALIZZATO = REGISTRY.register("penalizzato", () -> new PenalizzatoMobEffect());
 	public static final RegistryObject<MobEffect> DIVIETOUSOCELLULAREEFFECT = REGISTRY.register("divietousocellulareeffect", () -> new DivietousocellulareeffectMobEffect());
 	public static final RegistryObject<MobEffect> VACATIOLEGIS = REGISTRY.register("vacatiolegis", () -> new VacatiolegisMobEffect());
+	public static final RegistryObject<MobEffect> DIVIETODISESSOEFFECT = REGISTRY.register("divietodisessoeffect", () -> new DivietodisessoeffectMobEffect());
 }

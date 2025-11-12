@@ -4549,9 +4549,9 @@
       "registry_name": "virus",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/VirusRenderer.java",
+          "src/main/java/net/mcreator/cum/entity/VirusEntity.java",
           "src/main/resources/assets/cum/models/item/virus_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/VirusEntity.java"
+          "src/main/java/net/mcreator/cum/client/renderer/VirusRenderer.java"
         ]
       }
     },
@@ -4931,9 +4931,9 @@
       "registry_name": "linfocita_b",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/cum/client/renderer/LinfocitaBRenderer.java",
           "src/main/resources/assets/cum/models/item/linfocita_b_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/LinfocitaBEntity.java",
-          "src/main/java/net/mcreator/cum/client/renderer/LinfocitaBRenderer.java"
+          "src/main/java/net/mcreator/cum/entity/LinfocitaBEntity.java"
         ]
       }
     },
@@ -4979,8 +4979,8 @@
       "registry_name": "plasmacellula",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/plasmacellula_spawn_egg.json",
           "src/main/java/net/mcreator/cum/client/renderer/PlasmacellulaRenderer.java",
+          "src/main/resources/assets/cum/models/item/plasmacellula_spawn_egg.json",
           "src/main/java/net/mcreator/cum/entity/PlasmacellulaEntity.java"
         ]
       }
@@ -5027,9 +5027,9 @@
       "registry_name": "anticorpo",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/anticorpo_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/entity/AnticorpoEntity.java",
           "src/main/java/net/mcreator/cum/client/renderer/AnticorpoRenderer.java",
-          "src/main/java/net/mcreator/cum/entity/AnticorpoEntity.java"
+          "src/main/resources/assets/cum/models/item/anticorpo_spawn_egg.json"
         ]
       }
     },
@@ -10324,10 +10324,10 @@
       "registry_name": "peashooter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/peashooter_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/PeashooterEntity.java",
+          "src/main/java/net/mcreator/cum/client/renderer/PeashooterRenderer.java",
           "src/main/resources/data/cum/forge/biome_modifier/peashooter_biome_modifier.json",
-          "src/main/java/net/mcreator/cum/client/renderer/PeashooterRenderer.java"
+          "src/main/java/net/mcreator/cum/entity/PeashooterEntity.java",
+          "src/main/resources/assets/cum/models/item/peashooter_spawn_egg.json"
         ]
       }
     },
@@ -10463,8 +10463,8 @@
       "registry_name": "cono_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/item/ConoItemItem.java",
-          "src/main/resources/assets/cum/models/item/cono_item.json"
+          "src/main/resources/assets/cum/models/item/cono_item.json",
+          "src/main/java/net/mcreator/cum/item/ConoItemItem.java"
         ]
       }
     },
@@ -10578,10 +10578,10 @@
       "registry_name": "nocciolina",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/NocciolinaRenderer.java",
           "src/main/java/net/mcreator/cum/entity/NocciolinaEntity.java",
-          "src/main/resources/assets/cum/models/item/nocciolina_spawn_egg.json",
-          "src/main/resources/data/cum/forge/biome_modifier/nocciolina_biome_modifier.json"
+          "src/main/resources/data/cum/forge/biome_modifier/nocciolina_biome_modifier.json",
+          "src/main/java/net/mcreator/cum/client/renderer/NocciolinaRenderer.java",
+          "src/main/resources/assets/cum/models/item/nocciolina_spawn_egg.json"
         ]
       }
     },
@@ -11799,10 +11799,10 @@
       "registry_name": "preside",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/PresideRenderer.java",
           "src/main/resources/data/cum/forge/biome_modifier/preside_biome_modifier.json",
-          "src/main/java/net/mcreator/cum/entity/PresideEntity.java",
-          "src/main/resources/assets/cum/models/item/preside_spawn_egg.json"
+          "src/main/resources/assets/cum/models/item/preside_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/client/renderer/PresideRenderer.java",
+          "src/main/java/net/mcreator/cum/entity/PresideEntity.java"
         ]
       }
     },
@@ -13706,7 +13706,7 @@
       "item.cum.dieci_di_cuori.description_0": "+10 fiche.",
       "gui.cum.pv_zshop.tooltip_50_seeds": "50 suns",
       "item.cum.disc_pandemonium": "Disco musicale",
-      "block.cum.vasca_elettroforetica": "Matrice di agarosio con DNA frammentato",
+      "block.cum.vasca_elettroforetica": "Vasca elettroforetica",
       "entity.cum.il_fu_mattia_pascal_2": "Il fu Mattia Pascal",
       "item.cum.dieci_di_picchie": "10 di Picchie",
       "item.cum.otto_di_fiori.description_0": "+8 fiche.",

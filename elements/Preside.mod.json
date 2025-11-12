@@ -122,7 +122,13 @@
     "raidCelebrationSound": {
       "value": ""
     },
-    "entityDataEntries": [],
+    "entityDataEntries": [
+      {
+        "name": "Vacatio_legis",
+        "type": "logic",
+        "value": false
+      }
+    ],
     "whenMobIsHurt": {
       "name": "PresideEntityIsHurt"
     },

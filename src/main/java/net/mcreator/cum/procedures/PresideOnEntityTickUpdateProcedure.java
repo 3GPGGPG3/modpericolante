@@ -1,5 +1,6 @@
 package net.mcreator.cum.procedures;
 
+import net.minecraft.world.scores.criteria.ObjectiveCriteria;
 import net.minecraft.world.scores.Scoreboard;
 import net.minecraft.world.scores.Objective;
 import net.minecraft.world.phys.Vec3;
@@ -39,17 +40,78 @@ public class PresideOnEntityTickUpdateProcedure {
 					_player.getInventory().setChanged();
 			}
 		}
-		if (Math.random() < 0.00005) {
+		if (new Object() {
+			public int getScore(String score, Entity _ent) {
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective(score);
+				if (_so != null)
+					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+				return 0;
+			}
+		}.getScore("vacatio_legis", entity) == 0 && Math.random() < 0.00005) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"effect give @a cum:vacatiolegis 15 10 true");
+			{
+				Entity _ent = entity;
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective("vacatio_legis");
+				if (_so == null)
+					_so = _sc.addObjective("vacatio_legis", ObjectiveCriteria.DUMMY, Component.literal("vacatio_legis"), ObjectiveCriteria.RenderType.INTEGER);
+				_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(1);
+			}
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"msg @a Ci sono novit\u00E0 in bacheca");
 			CumMod.queueServerWork(300, () -> {
+				{
+					Entity _ent = entity;
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective("vacatio_legis");
+					if (_so == null)
+						_so = _sc.addObjective("vacatio_legis", ObjectiveCriteria.DUMMY, Component.literal("vacatio_legis"), ObjectiveCriteria.RenderType.INTEGER);
+					_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
+				}
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							"effect give @a cum:divietousocellulareeffect 5000 10 true");
+			});
+		}
+		if (new Object() {
+			public int getScore(String score, Entity _ent) {
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective(score);
+				if (_so != null)
+					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+				return 0;
+			}
+		}.getScore("vacatio_legis", entity) == 0 && Math.random() < 0.00005) {
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"effect give @a cum:vacatiolegis 15 10 true");
+			{
+				Entity _ent = entity;
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective("vacatio_legis");
+				if (_so == null)
+					_so = _sc.addObjective("vacatio_legis", ObjectiveCriteria.DUMMY, Component.literal("vacatio_legis"), ObjectiveCriteria.RenderType.INTEGER);
+				_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(1);
+			}
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"msg @a Ci sono novit\u00E0 in bacheca");
+			CumMod.queueServerWork(300, () -> {
+				{
+					Entity _ent = entity;
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective("vacatio_legis");
+					if (_so == null)
+						_so = _sc.addObjective("vacatio_legis", ObjectiveCriteria.DUMMY, Component.literal("vacatio_legis"), ObjectiveCriteria.RenderType.INTEGER);
+					_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
+				}
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							"effect give @a cum:divietodisessoeffect 5000 10 true");
 			});
 		}
 	}
