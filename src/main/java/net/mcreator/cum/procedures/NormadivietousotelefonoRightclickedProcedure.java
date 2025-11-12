@@ -34,7 +34,7 @@ public class NormadivietousotelefonoRightclickedProcedure {
 			_entity.addEffect(new MobEffectInstance(CumModMobEffects.VACATIOLEGIS.get(), 300, 10, false, false));
 		CumMod.queueServerWork(300, () -> {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(CumModMobEffects.DIVIETOUSOCELLULAREEFFECT.get(), 100001, 10, false, false));
+				_entity.addEffect(new MobEffectInstance(CumModMobEffects.DIVIETOUSOCELLULAREEFFECT.get(), (int) Double.POSITIVE_INFINITY, 10, false, false));
 		});
 	}
 }

@@ -6064,9 +6064,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cum/models/item/olivia_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/client/renderer/OliviaRenderer.java",
           "src/main/resources/data/cum/forge/biome_modifier/olivia_biome_modifier.json",
-          "src/main/java/net/mcreator/cum/entity/OliviaEntity.java"
+          "src/main/java/net/mcreator/cum/entity/OliviaEntity.java",
+          "src/main/java/net/mcreator/cum/client/renderer/OliviaRenderer.java"
         ]
       }
     },
@@ -12842,23 +12842,6 @@
       }
     },
     {
-      "name": "VascaDopoElettroforesi",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vasca_dopo_elettroforesi",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/cum/block/VascaDopoElettroforesiBlock.java",
-          "src/main/java/net/mcreator/cum/block/entity/VascaDopoElettroforesiBlockEntity.java",
-          "src/main/resources/assets/cum/models/block/vasca_dopo_elettroforesi.json",
-          "src/main/resources/data/cum/loot_tables/blocks/vasca_dopo_elettroforesi.json",
-          "src/main/resources/assets/cum/blockstates/vasca_dopo_elettroforesi.json",
-          "src/main/resources/assets/cum/models/item/vasca_dopo_elettroforesi.json"
-        ]
-      }
-    },
-    {
       "name": "MatriceDopoCorsa",
       "type": "block",
       "compiles": true,
@@ -13531,8 +13514,8 @@
       "effect.cum.sanguinamentoeffect": "Sanguinamento",
       "item.cum.qu_di_cuori": "4 di Cuori",
       "subtitles.mp_judgment": "",
-      "block.cum.blocco_pericolante_negativo": "Blocco pericolante negativo",
       "gui.cum.secondafunzioneintegrazione_gui.label_ecori": "ECoRI",
+      "block.cum.blocco_pericolante_negativo": "Blocco pericolante negativo",
       "block.cum.metallo_ultrakillante": "Metallo Ultrakillante",
       "item.cum.spada_super_godevole": "Spada super godevole",
       "entity.cum.plasmacellula": "Plasmacellula",
@@ -13666,7 +13649,6 @@
       "gui.cum.p_craft.label_5_diamanti": "5 diamanti",
       "item.cum.micropipetta": "Micropipetta",
       "advancements.ilgodoo.title": "ILGODOO",
-      "block.cum.vasca_dopo_elettroforesi.description_0": "(non dovresti avere questo oggetto nell\u0027inventario)",
       "item.cum.scheggia_di_pietra_balatrante": "Scheggia di pietra balatrante",
       "block.cum.dir_obb_sx": "Direzione obbligatoria a sinistra",
       "advancements.godooperkeooooo.title": "GODO PERKEO GODOO",
@@ -13781,7 +13763,6 @@
       "item.cum.cazzo_rosso.description_0": "E\u0027 più forte del pene duro, ma ha probabilità doppia di rompersi",
       "gui.cum.consegna_relazione.sufficienza": "Sufficienza?",
       "advancements.pericoloo.descr": "Entra in un bioma pericolante e mangia una stella del godo.",
-      "block.cum.vasca_dopo_elettroforesi": "Vasca elettroforetica dopo elettroforesi",
       "item.cum.otto_di_picchie": "8 di Picchie",
       "item.cum.armatura_lunare_helmet": "Elmetto lunare",
       "block.cum.divtranspubbl": "Divieto di transito per i veicoli adibiti al trasporto pubblico",

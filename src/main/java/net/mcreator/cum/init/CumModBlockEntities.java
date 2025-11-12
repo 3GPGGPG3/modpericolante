@@ -12,7 +12,6 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.cum.block.entity.VascaElettroforeticaBlockEntity;
-import net.mcreator.cum.block.entity.VascaDopoElettroforesiBlockEntity;
 import net.mcreator.cum.block.entity.VascaConMatriceElettroforeticaBlockEntity;
 import net.mcreator.cum.block.entity.TavoloBalatranteBlockEntity;
 import net.mcreator.cum.block.entity.FrigoBlockEntity;
@@ -24,7 +23,6 @@ public class CumModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> FRIGO = register("frigo", CumModBlocks.FRIGO, FrigoBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> VASCA_ELETTROFORETICA = register("vasca_elettroforetica", CumModBlocks.VASCA_ELETTROFORETICA, VascaElettroforeticaBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> VASCA_CON_MATRICE_ELETTROFORETICA = register("vasca_con_matrice_elettroforetica", CumModBlocks.VASCA_CON_MATRICE_ELETTROFORETICA, VascaConMatriceElettroforeticaBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> VASCA_DOPO_ELETTROFORESI = register("vasca_dopo_elettroforesi", CumModBlocks.VASCA_DOPO_ELETTROFORESI, VascaDopoElettroforesiBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

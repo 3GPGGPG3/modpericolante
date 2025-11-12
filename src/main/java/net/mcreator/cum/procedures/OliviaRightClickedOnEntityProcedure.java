@@ -24,7 +24,8 @@ public class OliviaRightClickedOnEntityProcedure {
 			return;
 		if ((entity instanceof OliviaEntity _datEntL0 && _datEntL0.getEntityData().get(OliviaEntity.DATA_sexing)) == true
 				&& !((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == CumModItems.REGGISENO_DI_OLIVIA.get())
-				&& (entity instanceof OliviaEntity _datEntL3 && _datEntL3.getEntityData().get(OliviaEntity.DATA_infiling)) == false && !(entity instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(CumModMobEffects.DIVIETODISESSOEFFECT.get()))) {
+				&& (entity instanceof OliviaEntity _datEntL3 && _datEntL3.getEntityData().get(OliviaEntity.DATA_infiling)) == false
+				&& !(sourceentity instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(CumModMobEffects.DIVIETODISESSOEFFECT.get()))) {
 			if (entity instanceof OliviaEntity _datEntSetL)
 				_datEntSetL.getEntityData().set(OliviaEntity.DATA_sexing, false);
 			if (entity instanceof OliviaEntity _datEntSetL)

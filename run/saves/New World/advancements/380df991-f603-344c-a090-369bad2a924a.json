@@ -7,7 +7,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:sparse_jungle": "2025-11-12 18:35:48 +0100"
+      "minecraft:bamboo_jungle": "2025-11-12 21:09:28 +0100",
+      "minecraft:beach": "2025-11-12 21:09:55 +0100",
+      "minecraft:dark_forest": "2025-11-12 21:14:22 +0100",
+      "minecraft:sparse_jungle": "2025-11-12 18:35:48 +0100",
+      "minecraft:forest": "2025-11-12 21:11:18 +0100",
+      "minecraft:jungle": "2025-11-12 21:11:37 +0100",
+      "minecraft:old_growth_birch_forest": "2025-11-12 21:14:48 +0100"
     },
     "done": false
   },
@@ -56,6 +62,60 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2025-11-12 20:13:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-11-12 21:09:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-11-12 21:09:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-11-12 21:09:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-11-12 21:09:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-11-12 21:09:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-11-12 21:09:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-11-12 21:09:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-11-12 21:09:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-11-12 21:09:21 +0100"
     },
     "done": true
   },
