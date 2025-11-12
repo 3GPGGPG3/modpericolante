@@ -66,7 +66,6 @@ public class PresideEntity extends Monster {
 		setNoAi(false);
 		setCustomName(Component.literal("Preside"));
 		setCustomNameVisible(true);
-		setPersistenceRequired();
 	}
 
 	@Override
@@ -140,11 +139,6 @@ public class PresideEntity extends Monster {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
-	}
-
-	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
 	}
 
 	@Override
