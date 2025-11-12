@@ -96,7 +96,7 @@ public class GiolittiEntity extends Monster {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		MirabellaEntityIsHurtProcedure.execute(entity, sourceentity);
+		MirabellaEntityIsHurtProcedure.execute(world, x, y, z, entity, sourceentity);
 		return super.hurt(damagesource, amount);
 	}
 

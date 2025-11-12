@@ -6,12 +6,14 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.cum.init.CumModMobEffects;
 import net.mcreator.cum.init.CumModItems;
 import net.mcreator.cum.entity.OliviaEntity;
 import net.mcreator.cum.CumMod;
@@ -21,7 +23,7 @@ public class SpogliatiClickedProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if ((entity instanceof OliviaEntity _datEntL0 && _datEntL0.getEntityData().get(OliviaEntity.DATA_walk_normal)) == true && (entity instanceof OliviaEntity _datEntL1 && _datEntL1.getEntityData().get(OliviaEntity.DATA_angry)) == false
-				&& sourceentity.isShiftKeyDown()) {
+				&& sourceentity.isShiftKeyDown() && !(entity instanceof LivingEntity _livEnt3 && _livEnt3.hasEffect(CumModMobEffects.DIVIETODISESSOEFFECT.get()))) {
 			if (entity instanceof OliviaEntity _datEntSetL)
 				_datEntSetL.getEntityData().set(OliviaEntity.DATA_walk_normal, false);
 			if (entity instanceof OliviaEntity _datEntSetL)
@@ -44,8 +46,8 @@ public class SpogliatiClickedProcedure {
 				if (entity instanceof OliviaEntity _datEntSetL)
 					_datEntSetL.getEntityData().set(OliviaEntity.DATA_walk_naked, true);
 			});
-		} else if ((entity instanceof OliviaEntity _datEntL10 && _datEntL10.getEntityData().get(OliviaEntity.DATA_walk_naked)) == true
-				&& (entity instanceof OliviaEntity _datEntL11 && _datEntL11.getEntityData().get(OliviaEntity.DATA_angry)) == false) {
+		} else if ((entity instanceof OliviaEntity _datEntL11 && _datEntL11.getEntityData().get(OliviaEntity.DATA_walk_naked)) == true
+				&& (entity instanceof OliviaEntity _datEntL12 && _datEntL12.getEntityData().get(OliviaEntity.DATA_angry)) == false) {
 			if (entity instanceof OliviaEntity _datEntSetL)
 				_datEntSetL.getEntityData().set(OliviaEntity.DATA_walk_naked, false);
 			if (entity instanceof OliviaEntity _datEntSetL)

@@ -120,7 +120,7 @@ public class PerInv1Entity extends Monster {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		MirabellaEntityIsHurtProcedure.execute(entity, sourceentity);
+		MirabellaEntityIsHurtProcedure.execute(world, x, y, z, entity, sourceentity);
 		if (damagesource.is(DamageTypes.IN_FIRE))
 			return false;
 		if (damagesource.getDirectEntity() instanceof AbstractArrow)

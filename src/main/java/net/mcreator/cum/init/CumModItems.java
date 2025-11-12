@@ -486,6 +486,12 @@ public class CumModItems {
 	public static final RegistryObject<Item> SEI_SETTE_SPAWN_EGG = REGISTRY.register("sei_sette_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.SEI_SETTE, -16777216, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> VASCA_ELETTROFORETICA = block(CumModBlocks.VASCA_ELETTROFORETICA);
 	public static final RegistryObject<Item> NORMADIVIETODISESSO = REGISTRY.register("normadivietodisesso", () -> new NormadivietodisessoItem());
+	public static final RegistryObject<Item> DELIRIO_SPAWN_EGG = REGISTRY.register("delirio_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.DELIRIO, -65536, -16777114, new Item.Properties()));
+	public static final RegistryObject<Item> MATRACCIO = block(CumModBlocks.MATRACCIO);
+	public static final RegistryObject<Item> TBE = block(CumModBlocks.TBE);
+	public static final RegistryObject<Item> VASCA_CON_MATRICE_ELETTROFORETICA = block(CumModBlocks.VASCA_CON_MATRICE_ELETTROFORETICA);
+	public static final RegistryObject<Item> VASCA_DOPO_ELETTROFORESI = block(CumModBlocks.VASCA_DOPO_ELETTROFORESI);
+	public static final RegistryObject<Item> MATRICE_DOPO_CORSA = block(CumModBlocks.MATRICE_DOPO_CORSA);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -107,7 +107,7 @@ public class Pericolante3Entity extends Monster {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		MirabellaEntityIsHurtProcedure.execute(entity, sourceentity);
+		MirabellaEntityIsHurtProcedure.execute(world, x, y, z, entity, sourceentity);
 		if (damagesource.is(DamageTypes.FALL))
 			return false;
 		return super.hurt(damagesource, amount);

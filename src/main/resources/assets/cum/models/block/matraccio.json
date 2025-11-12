@@ -1,0 +1,9 @@
+{
+  "parent": "cum:custom/trisborrateedta",
+  "textures": {
+    "all": "cum:block/matraccio",
+    "particle": "cum:block/matraccio",
+    "0": "cum:block/matraccio"
+  },
+  "render_type": "solid"
+}

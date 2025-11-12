@@ -252,6 +252,11 @@ public class CumModTabs {
 				tabData.accept(CumModItems.SEI_SETTE_SPAWN_EGG.get());
 				tabData.accept(CumModBlocks.VASCA_ELETTROFORETICA.get().asItem());
 				tabData.accept(CumModItems.NORMADIVIETODISESSO.get());
+				tabData.accept(CumModItems.DELIRIO_SPAWN_EGG.get());
+				tabData.accept(CumModBlocks.MATRACCIO.get().asItem());
+				tabData.accept(CumModBlocks.TBE.get().asItem());
+				tabData.accept(CumModBlocks.VASCA_CON_MATRICE_ELETTROFORETICA.get().asItem());
+				tabData.accept(CumModBlocks.MATRICE_DOPO_CORSA.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -463,6 +468,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.FRAMMENTO_DI_VETRO.get());
 				tabData.accept(CumModBlocks.CAVOLO_ROSSO.get().asItem());
 				tabData.accept(CumModItems.INDICATORE_AL_CAVOLO_ROSSO.get());
+				tabData.accept(CumModItems.BATTERIA.get());
 				tabData.accept(CumModItems.ENERGIA.get());
 				tabData.accept(CumModBlocks.BLOCCO_VIRIDAE.get().asItem());
 				tabData.accept(CumModItems.VIRUS_SPAWN_EGG.get());
@@ -497,6 +503,10 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PBR_322.get());
 				tabData.accept(CumModBlocks.MATRICE_CON_DNA_FRAMMENTATO.get().asItem());
 				tabData.accept(CumModBlocks.VASCA_ELETTROFORETICA.get().asItem());
+				tabData.accept(CumModBlocks.MATRACCIO.get().asItem());
+				tabData.accept(CumModBlocks.TBE.get().asItem());
+				tabData.accept(CumModBlocks.VASCA_CON_MATRICE_ELETTROFORETICA.get().asItem());
+				tabData.accept(CumModBlocks.MATRICE_DOPO_CORSA.get().asItem());
 			}).withTabsBefore(COSE_ULTRAKILLANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> SCUOLA_GUIDA = REGISTRY.register("scuola_guida",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.scuola_guida")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {

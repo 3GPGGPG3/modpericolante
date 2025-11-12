@@ -11,6 +11,7 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import net.mcreator.cum.world.inventory.VascaElettroforeticaGUIMenu;
 import net.mcreator.cum.world.inventory.SpadaBalatranteGUIMenu;
 import net.mcreator.cum.world.inventory.SecondafunzioneintegrazioneGUIMenu;
 import net.mcreator.cum.world.inventory.ScommessaMenu;
@@ -51,4 +52,5 @@ public class CumModMenus {
 	public static final RegistryObject<MenuType<MicropipettaGUIMenu>> MICROPIPETTA_GUI = REGISTRY.register("micropipetta_gui", () -> IForgeMenuType.create(MicropipettaGUIMenu::new));
 	public static final RegistryObject<MenuType<PVZshopMenu>> PV_ZSHOP = REGISTRY.register("pv_zshop", () -> IForgeMenuType.create(PVZshopMenu::new));
 	public static final RegistryObject<MenuType<SecondafunzioneintegrazioneGUIMenu>> SECONDAFUNZIONEINTEGRAZIONE_GUI = REGISTRY.register("secondafunzioneintegrazione_gui", () -> IForgeMenuType.create(SecondafunzioneintegrazioneGUIMenu::new));
+	public static final RegistryObject<MenuType<VascaElettroforeticaGUIMenu>> VASCA_ELETTROFORETICA_GUI = REGISTRY.register("vasca_elettroforetica_gui", () -> IForgeMenuType.create(VascaElettroforeticaGUIMenu::new));
 }

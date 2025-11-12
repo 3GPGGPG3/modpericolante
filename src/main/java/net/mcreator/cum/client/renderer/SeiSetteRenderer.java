@@ -10,7 +10,7 @@ import net.mcreator.cum.client.model.Modelseisette;
 
 public class SeiSetteRenderer extends MobRenderer<SeiSetteEntity, Modelseisette<SeiSetteEntity>> {
 	public SeiSetteRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelseisette<SeiSetteEntity>(context.bakeLayer(Modelseisette.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelseisette<SeiSetteEntity>(context.bakeLayer(Modelseisette.LAYER_LOCATION)), 0.8f);
 	}
 
 	@Override

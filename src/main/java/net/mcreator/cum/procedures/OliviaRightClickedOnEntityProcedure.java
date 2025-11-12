@@ -13,6 +13,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.cum.init.CumModMobEffects;
 import net.mcreator.cum.init.CumModItems;
 import net.mcreator.cum.entity.OliviaEntity;
 import net.mcreator.cum.CumMod;
@@ -23,7 +24,7 @@ public class OliviaRightClickedOnEntityProcedure {
 			return;
 		if ((entity instanceof OliviaEntity _datEntL0 && _datEntL0.getEntityData().get(OliviaEntity.DATA_sexing)) == true
 				&& !((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == CumModItems.REGGISENO_DI_OLIVIA.get())
-				&& (entity instanceof OliviaEntity _datEntL3 && _datEntL3.getEntityData().get(OliviaEntity.DATA_infiling)) == false) {
+				&& (entity instanceof OliviaEntity _datEntL3 && _datEntL3.getEntityData().get(OliviaEntity.DATA_infiling)) == false && !(entity instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(CumModMobEffects.DIVIETODISESSOEFFECT.get()))) {
 			if (entity instanceof OliviaEntity _datEntSetL)
 				_datEntSetL.getEntityData().set(OliviaEntity.DATA_sexing, false);
 			if (entity instanceof OliviaEntity _datEntSetL)
@@ -32,7 +33,7 @@ public class OliviaRightClickedOnEntityProcedure {
 				if (entity instanceof OliviaEntity _datEntSetL)
 					_datEntSetL.getEntityData().set(OliviaEntity.DATA_infiling, false);
 			});
-		} else if ((entity instanceof OliviaEntity _datEntL8 && _datEntL8.getEntityData().get(OliviaEntity.DATA_angry)) == true
+		} else if ((entity instanceof OliviaEntity _datEntL9 && _datEntL9.getEntityData().get(OliviaEntity.DATA_angry)) == true
 				&& (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Blocks.POPPY.asItem()) {
 			if (sourceentity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(Blocks.POPPY);
@@ -40,7 +41,7 @@ public class OliviaRightClickedOnEntityProcedure {
 			}
 			if (entity instanceof OliviaEntity _datEntSetL)
 				_datEntSetL.getEntityData().set(OliviaEntity.DATA_angry, false);
-		} else if ((entity instanceof OliviaEntity _datEntL13 && _datEntL13.getEntityData().get(OliviaEntity.DATA_walk_naked)) == true
+		} else if ((entity instanceof OliviaEntity _datEntL14 && _datEntL14.getEntityData().get(OliviaEntity.DATA_walk_naked)) == true
 				&& (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == CumModItems.REGGISENO_DI_OLIVIA.get()) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {

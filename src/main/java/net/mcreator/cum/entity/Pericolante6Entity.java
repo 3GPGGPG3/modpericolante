@@ -116,7 +116,7 @@ public class Pericolante6Entity extends Monster {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		MirabellaEntityIsHurtProcedure.execute(entity, sourceentity);
+		MirabellaEntityIsHurtProcedure.execute(world, x, y, z, entity, sourceentity);
 		if (damagesource.is(DamageTypes.IN_FIRE))
 			return false;
 		if (damagesource.getDirectEntity() instanceof AbstractArrow)
@@ -146,7 +146,7 @@ public class Pericolante6Entity extends Monster {
 	@Override
 	public void playerTouch(Player sourceentity) {
 		super.playerTouch(sourceentity);
-		MirabellaEntityIsHurtProcedure.execute(this, sourceentity);
+		MirabellaEntityIsHurtProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this, sourceentity);
 	}
 
 	public static void init() {

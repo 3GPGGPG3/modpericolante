@@ -1,0 +1,9 @@
+{
+  "parent": "cum:custom/matrice",
+  "textures": {
+    "all": "cum:block/geldiagarosio_fluido",
+    "particle": "cum:block/geldiagarosio_fluido",
+    "0": "cum:block/matrice"
+  },
+  "render_type": "solid"
+}

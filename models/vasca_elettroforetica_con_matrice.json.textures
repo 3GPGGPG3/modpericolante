@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "vasca_elettroforetica",
+        "1": "matriceinserita"
+      },
+      "name": "default"
+    }
+  }
+}

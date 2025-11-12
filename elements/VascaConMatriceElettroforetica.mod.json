@@ -1,0 +1,267 @@
+{
+  "_fv": 73,
+  "_type": "block",
+  "definition": {
+    "texture": "vasca_elettroforetica",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "vasca_elettroforetica_con_matrice:default",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 6.0,
+        "my": 0.0,
+        "mz": 5.0,
+        "Mx": 10.0,
+        "My": 1.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 9.4,
+        "my": 1.0,
+        "mz": 5.0,
+        "Mx": 10.0,
+        "My": 3.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 1.0,
+        "mz": 5.0,
+        "Mx": 6.6,
+        "My": 3.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.6,
+        "my": 1.0,
+        "mz": 10.4,
+        "Mx": 9.4,
+        "My": 3.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.6,
+        "my": 1.0,
+        "mz": 5.0,
+        "Mx": 9.4,
+        "My": 3.0,
+        "Mz": 5.6,
+        "subtract": false
+      },
+      {
+        "mx": 5.6,
+        "my": 0.5,
+        "mz": 7.4,
+        "Mx": 6.1,
+        "My": 2.5,
+        "Mz": 8.1,
+        "subtract": false
+      },
+      {
+        "mx": 6.8,
+        "my": 0.0,
+        "mz": 3.6,
+        "Mx": 9.2,
+        "My": 0.8,
+        "Mz": 5.6,
+        "subtract": false
+      },
+      {
+        "mx": 6.6,
+        "my": 0.0,
+        "mz": 3.4,
+        "Mx": 9.4,
+        "My": 0.3,
+        "Mz": 5.4,
+        "subtract": false
+      },
+      {
+        "mx": 6.6,
+        "my": 1.0,
+        "mz": 9.8,
+        "Mx": 9.4,
+        "My": 2.0,
+        "Mz": 10.4,
+        "subtract": false
+      },
+      {
+        "mx": 9.0,
+        "my": 1.0,
+        "mz": 9.4,
+        "Mx": 9.4,
+        "My": 2.0,
+        "Mz": 9.8,
+        "subtract": false
+      },
+      {
+        "mx": 7.8,
+        "my": 1.0,
+        "mz": 9.4,
+        "Mx": 8.2,
+        "My": 2.0,
+        "Mz": 9.8,
+        "subtract": false
+      },
+      {
+        "mx": 8.4,
+        "my": 1.0,
+        "mz": 9.4,
+        "Mx": 8.8,
+        "My": 2.0,
+        "Mz": 9.8,
+        "subtract": false
+      },
+      {
+        "mx": 7.2,
+        "my": 1.0,
+        "mz": 9.4,
+        "Mx": 7.6,
+        "My": 2.0,
+        "Mz": 9.8,
+        "subtract": false
+      },
+      {
+        "mx": 6.6,
+        "my": 1.0,
+        "mz": 9.4,
+        "Mx": 7.0,
+        "My": 2.0,
+        "Mz": 9.8,
+        "subtract": false
+      },
+      {
+        "mx": 6.6,
+        "my": 1.0,
+        "mz": 5.6,
+        "Mx": 9.4,
+        "My": 2.0,
+        "Mz": 9.4,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Vasca elettroforetica con matrice",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 0.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:Laboratorio"
+      }
+    ],
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "NONE"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "hasInventory": true,
+    "guiBoundTo": "VascaElettroforeticaGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 4,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

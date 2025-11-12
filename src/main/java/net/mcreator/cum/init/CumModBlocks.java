@@ -17,10 +17,13 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.cum.block.VelocconsextraBlock;
 import net.mcreator.cum.block.VelocconsautoBlock;
 import net.mcreator.cum.block.VascaElettroforeticaBlock;
+import net.mcreator.cum.block.VascaDopoElettroforesiBlock;
+import net.mcreator.cum.block.VascaConMatriceElettroforeticaBlock;
 import net.mcreator.cum.block.UltrakillanteOreBlock;
 import net.mcreator.cum.block.UltrakillanteBlockBlock;
 import net.mcreator.cum.block.TerraVuotaBlock;
 import net.mcreator.cum.block.TavoloBalatranteBlock;
+import net.mcreator.cum.block.TBEBlock;
 import net.mcreator.cum.block.SlabDiSangueBlock;
 import net.mcreator.cum.block.SensoVietatoBlock;
 import net.mcreator.cum.block.SensoUnicoFrontaleBlock;
@@ -36,8 +39,10 @@ import net.mcreator.cum.block.PassObbDxBlock;
 import net.mcreator.cum.block.PaloBlock;
 import net.mcreator.cum.block.OliviaBlockBlock;
 import net.mcreator.cum.block.MetalloUltrakillanteBlock;
+import net.mcreator.cum.block.MatriceDopoCorsaBlock;
 import net.mcreator.cum.block.MatriceConDNAFrammentatoBlock;
 import net.mcreator.cum.block.MatriceBlock;
+import net.mcreator.cum.block.MatraccioBlock;
 import net.mcreator.cum.block.ManoscrittoDiIgieneBlock;
 import net.mcreator.cum.block.LimmaxBlock;
 import net.mcreator.cum.block.InizioVerBlock;
@@ -194,6 +199,11 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> SLAB_DI_SANGUE = REGISTRY.register("slab_di_sangue", () -> new SlabDiSangueBlock());
 	public static final RegistryObject<Block> MATRICE_CON_DNA_FRAMMENTATO = REGISTRY.register("matrice_con_dna_frammentato", () -> new MatriceConDNAFrammentatoBlock());
 	public static final RegistryObject<Block> VASCA_ELETTROFORETICA = REGISTRY.register("vasca_elettroforetica", () -> new VascaElettroforeticaBlock());
+	public static final RegistryObject<Block> MATRACCIO = REGISTRY.register("matraccio", () -> new MatraccioBlock());
+	public static final RegistryObject<Block> TBE = REGISTRY.register("tbe", () -> new TBEBlock());
+	public static final RegistryObject<Block> VASCA_CON_MATRICE_ELETTROFORETICA = REGISTRY.register("vasca_con_matrice_elettroforetica", () -> new VascaConMatriceElettroforeticaBlock());
+	public static final RegistryObject<Block> VASCA_DOPO_ELETTROFORESI = REGISTRY.register("vasca_dopo_elettroforesi", () -> new VascaDopoElettroforesiBlock());
+	public static final RegistryObject<Block> MATRICE_DOPO_CORSA = REGISTRY.register("matrice_dopo_corsa", () -> new MatriceDopoCorsaBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

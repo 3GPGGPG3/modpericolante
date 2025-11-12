@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.cum.client.gui.VascaElettroforeticaGUIScreen;
 import net.mcreator.cum.client.gui.SpadaBalatranteGUIScreen;
 import net.mcreator.cum.client.gui.SecondafunzioneintegrazioneGUIScreen;
 import net.mcreator.cum.client.gui.ScommessaScreen;
@@ -53,6 +54,7 @@ public class CumModScreens {
 			MenuScreens.register(CumModMenus.MICROPIPETTA_GUI.get(), MicropipettaGUIScreen::new);
 			MenuScreens.register(CumModMenus.PV_ZSHOP.get(), PVZshopScreen::new);
 			MenuScreens.register(CumModMenus.SECONDAFUNZIONEINTEGRAZIONE_GUI.get(), SecondafunzioneintegrazioneGUIScreen::new);
+			MenuScreens.register(CumModMenus.VASCA_ELETTROFORETICA_GUI.get(), VascaElettroforeticaGUIScreen::new);
 		});
 	}
 }

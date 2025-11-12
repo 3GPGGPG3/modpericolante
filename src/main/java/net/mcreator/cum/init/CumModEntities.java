@@ -70,6 +70,7 @@ import net.mcreator.cum.entity.FilfhErrEntity;
 import net.mcreator.cum.entity.FilfhEntity;
 import net.mcreator.cum.entity.EsserePerfettamenteInutileEntity;
 import net.mcreator.cum.entity.DiFazioEntity;
+import net.mcreator.cum.entity.DelirioEntity;
 import net.mcreator.cum.entity.DaveEntity;
 import net.mcreator.cum.entity.DanieleLucianoEntity;
 import net.mcreator.cum.entity.CumEntity;
@@ -284,7 +285,11 @@ public class CumModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SeiSetteEntity>> SEI_SETTE = register("sei_sette",
-			EntityType.Builder.<SeiSetteEntity>of(SeiSetteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(SeiSetteEntity::new).fireImmune().sized(0.6f, 1.8f));
+			EntityType.Builder.<SeiSetteEntity>of(SeiSetteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(SeiSetteEntity::new).fireImmune().sized(0.7f, 3.8f));
+	public static final RegistryObject<EntityType<DelirioEntity>> DELIRIO = register("delirio",
+			EntityType.Builder.<DelirioEntity>of(DelirioEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DelirioEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -343,6 +348,7 @@ public class CumModEntities {
 			GiolittiEntity.init();
 			DanieleLucianoEntity.init();
 			SeiSetteEntity.init();
+			DelirioEntity.init();
 		});
 	}
 
@@ -396,5 +402,6 @@ public class CumModEntities {
 		event.put(GIOLITTI.get(), GiolittiEntity.createAttributes().build());
 		event.put(DANIELE_LUCIANO.get(), DanieleLucianoEntity.createAttributes().build());
 		event.put(SEI_SETTE.get(), SeiSetteEntity.createAttributes().build());
+		event.put(DELIRIO.get(), DelirioEntity.createAttributes().build());
 	}
 }

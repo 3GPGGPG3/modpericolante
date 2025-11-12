@@ -1,0 +1,10 @@
+{
+  "parent": "cum:custom/vasca_elettroforetica_con_matrice",
+  "textures": {
+    "all": "cum:block/vasca_elettroforetica",
+    "particle": "cum:block/vasca_elettroforetica",
+    "0": "cum:block/vasca_elettroforetica",
+    "1": "cum:block/matriceinserita"
+  },
+  "render_type": "solid"
+}
