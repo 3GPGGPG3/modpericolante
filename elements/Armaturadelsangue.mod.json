@@ -15,10 +15,10 @@
     },
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:IlFuMattiaPascal"
       },
       {
-        "value": "CUSTOM:IlFuMattiaPascal"
+        "value": "CUSTOM:Talismani"
       }
     ],
     "armorTextureFile": "armatura_del_sangue",
@@ -36,7 +36,9 @@
       "fixedValue": []
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Genera sangue coagulato ai tuoi piedi. Tuttavia, si rompono nel tempo."
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
@@ -104,6 +106,9 @@
     "repairItems": [
       {
         "value": "CUSTOM:BloccoDiSangue"
+      },
+      {
+        "value": "CUSTOM:Armaturadelsangue.boots"
       }
     ]
   }

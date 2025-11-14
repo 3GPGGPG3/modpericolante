@@ -23,7 +23,7 @@ public class SpogliatiClickedProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if ((entity instanceof OliviaEntity _datEntL0 && _datEntL0.getEntityData().get(OliviaEntity.DATA_walk_normal)) == true && (entity instanceof OliviaEntity _datEntL1 && _datEntL1.getEntityData().get(OliviaEntity.DATA_angry)) == false
-				&& sourceentity.isShiftKeyDown() && !(entity instanceof LivingEntity _livEnt3 && _livEnt3.hasEffect(CumModMobEffects.DIVIETODISESSOEFFECT.get()))) {
+				&& sourceentity.isShiftKeyDown() && !(sourceentity instanceof LivingEntity _livEnt3 && _livEnt3.hasEffect(CumModMobEffects.DIVIETODISESSOEFFECT.get()))) {
 			if (entity instanceof OliviaEntity _datEntSetL)
 				_datEntSetL.getEntityData().set(OliviaEntity.DATA_walk_normal, false);
 			if (entity instanceof OliviaEntity _datEntSetL)

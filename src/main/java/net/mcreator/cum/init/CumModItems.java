@@ -139,6 +139,7 @@ import net.mcreator.cum.item.DieciDiFioriItem;
 import net.mcreator.cum.item.DieciDiCuoriItem;
 import net.mcreator.cum.item.DNAItem;
 import net.mcreator.cum.item.DNAFrammentatoItem;
+import net.mcreator.cum.item.CuffieDiSiofraItem;
 import net.mcreator.cum.item.CuboItem;
 import net.mcreator.cum.item.ConoItemItem;
 import net.mcreator.cum.item.ClonatoreItem;
@@ -491,6 +492,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> TBE = block(CumModBlocks.TBE);
 	public static final RegistryObject<Item> VASCA_CON_MATRICE_ELETTROFORETICA = block(CumModBlocks.VASCA_CON_MATRICE_ELETTROFORETICA);
 	public static final RegistryObject<Item> MATRICE_DOPO_CORSA = block(CumModBlocks.MATRICE_DOPO_CORSA);
+	public static final RegistryObject<Item> TOPO_SPAWN_EGG = REGISTRY.register("topo_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.TOPO, -10066330, -26215, new Item.Properties()));
+	public static final RegistryObject<Item> CUFFIE_DI_SIOFRA_HELMET = REGISTRY.register("cuffie_di_siofra_helmet", () -> new CuffieDiSiofraItem.Helmet());
 
 	// Start of user code block custom items
 	// End of user code block custom items

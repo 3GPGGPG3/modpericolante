@@ -1,30 +1,30 @@
-[12Nov2025 21:02:47.813] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\domyc\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[12Nov2025 21:02:47.816] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[12Nov2025 21:02:47.989] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[12Nov2025 21:02:48.066] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[12Nov2025 21:02:48.160] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[12Nov2025 21:02:48.308] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Arc(TM) Graphics GL version 4.6.0 - Build 31.0.101.5007, Intel
-[12Nov2025 21:02:48.323] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/domyc/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[12Nov2025 21:02:48.676] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[12Nov2025 21:02:48.679] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[12Nov2025 21:02:48.684] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[12Nov2025 21:02:48.687] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[12Nov2025 21:02:48.842] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[12Nov2025 21:02:50.988] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\domyc\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[12Nov2025 21:02:56.041] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 188 milliseconds
-[12Nov2025 21:02:57.966] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/domyc/MCreatorWorkspaces/modpericolante/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[12Nov2025 21:02:57.966] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/domyc/MCreatorWorkspaces/modpericolante/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[12Nov2025 21:02:58.007] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12Nov2025 21:02:58.026] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[12Nov2025 21:02:58.182] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[12Nov2025 21:02:58.494] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[12Nov2025 21:02:58.498] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[12Nov2025 21:02:59.982] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[12Nov2025 21:03:00.266] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[12Nov2025 21:03:00.383] [Worker-Main-10/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
-[12Nov2025 21:03:00.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12Nov2025 21:03:00.532] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[12Nov2025 21:03:00.739] [Worker-Main-9/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
+[14Nov2025 22:16:34.147] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[14Nov2025 22:16:34.151] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[14Nov2025 22:16:34.361] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[14Nov2025 22:16:34.456] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[14Nov2025 22:16:34.610] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[14Nov2025 22:16:34.830] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.5186, Intel
+[14Nov2025 22:16:34.836] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Fabio%20Ferlito/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[14Nov2025 22:16:35.344] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14Nov2025 22:16:35.348] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14Nov2025 22:16:35.352] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14Nov2025 22:16:35.359] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[14Nov2025 22:16:37.421] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[14Nov2025 22:16:42.630] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[14Nov2025 22:16:49.231] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 498 milliseconds
+[14Nov2025 22:16:50.880] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[14Nov2025 22:16:50.881] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[14Nov2025 22:16:50.906] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Nov2025 22:16:50.915] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[14Nov2025 22:16:51.095] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[14Nov2025 22:16:51.453] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[14Nov2025 22:16:51.462] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[14Nov2025 22:16:53.501] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[14Nov2025 22:16:53.855] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[14Nov2025 22:16:54.128] [Worker-Main-1/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
+[14Nov2025 22:16:54.170] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[14Nov2025 22:16:54.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Nov2025 22:16:55.039] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -46,7 +46,7 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12Nov2025 21:03:00.739] [Worker-Main-13/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
+[14Nov2025 22:16:55.069] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -68,7 +68,35 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12Nov2025 21:03:00.778] [Worker-Main-10/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/hand_of_malenia.json
+[14Nov2025 22:16:55.208] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/di_maleniamano.json
+com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:82) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:376) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:305) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[14Nov2025 22:16:55.245] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/hand_of_malenia.json
 com.google.gson.JsonParseException: Invalid rotation -5.5 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -96,35 +124,7 @@ com.google.gson.JsonParseException: Invalid rotation -5.5 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12Nov2025 21:03:00.779] [Worker-Main-13/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/di_maleniamano.json
-com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
-	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:82) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
-	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:376) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:305) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
-	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
-	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12Nov2025 21:03:00.779] [Worker-Main-14/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/malenia_mano.json
+[14Nov2025 22:16:55.253] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/malenia_mano.json
 com.google.gson.JsonParseException: Invalid rotation -3.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -152,7 +152,7 @@ com.google.gson.JsonParseException: Invalid rotation -3.0 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12Nov2025 21:03:00.779] [Worker-Main-9/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/mano_di_malenia.json
+[14Nov2025 22:16:55.255] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/mano_di_malenia.json
 com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -180,7 +180,7 @@ com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12Nov2025 21:03:00.785] [Worker-Main-10/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
+[14Nov2025 22:16:55.434] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
 com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -208,7 +208,7 @@ com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12Nov2025 21:03:00.801] [Worker-Main-10/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
+[14Nov2025 22:16:55.511] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -230,31 +230,31 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12Nov2025 21:03:00.868] [Worker-Main-15/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/mano_di_malenia with size 1370x1370 limits mip level from 2 to 1
-[12Nov2025 21:03:00.868] [Worker-Main-15/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/reggisenodiolivia with size 15x15 limits mip level from 1 to 0
-[12Nov2025 21:03:01.475] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
-[12Nov2025 21:03:01.477] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
-[12Nov2025 21:03:01.569] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
-[12Nov2025 21:03:03.529] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[12Nov2025 21:03:03.530] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[12Nov2025 21:03:03.997] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[12Nov2025 21:03:03.998] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[12Nov2025 21:03:04.095] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x2 minecraft:textures/atlas/blocks.png-atlas
-[12Nov2025 21:03:04.129] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[12Nov2025 21:03:04.130] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[12Nov2025 21:03:04.131] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[12Nov2025 21:03:04.132] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[12Nov2025 21:03:04.139] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[12Nov2025 21:03:04.139] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[12Nov2025 21:03:04.140] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[12Nov2025 21:03:04.140] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[12Nov2025 21:03:04.295] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[12Nov2025 21:03:04.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[12Nov2025 21:03:04.406] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/paintings.png-atlas
-[12Nov2025 21:03:04.419] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
-[12Nov2025 21:03:05.015] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[12Nov2025 21:05:25.906] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[12Nov2025 21:05:27.851] [Worker-Main-6/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:cum:blocks/vasca_dopo_elettroforesi
+[14Nov2025 22:16:55.937] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/mano_di_malenia with size 1370x1370 limits mip level from 2 to 1
+[14Nov2025 22:16:55.941] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/reggisenodiolivia with size 15x15 limits mip level from 1 to 0
+[14Nov2025 22:16:55.942] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
+[14Nov2025 22:16:56.548] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
+[14Nov2025 22:16:56.553] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
+[14Nov2025 22:16:59.539] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[14Nov2025 22:16:59.539] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14Nov2025 22:17:00.161] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
+[14Nov2025 22:17:00.164] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[14Nov2025 22:17:00.343] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x2 minecraft:textures/atlas/blocks.png-atlas
+[14Nov2025 22:17:00.487] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[14Nov2025 22:17:00.488] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[14Nov2025 22:17:00.491] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[14Nov2025 22:17:00.493] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[14Nov2025 22:17:00.517] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[14Nov2025 22:17:00.518] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[14Nov2025 22:17:00.520] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14Nov2025 22:17:00.521] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[14Nov2025 22:17:00.774] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[14Nov2025 22:17:01.072] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[14Nov2025 22:17:01.084] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/paintings.png-atlas
+[14Nov2025 22:17:01.150] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14Nov2025 22:17:02.616] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[14Nov2025 22:17:12.274] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[14Nov2025 22:17:14.793] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:cum:blocks/vasca_dopo_elettroforesi
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'cum:vasca_dopo_elettroforesi'
 	at net.minecraft.util.GsonHelper.lambda$convertToItem$0(GsonHelper.java:116) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -306,120 +306,505 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[12Nov2025 21:05:27.987] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[12Nov2025 21:05:28.066] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@12b962b1, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@15844237}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@b61aa50}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
-[12Nov2025 21:05:28.066] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1276 advancements
-[12Nov2025 21:05:28.653] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[12Nov2025 21:05:28.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12Nov2025 21:05:30.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12Nov2025 21:05:32.283] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2025 21:05:32.283] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2025 21:05:32.283] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2025 21:05:32.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2025 21:05:32.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Nov2025 21:05:32.554] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[12Nov2025 21:05:33.045] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[12Nov2025 21:05:33.347] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3304 ms
-[12Nov2025 21:05:33.350] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[12Nov2025 21:05:33.532] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[12Nov2025 21:05:33.534] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[12Nov2025 21:05:33.708] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[12Nov2025 21:05:34.876] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[12Nov2025 21:05:34.979] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7db87806] logged in with entity id 259 at (14.53101405878947, 70.0, -70.29736058980009)
-[12Nov2025 21:05:35.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[12Nov2025 21:05:35.644] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 18 advancements
-[12Nov2025 21:07:25.552] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[12Nov2025 21:07:25.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[12Nov2025 21:07:25.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[12Nov2025 21:07:25.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[12Nov2025 21:07:25.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[12Nov2025 21:07:25.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[12Nov2025 21:07:25.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[12Nov2025 21:07:25.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[12Nov2025 21:07:25.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[12Nov2025 21:07:25.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[12Nov2025 21:08:08.902] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[12Nov2025 21:08:08.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[12Nov2025 21:08:08.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[12Nov2025 21:08:08.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[12Nov2025 21:08:08.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[12Nov2025 21:08:08.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[12Nov2025 21:08:08.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[12Nov2025 21:08:08.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[12Nov2025 21:08:08.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[12Nov2025 21:08:08.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[12Nov2025 21:08:24.052] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[12Nov2025 21:08:24.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[12Nov2025 21:08:24.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[12Nov2025 21:08:24.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[12Nov2025 21:08:24.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[12Nov2025 21:08:24.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[12Nov2025 21:08:24.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[12Nov2025 21:08:24.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[12Nov2025 21:08:24.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[12Nov2025 21:08:24.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[12Nov2025 21:09:01.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Applied effect Divieto di sesso to Dev]
-[12Nov2025 21:09:01.025] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Applied effect Divieto di sesso to Dev
-[12Nov2025 21:09:13.231] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/59, l='ServerLevel[New World]', x=20.35, y=71.00, z=-66.59] died: Olivia was killed
-[12Nov2025 21:09:13.233] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/78, l='ServerLevel[New World]', x=15.00, y=70.00, z=-71.00] died: Olivia was killed
-[12Nov2025 21:09:13.233] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/82, l='ServerLevel[New World]', x=30.30, y=70.00, z=-69.70] died: Olivia was killed
-[12Nov2025 21:09:13.233] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/83, l='ServerLevel[New World]', x=30.30, y=70.00, z=-65.30] died: Olivia was killed
-[12Nov2025 21:09:13.234] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/95, l='ServerLevel[New World]', x=30.30, y=70.00, z=-69.07] died: Olivia was killed
-[12Nov2025 21:09:13.234] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/96, l='ServerLevel[New World]', x=30.30, y=70.00, z=-68.47] died: Olivia was killed
-[12Nov2025 21:09:13.234] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/100, l='ServerLevel[New World]', x=32.01, y=70.00, z=-69.70] died: Olivia was killed
-[12Nov2025 21:09:13.234] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/101, l='ServerLevel[New World]', x=32.70, y=70.00, z=-69.05] died: Olivia was killed
-[12Nov2025 21:09:13.235] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/102, l='ServerLevel[New World]', x=31.17, y=70.00, z=-66.16] died: Olivia was killed
-[12Nov2025 21:09:13.235] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/103, l='ServerLevel[New World]', x=31.52, y=70.00, z=-65.34] died: Olivia was killed
-[12Nov2025 21:09:13.235] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/104, l='ServerLevel[New World]', x=30.40, y=70.00, z=-67.89] died: Olivia was killed
-[12Nov2025 21:09:13.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/106, l='ServerLevel[New World]', x=30.30, y=70.00, z=-65.97] died: Olivia was killed
-[12Nov2025 21:09:13.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/107, l='ServerLevel[New World]', x=30.88, y=70.00, z=-65.30] died: Olivia was killed
-[12Nov2025 21:09:13.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/119, l='ServerLevel[New World]', x=32.70, y=70.00, z=-69.70] died: Olivia was killed
-[12Nov2025 21:09:13.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/120, l='ServerLevel[New World]', x=32.30, y=70.00, z=-65.90] died: Olivia was killed
-[12Nov2025 21:09:13.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/121, l='ServerLevel[New World]', x=31.02, y=70.00, z=-66.77] died: Olivia was killed
-[12Nov2025 21:09:13.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/122, l='ServerLevel[New World]', x=30.94, y=70.00, z=-68.61] died: Olivia was killed
-[12Nov2025 21:09:13.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/123, l='ServerLevel[New World]', x=30.30, y=70.00, z=-67.19] died: Olivia was killed
-[12Nov2025 21:09:13.238] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/124, l='ServerLevel[New World]', x=32.40, y=70.00, z=-67.60] died: Olivia was killed
-[12Nov2025 21:09:13.238] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/125, l='ServerLevel[New World]', x=32.70, y=70.00, z=-65.30] died: Olivia was killed
-[12Nov2025 21:09:13.240] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/165, l='ServerLevel[New World]', x=-70.53, y=6.00, z=-86.53] died: Olivia was killed
-[12Nov2025 21:09:13.243] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/204, l='ServerLevel[New World]', x=-89.52, y=75.00, z=-122.47] died: Olivia was killed
-[12Nov2025 21:09:13.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
-[12Nov2025 21:09:13.255] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
-[12Nov2025 21:09:13.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 234 entities]
-[12Nov2025 21:09:13.285] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 234 entities
-[12Nov2025 21:09:21.459] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 27 advancements
-[12Nov2025 21:16:10.302] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[12Nov2025 21:16:10.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[12Nov2025 21:16:10.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[12Nov2025 21:16:10.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[12Nov2025 21:16:10.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[12Nov2025 21:16:10.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[12Nov2025 21:16:10.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[12Nov2025 21:16:10.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[12Nov2025 21:16:10.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[12Nov2025 21:16:10.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[12Nov2025 21:16:13.571] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[12Nov2025 21:16:13.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[12Nov2025 21:16:13.587] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[12Nov2025 21:16:13.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[12Nov2025 21:16:13.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[12Nov2025 21:16:13.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[12Nov2025 21:16:14.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[12Nov2025 21:16:14.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[12Nov2025 21:16:14.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[12Nov2025 21:16:14.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[12Nov2025 21:16:14.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[12Nov2025 21:16:14.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[12Nov2025 21:16:14.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[12Nov2025 21:16:14.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[12Nov2025 21:16:14.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[12Nov2025 21:16:15.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[12Nov2025 21:16:15.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
-[12Nov2025 21:16:15.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12Nov2025 21:16:15.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
-[12Nov2025 21:16:15.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
-[12Nov2025 21:16:15.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12Nov2025 21:16:15.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
-[12Nov2025 21:16:15.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
-[12Nov2025 21:16:15.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
-[12Nov2025 21:16:15.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12Nov2025 21:16:17.233] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[14Nov2025 22:17:14.958] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[14Nov2025 22:17:15.063] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@7aa44fa2, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4c43c37d}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@7e7ee3b7}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
+[14Nov2025 22:17:15.064] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1276 advancements
+[14Nov2025 22:17:15.834] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[14Nov2025 22:17:15.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Nov2025 22:17:18.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Nov2025 22:17:21.657] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:21.768] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:21.768] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:21.768] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:21.768] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:21.787] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:21.949] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:22.445] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:22.949] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:23.463] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:23.943] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Nov2025 22:17:24.835] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[14Nov2025 22:17:24.932] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Nov2025 22:17:24.933] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6001 ms
+[14Nov2025 22:17:26.412] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[14Nov2025 22:17:26.413] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[14Nov2025 22:17:26.599] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[14Nov2025 22:17:27.557] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[14Nov2025 22:17:27.657] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:5537b992] logged in with entity id 242 at (202.1684978140471, 64.46289957435187, -191.29730700023492)
+[14Nov2025 22:17:27.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[14Nov2025 22:17:27.931] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[14Nov2025 22:17:27.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:28.545] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:28.559] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 78 advancements
+[14Nov2025 22:17:28.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:28.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:28.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:28.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:28.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.064] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.074] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.090] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.140] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.177] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.179] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.184] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.191] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.193] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.575] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.745] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.756] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:29.952] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.957] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.961] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.963] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.968] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.971] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.973] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.975] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.979] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.983] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.984] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:29.990] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.158] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.161] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.166] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.410] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.430] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.457] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.467] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.471] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.472] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.475] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.555] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.563] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.638] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.672] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.733] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.755] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.894] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.901] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:30.965] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:30.969] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.133] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.139] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.141] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.368] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.371] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.377] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.390] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.398] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.575] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.585] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.591] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.687] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.690] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.824] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.831] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.833] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:31.903] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.908] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:31.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.014] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.168] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.171] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.314] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.316] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.319] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.452] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.566] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.570] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.573] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.582] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.710] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.716] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.718] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.720] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.722] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.801] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.805] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.864] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.925] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:32.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:32.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.017] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.018] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.101] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.108] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.214] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.218] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.270] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.323] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.372] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.412] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.450] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.506] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.562] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.658] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.700] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.772] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.851] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.898] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:33.948] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:33.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.029] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.047] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.115] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.157] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.268] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.310] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.381] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.413] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.415] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.479] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.514] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.550] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.609] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.657] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.716] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.758] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.823] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.847] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.905] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.951] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:34.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:34.990] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.046] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.098] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.211] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.214] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.301] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.421] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.427] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.481] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.560] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.564] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.620] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.666] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.723] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.752] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.867] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.870] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.920] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:35.983] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:35.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:36.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:36.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:36.101] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:36.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:36.104] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:36.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:36.167] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:36.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:36.204] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:36.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:36.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:36.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:36.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:36.392] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:36.400] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:36.401] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:36.403] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:17:36.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Stopped all sounds]
+[14Nov2025 22:17:36.484] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Stopped all sounds]
+[14Nov2025 22:18:43.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:43.319] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:43.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:33
+[14Nov2025 22:18:43.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:81
+[14Nov2025 22:18:43.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:43.329] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:33
+[14Nov2025 22:18:43.331] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:81
+[14Nov2025 22:18:43.332] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:43.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:43.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:188
+[14Nov2025 22:18:44.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:42
+[14Nov2025 22:18:44.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:44.007] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:44.009] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:188
+[14Nov2025 22:18:44.010] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:42
+[14Nov2025 22:18:44.010] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:44.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:44.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:42
+[14Nov2025 22:18:44.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:4
+[14Nov2025 22:18:44.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:44.699] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:44.700] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:42
+[14Nov2025 22:18:44.700] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:4
+[14Nov2025 22:18:44.700] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:45.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:45.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:32
+[14Nov2025 22:18:45.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:81
+[14Nov2025 22:18:45.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:45.397] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:45.398] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:32
+[14Nov2025 22:18:45.398] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:81
+[14Nov2025 22:18:45.400] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:46.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:46.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:32
+[14Nov2025 22:18:46.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:33
+[14Nov2025 22:18:46.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:46.100] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:46.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:32
+[14Nov2025 22:18:46.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:33
+[14Nov2025 22:18:46.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:46.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:46.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:118
+[14Nov2025 22:18:46.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:92
+[14Nov2025 22:18:46.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:46.750] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:46.751] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:118
+[14Nov2025 22:18:46.751] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:92
+[14Nov2025 22:18:46.751] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:47.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:47.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:160
+[14Nov2025 22:18:47.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:8
+[14Nov2025 22:18:47.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:47.402] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:47.403] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:160
+[14Nov2025 22:18:47.403] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:8
+[14Nov2025 22:18:47.403] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:47.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YES, THAT'S IT!
+[14Nov2025 22:18:47.443] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] YES, THAT'S IT!
+[14Nov2025 22:18:48.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:48.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:0
+[14Nov2025 22:18:48.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:113
+[14Nov2025 22:18:48.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:48.101] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:48.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:0
+[14Nov2025 22:18:48.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:113
+[14Nov2025 22:18:48.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:48.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:48.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:61
+[14Nov2025 22:18:48.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:101
+[14Nov2025 22:18:48.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:48.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:48.798] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:61
+[14Nov2025 22:18:48.798] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:101
+[14Nov2025 22:18:48.798] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:49.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:49.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:5
+[14Nov2025 22:18:49.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:90
+[14Nov2025 22:18:49.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:49.549] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:49.550] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:5
+[14Nov2025 22:18:49.550] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:90
+[14Nov2025 22:18:49.551] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:51.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:51.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:138
+[14Nov2025 22:18:51.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:24
+[14Nov2025 22:18:51.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:51.302] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:51.303] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:138
+[14Nov2025 22:18:51.303] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:24
+[14Nov2025 22:18:51.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:51.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:51.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:13
+[14Nov2025 22:18:51.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:112
+[14Nov2025 22:18:51.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:51.996] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:51.997] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:13
+[14Nov2025 22:18:51.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:112
+[14Nov2025 22:18:51.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:53.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:53.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:91
+[14Nov2025 22:18:53.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:68
+[14Nov2025 22:18:53.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:53.458] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:53.458] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:91
+[14Nov2025 22:18:53.458] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:68
+[14Nov2025 22:18:53.458] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:54.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:54.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:47
+[14Nov2025 22:18:54.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:8
+[14Nov2025 22:18:54.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:54.099] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:54.100] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:47
+[14Nov2025 22:18:54.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:8
+[14Nov2025 22:18:54.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:54.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:54.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:14
+[14Nov2025 22:18:54.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:30
+[14Nov2025 22:18:54.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:54.798] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:54.798] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:14
+[14Nov2025 22:18:54.799] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:30
+[14Nov2025 22:18:54.799] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:55.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:55.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto all'entità:152
+[14Nov2025 22:18:55.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Danno inflitto alla spada:19
+[14Nov2025 22:18:55.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[14Nov2025 22:18:55.407] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:18:55.408] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto all'entità:152
+[14Nov2025 22:18:55.408] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Danno inflitto alla spada:19
+[14Nov2025 22:18:55.408] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 
+[14Nov2025 22:19:36.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 224 entities]
+[14Nov2025 22:19:36.214] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 224 entities
+[14Nov2025 22:19:51.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JUDGMENT!
+[14Nov2025 22:19:51.396] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] JUDGMENT!
+[14Nov2025 22:19:51.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 178 entities]
+[14Nov2025 22:19:51.914] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 178 entities
+[14Nov2025 22:22:24.446] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[14Nov2025 22:22:24.492] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[14Nov2025 22:22:24.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[14Nov2025 22:22:24.530] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[14Nov2025 22:22:24.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Nov2025 22:22:24.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Nov2025 22:22:24.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Nov2025 22:22:25.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Nov2025 22:22:28.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
+[14Nov2025 22:22:28.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
+[14Nov2025 22:22:28.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Nov2025 22:22:28.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Nov2025 22:22:28.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
+[14Nov2025 22:22:28.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
+[14Nov2025 22:22:28.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
+[14Nov2025 22:22:28.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
+[14Nov2025 22:22:28.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[14Nov2025 22:22:28.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
+[14Nov2025 22:22:28.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
+[14Nov2025 22:22:28.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Nov2025 22:22:28.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Nov2025 22:22:28.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
+[14Nov2025 22:22:28.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
+[14Nov2025 22:22:28.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
+[14Nov2025 22:22:28.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
+[14Nov2025 22:22:28.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

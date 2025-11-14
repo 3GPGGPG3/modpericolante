@@ -257,6 +257,8 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.TBE.get().asItem());
 				tabData.accept(CumModBlocks.VASCA_CON_MATRICE_ELETTROFORETICA.get().asItem());
 				tabData.accept(CumModBlocks.MATRICE_DOPO_CORSA.get().asItem());
+				tabData.accept(CumModItems.TOPO_SPAWN_EGG.get());
+				tabData.accept(CumModItems.CUFFIE_DI_SIOFRA_HELMET.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -345,6 +347,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.TECNOLOGIA_V_1NANTE.get());
 				tabData.accept(CumModItems.DISPOSITIVO_TELETRASPORTANTE.get());
 				tabData.accept(CumModItems.STIVALI_IMMOVIBILI_BOOTS.get());
+				tabData.accept(CumModItems.ARMATURADELSANGUE_BOOTS.get());
+				tabData.accept(CumModItems.CUFFIE_DI_SIOFRA_HELMET.get());
 			}).withTabsBefore(COSE_PERICOLANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_BALATRANTI = REGISTRY.register("cose_balatranti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_balatranti")).icon(() -> new ItemStack(CumModItems.ECTOPLASMA.get())).displayItems((parameters, tabData) -> {
@@ -574,9 +578,7 @@ public class CumModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(CumModItems.ARMATURADELSANGUE_BOOTS.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(CumModItems.PRESIDE_SPAWN_EGG.get());
 		}
 	}

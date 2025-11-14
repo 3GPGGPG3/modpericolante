@@ -15,6 +15,7 @@ import net.mcreator.cum.client.renderer.VirusRenderer;
 import net.mcreator.cum.client.renderer.V2Renderer;
 import net.mcreator.cum.client.renderer.V1Renderer;
 import net.mcreator.cum.client.renderer.UomoPrimitivoRenderer;
+import net.mcreator.cum.client.renderer.TopoRenderer;
 import net.mcreator.cum.client.renderer.StrayRenderer;
 import net.mcreator.cum.client.renderer.SisyphusPrimeRenderer;
 import net.mcreator.cum.client.renderer.ShrekRenderer;
@@ -128,5 +129,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.DANIELE_LUCIANO.get(), DanieleLucianoRenderer::new);
 		event.registerEntityRenderer(CumModEntities.SEI_SETTE.get(), SeiSetteRenderer::new);
 		event.registerEntityRenderer(CumModEntities.DELIRIO.get(), DelirioRenderer::new);
+		event.registerEntityRenderer(CumModEntities.TOPO.get(), TopoRenderer::new);
 	}
 }

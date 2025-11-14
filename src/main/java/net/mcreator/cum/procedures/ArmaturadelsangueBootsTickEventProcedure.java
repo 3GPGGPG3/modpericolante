@@ -15,7 +15,7 @@ public class ArmaturadelsangueBootsTickEventProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(CumModMobEffects.SANGUINAMENTOCOAGULATO.get(), 1, 1));
-		if (Math.random() < 0.05) {
+		if (Math.random() < 0.04) {
 			{
 				ItemStack _ist = itemstack;
 				if (_ist.hurt(1, RandomSource.create(), null)) {

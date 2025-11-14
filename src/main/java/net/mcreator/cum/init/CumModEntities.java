@@ -20,6 +20,7 @@ import net.mcreator.cum.entity.VirusEntity;
 import net.mcreator.cum.entity.V2Entity;
 import net.mcreator.cum.entity.V1Entity;
 import net.mcreator.cum.entity.UomoPrimitivoEntity;
+import net.mcreator.cum.entity.TopoEntity;
 import net.mcreator.cum.entity.StrayEntity;
 import net.mcreator.cum.entity.StellinaDelGodoNegativaEntity;
 import net.mcreator.cum.entity.StellinaDelGodoEntity;
@@ -290,6 +291,10 @@ public class CumModEntities {
 			EntityType.Builder.<DelirioEntity>of(DelirioEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DelirioEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<TopoEntity>> TOPO = register("topo",
+			EntityType.Builder.<TopoEntity>of(TopoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TopoEntity::new)
+
+					.sized(0.4f, 0.4f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -349,6 +354,7 @@ public class CumModEntities {
 			DanieleLucianoEntity.init();
 			SeiSetteEntity.init();
 			DelirioEntity.init();
+			TopoEntity.init();
 		});
 	}
 
@@ -403,5 +409,6 @@ public class CumModEntities {
 		event.put(DANIELE_LUCIANO.get(), DanieleLucianoEntity.createAttributes().build());
 		event.put(SEI_SETTE.get(), SeiSetteEntity.createAttributes().build());
 		event.put(DELIRIO.get(), DelirioEntity.createAttributes().build());
+		event.put(TOPO.get(), TopoEntity.createAttributes().build());
 	}
 }

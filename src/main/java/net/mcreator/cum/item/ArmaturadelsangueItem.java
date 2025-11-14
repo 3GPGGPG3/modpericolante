@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
@@ -14,9 +15,13 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.cum.procedures.ArmaturadelsangueBootsTickEventProcedure;
+import net.mcreator.cum.init.CumModItems;
 import net.mcreator.cum.init.CumModBlocks;
+
+import java.util.List;
 
 import com.google.common.collect.Iterables;
 
@@ -45,7 +50,7 @@ public abstract class ArmaturadelsangueItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(CumModBlocks.BLOCCO_DI_SANGUE.get()));
+				return Ingredient.of(new ItemStack(CumModBlocks.BLOCCO_DI_SANGUE.get()), new ItemStack(CumModItems.ARMATURADELSANGUE_BOOTS.get()));
 			}
 
 			@Override
@@ -68,6 +73,12 @@ public abstract class ArmaturadelsangueItem extends ArmorItem {
 	public static class Boots extends ArmaturadelsangueItem {
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
+		}
+
+		@Override
+		public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, level, list, flag);
+			list.add(Component.translatable("item.cum.armaturadelsangue_boots.description_0"));
 		}
 
 		@Override
