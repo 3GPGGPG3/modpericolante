@@ -494,6 +494,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> MATRICE_DOPO_CORSA = block(CumModBlocks.MATRICE_DOPO_CORSA);
 	public static final RegistryObject<Item> TOPO_SPAWN_EGG = REGISTRY.register("topo_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.TOPO, -10066330, -26215, new Item.Properties()));
 	public static final RegistryObject<Item> CUFFIE_DI_SIOFRA_HELMET = REGISTRY.register("cuffie_di_siofra_helmet", () -> new CuffieDiSiofraItem.Helmet());
+	public static final RegistryObject<Item> ARMADIETTO = block(CumModBlocks.ARMADIETTO);
 
 	// Start of user code block custom items
 	// End of user code block custom items

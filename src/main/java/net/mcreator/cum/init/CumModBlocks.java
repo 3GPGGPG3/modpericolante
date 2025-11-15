@@ -105,6 +105,7 @@ import net.mcreator.cum.block.BalatroGrassBlock;
 import net.mcreator.cum.block.BalatroDirtBlock;
 import net.mcreator.cum.block.AttpedBlock;
 import net.mcreator.cum.block.AttciclBlock;
+import net.mcreator.cum.block.ArmadiettoBlock;
 import net.mcreator.cum.block.AcquaDelGodoBlock;
 import net.mcreator.cum.CumMod;
 
@@ -202,6 +203,7 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> TBE = REGISTRY.register("tbe", () -> new TBEBlock());
 	public static final RegistryObject<Block> VASCA_CON_MATRICE_ELETTROFORETICA = REGISTRY.register("vasca_con_matrice_elettroforetica", () -> new VascaConMatriceElettroforeticaBlock());
 	public static final RegistryObject<Block> MATRICE_DOPO_CORSA = REGISTRY.register("matrice_dopo_corsa", () -> new MatriceDopoCorsaBlock());
+	public static final RegistryObject<Block> ARMADIETTO = REGISTRY.register("armadietto", () -> new ArmadiettoBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

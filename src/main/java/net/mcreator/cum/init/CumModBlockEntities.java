@@ -15,6 +15,7 @@ import net.mcreator.cum.block.entity.VascaElettroforeticaBlockEntity;
 import net.mcreator.cum.block.entity.VascaConMatriceElettroforeticaBlockEntity;
 import net.mcreator.cum.block.entity.TavoloBalatranteBlockEntity;
 import net.mcreator.cum.block.entity.FrigoBlockEntity;
+import net.mcreator.cum.block.entity.ArmadiettoBlockEntity;
 import net.mcreator.cum.CumMod;
 
 public class CumModBlockEntities {
@@ -23,6 +24,7 @@ public class CumModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> FRIGO = register("frigo", CumModBlocks.FRIGO, FrigoBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> VASCA_ELETTROFORETICA = register("vasca_elettroforetica", CumModBlocks.VASCA_ELETTROFORETICA, VascaElettroforeticaBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> VASCA_CON_MATRICE_ELETTROFORETICA = register("vasca_con_matrice_elettroforetica", CumModBlocks.VASCA_CON_MATRICE_ELETTROFORETICA, VascaConMatriceElettroforeticaBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ARMADIETTO = register("armadietto", CumModBlocks.ARMADIETTO, ArmadiettoBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

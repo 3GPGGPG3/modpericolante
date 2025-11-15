@@ -259,6 +259,7 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.MATRICE_DOPO_CORSA.get().asItem());
 				tabData.accept(CumModItems.TOPO_SPAWN_EGG.get());
 				tabData.accept(CumModItems.CUFFIE_DI_SIOFRA_HELMET.get());
+				tabData.accept(CumModBlocks.ARMADIETTO.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -557,6 +558,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.CLONATORE.get());
 				tabData.accept(CumModItems.MACCHINA_DEL_TEMPO.get());
 				tabData.accept(CumModBlocks.FRIGO.get().asItem());
+				tabData.accept(CumModBlocks.ARMADIETTO.get().asItem());
 			}).withTabsBefore(SCUOLA_GUIDA.getId()).build());
 	public static final RegistryObject<CreativeModeTab> PIANTE_CONTRO_ZOMBIE = REGISTRY.register("piante_contro_zombie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.piante_contro_zombie")).icon(() -> new ItemStack(CumModItems.SOLE.get())).displayItems((parameters, tabData) -> {

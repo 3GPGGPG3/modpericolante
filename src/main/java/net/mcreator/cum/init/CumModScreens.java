@@ -30,6 +30,7 @@ import net.mcreator.cum.client.gui.ConsegnaRelazioneScreen;
 import net.mcreator.cum.client.gui.ChatGPTScreen;
 import net.mcreator.cum.client.gui.BalatroGUIScreen;
 import net.mcreator.cum.client.gui.AzioniDelTelefonoScreen;
+import net.mcreator.cum.client.gui.ArmadiettoGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CumModScreens {
@@ -55,6 +56,7 @@ public class CumModScreens {
 			MenuScreens.register(CumModMenus.PV_ZSHOP.get(), PVZshopScreen::new);
 			MenuScreens.register(CumModMenus.SECONDAFUNZIONEINTEGRAZIONE_GUI.get(), SecondafunzioneintegrazioneGUIScreen::new);
 			MenuScreens.register(CumModMenus.VASCA_ELETTROFORETICA_GUI.get(), VascaElettroforeticaGUIScreen::new);
+			MenuScreens.register(CumModMenus.ARMADIETTO_GUI.get(), ArmadiettoGUIScreen::new);
 		});
 	}
 }

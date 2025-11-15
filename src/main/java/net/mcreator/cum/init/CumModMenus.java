@@ -30,6 +30,7 @@ import net.mcreator.cum.world.inventory.ConsegnaRelazioneMenu;
 import net.mcreator.cum.world.inventory.ChatGPTMenu;
 import net.mcreator.cum.world.inventory.BalatroGUIMenu;
 import net.mcreator.cum.world.inventory.AzioniDelTelefonoMenu;
+import net.mcreator.cum.world.inventory.ArmadiettoGUIMenu;
 import net.mcreator.cum.CumMod;
 
 public class CumModMenus {
@@ -53,4 +54,5 @@ public class CumModMenus {
 	public static final RegistryObject<MenuType<PVZshopMenu>> PV_ZSHOP = REGISTRY.register("pv_zshop", () -> IForgeMenuType.create(PVZshopMenu::new));
 	public static final RegistryObject<MenuType<SecondafunzioneintegrazioneGUIMenu>> SECONDAFUNZIONEINTEGRAZIONE_GUI = REGISTRY.register("secondafunzioneintegrazione_gui", () -> IForgeMenuType.create(SecondafunzioneintegrazioneGUIMenu::new));
 	public static final RegistryObject<MenuType<VascaElettroforeticaGUIMenu>> VASCA_ELETTROFORETICA_GUI = REGISTRY.register("vasca_elettroforetica_gui", () -> IForgeMenuType.create(VascaElettroforeticaGUIMenu::new));
+	public static final RegistryObject<MenuType<ArmadiettoGUIMenu>> ARMADIETTO_GUI = REGISTRY.register("armadietto_gui", () -> IForgeMenuType.create(ArmadiettoGUIMenu::new));
 }

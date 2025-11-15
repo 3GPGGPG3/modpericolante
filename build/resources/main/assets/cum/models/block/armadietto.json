@@ -1,0 +1,9 @@
+{
+  "parent": "cum:custom/armadietto",
+  "textures": {
+    "all": "cum:block/armadietto",
+    "particle": "cum:block/armadietto",
+    "0": "cum:block/armadietto"
+  },
+  "render_type": "solid"
+}
