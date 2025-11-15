@@ -26,6 +26,7 @@ public class PVZshopScreen extends AbstractContainerScreen<PVZshopMenu> {
 	Button button_girasole;
 	Button button_sparasemi;
 	Button button_la_pianta;
+	Button button_parla;
 
 	public PVZshopScreen(PVZshopMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -89,7 +90,7 @@ public class PVZshopScreen extends AbstractContainerScreen<PVZshopMenu> {
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_ciao_vicino_io_sono_dave_il_pazz"), 6, 4, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_puoi_comprare_delle_piante_in_ca"), 6, 15, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_puoi_comprare_delle_piante_in_ca"), 93, 4, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_buy"), 213, 89, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_put_here_your_seeds"), 287, 30, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.cum.pv_zshop.label_metti_il_cursore_al_centro_per_v"), 17, 84, -12829636, false);
@@ -132,5 +133,13 @@ public class PVZshopScreen extends AbstractContainerScreen<PVZshopMenu> {
 		}).bounds(this.leftPos + 187, this.topPos + 167, 72, 20).build();
 		guistate.put("button:button_la_pianta", button_la_pianta);
 		this.addRenderableWidget(button_la_pianta);
+		button_parla = Button.builder(Component.translatable("gui.cum.pv_zshop.button_parla"), e -> {
+			if (true) {
+				CumMod.PACKET_HANDLER.sendToServer(new PVZshopButtonMessage(4, x, y, z));
+				PVZshopButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}).bounds(this.leftPos + 313, this.topPos + 144, 51, 20).build();
+		guistate.put("button:button_parla", button_parla);
+		this.addRenderableWidget(button_parla);
 	}
 }

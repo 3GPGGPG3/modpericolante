@@ -41,7 +41,7 @@
         "data": {
           "name": "label_ciao_vicino_io_sono_dave_il_pazz",
           "text": {
-            "fixedValue": "ciAo viCIno io SonO DaVe il pAZZO ,mA puOI CHIamaRmi anChE DAvE iL pAZzO!"
+            "fixedValue": "ciAo viCIno, qUa"
           },
           "color": {
             "value": -12829636,
@@ -63,8 +63,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 20,
-          "y": 39,
+          "x": 107,
+          "y": 28,
           "locked": false
         }
       },
@@ -254,7 +254,7 @@
         "data": {
           "name": "tooltip_100_seeds",
           "text": {
-            "fixedValue": "64 seeds"
+            "fixedValue": "64 suns"
           },
           "width": 24,
           "height": 24,
@@ -335,6 +335,22 @@
           "height": 24,
           "x": 182,
           "y": 108,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_parla",
+          "text": "Parla",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DaveParlaOnButtonClicked"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 327,
+          "y": 168,
           "locked": false
         }
       }

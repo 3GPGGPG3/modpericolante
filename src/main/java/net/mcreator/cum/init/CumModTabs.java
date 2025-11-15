@@ -260,6 +260,9 @@ public class CumModTabs {
 				tabData.accept(CumModItems.TOPO_SPAWN_EGG.get());
 				tabData.accept(CumModItems.CUFFIE_DI_SIOFRA_HELMET.get());
 				tabData.accept(CumModBlocks.ARMADIETTO.get().asItem());
+				tabData.accept(CumModBlocks.BOMBA_ATOMICA.get().asItem());
+				tabData.accept(CumModBlocks.BOMBA_ATOMICA_II.get().asItem());
+				tabData.accept(CumModBlocks.BOMBA_ATOMICA_III.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -332,6 +335,9 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PER_INV_2_SPAWN_EGG.get());
 				tabData.accept(CumModItems.PER_INV_3_SPAWN_EGG.get());
 				tabData.accept(CumModItems.SPADA_LUNARE_4.get());
+				tabData.accept(CumModBlocks.BOMBA_ATOMICA.get().asItem());
+				tabData.accept(CumModBlocks.BOMBA_ATOMICA_II.get().asItem());
+				tabData.accept(CumModBlocks.BOMBA_ATOMICA_III.get().asItem());
 			}).withTabsBefore(COSE_OLIVANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -559,6 +565,9 @@ public class CumModTabs {
 				tabData.accept(CumModItems.MACCHINA_DEL_TEMPO.get());
 				tabData.accept(CumModBlocks.FRIGO.get().asItem());
 				tabData.accept(CumModBlocks.ARMADIETTO.get().asItem());
+				tabData.accept(CumModBlocks.BOMBA_ATOMICA.get().asItem());
+				tabData.accept(CumModBlocks.BOMBA_ATOMICA_II.get().asItem());
+				tabData.accept(CumModBlocks.BOMBA_ATOMICA_III.get().asItem());
 			}).withTabsBefore(SCUOLA_GUIDA.getId()).build());
 	public static final RegistryObject<CreativeModeTab> PIANTE_CONTRO_ZOMBIE = REGISTRY.register("piante_contro_zombie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.piante_contro_zombie")).icon(() -> new ItemStack(CumModItems.SOLE.get())).displayItems((parameters, tabData) -> {

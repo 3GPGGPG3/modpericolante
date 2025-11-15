@@ -35,7 +35,7 @@ public class SpadaRandomLivingEntityIsHitWithItemProcedure {
 			if (_so == null)
 				_so = _sc.addObjective("danno_random", ObjectiveCriteria.DUMMY, Component.literal("danno_random"), ObjectiveCriteria.RenderType.INTEGER);
 			_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so)
-					.setScore((int) (Mth.nextDouble(RandomSource.create(), 0, entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) / ((entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) / 15) - 1));
+					.setScore((int) (Mth.nextDouble(RandomSource.create(), 2, entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) / ((entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) / 20) - 1));
 		}
 		{
 			Entity _ent = entity;

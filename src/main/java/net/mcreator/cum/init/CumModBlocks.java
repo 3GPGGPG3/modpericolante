@@ -70,6 +70,9 @@ import net.mcreator.cum.block.ContinuoOrBlock;
 import net.mcreator.cum.block.ContinuazioneVerBlock;
 import net.mcreator.cum.block.ConoBlockBlock;
 import net.mcreator.cum.block.CavoloRossoBlock;
+import net.mcreator.cum.block.BombaAtomicaIIIBlock;
+import net.mcreator.cum.block.BombaAtomicaIIBlock;
+import net.mcreator.cum.block.BombaAtomicaBlock;
 import net.mcreator.cum.block.BloodBlock;
 import net.mcreator.cum.block.BloccoViridaeBlock;
 import net.mcreator.cum.block.BloccoUltrariattivanteBlock;
@@ -204,6 +207,9 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> VASCA_CON_MATRICE_ELETTROFORETICA = REGISTRY.register("vasca_con_matrice_elettroforetica", () -> new VascaConMatriceElettroforeticaBlock());
 	public static final RegistryObject<Block> MATRICE_DOPO_CORSA = REGISTRY.register("matrice_dopo_corsa", () -> new MatriceDopoCorsaBlock());
 	public static final RegistryObject<Block> ARMADIETTO = REGISTRY.register("armadietto", () -> new ArmadiettoBlock());
+	public static final RegistryObject<Block> BOMBA_ATOMICA = REGISTRY.register("bomba_atomica", () -> new BombaAtomicaBlock());
+	public static final RegistryObject<Block> BOMBA_ATOMICA_II = REGISTRY.register("bomba_atomica_ii", () -> new BombaAtomicaIIBlock());
+	public static final RegistryObject<Block> BOMBA_ATOMICA_III = REGISTRY.register("bomba_atomica_iii", () -> new BombaAtomicaIIIBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

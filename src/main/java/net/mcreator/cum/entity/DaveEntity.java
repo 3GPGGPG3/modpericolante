@@ -43,6 +43,9 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
@@ -61,6 +64,8 @@ import javax.annotation.Nonnull;
 import io.netty.buffer.Unpooled;
 
 public class DaveEntity extends Monster {
+	public static final EntityDataAccessor<Integer> DATA_dialogo = SynchedEntityData.defineId(DaveEntity.class, EntityDataSerializers.INT);
+
 	public DaveEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(CumModEntities.DAVE.get(), world);
 	}
@@ -78,6 +83,12 @@ public class DaveEntity extends Monster {
 	@Override
 	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
+	}
+
+	@Override
+	protected void defineSynchedData() {
+		super.defineSynchedData();
+		this.entityData.define(DATA_dialogo, 0);
 	}
 
 	@Override
@@ -167,12 +178,15 @@ public class DaveEntity extends Monster {
 	@Override
 	public void addAdditionalSaveData(CompoundTag compound) {
 		super.addAdditionalSaveData(compound);
+		compound.putInt("Datadialogo", this.entityData.get(DATA_dialogo));
 		compound.put("InventoryCustom", inventory.serializeNBT());
 	}
 
 	@Override
 	public void readAdditionalSaveData(CompoundTag compound) {
 		super.readAdditionalSaveData(compound);
+		if (compound.contains("Datadialogo"))
+			this.entityData.set(DATA_dialogo, compound.getInt("Datadialogo"));
 		if (compound.get("InventoryCustom") instanceof CompoundTag inventoryTag)
 			inventory.deserializeNBT(inventoryTag);
 	}

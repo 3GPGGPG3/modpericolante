@@ -16,6 +16,7 @@ import net.mcreator.cum.procedures.SparasemiBuyProcedure;
 import net.mcreator.cum.procedures.NoceBuyProcedure;
 import net.mcreator.cum.procedures.LaPiantaBuyProcedure;
 import net.mcreator.cum.procedures.GirasoleBuyProcedure;
+import net.mcreator.cum.procedures.DaveParlaOnButtonClickedProcedure;
 import net.mcreator.cum.CumMod;
 
 import java.util.function.Supplier;
@@ -80,6 +81,10 @@ public class PVZshopButtonMessage {
 		if (buttonID == 3) {
 
 			LaPiantaBuyProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			DaveParlaOnButtonClickedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 
