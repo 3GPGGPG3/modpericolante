@@ -585,6 +585,7 @@ public class CumModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.norme")).icon(() -> new ItemStack(CumModItems.RELAZIONE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.NORMADIVIETOUSOTELEFONO.get());
 				tabData.accept(CumModItems.NORMADIVIETODISESSO.get());
+				tabData.accept(CumModItems.ORDINAMENTO_GIURIDICO_SPAWN_EGG.get());
 			}).withSearchBar().withTabsBefore(PIANTE_CONTRO_ZOMBIE.getId()).build());
 
 	@SubscribeEvent

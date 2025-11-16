@@ -49,6 +49,7 @@ import net.mcreator.cum.entity.PerInv1Entity;
 import net.mcreator.cum.entity.PeashooterEntity;
 import net.mcreator.cum.entity.PaperonDePaperoniEntity;
 import net.mcreator.cum.entity.PallottoladoroprojectileEntity;
+import net.mcreator.cum.entity.OrdinamentoGiuridicoEntity;
 import net.mcreator.cum.entity.OliviaEntity;
 import net.mcreator.cum.entity.NocciolinaEntity;
 import net.mcreator.cum.entity.MirabellaEntity;
@@ -295,6 +296,11 @@ public class CumModEntities {
 			EntityType.Builder.<TopoEntity>of(TopoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TopoEntity::new)
 
 					.sized(0.4f, 0.4f));
+	public static final RegistryObject<EntityType<OrdinamentoGiuridicoEntity>> ORDINAMENTO_GIURIDICO = register("ordinamento_giuridico",
+			EntityType.Builder.<OrdinamentoGiuridicoEntity>of(OrdinamentoGiuridicoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3)
+					.setCustomClientFactory(OrdinamentoGiuridicoEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -355,6 +361,7 @@ public class CumModEntities {
 			SeiSetteEntity.init();
 			DelirioEntity.init();
 			TopoEntity.init();
+			OrdinamentoGiuridicoEntity.init();
 		});
 	}
 
@@ -410,5 +417,6 @@ public class CumModEntities {
 		event.put(SEI_SETTE.get(), SeiSetteEntity.createAttributes().build());
 		event.put(DELIRIO.get(), DelirioEntity.createAttributes().build());
 		event.put(TOPO.get(), TopoEntity.createAttributes().build());
+		event.put(ORDINAMENTO_GIURIDICO.get(), OrdinamentoGiuridicoEntity.createAttributes().build());
 	}
 }

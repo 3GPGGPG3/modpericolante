@@ -34,6 +34,7 @@ import net.mcreator.cum.client.renderer.PerInv2Renderer;
 import net.mcreator.cum.client.renderer.PerInv1Renderer;
 import net.mcreator.cum.client.renderer.PeashooterRenderer;
 import net.mcreator.cum.client.renderer.PaperonDePaperoniRenderer;
+import net.mcreator.cum.client.renderer.OrdinamentoGiuridicoRenderer;
 import net.mcreator.cum.client.renderer.OliviaRenderer;
 import net.mcreator.cum.client.renderer.NocciolinaRenderer;
 import net.mcreator.cum.client.renderer.MirabellaRenderer;
@@ -130,5 +131,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.SEI_SETTE.get(), SeiSetteRenderer::new);
 		event.registerEntityRenderer(CumModEntities.DELIRIO.get(), DelirioRenderer::new);
 		event.registerEntityRenderer(CumModEntities.TOPO.get(), TopoRenderer::new);
+		event.registerEntityRenderer(CumModEntities.ORDINAMENTO_GIURIDICO.get(), OrdinamentoGiuridicoRenderer::new);
 	}
 }

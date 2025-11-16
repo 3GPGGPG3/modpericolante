@@ -498,6 +498,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> BOMBA_ATOMICA = block(CumModBlocks.BOMBA_ATOMICA);
 	public static final RegistryObject<Item> BOMBA_ATOMICA_II = block(CumModBlocks.BOMBA_ATOMICA_II);
 	public static final RegistryObject<Item> BOMBA_ATOMICA_III = block(CumModBlocks.BOMBA_ATOMICA_III);
+	public static final RegistryObject<Item> ORDINAMENTO_GIURIDICO_SPAWN_EGG = REGISTRY.register("ordinamento_giuridico_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.ORDINAMENTO_GIURIDICO, -6724096, -10066432, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

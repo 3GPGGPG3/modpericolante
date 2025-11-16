@@ -15,6 +15,7 @@ import net.mcreator.cum.client.model.Modelseisette;
 import net.mcreator.cum.client.model.Modelpeashooter;
 import net.mcreator.cum.client.model.Modelpaperon_de_paperoni;
 import net.mcreator.cum.client.model.Modelorthomyxoviridae;
+import net.mcreator.cum.client.model.Modelordinamentogiuridico;
 import net.mcreator.cum.client.model.Modelnocciolina;
 import net.mcreator.cum.client.model.Modelmalicious_face;
 import net.mcreator.cum.client.model.Modellinfocita_b_o_plasmacellula;
@@ -42,6 +43,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelgirasole.LAYER_LOCATION, Modelgirasole::createBodyLayer);
 		event.registerLayerDefinition(Modelgabriel.LAYER_LOCATION, Modelgabriel::createBodyLayer);
 		event.registerLayerDefinition(Modelgiolitti_unito.LAYER_LOCATION, Modelgiolitti_unito::createBodyLayer);
+		event.registerLayerDefinition(Modelordinamentogiuridico.LAYER_LOCATION, Modelordinamentogiuridico::createBodyLayer);
 		event.registerLayerDefinition(Modeltopo.LAYER_LOCATION, Modeltopo::createBodyLayer);
 		event.registerLayerDefinition(ModelPreside.LAYER_LOCATION, ModelPreside::createBodyLayer);
 		event.registerLayerDefinition(Modelcube.LAYER_LOCATION, Modelcube::createBodyLayer);
