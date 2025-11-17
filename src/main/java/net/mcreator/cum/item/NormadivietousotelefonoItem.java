@@ -44,7 +44,7 @@ public class NormadivietousotelefonoItem extends Item {
 	@Override
 	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
 		boolean retval = super.onEntitySwing(itemstack, entity);
-		NormadivietousotelefonoEntitySwingsItemProcedure.execute(entity);
+		NormadivietousotelefonoEntitySwingsItemProcedure.execute(entity.level(), entity);
 		return retval;
 	}
 }

@@ -263,6 +263,7 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA.get().asItem());
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_II.get().asItem());
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_III.get().asItem());
+				tabData.accept(CumModItems.TACO.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -580,6 +581,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.SOLE.get());
 				tabData.accept(CumModItems.SPADA_SOLARE.get());
 				tabData.accept(CumModItems.RADIANT_POWER_OF_THE_SUN.get());
+				tabData.accept(CumModItems.TACO.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> NORME = REGISTRY.register("norme",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.norme")).icon(() -> new ItemStack(CumModItems.RELAZIONE.get())).displayItems((parameters, tabData) -> {
@@ -592,6 +594,8 @@ public class CumModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(CumModItems.PRESIDE_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(CumModItems.TACO.get());
 		}
 	}
 }

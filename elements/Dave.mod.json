@@ -135,8 +135,11 @@
     "whenMobIsHurt": {
       "name": "DaveEntityIsHurt"
     },
+    "onRightClickedOn": {
+      "name": "DaveRightClickedOnEntity"
+    },
     "onMobTickUpdate": {
-      "name": "DaveOnEntityTickUpdate"
+      "name": "Daveparla"
     },
     "hasAI": true,
     "aiBase": "(none)",

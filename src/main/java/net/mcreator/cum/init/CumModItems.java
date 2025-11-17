@@ -21,6 +21,7 @@ import net.mcreator.cum.item.TreDiCuoriItem;
 import net.mcreator.cum.item.TerpeneItem;
 import net.mcreator.cum.item.TelefonoItem;
 import net.mcreator.cum.item.TecnologiaV1nanteItem;
+import net.mcreator.cum.item.TacoItem;
 import net.mcreator.cum.item.StraysArmItem;
 import net.mcreator.cum.item.StivaliImmovibiliItem;
 import net.mcreator.cum.item.StellaPericolosaItem;
@@ -499,6 +500,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> BOMBA_ATOMICA_II = block(CumModBlocks.BOMBA_ATOMICA_II);
 	public static final RegistryObject<Item> BOMBA_ATOMICA_III = block(CumModBlocks.BOMBA_ATOMICA_III);
 	public static final RegistryObject<Item> ORDINAMENTO_GIURIDICO_SPAWN_EGG = REGISTRY.register("ordinamento_giuridico_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.ORDINAMENTO_GIURIDICO, -6724096, -10066432, new Item.Properties()));
+	public static final RegistryObject<Item> TACO = REGISTRY.register("taco", () -> new TacoItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

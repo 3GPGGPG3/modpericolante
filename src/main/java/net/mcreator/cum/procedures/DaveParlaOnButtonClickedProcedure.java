@@ -12,6 +12,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.cum.entity.DaveEntity;
+import net.mcreator.cum.CumMod;
 
 public class DaveParlaOnButtonClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -19,138 +20,26 @@ public class DaveParlaOnButtonClickedProcedure {
 			return;
 		if (entity instanceof Player _player)
 			_player.closeContainer();
-		if ((entity instanceof DaveEntity _datEntI ? _datEntI.getEntityData().get(DaveEntity.DATA_dialogo) : 0) == 0) {
-			if (entity instanceof DaveEntity _datEntSetI)
-				_datEntSetI.getEntityData().set(DaveEntity.DATA_dialogo, 1);
-			if (!world.isClientSide() && world.getServer() != null)
-				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> ciAo VIcInO iO SoNO DaVE iL pAZzO, mA PUoi chIAmArmI ancHE DavE Il PaZzo!"), false);
-			if (world instanceof Level _level) {
-				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave1")), SoundSource.AMBIENT, 1, 1);
-				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave1")), SoundSource.AMBIENT, 1, 1, false);
-				}
-			}
-		}
-		if ((entity instanceof DaveEntity _datEntI ? _datEntI.getEntityData().get(DaveEntity.DATA_dialogo) : 0) == 1) {
-			if (entity instanceof DaveEntity _datEntSetI)
-				_datEntSetI.getEntityData().set(DaveEntity.DATA_dialogo, 2);
-		}
-		if ((entity instanceof DaveEntity _datEntI ? _datEntI.getEntityData().get(DaveEntity.DATA_dialogo) : 0) == 2) {
-			if (entity instanceof DaveEntity _datEntSetI)
-				_datEntSetI.getEntityData().set(DaveEntity.DATA_dialogo, 3);
-		}
-		if ((entity instanceof DaveEntity _datEntI ? _datEntI.getEntityData().get(DaveEntity.DATA_dialogo) : 0) == 3) {
-			if (entity instanceof DaveEntity _datEntSetI)
-				_datEntSetI.getEntityData().set(DaveEntity.DATA_dialogo, 4);
-		}
-		if ((entity instanceof DaveEntity _datEntI ? _datEntI.getEntityData().get(DaveEntity.DATA_dialogo) : 0) == 4) {
-			if (entity instanceof DaveEntity _datEntSetI)
-				_datEntSetI.getEntityData().set(DaveEntity.DATA_dialogo, 5);
-		}
-		if ((entity instanceof DaveEntity _datEntI ? _datEntI.getEntityData().get(DaveEntity.DATA_dialogo) : 0) == 5) {
-			if (entity instanceof DaveEntity _datEntSetI)
-				_datEntSetI.getEntityData().set(DaveEntity.DATA_dialogo, 6);
-			if (!world.isClientSide() && world.getServer() != null)
-				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> sAI? i mIEi faMIlIaRi diCOno chE iO SIA PAZZO e aLLOra mI haNNo FattO diCHiaRare iNTerdeTTo giUdiZIAlE!"), false);
-			if (world instanceof Level _level) {
-				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave8_arrabbiato")), SoundSource.AMBIENT, 1, 1);
-				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave8_arrabbiato")), SoundSource.AMBIENT, 1, 1, false);
-				}
-			}
-		}
-		if ((entity instanceof DaveEntity _datEntI ? _datEntI.getEntityData().get(DaveEntity.DATA_dialogo) : 0) != 0 && (entity instanceof DaveEntity _datEntI ? _datEntI.getEntityData().get(DaveEntity.DATA_dialogo) : 0) != 5) {
-			if (Math.random() < 0.7) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave1")), SoundSource.AMBIENT, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave1")), SoundSource.AMBIENT, 1, 1, false);
-					}
-				}
-			} else if (Math.random() < 0.5) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave2")), SoundSource.AMBIENT, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave2")), SoundSource.AMBIENT, 1, 1, false);
-					}
-				}
-			} else if (Math.random() < 0.5) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave3")), SoundSource.AMBIENT, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave3")), SoundSource.AMBIENT, 1, 1, false);
-					}
-				}
-			} else if (Math.random() < 0.5) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave4")), SoundSource.AMBIENT, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave4")), SoundSource.AMBIENT, 1, 1, false);
-					}
-				}
-			} else if (Math.random() < 0.5) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave5_contento")), SoundSource.AMBIENT, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave5_contento")), SoundSource.AMBIENT, 1, 1, false);
-					}
-				}
-			} else if (Math.random() < 0.6) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave6")), SoundSource.AMBIENT, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave6")), SoundSource.AMBIENT, 1, 1, false);
-					}
-				}
-			} else if (Math.random() < 0.55) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave7")), SoundSource.AMBIENT, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave7")), SoundSource.AMBIENT, 1, 1, false);
-					}
-				}
+		if (entity instanceof DaveEntity _datEntSetI)
+			_datEntSetI.getEntityData().set(DaveEntity.DATA_dialogo, 1);
+		if (!world.isClientSide() && world.getServer() != null)
+			world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> ciAo VIcInO iO SoNO DaVE iL pAZzO, mA PUoi chIAmArmI ancHE DavE Il PaZzo!"), false);
+		if (world instanceof Level _level) {
+			if (!_level.isClientSide()) {
+				_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave1")), SoundSource.AMBIENT, 1, 1);
 			} else {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave9")), SoundSource.AMBIENT, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave9")), SoundSource.AMBIENT, 1, 1, false);
-					}
-				}
+				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave1")), SoundSource.AMBIENT, 1, 1, false);
 			}
-			if (Math.random() < 0.7) {
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> gLi zOmBIE voGLioNO ManGIArE lE MIE PIANTE!"), false);
-			} else if (Math.random() < 0.5) {
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> DevO pROtEggErE lE MIe piANTe!!"), false);
-			} else if (Math.random() < 0.5) {
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> i'vE HeaRD tHaT AlsO pRImiTIvE mEn WanT To eAT mY pLAnTS."), false);
-			} else if (Math.random() < 0.5) {
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> YoU saI wHY iO spEAk dUE laNGuaGes? pErKEo I soNo CRAZYYY!!!!!!!"), false);
-			} else if (Math.random() < 0.5) {
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> vOGlIo Un AltRO tACo!"), false);
-			} else if (Math.random() < 0.6) {
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> Di noTTe lE PiaNTe sOnO sTAnChe!"), false);
-			} else if (Math.random() < 0.55) {
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> oGNi TanTO viENi A viSItaRe il MiO nEgoZIo!!"), false);
+		}
+		CumMod.queueServerWork(40, () -> {
+			if (!world.isClientSide() && world.getServer() != null)
+				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> sE VuOi sApEre dI PI\u00F9 DaMmI uN TACOO!!!!!"), false);
+		});
+		if (world instanceof Level _level) {
+			if (!_level.isClientSide()) {
+				_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave8_arrabbiato")), SoundSource.AMBIENT, 1, 1);
 			} else {
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("<Dave> voGLio faRe SESSO PAZZO!!!!!!!"), false);
+				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:dave8_arrabbiato")), SoundSource.AMBIENT, 1, 1, false);
 			}
 		}
 	}

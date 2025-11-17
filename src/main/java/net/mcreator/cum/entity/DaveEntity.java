@@ -54,7 +54,8 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.Direction;
 
 import net.mcreator.cum.world.inventory.PVZshopMenu;
-import net.mcreator.cum.procedures.DaveOnEntityTickUpdateProcedure;
+import net.mcreator.cum.procedures.DaveparlaProcedure;
+import net.mcreator.cum.procedures.DaveRightClickedOnEntityProcedure;
 import net.mcreator.cum.procedures.DaveEntityIsHurtProcedure;
 import net.mcreator.cum.init.CumModEntities;
 
@@ -217,13 +218,20 @@ public class DaveEntity extends Monster {
 			});
 		}
 		super.mobInteract(sourceentity, hand);
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Entity entity = this;
+		Level world = this.level();
+
+		DaveRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		DaveOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		DaveparlaProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {
