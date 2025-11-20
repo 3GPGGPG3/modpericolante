@@ -47,6 +47,7 @@ import net.mcreator.cum.procedures.PresidePlayerCollidesWithThisEntityProcedure;
 import net.mcreator.cum.procedures.PresideOnInitialEntitySpawnProcedure;
 import net.mcreator.cum.procedures.PresideOnEntityTickUpdateProcedure;
 import net.mcreator.cum.procedures.PresideEntityIsHurtProcedure;
+import net.mcreator.cum.procedures.PresideEntityDiesProcedure;
 import net.mcreator.cum.init.CumModEntities;
 
 import javax.annotation.Nullable;
@@ -166,8 +167,14 @@ public class PresideEntity extends Monster {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		PresideEntityIsHurtProcedure.execute(entity);
+		PresideEntityIsHurtProcedure.execute(world, x, y, z, entity);
 		return super.hurt(damagesource, amount);
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		PresideEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
@@ -239,7 +246,7 @@ public class PresideEntity extends Monster {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 5);
+		builder = builder.add(Attributes.MAX_HEALTH, 20);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 1);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 256);

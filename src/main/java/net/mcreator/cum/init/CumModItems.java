@@ -90,8 +90,10 @@ import net.mcreator.cum.item.NoveDiQuadriItem;
 import net.mcreator.cum.item.NoveDiPicchieItem;
 import net.mcreator.cum.item.NoveDiFioriItem;
 import net.mcreator.cum.item.NoveDiCuoriItem;
+import net.mcreator.cum.item.NormamousedayItem;
 import net.mcreator.cum.item.NormadivietousotelefonoItem;
 import net.mcreator.cum.item.NormadivietodisessoItem;
+import net.mcreator.cum.item.NormadestudentazioneItem;
 import net.mcreator.cum.item.NoItem;
 import net.mcreator.cum.item.NeroColtelloItem;
 import net.mcreator.cum.item.MoltItem;
@@ -501,6 +503,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> BOMBA_ATOMICA_III = block(CumModBlocks.BOMBA_ATOMICA_III);
 	public static final RegistryObject<Item> ORDINAMENTO_GIURIDICO_SPAWN_EGG = REGISTRY.register("ordinamento_giuridico_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.ORDINAMENTO_GIURIDICO, -6724096, -10066432, new Item.Properties()));
 	public static final RegistryObject<Item> TACO = REGISTRY.register("taco", () -> new TacoItem());
+	public static final RegistryObject<Item> NORMAMOUSEDAY = REGISTRY.register("normamouseday", () -> new NormamousedayItem());
+	public static final RegistryObject<Item> NORMADESTUDENTAZIONE = REGISTRY.register("normadestudentazione", () -> new NormadestudentazioneItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

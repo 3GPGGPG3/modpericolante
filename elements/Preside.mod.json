@@ -75,7 +75,7 @@
     "armorBaseValue": 0.0,
     "trackingRange": 256,
     "followRange": 256,
-    "health": 5,
+    "health": 20,
     "xpAmount": 0,
     "waterMob": false,
     "breatheUnderwater": {
@@ -129,6 +129,9 @@
         "value": false
       }
     ],
+    "whenMobDies": {
+      "name": "PresideEntityDies"
+    },
     "whenMobIsHurt": {
       "name": "PresideEntityIsHurt"
     },
@@ -159,7 +162,7 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 5,
+    "spawningProbability": 3,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,

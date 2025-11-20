@@ -14,10 +14,12 @@ import net.mcreator.cum.potion.VacatiolegisMobEffect;
 import net.mcreator.cum.potion.SanguinamentoeffectMobEffect;
 import net.mcreator.cum.potion.SanguinamentocoagulatoMobEffect;
 import net.mcreator.cum.potion.PenalizzatoMobEffect;
+import net.mcreator.cum.potion.MousedayeffectMobEffect;
 import net.mcreator.cum.potion.MarcescenzaScarlattaMobEffect;
 import net.mcreator.cum.potion.FolliaMobEffect;
 import net.mcreator.cum.potion.DivietousocellulareeffectMobEffect;
 import net.mcreator.cum.potion.DivietodisessoeffectMobEffect;
+import net.mcreator.cum.potion.DestudentazioneeffectMobEffect;
 import net.mcreator.cum.CumMod;
 
 public class CumModMobEffects {
@@ -30,4 +32,6 @@ public class CumModMobEffects {
 	public static final RegistryObject<MobEffect> DIVIETOUSOCELLULAREEFFECT = REGISTRY.register("divietousocellulareeffect", () -> new DivietousocellulareeffectMobEffect());
 	public static final RegistryObject<MobEffect> VACATIOLEGIS = REGISTRY.register("vacatiolegis", () -> new VacatiolegisMobEffect());
 	public static final RegistryObject<MobEffect> DIVIETODISESSOEFFECT = REGISTRY.register("divietodisessoeffect", () -> new DivietodisessoeffectMobEffect());
+	public static final RegistryObject<MobEffect> MOUSEDAYEFFECT = REGISTRY.register("mousedayeffect", () -> new MousedayeffectMobEffect());
+	public static final RegistryObject<MobEffect> DESTUDENTAZIONEEFFECT = REGISTRY.register("destudentazioneeffect", () -> new DestudentazioneeffectMobEffect());
 }

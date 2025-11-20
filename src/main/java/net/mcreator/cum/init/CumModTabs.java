@@ -264,6 +264,8 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_II.get().asItem());
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_III.get().asItem());
 				tabData.accept(CumModItems.TACO.get());
+				tabData.accept(CumModItems.NORMAMOUSEDAY.get());
+				tabData.accept(CumModItems.NORMADESTUDENTAZIONE.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -588,6 +590,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.NORMADIVIETOUSOTELEFONO.get());
 				tabData.accept(CumModItems.NORMADIVIETODISESSO.get());
 				tabData.accept(CumModItems.ORDINAMENTO_GIURIDICO_SPAWN_EGG.get());
+				tabData.accept(CumModItems.NORMAMOUSEDAY.get());
+				tabData.accept(CumModItems.NORMADESTUDENTAZIONE.get());
 			}).withSearchBar().withTabsBefore(PIANTE_CONTRO_ZOMBIE.getId()).build());
 
 	@SubscribeEvent

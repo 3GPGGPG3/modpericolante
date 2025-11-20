@@ -293,7 +293,7 @@ public class CumModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<TopoEntity>> TOPO = register("topo",
-			EntityType.Builder.<TopoEntity>of(TopoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TopoEntity::new)
+			EntityType.Builder.<TopoEntity>of(TopoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(TopoEntity::new)
 
 					.sized(0.4f, 0.4f));
 	public static final RegistryObject<EntityType<OrdinamentoGiuridicoEntity>> ORDINAMENTO_GIURIDICO = register("ordinamento_giuridico",
