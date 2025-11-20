@@ -266,6 +266,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.TACO.get());
 				tabData.accept(CumModItems.NORMAMOUSEDAY.get());
 				tabData.accept(CumModItems.NORMADESTUDENTAZIONE.get());
+				tabData.accept(CumModItems.KING_RAT_SPAWN_EGG.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {

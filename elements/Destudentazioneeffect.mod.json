@@ -21,6 +21,9 @@
     },
     "onActiveTick": {
       "name": "Destudentazioneoneffectactivetick"
+    },
+    "onExpired": {
+      "name": "DestudentazioneeffectEffectExpires"
     }
   }
 }

@@ -431,5 +431,13 @@
         "stream": false
       }
     ]
+  },
+  "tenebre_rosso_sangue": {
+    "sounds": [
+      {
+        "name": "cum:tenebre_rosso_sangue",
+        "stream": false
+      }
+    ]
   }
 }

@@ -9,6 +9,7 @@ import net.minecraft.world.effect.MobEffect;
 
 import net.mcreator.cum.procedures.DestudentazioneoneffectactivetickProcedure;
 import net.mcreator.cum.procedures.DestudentazioneeffectstartappliedProcedure;
+import net.mcreator.cum.procedures.DestudentazioneeffectEffectExpiresProcedure;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -33,6 +34,12 @@ public class DestudentazioneeffectMobEffect extends MobEffect {
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
 		DestudentazioneoneffectactivetickProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+	}
+
+	@Override
+	public void removeAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
+		super.removeAttributeModifiers(entity, attributeMap, amplifier);
+		DestudentazioneeffectEffectExpiresProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
 	}
 
 	@Override

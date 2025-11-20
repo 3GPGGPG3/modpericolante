@@ -19,16 +19,18 @@ import net.mcreator.cum.CumMod;
 public class DestudentazioneoneffectactivetickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		CumMod.queueServerWork(200, () -> {
-			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = CumModEntities.TOPO.get().spawn(_level,
-						BlockPos.containing(x + Mth.nextDouble(RandomSource.create(), -50, 50), y + Mth.nextDouble(RandomSource.create(), 5, 50), z + Mth.nextDouble(RandomSource.create(), -50, 50)), MobSpawnType.MOB_SUMMONED);
-				if (entityToSpawn != null) {
-					entityToSpawn.setDeltaMovement(0, 0, 0);
+			if (Math.random() < 0.15) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.TOPO.get().spawn(_level,
+							BlockPos.containing(x + Mth.nextDouble(RandomSource.create(), -50, 50), y + Mth.nextDouble(RandomSource.create(), 5, 50), z + Mth.nextDouble(RandomSource.create(), -50, 50)), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+						entityToSpawn.setDeltaMovement(0, 0, 0);
+					}
 				}
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							"scoreboard players set @e[type=cum:topo] topo_incazzato 1");
 			}
-			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"scoreboard players set @e[type=cum:topo] topo_incazzato 1");
 		});
 	}
 }

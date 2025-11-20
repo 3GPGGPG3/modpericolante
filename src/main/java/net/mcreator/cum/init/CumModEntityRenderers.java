@@ -44,6 +44,7 @@ import net.mcreator.cum.client.renderer.MaliciousFaceRenderer;
 import net.mcreator.cum.client.renderer.MaleniaBladeOfMiquellaRenderer;
 import net.mcreator.cum.client.renderer.LinfocitaTRenderer;
 import net.mcreator.cum.client.renderer.LinfocitaBRenderer;
+import net.mcreator.cum.client.renderer.KingRatRenderer;
 import net.mcreator.cum.client.renderer.KillerRenderer;
 import net.mcreator.cum.client.renderer.IlFuMattiaPascal2Renderer;
 import net.mcreator.cum.client.renderer.GirasoleRenderer;
@@ -132,5 +133,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.DELIRIO.get(), DelirioRenderer::new);
 		event.registerEntityRenderer(CumModEntities.TOPO.get(), TopoRenderer::new);
 		event.registerEntityRenderer(CumModEntities.ORDINAMENTO_GIURIDICO.get(), OrdinamentoGiuridicoRenderer::new);
+		event.registerEntityRenderer(CumModEntities.KING_RAT.get(), KingRatRenderer::new);
 	}
 }

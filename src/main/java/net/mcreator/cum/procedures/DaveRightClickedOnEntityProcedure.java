@@ -37,10 +37,10 @@ public class DaveRightClickedOnEntityProcedure {
 				_player.closeContainer();
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"msg @a Hai infranto la legge facendo compiere ad un interdetto giudiziale atti di straordinaria amministrazione");
+						"tellraw @a {\"text\":\"[!] Hai infranto la legge facendo compiere ad un interdetto giudiziale atti di straordinaria amministrazione\"}");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"msg @a Hai 15 secondi prima di essere giustiziato");
+						"tellraw @a {\"text\":\"[!] Hai 15 secondi prima di essere giustiziato\"}");
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"effect give @a cum:vacatiolegis 15 10 true");

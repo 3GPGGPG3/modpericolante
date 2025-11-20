@@ -59,6 +59,7 @@ import net.mcreator.cum.entity.MaliciousFaceEntity;
 import net.mcreator.cum.entity.MaleniaBladeOfMiquellaEntity;
 import net.mcreator.cum.entity.LinfocitaTEntity;
 import net.mcreator.cum.entity.LinfocitaBEntity;
+import net.mcreator.cum.entity.KingRatEntity;
 import net.mcreator.cum.entity.KillerEntity;
 import net.mcreator.cum.entity.IlFuMattiaPascal2Entity;
 import net.mcreator.cum.entity.GirasoleEntity;
@@ -301,6 +302,10 @@ public class CumModEntities {
 					.setCustomClientFactory(OrdinamentoGiuridicoEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<KingRatEntity>> KING_RAT = register("king_rat",
+			EntityType.Builder.<KingRatEntity>of(KingRatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(KingRatEntity::new)
+
+					.sized(1.5f, 0.4f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -362,6 +367,7 @@ public class CumModEntities {
 			DelirioEntity.init();
 			TopoEntity.init();
 			OrdinamentoGiuridicoEntity.init();
+			KingRatEntity.init();
 		});
 	}
 
@@ -418,5 +424,6 @@ public class CumModEntities {
 		event.put(DELIRIO.get(), DelirioEntity.createAttributes().build());
 		event.put(TOPO.get(), TopoEntity.createAttributes().build());
 		event.put(ORDINAMENTO_GIURIDICO.get(), OrdinamentoGiuridicoEntity.createAttributes().build());
+		event.put(KING_RAT.get(), KingRatEntity.createAttributes().build());
 	}
 }

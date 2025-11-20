@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.cum.client.model.Modeltopo;
 import net.mcreator.cum.client.model.Modelshrek;
 import net.mcreator.cum.client.model.Modelseisette;
+import net.mcreator.cum.client.model.Modelrat_king;
 import net.mcreator.cum.client.model.Modelpeashooter;
 import net.mcreator.cum.client.model.Modelpaperon_de_paperoni;
 import net.mcreator.cum.client.model.Modelorthomyxoviridae;
@@ -50,6 +51,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelanticorpo.LAYER_LOCATION, Modelanticorpo::createBodyLayer);
 		event.registerLayerDefinition(Modelflesh_panopticom.LAYER_LOCATION, Modelflesh_panopticom::createBodyLayer);
 		event.registerLayerDefinition(Modellinfocita_b_o_plasmacellula.LAYER_LOCATION, Modellinfocita_b_o_plasmacellula::createBodyLayer);
+		event.registerLayerDefinition(Modelrat_king.LAYER_LOCATION, Modelrat_king::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modelmalicious_face.LAYER_LOCATION, Modelmalicious_face::createBodyLayer);
 		event.registerLayerDefinition(Modelshrek.LAYER_LOCATION, Modelshrek::createBodyLayer);
