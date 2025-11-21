@@ -506,6 +506,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> NORMAMOUSEDAY = REGISTRY.register("normamouseday", () -> new NormamousedayItem());
 	public static final RegistryObject<Item> NORMADESTUDENTAZIONE = REGISTRY.register("normadestudentazione", () -> new NormadestudentazioneItem());
 	public static final RegistryObject<Item> KING_RAT_SPAWN_EGG = REGISTRY.register("king_rat_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.KING_RAT, -13421773, -39322, new Item.Properties()));
+	public static final RegistryObject<Item> GODRILLO = REGISTRY.register("godrillo", () -> new GodrilloItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

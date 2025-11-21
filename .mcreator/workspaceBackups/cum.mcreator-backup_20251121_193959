@@ -11815,10 +11815,10 @@
       "registry_name": "preside",
       "metadata": {
         "files": [
-          "src/main/resources/data/cum/forge/biome_modifier/preside_biome_modifier.json",
-          "src/main/resources/assets/cum/models/item/preside_spawn_egg.json",
           "src/main/java/net/mcreator/cum/client/renderer/PresideRenderer.java",
-          "src/main/java/net/mcreator/cum/entity/PresideEntity.java"
+          "src/main/resources/data/cum/forge/biome_modifier/preside_biome_modifier.json",
+          "src/main/java/net/mcreator/cum/entity/PresideEntity.java",
+          "src/main/resources/assets/cum/models/item/preside_spawn_egg.json"
         ]
       }
     },
@@ -13839,6 +13839,56 @@
           }
         ]
       }
+    },
+    {
+      "name": "PowerPointDNAEnglish",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_point_dna_english",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Ferraris",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ferraris",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DestudentazioneeffectEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destudentazioneeffect_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/DestudentazioneeffectEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -14274,6 +14324,14 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "tenebre_rosso_sangue",
+      "files": [
+        "tenebre_rosso_sangue"
+      ],
+      "category": "ambient",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -14559,6 +14617,7 @@
       "item.cum.qu_di_fiori.description_0": "+4 fiche.",
       "item.cum.geneampicillina.description_0": "Dona ai batteri che lo possiedono resistenza all\u0027ampiccilina",
       "item.cum.frenzied_cum": "Sborra della Frenesia",
+      "painting.cum.ferraris.title": "Ferraris",
       "item.cum.otto_di_quadri.description_0": "+8 fiche.",
       "subtitles.ilfumattia": "",
       "item.cum.sette_di_cuori.description_0": "+7 fiche.",
@@ -14690,6 +14749,7 @@
       "biome.cum.bioma_pericolante_negativo": "Bioma Pericolante Negativo",
       "item.cum.il_fu_mattia_pascal_disco": "Il fu Mattia Pascal audiolibro",
       "item.cum.disc_chaos.desc": "Heaven Pierce Her - CHAOS",
+      "painting.cum.ferraris.author": "Preside",
       "item.cum.nove_di_cuori.description_0": "+9 fiche.",
       "block.cum.pietra_vuota": "Pietra vuota",
       "item.cum.clonatore": "Clonatore",
@@ -14751,6 +14811,7 @@
       "item.cum.normadivietodisesso.description_0": "Questa norma vieta di compiere atti espliciti",
       "entity.cum.peashooter": "Sparasemi",
       "item.cum.spada_random.description_0": "Tutto ciò che riguarda questa spada è casuale.",
+      "painting.cum.power_point_dna_english.author": "Ab42 and Cacciatore Domenicale",
       "item.cum.sette_di_quadri.description_0": "+7 fiche.",
       "entity.cum.malenia_blade_of_miquella": "Malenia, Blade Of Miquella",
       "item.cum.giolitti_spawn_egg": "Giolitti Spawn Egg",
@@ -15000,6 +15061,7 @@
       "entity.cum.dave": "Dave",
       "item.cum.questoeilgodo": "QUESTO E\u0027 IL GODO",
       "item.cum.cin_di_fiori": "5 di Fiori",
+      "painting.cum.power_point_dna_english.title": "Power Point DNA English",
       "subtitles.gb_youareoutclassed": "",
       "death.attack.sborrato.item": "%1$s è stato sborrato da %2$s mentre si segava il %3$s",
       "block.cum.blocco_di_sborra_rossa": "Blocco di sborra rossa",
@@ -15162,6 +15224,7 @@
       "block.cum.impalatore.description_0": "Usalo per impilare gli oggetti.",
       "entity.cum.linfocita_b": "Linfocita B",
       "item.minecraft.tipped_arrow.effect.pozione_frenesia": "Freccia della fiamma della frenesia",
+      "subtitles.tenebre_rosso_sangue": "",
       "item.cum.carta_di_pietra": "Carta di pietra",
       "item.cum.perkeo.description_1": "Può capitare che non crei nessuna copia se non si possiede ogni singolo oggetto negativizzabile.",
       "item_group.cum.cose_pericolanti": "Cose Pericolanti",
