@@ -37,6 +37,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.cum.procedures.TopoattackplayerconditionsProcedure;
+import net.mcreator.cum.procedures.TopoThisEntityKillsAnotherOneProcedure;
 import net.mcreator.cum.procedures.TopoPlaybackConditionProcedure;
 import net.mcreator.cum.procedures.TopoEntityIsHurtProcedure;
 import net.mcreator.cum.init.CumModEntities;
@@ -145,7 +146,7 @@ public class TopoEntity extends PathfinderMob {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		TopoEntityIsHurtProcedure.execute(entity);
+		TopoEntityIsHurtProcedure.execute(world, x, y, z, entity);
 		if (damagesource.is(DamageTypes.FALL))
 			return false;
 		if (damagesource.is(DamageTypes.CACTUS))
@@ -164,6 +165,12 @@ public class TopoEntity extends PathfinderMob {
 		super.readAdditionalSaveData(compound);
 		if (compound.contains("Datais_walking"))
 			this.entityData.set(DATA_is_walking, compound.getBoolean("Datais_walking"));
+	}
+
+	@Override
+	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
+		super.awardKillScore(entity, score, damageSource);
+		TopoThisEntityKillsAnotherOneProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override

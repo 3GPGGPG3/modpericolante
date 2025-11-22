@@ -200,7 +200,7 @@ public class PresideEntity extends Monster {
 	@Override
 	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
 		super.awardKillScore(entity, score, damageSource);
-		PresideThisEntityKillsAnotherOneProcedure.execute(entity);
+		PresideThisEntityKillsAnotherOneProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override

@@ -4,11 +4,6 @@
   "workspacePanelSortAscending": true,
   "projectBrowserSplitPos": 0,
   "projectBrowserState": {
-    "expandedPaths": [
-      "[, Cum]",
-      "[, Cum, Source (Gradle)]",
-      "[, Cum, Resources (Gradle)]",
-      "[, Cum, Models]"
-    ]
+    "expandedPaths": []
   }
 }

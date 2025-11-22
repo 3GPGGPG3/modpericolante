@@ -114,7 +114,15 @@ public class PresideOnEntityTickUpdateProcedure {
 							"effect give @a cum:divietodisessoeffect infinite 10 true");
 			});
 		}
-		if (Math.random() < 0.005) {
+		if (new Object() {
+			public int getScore(String score, Entity _ent) {
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective(score);
+				if (_so != null)
+					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+				return 0;
+			}
+		}.getScore("Preside_incazzato", entity) == 0 && Math.random() < 0.005) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"summon cum:topo");
@@ -206,7 +214,7 @@ public class PresideOnEntityTickUpdateProcedure {
 				}
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-							"effect give @a cum:destudentazioneeffect 24000 10 true");
+							"effect give @a cum:destudentazioneeffect 3720 10 true");
 			});
 		}
 	}

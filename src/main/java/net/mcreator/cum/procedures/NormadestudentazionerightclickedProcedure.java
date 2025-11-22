@@ -34,7 +34,7 @@ public class NormadestudentazionerightclickedProcedure {
 			_entity.addEffect(new MobEffectInstance(CumModMobEffects.VACATIOLEGIS.get(), 300, 10, false, false));
 		CumMod.queueServerWork(300, () -> {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(CumModMobEffects.DESTUDENTAZIONEEFFECT.get(), 24000, 10, false, false));
+				_entity.addEffect(new MobEffectInstance(CumModMobEffects.DESTUDENTAZIONEEFFECT.get(), 3720, 10, false, false));
 		});
 	}
 }
