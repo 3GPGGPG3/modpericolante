@@ -13,6 +13,7 @@ import net.minecraft.world.effect.MobEffect;
 import net.mcreator.cum.potion.VacatiolegisMobEffect;
 import net.mcreator.cum.potion.SanguinamentoeffectMobEffect;
 import net.mcreator.cum.potion.SanguinamentocoagulatoMobEffect;
+import net.mcreator.cum.potion.PowerMobEffect;
 import net.mcreator.cum.potion.PenalizzatoMobEffect;
 import net.mcreator.cum.potion.MousedayeffectMobEffect;
 import net.mcreator.cum.potion.MarcescenzaScarlattaMobEffect;
@@ -34,4 +35,5 @@ public class CumModMobEffects {
 	public static final RegistryObject<MobEffect> DIVIETODISESSOEFFECT = REGISTRY.register("divietodisessoeffect", () -> new DivietodisessoeffectMobEffect());
 	public static final RegistryObject<MobEffect> MOUSEDAYEFFECT = REGISTRY.register("mousedayeffect", () -> new MousedayeffectMobEffect());
 	public static final RegistryObject<MobEffect> DESTUDENTAZIONEEFFECT = REGISTRY.register("destudentazioneeffect", () -> new DestudentazioneeffectMobEffect());
+	public static final RegistryObject<MobEffect> POWER = REGISTRY.register("power", () -> new PowerMobEffect());
 }

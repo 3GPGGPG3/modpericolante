@@ -178,6 +178,7 @@ import net.mcreator.cum.item.ArmaturaUltrakillanteItem;
 import net.mcreator.cum.item.ArmaturaPenalizzataItem;
 import net.mcreator.cum.item.ArmaturaLunareItem;
 import net.mcreator.cum.item.ArmaturaDelGodoItem;
+import net.mcreator.cum.item.AnelloAncestraleItem;
 import net.mcreator.cum.item.AltPiercerItem;
 import net.mcreator.cum.item.AlessandroManzoniUovoItem;
 import net.mcreator.cum.item.AcquaDelGodoItem;
@@ -508,6 +509,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> NORMADESTUDENTAZIONE = REGISTRY.register("normadestudentazione", () -> new NormadestudentazioneItem());
 	public static final RegistryObject<Item> KING_RAT_SPAWN_EGG = REGISTRY.register("king_rat_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.KING_RAT, -13421773, -39322, new Item.Properties()));
 	public static final RegistryObject<Item> GODRILLO = REGISTRY.register("godrillo", () -> new GodrilloItem());
+	public static final RegistryObject<Item> ANELLO_ANCESTRALE = REGISTRY.register("anello_ancestrale", () -> new AnelloAncestraleItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

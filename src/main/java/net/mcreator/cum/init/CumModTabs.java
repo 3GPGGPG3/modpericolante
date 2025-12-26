@@ -267,6 +267,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.NORMAMOUSEDAY.get());
 				tabData.accept(CumModItems.NORMADESTUDENTAZIONE.get());
 				tabData.accept(CumModItems.KING_RAT_SPAWN_EGG.get());
+				tabData.accept(CumModItems.ANELLO_ANCESTRALE.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -360,6 +361,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.STIVALI_IMMOVIBILI_BOOTS.get());
 				tabData.accept(CumModItems.ARMATURADELSANGUE_BOOTS.get());
 				tabData.accept(CumModItems.CUFFIE_DI_SIOFRA_HELMET.get());
+				tabData.accept(CumModItems.ANELLO_ANCESTRALE.get());
 			}).withTabsBefore(COSE_PERICOLANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_BALATRANTI = REGISTRY.register("cose_balatranti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_balatranti")).icon(() -> new ItemStack(CumModItems.ECTOPLASMA.get())).displayItems((parameters, tabData) -> {
