@@ -17,7 +17,7 @@ public class AnelloAncestraleRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player)
-			_player.getCooldowns().addCooldown(itemstack.getItem(), 4000);
+			_player.getCooldowns().addCooldown(itemstack.getItem(), 1300);
 		if (entity instanceof ServerPlayer _player)
 			_player.setGameMode(GameType.CREATIVE);
 		if (!(entity instanceof LivingEntity _livEnt3 && _livEnt3.hasEffect(CumModMobEffects.POWER.get()))) {
@@ -25,6 +25,8 @@ public class AnelloAncestraleRightclickedProcedure {
 				_entity.addEffect(new MobEffectInstance(CumModMobEffects.POWER.get(), 9999999, 0, false, false));
 		}
 		CumMod.queueServerWork(1200, () -> {
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(itemstack.getItem(), 6700);
 			if (entity instanceof ServerPlayer _player)
 				_player.setGameMode(GameType.SURVIVAL);
 		});

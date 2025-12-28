@@ -267,7 +267,10 @@ public class CumModTabs {
 				tabData.accept(CumModItems.NORMAMOUSEDAY.get());
 				tabData.accept(CumModItems.NORMADESTUDENTAZIONE.get());
 				tabData.accept(CumModItems.KING_RAT_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GODRILLO.get());
 				tabData.accept(CumModItems.ANELLO_ANCESTRALE.get());
+				tabData.accept(CumModItems.RUNA_MAGGIORE_DI_MALENIA.get());
+				tabData.accept(CumModItems.AGO_DORATO_DI_MIQUELLA.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -362,6 +365,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.ARMATURADELSANGUE_BOOTS.get());
 				tabData.accept(CumModItems.CUFFIE_DI_SIOFRA_HELMET.get());
 				tabData.accept(CumModItems.ANELLO_ANCESTRALE.get());
+				tabData.accept(CumModItems.RUNA_MAGGIORE_DI_MALENIA.get());
 			}).withTabsBefore(COSE_PERICOLANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_BALATRANTI = REGISTRY.register("cose_balatranti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_balatranti")).icon(() -> new ItemStack(CumModItems.ECTOPLASMA.get())).displayItems((parameters, tabData) -> {
@@ -575,6 +579,16 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_II.get().asItem());
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_III.get().asItem());
 			}).withTabsBefore(SCUOLA_GUIDA.getId()).build());
+	public static final RegistryObject<CreativeModeTab> COSE_ELDENRINGANTI = REGISTRY.register("cose_eldenringanti",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_eldenringanti")).icon(() -> new ItemStack(CumModItems.ANELLO_ANCESTRALE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(CumModItems.NERO_COLTELLO.get());
+				tabData.accept(CumModItems.ASSASSINA_DEI_NERI_COLTELLI_SPAWN_EGG.get());
+				tabData.accept(CumModItems.MANO_DI_MALENIA.get());
+				tabData.accept(CumModItems.MALENIA_BLADE_OF_MIQUELLA_SPAWN_EGG.get());
+				tabData.accept(CumModItems.ANELLO_ANCESTRALE.get());
+				tabData.accept(CumModItems.RUNA_MAGGIORE_DI_MALENIA.get());
+				tabData.accept(CumModItems.AGO_DORATO_DI_MIQUELLA.get());
+			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> PIANTE_CONTRO_ZOMBIE = REGISTRY.register("piante_contro_zombie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.piante_contro_zombie")).icon(() -> new ItemStack(CumModItems.SOLE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.PEASHOOTER_SPAWN_EGG.get());
@@ -587,7 +601,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.SPADA_SOLARE.get());
 				tabData.accept(CumModItems.RADIANT_POWER_OF_THE_SUN.get());
 				tabData.accept(CumModItems.TACO.get());
-			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
+			}).withTabsBefore(COSE_ELDENRINGANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> NORME = REGISTRY.register("norme",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.norme")).icon(() -> new ItemStack(CumModItems.RELAZIONE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.NORMADIVIETOUSOTELEFONO.get());

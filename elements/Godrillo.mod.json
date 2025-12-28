@@ -8,17 +8,21 @@
     "customProperties": {},
     "states": [],
     "name": "Godrillo",
-    "rarity": "COMMON",
-    "creativeTabs": [],
-    "stackSize": 64,
+    "rarity": "UNCOMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:IlFuMattiaPascal"
+      }
+    ],
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
-    "toolType": 1.0,
-    "damageCount": 0,
+    "toolType": 1.6,
+    "damageCount": 1200,
     "recipeRemainder": {
       "value": ""
     },
-    "destroyAnyBlock": false,
+    "destroyAnyBlock": true,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
@@ -32,6 +36,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "GodrilloRightclicked"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

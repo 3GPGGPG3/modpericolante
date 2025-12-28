@@ -39,6 +39,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:IlFuMattiaPascal"
+      },
+      {
+        "value": "CUSTOM:CoseEldenringanti"
       }
     ],
     "isBoss": true,
@@ -102,7 +105,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:RunaMaggioreDiMalenia"
     },
     "livingSound": {
       "value": ""

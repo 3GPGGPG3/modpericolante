@@ -9169,8 +9169,8 @@
       "registry_name": "nero_coltello",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/nero_coltello.json",
-          "src/main/java/net/mcreator/cum/item/NeroColtelloItem.java"
+          "src/main/java/net/mcreator/cum/item/NeroColtelloItem.java",
+          "src/main/resources/assets/cum/models/item/nero_coltello.json"
         ]
       }
     },
@@ -9182,10 +9182,10 @@
       "registry_name": "assassina_dei_neri_coltelli",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/AssassinaDeiNeriColtelliRenderer.java",
           "src/main/resources/data/cum/forge/biome_modifier/assassina_dei_neri_coltelli_biome_modifier.json",
-          "src/main/resources/assets/cum/models/item/assassina_dei_neri_coltelli_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/AssassinaDeiNeriColtelliEntity.java"
+          "src/main/java/net/mcreator/cum/entity/AssassinaDeiNeriColtelliEntity.java",
+          "src/main/java/net/mcreator/cum/client/renderer/AssassinaDeiNeriColtelliRenderer.java",
+          "src/main/resources/assets/cum/models/item/assassina_dei_neri_coltelli_spawn_egg.json"
         ]
       }
     },
@@ -13986,41 +13986,6 @@
       }
     },
     {
-      "name": "PrimeSoulerRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "prime_souler_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/cum/procedures/PrimeSoulerRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      }
-    },
-    {
-      "name": "PrimeSouler",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "prime_souler",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/cum/item/PrimeSoulerItem.java",
-          "src/main/resources/assets/cum/models/item/prime_souler.json"
-        ]
-      }
-    },
-    {
       "name": "PowerEffectStartedapplied",
       "type": "procedure",
       "compiles": true,
@@ -14076,6 +14041,205 @@
             "name": "entity",
             "type": "entity"
           }
+        ]
+      }
+    },
+    {
+      "name": "AnelloAncestrale",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anello_ancestrale",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cum/models/item/anello_ancestrale.json",
+          "src/main/java/net/mcreator/cum/item/AnelloAncestraleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LordAncestrale",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lord_ancestrale",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cum/advancements/lord_ancestrale.json"
+        ]
+      }
+    },
+    {
+      "name": "AnelloAncestraleRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anello_ancestrale_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/AnelloAncestraleRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnelloAncestraleItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anello_ancestrale_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/AnelloAncestraleItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RunaMaggioreDiMaleniaRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runa_maggiore_di_malenia_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/RunaMaggioreDiMaleniaRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RunaMaggioreDiMalenia",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runa_maggiore_di_malenia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/RunaMaggioreDiMaleniaItem.java",
+          "src/main/resources/assets/cum/models/item/runa_maggiore_di_malenia.json"
+        ]
+      }
+    },
+    {
+      "name": "CoseEldenringanti",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cose_eldenringanti",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GodrilloRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godrillo_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/GodrilloRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AgoDoratoDiMiquellaRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ago_dorato_di_miquella_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/AgoDoratoDiMiquellaRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AgoDoratoDiMiquella",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ago_dorato_di_miquella",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/AgoDoratoDiMiquellaItem.java",
+          "src/main/resources/assets/cum/models/item/ago_dorato_di_miquella.json"
         ]
       }
     }
@@ -14708,8 +14872,8 @@
       "gui.cum.integrazione_gui.label_mettere_loggetto_primitivo": "Mettere l\u0027oggetto derivato.",
       "effect.cum.sanguinamentoeffect": "Sanguinamento",
       "item.cum.qu_di_cuori": "4 di Cuori",
-      "block.cum.blocco_pericolante_negativo": "Blocco pericolante negativo",
       "gui.cum.secondafunzioneintegrazione_gui.label_ecori": "ECoRI",
+      "block.cum.blocco_pericolante_negativo": "Blocco pericolante negativo",
       "item.cum.spada_super_godevole": "Spada super godevole",
       "entity.cum.plasmacellula": "Plasmacellula",
       "item.cum.gel_di_agarosio_bucket": "Beuta con gel di agarosio caldo",
@@ -14721,8 +14885,8 @@
       "block.cum.tbe.description_0": "Tris Borrate EDTA",
       "gui.cum.azioni_del_telefono.label_scegli_cosa_fare_col_tuo_telefon": "Scegli cosa fare col tuo telefono",
       "item.cum.dimensione_pericolante": "Asso di Picche",
-      "block.cum.inizio_ver": "Inizio (verticale)",
       "subtitles.gb_amereobject": "",
+      "block.cum.inizio_ver": "Inizio (verticale)",
       "gui.cum.derivazione_gui.label_dx": "dx",
       "item.cum.per_inv_2_spawn_egg": "Pericolante Inverso 2 Spawn Egg",
       "item.cum.armaturadelsangue_boots.description_0": "Genera sangue coagulato ai tuoi piedi. Tuttavia, si rompono nel tempo.",
@@ -14784,11 +14948,11 @@
       "painting.cum.wanted_il_fu_mattia_pascal.author": "Pirandello",
       "enchantment.cum.negativita": "Negativo",
       "item.cum.plasmidevuoto": "Plasmide vuoto",
-      "item.cum.sei_di_quadri.description_0": "+6 fiche.",
-      "item.cum.red_cum": "Red Cum",
       "item.cum.spada_lunare_4": "Spada Lunare IV",
-      "subtitles.war1": "",
+      "item.cum.red_cum": "Red Cum",
+      "item.cum.sei_di_quadri.description_0": "+6 fiche.",
       "item.cum.genetetracillina.description_0": "Dona ai batteri che lo possiedono resistenza all\u0027ampiccilina",
+      "subtitles.war1": "",
       "subtitles.war2": "",
       "death.attack.rottura_di_minchia": "%1$s si è rotto la minchia.",
       "effect.cum.penalizzato": "Penalizzato",
@@ -14808,8 +14972,8 @@
       "item.cum.frenzied_cum": "Sborra della Frenesia",
       "painting.cum.ferraris.title": "Ferraris",
       "item.cum.otto_di_quadri.description_0": "+8 fiche.",
-      "subtitles.ilfumattia": "",
       "item.cum.sette_di_cuori.description_0": "+7 fiche.",
+      "subtitles.ilfumattia": "",
       "item.cum.normadestudentazione": "Norma destudentazione",
       "gui.cum.micropipetta_gui.button_swap_mode": "Swap Mode",
       "entity.cum.essere_perfettamente_inutile": "Essere perfettamente inutile",
@@ -14853,6 +15017,7 @@
       "item.cum.occhio_maledetto": "Occhio maledetto",
       "entity.cum.olivia": "Olivia",
       "painting.cum.paperone_casino_2.title": "Paperone Balatrante2",
+      "item.cum.ago_dorato_di_miquella": "Ago dorato di Miquella",
       "item.cum.due_di_cuori.description_0": "+2 fiche.",
       "block.cum.matraccio": "Matraccio",
       "subtitles.gb_animperfectiontobe": "",
@@ -14867,16 +15032,16 @@
       "item.cum.cazzo_rosso": "Cazzo rosso",
       "item.cum.sette_di_fiori": "7 di Fiori",
       "entity.cum.uomo_primitivo": "Uomo Primitivo",
-      "gui.cum.mira_gui.button_consegna_il_compito": "Consegna il compito",
       "gui.cum.pv_zshop.button_girasole": "Girasole",
+      "gui.cum.mira_gui.button_consegna_il_compito": "Consegna il compito",
       "item.cum.genesgun": "Genes Gun",
       "item.cum.gel_di_agarosio_bucket.description_0": "Si deve raffreddare in un contenitore con pettine per formare i pozzetti.",
       "block.cum.armadietto": "Armadietto",
       "item.cum.nove_di_picchie.description_0": "+9 fiche.",
       "item.cum.dieci_di_fiori.description_0": "+10 fiche.",
       "item.cum.mano_di_malenia": "Mano di Malenia",
-      "subtitles.ilfumattiastory": "",
       "item.cum.cianografia": "Cianografia",
+      "subtitles.ilfumattiastory": "",
       "block.cum.cono_block.description_0": "(non dovresti avere questo \"blocco\")",
       "item.minecraft.potion.effect.pozione_godevole": "Pozione godevole",
       "item.cum.armatura_del_godo_boots": "Scarpe del godo",
@@ -14912,6 +15077,10 @@
       "item.cum.staffa_del_godo_negativa": "Staffa del godo negativa",
       "item.cum.telefono.description_0": "Si possono svolgere varie attività.",
       "block.cum.ultrakillante_ore": "Metallo Ultrakillante grezzo",
+      "item.cum.anello_ancestrale.description_3": "Rende immuni dalla penalizzazione.",
+      "item.cum.anello_ancestrale.description_1": "Diventi Lord Ancestrale.",
+      "item.cum.anello_ancestrale.description_2": "Ti permette di andare in modalità creativa per 30 secondi.",
+      "item.cum.anello_ancestrale.description_0": "Ti permette di giungere ad un livello superiore di entità.",
       "gui.cum.balatro_gui.button_gioca_mano": "Gioca mano",
       "subtitles.gb_yourcimeisexistence": "",
       "subtitles.gb_bighurt": "",
@@ -14933,8 +15102,8 @@
       "advancements.godooperkeooooo.descr": "Ottieni un Perkeo",
       "item.cum.spada_gabriellante": "Spada Gabriellante",
       "item.cum.armatura_ultrakillante_leggings.description_1": "Stamina recharges in time. If that doesn\u0027t happen, step on BLOCCO ULTRARIATTIVANTE.",
-      "gui.cum.pv_zshop.button_la_pianta": "La pianta",
       "item.cum.armatura_ultrakillante_leggings.description_0": "Shift to dash. You have 3 stamina.",
+      "gui.cum.pv_zshop.button_la_pianta": "La pianta",
       "biome.cum.bioma_pericolante_negativo": "Bioma Pericolante Negativo",
       "item.cum.il_fu_mattia_pascal_disco": "Il fu Mattia Pascal audiolibro",
       "item.cum.disc_chaos.desc": "Heaven Pierce Her - CHAOS",
@@ -14943,8 +15112,8 @@
       "block.cum.pietra_vuota": "Pietra vuota",
       "item.cum.clonatore": "Clonatore",
       "death.attack.sborrato": "%1$s si è sborrato.",
-      "gui.cum.frigo_gui.label_empty": "--\u003e",
       "item_group.cum.piante_contro_zombie": "Piante Contro Zombie",
+      "gui.cum.frigo_gui.label_empty": "--\u003e",
       "advancements.pericoloo.title": "Pericoloooo!!!",
       "item.cum.armatura_ultrakillante_chestplate": "Chestplate Ultrakillante",
       "item.cum.dispositivo_teletrasportante.description_0": "Dispositivo che fa teletrasportare dove guardi.",
@@ -14991,8 +15160,8 @@
       "item.minecraft.tipped_arrow.effect.pozione_marcescente": "Freccia marcescente",
       "entity.cum.mirabella": "Mirabella",
       "item.cum.dispositivo_neutralizzante": "Dispositivo neutralizzante",
-      "item.minecraft.splash_potion.effect.pozione_frenesia": "Pozione lanciabile della fiamma della frenesia",
       "block.cum.blocco_pericoloso_negativo": "Blocco pericoloso negativo",
+      "item.minecraft.splash_potion.effect.pozione_frenesia": "Pozione lanciabile della fiamma della frenesia",
       "biome.cum.monte_abbummatu": "Monte Abbummatu",
       "block.cum.blocco_di_diamante_vuoto": "Blocco di diamante vuoto",
       "item_group.cum.cose_balatranti": "Cose Balatranti",
@@ -15021,6 +15190,7 @@
       "item.cum.sette_di_cuori": "7 di Cuori",
       "block.cum.matrice_dopo_corsa": "Matrice di agarosio con DNA separato",
       "gui.cum.integrazione_gui.label_empty": "-------\u003e",
+      "item.cum.ago_dorato_di_miquella.description_0": "Consente di curare dal morbo della marcescenza scarlatta.",
       "gui.cum.chat_gpt.button_fammi_una_relazione": "Fammi una relazione",
       "entity.cum.di_fazio": "Di Fazio",
       "item.cum.cin_di_cuori.description_0": "+5 fiche.",
@@ -15043,10 +15213,11 @@
       "item.cum.macchina_del_tempo.description_4": "UOMO AVVISATO, MEZZO BOCCIATO.",
       "item.cum.macchina_del_tempo.description_3": "A TUO RISCHIO E PERICOLO.",
       "item.cum.asso_di_quadri.description_0": "Incendia sempre il nemico. Può fulminarlo oppure eheheheh!",
-      "gui.cum.maps.button_casa": "Casa",
       "block.cum.fine_ver": "Fine (verticale)",
+      "gui.cum.maps.button_casa": "Casa",
       "gui.cum.chat_gpt.label_oppure_cosa_posso_fare_per_te": "Oppure cosa posso fare per te?",
       "gui.cum.vasca_elettroforetica_gui.label_tampone": "Tampone",
+      "item.cum.anello_ancestrale": "Anello Ancestrale",
       "item.cum.sette_di_picchie": "7 di Picchie",
       "subtitles.sp_destroy": "",
       "gui.cum.consegna_relazione.label_sufficienza": "Sufficienza?",
@@ -15056,11 +15227,11 @@
       "item.cum.paperon_de_paperoni_spawn_egg": "Paperon De Paperoni Spawn Egg",
       "subtitles.sp_death": "",
       "gui.cum.micropipetta_gui.tooltip_currently_taking2": "Currently: taking",
-      "item.cum.stella_del_godo.description_0": "QUESTO E\u0027 BALATRO!!!",
       "gui.cum.micropipetta_gui.tooltip_currently_taking1": "Currently: taking",
+      "item.cum.stella_del_godo.description_0": "QUESTO E\u0027 BALATRO!!!",
       "subtitles.sp_youcant2": "",
-      "item.cum.armatura_del_godo_helmet": "Elmetto del godo",
       "item.cum.due_di_fiori.description_0": "+2 fiche.",
+      "item.cum.armatura_del_godo_helmet": "Elmetto del godo",
       "block.cum.blocco_pericoloso": "Blocco pericoloso",
       "gui.cum.generatore_gui.label_generatore": "Generatore",
       "item.cum.sei_di_picchie.description_0": "+6 fiche.",
@@ -15112,6 +15283,7 @@
       "item.cum.nove_di_fiori.description_0": "+9 fiche.",
       "entity.cum.alessandro_manzoni": "Alessandro Manzoni",
       "item.cum.il_fu_mattia_pascal_2_spawn_egg": "Il fu Mattia Pascal Spawn Egg",
+      "item.cum.runa_maggiore_di_malenia": "Runa Maggiore di Malenia",
       "item.cum.sei_di_fiori.description_0": "+6 fiche.",
       "gui.cum.derivazione_gui.button_integra": "Deriva",
       "subtitles.sp_hurt": "",
@@ -15124,6 +15296,7 @@
       "item.cum.di_fazio_spawn_egg": "Di Fazio Spawn Egg",
       "item.minecraft.lingering_potion.effect.pozione_godevole": "Pozione godevole persistente",
       "death.attack.sanguinamento": "%1$s è morto dissanguato",
+      "advancements.lord_ancestrale.title": "Lord Ancestrale",
       "item.cum.armatura_penalizzata_chestplate": "Chestplate Penalizzata",
       "block.cum.continuo_or": "Continuazione (orizzontale)",
       "entity.cum.gd_cube": "Cubo di geometry dash",
@@ -15262,6 +15435,7 @@
       "death.attack.marcescenza_scarlattaa.item": "%1$s was killed by %2$s using %3$s",
       "item.cum.indicatore_al_cavolo_rosso.desc": "Il cavolo rosso è una specie di verdura che contiene delle sostanze chiamate antocianine, che fungono da indicatore.",
       "biome.cum.bioma_sicuro": "Bioma Sicuro",
+      "item_group.cum.cose_eldenringanti": "Cose Eldenringanti",
       "entity.cum.minos_prime": "Minos Prime",
       "gui.cum.macchina_del_tempo_gui.button_fx": "F(x)",
       "item_group.cum.norme": "Norme",
@@ -15320,6 +15494,7 @@
       "gui.cum.micropipetta_gui.shooting_mode": "Shooting mode",
       "gui.cum.p_craft.label_pagamento": "Pagamento una sessione:",
       "painting.cum.giudice.author": "Bolognese con l\u0027uovo",
+      "advancements.lord_ancestrale.descr": "Diventa Lord Ancestrale",
       "gui.cum.derivazione_gui.label_empty": "-------\u003e",
       "item.cum.girasole_spawn_egg": "Girasole Spawn Egg",
       "gui.cum.mira_gui.tooltip_consegna_qui_il_compito": "Consegna qui il compito",
@@ -15347,14 +15522,12 @@
       "item.cum.pene": "Pene",
       "item.cum.nove_di_quadri.description_0": "+9 fiche.",
       "painting.cum.un_voto_in_meno.author": "Mirabella",
-      "item.cum.prime_souler": "Prime Souler",
       "item.cum.pane_integrale": "Pane Integrale",
       "effect.cum.mousedayeffect": "Mouse day",
       "block.cum.balatro_dirt": "Terra balatrante",
       "item.cum.killer_spawn_egg": "Killer Spawn Egg",
       "gui.cum.azioni_del_telefono.button_chatgpt": "ChatGPT",
       "subtitles.chaos": "",
-      "item.cum.prime_souler.description_0": "Gives you powers.",
       "item.cum.tre_di_quadri": "3 di Quadri",
       "item.cum.stella_del_godo": "Stella del godo",
       "item_group.cum.cose_olivanti": "Cose Olivanti",

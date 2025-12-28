@@ -1,30 +1,29 @@
-[27Dec2025 00:05:33.133] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[27Dec2025 00:05:33.138] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[27Dec2025 00:05:33.303] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[27Dec2025 00:05:33.396] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[27Dec2025 00:05:33.546] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[27Dec2025 00:05:33.776] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.5186, Intel
-[27Dec2025 00:05:33.779] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Fabio%20Ferlito/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[27Dec2025 00:05:34.353] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[27Dec2025 00:05:34.359] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[27Dec2025 00:05:34.363] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[27Dec2025 00:05:34.368] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[27Dec2025 00:05:34.498] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[27Dec2025 00:05:37.541] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[27Dec2025 00:05:43.871] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 514 milliseconds
-[27Dec2025 00:05:45.706] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[27Dec2025 00:05:45.706] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[27Dec2025 00:05:45.730] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[27Dec2025 00:05:45.739] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[27Dec2025 00:05:45.937] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[27Dec2025 00:05:46.262] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[27Dec2025 00:05:46.265] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[27Dec2025 00:05:48.356] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[27Dec2025 00:05:48.728] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[27Dec2025 00:05:49.084] [Worker-Main-1/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
-[27Dec2025 00:05:49.084] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[27Dec2025 00:05:49.303] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[27Dec2025 00:05:50.230] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
+[28Dec2025 16:32:39.169] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[28Dec2025 16:32:39.175] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[28Dec2025 16:32:39.354] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[28Dec2025 16:32:39.450] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[28Dec2025 16:32:39.591] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[28Dec2025 16:32:39.840] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.5186, Intel
+[28Dec2025 16:32:39.868] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Fabio%20Ferlito/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[28Dec2025 16:32:40.398] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[28Dec2025 16:32:40.402] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[28Dec2025 16:32:40.410] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[28Dec2025 16:32:40.415] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[28Dec2025 16:32:40.520] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[28Dec2025 16:32:43.150] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[28Dec2025 16:32:50.200] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 529 milliseconds
+[28Dec2025 16:32:52.001] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[28Dec2025 16:32:52.002] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[28Dec2025 16:32:52.022] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[28Dec2025 16:32:52.027] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[28Dec2025 16:32:52.179] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[28Dec2025 16:32:52.520] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[28Dec2025 16:32:52.525] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[28Dec2025 16:32:54.803] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[28Dec2025 16:32:57.607] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[28Dec2025 16:32:58.234] [Worker-Main-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
+[28Dec2025 16:32:58.236] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[28Dec2025 16:32:59.048] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -46,7 +45,7 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[27Dec2025 00:05:50.243] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
+[28Dec2025 16:32:59.059] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -68,7 +67,7 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[27Dec2025 00:05:50.347] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/di_maleniamano.json
+[28Dec2025 16:32:59.121] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/di_maleniamano.json
 com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -96,7 +95,7 @@ com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[27Dec2025 00:05:50.424] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/hand_of_malenia.json
+[28Dec2025 16:32:59.164] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/hand_of_malenia.json
 com.google.gson.JsonParseException: Invalid rotation -5.5 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -124,7 +123,7 @@ com.google.gson.JsonParseException: Invalid rotation -5.5 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[27Dec2025 00:05:50.464] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/malenia_mano.json
+[28Dec2025 16:32:59.204] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/malenia_mano.json
 com.google.gson.JsonParseException: Invalid rotation -3.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -152,8 +151,7 @@ com.google.gson.JsonParseException: Invalid rotation -3.0 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[27Dec2025 00:05:50.539] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.10
-[27Dec2025 00:05:50.551] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/mano_di_malenia.json
+[28Dec2025 16:32:59.216] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/mano_di_malenia.json
 com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -181,7 +179,7 @@ com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[27Dec2025 00:05:50.556] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
+[28Dec2025 16:32:59.220] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
 com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -209,7 +207,7 @@ com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[27Dec2025 00:05:50.781] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
+[28Dec2025 16:32:59.293] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -231,30 +229,32 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[27Dec2025 00:05:50.910] [Worker-Main-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/mano_di_malenia with size 1370x1370 limits mip level from 2 to 1
-[27Dec2025 00:05:50.911] [Worker-Main-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/reggisenodiolivia with size 15x15 limits mip level from 1 to 0
-[27Dec2025 00:05:51.926] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
-[27Dec2025 00:05:51.928] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
-[27Dec2025 00:05:54.710] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[27Dec2025 00:05:54.710] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[27Dec2025 00:05:55.391] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
-[27Dec2025 00:05:55.392] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[27Dec2025 00:05:55.508] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x2 minecraft:textures/atlas/blocks.png-atlas
-[27Dec2025 00:05:55.591] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[27Dec2025 00:05:55.592] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[27Dec2025 00:05:55.594] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[27Dec2025 00:05:55.595] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[27Dec2025 00:05:55.616] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[27Dec2025 00:05:55.619] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[27Dec2025 00:05:55.620] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[27Dec2025 00:05:55.622] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[27Dec2025 00:05:55.856] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[27Dec2025 00:05:55.990] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[27Dec2025 00:05:56.007] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/paintings.png-atlas
-[27Dec2025 00:05:56.062] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
-[27Dec2025 00:05:56.650] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[27Dec2025 00:06:02.946] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[27Dec2025 00:06:07.111] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:cum:blocks/vasca_dopo_elettroforesi
+[28Dec2025 16:32:59.872] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/anello_ancestrale with size 250x250 limits mip level from 2 to 1
+[28Dec2025 16:32:59.872] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/reggisenodiolivia with size 15x15 limits mip level from 1 to 0
+[28Dec2025 16:33:00.022] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[28Dec2025 16:33:00.344] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
+[28Dec2025 16:33:00.345] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
+[28Dec2025 16:33:00.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.10
+[28Dec2025 16:33:03.392] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[28Dec2025 16:33:03.392] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[28Dec2025 16:33:03.987] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphone (Realtek(R) Audio)
+[28Dec2025 16:33:03.988] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[28Dec2025 16:33:04.112] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x2 minecraft:textures/atlas/blocks.png-atlas
+[28Dec2025 16:33:04.207] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[28Dec2025 16:33:04.209] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[28Dec2025 16:33:04.211] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[28Dec2025 16:33:04.213] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[28Dec2025 16:33:04.232] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[28Dec2025 16:33:04.234] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[28Dec2025 16:33:04.235] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[28Dec2025 16:33:04.237] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[28Dec2025 16:33:04.492] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[28Dec2025 16:33:04.640] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[28Dec2025 16:33:04.657] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/paintings.png-atlas
+[28Dec2025 16:33:04.724] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[28Dec2025 16:33:05.018] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[28Dec2025 16:33:13.823] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[28Dec2025 16:33:18.107] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:cum:blocks/vasca_dopo_elettroforesi
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'cum:vasca_dopo_elettroforesi'
 	at net.minecraft.util.GsonHelper.lambda$convertToItem$0(GsonHelper.java:116) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -306,376 +306,109 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[27Dec2025 00:06:07.256] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[27Dec2025 00:06:07.350] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@7442be61, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6903ef57}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@4a29520e}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
-[27Dec2025 00:06:07.350] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1277 advancements
-[27Dec2025 00:06:08.168] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[27Dec2025 00:06:08.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[27Dec2025 00:06:11.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[27Dec2025 00:06:14.808] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:14.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:14.849] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:14.849] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:14.849] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:14.869] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:14.869] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:15.079] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:15.570] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:16.154] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:16.572] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:17.057] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:17.559] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[27Dec2025 00:06:18.091] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[27Dec2025 00:06:18.587] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[27Dec2025 00:06:19.070] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[27Dec2025 00:06:19.074] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7521 ms
-[27Dec2025 00:06:19.387] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[27Dec2025 00:06:19.389] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 9, from 0
-[27Dec2025 00:06:19.696] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[27Dec2025 00:06:20.585] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[27Dec2025 00:06:20.735] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:170db414] logged in with entity id 373 at (-30.5, 56.0, 31.5)
-[27Dec2025 00:06:20.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[27Dec2025 00:06:22.596] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 167 advancements
-[27Dec2025 00:08:28.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Cuffie di Siofra] to Dev]
-[27Dec2025 00:08:28.288] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Cuffie di Siofra] to Dev
-[27Dec2025 00:09:18.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:18.540] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:18.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:18.641] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:18.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:18.838] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:19.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:19.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:19.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:19.798] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:20.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:20.192] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:20.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:20.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:20.431] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:20.432] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:20.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:20.647] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:20.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:20.799] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:21.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:21.447] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:21.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:21.582] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:21.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:21.807] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:22.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:22.831] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:23.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:23.035] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:23.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:23.244] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:23.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:23.414] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:23.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:23.836] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:24.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:24.039] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:24.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:24.182] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:24.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:24.240] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:24.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:24.343] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:24.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:24.899] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:25.808] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev moved wrongly!
-[27Dec2025 00:09:25.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:25.861] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:27.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:27.087] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:27.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:27.487] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:27.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:27.555] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:28.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:28.085] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:28.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:28.600] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:29.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:29.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:29.352] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:29.353] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:29.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:29.448] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:29.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:29.595] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:29.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:29.762] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:30.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:30.187] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:30.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:30.300] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:30.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:30.440] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:30.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:30.500] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:30.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:30.715] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:31.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:31.049] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:31.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:31.108] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:31.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:31.201] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:31.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:31.615] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:31.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:31.638] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:32.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:32.192] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:32.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:32.310] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:32.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:32.373] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:32.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:32.944] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:33.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:33.185] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:33.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:33.244] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:33.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:33.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:33.615] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:33.619] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:33.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:33.744] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:33.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:34.030] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:34.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:34.156] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:34.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:34.270] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:34.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:34.468] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:34.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:34.740] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:34.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:34.951] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:35.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:35.452] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:35.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:35.633] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:35.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:35.991] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:36.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:36.194] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:36.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:36.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:36.400] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:36.400] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:36.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:36.758] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:36.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:36.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:36.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:36.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:36.885] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:36.889] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:36.890] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:36.891] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:37.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:37.092] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:37.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:37.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:37.184] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:37.185] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:37.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:37.314] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:37.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:37.394] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:37.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:37.451] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:38.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:38.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:38.439] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:38.440] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:38.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:38.687] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:39.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:39.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:39.314] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:39.315] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:40.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:40.227] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:40.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:40.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:40.440] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:40.441] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:40.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:40.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:40.544] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:40.544] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:40.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:40.631] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:40.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:40.696] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:41.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:41.093] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:41.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:41.165] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:41.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:41.244] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:41.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:41.334] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:41.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:41.556] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:41.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:41.725] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:42.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:42.690] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:42.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:42.843] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:43.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:43.245] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:43.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:43.354] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:43.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:43.536] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:43.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:43.706] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:43.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:43.730] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:43.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:43.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:43.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:43.948] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:44.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:44.420] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:44.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:44.658] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:44.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:44.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:44.701] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:44.702] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:44.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:44.845] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:44.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:44.951] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:45.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:45.069] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:45.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:45.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:45.371] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:45.372] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:45.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:45.562] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:45.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:45.586] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:45.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:45.749] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:46.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:46.044] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:46.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:46.196] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:47.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:47.110] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:47.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:47.340] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:47.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:47.434] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:47.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:47.622] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:47.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:47.761] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:47.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:47.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:47.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:47.828] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:48.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:48.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:48.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:48.398] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:48.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:48.492] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:48.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:48.999] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:49.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:49.297] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:49.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:49.341] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:49.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:49.497] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:50.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:50.196] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:50.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:50.293] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:50.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:50.603] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:51.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:51.080] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:51.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:51.331] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:51.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:51.843] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:51.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:51.992] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:52.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:52.438] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:52.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:09:52.642] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:09:53.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:53.235] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:53.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:53.590] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:55.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:55.679] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:56.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:56.039] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:56.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:56.341] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:56.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:56.590] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:57.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:57.030] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:09:57.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:57.438] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:58.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:09:58.091] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:09:59.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Destroy
-[27Dec2025 00:09:59.732] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Destroy
-[27Dec2025 00:10:03.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You can't escape!
-[27Dec2025 00:10:03.179] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] You can't escape!
-[27Dec2025 00:10:03.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: This will hurt...
-[27Dec2025 00:10:03.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] This will hurt...
-[27Dec2025 00:11:03.521] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[27Dec2025 00:11:03.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[27Dec2025 00:11:03.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[27Dec2025 00:11:03.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[27Dec2025 00:11:03.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[27Dec2025 00:11:03.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[27Dec2025 00:11:03.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[27Dec2025 00:11:03.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[27Dec2025 00:11:03.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[27Dec2025 00:11:03.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[27Dec2025 00:11:04.080] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[27Dec2025 00:11:04.131] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[27Dec2025 00:11:04.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[27Dec2025 00:11:04.151] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[27Dec2025 00:11:04.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[27Dec2025 00:11:04.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[27Dec2025 00:11:04.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[27Dec2025 00:11:05.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[27Dec2025 00:11:06.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[27Dec2025 00:11:06.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[27Dec2025 00:11:06.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[27Dec2025 00:11:06.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[27Dec2025 00:11:06.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[27Dec2025 00:11:06.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[27Dec2025 00:11:06.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[27Dec2025 00:11:06.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[27Dec2025 00:11:06.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[27Dec2025 00:11:06.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
-[27Dec2025 00:11:06.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
-[27Dec2025 00:11:06.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
-[27Dec2025 00:11:06.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
-[27Dec2025 00:11:06.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
-[27Dec2025 00:11:06.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[27Dec2025 00:11:06.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
-[27Dec2025 00:11:06.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[27Dec2025 00:11:06.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[28Dec2025 16:33:18.249] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[28Dec2025 16:33:18.349] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@6903ef57, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@399ac1a3}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@1b5a3bba}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
+[28Dec2025 16:33:18.349] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1277 advancements
+[28Dec2025 16:33:19.141] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[28Dec2025 16:33:19.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Dec2025 16:33:22.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Dec2025 16:33:25.973] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:26.213] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:26.213] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:26.242] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:26.267] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:26.267] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:26.350] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:26.354] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:26.512] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:27.069] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:27.572] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:28.000] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:28.517] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:29.011] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2025 16:33:29.508] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[28Dec2025 16:33:30.033] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[28Dec2025 16:33:30.503] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[28Dec2025 16:33:31.005] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[28Dec2025 16:33:32.185] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[28Dec2025 16:33:32.186] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9688 ms
+[28Dec2025 16:33:32.563] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[28Dec2025 16:33:32.566] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 9, from 0
+[28Dec2025 16:33:32.863] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[28Dec2025 16:33:34.540] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[28Dec2025 16:33:34.717] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:c19ee4dc] logged in with entity id 819 at (-41.72106834421457, 61.23910938673163, 31.237493152153075)
+[28Dec2025 16:33:35.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[28Dec2025 16:33:35.490] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2705ms or 54 ticks behind
+[28Dec2025 16:33:36.559] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 173 advancements
+[28Dec2025 16:34:11.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -41.721068, 69.000000, 31.237493]
+[28Dec2025 16:34:11.365] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -41.721068, 69.000000, 31.237493
+[28Dec2025 16:34:11.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -41.721068, 76.890447, 31.237493]
+[28Dec2025 16:34:11.725] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -41.721068, 76.890447, 31.237493
+[28Dec2025 16:34:12.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -41.721068, 81.440455, 31.237493]
+[28Dec2025 16:34:12.087] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -41.721068, 81.440455, 31.237493
+[28Dec2025 16:34:13.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -41.721068, 69.000000, 31.237493]
+[28Dec2025 16:34:13.417] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -41.721068, 69.000000, 31.237493
+[28Dec2025 16:34:14.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -41.721068, 69.000000, 31.237493]
+[28Dec2025 16:34:14.734] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -41.721068, 69.000000, 31.237493
+[28Dec2025 16:34:16.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -41.721068, 69.000000, 31.237493]
+[28Dec2025 16:34:16.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -41.721068, 69.000000, 31.237493
+[28Dec2025 16:34:21.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -43.027134, 70.000000, 27.326915]
+[28Dec2025 16:34:21.966] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -43.027134, 70.000000, 27.326915
+[28Dec2025 16:34:29.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -42.521305, 75.000000, 38.350168]
+[28Dec2025 16:34:29.012] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -42.521305, 75.000000, 38.350168
+[28Dec2025 16:34:29.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -42.521305, 79.311611, 38.350168]
+[28Dec2025 16:34:29.604] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -42.521305, 79.311611, 38.350168
+[28Dec2025 16:34:30.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell from a high place
+[28Dec2025 16:34:30.198] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev fell from a high place
+[28Dec2025 16:35:39.036] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[28Dec2025 16:35:39.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[28Dec2025 16:35:39.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[28Dec2025 16:35:39.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
+[28Dec2025 16:35:39.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
+[28Dec2025 16:35:39.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
+[28Dec2025 16:35:39.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
+[28Dec2025 16:35:39.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
+[28Dec2025 16:35:39.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
+[28Dec2025 16:35:39.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[28Dec2025 16:38:48.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[28Dec2025 16:38:48.100] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[28Dec2025 16:40:05.707] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev moved wrongly!
+[28Dec2025 16:40:30.506] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[28Dec2025 16:40:45.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev moved wrongly!
+[28Dec2025 16:41:11.055] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev moved wrongly!
+[28Dec2025 16:42:16.035] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[28Dec2025 16:42:16.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[28Dec2025 16:42:16.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[28Dec2025 16:42:16.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
+[28Dec2025 16:42:16.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
+[28Dec2025 16:42:16.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
+[28Dec2025 16:42:16.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
+[28Dec2025 16:42:16.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
+[28Dec2025 16:42:16.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
+[28Dec2025 16:42:16.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[28Dec2025 16:42:16.416] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[28Dec2025 16:42:16.517] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[28Dec2025 16:42:16.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[28Dec2025 16:42:16.550] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[28Dec2025 16:42:16.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Dec2025 16:42:16.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Dec2025 16:42:16.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Dec2025 16:42:17.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[28Dec2025 16:42:19.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[28Dec2025 16:42:19.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
+[28Dec2025 16:42:19.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
+[28Dec2025 16:42:19.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
+[28Dec2025 16:42:19.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
+[28Dec2025 16:42:19.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
+[28Dec2025 16:42:19.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
+[28Dec2025 16:42:19.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[28Dec2025 16:42:19.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[28Dec2025 16:42:19.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Dec2025 16:42:19.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
+[28Dec2025 16:42:19.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
+[28Dec2025 16:42:19.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
+[28Dec2025 16:42:19.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
+[28Dec2025 16:42:19.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
+[28Dec2025 16:42:19.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
+[28Dec2025 16:42:19.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Dec2025 16:42:19.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

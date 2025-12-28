@@ -42,6 +42,9 @@
       },
       {
         "value": "CUSTOM:CosePericolanti"
+      },
+      {
+        "value": "CUSTOM:CoseEldenringanti"
       }
     ],
     "isBoss": false,

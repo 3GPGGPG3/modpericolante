@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "anelloancestrale",
+    "texture": "anello_ancestrale",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
@@ -15,6 +15,9 @@
       },
       {
         "value": "CUSTOM:Talismani"
+      },
+      {
+        "value": "CUSTOM:CoseEldenringanti"
       }
     ],
     "stackSize": 1,

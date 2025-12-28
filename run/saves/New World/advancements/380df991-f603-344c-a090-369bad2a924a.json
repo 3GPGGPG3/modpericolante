@@ -240,6 +240,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-12-26 22:45:09 +0100",
       "minecraft:creeper": "2025-12-26 23:45:52 +0100",
+      "minecraft:witch": "2025-12-28 16:01:55 +0100",
       "minecraft:zombie": "2025-12-26 22:44:10 +0100"
     },
     "done": false
@@ -384,6 +385,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "honey_bottle": "2025-12-28 15:26:47 +0100",
       "golden_apple": "2025-12-26 23:04:35 +0100",
       "salmon": "2025-12-26 23:10:50 +0100"
     },
@@ -728,6 +730,36 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-12-26 23:44:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-12-28 15:13:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-12-28 15:26:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-12-28 15:26:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-12-28 16:12:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-12-28 16:12:45 +0100"
     },
     "done": true
   },

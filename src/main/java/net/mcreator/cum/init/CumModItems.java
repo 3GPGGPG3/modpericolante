@@ -50,6 +50,7 @@ import net.mcreator.cum.item.SeiDiPicchieItem;
 import net.mcreator.cum.item.SeiDiFioriItem;
 import net.mcreator.cum.item.SeiDiCuoriItem;
 import net.mcreator.cum.item.ScheggiaDiPietraBalatranteItem;
+import net.mcreator.cum.item.RunaMaggioreDiMaleniaItem;
 import net.mcreator.cum.item.RelazioneVuotaItem;
 import net.mcreator.cum.item.RelazioneItem;
 import net.mcreator.cum.item.ReggisenoDiOliviaItem;
@@ -181,6 +182,7 @@ import net.mcreator.cum.item.ArmaturaDelGodoItem;
 import net.mcreator.cum.item.AnelloAncestraleItem;
 import net.mcreator.cum.item.AltPiercerItem;
 import net.mcreator.cum.item.AlessandroManzoniUovoItem;
+import net.mcreator.cum.item.AgoDoratoDiMiquellaItem;
 import net.mcreator.cum.item.AcquaDelGodoItem;
 import net.mcreator.cum.CumMod;
 
@@ -510,6 +512,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> KING_RAT_SPAWN_EGG = REGISTRY.register("king_rat_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.KING_RAT, -13421773, -39322, new Item.Properties()));
 	public static final RegistryObject<Item> GODRILLO = REGISTRY.register("godrillo", () -> new GodrilloItem());
 	public static final RegistryObject<Item> ANELLO_ANCESTRALE = REGISTRY.register("anello_ancestrale", () -> new AnelloAncestraleItem());
+	public static final RegistryObject<Item> RUNA_MAGGIORE_DI_MALENIA = REGISTRY.register("runa_maggiore_di_malenia", () -> new RunaMaggioreDiMaleniaItem());
+	public static final RegistryObject<Item> AGO_DORATO_DI_MIQUELLA = REGISTRY.register("ago_dorato_di_miquella", () -> new AgoDoratoDiMiquellaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
