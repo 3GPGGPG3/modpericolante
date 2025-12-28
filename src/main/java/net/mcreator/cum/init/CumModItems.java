@@ -50,6 +50,7 @@ import net.mcreator.cum.item.SeiDiPicchieItem;
 import net.mcreator.cum.item.SeiDiFioriItem;
 import net.mcreator.cum.item.SeiDiCuoriItem;
 import net.mcreator.cum.item.ScheggiaDiPietraBalatranteItem;
+import net.mcreator.cum.item.SbirraItem;
 import net.mcreator.cum.item.RunaMaggioreDiMaleniaItem;
 import net.mcreator.cum.item.RelazioneVuotaItem;
 import net.mcreator.cum.item.RelazioneItem;
@@ -68,6 +69,7 @@ import net.mcreator.cum.item.PuntaleItem;
 import net.mcreator.cum.item.PuntaleContaminatoNegativoItem;
 import net.mcreator.cum.item.PuntaleContaminatoItem;
 import net.mcreator.cum.item.ProseccoItem;
+import net.mcreator.cum.item.PoterePerforazioneItem;
 import net.mcreator.cum.item.PlasmidevuotoItem;
 import net.mcreator.cum.item.PlasmidecontetItem;
 import net.mcreator.cum.item.PlasmideampItem;
@@ -514,6 +516,10 @@ public class CumModItems {
 	public static final RegistryObject<Item> ANELLO_ANCESTRALE = REGISTRY.register("anello_ancestrale", () -> new AnelloAncestraleItem());
 	public static final RegistryObject<Item> RUNA_MAGGIORE_DI_MALENIA = REGISTRY.register("runa_maggiore_di_malenia", () -> new RunaMaggioreDiMaleniaItem());
 	public static final RegistryObject<Item> AGO_DORATO_DI_MIQUELLA = REGISTRY.register("ago_dorato_di_miquella", () -> new AgoDoratoDiMiquellaItem());
+	public static final RegistryObject<Item> SBIRRA = REGISTRY.register("sbirra", () -> new SbirraItem());
+	public static final RegistryObject<Item> ESPLOSIONE = block(CumModBlocks.ESPLOSIONE);
+	public static final RegistryObject<Item> ESPLOSIONE_II = block(CumModBlocks.ESPLOSIONE_II);
+	public static final RegistryObject<Item> POTERE_PERFORAZIONE = REGISTRY.register("potere_perforazione", () -> new PoterePerforazioneItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cum:item/esplosioneii"
+  },
+  "render_type": "translucent"
+}

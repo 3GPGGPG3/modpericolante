@@ -271,6 +271,10 @@ public class CumModTabs {
 				tabData.accept(CumModItems.ANELLO_ANCESTRALE.get());
 				tabData.accept(CumModItems.RUNA_MAGGIORE_DI_MALENIA.get());
 				tabData.accept(CumModItems.AGO_DORATO_DI_MIQUELLA.get());
+				tabData.accept(CumModItems.SBIRRA.get());
+				tabData.accept(CumModBlocks.ESPLOSIONE.get().asItem());
+				tabData.accept(CumModBlocks.ESPLOSIONE_II.get().asItem());
+				tabData.accept(CumModItems.POTERE_PERFORAZIONE.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -293,6 +297,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.FRENZIED_CUM.get());
 				tabData.accept(CumModItems.PENE_DELLA_FRENESIA.get());
 				tabData.accept(CumModItems.REGGISENO_DI_OLIVIA.get());
+				tabData.accept(CumModItems.SBIRRA.get());
 			}).withTabsBefore(IL_FU_MATTIA_PASCAL.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -610,6 +615,12 @@ public class CumModTabs {
 				tabData.accept(CumModItems.NORMAMOUSEDAY.get());
 				tabData.accept(CumModItems.NORMADESTUDENTAZIONE.get());
 			}).withSearchBar().withTabsBefore(PIANTE_CONTRO_ZOMBIE.getId()).build());
+	public static final RegistryObject<CreativeModeTab> ARTI_ANCESTRALI = REGISTRY.register("arti_ancestrali",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.arti_ancestrali")).icon(() -> new ItemStack(CumModItems.ANELLO_ANCESTRALE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(CumModBlocks.ESPLOSIONE.get().asItem());
+				tabData.accept(CumModBlocks.ESPLOSIONE_II.get().asItem());
+				tabData.accept(CumModItems.POTERE_PERFORAZIONE.get());
+			}).withTabsBefore(NORME.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

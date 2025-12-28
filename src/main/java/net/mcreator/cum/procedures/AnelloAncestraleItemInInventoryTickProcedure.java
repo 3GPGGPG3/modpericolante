@@ -46,7 +46,7 @@ public class AnelloAncestraleItemInInventoryTickProcedure {
 				});
 			});
 		}
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) <= 1) {
+		if (!((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == Items.TOTEM_OF_UNDYING) && (entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) <= 10) {
 			if (world instanceof ServerLevel _level) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY));
 				entityToSpawn.setPickUpDelay(10);
