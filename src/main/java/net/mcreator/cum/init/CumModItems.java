@@ -70,6 +70,7 @@ import net.mcreator.cum.item.PuntaleContaminatoNegativoItem;
 import net.mcreator.cum.item.PuntaleContaminatoItem;
 import net.mcreator.cum.item.ProseccoItem;
 import net.mcreator.cum.item.PotereSchiacciataItem;
+import net.mcreator.cum.item.PotereSchiacciataIIItem;
 import net.mcreator.cum.item.PoterePerforazioneItem;
 import net.mcreator.cum.item.PoterePerforazioneIIItem;
 import net.mcreator.cum.item.PotereEsplosioneItem;
@@ -537,6 +538,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> GIOCATORE_IX_SPAWN_EGG = REGISTRY.register("giocatore_ix_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_IX, -6750055, -3407668, new Item.Properties()));
 	public static final RegistryObject<Item> GIOCATORE_X_SPAWN_EGG = REGISTRY.register("giocatore_x_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_X, -3368704, -256, new Item.Properties()));
 	public static final RegistryObject<Item> GIOCATORE_XI_SPAWN_EGG = REGISTRY.register("giocatore_xi_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_XI, -3368704, -256, new Item.Properties()));
+	public static final RegistryObject<Item> POTERE_SCHIACCIATA_II = REGISTRY.register("potere_schiacciata_ii", () -> new PotereSchiacciataIIItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

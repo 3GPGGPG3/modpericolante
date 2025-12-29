@@ -288,6 +288,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.GIOCATORE_IX_SPAWN_EGG.get());
 				tabData.accept(CumModItems.GIOCATORE_X_SPAWN_EGG.get());
 				tabData.accept(CumModItems.GIOCATORE_XI_SPAWN_EGG.get());
+				tabData.accept(CumModItems.POTERE_SCHIACCIATA_II.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -635,6 +636,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.POTERE_ESPLOSIONE_II.get());
 				tabData.accept(CumModItems.POTERE_PERFORAZIONE_II.get());
 				tabData.accept(CumModItems.POTERE_SCHIACCIATA.get());
+				tabData.accept(CumModItems.POTERE_SCHIACCIATA_II.get());
 			}).withTabsBefore(NORME.getId()).build());
 
 	@SubscribeEvent
