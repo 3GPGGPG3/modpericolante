@@ -272,9 +272,22 @@ public class CumModTabs {
 				tabData.accept(CumModItems.RUNA_MAGGIORE_DI_MALENIA.get());
 				tabData.accept(CumModItems.AGO_DORATO_DI_MIQUELLA.get());
 				tabData.accept(CumModItems.SBIRRA.get());
-				tabData.accept(CumModBlocks.ESPLOSIONE.get().asItem());
-				tabData.accept(CumModBlocks.ESPLOSIONE_II.get().asItem());
 				tabData.accept(CumModItems.POTERE_PERFORAZIONE.get());
+				tabData.accept(CumModItems.POTERE_ESPLOSIONE.get());
+				tabData.accept(CumModItems.POTERE_ESPLOSIONE_II.get());
+				tabData.accept(CumModItems.POTERE_PERFORAZIONE_II.get());
+				tabData.accept(CumModItems.POTERE_SCHIACCIATA.get());
+				tabData.accept(CumModItems.GIOCATORE_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_II_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_III_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_IV_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_V_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_VI_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_VII_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_VIII_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_IX_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_X_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_XI_SPAWN_EGG.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -617,9 +630,11 @@ public class CumModTabs {
 			}).withSearchBar().withTabsBefore(PIANTE_CONTRO_ZOMBIE.getId()).build());
 	public static final RegistryObject<CreativeModeTab> ARTI_ANCESTRALI = REGISTRY.register("arti_ancestrali",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.arti_ancestrali")).icon(() -> new ItemStack(CumModItems.ANELLO_ANCESTRALE.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(CumModBlocks.ESPLOSIONE.get().asItem());
-				tabData.accept(CumModBlocks.ESPLOSIONE_II.get().asItem());
 				tabData.accept(CumModItems.POTERE_PERFORAZIONE.get());
+				tabData.accept(CumModItems.POTERE_ESPLOSIONE.get());
+				tabData.accept(CumModItems.POTERE_ESPLOSIONE_II.get());
+				tabData.accept(CumModItems.POTERE_PERFORAZIONE_II.get());
+				tabData.accept(CumModItems.POTERE_SCHIACCIATA.get());
 			}).withTabsBefore(NORME.getId()).build());
 
 	@SubscribeEvent

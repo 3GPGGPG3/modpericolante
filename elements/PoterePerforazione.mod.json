@@ -8,7 +8,7 @@
     "customProperties": {},
     "states": [],
     "name": "Potere: perforazione",
-    "rarity": "COMMON",
+    "rarity": "UNCOMMON",
     "creativeTabs": [
       {
         "value": "CUSTOM:IlFuMattiaPascal"
@@ -35,7 +35,7 @@
       "fixedValue": [
         "Perfora le corazze del nemico.",
         "Attacca unicamente un singolo nemico.",
-        "(tasto SX)"
+        "(tasto SX) -> perfora entità colpita"
       ]
     },
     "glowCondition": {

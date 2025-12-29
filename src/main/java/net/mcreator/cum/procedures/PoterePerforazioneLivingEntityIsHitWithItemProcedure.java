@@ -15,18 +15,23 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.cum.init.CumModItems;
 
 public class PoterePerforazioneLivingEntityIsHitWithItemProcedure {
-	public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {
+	public static void execute(LevelAccessor world, Entity entity, Entity sourceentity, ItemStack itemstack) {
 		if (entity == null || sourceentity == null)
 			return;
-		if (sourceentity instanceof Player _player) {
-			ItemStack _stktoremove = new ItemStack(CumModItems.POTERE_PERFORAZIONE.get());
-			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
-		}
-		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 1000);
-		for (int index0 = 0; index0 < 60; index0++) {
-			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = EntityType.LIGHTNING_BOLT.spawn(_level, BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), MobSpawnType.MOB_SUMMONED);
-				if (entityToSpawn != null) {
+		if ((sourceentity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(CumModItems.ANELLO_ANCESTRALE.get())) : false)
+				&& (sourceentity instanceof Player _plrCldRem2 ? _plrCldRem2.getCooldowns().getCooldownPercent(itemstack.getItem(), 0f) * 100 : 0) == 0) {
+			if (sourceentity instanceof Player _player)
+				_player.getCooldowns().addCooldown(itemstack.getItem(), 60);
+			if (sourceentity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(CumModItems.POTERE_PERFORAZIONE.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 500);
+			for (int index0 = 0; index0 < 30; index0++) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = EntityType.LIGHTNING_BOLT.spawn(_level, BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
 				}
 			}
 		}

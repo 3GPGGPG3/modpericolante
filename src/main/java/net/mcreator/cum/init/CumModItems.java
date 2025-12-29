@@ -69,7 +69,11 @@ import net.mcreator.cum.item.PuntaleItem;
 import net.mcreator.cum.item.PuntaleContaminatoNegativoItem;
 import net.mcreator.cum.item.PuntaleContaminatoItem;
 import net.mcreator.cum.item.ProseccoItem;
+import net.mcreator.cum.item.PotereSchiacciataItem;
 import net.mcreator.cum.item.PoterePerforazioneItem;
+import net.mcreator.cum.item.PoterePerforazioneIIItem;
+import net.mcreator.cum.item.PotereEsplosioneItem;
+import net.mcreator.cum.item.PotereEsplosioneIIItem;
 import net.mcreator.cum.item.PlasmidevuotoItem;
 import net.mcreator.cum.item.PlasmidecontetItem;
 import net.mcreator.cum.item.PlasmideampItem;
@@ -517,9 +521,22 @@ public class CumModItems {
 	public static final RegistryObject<Item> RUNA_MAGGIORE_DI_MALENIA = REGISTRY.register("runa_maggiore_di_malenia", () -> new RunaMaggioreDiMaleniaItem());
 	public static final RegistryObject<Item> AGO_DORATO_DI_MIQUELLA = REGISTRY.register("ago_dorato_di_miquella", () -> new AgoDoratoDiMiquellaItem());
 	public static final RegistryObject<Item> SBIRRA = REGISTRY.register("sbirra", () -> new SbirraItem());
-	public static final RegistryObject<Item> ESPLOSIONE = block(CumModBlocks.ESPLOSIONE);
-	public static final RegistryObject<Item> ESPLOSIONE_II = block(CumModBlocks.ESPLOSIONE_II);
 	public static final RegistryObject<Item> POTERE_PERFORAZIONE = REGISTRY.register("potere_perforazione", () -> new PoterePerforazioneItem());
+	public static final RegistryObject<Item> POTERE_ESPLOSIONE = REGISTRY.register("potere_esplosione", () -> new PotereEsplosioneItem());
+	public static final RegistryObject<Item> POTERE_ESPLOSIONE_II = REGISTRY.register("potere_esplosione_ii", () -> new PotereEsplosioneIIItem());
+	public static final RegistryObject<Item> POTERE_PERFORAZIONE_II = REGISTRY.register("potere_perforazione_ii", () -> new PoterePerforazioneIIItem());
+	public static final RegistryObject<Item> POTERE_SCHIACCIATA = REGISTRY.register("potere_schiacciata", () -> new PotereSchiacciataItem());
+	public static final RegistryObject<Item> GIOCATORE_SPAWN_EGG = REGISTRY.register("giocatore_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE, -26215, -13108, new Item.Properties()));
+	public static final RegistryObject<Item> GIOCATORE_II_SPAWN_EGG = REGISTRY.register("giocatore_ii_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_II, -26215, -13108, new Item.Properties()));
+	public static final RegistryObject<Item> GIOCATORE_III_SPAWN_EGG = REGISTRY.register("giocatore_iii_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_III, -26113, -13108, new Item.Properties()));
+	public static final RegistryObject<Item> GIOCATORE_IV_SPAWN_EGG = REGISTRY.register("giocatore_iv_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_IV, -3355444, -6710887, new Item.Properties()));
+	public static final RegistryObject<Item> GIOCATORE_V_SPAWN_EGG = REGISTRY.register("giocatore_v_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_V, -16711681, -13395457, new Item.Properties()));
+	public static final RegistryObject<Item> GIOCATORE_VI_SPAWN_EGG = REGISTRY.register("giocatore_vi_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_VI, -14216957, -12506622, new Item.Properties()));
+	public static final RegistryObject<Item> GIOCATORE_VII_SPAWN_EGG = REGISTRY.register("giocatore_vii_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_VII, -6750055, -3407668, new Item.Properties()));
+	public static final RegistryObject<Item> GIOCATORE_VIII_SPAWN_EGG = REGISTRY.register("giocatore_viii_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_VIII, -6750055, -3407668, new Item.Properties()));
+	public static final RegistryObject<Item> GIOCATORE_IX_SPAWN_EGG = REGISTRY.register("giocatore_ix_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_IX, -6750055, -3407668, new Item.Properties()));
+	public static final RegistryObject<Item> GIOCATORE_X_SPAWN_EGG = REGISTRY.register("giocatore_x_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_X, -3368704, -256, new Item.Properties()));
+	public static final RegistryObject<Item> GIOCATORE_XI_SPAWN_EGG = REGISTRY.register("giocatore_xi_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_XI, -3368704, -256, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

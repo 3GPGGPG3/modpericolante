@@ -64,6 +64,17 @@ import net.mcreator.cum.entity.KillerEntity;
 import net.mcreator.cum.entity.IlFuMattiaPascal2Entity;
 import net.mcreator.cum.entity.GirasoleEntity;
 import net.mcreator.cum.entity.GiolittiEntity;
+import net.mcreator.cum.entity.GiocatoreXIEntity;
+import net.mcreator.cum.entity.GiocatoreXEntity;
+import net.mcreator.cum.entity.GiocatoreVIIIEntity;
+import net.mcreator.cum.entity.GiocatoreVIIEntity;
+import net.mcreator.cum.entity.GiocatoreVIEntity;
+import net.mcreator.cum.entity.GiocatoreVEntity;
+import net.mcreator.cum.entity.GiocatoreIXEntity;
+import net.mcreator.cum.entity.GiocatoreIVEntity;
+import net.mcreator.cum.entity.GiocatoreIIIEntity;
+import net.mcreator.cum.entity.GiocatoreIIEntity;
+import net.mcreator.cum.entity.GiocatoreEntity;
 import net.mcreator.cum.entity.GdCubeEntity;
 import net.mcreator.cum.entity.GabrielEntity;
 import net.mcreator.cum.entity.FrenziedCumProjectileEntity;
@@ -306,6 +317,50 @@ public class CumModEntities {
 			EntityType.Builder.<KingRatEntity>of(KingRatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(KingRatEntity::new)
 
 					.sized(1.5f, 0.4f));
+	public static final RegistryObject<EntityType<GiocatoreEntity>> GIOCATORE = register("giocatore",
+			EntityType.Builder.<GiocatoreEntity>of(GiocatoreEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreIIEntity>> GIOCATORE_II = register("giocatore_ii",
+			EntityType.Builder.<GiocatoreIIEntity>of(GiocatoreIIEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreIIEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreIIIEntity>> GIOCATORE_III = register("giocatore_iii",
+			EntityType.Builder.<GiocatoreIIIEntity>of(GiocatoreIIIEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreIIIEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreIVEntity>> GIOCATORE_IV = register("giocatore_iv",
+			EntityType.Builder.<GiocatoreIVEntity>of(GiocatoreIVEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreIVEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreVEntity>> GIOCATORE_V = register("giocatore_v",
+			EntityType.Builder.<GiocatoreVEntity>of(GiocatoreVEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreVEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreVIEntity>> GIOCATORE_VI = register("giocatore_vi",
+			EntityType.Builder.<GiocatoreVIEntity>of(GiocatoreVIEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreVIEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreVIIEntity>> GIOCATORE_VII = register("giocatore_vii",
+			EntityType.Builder.<GiocatoreVIIEntity>of(GiocatoreVIIEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreVIIEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreVIIIEntity>> GIOCATORE_VIII = register("giocatore_viii",
+			EntityType.Builder.<GiocatoreVIIIEntity>of(GiocatoreVIIIEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreVIIIEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreIXEntity>> GIOCATORE_IX = register("giocatore_ix",
+			EntityType.Builder.<GiocatoreIXEntity>of(GiocatoreIXEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreIXEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreXEntity>> GIOCATORE_X = register("giocatore_x",
+			EntityType.Builder.<GiocatoreXEntity>of(GiocatoreXEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreXEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreXIEntity>> GIOCATORE_XI = register("giocatore_xi",
+			EntityType.Builder.<GiocatoreXIEntity>of(GiocatoreXIEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreXIEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -368,6 +423,17 @@ public class CumModEntities {
 			TopoEntity.init();
 			OrdinamentoGiuridicoEntity.init();
 			KingRatEntity.init();
+			GiocatoreEntity.init();
+			GiocatoreIIEntity.init();
+			GiocatoreIIIEntity.init();
+			GiocatoreIVEntity.init();
+			GiocatoreVEntity.init();
+			GiocatoreVIEntity.init();
+			GiocatoreVIIEntity.init();
+			GiocatoreVIIIEntity.init();
+			GiocatoreIXEntity.init();
+			GiocatoreXEntity.init();
+			GiocatoreXIEntity.init();
 		});
 	}
 
@@ -425,5 +491,16 @@ public class CumModEntities {
 		event.put(TOPO.get(), TopoEntity.createAttributes().build());
 		event.put(ORDINAMENTO_GIURIDICO.get(), OrdinamentoGiuridicoEntity.createAttributes().build());
 		event.put(KING_RAT.get(), KingRatEntity.createAttributes().build());
+		event.put(GIOCATORE.get(), GiocatoreEntity.createAttributes().build());
+		event.put(GIOCATORE_II.get(), GiocatoreIIEntity.createAttributes().build());
+		event.put(GIOCATORE_III.get(), GiocatoreIIIEntity.createAttributes().build());
+		event.put(GIOCATORE_IV.get(), GiocatoreIVEntity.createAttributes().build());
+		event.put(GIOCATORE_V.get(), GiocatoreVEntity.createAttributes().build());
+		event.put(GIOCATORE_VI.get(), GiocatoreVIEntity.createAttributes().build());
+		event.put(GIOCATORE_VII.get(), GiocatoreVIIEntity.createAttributes().build());
+		event.put(GIOCATORE_VIII.get(), GiocatoreVIIIEntity.createAttributes().build());
+		event.put(GIOCATORE_IX.get(), GiocatoreIXEntity.createAttributes().build());
+		event.put(GIOCATORE_X.get(), GiocatoreXEntity.createAttributes().build());
+		event.put(GIOCATORE_XI.get(), GiocatoreXIEntity.createAttributes().build());
 	}
 }

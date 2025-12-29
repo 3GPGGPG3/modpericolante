@@ -52,8 +52,6 @@ import net.mcreator.cum.block.GelDiAgarosioBlock;
 import net.mcreator.cum.block.FrigoBlock;
 import net.mcreator.cum.block.FineVerBlock;
 import net.mcreator.cum.block.FineOrBlock;
-import net.mcreator.cum.block.EsplosioneIIBlock;
-import net.mcreator.cum.block.EsplosioneBlock;
 import net.mcreator.cum.block.DivtranspubblBlock;
 import net.mcreator.cum.block.DivtransmagBlock;
 import net.mcreator.cum.block.DivtransPedBlock;
@@ -212,8 +210,6 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> BOMBA_ATOMICA = REGISTRY.register("bomba_atomica", () -> new BombaAtomicaBlock());
 	public static final RegistryObject<Block> BOMBA_ATOMICA_II = REGISTRY.register("bomba_atomica_ii", () -> new BombaAtomicaIIBlock());
 	public static final RegistryObject<Block> BOMBA_ATOMICA_III = REGISTRY.register("bomba_atomica_iii", () -> new BombaAtomicaIIIBlock());
-	public static final RegistryObject<Block> ESPLOSIONE = REGISTRY.register("esplosione", () -> new EsplosioneBlock());
-	public static final RegistryObject<Block> ESPLOSIONE_II = REGISTRY.register("esplosione_ii", () -> new EsplosioneIIBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -49,6 +49,17 @@ import net.mcreator.cum.client.renderer.KillerRenderer;
 import net.mcreator.cum.client.renderer.IlFuMattiaPascal2Renderer;
 import net.mcreator.cum.client.renderer.GirasoleRenderer;
 import net.mcreator.cum.client.renderer.GiolittiRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreXRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreXIRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreVRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreVIRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreVIIRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreVIIIRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreIXRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreIVRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreIIRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreIIIRenderer;
 import net.mcreator.cum.client.renderer.GdCubeRenderer;
 import net.mcreator.cum.client.renderer.GabrielRenderer;
 import net.mcreator.cum.client.renderer.FlashPanopticomRenderer;
@@ -134,5 +145,16 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.TOPO.get(), TopoRenderer::new);
 		event.registerEntityRenderer(CumModEntities.ORDINAMENTO_GIURIDICO.get(), OrdinamentoGiuridicoRenderer::new);
 		event.registerEntityRenderer(CumModEntities.KING_RAT.get(), KingRatRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE.get(), GiocatoreRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_II.get(), GiocatoreIIRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_III.get(), GiocatoreIIIRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_IV.get(), GiocatoreIVRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_V.get(), GiocatoreVRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_VI.get(), GiocatoreVIRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_VII.get(), GiocatoreVIIRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_VIII.get(), GiocatoreVIIIRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_IX.get(), GiocatoreIXRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_X.get(), GiocatoreXRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_XI.get(), GiocatoreXIRenderer::new);
 	}
 }

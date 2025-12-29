@@ -15,7 +15,7 @@ import java.util.List;
 
 public class PoterePerforazioneItem extends Item {
 	public PoterePerforazioneItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class PoterePerforazioneItem extends Item {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		PoterePerforazioneLivingEntityIsHitWithItemProcedure.execute(entity.level(), entity, sourceentity);
+		PoterePerforazioneLivingEntityIsHitWithItemProcedure.execute(entity.level(), entity, sourceentity, itemstack);
 		return retval;
 	}
 }
