@@ -9,7 +9,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.cum.procedures.PoterePerforazioneLivingEntityIsHitWithItemProcedure;
+import net.mcreator.cum.procedures.Perforazione2Procedure;
 
 import java.util.List;
 
@@ -29,7 +29,7 @@ public class PoterePerforazioneIIItem extends Item {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		PoterePerforazioneLivingEntityIsHitWithItemProcedure.execute(entity.level(), entity, sourceentity, itemstack);
+		Perforazione2Procedure.execute(entity.level(), entity, sourceentity, itemstack);
 		return retval;
 	}
 }

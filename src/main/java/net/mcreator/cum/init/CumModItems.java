@@ -545,6 +545,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> PATTUGLIA_1 = REGISTRY.register("pattuglia_1", () -> new Pattuglia1Item());
 	public static final RegistryObject<Item> PATTUGLIA_21 = REGISTRY.register("pattuglia_21", () -> new Pattuglia21Item());
 	public static final RegistryObject<Item> PATTUGLIA_3 = REGISTRY.register("pattuglia_3", () -> new Pattuglia3Item());
+	public static final RegistryObject<Item> GIOCATORE_XII_SPAWN_EGG = REGISTRY.register("giocatore_xii_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_XII, -3368704, -256, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -64,6 +64,7 @@ import net.mcreator.cum.entity.KillerEntity;
 import net.mcreator.cum.entity.IlFuMattiaPascal2Entity;
 import net.mcreator.cum.entity.GirasoleEntity;
 import net.mcreator.cum.entity.GiolittiEntity;
+import net.mcreator.cum.entity.GiocatoreXIIEntity;
 import net.mcreator.cum.entity.GiocatoreXIEntity;
 import net.mcreator.cum.entity.GiocatoreXEntity;
 import net.mcreator.cum.entity.GiocatoreVIIIEntity;
@@ -361,6 +362,8 @@ public class CumModEntities {
 			EntityType.Builder.<GiocatoreXIEntity>of(GiocatoreXIEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreXIEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GiocatoreXIIEntity>> GIOCATORE_XII = register("giocatore_xii", EntityType.Builder.<GiocatoreXIIEntity>of(GiocatoreXIIEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreXIIEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -434,6 +437,7 @@ public class CumModEntities {
 			GiocatoreIXEntity.init();
 			GiocatoreXEntity.init();
 			GiocatoreXIEntity.init();
+			GiocatoreXIIEntity.init();
 		});
 	}
 
@@ -502,5 +506,6 @@ public class CumModEntities {
 		event.put(GIOCATORE_IX.get(), GiocatoreIXEntity.createAttributes().build());
 		event.put(GIOCATORE_X.get(), GiocatoreXEntity.createAttributes().build());
 		event.put(GIOCATORE_XI.get(), GiocatoreXIEntity.createAttributes().build());
+		event.put(GIOCATORE_XII.get(), GiocatoreXIIEntity.createAttributes().build());
 	}
 }

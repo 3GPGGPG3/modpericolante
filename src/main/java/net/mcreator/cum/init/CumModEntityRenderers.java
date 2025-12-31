@@ -51,6 +51,7 @@ import net.mcreator.cum.client.renderer.GirasoleRenderer;
 import net.mcreator.cum.client.renderer.GiolittiRenderer;
 import net.mcreator.cum.client.renderer.GiocatoreXRenderer;
 import net.mcreator.cum.client.renderer.GiocatoreXIRenderer;
+import net.mcreator.cum.client.renderer.GiocatoreXIIRenderer;
 import net.mcreator.cum.client.renderer.GiocatoreVRenderer;
 import net.mcreator.cum.client.renderer.GiocatoreVIRenderer;
 import net.mcreator.cum.client.renderer.GiocatoreVIIRenderer;
@@ -156,5 +157,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.GIOCATORE_IX.get(), GiocatoreIXRenderer::new);
 		event.registerEntityRenderer(CumModEntities.GIOCATORE_X.get(), GiocatoreXRenderer::new);
 		event.registerEntityRenderer(CumModEntities.GIOCATORE_XI.get(), GiocatoreXIRenderer::new);
+		event.registerEntityRenderer(CumModEntities.GIOCATORE_XII.get(), GiocatoreXIIRenderer::new);
 	}
 }
