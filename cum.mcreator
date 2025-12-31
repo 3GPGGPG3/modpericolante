@@ -14623,7 +14623,6 @@
         "files": [
           "src/main/java/net/mcreator/cum/entity/GiocatoreIIIEntity.java",
           "src/main/java/net/mcreator/cum/client/renderer/GiocatoreIIIRenderer.java",
-          "src/main/resources/data/cum/forge/biome_modifier/giocatore_iii_biome_modifier.json",
           "src/main/resources/assets/cum/models/item/giocatore_iii_spawn_egg.json"
         ]
       }
@@ -14637,7 +14636,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/cum/models/item/giocatore_iv_spawn_egg.json",
-          "src/main/resources/data/cum/forge/biome_modifier/giocatore_iv_biome_modifier.json",
           "src/main/java/net/mcreator/cum/client/renderer/GiocatoreIVRenderer.java",
           "src/main/java/net/mcreator/cum/entity/GiocatoreIVEntity.java"
         ]
@@ -14652,7 +14650,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/client/renderer/GiocatoreVRenderer.java",
-          "src/main/resources/data/cum/forge/biome_modifier/giocatore_v_biome_modifier.json",
           "src/main/resources/assets/cum/models/item/giocatore_v_spawn_egg.json",
           "src/main/java/net/mcreator/cum/entity/GiocatoreVEntity.java"
         ]
@@ -14668,7 +14665,6 @@
         "files": [
           "src/main/resources/assets/cum/models/item/giocatore_vi_spawn_egg.json",
           "src/main/java/net/mcreator/cum/client/renderer/GiocatoreVIRenderer.java",
-          "src/main/resources/data/cum/forge/biome_modifier/giocatore_vi_biome_modifier.json",
           "src/main/java/net/mcreator/cum/entity/GiocatoreVIEntity.java"
         ]
       }
@@ -14681,7 +14677,6 @@
       "registry_name": "giocatore_vii",
       "metadata": {
         "files": [
-          "src/main/resources/data/cum/forge/biome_modifier/giocatore_vii_biome_modifier.json",
           "src/main/java/net/mcreator/cum/entity/GiocatoreVIIEntity.java",
           "src/main/resources/assets/cum/models/item/giocatore_vii_spawn_egg.json",
           "src/main/java/net/mcreator/cum/client/renderer/GiocatoreVIIRenderer.java"
@@ -14716,7 +14711,6 @@
         "files": [
           "src/main/java/net/mcreator/cum/entity/GiocatoreVIIIEntity.java",
           "src/main/java/net/mcreator/cum/client/renderer/GiocatoreVIIIRenderer.java",
-          "src/main/resources/data/cum/forge/biome_modifier/giocatore_viii_biome_modifier.json",
           "src/main/resources/assets/cum/models/item/giocatore_viii_spawn_egg.json"
         ]
       }
@@ -14731,7 +14725,6 @@
         "files": [
           "src/main/java/net/mcreator/cum/client/renderer/GiocatoreIXRenderer.java",
           "src/main/java/net/mcreator/cum/entity/GiocatoreIXEntity.java",
-          "src/main/resources/data/cum/forge/biome_modifier/giocatore_ix_biome_modifier.json",
           "src/main/resources/assets/cum/models/item/giocatore_ix_spawn_egg.json"
         ]
       }
@@ -14763,7 +14756,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/entity/GiocatoreXEntity.java",
-          "src/main/resources/data/cum/forge/biome_modifier/giocatore_x_biome_modifier.json",
           "src/main/java/net/mcreator/cum/client/renderer/GiocatoreXRenderer.java",
           "src/main/resources/assets/cum/models/item/giocatore_x_spawn_egg.json"
         ]
@@ -14778,7 +14770,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/entity/GiocatoreXIEntity.java",
-          "src/main/resources/data/cum/forge/biome_modifier/giocatore_xi_biome_modifier.json",
           "src/main/java/net/mcreator/cum/client/renderer/GiocatoreXIRenderer.java",
           "src/main/resources/assets/cum/models/item/giocatore_xi_spawn_egg.json"
         ]
@@ -14863,6 +14854,169 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pattuglia1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pattuglia_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/Pattuglia1Item.java",
+          "src/main/resources/assets/cum/models/item/pattuglia_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Umani",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umani",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Pattuglia1Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pattuglia_1_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/Pattuglia1RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pattuglia2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pattuglia_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/Pattuglia2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pattuglia21",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pattuglia_21",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/Pattuglia21Item.java",
+          "src/main/resources/assets/cum/models/item/pattuglia_21.json"
+        ]
+      }
+    },
+    {
+      "name": "Pattuglia3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pattuglia_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cum/models/item/pattuglia_3.json",
+          "src/main/java/net/mcreator/cum/item/Pattuglia3Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Pattuglia3click",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pattuglia_3click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/Pattuglia3clickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -15500,8 +15654,8 @@
       "gui.cum.integrazione_gui.label_mettere_loggetto_primitivo": "Mettere l\u0027oggetto derivato.",
       "effect.cum.sanguinamentoeffect": "Sanguinamento",
       "item.cum.qu_di_cuori": "4 di Cuori",
-      "block.cum.blocco_pericolante_negativo": "Blocco pericolante negativo",
       "gui.cum.secondafunzioneintegrazione_gui.label_ecori": "ECoRI",
+      "block.cum.blocco_pericolante_negativo": "Blocco pericolante negativo",
       "item.cum.spada_super_godevole": "Spada super godevole",
       "entity.cum.plasmacellula": "Plasmacellula",
       "item.cum.gel_di_agarosio_bucket": "Beuta con gel di agarosio caldo",
@@ -15513,8 +15667,8 @@
       "block.cum.tbe.description_0": "Tris Borrate EDTA",
       "gui.cum.azioni_del_telefono.label_scegli_cosa_fare_col_tuo_telefon": "Scegli cosa fare col tuo telefono",
       "item.cum.dimensione_pericolante": "Asso di Picche",
-      "block.cum.inizio_ver": "Inizio (verticale)",
       "subtitles.gb_amereobject": "",
+      "block.cum.inizio_ver": "Inizio (verticale)",
       "gui.cum.derivazione_gui.label_dx": "dx",
       "item.cum.per_inv_2_spawn_egg": "Pericolante Inverso 2 Spawn Egg",
       "entity.cum.giocatore_xi": "Giocatore XI",
@@ -15528,8 +15682,8 @@
       "advancements.asso_multiuso_ottenuto.title": "Asso Multiuso Ottenuto",
       "entity.cum.delirio": "Delirio",
       "gui.cum.integrazione_gui.tooltip_mettere_energia_1_per_integrazi": "Mettere energia (1 per integrazione)",
-      "item.cum.potere_perforazione_ii.description_2": "(tasto SX) -\u003e perfora entità colpita",
       "gui.cum.integrazione_gui.label_dx": "dx",
+      "item.cum.potere_perforazione_ii.description_2": "(tasto SX) -\u003e perfora entità colpita",
       "subtitles.order1": "",
       "item.cum.tecnologia_v_1nante": "Tecnologia V1nante",
       "subtitles.order2": "",
@@ -15541,8 +15695,8 @@
       "item.cum.puntale_contaminato_negativo.description_2": "+1 slot item.",
       "painting.cum.giolitti_quadro.title": "L\u0027ASINO",
       "item.cum.campione_di_dna_frammentato": "Campione di DNA frammentato",
-      "item.cum.potere_perforazione_ii.description_1": "Attacca unicamente un singolo nemico.",
       "item.cum.qu_di_quadri.description_0": "+4 fiche.",
+      "item.cum.potere_perforazione_ii.description_1": "Attacca unicamente un singolo nemico.",
       "item.cum.potere_perforazione_ii.description_0": "Perfora massicciamente le corazze e i totem della non morte del nemico.",
       "item.cum.sisyphus_prime_spawn_egg": "Sisyphus Prime Spawn Egg",
       "item.cum.cubo": "Cubo",
@@ -15581,11 +15735,11 @@
       "painting.cum.wanted_il_fu_mattia_pascal.author": "Pirandello",
       "enchantment.cum.negativita": "Negativo",
       "item.cum.plasmidevuoto": "Plasmide vuoto",
-      "item.cum.sei_di_quadri.description_0": "+6 fiche.",
-      "item.cum.red_cum": "Red Cum",
       "item.cum.spada_lunare_4": "Spada Lunare IV",
-      "subtitles.war1": "",
+      "item.cum.red_cum": "Red Cum",
+      "item.cum.sei_di_quadri.description_0": "+6 fiche.",
       "item.cum.genetetracillina.description_0": "Dona ai batteri che lo possiedono resistenza all\u0027ampiccilina",
+      "subtitles.war1": "",
       "subtitles.war2": "",
       "death.attack.rottura_di_minchia": "%1$s si è rotto la minchia.",
       "effect.cum.penalizzato": "Penalizzato",
@@ -15605,8 +15759,8 @@
       "item.cum.frenzied_cum": "Sborra della Frenesia",
       "painting.cum.ferraris.title": "Ferraris",
       "item.cum.otto_di_quadri.description_0": "+8 fiche.",
-      "subtitles.ilfumattia": "",
       "item.cum.sette_di_cuori.description_0": "+7 fiche.",
+      "subtitles.ilfumattia": "",
       "item.cum.normadestudentazione": "Norma destudentazione",
       "gui.cum.micropipetta_gui.button_swap_mode": "Swap Mode",
       "entity.cum.essere_perfettamente_inutile": "Essere perfettamente inutile",
@@ -15648,9 +15802,10 @@
       "item.cum.puntalenegativo.description_1": "Non è necessario caricarlo manualmente nella micropipetta.",
       "gui.cum.azioni_del_telefono.button_amazon_prime": "Amazon Prime",
       "item.cum.occhio_maledetto": "Occhio maledetto",
+      "item_group.cum.umani": "Umani",
       "entity.cum.olivia": "Olivia",
-      "item.cum.ago_dorato_di_miquella": "Ago dorato di Miquella",
       "painting.cum.paperone_casino_2.title": "Paperone Balatrante2",
+      "item.cum.ago_dorato_di_miquella": "Ago dorato di Miquella",
       "item.cum.due_di_cuori.description_0": "+2 fiche.",
       "block.cum.matraccio": "Matraccio",
       "item.cum.sbirra.description_0": "Oooo la sbirraaa",
@@ -15665,12 +15820,12 @@
       "item.cum.ilgodo": "IL GODO",
       "item.cum.cazzo_rosso": "Cazzo rosso",
       "item.cum.potere_schiacciata_ii.description_3": "(tasto DX) -\u003e esegui un salto sulla tua posizione",
-      "item.cum.sette_di_fiori": "7 di Fiori",
       "item.cum.potere_schiacciata_ii.description_1": "Attacca un nemico e danneggia coloro che vi stanno attorno.",
-      "entity.cum.uomo_primitivo": "Uomo Primitivo",
+      "item.cum.sette_di_fiori": "7 di Fiori",
       "item.cum.potere_schiacciata_ii.description_2": "(tasto SX) -\u003e schiaccia entità colpita",
-      "gui.cum.mira_gui.button_consegna_il_compito": "Consegna il compito",
+      "entity.cum.uomo_primitivo": "Uomo Primitivo",
       "gui.cum.pv_zshop.button_girasole": "Girasole",
+      "gui.cum.mira_gui.button_consegna_il_compito": "Consegna il compito",
       "item.cum.potere_schiacciata_ii.description_0": "Schiaccia un nemico generando una grande esplosione.",
       "item.cum.genesgun": "Genes Gun",
       "item.cum.gel_di_agarosio_bucket.description_0": "Si deve raffreddare in un contenitore con pettine per formare i pozzetti.",
@@ -15678,8 +15833,8 @@
       "item.cum.nove_di_picchie.description_0": "+9 fiche.",
       "item.cum.dieci_di_fiori.description_0": "+10 fiche.",
       "item.cum.mano_di_malenia": "Mano di Malenia",
-      "subtitles.ilfumattiastory": "",
       "item.cum.cianografia": "Cianografia",
+      "subtitles.ilfumattiastory": "",
       "block.cum.cono_block.description_0": "(non dovresti avere questo \"blocco\")",
       "item.cum.potere_esplosione.description_1": "Non è efficace contro i nemici resistenti alle esplosioni.",
       "item.cum.potere_esplosione.description_0": "Genera una esplosione che NON distrugge blocchi.",
@@ -15698,11 +15853,13 @@
       "item.cum.filfh_err_spawn_egg": "Filfh Err Spawn Egg",
       "item.cum.otto_di_cuori": "8 di Cuori",
       "item.cum.plasmideamp": "Plasmide con amp+",
-      "item.cum.radiant_power_of_the_sun": "Potere radiante del sole (PRDS)",
       "gui.cum.derivazione_gui.label_d": "d",
+      "item.cum.radiant_power_of_the_sun": "Potere radiante del sole (PRDS)",
       "gui.cum.derivazione_gui.label_c": "+ c",
       "item.cum.spada_godevole.description_0": "Questa spada godevole può essere messa in combinazione con un altra per ottenere una spada ancora più godevole.",
       "gui.cum.consegna_relazione.tooltip_questa_azione_comporta_pericoli": "Questa azione comporta pericoli",
+      "item.cum.pattuglia_1": "Pattuglia 1",
+      "item.cum.pattuglia_3": "Pattuglia 2",
       "gui.cum.micropipetta_gui.label_puntale": "Puntale",
       "item.cum.disc_war_1.desc": "Heaven Pierce Her - WAR (Intro)",
       "item.cum.macchina_del_tempo": "Macchina Del Tempo",
@@ -15737,10 +15894,11 @@
       "item.cum.armatura_penalizzata_boots": "Scarpe Penalizzate",
       "item.cum.normadivietousotelefono.description_0": "Questa norma vieta l\u0027uso dei cellulari",
       "advancements.ilgodoo.descr": "Crea IL GODO.",
+      "item.cum.pattuglia_21": "Pattuglia 2",
       "item.cum.mattia_pascal_spawn_egg": "Mattia Pascal Spawn Egg",
       "item.cum.qu_di_fiori": "4 di Fiori",
-      "entity.cum.giocatore_ii": "Giocatore II",
       "item_group.cum.macchine_utensili": "Macchine / Utensili",
+      "entity.cum.giocatore_ii": "Giocatore II",
       "block.cum.blocco_lunare": "Blocco lunare",
       "subtitles.mp_hurt": "",
       "item.minecraft.lingering_potion.effect.pozione_marcescente": "Pozione marcescente persistente",
@@ -15749,8 +15907,8 @@
       "entity.cum.giocatore_iv": "Giocatore IV",
       "item.cum.spada_gabriellante": "Spada Gabriellante",
       "item.cum.armatura_ultrakillante_leggings.description_1": "Stamina recharges in time. If that doesn\u0027t happen, step on BLOCCO ULTRARIATTIVANTE.",
-      "gui.cum.pv_zshop.button_la_pianta": "La pianta",
       "item.cum.armatura_ultrakillante_leggings.description_0": "Shift to dash. You have 3 stamina.",
+      "gui.cum.pv_zshop.button_la_pianta": "La pianta",
       "biome.cum.bioma_pericolante_negativo": "Bioma Pericolante Negativo",
       "item.cum.il_fu_mattia_pascal_disco": "Il fu Mattia Pascal audiolibro",
       "item.cum.disc_chaos.desc": "Heaven Pierce Her - CHAOS",
@@ -15759,8 +15917,8 @@
       "block.cum.pietra_vuota": "Pietra vuota",
       "item.cum.clonatore": "Clonatore",
       "death.attack.sborrato": "%1$s si è sborrato.",
-      "gui.cum.frigo_gui.label_empty": "--\u003e",
       "item_group.cum.piante_contro_zombie": "Piante Contro Zombie",
+      "gui.cum.frigo_gui.label_empty": "--\u003e",
       "advancements.pericoloo.title": "Pericoloooo!!!",
       "item.cum.armatura_ultrakillante_chestplate": "Chestplate Ultrakillante",
       "item.cum.dispositivo_teletrasportante.description_0": "Dispositivo che fa teletrasportare dove guardi.",
@@ -15813,8 +15971,8 @@
       "item.cum.potere_perforazione.description_4": "(tasto SX)",
       "item.cum.potere_perforazione.description_1": "Attacca unicamente un singolo nemico.",
       "item.cum.potere_perforazione.description_2": "(tasto SX) -\u003e perfora entità colpita",
-      "item.minecraft.splash_potion.effect.pozione_frenesia": "Pozione lanciabile della fiamma della frenesia",
       "block.cum.blocco_pericoloso_negativo": "Blocco pericoloso negativo",
+      "item.minecraft.splash_potion.effect.pozione_frenesia": "Pozione lanciabile della fiamma della frenesia",
       "biome.cum.monte_abbummatu": "Monte Abbummatu",
       "block.cum.blocco_di_diamante_vuoto": "Blocco di diamante vuoto",
       "item_group.cum.cose_balatranti": "Cose Balatranti",
@@ -15905,6 +16063,8 @@
       "item.cum.mano_di_malenia.description_1": "Esegui uno scatto di 6 blocchi in avanti e avrai circa 1s di tempo",
       "item.cum.mano_di_malenia.description_0": "Tasto destro: scatto in avanti.",
       "item.cum.dimensione_pericolante.description_0": "Questo talismano consente di potere entrare nella dimensione pericolante.",
+      "item.cum.pattuglia_21.description_1": "4 giocatori III",
+      "item.cum.pattuglia_21.description_0": "5 giocatori II",
       "subtitles.gb_dies": "",
       "item.cum.mano_di_malenia.description_2": "per infliggerer molti danni, poiché dovrai riposare la mano.",
       "subtitles.gb_youmakeeventhe": "",
@@ -16009,8 +16169,10 @@
       "item.cum.potere_schiacciata.description_2": "(tasto SX) -\u003e schiaccia entità colpita",
       "item.cum.cono_item": "Cono",
       "item.cum.potere_schiacciata.description_3": "(tasto DX) -\u003e esegui un salto sulla tua posizione",
+      "item.cum.pattuglia_1.description_0": "7 giocatori I",
       "gui.cum.impalatore_gui.button_stack": "Stack",
       "item.cum.cuffie_di_siofra_helmet.description_0": "Interrompono tutti i suoni",
+      "item.cum.pattuglia_1.description_1": "2 giocatori II",
       "item.cum.strays_arm": "Braccio di uno stray",
       "block.cum.bomba_atomica": "Bomba Atomica",
       "block.cum.provetta_con_dna_frammentato": "Provetta con DNA frammentato",
@@ -16021,6 +16183,8 @@
       "item.cum.armatura_penalizzata_helmet": "Elmetto Penalizzato",
       "item.cum.potere_schiacciata_ii": "Potere: schiacciata II",
       "gui.cum.pv_zshop.button_buy": "Noce",
+      "item.cum.pattuglia_3.description_1": "4 giocatori IV",
+      "item.cum.pattuglia_3.description_0": "8 giocatori III",
       "block.cum.balatro_plant": "Pianta balatrante",
       "subtitles.sp_youcant": "",
       "gui.cum.impalatore_gui.label_empty": "+",

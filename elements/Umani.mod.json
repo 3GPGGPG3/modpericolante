@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Umani",
+    "icon": {
+      "value": "CUSTOM:Pattuglia1"
+    },
+    "showSearch": false
+  }
+}

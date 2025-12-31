@@ -289,6 +289,9 @@ public class CumModTabs {
 				tabData.accept(CumModItems.GIOCATORE_X_SPAWN_EGG.get());
 				tabData.accept(CumModItems.GIOCATORE_XI_SPAWN_EGG.get());
 				tabData.accept(CumModItems.POTERE_SCHIACCIATA_II.get());
+				tabData.accept(CumModItems.PATTUGLIA_1.get());
+				tabData.accept(CumModItems.PATTUGLIA_21.get());
+				tabData.accept(CumModItems.PATTUGLIA_3.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -638,6 +641,23 @@ public class CumModTabs {
 				tabData.accept(CumModItems.POTERE_SCHIACCIATA.get());
 				tabData.accept(CumModItems.POTERE_SCHIACCIATA_II.get());
 			}).withTabsBefore(NORME.getId()).build());
+	public static final RegistryObject<CreativeModeTab> UMANI = REGISTRY.register("umani",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.umani")).icon(() -> new ItemStack(CumModItems.PATTUGLIA_1.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(CumModItems.GIOCATORE_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_II_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_III_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_IV_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_V_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_VI_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_VII_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_VIII_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_IX_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_X_SPAWN_EGG.get());
+				tabData.accept(CumModItems.GIOCATORE_XI_SPAWN_EGG.get());
+				tabData.accept(CumModItems.PATTUGLIA_1.get());
+				tabData.accept(CumModItems.PATTUGLIA_21.get());
+				tabData.accept(CumModItems.PATTUGLIA_3.get());
+			}).withTabsBefore(ARTI_ANCESTRALI.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

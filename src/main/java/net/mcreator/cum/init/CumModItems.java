@@ -83,6 +83,9 @@ import net.mcreator.cum.item.PerkeoItem;
 import net.mcreator.cum.item.PeneItem;
 import net.mcreator.cum.item.PeneDuroItem;
 import net.mcreator.cum.item.PeneDellaFrenesiaItem;
+import net.mcreator.cum.item.Pattuglia3Item;
+import net.mcreator.cum.item.Pattuglia21Item;
+import net.mcreator.cum.item.Pattuglia1Item;
 import net.mcreator.cum.item.PaneIntegraleItem;
 import net.mcreator.cum.item.PaneDerivanteItem;
 import net.mcreator.cum.item.PallottoladoroItem;
@@ -539,6 +542,9 @@ public class CumModItems {
 	public static final RegistryObject<Item> GIOCATORE_X_SPAWN_EGG = REGISTRY.register("giocatore_x_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_X, -3368704, -256, new Item.Properties()));
 	public static final RegistryObject<Item> GIOCATORE_XI_SPAWN_EGG = REGISTRY.register("giocatore_xi_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_XI, -3368704, -256, new Item.Properties()));
 	public static final RegistryObject<Item> POTERE_SCHIACCIATA_II = REGISTRY.register("potere_schiacciata_ii", () -> new PotereSchiacciataIIItem());
+	public static final RegistryObject<Item> PATTUGLIA_1 = REGISTRY.register("pattuglia_1", () -> new Pattuglia1Item());
+	public static final RegistryObject<Item> PATTUGLIA_21 = REGISTRY.register("pattuglia_21", () -> new Pattuglia21Item());
+	public static final RegistryObject<Item> PATTUGLIA_3 = REGISTRY.register("pattuglia_3", () -> new Pattuglia3Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items
