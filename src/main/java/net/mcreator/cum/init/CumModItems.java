@@ -165,6 +165,7 @@ import net.mcreator.cum.item.CinDiFioriItem;
 import net.mcreator.cum.item.CinDiCuoriItem;
 import net.mcreator.cum.item.CianografiaNegativaItem;
 import net.mcreator.cum.item.CianografiaItem;
+import net.mcreator.cum.item.ChiaveDiPietraItem;
 import net.mcreator.cum.item.CcumItem;
 import net.mcreator.cum.item.CazzoRottoItem;
 import net.mcreator.cum.item.CazzoRossoRottoItem;
@@ -546,6 +547,9 @@ public class CumModItems {
 	public static final RegistryObject<Item> PATTUGLIA_21 = REGISTRY.register("pattuglia_21", () -> new Pattuglia21Item());
 	public static final RegistryObject<Item> PATTUGLIA_3 = REGISTRY.register("pattuglia_3", () -> new Pattuglia3Item());
 	public static final RegistryObject<Item> GIOCATORE_XII_SPAWN_EGG = REGISTRY.register("giocatore_xii_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.GIOCATORE_XII, -3368704, -256, new Item.Properties()));
+	public static final RegistryObject<Item> CHIAVE_DI_PIETRA = REGISTRY.register("chiave_di_pietra", () -> new ChiaveDiPietraItem());
+	public static final RegistryObject<Item> STATUA_DI_DEMONE_ZANNUTO = block(CumModBlocks.STATUA_DI_DEMONE_ZANNUTO);
+	public static final RegistryObject<Item> STATUA_DI_DEMONE_ZANNUTO_USATA = block(CumModBlocks.STATUA_DI_DEMONE_ZANNUTO_USATA);
 
 	// Start of user code block custom items
 	// End of user code block custom items

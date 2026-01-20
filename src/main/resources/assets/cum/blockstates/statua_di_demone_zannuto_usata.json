@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/statua_di_demone_zannuto_usata"
+    },
+    "facing=east": {
+      "model": "cum:block/statua_di_demone_zannuto_usata",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/statua_di_demone_zannuto_usata",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/statua_di_demone_zannuto_usata",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "cum:custom/statua_di_demone_zannuto",
+  "textures": {
+    "all": "cum:block/statua_galera",
+    "particle": "cum:block/statua_galera",
+    "0": "cum:block/statua_galera"
+  },
+  "render_type": "solid"
+}

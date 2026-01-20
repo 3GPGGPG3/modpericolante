@@ -23,6 +23,8 @@ import net.mcreator.cum.block.UltrakillanteBlockBlock;
 import net.mcreator.cum.block.TerraVuotaBlock;
 import net.mcreator.cum.block.TavoloBalatranteBlock;
 import net.mcreator.cum.block.TBEBlock;
+import net.mcreator.cum.block.StatuaDiDemoneZannutoUsataBlock;
+import net.mcreator.cum.block.StatuaDiDemoneZannutoBlock;
 import net.mcreator.cum.block.SlabDiSangueBlock;
 import net.mcreator.cum.block.SensoVietatoBlock;
 import net.mcreator.cum.block.SensoUnicoFrontaleBlock;
@@ -210,6 +212,8 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> BOMBA_ATOMICA = REGISTRY.register("bomba_atomica", () -> new BombaAtomicaBlock());
 	public static final RegistryObject<Block> BOMBA_ATOMICA_II = REGISTRY.register("bomba_atomica_ii", () -> new BombaAtomicaIIBlock());
 	public static final RegistryObject<Block> BOMBA_ATOMICA_III = REGISTRY.register("bomba_atomica_iii", () -> new BombaAtomicaIIIBlock());
+	public static final RegistryObject<Block> STATUA_DI_DEMONE_ZANNUTO = REGISTRY.register("statua_di_demone_zannuto", () -> new StatuaDiDemoneZannutoBlock());
+	public static final RegistryObject<Block> STATUA_DI_DEMONE_ZANNUTO_USATA = REGISTRY.register("statua_di_demone_zannuto_usata", () -> new StatuaDiDemoneZannutoUsataBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
