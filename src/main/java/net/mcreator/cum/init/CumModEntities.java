@@ -89,6 +89,7 @@ import net.mcreator.cum.entity.DelirioEntity;
 import net.mcreator.cum.entity.DaveEntity;
 import net.mcreator.cum.entity.DanieleLucianoEntity;
 import net.mcreator.cum.entity.CumEntity;
+import net.mcreator.cum.entity.CharlieChaplinEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
 import net.mcreator.cum.entity.AnticorpoEntity;
 import net.mcreator.cum.entity.AltPiercerBeamEntity;
@@ -364,6 +365,10 @@ public class CumModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<GiocatoreXIIEntity>> GIOCATORE_XII = register("giocatore_xii", EntityType.Builder.<GiocatoreXIIEntity>of(GiocatoreXIIEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiocatoreXIIEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<CharlieChaplinEntity>> CHARLIE_CHAPLIN = register("charlie_chaplin",
+			EntityType.Builder.<CharlieChaplinEntity>of(CharlieChaplinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CharlieChaplinEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -438,6 +443,7 @@ public class CumModEntities {
 			GiocatoreXEntity.init();
 			GiocatoreXIEntity.init();
 			GiocatoreXIIEntity.init();
+			CharlieChaplinEntity.init();
 		});
 	}
 
@@ -507,5 +513,6 @@ public class CumModEntities {
 		event.put(GIOCATORE_X.get(), GiocatoreXEntity.createAttributes().build());
 		event.put(GIOCATORE_XI.get(), GiocatoreXIEntity.createAttributes().build());
 		event.put(GIOCATORE_XII.get(), GiocatoreXIIEntity.createAttributes().build());
+		event.put(CHARLIE_CHAPLIN.get(), CharlieChaplinEntity.createAttributes().build());
 	}
 }

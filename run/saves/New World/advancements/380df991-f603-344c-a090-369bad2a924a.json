@@ -726,6 +726,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-12-29 23:45:46 +0100",
       "minecraft:spider": "2025-12-29 23:31:59 +0100",
+      "minecraft:creeper": "2026-01-24 19:40:29 +0100",
       "minecraft:endermite": "2025-12-29 14:04:24 +0100",
       "minecraft:zombie": "2025-12-29 23:47:26 +0100"
     },
@@ -1286,6 +1287,24 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2026-01-20 15:17:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2026-01-24 19:34:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-01-24 19:40:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-01-24 19:40:29 +0100"
     },
     "done": true
   },

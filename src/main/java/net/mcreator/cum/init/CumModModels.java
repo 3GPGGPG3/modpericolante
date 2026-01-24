@@ -27,6 +27,7 @@ import net.mcreator.cum.client.model.Modelgabriel;
 import net.mcreator.cum.client.model.Modelflesh_panopticom;
 import net.mcreator.cum.client.model.Modelfilfh;
 import net.mcreator.cum.client.model.Modelcube;
+import net.mcreator.cum.client.model.Modelcharlie_chaplin;
 import net.mcreator.cum.client.model.Modelanticorpo;
 import net.mcreator.cum.client.model.ModelPreside;
 import net.mcreator.cum.client.model.ModelOlivia;
@@ -50,6 +51,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelcube.LAYER_LOCATION, Modelcube::createBodyLayer);
 		event.registerLayerDefinition(Modelanticorpo.LAYER_LOCATION, Modelanticorpo::createBodyLayer);
 		event.registerLayerDefinition(Modelflesh_panopticom.LAYER_LOCATION, Modelflesh_panopticom::createBodyLayer);
+		event.registerLayerDefinition(Modelcharlie_chaplin.LAYER_LOCATION, Modelcharlie_chaplin::createBodyLayer);
 		event.registerLayerDefinition(Modellinfocita_b_o_plasmacellula.LAYER_LOCATION, Modellinfocita_b_o_plasmacellula::createBodyLayer);
 		event.registerLayerDefinition(Modelrat_king.LAYER_LOCATION, Modelrat_king::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);

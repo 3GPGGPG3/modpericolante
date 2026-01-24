@@ -71,6 +71,7 @@ import net.mcreator.cum.client.renderer.DiFazioRenderer;
 import net.mcreator.cum.client.renderer.DelirioRenderer;
 import net.mcreator.cum.client.renderer.DaveRenderer;
 import net.mcreator.cum.client.renderer.DanieleLucianoRenderer;
+import net.mcreator.cum.client.renderer.CharlieChaplinRenderer;
 import net.mcreator.cum.client.renderer.AssassinaDeiNeriColtelliRenderer;
 import net.mcreator.cum.client.renderer.AnticorpoRenderer;
 import net.mcreator.cum.client.renderer.AlessandroManzoniRenderer;
@@ -158,5 +159,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.GIOCATORE_X.get(), GiocatoreXRenderer::new);
 		event.registerEntityRenderer(CumModEntities.GIOCATORE_XI.get(), GiocatoreXIRenderer::new);
 		event.registerEntityRenderer(CumModEntities.GIOCATORE_XII.get(), GiocatoreXIIRenderer::new);
+		event.registerEntityRenderer(CumModEntities.CHARLIE_CHAPLIN.get(), CharlieChaplinRenderer::new);
 	}
 }

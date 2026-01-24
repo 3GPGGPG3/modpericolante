@@ -550,6 +550,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> CHIAVE_DI_PIETRA = REGISTRY.register("chiave_di_pietra", () -> new ChiaveDiPietraItem());
 	public static final RegistryObject<Item> STATUA_DI_DEMONE_ZANNUTO = block(CumModBlocks.STATUA_DI_DEMONE_ZANNUTO);
 	public static final RegistryObject<Item> STATUA_DI_DEMONE_ZANNUTO_USATA = block(CumModBlocks.STATUA_DI_DEMONE_ZANNUTO_USATA);
+	public static final RegistryObject<Item> CHARLIE_CHAPLIN_SPAWN_EGG = REGISTRY.register("charlie_chaplin_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.CHARLIE_CHAPLIN, -13421773, -6710887, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
