@@ -34,7 +34,7 @@ public class CharlieChaplinRenderer extends MobRenderer<CharlieChaplinEntity, Mo
 			public void setupAnim(CharlieChaplinEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 				this.root().getAllParts().forEach(ModelPart::resetPose);
 				if (CharlieChaplinWalkPlaybackConditionProcedure.execute(entity))
-					this.animateWalk(charlie_chaplinAnimation.cammina, limbSwing, limbSwingAmount, 1f, 1f);
+					this.animateWalk(charlie_chaplinAnimation.cammina, limbSwing, limbSwingAmount, 2f, 2f);
 			}
 		};
 

@@ -21,19 +21,12 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.syncher.SynchedEntityData;
-import net.minecraft.network.syncher.EntityDataSerializers;
-import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.nbt.CompoundTag;
 
-import net.mcreator.cum.procedures.CharlieChaplinOnEntityTickUpdateProcedure;
 import net.mcreator.cum.init.CumModEntities;
 
 public class CharlieChaplinEntity extends Monster {
-	public static final EntityDataAccessor<Boolean> DATA_Walk = SynchedEntityData.defineId(CharlieChaplinEntity.class, EntityDataSerializers.BOOLEAN);
-
 	public CharlieChaplinEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(CumModEntities.CHARLIE_CHAPLIN.get(), world);
 	}
@@ -49,12 +42,6 @@ public class CharlieChaplinEntity extends Monster {
 	@Override
 	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
-	}
-
-	@Override
-	protected void defineSynchedData() {
-		super.defineSynchedData();
-		this.entityData.define(DATA_Walk, true);
 	}
 
 	@Override
@@ -92,31 +79,12 @@ public class CharlieChaplinEntity extends Monster {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
 	}
 
-	@Override
-	public void addAdditionalSaveData(CompoundTag compound) {
-		super.addAdditionalSaveData(compound);
-		compound.putBoolean("DataWalk", this.entityData.get(DATA_Walk));
-	}
-
-	@Override
-	public void readAdditionalSaveData(CompoundTag compound) {
-		super.readAdditionalSaveData(compound);
-		if (compound.contains("DataWalk"))
-			this.entityData.set(DATA_Walk, compound.getBoolean("DataWalk"));
-	}
-
-	@Override
-	public void baseTick() {
-		super.baseTick();
-		CharlieChaplinOnEntityTickUpdateProcedure.execute(this);
-	}
-
 	public static void init() {
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.4);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.25);
 		builder = builder.add(Attributes.MAX_HEALTH, 30);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);

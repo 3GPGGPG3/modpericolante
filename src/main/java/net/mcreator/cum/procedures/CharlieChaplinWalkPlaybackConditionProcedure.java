@@ -2,13 +2,11 @@ package net.mcreator.cum.procedures;
 
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.cum.entity.CharlieChaplinEntity;
-
 public class CharlieChaplinWalkPlaybackConditionProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if ((entity instanceof CharlieChaplinEntity _datEntL0 && _datEntL0.getEntityData().get(CharlieChaplinEntity.DATA_Walk)) == true) {
+		if (entity.getDeltaMovement().x() != 0 || entity.getDeltaMovement().z() != 0) {
 			return true;
 		}
 		return false;
