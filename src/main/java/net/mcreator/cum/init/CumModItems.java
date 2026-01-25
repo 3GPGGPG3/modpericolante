@@ -353,7 +353,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> MATTIA_PASCAL_SPAWN_EGG = REGISTRY.register("mattia_pascal_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.MATTIA_PASCAL, -16186038, -10092544, new Item.Properties()));
 	public static final RegistryObject<Item> MANOSCRITTO_DI_IGIENE = block(CumModBlocks.MANOSCRITTO_DI_IGIENE);
 	public static final RegistryObject<Item> ADRIANO_MEIS_SPAWN_EGG = REGISTRY.register("adriano_meis_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.ADRIANO_MEIS, -16186038, -10092544, new Item.Properties()));
-	public static final RegistryObject<Item> IL_FU_MATTIA_PASCAL_2_SPAWN_EGG = REGISTRY.register("il_fu_mattia_pascal_2_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.IL_FU_MATTIA_PASCAL_2, -16186038, -10092544, new Item.Properties()));
+	public static final RegistryObject<Item> IL_FU_MATTIA_PASCAL_SPAWN_EGG = REGISTRY.register("il_fu_mattia_pascal_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.IL_FU_MATTIA_PASCAL, -16186038, -10092544, new Item.Properties()));
 	public static final RegistryObject<Item> CIANOGRAFIA_NEGATIVA = REGISTRY.register("cianografia_negativa", () -> new CianografiaNegativaItem());
 	public static final RegistryObject<Item> DISC_CHAOS = REGISTRY.register("disc_chaos", () -> new DiscChaosItem());
 	public static final RegistryObject<Item> DISC_ORDER_1 = REGISTRY.register("disc_order_1", () -> new DiscOrder1Item());

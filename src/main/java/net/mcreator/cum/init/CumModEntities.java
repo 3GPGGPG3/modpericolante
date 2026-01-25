@@ -202,14 +202,14 @@ public class CumModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<MattiaPascalEntity>> MATTIA_PASCAL = register("mattia_pascal",
-			EntityType.Builder.<MattiaPascalEntity>of(MattiaPascalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MattiaPascalEntity::new)
+			EntityType.Builder.<MattiaPascalEntity>of(MattiaPascalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(MattiaPascalEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<AdrianoMeisEntity>> ADRIANO_MEIS = register("adriano_meis",
 			EntityType.Builder.<AdrianoMeisEntity>of(AdrianoMeisEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(200).setUpdateInterval(3).setCustomClientFactory(AdrianoMeisEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<IlFuMattiaPascal2Entity>> IL_FU_MATTIA_PASCAL_2 = register("il_fu_mattia_pascal_2",
+	public static final RegistryObject<EntityType<IlFuMattiaPascal2Entity>> IL_FU_MATTIA_PASCAL = register("il_fu_mattia_pascal",
 			EntityType.Builder.<IlFuMattiaPascal2Entity>of(IlFuMattiaPascal2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(200).setUpdateInterval(3).setCustomClientFactory(IlFuMattiaPascal2Entity::new)
 
 					.sized(0.6f, 1.8f));
@@ -476,7 +476,7 @@ public class CumModEntities {
 		event.put(PAPERON_DE_PAPERONI.get(), PaperonDePaperoniEntity.createAttributes().build());
 		event.put(MATTIA_PASCAL.get(), MattiaPascalEntity.createAttributes().build());
 		event.put(ADRIANO_MEIS.get(), AdrianoMeisEntity.createAttributes().build());
-		event.put(IL_FU_MATTIA_PASCAL_2.get(), IlFuMattiaPascal2Entity.createAttributes().build());
+		event.put(IL_FU_MATTIA_PASCAL.get(), IlFuMattiaPascal2Entity.createAttributes().build());
 		event.put(FILFH_ERR.get(), FilfhErrEntity.createAttributes().build());
 		event.put(GABRIEL.get(), GabrielEntity.createAttributes().build());
 		event.put(MALICIOUS_FACE.get(), MaliciousFaceEntity.createAttributes().build());

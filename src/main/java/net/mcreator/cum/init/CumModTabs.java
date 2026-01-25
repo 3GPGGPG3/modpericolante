@@ -142,7 +142,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.MATTIA_PASCAL_SPAWN_EGG.get());
 				tabData.accept(CumModBlocks.MANOSCRITTO_DI_IGIENE.get().asItem());
 				tabData.accept(CumModItems.ADRIANO_MEIS_SPAWN_EGG.get());
-				tabData.accept(CumModItems.IL_FU_MATTIA_PASCAL_2_SPAWN_EGG.get());
+				tabData.accept(CumModItems.IL_FU_MATTIA_PASCAL_SPAWN_EGG.get());
 				tabData.accept(CumModItems.CIANOGRAFIA_NEGATIVA.get());
 				tabData.accept(CumModItems.DISC_CHAOS.get());
 				tabData.accept(CumModItems.DISC_ORDER_1.get());

@@ -4,38 +4,30 @@ package net.mcreator.cum.entity;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
-import net.minecraftforge.common.ForgeMod;
 
 import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.pathfinder.BlockPathTypes;
-import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.ai.navigation.WaterBoundPathNavigation;
-import net.minecraft.world.entity.ai.navigation.PathNavigation;
-import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
+import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
+import net.minecraft.world.entity.ai.goal.TemptGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.PanicGoal;
-import net.minecraft.world.entity.ai.goal.MoveBackToVillageGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
-import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
-import net.minecraft.world.entity.ai.control.MoveControl;
+import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -47,16 +39,14 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.cum.procedures.MattiaPascalRightClickedOnEntityProcedure;
-import net.mcreator.cum.procedures.MattiaPascalPlaybackConditionProcedure;
 import net.mcreator.cum.procedures.MattiaPascalOnEntityTickUpdateProcedure;
 import net.mcreator.cum.procedures.MattiaPascalEntityDiesProcedure;
 import net.mcreator.cum.init.CumModItems;
 import net.mcreator.cum.init.CumModEntities;
 
-public class MattiaPascalEntity extends PathfinderMob {
+public class MattiaPascalEntity extends Monster {
 	public static final EntityDataAccessor<Boolean> DATA_disco_sound = SynchedEntityData.defineId(MattiaPascalEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<Boolean> DATA_story_sound = SynchedEntityData.defineId(MattiaPascalEntity.class, EntityDataSerializers.BOOLEAN);
-	public final AnimationState animationState0 = new AnimationState();
 
 	public MattiaPascalEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(CumModEntities.MATTIA_PASCAL.get(), world);
@@ -70,39 +60,6 @@ public class MattiaPascalEntity extends PathfinderMob {
 		setCustomName(Component.literal("Mattia Pascal"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
-		this.setPathfindingMalus(BlockPathTypes.WATER, 0);
-		this.moveControl = new MoveControl(this) {
-			@Override
-			public void tick() {
-				if (MattiaPascalEntity.this.isInWater())
-					MattiaPascalEntity.this.setDeltaMovement(MattiaPascalEntity.this.getDeltaMovement().add(0, 0.005, 0));
-				if (this.operation == MoveControl.Operation.MOVE_TO && !MattiaPascalEntity.this.getNavigation().isDone()) {
-					double dx = this.wantedX - MattiaPascalEntity.this.getX();
-					double dy = this.wantedY - MattiaPascalEntity.this.getY();
-					double dz = this.wantedZ - MattiaPascalEntity.this.getZ();
-					float f = (float) (Mth.atan2(dz, dx) * (double) (180 / Math.PI)) - 90;
-					float f1 = (float) (this.speedModifier * MattiaPascalEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
-					MattiaPascalEntity.this.setYRot(this.rotlerp(MattiaPascalEntity.this.getYRot(), f, 10));
-					MattiaPascalEntity.this.yBodyRot = MattiaPascalEntity.this.getYRot();
-					MattiaPascalEntity.this.yHeadRot = MattiaPascalEntity.this.getYRot();
-					if (MattiaPascalEntity.this.isInWater()) {
-						MattiaPascalEntity.this.setSpeed((float) MattiaPascalEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
-						float f2 = -(float) (Mth.atan2(dy, (float) Math.sqrt(dx * dx + dz * dz)) * (180 / Math.PI));
-						f2 = Mth.clamp(Mth.wrapDegrees(f2), -85, 85);
-						MattiaPascalEntity.this.setXRot(this.rotlerp(MattiaPascalEntity.this.getXRot(), f2, 5));
-						float f3 = Mth.cos(MattiaPascalEntity.this.getXRot() * (float) (Math.PI / 180.0));
-						MattiaPascalEntity.this.setZza(f3 * f1);
-						MattiaPascalEntity.this.setYya((float) (f1 * dy));
-					} else {
-						MattiaPascalEntity.this.setSpeed(f1 * 0.05F);
-					}
-				} else {
-					MattiaPascalEntity.this.setSpeed(0);
-					MattiaPascalEntity.this.setYya(0);
-					MattiaPascalEntity.this.setZza(0);
-				}
-			}
-		};
 	}
 
 	@Override
@@ -118,26 +75,20 @@ public class MattiaPascalEntity extends PathfinderMob {
 	}
 
 	@Override
-	protected PathNavigation createNavigation(Level world) {
-		return new WaterBoundPathNavigation(this, world);
-	}
-
-	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.getNavigation().getNodeEvaluator().setCanOpenDoors(true);
-		this.goalSelector.addGoal(1, new LeapAtTargetGoal(this, (float) 0.5));
-		this.goalSelector.addGoal(2, new PanicGoal(this, 1.2));
+		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PresideEntity.class, false, false));
+		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, TopoEntity.class, false, false));
 		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(4, new TemptGoal(this, 1, Ingredient.of(CumModItems.FICHE.get()), false));
+		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
 		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(7, new MoveBackToVillageGoal(this, 0.6, false));
+		this.goalSelector.addGoal(7, new FloatGoal(this));
 	}
 
 	@Override
@@ -211,22 +162,9 @@ public class MattiaPascalEntity extends PathfinderMob {
 	}
 
 	@Override
-	public void tick() {
-		super.tick();
-		if (this.level().isClientSide()) {
-			this.animationState0.animateWhen(MattiaPascalPlaybackConditionProcedure.execute(this), this.tickCount);
-		}
-	}
-
-	@Override
 	public void baseTick() {
 		super.baseTick();
 		MattiaPascalOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
-	}
-
-	@Override
-	public boolean checkSpawnObstruction(LevelReader world) {
-		return world.isUnobstructed(this);
 	}
 
 	@Override
@@ -283,12 +221,11 @@ public class MattiaPascalEntity extends PathfinderMob {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
 		builder = builder.add(Attributes.MAX_HEALTH, 35);
 		builder = builder.add(Attributes.ARMOR, 10);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 10);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-		builder = builder.add(ForgeMod.SWIM_SPEED.get(), 0.5);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 256);
 		return builder;
 	}
 }

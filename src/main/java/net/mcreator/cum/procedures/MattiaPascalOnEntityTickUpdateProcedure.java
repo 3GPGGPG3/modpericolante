@@ -15,6 +15,9 @@ public class MattiaPascalOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		if (entity.isVehicle()) {
+			entity.setDeltaMovement(new Vec3((entity.getLookAngle().x * 1.3), (entity.getLookAngle().y), (entity.getLookAngle().z * 1.3)));
+		}
 		if (entity instanceof MattiaPascalEntity _datEntSetL)
 			_datEntSetL.getEntityData().set(MattiaPascalEntity.DATA_story_sound, false);
 		if (!entity.isVehicle()) {
@@ -23,9 +26,6 @@ public class MattiaPascalOnEntityTickUpdateProcedure {
 						"stopsound @p * cum:ilfumattiastory");
 			if (entity instanceof MattiaPascalEntity _datEntSetL)
 				_datEntSetL.getEntityData().set(MattiaPascalEntity.DATA_story_sound, false);
-		}
-		if (entity.isVehicle()) {
-			entity.setDeltaMovement(new Vec3((entity.getLookAngle().x * 1.3), (entity.getLookAngle().y), (entity.getLookAngle().z * 1.3)));
 		}
 	}
 }

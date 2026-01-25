@@ -8,6 +8,7 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -17,7 +18,6 @@ import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
@@ -42,7 +42,7 @@ import net.mcreator.cum.procedures.TopoPlaybackConditionProcedure;
 import net.mcreator.cum.procedures.TopoEntityIsHurtProcedure;
 import net.mcreator.cum.init.CumModEntities;
 
-public class TopoEntity extends PathfinderMob {
+public class TopoEntity extends Monster {
 	public static final EntityDataAccessor<Boolean> DATA_is_walking = SynchedEntityData.defineId(TopoEntity.class, EntityDataSerializers.BOOLEAN);
 	public final AnimationState animationState0 = new AnimationState();
 
@@ -101,9 +101,10 @@ public class TopoEntity extends PathfinderMob {
 				return super.canContinueToUse() && TopoattackplayerconditionsProcedure.execute(entity);
 			}
 		});
-		this.targetSelector.addGoal(5, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(7, new FloatGoal(this));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, MattiaPascalEntity.class, false, false));
+		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(8, new FloatGoal(this));
 	}
 
 	@Override

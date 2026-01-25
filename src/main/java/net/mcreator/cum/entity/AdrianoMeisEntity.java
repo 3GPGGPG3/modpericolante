@@ -14,7 +14,6 @@ import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.OpenDoorGoal;
 import net.minecraft.world.entity.ai.goal.MoveBackToVillageGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
-import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.MobType;
@@ -56,19 +55,18 @@ public class AdrianoMeisEntity extends Monster {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.getNavigation().getNodeEvaluator().setCanOpenDoors(true);
-		this.goalSelector.addGoal(1, new LeapAtTargetGoal(this, (float) 2));
-		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 2, true) {
+		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 2, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 2));
-		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(6, new MoveBackToVillageGoal(this, 0.6, false));
-		this.goalSelector.addGoal(7, new OpenDoorGoal(this, true));
-		this.goalSelector.addGoal(8, new OpenDoorGoal(this, false));
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 2));
+		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(5, new MoveBackToVillageGoal(this, 0.6, false));
+		this.goalSelector.addGoal(6, new OpenDoorGoal(this, true));
+		this.goalSelector.addGoal(7, new OpenDoorGoal(this, false));
 	}
 
 	@Override

@@ -14,7 +14,6 @@ import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.OpenDoorGoal;
 import net.minecraft.world.entity.ai.goal.MoveBackToVillageGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
-import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
 import net.minecraft.world.entity.ai.goal.AvoidEntityGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -38,7 +37,7 @@ public class IlFuMattiaPascal2Entity extends Monster {
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.PURPLE, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public IlFuMattiaPascal2Entity(PlayMessages.SpawnEntity packet, Level world) {
-		this(CumModEntities.IL_FU_MATTIA_PASCAL_2.get(), world);
+		this(CumModEntities.IL_FU_MATTIA_PASCAL.get(), world);
 	}
 
 	public IlFuMattiaPascal2Entity(EntityType<IlFuMattiaPascal2Entity> type, Level world) {
@@ -60,20 +59,19 @@ public class IlFuMattiaPascal2Entity extends Monster {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.getNavigation().getNodeEvaluator().setCanOpenDoors(true);
-		this.goalSelector.addGoal(1, new LeapAtTargetGoal(this, (float) 2));
-		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 2, true) {
+		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 2, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(4, new AvoidEntityGoal<>(this, PaperonDePaperoniEntity.class, (float) 10, 10, 8.2));
-		this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 3));
-		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(7, new MoveBackToVillageGoal(this, 0.6, false));
-		this.goalSelector.addGoal(8, new OpenDoorGoal(this, true));
-		this.goalSelector.addGoal(9, new OpenDoorGoal(this, false));
+		this.goalSelector.addGoal(3, new AvoidEntityGoal<>(this, PaperonDePaperoniEntity.class, (float) 10, 10, 8.2));
+		this.goalSelector.addGoal(4, new WaterAvoidingRandomStrollGoal(this, 3));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(6, new MoveBackToVillageGoal(this, 0.6, false));
+		this.goalSelector.addGoal(7, new OpenDoorGoal(this, true));
+		this.goalSelector.addGoal(8, new OpenDoorGoal(this, false));
 	}
 
 	@Override

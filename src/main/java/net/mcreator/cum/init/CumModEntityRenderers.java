@@ -115,7 +115,7 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.PAPERON_DE_PAPERONI.get(), PaperonDePaperoniRenderer::new);
 		event.registerEntityRenderer(CumModEntities.MATTIA_PASCAL.get(), MattiaPascalRenderer::new);
 		event.registerEntityRenderer(CumModEntities.ADRIANO_MEIS.get(), AdrianoMeisRenderer::new);
-		event.registerEntityRenderer(CumModEntities.IL_FU_MATTIA_PASCAL_2.get(), IlFuMattiaPascal2Renderer::new);
+		event.registerEntityRenderer(CumModEntities.IL_FU_MATTIA_PASCAL.get(), IlFuMattiaPascal2Renderer::new);
 		event.registerEntityRenderer(CumModEntities.FILFH_ERR.get(), FilfhErrRenderer::new);
 		event.registerEntityRenderer(CumModEntities.GABRIEL.get(), GabrielRenderer::new);
 		event.registerEntityRenderer(CumModEntities.SPADA_GABRIELLANTE_LANCIATA.get(), ThrownItemRenderer::new);

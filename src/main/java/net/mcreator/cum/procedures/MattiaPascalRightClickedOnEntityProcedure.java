@@ -15,10 +15,10 @@ public class MattiaPascalRightClickedOnEntityProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity.isVehicle() && (entity instanceof MattiaPascalEntity _datEntL1 && _datEntL1.getEntityData().get(MattiaPascalEntity.DATA_story_sound)) == false) {
+		if ((entity instanceof MattiaPascalEntity _datEntL0 && _datEntL0.getEntityData().get(MattiaPascalEntity.DATA_story_sound)) == false && entity.isVehicle()) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"/playsound cum:ilfumattiastory ambient Dev ~ ~ ~");
+						"/playsound cum:ilfumattiastory ambient @p ~ ~ ~");
 			if (entity instanceof MattiaPascalEntity _datEntSetL)
 				_datEntSetL.getEntityData().set(MattiaPascalEntity.DATA_story_sound, true);
 		}

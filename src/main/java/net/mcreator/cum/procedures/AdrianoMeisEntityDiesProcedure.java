@@ -11,7 +11,7 @@ import net.mcreator.cum.init.CumModEntities;
 public class AdrianoMeisEntityDiesProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = CumModEntities.IL_FU_MATTIA_PASCAL_2.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+			Entity entityToSpawn = CumModEntities.IL_FU_MATTIA_PASCAL.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 			if (entityToSpawn != null) {
 				entityToSpawn.setDeltaMovement(0, 0, 0);
 			}
