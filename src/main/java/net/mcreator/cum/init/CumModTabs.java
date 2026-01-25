@@ -295,6 +295,14 @@ public class CumModTabs {
 				tabData.accept(CumModItems.GIOCATORE_XII_SPAWN_EGG.get());
 				tabData.accept(CumModItems.CHIAVE_DI_PIETRA.get());
 				tabData.accept(CumModBlocks.STATUA_DI_DEMONE_ZANNUTO.get().asItem());
+				tabData.accept(CumModItems.EQUILIBRIOUS_BEAST.get());
+				tabData.accept(CumModItems.DISC_LIBRA.get());
+				tabData.accept(CumModItems.SOCIALISTA_SPAWN_EGG.get());
+				tabData.accept(CumModItems.IL_CAPITALE.get());
+				tabData.accept(CumModItems.PROLETARIO_SPAWN_EGG.get());
+				tabData.accept(CumModItems.CAPITALISTA_SPAWN_EGG.get());
+				tabData.accept(CumModItems.CIBO_FRENETICO.get());
+				tabData.accept(CumModItems.BOLO_STABILIZZANTE.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_OLIVANTI = REGISTRY.register("cose_olivanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_olivanti")).icon(() -> new ItemStack(CumModItems.PENE.get())).displayItems((parameters, tabData) -> {
@@ -615,6 +623,9 @@ public class CumModTabs {
 				tabData.accept(CumModItems.AGO_DORATO_DI_MIQUELLA.get());
 				tabData.accept(CumModItems.CHIAVE_DI_PIETRA.get());
 				tabData.accept(CumModBlocks.STATUA_DI_DEMONE_ZANNUTO.get().asItem());
+				tabData.accept(CumModItems.EQUILIBRIOUS_BEAST.get());
+				tabData.accept(CumModItems.DISC_LIBRA.get());
+				tabData.accept(CumModItems.BOLO_STABILIZZANTE.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> PIANTE_CONTRO_ZOMBIE = REGISTRY.register("piante_contro_zombie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.piante_contro_zombie")).icon(() -> new ItemStack(CumModItems.SOLE.get())).displayItems((parameters, tabData) -> {
@@ -663,6 +674,10 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PATTUGLIA_21.get());
 				tabData.accept(CumModItems.PATTUGLIA_3.get());
 				tabData.accept(CumModItems.GIOCATORE_XII_SPAWN_EGG.get());
+				tabData.accept(CumModItems.SOCIALISTA_SPAWN_EGG.get());
+				tabData.accept(CumModItems.IL_CAPITALE.get());
+				tabData.accept(CumModItems.PROLETARIO_SPAWN_EGG.get());
+				tabData.accept(CumModItems.CAPITALISTA_SPAWN_EGG.get());
 			}).withTabsBefore(ARTI_ANCESTRALI.getId()).build());
 
 	@SubscribeEvent

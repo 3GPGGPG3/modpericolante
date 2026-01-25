@@ -26,6 +26,7 @@ import net.mcreator.cum.entity.StellinaDelGodoNegativaEntity;
 import net.mcreator.cum.entity.StellinaDelGodoEntity;
 import net.mcreator.cum.entity.StellaPericolosaProiettileEntity;
 import net.mcreator.cum.entity.SpadaGabriellanteLanciataEntity;
+import net.mcreator.cum.entity.SocialistaEntity;
 import net.mcreator.cum.entity.SisyphusPrimeEntity;
 import net.mcreator.cum.entity.ShrekEntity;
 import net.mcreator.cum.entity.SemiSparatiEntity;
@@ -34,6 +35,7 @@ import net.mcreator.cum.entity.ScheggiaDiPietraBalatranteProjectileEntity;
 import net.mcreator.cum.entity.RedCummEntity;
 import net.mcreator.cum.entity.PuntaleSparatoEntity;
 import net.mcreator.cum.entity.PuntaleNegativoSparatoEntity;
+import net.mcreator.cum.entity.ProletarioEntity;
 import net.mcreator.cum.entity.PresideEntity;
 import net.mcreator.cum.entity.PlasmacellulaEntity;
 import net.mcreator.cum.entity.Pericolante7Entity;
@@ -59,6 +61,7 @@ import net.mcreator.cum.entity.MaliciousFaceEntity;
 import net.mcreator.cum.entity.MaleniaBladeOfMiquellaEntity;
 import net.mcreator.cum.entity.LinfocitaTEntity;
 import net.mcreator.cum.entity.LinfocitaBEntity;
+import net.mcreator.cum.entity.LibraCreatureOfNightEntity;
 import net.mcreator.cum.entity.KingRatEntity;
 import net.mcreator.cum.entity.KillerEntity;
 import net.mcreator.cum.entity.IlFuMattiaPascal2Entity;
@@ -90,6 +93,7 @@ import net.mcreator.cum.entity.DaveEntity;
 import net.mcreator.cum.entity.DanieleLucianoEntity;
 import net.mcreator.cum.entity.CumEntity;
 import net.mcreator.cum.entity.CharlieChaplinEntity;
+import net.mcreator.cum.entity.CapitalistaEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
 import net.mcreator.cum.entity.AnticorpoEntity;
 import net.mcreator.cum.entity.AltPiercerBeamEntity;
@@ -369,6 +373,23 @@ public class CumModEntities {
 			EntityType.Builder.<CharlieChaplinEntity>of(CharlieChaplinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CharlieChaplinEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<LibraCreatureOfNightEntity>> LIBRA_CREATURE_OF_NIGHT = register("libra_creature_of_night",
+			EntityType.Builder.<LibraCreatureOfNightEntity>of(LibraCreatureOfNightEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(200).setUpdateInterval(3)
+					.setCustomClientFactory(LibraCreatureOfNightEntity::new)
+
+					.sized(1.2f, 3.2f));
+	public static final RegistryObject<EntityType<SocialistaEntity>> SOCIALISTA = register("socialista",
+			EntityType.Builder.<SocialistaEntity>of(SocialistaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SocialistaEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ProletarioEntity>> PROLETARIO = register("proletario",
+			EntityType.Builder.<ProletarioEntity>of(ProletarioEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ProletarioEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<CapitalistaEntity>> CAPITALISTA = register("capitalista",
+			EntityType.Builder.<CapitalistaEntity>of(CapitalistaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CapitalistaEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -444,6 +465,10 @@ public class CumModEntities {
 			GiocatoreXIEntity.init();
 			GiocatoreXIIEntity.init();
 			CharlieChaplinEntity.init();
+			LibraCreatureOfNightEntity.init();
+			SocialistaEntity.init();
+			ProletarioEntity.init();
+			CapitalistaEntity.init();
 		});
 	}
 
@@ -514,5 +539,9 @@ public class CumModEntities {
 		event.put(GIOCATORE_XI.get(), GiocatoreXIEntity.createAttributes().build());
 		event.put(GIOCATORE_XII.get(), GiocatoreXIIEntity.createAttributes().build());
 		event.put(CHARLIE_CHAPLIN.get(), CharlieChaplinEntity.createAttributes().build());
+		event.put(LIBRA_CREATURE_OF_NIGHT.get(), LibraCreatureOfNightEntity.createAttributes().build());
+		event.put(SOCIALISTA.get(), SocialistaEntity.createAttributes().build());
+		event.put(PROLETARIO.get(), ProletarioEntity.createAttributes().build());
+		event.put(CAPITALISTA.get(), CapitalistaEntity.createAttributes().build());
 	}
 }

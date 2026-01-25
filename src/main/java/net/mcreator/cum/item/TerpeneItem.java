@@ -15,6 +15,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
 import net.mcreator.cum.procedures.TerpeneRangedItemShootsProjectileProcedure;
+import net.mcreator.cum.procedures.PeneEntitySwingsItemProcedure;
 import net.mcreator.cum.entity.CumEntity;
 
 public class TerpeneItem extends Item {
@@ -40,6 +41,13 @@ public class TerpeneItem extends Item {
 			entity.startUsingItem(hand);
 		}
 		return ar;
+	}
+
+	@Override
+	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
+		boolean retval = super.onEntitySwing(itemstack, entity);
+		PeneEntitySwingsItemProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		return retval;
 	}
 
 	@Override

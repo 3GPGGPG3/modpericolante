@@ -85,21 +85,21 @@
     "jumpFactor": 0.5,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "SLIME"
     },
     "breakSound": {
-      "value": "CUSTOM:cumsound"
+      "value": "CUSTOM:sbirrisound"
     },
     "fallSound": {
       "value": "block.slime.fall"
     },
     "hitSound": {
-      "value": "CUSTOM:cumsound"
+      "value": "CUSTOM:sbirrisound"
     },
     "placeSound": {
-      "value": "CUSTOM:cumsound"
+      "value": "CUSTOM:sbirrisound"
     },
     "stepSound": {
       "value": "block.slime.step"

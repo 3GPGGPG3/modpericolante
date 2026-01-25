@@ -17,9 +17,11 @@ import net.mcreator.cum.client.renderer.V1Renderer;
 import net.mcreator.cum.client.renderer.UomoPrimitivoRenderer;
 import net.mcreator.cum.client.renderer.TopoRenderer;
 import net.mcreator.cum.client.renderer.StrayRenderer;
+import net.mcreator.cum.client.renderer.SocialistaRenderer;
 import net.mcreator.cum.client.renderer.SisyphusPrimeRenderer;
 import net.mcreator.cum.client.renderer.ShrekRenderer;
 import net.mcreator.cum.client.renderer.SeiSetteRenderer;
+import net.mcreator.cum.client.renderer.ProletarioRenderer;
 import net.mcreator.cum.client.renderer.PresideRenderer;
 import net.mcreator.cum.client.renderer.PlasmacellulaRenderer;
 import net.mcreator.cum.client.renderer.Pericolante7Renderer;
@@ -44,6 +46,7 @@ import net.mcreator.cum.client.renderer.MaliciousFaceRenderer;
 import net.mcreator.cum.client.renderer.MaleniaBladeOfMiquellaRenderer;
 import net.mcreator.cum.client.renderer.LinfocitaTRenderer;
 import net.mcreator.cum.client.renderer.LinfocitaBRenderer;
+import net.mcreator.cum.client.renderer.LibraCreatureOfNightRenderer;
 import net.mcreator.cum.client.renderer.KingRatRenderer;
 import net.mcreator.cum.client.renderer.KillerRenderer;
 import net.mcreator.cum.client.renderer.IlFuMattiaPascal2Renderer;
@@ -72,6 +75,7 @@ import net.mcreator.cum.client.renderer.DelirioRenderer;
 import net.mcreator.cum.client.renderer.DaveRenderer;
 import net.mcreator.cum.client.renderer.DanieleLucianoRenderer;
 import net.mcreator.cum.client.renderer.CharlieChaplinRenderer;
+import net.mcreator.cum.client.renderer.CapitalistaRenderer;
 import net.mcreator.cum.client.renderer.AssassinaDeiNeriColtelliRenderer;
 import net.mcreator.cum.client.renderer.AnticorpoRenderer;
 import net.mcreator.cum.client.renderer.AlessandroManzoniRenderer;
@@ -160,5 +164,9 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.GIOCATORE_XI.get(), GiocatoreXIRenderer::new);
 		event.registerEntityRenderer(CumModEntities.GIOCATORE_XII.get(), GiocatoreXIIRenderer::new);
 		event.registerEntityRenderer(CumModEntities.CHARLIE_CHAPLIN.get(), CharlieChaplinRenderer::new);
+		event.registerEntityRenderer(CumModEntities.LIBRA_CREATURE_OF_NIGHT.get(), LibraCreatureOfNightRenderer::new);
+		event.registerEntityRenderer(CumModEntities.SOCIALISTA.get(), SocialistaRenderer::new);
+		event.registerEntityRenderer(CumModEntities.PROLETARIO.get(), ProletarioRenderer::new);
+		event.registerEntityRenderer(CumModEntities.CAPITALISTA.get(), CapitalistaRenderer::new);
 	}
 }

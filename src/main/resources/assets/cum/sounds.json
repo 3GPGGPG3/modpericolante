@@ -439,5 +439,21 @@
         "stream": false
       }
     ]
+  },
+  "sbirrisound": {
+    "sounds": [
+      {
+        "name": "cum:sbirrisound",
+        "stream": false
+      }
+    ]
+  },
+  "libra_creature_of_night": {
+    "sounds": [
+      {
+        "name": "cum:libra_creature_of_night_-_elden_ring_nightreign_ost_official_soundtrack_original_score",
+        "stream": true
+      }
+    ]
   }
 }

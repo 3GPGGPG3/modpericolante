@@ -1,0 +1,118 @@
+{
+  "_fv": 73,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "follia_icona.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 151,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 176,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 226,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 201,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_fine.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 251,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_vuota.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 201,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_vuota.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 226,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_vuota_fine.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 251,
+          "y": 177,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "FolliaMeterDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 25,
+      "sy": 25,
+      "ox": 51,
+      "oy": 2,
+      "snapOnGrid": true
+    }
+  }
+}
