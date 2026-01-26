@@ -16,7 +16,7 @@ public class IconaFollia3Procedure {
 					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
 				return 0;
 			}
-		}.getScore("follia", entity) > 75) {
+		}.getScore("follia", entity) > 150) {
 			return true;
 		}
 		return false;

@@ -15,6 +15,11 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.cum.procedures.IconaFollia8Procedure;
+import net.mcreator.cum.procedures.IconaFollia7Procedure;
+import net.mcreator.cum.procedures.IconaFollia6Procedure;
+import net.mcreator.cum.procedures.IconaFollia5Procedure;
+import net.mcreator.cum.procedures.IconaFollia4Procedure;
 import net.mcreator.cum.procedures.IconaFollia3Procedure;
 import net.mcreator.cum.procedures.IconaFollia2Procedure;
 import net.mcreator.cum.procedures.IconaFollia1Procedure;
@@ -49,23 +54,38 @@ public class FolliaMeterOverlay {
 		if (FolliaMeterDisplayOverlayIngameProcedure.execute(entity)) {
 			event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/follia_icona.png"), w / 2 + -62, h / 2 + 57, 0, 0, 25, 25, 25, 25);
 
-			event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita.png"), w / 2 + -37, h / 2 + 57, 0, 0, 25, 25, 25, 25);
-
-			if (IconaFollia2Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita.png"), w / 2 + 13, h / 2 + 57, 0, 0, 25, 25, 25, 25);
-			}
-			if (IconaFollia1Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita.png"), w / 2 + -12, h / 2 + 57, 0, 0, 25, 25, 25, 25);
-			}
-			if (IconaFollia3Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita_fine.png"), w / 2 + 38, h / 2 + 57, 0, 0, 25, 25, 25, 25);
-			}
-			event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_vuota.png"), w / 2 + -12, h / 2 + 57, 0, 0, 25, 25, 25, 25);
-
 			event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_vuota.png"), w / 2 + 13, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+
+			event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_vuota.png"), w / 2 + -12, h / 2 + 57, 0, 0, 25, 25, 25, 25);
 
 			event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_vuota_fine.png"), w / 2 + 38, h / 2 + 57, 0, 0, 25, 25, 25, 25);
 
+			event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_vuota.png"), w / 2 + -37, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+
+			if (IconaFollia1Procedure.execute(entity)) {
+				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita_a_meta.png"), w / 2 + -37, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+			}
+			if (IconaFollia2Procedure.execute(entity)) {
+				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita_a_meta.png"), w / 2 + -25, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+			}
+			if (IconaFollia3Procedure.execute(entity)) {
+				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita_a_meta.png"), w / 2 + -13, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+			}
+			if (IconaFollia4Procedure.execute(entity)) {
+				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita_a_meta.png"), w / 2 + -1, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+			}
+			if (IconaFollia5Procedure.execute(entity)) {
+				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita_a_meta.png"), w / 2 + 11, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+			}
+			if (IconaFollia6Procedure.execute(entity)) {
+				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita_a_meta.png"), w / 2 + 23, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+			}
+			if (IconaFollia7Procedure.execute(entity)) {
+				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita_a_meta.png"), w / 2 + 35, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+			}
+			if (IconaFollia8Procedure.execute(entity)) {
+				event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_riempita_a_meta.png"), w / 2 + 47, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+			}
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

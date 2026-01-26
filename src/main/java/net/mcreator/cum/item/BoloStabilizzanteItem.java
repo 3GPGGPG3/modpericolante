@@ -41,7 +41,7 @@ public class BoloStabilizzanteItem extends Item {
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
 		entity.startUsingItem(hand);
-		BoloStabilizzantePlayerFinishesUsingItemProcedure.execute(entity);
+		BoloStabilizzantePlayerFinishesUsingItemProcedure.execute(entity, ar.getObject());
 		return ar;
 	}
 }

@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Pozione della fiamma della frenesia III",
+    "splashName": "Pozione lanciabile della fiamma della frenesia III",
+    "lingeringName": "Pozione persistente della fiamma della frenesia III",
+    "arrowName": "Freccia della fiamma della frenesia III",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:FolliaAccumulazione"
+        },
+        "duration": 100,
+        "infinite": false,
+        "amplifier": 7,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -9,9 +9,9 @@
     "effects": [
       {
         "effect": {
-          "value": "CUSTOM:Follia"
+          "value": "CUSTOM:FolliaAccumulazione"
         },
-        "duration": 120,
+        "duration": 400,
         "infinite": false,
         "amplifier": 0,
         "ambient": false,

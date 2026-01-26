@@ -16,7 +16,7 @@ public class FolliaMeterDisplayOverlayIngameProcedure {
 					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
 				return 0;
 			}
-		}.getScore("follia", entity) != 0) {
+		}.getScore("follia", entity) > 0) {
 			return true;
 		}
 		return false;

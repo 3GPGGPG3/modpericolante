@@ -38,6 +38,7 @@ import net.mcreator.cum.entity.PuntaleNegativoSparatoEntity;
 import net.mcreator.cum.entity.ProletarioEntity;
 import net.mcreator.cum.entity.PresideEntity;
 import net.mcreator.cum.entity.PlasmacellulaEntity;
+import net.mcreator.cum.entity.PietraLibraEntity;
 import net.mcreator.cum.entity.Pericolante7Entity;
 import net.mcreator.cum.entity.Pericolante6Entity;
 import net.mcreator.cum.entity.Pericolante5Entity;
@@ -390,6 +391,8 @@ public class CumModEntities {
 			EntityType.Builder.<CapitalistaEntity>of(CapitalistaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CapitalistaEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PietraLibraEntity>> PIETRA_LIBRA = register("pietra_libra", EntityType.Builder.<PietraLibraEntity>of(PietraLibraEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PietraLibraEntity::new).fireImmune().sized(0.3f, 0.3f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -469,6 +472,7 @@ public class CumModEntities {
 			SocialistaEntity.init();
 			ProletarioEntity.init();
 			CapitalistaEntity.init();
+			PietraLibraEntity.init();
 		});
 	}
 
@@ -543,5 +547,6 @@ public class CumModEntities {
 		event.put(SOCIALISTA.get(), SocialistaEntity.createAttributes().build());
 		event.put(PROLETARIO.get(), ProletarioEntity.createAttributes().build());
 		event.put(CAPITALISTA.get(), CapitalistaEntity.createAttributes().build());
+		event.put(PIETRA_LIBRA.get(), PietraLibraEntity.createAttributes().build());
 	}
 }

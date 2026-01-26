@@ -13,6 +13,8 @@ import net.mcreator.cum.client.model.Modeltopo;
 import net.mcreator.cum.client.model.Modelshrek;
 import net.mcreator.cum.client.model.Modelseisette;
 import net.mcreator.cum.client.model.Modelrat_king;
+import net.mcreator.cum.client.model.Modelraccogli;
+import net.mcreator.cum.client.model.Modelpietra_libra;
 import net.mcreator.cum.client.model.Modelpeashooter;
 import net.mcreator.cum.client.model.Modelpaperon_de_paperoni;
 import net.mcreator.cum.client.model.Modelorthomyxoviridae;
@@ -29,6 +31,7 @@ import net.mcreator.cum.client.model.Modelflesh_panopticom;
 import net.mcreator.cum.client.model.Modelfilfh;
 import net.mcreator.cum.client.model.Modelcube;
 import net.mcreator.cum.client.model.Modelcharlie_chaplin;
+import net.mcreator.cum.client.model.Modelcalcoli_di_libra;
 import net.mcreator.cum.client.model.Modelanticorpo;
 import net.mcreator.cum.client.model.ModelPreside;
 import net.mcreator.cum.client.model.ModelOlivia;
@@ -43,7 +46,9 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelfilfh.LAYER_LOCATION, Modelfilfh::createBodyLayer);
 		event.registerLayerDefinition(Modelpaperon_de_paperoni.LAYER_LOCATION, Modelpaperon_de_paperoni::createBodyLayer);
 		event.registerLayerDefinition(Modelpeashooter.LAYER_LOCATION, Modelpeashooter::createBodyLayer);
+		event.registerLayerDefinition(Modelcalcoli_di_libra.LAYER_LOCATION, Modelcalcoli_di_libra::createBodyLayer);
 		event.registerLayerDefinition(Modellibbra.LAYER_LOCATION, Modellibbra::createBodyLayer);
+		event.registerLayerDefinition(Modelraccogli.LAYER_LOCATION, Modelraccogli::createBodyLayer);
 		event.registerLayerDefinition(Modelgirasole.LAYER_LOCATION, Modelgirasole::createBodyLayer);
 		event.registerLayerDefinition(Modelgabriel.LAYER_LOCATION, Modelgabriel::createBodyLayer);
 		event.registerLayerDefinition(Modelgiolitti_unito.LAYER_LOCATION, Modelgiolitti_unito::createBodyLayer);
@@ -60,6 +65,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelmalicious_face.LAYER_LOCATION, Modelmalicious_face::createBodyLayer);
 		event.registerLayerDefinition(Modelshrek.LAYER_LOCATION, Modelshrek::createBodyLayer);
 		event.registerLayerDefinition(Modelil_fu_mattia_pascal.LAYER_LOCATION, Modelil_fu_mattia_pascal::createBodyLayer);
+		event.registerLayerDefinition(Modelpietra_libra.LAYER_LOCATION, Modelpietra_libra::createBodyLayer);
 		event.registerLayerDefinition(Modelorthomyxoviridae.LAYER_LOCATION, Modelorthomyxoviridae::createBodyLayer);
 		event.registerLayerDefinition(ModelOlivia.LAYER_LOCATION, ModelOlivia::createBodyLayer);
 	}

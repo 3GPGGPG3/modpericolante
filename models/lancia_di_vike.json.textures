@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lancia_di_vike"
+      },
+      "name": "default"
+    }
+  }
+}

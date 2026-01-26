@@ -18,52 +18,10 @@
       {
         "type": "image",
         "data": {
-          "image": "icona_riempita.png",
+          "image": "icona_vuota.png",
           "use1Xscale": true,
-          "anchorPoint": "CENTER",
-          "x": 176,
-          "y": 177,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "icona_riempita.png",
-          "use1Xscale": true,
-          "displayCondition": {
-            "name": "IconaFollia2"
-          },
           "anchorPoint": "CENTER",
           "x": 226,
-          "y": 177,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "icona_riempita.png",
-          "use1Xscale": true,
-          "displayCondition": {
-            "name": "IconaFollia1"
-          },
-          "anchorPoint": "CENTER",
-          "x": 201,
-          "y": 177,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "icona_riempita_fine.png",
-          "use1Xscale": true,
-          "displayCondition": {
-            "name": "IconaFollia3"
-          },
-          "anchorPoint": "CENTER",
-          "x": 251,
           "y": 177,
           "locked": false
         }
@@ -75,17 +33,6 @@
           "use1Xscale": true,
           "anchorPoint": "CENTER",
           "x": 201,
-          "y": 177,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "icona_vuota.png",
-          "use1Xscale": true,
-          "anchorPoint": "CENTER",
-          "x": 226,
           "y": 177,
           "locked": false
         }
@@ -97,6 +44,129 @@
           "use1Xscale": true,
           "anchorPoint": "CENTER",
           "x": 251,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_vuota.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 176,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 176,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 188,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 200,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia4"
+          },
+          "anchorPoint": "CENTER",
+          "x": 212,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia5"
+          },
+          "anchorPoint": "CENTER",
+          "x": 224,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia6"
+          },
+          "anchorPoint": "CENTER",
+          "x": 236,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia7"
+          },
+          "anchorPoint": "CENTER",
+          "x": 248,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaFollia8"
+          },
+          "anchorPoint": "CENTER",
+          "x": 260,
           "y": 177,
           "locked": false
         }
@@ -112,7 +182,7 @@
       "sy": 25,
       "ox": 51,
       "oy": 2,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

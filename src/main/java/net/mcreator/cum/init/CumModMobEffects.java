@@ -18,6 +18,7 @@ import net.mcreator.cum.potion.PenalizzatoMobEffect;
 import net.mcreator.cum.potion.MousedayeffectMobEffect;
 import net.mcreator.cum.potion.MarcescenzaScarlattaMobEffect;
 import net.mcreator.cum.potion.FolliaMobEffect;
+import net.mcreator.cum.potion.FolliaAccumulazioneMobEffect;
 import net.mcreator.cum.potion.DivietousocellulareeffectMobEffect;
 import net.mcreator.cum.potion.DivietodisessoeffectMobEffect;
 import net.mcreator.cum.potion.DestudentazioneeffectMobEffect;
@@ -36,4 +37,5 @@ public class CumModMobEffects {
 	public static final RegistryObject<MobEffect> MOUSEDAYEFFECT = REGISTRY.register("mousedayeffect", () -> new MousedayeffectMobEffect());
 	public static final RegistryObject<MobEffect> DESTUDENTAZIONEEFFECT = REGISTRY.register("destudentazioneeffect", () -> new DestudentazioneeffectMobEffect());
 	public static final RegistryObject<MobEffect> POWER = REGISTRY.register("power", () -> new PowerMobEffect());
+	public static final RegistryObject<MobEffect> FOLLIA_ACCUMULAZIONE = REGISTRY.register("follia_accumulazione", () -> new FolliaAccumulazioneMobEffect());
 }

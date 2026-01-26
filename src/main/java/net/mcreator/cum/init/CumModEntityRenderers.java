@@ -24,6 +24,7 @@ import net.mcreator.cum.client.renderer.SeiSetteRenderer;
 import net.mcreator.cum.client.renderer.ProletarioRenderer;
 import net.mcreator.cum.client.renderer.PresideRenderer;
 import net.mcreator.cum.client.renderer.PlasmacellulaRenderer;
+import net.mcreator.cum.client.renderer.PietraLibraRenderer;
 import net.mcreator.cum.client.renderer.Pericolante7Renderer;
 import net.mcreator.cum.client.renderer.Pericolante6Renderer;
 import net.mcreator.cum.client.renderer.Pericolante5Renderer;
@@ -168,5 +169,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.SOCIALISTA.get(), SocialistaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PROLETARIO.get(), ProletarioRenderer::new);
 		event.registerEntityRenderer(CumModEntities.CAPITALISTA.get(), CapitalistaRenderer::new);
+		event.registerEntityRenderer(CumModEntities.PIETRA_LIBRA.get(), PietraLibraRenderer::new);
 	}
 }

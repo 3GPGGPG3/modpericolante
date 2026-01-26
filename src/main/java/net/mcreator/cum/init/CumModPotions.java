@@ -29,5 +29,7 @@ public class CumModPotions {
 					new MobEffectInstance(MobEffects.CONFUSION, 3600, 0, false, true), new MobEffectInstance(MobEffects.BLINDNESS, 1200, 0, false, true), new MobEffectInstance(MobEffects.WEAKNESS, 3600, 0, false, true),
 					new MobEffectInstance(MobEffects.WITHER, 3600, 0, false, true), new MobEffectInstance(MobEffects.GLOWING, 3600, 0, false, true), new MobEffectInstance(MobEffects.UNLUCK, 3600, 0, false, true),
 					new MobEffectInstance(MobEffects.BAD_OMEN, 3600, 0, false, true), new MobEffectInstance(MobEffects.DARKNESS, 3600, 0, false, true)));
-	public static final RegistryObject<Potion> POZIONE_FRENESIA = REGISTRY.register("pozione_frenesia", () -> new Potion(new MobEffectInstance(CumModMobEffects.FOLLIA.get(), 120, 0, false, true)));
+	public static final RegistryObject<Potion> POZIONE_FRENESIA = REGISTRY.register("pozione_frenesia", () -> new Potion(new MobEffectInstance(CumModMobEffects.FOLLIA_ACCUMULAZIONE.get(), 400, 0, false, true)));
+	public static final RegistryObject<Potion> POZIONE_FRENESIA_II = REGISTRY.register("pozione_frenesia_ii", () -> new Potion(new MobEffectInstance(CumModMobEffects.FOLLIA_ACCUMULAZIONE.get(), 200, 1, false, true)));
+	public static final RegistryObject<Potion> POZIONE_FRENESIA_III = REGISTRY.register("pozione_frenesia_iii", () -> new Potion(new MobEffectInstance(CumModMobEffects.FOLLIA_ACCUMULAZIONE.get(), 100, 7, false, true)));
 }

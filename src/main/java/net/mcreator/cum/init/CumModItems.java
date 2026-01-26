@@ -113,6 +113,7 @@ import net.mcreator.cum.item.ManoDiMaleniaItem;
 import net.mcreator.cum.item.MacchinaDelTempoItem;
 import net.mcreator.cum.item.LunaDelGodoItem;
 import net.mcreator.cum.item.LingottoUltrakillanteItem;
+import net.mcreator.cum.item.LanciaDiVikeItem;
 import net.mcreator.cum.item.LaPiantaItem;
 import net.mcreator.cum.item.JokerItem;
 import net.mcreator.cum.item.IndicatoreAlCavoloRossoItem;
@@ -564,6 +565,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> CAPITALISTA_SPAWN_EGG = REGISTRY.register("capitalista_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.CAPITALISTA, -16777165, -1, new Item.Properties()));
 	public static final RegistryObject<Item> CIBO_FRENETICO = REGISTRY.register("cibo_frenetico", () -> new CiboFreneticoItem());
 	public static final RegistryObject<Item> BOLO_STABILIZZANTE = REGISTRY.register("bolo_stabilizzante", () -> new BoloStabilizzanteItem());
+	public static final RegistryObject<Item> LANCIA_DI_VIKE = REGISTRY.register("lancia_di_vike", () -> new LanciaDiVikeItem());
+	public static final RegistryObject<Item> PIETRA_LIBRA_SPAWN_EGG = REGISTRY.register("pietra_libra_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.PIETRA_LIBRA, -52480, -26368, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
