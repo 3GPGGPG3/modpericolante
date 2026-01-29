@@ -36,6 +36,7 @@ public class LibraCreatureOfNightRenderer extends MobRenderer<LibraCreatureOfNig
 				this.animate(entity.animationState0, libbraAnimation.idle, ageInTicks, 1f);
 				if (Libra2Procedure.execute(entity))
 					this.animateWalk(libbraAnimation.walk, limbSwing, limbSwingAmount, 1f, 1.1f);
+				this.animate(entity.animationState2, libbraAnimation.pietre, ageInTicks, 1f);
 			}
 		};
 

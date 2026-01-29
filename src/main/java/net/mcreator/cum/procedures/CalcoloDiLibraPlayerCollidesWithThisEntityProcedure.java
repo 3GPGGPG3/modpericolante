@@ -26,7 +26,7 @@ public class CalcoloDiLibraPlayerCollidesWithThisEntityProcedure {
 							return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
 						return 0;
 					}
-				}.getScore("follia", sourceentity) - 125));
+				}.getScore("follia", sourceentity) - 85));
 			}
 		}
 		if (entity instanceof LivingEntity _entity)

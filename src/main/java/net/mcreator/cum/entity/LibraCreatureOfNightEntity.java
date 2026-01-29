@@ -25,6 +25,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.DifficultyInstance;
@@ -32,19 +33,27 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
+import net.mcreator.cum.procedures.SePietreEzeroProcedure;
+import net.mcreator.cum.procedures.SePietreEunoProcedure;
 import net.mcreator.cum.procedures.LibraCreatureOfNightPlaybackConditionProcedure;
 import net.mcreator.cum.procedures.LibraCreatureOfNightOnInitialEntitySpawnProcedure;
+import net.mcreator.cum.procedures.LibraCreatureOfNightOnEntityTickUpdateProcedure;
 import net.mcreator.cum.init.CumModItems;
 import net.mcreator.cum.init.CumModEntities;
 
 import javax.annotation.Nullable;
 
 public class LibraCreatureOfNightEntity extends Monster {
+	public static final EntityDataAccessor<Integer> DATA_pietre = SynchedEntityData.defineId(LibraCreatureOfNightEntity.class, EntityDataSerializers.INT);
 	public final AnimationState animationState0 = new AnimationState();
+	public final AnimationState animationState2 = new AnimationState();
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public LibraCreatureOfNightEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -69,6 +78,12 @@ public class LibraCreatureOfNightEntity extends Monster {
 	}
 
 	@Override
+	protected void defineSynchedData() {
+		super.defineSynchedData();
+		this.entityData.define(DATA_pietre, 0);
+	}
+
+	@Override
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
@@ -77,11 +92,92 @@ public class LibraCreatureOfNightEntity extends Monster {
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
+
+			@Override
+			public boolean canUse() {
+				double x = LibraCreatureOfNightEntity.this.getX();
+				double y = LibraCreatureOfNightEntity.this.getY();
+				double z = LibraCreatureOfNightEntity.this.getZ();
+				Entity entity = LibraCreatureOfNightEntity.this;
+				Level world = LibraCreatureOfNightEntity.this.level();
+				return super.canUse() && SePietreEzeroProcedure.execute(entity);
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				double x = LibraCreatureOfNightEntity.this.getX();
+				double y = LibraCreatureOfNightEntity.this.getY();
+				double z = LibraCreatureOfNightEntity.this.getZ();
+				Entity entity = LibraCreatureOfNightEntity.this;
+				Level world = LibraCreatureOfNightEntity.this.level();
+				return super.canContinueToUse() && SePietreEzeroProcedure.execute(entity);
+			}
+
 		});
-		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1) {
+			@Override
+			public boolean canUse() {
+				double x = LibraCreatureOfNightEntity.this.getX();
+				double y = LibraCreatureOfNightEntity.this.getY();
+				double z = LibraCreatureOfNightEntity.this.getZ();
+				Entity entity = LibraCreatureOfNightEntity.this;
+				Level world = LibraCreatureOfNightEntity.this.level();
+				return super.canUse() && SePietreEzeroProcedure.execute(entity);
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				double x = LibraCreatureOfNightEntity.this.getX();
+				double y = LibraCreatureOfNightEntity.this.getY();
+				double z = LibraCreatureOfNightEntity.this.getZ();
+				Entity entity = LibraCreatureOfNightEntity.this;
+				Level world = LibraCreatureOfNightEntity.this.level();
+				return super.canContinueToUse() && SePietreEzeroProcedure.execute(entity);
+			}
+		});
 		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(6, new FloatGoal(this));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this) {
+			@Override
+			public boolean canUse() {
+				double x = LibraCreatureOfNightEntity.this.getX();
+				double y = LibraCreatureOfNightEntity.this.getY();
+				double z = LibraCreatureOfNightEntity.this.getZ();
+				Entity entity = LibraCreatureOfNightEntity.this;
+				Level world = LibraCreatureOfNightEntity.this.level();
+				return super.canUse() && SePietreEzeroProcedure.execute(entity);
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				double x = LibraCreatureOfNightEntity.this.getX();
+				double y = LibraCreatureOfNightEntity.this.getY();
+				double z = LibraCreatureOfNightEntity.this.getZ();
+				Entity entity = LibraCreatureOfNightEntity.this;
+				Level world = LibraCreatureOfNightEntity.this.level();
+				return super.canContinueToUse() && SePietreEzeroProcedure.execute(entity);
+			}
+		});
+		this.goalSelector.addGoal(6, new FloatGoal(this) {
+			@Override
+			public boolean canUse() {
+				double x = LibraCreatureOfNightEntity.this.getX();
+				double y = LibraCreatureOfNightEntity.this.getY();
+				double z = LibraCreatureOfNightEntity.this.getZ();
+				Entity entity = LibraCreatureOfNightEntity.this;
+				Level world = LibraCreatureOfNightEntity.this.level();
+				return super.canUse() && SePietreEzeroProcedure.execute(entity);
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				double x = LibraCreatureOfNightEntity.this.getX();
+				double y = LibraCreatureOfNightEntity.this.getY();
+				double z = LibraCreatureOfNightEntity.this.getZ();
+				Entity entity = LibraCreatureOfNightEntity.this;
+				Level world = LibraCreatureOfNightEntity.this.level();
+				return super.canContinueToUse() && SePietreEzeroProcedure.execute(entity);
+			}
+		});
 	}
 
 	@Override
@@ -112,11 +208,31 @@ public class LibraCreatureOfNightEntity extends Monster {
 	}
 
 	@Override
+	public void addAdditionalSaveData(CompoundTag compound) {
+		super.addAdditionalSaveData(compound);
+		compound.putInt("Datapietre", this.entityData.get(DATA_pietre));
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundTag compound) {
+		super.readAdditionalSaveData(compound);
+		if (compound.contains("Datapietre"))
+			this.entityData.set(DATA_pietre, compound.getInt("Datapietre"));
+	}
+
+	@Override
 	public void tick() {
 		super.tick();
 		if (this.level().isClientSide()) {
 			this.animationState0.animateWhen(LibraCreatureOfNightPlaybackConditionProcedure.execute(this), this.tickCount);
+			this.animationState2.animateWhen(SePietreEunoProcedure.execute(this), this.tickCount);
 		}
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		LibraCreatureOfNightOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

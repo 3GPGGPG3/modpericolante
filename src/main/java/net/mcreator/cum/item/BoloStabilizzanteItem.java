@@ -2,7 +2,6 @@
 package net.mcreator.cum.item;
 
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
@@ -19,11 +18,6 @@ import java.util.List;
 public class BoloStabilizzanteItem extends Item {
 	public BoloStabilizzanteItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE));
-	}
-
-	@Override
-	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.EAT;
 	}
 
 	@Override

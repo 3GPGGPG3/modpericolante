@@ -54,7 +54,7 @@
     },
     "isMeat": false,
     "isAlwaysEdible": true,
-    "animation": "eat",
+    "animation": "none",
     "isMusicDisc": false,
     "musicDiscMusic": {
       "value": ""

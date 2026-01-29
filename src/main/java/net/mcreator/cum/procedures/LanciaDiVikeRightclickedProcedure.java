@@ -53,6 +53,6 @@ public class LanciaDiVikeRightclickedProcedure {
 			}.getScore("follia", entity) + 110));
 		}
 		if (entity instanceof Player _player)
-			_player.getCooldowns().addCooldown(itemstack.getItem(), 140);
+			_player.getCooldowns().addCooldown(itemstack.getItem(), 160);
 	}
 }
