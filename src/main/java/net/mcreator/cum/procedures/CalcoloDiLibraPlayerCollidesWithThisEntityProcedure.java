@@ -29,6 +29,8 @@ public class CalcoloDiLibraPlayerCollidesWithThisEntityProcedure {
 				}.getScore("follia", sourceentity) - 85));
 			}
 		}
+		if (sourceentity instanceof LivingEntity _entity)
+			_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 1));
 		if (entity instanceof LivingEntity _entity)
 			_entity.setHealth(0);
 	}
