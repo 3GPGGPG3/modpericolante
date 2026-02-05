@@ -23,6 +23,7 @@ import net.mcreator.cum.client.renderer.ShrekRenderer;
 import net.mcreator.cum.client.renderer.SeiSetteRenderer;
 import net.mcreator.cum.client.renderer.ProletarioRenderer;
 import net.mcreator.cum.client.renderer.PresideRenderer;
+import net.mcreator.cum.client.renderer.PoliziottoInBiciRenderer;
 import net.mcreator.cum.client.renderer.PlasmacellulaRenderer;
 import net.mcreator.cum.client.renderer.PietraLibraRenderer;
 import net.mcreator.cum.client.renderer.Pericolante7Renderer;
@@ -170,5 +171,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.PROLETARIO.get(), ProletarioRenderer::new);
 		event.registerEntityRenderer(CumModEntities.CAPITALISTA.get(), CapitalistaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PIETRA_LIBRA.get(), PietraLibraRenderer::new);
+		event.registerEntityRenderer(CumModEntities.POLIZIOTTO_IN_BICI.get(), PoliziottoInBiciRenderer::new);
 	}
 }

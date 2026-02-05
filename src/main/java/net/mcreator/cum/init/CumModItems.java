@@ -567,6 +567,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> BOLO_STABILIZZANTE = REGISTRY.register("bolo_stabilizzante", () -> new BoloStabilizzanteItem());
 	public static final RegistryObject<Item> LANCIA_DI_VIKE = REGISTRY.register("lancia_di_vike", () -> new LanciaDiVikeItem());
 	public static final RegistryObject<Item> PIETRA_LIBRA_SPAWN_EGG = REGISTRY.register("pietra_libra_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.PIETRA_LIBRA, -52480, -26368, new Item.Properties()));
+	public static final RegistryObject<Item> POLIZIOTTO_IN_BICI_SPAWN_EGG = REGISTRY.register("poliziotto_in_bici_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.POLIZIOTTO_IN_BICI, -16777063, -205, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

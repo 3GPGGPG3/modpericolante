@@ -14,6 +14,7 @@ import net.mcreator.cum.client.model.Modelshrek;
 import net.mcreator.cum.client.model.Modelseisette;
 import net.mcreator.cum.client.model.Modelrat_king;
 import net.mcreator.cum.client.model.Modelraccogli;
+import net.mcreator.cum.client.model.Modelpoliziotto_in_bici;
 import net.mcreator.cum.client.model.Modelpietra_libra;
 import net.mcreator.cum.client.model.Modelpeashooter;
 import net.mcreator.cum.client.model.Modelpaperon_de_paperoni;
@@ -50,6 +51,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modellibbra.LAYER_LOCATION, Modellibbra::createBodyLayer);
 		event.registerLayerDefinition(Modelraccogli.LAYER_LOCATION, Modelraccogli::createBodyLayer);
 		event.registerLayerDefinition(Modelgirasole.LAYER_LOCATION, Modelgirasole::createBodyLayer);
+		event.registerLayerDefinition(Modelpoliziotto_in_bici.LAYER_LOCATION, Modelpoliziotto_in_bici::createBodyLayer);
 		event.registerLayerDefinition(Modelgabriel.LAYER_LOCATION, Modelgabriel::createBodyLayer);
 		event.registerLayerDefinition(Modelgiolitti_unito.LAYER_LOCATION, Modelgiolitti_unito::createBodyLayer);
 		event.registerLayerDefinition(Modelordinamentogiuridico.LAYER_LOCATION, Modelordinamentogiuridico::createBodyLayer);

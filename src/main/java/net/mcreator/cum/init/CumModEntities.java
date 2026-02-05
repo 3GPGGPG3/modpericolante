@@ -37,6 +37,7 @@ import net.mcreator.cum.entity.PuntaleSparatoEntity;
 import net.mcreator.cum.entity.PuntaleNegativoSparatoEntity;
 import net.mcreator.cum.entity.ProletarioEntity;
 import net.mcreator.cum.entity.PresideEntity;
+import net.mcreator.cum.entity.PoliziottoInBiciEntity;
 import net.mcreator.cum.entity.PlasmacellulaEntity;
 import net.mcreator.cum.entity.PietraLibraEntity;
 import net.mcreator.cum.entity.Pericolante7Entity;
@@ -393,6 +394,8 @@ public class CumModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<PietraLibraEntity>> PIETRA_LIBRA = register("pietra_libra", EntityType.Builder.<PietraLibraEntity>of(PietraLibraEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PietraLibraEntity::new).fireImmune().sized(0.3f, 0.3f));
+	public static final RegistryObject<EntityType<PoliziottoInBiciEntity>> POLIZIOTTO_IN_BICI = register("poliziotto_in_bici", EntityType.Builder.<PoliziottoInBiciEntity>of(PoliziottoInBiciEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(PoliziottoInBiciEntity::new).fireImmune().sized(0.8f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -473,6 +476,7 @@ public class CumModEntities {
 			ProletarioEntity.init();
 			CapitalistaEntity.init();
 			PietraLibraEntity.init();
+			PoliziottoInBiciEntity.init();
 		});
 	}
 
@@ -548,5 +552,6 @@ public class CumModEntities {
 		event.put(PROLETARIO.get(), ProletarioEntity.createAttributes().build());
 		event.put(CAPITALISTA.get(), CapitalistaEntity.createAttributes().build());
 		event.put(PIETRA_LIBRA.get(), PietraLibraEntity.createAttributes().build());
+		event.put(POLIZIOTTO_IN_BICI.get(), PoliziottoInBiciEntity.createAttributes().build());
 	}
 }
