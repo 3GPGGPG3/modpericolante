@@ -145,7 +145,23 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 2,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BiomaPericollante"
+      },
+      {
+        "value": "CUSTOM:BiomaPericolanteNegativo"
+      },
+      {
+        "value": "CUSTOM:BiomaPericolanteInverso"
+      },
+      {
+        "value": "CUSTOM:LiurniaSburrestre"
+      },
+      {
+        "value": "CUSTOM:MonteAbbummatu"
+      }
+    ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,

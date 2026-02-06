@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "cum:sabbia_della_notte",
     "minecraft:stone",
     "minecraft:dirt",
     "minecraft:grass_block",

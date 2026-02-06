@@ -78,6 +78,7 @@ import net.mcreator.cum.client.renderer.DaveRenderer;
 import net.mcreator.cum.client.renderer.DanieleLucianoRenderer;
 import net.mcreator.cum.client.renderer.CharlieChaplinRenderer;
 import net.mcreator.cum.client.renderer.CapitalistaRenderer;
+import net.mcreator.cum.client.renderer.BiciclettaRenderer;
 import net.mcreator.cum.client.renderer.AssassinaDeiNeriColtelliRenderer;
 import net.mcreator.cum.client.renderer.AnticorpoRenderer;
 import net.mcreator.cum.client.renderer.AlessandroManzoniRenderer;
@@ -172,5 +173,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.CAPITALISTA.get(), CapitalistaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PIETRA_LIBRA.get(), PietraLibraRenderer::new);
 		event.registerEntityRenderer(CumModEntities.POLIZIOTTO_IN_BICI.get(), PoliziottoInBiciRenderer::new);
+		event.registerEntityRenderer(CumModEntities.BICICLETTA.get(), BiciclettaRenderer::new);
 	}
 }

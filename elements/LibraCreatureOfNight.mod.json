@@ -55,6 +55,17 @@
         },
         "walking": false,
         "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:libbraAnimation.follia"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "LibraCreatureFollia"
+        },
+        "walking": false,
+        "amplitude": 1.0
       }
     ],
     "modelWidth": 1.2000000000000002,
@@ -98,7 +109,7 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 120,
+    "attackStrength": 60,
     "attackKnockback": 1.0,
     "knockbackResistance": 4.0,
     "movementSpeed": 0.34,
@@ -136,7 +147,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:ReturnHome"
     },
     "livingSound": {
       "value": ""
@@ -160,6 +171,11 @@
         "name": "pietre",
         "type": "integer",
         "value": 0
+      },
+      {
+        "name": "follia",
+        "type": "logic",
+        "value": false
       }
     ],
     "onMobTickUpdate": {

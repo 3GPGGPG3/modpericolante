@@ -45,7 +45,7 @@ public class LibraCreatureOfNightOnEntityTickUpdateProcedure {
 			if (Math.random() < 0.5) {
 				if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
 					_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_pietre, 1);
-				for (int index0 = 0; index0 < 2; index0++) {
+				for (int index0 = 0; index0 < 3; index0++) {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = CumModEntities.PIETRA_LIBRA.get().spawn(_level,
 								BlockPos.containing(entity.getX() + Mth.nextDouble(RandomSource.create(), -12, 12), entity.getY(), entity.getZ() + Mth.nextDouble(RandomSource.create(), -12, 12)), MobSpawnType.MOB_SUMMONED);
@@ -55,7 +55,7 @@ public class LibraCreatureOfNightOnEntityTickUpdateProcedure {
 					}
 				}
 				for (int index1 = 0; index1 < 10; index1++) {
-					CumMod.queueServerWork(7, () -> {
+					CumMod.queueServerWork(10, () -> {
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = CumModEntities.PIETRA_LIBRA.get().spawn(_level,
 									BlockPos.containing(entity.getX() + Mth.nextDouble(RandomSource.create(), -12, 12), entity.getY(), entity.getZ() + Mth.nextDouble(RandomSource.create(), -12, 12)), MobSpawnType.MOB_SUMMONED);

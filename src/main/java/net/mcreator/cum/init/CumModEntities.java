@@ -96,6 +96,7 @@ import net.mcreator.cum.entity.DanieleLucianoEntity;
 import net.mcreator.cum.entity.CumEntity;
 import net.mcreator.cum.entity.CharlieChaplinEntity;
 import net.mcreator.cum.entity.CapitalistaEntity;
+import net.mcreator.cum.entity.BiciclettaEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
 import net.mcreator.cum.entity.AnticorpoEntity;
 import net.mcreator.cum.entity.AltPiercerBeamEntity;
@@ -396,6 +397,8 @@ public class CumModEntities {
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PietraLibraEntity::new).fireImmune().sized(0.3f, 0.3f));
 	public static final RegistryObject<EntityType<PoliziottoInBiciEntity>> POLIZIOTTO_IN_BICI = register("poliziotto_in_bici", EntityType.Builder.<PoliziottoInBiciEntity>of(PoliziottoInBiciEntity::new, MobCategory.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(PoliziottoInBiciEntity::new).fireImmune().sized(0.8f, 1.8f));
+	public static final RegistryObject<EntityType<BiciclettaEntity>> BICICLETTA = register("bicicletta", EntityType.Builder.<BiciclettaEntity>of(BiciclettaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128)
+			.setUpdateInterval(3).setCustomClientFactory(BiciclettaEntity::new).fireImmune().sized(0.6f, 1.6f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -477,6 +480,7 @@ public class CumModEntities {
 			CapitalistaEntity.init();
 			PietraLibraEntity.init();
 			PoliziottoInBiciEntity.init();
+			BiciclettaEntity.init();
 		});
 	}
 
@@ -553,5 +557,6 @@ public class CumModEntities {
 		event.put(CAPITALISTA.get(), CapitalistaEntity.createAttributes().build());
 		event.put(PIETRA_LIBRA.get(), PietraLibraEntity.createAttributes().build());
 		event.put(POLIZIOTTO_IN_BICI.get(), PoliziottoInBiciEntity.createAttributes().build());
+		event.put(BICICLETTA.get(), BiciclettaEntity.createAttributes().build());
 	}
 }

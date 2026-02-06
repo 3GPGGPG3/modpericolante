@@ -7,6 +7,7 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HierarchicalModel;
 
+import net.mcreator.cum.procedures.PolBiciSe1Procedure;
 import net.mcreator.cum.entity.PoliziottoInBiciEntity;
 import net.mcreator.cum.client.model.animations.poliziotto_in_biciAnimation;
 import net.mcreator.cum.client.model.Modelpoliziotto_in_bici;
@@ -33,7 +34,8 @@ public class PoliziottoInBiciRenderer extends MobRenderer<PoliziottoInBiciEntity
 			public void setupAnim(PoliziottoInBiciEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 				this.root().getAllParts().forEach(ModelPart::resetPose);
 				this.animate(entity.animationState0, poliziotto_in_biciAnimation.idle, ageInTicks, 1f);
-				this.animate(entity.animationState1, poliziotto_in_biciAnimation.walk, ageInTicks, 1f);
+				if (PolBiciSe1Procedure.execute(entity))
+					this.animateWalk(poliziotto_in_biciAnimation.walk, limbSwing, limbSwingAmount, 1f, 1.5f);
 				this.animate(entity.animationState2, poliziotto_in_biciAnimation.attack, ageInTicks, 1f);
 			}
 		};

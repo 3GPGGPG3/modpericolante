@@ -45,6 +45,7 @@ import net.mcreator.cum.procedures.SePietreEunoProcedure;
 import net.mcreator.cum.procedures.LibraCreatureOfNightPlaybackConditionProcedure;
 import net.mcreator.cum.procedures.LibraCreatureOfNightOnInitialEntitySpawnProcedure;
 import net.mcreator.cum.procedures.LibraCreatureOfNightOnEntityTickUpdateProcedure;
+import net.mcreator.cum.procedures.LibraCreatureFolliaProcedure;
 import net.mcreator.cum.init.CumModItems;
 import net.mcreator.cum.init.CumModEntities;
 
@@ -52,8 +53,10 @@ import javax.annotation.Nullable;
 
 public class LibraCreatureOfNightEntity extends Monster {
 	public static final EntityDataAccessor<Integer> DATA_pietre = SynchedEntityData.defineId(LibraCreatureOfNightEntity.class, EntityDataSerializers.INT);
+	public static final EntityDataAccessor<Boolean> DATA_follia = SynchedEntityData.defineId(LibraCreatureOfNightEntity.class, EntityDataSerializers.BOOLEAN);
 	public final AnimationState animationState0 = new AnimationState();
 	public final AnimationState animationState2 = new AnimationState();
+	public final AnimationState animationState3 = new AnimationState();
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public LibraCreatureOfNightEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -81,6 +84,7 @@ public class LibraCreatureOfNightEntity extends Monster {
 	protected void defineSynchedData() {
 		super.defineSynchedData();
 		this.entityData.define(DATA_pietre, 0);
+		this.entityData.define(DATA_follia, false);
 	}
 
 	@Override
@@ -190,6 +194,11 @@ public class LibraCreatureOfNightEntity extends Monster {
 		return false;
 	}
 
+	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
+		this.spawnAtLocation(new ItemStack(CumModItems.RETURN_HOME.get()));
+	}
+
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
@@ -211,6 +220,7 @@ public class LibraCreatureOfNightEntity extends Monster {
 	public void addAdditionalSaveData(CompoundTag compound) {
 		super.addAdditionalSaveData(compound);
 		compound.putInt("Datapietre", this.entityData.get(DATA_pietre));
+		compound.putBoolean("Datafollia", this.entityData.get(DATA_follia));
 	}
 
 	@Override
@@ -218,6 +228,8 @@ public class LibraCreatureOfNightEntity extends Monster {
 		super.readAdditionalSaveData(compound);
 		if (compound.contains("Datapietre"))
 			this.entityData.set(DATA_pietre, compound.getInt("Datapietre"));
+		if (compound.contains("Datafollia"))
+			this.entityData.set(DATA_follia, compound.getBoolean("Datafollia"));
 	}
 
 	@Override
@@ -226,6 +238,7 @@ public class LibraCreatureOfNightEntity extends Monster {
 		if (this.level().isClientSide()) {
 			this.animationState0.animateWhen(LibraCreatureOfNightPlaybackConditionProcedure.execute(this), this.tickCount);
 			this.animationState2.animateWhen(SePietreEunoProcedure.execute(this), this.tickCount);
+			this.animationState3.animateWhen(LibraCreatureFolliaProcedure.execute(this), this.tickCount);
 		}
 	}
 
@@ -266,7 +279,7 @@ public class LibraCreatureOfNightEntity extends Monster {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.34);
 		builder = builder.add(Attributes.MAX_HEALTH, 1024);
 		builder = builder.add(Attributes.ARMOR, 100);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 120);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 60);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 60);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 4);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 1);

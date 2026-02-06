@@ -422,6 +422,9 @@ public class CumModTabs {
 				tabData.accept(CumModItems.LANCIA_DI_VIKE.get());
 				tabData.accept(CumModItems.PIETRA_LIBRA_SPAWN_EGG.get());
 				tabData.accept(CumModItems.POLIZIOTTO_IN_BICI_SPAWN_EGG.get());
+				tabData.accept(CumModItems.BICI.get());
+				tabData.accept(CumModBlocks.SABBIA_DELLA_NOTTE.get().asItem());
+				tabData.accept(CumModItems.RETURN_HOME.get());
 			}).withTabsBefore(UMANI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -654,6 +657,7 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA.get().asItem());
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_II.get().asItem());
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_III.get().asItem());
+				tabData.accept(CumModItems.BICI.get());
 			}).withTabsBefore(SCUOLA_GUIDA.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_ELDENRINGANTI = REGISTRY.register("cose_eldenringanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_eldenringanti")).icon(() -> new ItemStack(CumModItems.ANELLO_ANCESTRALE.get())).displayItems((parameters, tabData) -> {
@@ -671,6 +675,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.BOLO_STABILIZZANTE.get());
 				tabData.accept(CumModItems.LANCIA_DI_VIKE.get());
 				tabData.accept(CumModItems.PIETRA_LIBRA_SPAWN_EGG.get());
+				tabData.accept(CumModBlocks.SABBIA_DELLA_NOTTE.get().asItem());
+				tabData.accept(CumModItems.RETURN_HOME.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> PIANTE_CONTRO_ZOMBIE = REGISTRY.register("piante_contro_zombie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.piante_contro_zombie")).icon(() -> new ItemStack(CumModItems.SOLE.get())).displayItems((parameters, tabData) -> {

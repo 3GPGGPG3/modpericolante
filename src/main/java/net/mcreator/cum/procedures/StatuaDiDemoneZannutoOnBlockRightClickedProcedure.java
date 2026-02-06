@@ -2,6 +2,9 @@ package net.mcreator.cum.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.scores.criteria.ObjectiveCriteria;
+import net.minecraft.world.scores.Scoreboard;
+import net.minecraft.world.scores.Objective;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
@@ -12,10 +15,13 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
@@ -67,109 +73,221 @@ public class StatuaDiDemoneZannutoOnBlockRightClickedProcedure {
 					world.setBlock(_bp, _bs, 3);
 				}
 			}
-			if (Math.random() < 0.4) {
-				if (Math.random() < 0.5) {
-					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = CumModEntities.KILLER.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-						if (entityToSpawn != null) {
-						}
-					}
-				} else {
-					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = CumModEntities.ALESSANDRO_MANZONI.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-						if (entityToSpawn != null) {
-						}
-					}
-					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = CumModEntities.MATTIA_PASCAL.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-						if (entityToSpawn != null) {
-						}
+			{
+				Entity _ent = entity;
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective("whattospawn");
+				if (_so == null)
+					_so = _sc.addObjective("whattospawn", ObjectiveCriteria.DUMMY, Component.literal("whattospawn"), ObjectiveCriteria.RenderType.INTEGER);
+				_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore((int) Mth.nextDouble(RandomSource.create(), 0, 8));
+			}
+			if (0 == new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("whattospawn", entity)) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.KILLER.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
 					}
 				}
-			} else {
-				if (Math.random() < 0.4) {
-					if (Math.random() < 0.5) {
-						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = CumModEntities.GIOCATORE_VIII.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-							if (entityToSpawn != null) {
-							}
-						}
-						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = CumModEntities.GIOCATORE_VIII.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-							if (entityToSpawn != null) {
-							}
-						}
-					} else {
-						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = CumModEntities.MALICIOUS_FACE.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-							if (entityToSpawn != null) {
-							}
-						}
-						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = CumModEntities.FILFH.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-							if (entityToSpawn != null) {
-							}
-						}
-						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = CumModEntities.FILFH.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-							if (entityToSpawn != null) {
-							}
-						}
-						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = CumModEntities.STRAY.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-							if (entityToSpawn != null) {
-							}
-						}
-						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = CumModEntities.STRAY.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-							if (entityToSpawn != null) {
-							}
-						}
+			}
+			if (1 == new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("whattospawn", entity)) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.ALESSANDRO_MANZONI.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
 					}
-				} else {
-					if (Math.random() < 0.4) {
-						if (Math.random() < 0.5) {
-							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = CumModEntities.ORDINAMENTO_GIURIDICO.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-								if (entityToSpawn != null) {
-								}
-							}
-							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = CumModEntities.DAVE.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-								if (entityToSpawn != null) {
-								}
-							}
-						} else {
-							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = CumModEntities.ASSASSINA_DEI_NERI_COLTELLI.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-								if (entityToSpawn != null) {
-								}
-							}
-						}
-					} else {
-						if (Math.random() < 0.4) {
-							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = CumModEntities.PERICOLANTE_7.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-								if (entityToSpawn != null) {
-								}
-							}
-							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = CumModEntities.PERICOLANTE_4.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-								if (entityToSpawn != null) {
-								}
-							}
-							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = CumModEntities.PERICOLANTE_4.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-								if (entityToSpawn != null) {
-								}
-							}
-						} else {
-							if (world instanceof ServerLevel _level) {
-								Entity entityToSpawn = CumModEntities.PER_INV_1.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
-								if (entityToSpawn != null) {
-								}
-							}
-						}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.MATTIA_PASCAL.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+			}
+			if (2 == new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("whattospawn", entity)) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.GIOCATORE_VIII.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.GIOCATORE_VIII.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+			}
+			if (3 == new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("whattospawn", entity)) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.MALICIOUS_FACE.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.FILFH.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.FILFH.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.STRAY.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.STRAY.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+			}
+			if (4 == new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("whattospawn", entity)) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.ORDINAMENTO_GIURIDICO.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.POLIZIOTTO_IN_BICI.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.POLIZIOTTO_IN_BICI.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+			}
+			if (5 == new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("whattospawn", entity)) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.ASSASSINA_DEI_NERI_COLTELLI.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+			}
+			if (6 == new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("whattospawn", entity)) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.PERICOLANTE_7.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.PERICOLANTE_4.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.PERICOLANTE_4.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+			}
+			if (7 == new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("whattospawn", entity)) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.PER_INV_1.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+			}
+			if (8 == new Object() {
+				public int getScore(String score, Entity _ent) {
+					Scoreboard _sc = _ent.level().getScoreboard();
+					Objective _so = _sc.getObjective(score);
+					if (_so != null)
+						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+					return 0;
+				}
+			}.getScore("whattospawn", entity)) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.GIOCATORE_V.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.GIOCATORE_V.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.GIOCATORE_V.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.GIOCATORE_V.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.GIOCATORE_V.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = CumModEntities.GIOCATORE_V.get().spawn(_level, BlockPos.containing(x, y + 2, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
 					}
 				}
 			}

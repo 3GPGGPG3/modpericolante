@@ -2,7 +2,7 @@
   "_fv": 73,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Poliziotto In Bici",
+    "mobName": "Poliziotto in bici",
     "mobLabel": "",
     "mobModelName": "Modelpoliziotto_in_bici",
     "mobModelTexture": "poliziotto_in_bici.png",
@@ -42,8 +42,8 @@
         "condition": {
           "name": "PolBiciSe1"
         },
-        "walking": false,
-        "amplitude": 1.0
+        "walking": true,
+        "amplitude": 1.5
       },
       {
         "animation": {
@@ -188,8 +188,8 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": true,
-    "doesDespawnWhenIdle": true,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,

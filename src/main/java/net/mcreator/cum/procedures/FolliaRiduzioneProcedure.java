@@ -21,6 +21,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.cum.init.CumModMobEffects;
 import net.mcreator.cum.entity.LibraCreatureOfNightEntity;
+import net.mcreator.cum.CumMod;
 
 import javax.annotation.Nullable;
 
@@ -90,8 +91,14 @@ public class FolliaRiduzioneProcedure {
 					_so = _sc.addObjective("follia", ObjectiveCriteria.DUMMY, Component.literal("follia"), ObjectiveCriteria.RenderType.INTEGER);
 				_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
 			}
+			if (entity instanceof LibraCreatureOfNightEntity _datEntSetL)
+				_datEntSetL.getEntityData().set(LibraCreatureOfNightEntity.DATA_follia, true);
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(CumModMobEffects.FOLLIA.get(), 40, 0));
+				_entity.addEffect(new MobEffectInstance(CumModMobEffects.FOLLIA.get(), 60, 0));
+			CumMod.queueServerWork(60, () -> {
+				if (entity instanceof LibraCreatureOfNightEntity _datEntSetL)
+					_datEntSetL.getEntityData().set(LibraCreatureOfNightEntity.DATA_follia, false);
+			});
 		}
 		if (new Object() {
 			public int getScore(String score, Entity _ent) {

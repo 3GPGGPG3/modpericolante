@@ -5,7 +5,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.player.Player;
@@ -18,7 +17,6 @@ import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
@@ -27,7 +25,6 @@ import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -40,14 +37,12 @@ import net.minecraft.nbt.CompoundTag;
 import net.mcreator.cum.procedures.PoliziottoInBiciPlayerCollidesWithThisEntityProcedure;
 import net.mcreator.cum.procedures.PoliziottoInBiciPlaybackConditionProcedure;
 import net.mcreator.cum.procedures.PolBiciSe2Procedure;
-import net.mcreator.cum.procedures.PolBiciSe1Procedure;
 import net.mcreator.cum.init.CumModEntities;
 
 public class PoliziottoInBiciEntity extends Monster {
 	public static final EntityDataAccessor<Integer> DATA_animazione = SynchedEntityData.defineId(PoliziottoInBiciEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Integer> DATA_staattaccando = SynchedEntityData.defineId(PoliziottoInBiciEntity.class, EntityDataSerializers.INT);
 	public final AnimationState animationState0 = new AnimationState();
-	public final AnimationState animationState1 = new AnimationState();
 	public final AnimationState animationState2 = new AnimationState();
 
 	public PoliziottoInBiciEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -59,6 +54,7 @@ public class PoliziottoInBiciEntity extends Monster {
 		setMaxUpStep(0.6f);
 		xpReward = 12;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -93,6 +89,11 @@ public class PoliziottoInBiciEntity extends Monster {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override
@@ -140,7 +141,6 @@ public class PoliziottoInBiciEntity extends Monster {
 		super.tick();
 		if (this.level().isClientSide()) {
 			this.animationState0.animateWhen(PoliziottoInBiciPlaybackConditionProcedure.execute(this), this.tickCount);
-			this.animationState1.animateWhen(PolBiciSe1Procedure.execute(this), this.tickCount);
 			this.animationState2.animateWhen(PolBiciSe2Procedure.execute(this), this.tickCount);
 		}
 	}
@@ -152,8 +152,6 @@ public class PoliziottoInBiciEntity extends Monster {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(CumModEntities.POLIZIOTTO_IN_BICI.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

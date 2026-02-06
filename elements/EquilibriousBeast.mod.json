@@ -33,7 +33,9 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "A goat-headed being who pretends to be a man, said to be able to use a dubious form of alchemy. Counterfeit gold causes loss of sanity, beckoning madness. However, those who foment madness are sure to succumb to the selfsame malady in the end."
+        "A goat-headed being who pretends to be a man, said to be able to use a dubious form of alchemy. Counterfeit gold causes loss of sanity, beckoning madness. However, those who foment madness are sure to succumb to the selfsame malady in the end.",
+        "",
+        "Right click: you get teleported to the Nightlord dimension."
       ]
     },
     "glowCondition": {

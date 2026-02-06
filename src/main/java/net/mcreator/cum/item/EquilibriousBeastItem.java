@@ -33,6 +33,8 @@ public class EquilibriousBeastItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.translatable("item.cum.equilibrious_beast.description_0"));
+		list.add(Component.translatable("item.cum.equilibrious_beast.description_1"));
+		list.add(Component.translatable("item.cum.equilibrious_beast.description_2"));
 	}
 
 	@Override

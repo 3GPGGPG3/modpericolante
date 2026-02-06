@@ -52,6 +52,7 @@ import net.mcreator.cum.item.SeiDiCuoriItem;
 import net.mcreator.cum.item.ScheggiaDiPietraBalatranteItem;
 import net.mcreator.cum.item.SbirraItem;
 import net.mcreator.cum.item.RunaMaggioreDiMaleniaItem;
+import net.mcreator.cum.item.ReturnHomeItem;
 import net.mcreator.cum.item.RelazioneVuotaItem;
 import net.mcreator.cum.item.RelazioneItem;
 import net.mcreator.cum.item.ReggisenoDiOliviaItem;
@@ -182,6 +183,7 @@ import net.mcreator.cum.item.BologneseConLUovoItem;
 import net.mcreator.cum.item.BoloStabilizzanteItem;
 import net.mcreator.cum.item.BlueOrbItem;
 import net.mcreator.cum.item.BloodItem;
+import net.mcreator.cum.item.BiciItem;
 import net.mcreator.cum.item.BatteriaItem;
 import net.mcreator.cum.item.BastonePaperoneItem;
 import net.mcreator.cum.item.AssoMultiusoItem;
@@ -568,6 +570,9 @@ public class CumModItems {
 	public static final RegistryObject<Item> LANCIA_DI_VIKE = REGISTRY.register("lancia_di_vike", () -> new LanciaDiVikeItem());
 	public static final RegistryObject<Item> PIETRA_LIBRA_SPAWN_EGG = REGISTRY.register("pietra_libra_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.PIETRA_LIBRA, -52480, -26368, new Item.Properties()));
 	public static final RegistryObject<Item> POLIZIOTTO_IN_BICI_SPAWN_EGG = REGISTRY.register("poliziotto_in_bici_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.POLIZIOTTO_IN_BICI, -16777063, -205, new Item.Properties()));
+	public static final RegistryObject<Item> BICI = REGISTRY.register("bici", () -> new BiciItem());
+	public static final RegistryObject<Item> SABBIA_DELLA_NOTTE = block(CumModBlocks.SABBIA_DELLA_NOTTE);
+	public static final RegistryObject<Item> RETURN_HOME = REGISTRY.register("return_home", () -> new ReturnHomeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

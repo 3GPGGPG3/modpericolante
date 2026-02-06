@@ -1,8 +1,12 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": [
+    "cum:bioma_pericollante",
+    "cum:bioma_pericolante_negativo",
+    "cum:bioma_pericolante_inverso",
+    "cum:liurnia_sburrestre",
+    "cum:monte_abbummatu"
+  ],
   "spawners": {
     "type": "cum:malicious_face",
     "weight": 20,

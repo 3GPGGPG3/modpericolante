@@ -1,8 +1,11 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": [
+    "cum:bioma_primitivo",
+    "cum:liurnia_sburrestre",
+    "cum:monte_abbummatu",
+    "cum:bioma_balatrante"
+  ],
   "spawners": {
     "type": "cum:gd_cube",
     "weight": 20,
