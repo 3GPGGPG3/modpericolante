@@ -24,7 +24,7 @@ public class LanciaDiVikeLivingEntityIsHitWithItemProcedure {
 						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
 					return 0;
 				}
-			}.getScore("follia", entity) + 38));
+			}.getScore("follia", entity) + 34));
 		}
 		if (Math.random() < 0.3) {
 			entity.setSecondsOnFire(3);

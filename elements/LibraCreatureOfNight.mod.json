@@ -66,6 +66,17 @@
         },
         "walking": false,
         "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:libbraAnimation.schiaccia_pietra"
+        },
+        "speed": 1.0,
+        "condition": {
+          "name": "SePietreEdue"
+        },
+        "walking": false,
+        "amplitude": 1.0
       }
     ],
     "modelWidth": 1.2000000000000002,
@@ -176,6 +187,27 @@
         "name": "follia",
         "type": "logic",
         "value": false
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "whattodo",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "libraatt",
+        "type": "integer",
+        "value": 0
+      },
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "interruzione",
+        "type": "integer",
+        "value": 0
       }
     ],
     "onMobTickUpdate": {

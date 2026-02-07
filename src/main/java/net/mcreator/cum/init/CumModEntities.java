@@ -63,6 +63,7 @@ import net.mcreator.cum.entity.MaliciousFaceEntity;
 import net.mcreator.cum.entity.MaleniaBladeOfMiquellaEntity;
 import net.mcreator.cum.entity.LinfocitaTEntity;
 import net.mcreator.cum.entity.LinfocitaBEntity;
+import net.mcreator.cum.entity.LibracerchioEntity;
 import net.mcreator.cum.entity.LibraCreatureOfNightEntity;
 import net.mcreator.cum.entity.KingRatEntity;
 import net.mcreator.cum.entity.KillerEntity;
@@ -399,6 +400,8 @@ public class CumModEntities {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(PoliziottoInBiciEntity::new).fireImmune().sized(0.8f, 1.8f));
 	public static final RegistryObject<EntityType<BiciclettaEntity>> BICICLETTA = register("bicicletta", EntityType.Builder.<BiciclettaEntity>of(BiciclettaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128)
 			.setUpdateInterval(3).setCustomClientFactory(BiciclettaEntity::new).fireImmune().sized(0.6f, 1.6f));
+	public static final RegistryObject<EntityType<LibracerchioEntity>> LIBRACERCHIO = register("libracerchio", EntityType.Builder.<LibracerchioEntity>of(LibracerchioEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LibracerchioEntity::new).fireImmune().sized(3.4f, 7f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -481,6 +484,7 @@ public class CumModEntities {
 			PietraLibraEntity.init();
 			PoliziottoInBiciEntity.init();
 			BiciclettaEntity.init();
+			LibracerchioEntity.init();
 		});
 	}
 
@@ -558,5 +562,6 @@ public class CumModEntities {
 		event.put(PIETRA_LIBRA.get(), PietraLibraEntity.createAttributes().build());
 		event.put(POLIZIOTTO_IN_BICI.get(), PoliziottoInBiciEntity.createAttributes().build());
 		event.put(BICICLETTA.get(), BiciclettaEntity.createAttributes().build());
+		event.put(LIBRACERCHIO.get(), LibracerchioEntity.createAttributes().build());
 	}
 }

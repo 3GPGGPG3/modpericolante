@@ -27,12 +27,12 @@ public class LanciaDiVikeRightclickedProcedure {
 				Projectile _entityToSpawn = new Object() {
 					public Projectile getPotion(Level level) {
 						ThrownPotion entityToSpawn = new ThrownPotion(EntityType.POTION, level);
-						entityToSpawn.setItem(PotionUtils.setPotion(Items.SPLASH_POTION.getDefaultInstance(), CumModPotions.POZIONE_FRENESIA_III.get()));
+						entityToSpawn.setItem(PotionUtils.setPotion(Items.SPLASH_POTION.getDefaultInstance(), CumModPotions.POZIONE_FRENESIA_II.get()));
 						return entityToSpawn;
 					}
 				}.getPotion(projectileLevel);
 				_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
-				_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 1, 0);
+				_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, (float) 1.5, 0);
 				projectileLevel.addFreshEntity(_entityToSpawn);
 			}
 		}
@@ -53,6 +53,6 @@ public class LanciaDiVikeRightclickedProcedure {
 			}.getScore("follia", entity) + 110));
 		}
 		if (entity instanceof Player _player)
-			_player.getCooldowns().addCooldown(itemstack.getItem(), 160);
+			_player.getCooldowns().addCooldown(itemstack.getItem(), 130);
 	}
 }

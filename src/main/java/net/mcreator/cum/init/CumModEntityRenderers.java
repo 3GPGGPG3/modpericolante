@@ -48,6 +48,7 @@ import net.mcreator.cum.client.renderer.MaliciousFaceRenderer;
 import net.mcreator.cum.client.renderer.MaleniaBladeOfMiquellaRenderer;
 import net.mcreator.cum.client.renderer.LinfocitaTRenderer;
 import net.mcreator.cum.client.renderer.LinfocitaBRenderer;
+import net.mcreator.cum.client.renderer.LibracerchioRenderer;
 import net.mcreator.cum.client.renderer.LibraCreatureOfNightRenderer;
 import net.mcreator.cum.client.renderer.KingRatRenderer;
 import net.mcreator.cum.client.renderer.KillerRenderer;
@@ -174,5 +175,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.PIETRA_LIBRA.get(), PietraLibraRenderer::new);
 		event.registerEntityRenderer(CumModEntities.POLIZIOTTO_IN_BICI.get(), PoliziottoInBiciRenderer::new);
 		event.registerEntityRenderer(CumModEntities.BICICLETTA.get(), BiciclettaRenderer::new);
+		event.registerEntityRenderer(CumModEntities.LIBRACERCHIO.get(), LibracerchioRenderer::new);
 	}
 }

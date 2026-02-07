@@ -23,6 +23,7 @@ import net.mcreator.cum.client.model.Modelordinamentogiuridico;
 import net.mcreator.cum.client.model.Modelnocciolina;
 import net.mcreator.cum.client.model.Modelmalicious_face;
 import net.mcreator.cum.client.model.Modellinfocita_b_o_plasmacellula;
+import net.mcreator.cum.client.model.Modellibra_cerchio;
 import net.mcreator.cum.client.model.Modellibbra;
 import net.mcreator.cum.client.model.Modelil_fu_mattia_pascal;
 import net.mcreator.cum.client.model.Modelgirasole;
@@ -64,6 +65,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelflesh_panopticom.LAYER_LOCATION, Modelflesh_panopticom::createBodyLayer);
 		event.registerLayerDefinition(Modelcharlie_chaplin.LAYER_LOCATION, Modelcharlie_chaplin::createBodyLayer);
 		event.registerLayerDefinition(Modellinfocita_b_o_plasmacellula.LAYER_LOCATION, Modellinfocita_b_o_plasmacellula::createBodyLayer);
+		event.registerLayerDefinition(Modellibra_cerchio.LAYER_LOCATION, Modellibra_cerchio::createBodyLayer);
 		event.registerLayerDefinition(Modelrat_king.LAYER_LOCATION, Modelrat_king::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modelmalicious_face.LAYER_LOCATION, Modelmalicious_face::createBodyLayer);

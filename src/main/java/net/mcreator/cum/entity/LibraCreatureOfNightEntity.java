@@ -42,6 +42,7 @@ import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.cum.procedures.SePietreEzeroProcedure;
 import net.mcreator.cum.procedures.SePietreEunoProcedure;
+import net.mcreator.cum.procedures.SePietreEdueProcedure;
 import net.mcreator.cum.procedures.LibraCreatureOfNightPlaybackConditionProcedure;
 import net.mcreator.cum.procedures.LibraCreatureOfNightOnInitialEntitySpawnProcedure;
 import net.mcreator.cum.procedures.LibraCreatureOfNightOnEntityTickUpdateProcedure;
@@ -54,9 +55,13 @@ import javax.annotation.Nullable;
 public class LibraCreatureOfNightEntity extends Monster {
 	public static final EntityDataAccessor<Integer> DATA_pietre = SynchedEntityData.defineId(LibraCreatureOfNightEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Boolean> DATA_follia = SynchedEntityData.defineId(LibraCreatureOfNightEntity.class, EntityDataSerializers.BOOLEAN);
+	public static final EntityDataAccessor<Integer> DATA_whattodo = SynchedEntityData.defineId(LibraCreatureOfNightEntity.class, EntityDataSerializers.INT);
+	public static final EntityDataAccessor<Integer> DATA_libraatt = SynchedEntityData.defineId(LibraCreatureOfNightEntity.class, EntityDataSerializers.INT);
+	public static final EntityDataAccessor<Integer> DATA_interruzione = SynchedEntityData.defineId(LibraCreatureOfNightEntity.class, EntityDataSerializers.INT);
 	public final AnimationState animationState0 = new AnimationState();
 	public final AnimationState animationState2 = new AnimationState();
 	public final AnimationState animationState3 = new AnimationState();
+	public final AnimationState animationState4 = new AnimationState();
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public LibraCreatureOfNightEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -85,6 +90,9 @@ public class LibraCreatureOfNightEntity extends Monster {
 		super.defineSynchedData();
 		this.entityData.define(DATA_pietre, 0);
 		this.entityData.define(DATA_follia, false);
+		this.entityData.define(DATA_whattodo, 0);
+		this.entityData.define(DATA_libraatt, 0);
+		this.entityData.define(DATA_interruzione, 0);
 	}
 
 	@Override
@@ -221,6 +229,9 @@ public class LibraCreatureOfNightEntity extends Monster {
 		super.addAdditionalSaveData(compound);
 		compound.putInt("Datapietre", this.entityData.get(DATA_pietre));
 		compound.putBoolean("Datafollia", this.entityData.get(DATA_follia));
+		compound.putInt("Datawhattodo", this.entityData.get(DATA_whattodo));
+		compound.putInt("Datalibraatt", this.entityData.get(DATA_libraatt));
+		compound.putInt("Datainterruzione", this.entityData.get(DATA_interruzione));
 	}
 
 	@Override
@@ -230,6 +241,12 @@ public class LibraCreatureOfNightEntity extends Monster {
 			this.entityData.set(DATA_pietre, compound.getInt("Datapietre"));
 		if (compound.contains("Datafollia"))
 			this.entityData.set(DATA_follia, compound.getBoolean("Datafollia"));
+		if (compound.contains("Datawhattodo"))
+			this.entityData.set(DATA_whattodo, compound.getInt("Datawhattodo"));
+		if (compound.contains("Datalibraatt"))
+			this.entityData.set(DATA_libraatt, compound.getInt("Datalibraatt"));
+		if (compound.contains("Datainterruzione"))
+			this.entityData.set(DATA_interruzione, compound.getInt("Datainterruzione"));
 	}
 
 	@Override
@@ -239,6 +256,7 @@ public class LibraCreatureOfNightEntity extends Monster {
 			this.animationState0.animateWhen(LibraCreatureOfNightPlaybackConditionProcedure.execute(this), this.tickCount);
 			this.animationState2.animateWhen(SePietreEunoProcedure.execute(this), this.tickCount);
 			this.animationState3.animateWhen(LibraCreatureFolliaProcedure.execute(this), this.tickCount);
+			this.animationState4.animateWhen(SePietreEdueProcedure.execute(this), this.tickCount);
 		}
 	}
 

@@ -5,6 +5,9 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.TickEvent;
 
+import net.minecraft.world.scores.criteria.ObjectiveCriteria;
+import net.minecraft.world.scores.Scoreboard;
+import net.minecraft.world.scores.Objective;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.LevelAccessor;
@@ -49,6 +52,16 @@ public class KillNightlordIfPlayerDiesProcedure {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"kill @e[type=minecraft:experience_orb]");
+		}
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) <= 0) {
+			{
+				Entity _ent = entity;
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective("follia");
+				if (_so == null)
+					_so = _sc.addObjective("follia", ObjectiveCriteria.DUMMY, Component.literal("follia"), ObjectiveCriteria.RenderType.INTEGER);
+				_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
+			}
 		}
 	}
 }

@@ -677,6 +677,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PIETRA_LIBRA_SPAWN_EGG.get());
 				tabData.accept(CumModBlocks.SABBIA_DELLA_NOTTE.get().asItem());
 				tabData.accept(CumModItems.RETURN_HOME.get());
+				tabData.accept(CumModItems.LIBRACERCHIO_SPAWN_EGG.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> PIANTE_CONTRO_ZOMBIE = REGISTRY.register("piante_contro_zombie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.piante_contro_zombie")).icon(() -> new ItemStack(CumModItems.SOLE.get())).displayItems((parameters, tabData) -> {

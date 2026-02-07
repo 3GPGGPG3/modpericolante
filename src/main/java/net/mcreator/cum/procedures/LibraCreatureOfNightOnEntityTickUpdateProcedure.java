@@ -1,8 +1,5 @@
 package net.mcreator.cum.procedures;
 
-import net.minecraft.world.scores.criteria.ObjectiveCriteria;
-import net.minecraft.world.scores.Scoreboard;
-import net.minecraft.world.scores.Objective;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.LevelAccessor;
@@ -25,24 +22,48 @@ public class LibraCreatureOfNightOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Mob _mobEnt0 && _mobEnt0.isAggressive() && new Object() {
-			public int getScore(String score, Entity _ent) {
-				Scoreboard _sc = _ent.level().getScoreboard();
-				Objective _so = _sc.getObjective(score);
-				if (_so != null)
-					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
-				return 0;
-			}
-		}.getScore("libraatt", entity) == 0) {
+		if ((entity instanceof LibraCreatureOfNightEntity _datEntL0 && _datEntL0.getEntityData().get(LibraCreatureOfNightEntity.DATA_follia)) == true
+				&& (entity instanceof LibraCreatureOfNightEntity _datEntI ? _datEntI.getEntityData().get(LibraCreatureOfNightEntity.DATA_interruzione) : 0) == 0) {
+			if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+				_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_interruzione, 1);
+			if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+				_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_pietre, 0);
 			{
 				Entity _ent = entity;
-				Scoreboard _sc = _ent.level().getScoreboard();
-				Objective _so = _sc.getObjective("libraatt");
-				if (_so == null)
-					_so = _sc.addObjective("libraatt", ObjectiveCriteria.DUMMY, Component.literal("libraatt"), ObjectiveCriteria.RenderType.INTEGER);
-				_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(1);
+				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "effect clear @a cum:follia_accumulazione");
+				}
 			}
-			if (Math.random() < 0.5) {
+			CumMod.queueServerWork(70, () -> {
+				{
+					Entity _ent = entity;
+					if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+								_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "effect clear @a cum:follia_accumulazione");
+					}
+				}
+				if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+					_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_libraatt, 0);
+				if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+					_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_interruzione, 0);
+			});
+		}
+		if (entity instanceof Mob _mobEnt9 && _mobEnt9.isAggressive() && (entity instanceof LibraCreatureOfNightEntity _datEntI ? _datEntI.getEntityData().get(LibraCreatureOfNightEntity.DATA_libraatt) : 0) == 0) {
+			if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+				_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_libraatt, 1);
+			if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+				_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_whattodo, (int) Mth.nextDouble(RandomSource.create(), 1, 4));
+			if (!world.isClientSide() && world.getServer() != null)
+				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("action:" + (entity instanceof LibraCreatureOfNightEntity _datEntI ? _datEntI.getEntityData().get(LibraCreatureOfNightEntity.DATA_whattodo) : 0))), false);
+			if ((entity instanceof LibraCreatureOfNightEntity _datEntI ? _datEntI.getEntityData().get(LibraCreatureOfNightEntity.DATA_whattodo) : 0) == 1
+					|| (entity instanceof LibraCreatureOfNightEntity _datEntI ? _datEntI.getEntityData().get(LibraCreatureOfNightEntity.DATA_whattodo) : 0) == 4) {
+				CumMod.queueServerWork(100, () -> {
+					if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_libraatt, 0);
+				});
+			}
+			if ((entity instanceof LibraCreatureOfNightEntity _datEntI ? _datEntI.getEntityData().get(LibraCreatureOfNightEntity.DATA_whattodo) : 0) == 2) {
 				if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
 					_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_pietre, 1);
 				for (int index0 = 0; index0 < 3; index0++) {
@@ -65,35 +86,40 @@ public class LibraCreatureOfNightOnEntityTickUpdateProcedure {
 						}
 					});
 				}
-				CumMod.queueServerWork(72, () -> {
-					if (world instanceof ServerLevel _level)
-						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-								"effect give @a cum:follia_accumulazione 6 8 true");
+				if (!((entity instanceof LibraCreatureOfNightEntity _datEntI ? _datEntI.getEntityData().get(LibraCreatureOfNightEntity.DATA_interruzione) : 0) == 1)) {
+					CumMod.queueServerWork(72, () -> {
+						if (world instanceof ServerLevel _level)
+							_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+									"effect give @a cum:follia_accumulazione 6 7 true");
+					});
+					CumMod.queueServerWork(280, () -> {
+						if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+							_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_pietre, 0);
+						CumMod.queueServerWork(400, () -> {
+							if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+								_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_libraatt, 0);
+						});
+					});
+				}
+			}
+			if ((entity instanceof LibraCreatureOfNightEntity _datEntI ? _datEntI.getEntityData().get(LibraCreatureOfNightEntity.DATA_whattodo) : 0) == 3) {
+				if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+					_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_pietre, 2);
+				CumMod.queueServerWork(30, () -> {
+					if (world instanceof ServerLevel _level) {
+						Entity entityToSpawn = CumModEntities.LIBRACERCHIO.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+						if (entityToSpawn != null) {
+							entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+						}
+					}
 				});
-				CumMod.queueServerWork(280, () -> {
+				CumMod.queueServerWork(50, () -> {
 					if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
 						_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_pietre, 0);
-					CumMod.queueServerWork(400, () -> {
-						{
-							Entity _ent = entity;
-							Scoreboard _sc = _ent.level().getScoreboard();
-							Objective _so = _sc.getObjective("libraatt");
-							if (_so == null)
-								_so = _sc.addObjective("libraatt", ObjectiveCriteria.DUMMY, Component.literal("libraatt"), ObjectiveCriteria.RenderType.INTEGER);
-							_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
-						}
+					CumMod.queueServerWork(200, () -> {
+						if (entity instanceof LibraCreatureOfNightEntity _datEntSetI)
+							_datEntSetI.getEntityData().set(LibraCreatureOfNightEntity.DATA_libraatt, 0);
 					});
-				});
-			} else {
-				CumMod.queueServerWork(100, () -> {
-					{
-						Entity _ent = entity;
-						Scoreboard _sc = _ent.level().getScoreboard();
-						Objective _so = _sc.getObjective("libraatt");
-						if (_so == null)
-							_so = _sc.addObjective("libraatt", ObjectiveCriteria.DUMMY, Component.literal("libraatt"), ObjectiveCriteria.RenderType.INTEGER);
-						_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
-					}
 				});
 			}
 		}
