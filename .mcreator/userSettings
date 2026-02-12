@@ -4,19 +4,6 @@
   "workspacePanelSortAscending": true,
   "projectBrowserSplitPos": 0,
   "projectBrowserState": {
-    "expandedPaths": [
-      "[, External libraries]",
-      "[, External libraries, Java 21.0.4 SDK]",
-      "[, External libraries, Java 21.0.4 SDK, jdk.localedata]",
-      "[, External libraries, Java 21.0.4 SDK, jdk.localedata, sun]",
-      "[, External libraries, Java 21.0.4 SDK, jdk.localedata, sun, text]",
-      "[, External libraries, Java 21.0.4 SDK, jdk.localedata, sun, text, resources]",
-      "[, External libraries, Java 21.0.4 SDK, jdk.localedata, sun, text, resources, cldr]",
-      "[, External libraries, Java 21.0.4 SDK, jdk.localedata, sun, text, resources, cldr, ext]",
-      "[, External libraries, Java 21.0.4 SDK, jdk.localedata, sun, util]",
-      "[, External libraries, Java 21.0.4 SDK, jdk.localedata, sun, util, resources]",
-      "[, External libraries, Java 21.0.4 SDK, jdk.localedata, sun, util, resources, cldr]",
-      "[, External libraries, Java 21.0.4 SDK, jdk.localedata, sun, util, resources, cldr, ext]"
-    ]
+    "expandedPaths": []
   }
 }
