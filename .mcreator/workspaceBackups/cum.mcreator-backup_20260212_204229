@@ -16681,10 +16681,6 @@
             "type": "entity"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -16713,6 +16709,66 @@
         "files": [
           "src/main/java/net/mcreator/cum/item/BacchettaItem.java",
           "src/main/resources/assets/cum/models/item/bacchetta.json"
+        ]
+      }
+    },
+    {
+      "name": "BacchettaCanUseRangedItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacchetta_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/BacchettaCanUseRangedItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BacchettaOnPlayerStoppedUsing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacchetta_on_player_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/BacchettaOnPlayerStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bloccodifazzoletti",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloccodifazzoletti",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/block/BloccodifazzolettiBlock.java",
+          "src/main/resources/data/cum/forge/biome_modifier/bloccodifazzoletti_biome_modifier.json",
+          "src/main/resources/data/cum/worldgen/placed_feature/bloccodifazzoletti.json",
+          "src/main/resources/assets/cum/models/block/bloccodifazzoletti.json",
+          "src/main/resources/data/cum/worldgen/configured_feature/bloccodifazzoletti.json",
+          "src/main/resources/data/cum/loot_tables/blocks/bloccodifazzoletti.json",
+          "src/main/resources/assets/cum/models/item/bloccodifazzoletti.json",
+          "src/main/resources/assets/cum/blockstates/bloccodifazzoletti.json"
         ]
       }
     }
@@ -17486,7 +17542,7 @@
       "item.cum.dimensione_pericolante": "Asso di Picche",
       "block.cum.inizio_ver": "Inizio (verticale)",
       "subtitles.gb_amereobject": "",
-      "item.cum.bacchetta.description_1": "Materializza una freccia dal nulla.",
+      "item.cum.bacchetta.description_1": "Materializza una freccia spettrale infuocata perforante dal nulla.",
       "item.cum.bacchetta.description_0": "La bacchetta più basilare.",
       "gui.cum.derivazione_gui.label_dx": "dx",
       "item.cum.per_inv_2_spawn_egg": "Pericolante Inverso 2 Spawn Egg",
@@ -17617,6 +17673,7 @@
       "item.cum.perkeo": "Perkeo",
       "block.cum.attcicl": "Attraversamento ciclabile",
       "block.cum.blocco_di_sangue": "Sangue coagulato",
+      "block.cum.bloccodifazzoletti": "Blocco di fazzoletti",
       "gui.cum.p_craft.tooltip_ricevi_qua_il_tuo_scontrino": "Ricevi qua il tuo scontrino",
       "item.cum.cazzo_rosso.description_0": "E\u0027 più forte del pene duro, ma ha probabilità doppia di rompersi",
       "gui.cum.consegna_relazione.sufficienza": "Sufficienza?",

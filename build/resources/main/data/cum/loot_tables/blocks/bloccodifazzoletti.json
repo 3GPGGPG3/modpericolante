@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "cum:blocks/vasca_dopo_elettroforesi",
+  "random_sequence": "cum:blocks/bloccodifazzoletti",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cum:vasca_dopo_elettroforesi"
+          "name": "cum:bloccodifazzoletti"
         }
       ]
     }

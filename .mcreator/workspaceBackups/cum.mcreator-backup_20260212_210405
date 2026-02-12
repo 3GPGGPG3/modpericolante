@@ -16613,6 +16613,164 @@
           }
         ]
       }
+    },
+    {
+      "name": "TomoDellEruditoRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomo_dell_erudito_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/TomoDellEruditoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TomoDellErudito",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomo_dell_erudito",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cum/models/item/tomo_dell_erudito.json",
+          "src/main/java/net/mcreator/cum/item/TomoDellEruditoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BacchettaRangedItemShootsProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacchetta_ranged_item_shoots_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/BacchettaRangedItemShootsProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bacchetta",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacchetta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/BacchettaItem.java",
+          "src/main/resources/assets/cum/models/item/bacchetta.json"
+        ]
+      }
+    },
+    {
+      "name": "BacchettaCanUseRangedItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacchetta_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/BacchettaCanUseRangedItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BacchettaOnPlayerStoppedUsing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacchetta_on_player_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/BacchettaOnPlayerStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bloccodifazzoletti",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloccodifazzoletti",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/block/BloccodifazzolettiBlock.java",
+          "src/main/resources/data/cum/forge/biome_modifier/bloccodifazzoletti_biome_modifier.json",
+          "src/main/resources/data/cum/worldgen/placed_feature/bloccodifazzoletti.json",
+          "src/main/resources/assets/cum/models/block/bloccodifazzoletti.json",
+          "src/main/resources/data/cum/worldgen/configured_feature/bloccodifazzoletti.json",
+          "src/main/resources/data/cum/loot_tables/blocks/bloccodifazzoletti.json",
+          "src/main/resources/assets/cum/models/item/bloccodifazzoletti.json",
+          "src/main/resources/assets/cum/blockstates/bloccodifazzoletti.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -17377,11 +17535,15 @@
       "biome.cum.bioma_non_sicuro": "Bioma Non Sicuro",
       "entity.cum.shrek": "Shrek",
       "gui.cum.integrazione_gui.button_seconda_funzione": "Seconda Funzione",
+      "item.cum.bacchetta.description_3": "-20 PA all\u0027uso",
+      "item.cum.bacchetta.description_2": "",
       "block.cum.tbe.description_0": "Tris Borrate EDTA",
       "gui.cum.azioni_del_telefono.label_scegli_cosa_fare_col_tuo_telefon": "Scegli cosa fare col tuo telefono",
       "item.cum.dimensione_pericolante": "Asso di Picche",
       "block.cum.inizio_ver": "Inizio (verticale)",
       "subtitles.gb_amereobject": "",
+      "item.cum.bacchetta.description_1": "Materializza una freccia spettrale infuocata perforante dal nulla.",
+      "item.cum.bacchetta.description_0": "La bacchetta più basilare.",
       "gui.cum.derivazione_gui.label_dx": "dx",
       "item.cum.per_inv_2_spawn_egg": "Pericolante Inverso 2 Spawn Egg",
       "entity.cum.giocatore_xi": "Giocatore XI",
@@ -17511,6 +17673,7 @@
       "item.cum.perkeo": "Perkeo",
       "block.cum.attcicl": "Attraversamento ciclabile",
       "block.cum.blocco_di_sangue": "Sangue coagulato",
+      "block.cum.bloccodifazzoletti": "Blocco di fazzoletti",
       "gui.cum.p_craft.tooltip_ricevi_qua_il_tuo_scontrino": "Ricevi qua il tuo scontrino",
       "item.cum.cazzo_rosso.description_0": "E\u0027 più forte del pene duro, ma ha probabilità doppia di rompersi",
       "gui.cum.consegna_relazione.sufficienza": "Sufficienza?",
@@ -17775,6 +17938,7 @@
       "item.cum.stivali_immovibili_boots.description_0": "Questi stivali danno la massima resistenza a knockback.",
       "block.cum.cavolo_rosso": "Cavolo Rosso",
       "block.cum.provetta": "Provetta non riempita",
+      "item.cum.tomo_dell_erudito": "Tomo dell\u0027Erudito",
       "item.cum.paperon_de_paperoni_spawn_egg": "Paperon De Paperoni Spawn Egg",
       "item.cum.potere_schiacciata": "Potere: schiacciata",
       "subtitles.sp_death": "",
@@ -17967,7 +18131,10 @@
       "death.attack.sanguinamento.item": "%1$s was killed by %2$s using %3$s",
       "gui.cum.impalatore_gui.tooltip_mettere_il_clonatore": "Mettere il clonatore",
       "item.cum.v_1_spawn_egg": "V1 Spawn Egg",
+      "item.cum.tomo_dell_erudito.description_1": "",
+      "item.cum.tomo_dell_erudito.description_2": "Lin 0 -\u003e Liv 1",
       "item.cum.asso_di_fiori_di_vetro": "Asso di Fiori di vetro",
+      "item.cum.tomo_dell_erudito.description_0": "Leggi per acqiusire le basi di conoscenza sulle stregonerie e sugli incantesimi.",
       "item.cum.bolognese_con_l_uovo.description_0": "Si può decidere se mangiarla tutta (riempiendo tutta la barra) o se dare un morso soltanto per ricevere dei benefici.",
       "gui.cum.p_craft.label_choose_your_villager": "Scegli la tua villica",
       "advancements.pericoloo.descr": "Entra in un bioma pericolante e mangia una stella del godo.",
@@ -18254,6 +18421,7 @@
       "item.cum.equilibrious_beast.description_1": "",
       "item.cum.si": "Sufficienza",
       "block.cum.generatore": "Generatore",
+      "item.cum.bacchetta": "Bacchetta",
       "entity.cum.sisyphus_prime": "Sisyphus Prime",
       "item.cum.fireball_stray": "Palla di fuoco di stray",
       "item.cum.terpene": "Terpene",

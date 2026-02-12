@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cum:block/bloccodifazzoletti"
+    },
+    "facing=east": {
+      "model": "cum:block/bloccodifazzoletti",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cum:block/bloccodifazzoletti",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cum:block/bloccodifazzoletti",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "cum:block/bloccodifazzoletti",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "cum:block/bloccodifazzoletti",
+      "x": 90
+    }
+  }
+}

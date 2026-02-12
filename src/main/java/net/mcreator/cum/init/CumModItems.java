@@ -578,6 +578,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> LIBRACERCHIO_SPAWN_EGG = REGISTRY.register("libracerchio_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.LIBRACERCHIO, -26368, -13312, new Item.Properties()));
 	public static final RegistryObject<Item> TOMO_DELL_ERUDITO = REGISTRY.register("tomo_dell_erudito", () -> new TomoDellEruditoItem());
 	public static final RegistryObject<Item> BACCHETTA = REGISTRY.register("bacchetta", () -> new BacchettaItem());
+	public static final RegistryObject<Item> BLOCCODIFAZZOLETTI = block(CumModBlocks.BLOCCODIFAZZOLETTI);
 
 	// Start of user code block custom items
 	// End of user code block custom items
