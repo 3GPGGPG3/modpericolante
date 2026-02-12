@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "cum:block/fazzoletti_sopra",
-    "up": "cum:block/fazzoletti_sopra",
+    "down": "cum:block/fazzoletti_sopra_godo",
+    "up": "cum:block/fazzoletti_sopra_godo",
     "north": "cum:block/fazzoletti_davanti_2",
     "east": "cum:block/fazzoletti_lato",
     "south": "cum:block/fazzoletti_davanti_2",
     "west": "cum:block/fazzoletti_lato",
-    "particle": "cum:block/fazzoletti_sopra"
+    "particle": "cum:block/fazzoletti_sopra_godo"
   },
   "render_type": "solid"
 }
