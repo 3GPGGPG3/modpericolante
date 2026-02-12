@@ -18,6 +18,7 @@ import net.mcreator.cum.item.TreDiQuadriItem;
 import net.mcreator.cum.item.TreDiPicchieItem;
 import net.mcreator.cum.item.TreDiFioriItem;
 import net.mcreator.cum.item.TreDiCuoriItem;
+import net.mcreator.cum.item.TomoDellEruditoItem;
 import net.mcreator.cum.item.TerpeneItem;
 import net.mcreator.cum.item.TelefonoItem;
 import net.mcreator.cum.item.TecnologiaV1nanteItem;
@@ -186,6 +187,7 @@ import net.mcreator.cum.item.BloodItem;
 import net.mcreator.cum.item.BiciItem;
 import net.mcreator.cum.item.BatteriaItem;
 import net.mcreator.cum.item.BastonePaperoneItem;
+import net.mcreator.cum.item.BacchettaItem;
 import net.mcreator.cum.item.AssoMultiusoItem;
 import net.mcreator.cum.item.AssoDiQuadriItem;
 import net.mcreator.cum.item.AssoDiPicchieNegativoItem;
@@ -574,6 +576,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> SABBIA_DELLA_NOTTE = block(CumModBlocks.SABBIA_DELLA_NOTTE);
 	public static final RegistryObject<Item> RETURN_HOME = REGISTRY.register("return_home", () -> new ReturnHomeItem());
 	public static final RegistryObject<Item> LIBRACERCHIO_SPAWN_EGG = REGISTRY.register("libracerchio_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.LIBRACERCHIO, -26368, -13312, new Item.Properties()));
+	public static final RegistryObject<Item> TOMO_DELL_ERUDITO = REGISTRY.register("tomo_dell_erudito", () -> new TomoDellEruditoItem());
+	public static final RegistryObject<Item> BACCHETTA = REGISTRY.register("bacchetta", () -> new BacchettaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

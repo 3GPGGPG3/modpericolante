@@ -1,0 +1,155 @@
+{
+  "_fv": 73,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_vuota.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 66,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_vuota_fine.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaPALim1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 89,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta_pa.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaPA1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 66,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta_pa.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaPA2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 73,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta_pa.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaPA3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 80,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta_pa.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaPA4"
+          },
+          "anchorPoint": "CENTER",
+          "x": 87,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta_pa.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaPA5"
+          },
+          "anchorPoint": "CENTER",
+          "x": 94,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_a_meta_pa.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaPA6"
+          },
+          "anchorPoint": "CENTER",
+          "x": 101,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "icona_riempita_fine_pa.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "IconaPA7"
+          },
+          "anchorPoint": "CENTER",
+          "x": 89,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pa_icona.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 41,
+          "y": 21,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "PAmeterDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 13,
+      "sy": 13,
+      "ox": 12,
+      "oy": 1,
+      "snapOnGrid": false
+    }
+  }
+}

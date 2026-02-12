@@ -145,5 +145,49 @@ public class FolliaRiduzioneProcedure {
 				_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
 			}
 		}
+		if (new Object() {
+			public int getScore(String score, Entity _ent) {
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective(score);
+				if (_so != null)
+					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+				return 0;
+			}
+		}.getScore("pa", entity) < 0) {
+			{
+				Entity _ent = entity;
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective("pa");
+				if (_so == null)
+					_so = _sc.addObjective("pa", ObjectiveCriteria.DUMMY, Component.literal("pa"), ObjectiveCriteria.RenderType.INTEGER);
+				_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
+			}
+		}
+		if (new Object() {
+			public int getScore(String score, Entity _ent) {
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective(score);
+				if (_so != null)
+					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+				return 0;
+			}
+		}.getScore("pa_lev", entity) == 1 && new Object() {
+			public int getScore(String score, Entity _ent) {
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective(score);
+				if (_so != null)
+					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+				return 0;
+			}
+		}.getScore("pa", entity) > 140) {
+			{
+				Entity _ent = entity;
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective("pa");
+				if (_so == null)
+					_so = _sc.addObjective("pa", ObjectiveCriteria.DUMMY, Component.literal("pa"), ObjectiveCriteria.RenderType.INTEGER);
+				_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(140);
+			}
+		}
 	}
 }

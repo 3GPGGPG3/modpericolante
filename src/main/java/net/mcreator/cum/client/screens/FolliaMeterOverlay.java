@@ -52,7 +52,7 @@ public class FolliaMeterOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (FolliaMeterDisplayOverlayIngameProcedure.execute(entity)) {
-			event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/follia_icona.png"), w / 2 + -62, h / 2 + 57, 0, 0, 25, 25, 25, 25);
+			event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/follia_icona.png"), w / 2 + -61, h / 2 + 57, 0, 0, 25, 25, 25, 25);
 
 			event.getGuiGraphics().blit(new ResourceLocation("cum:textures/screens/icona_vuota.png"), w / 2 + 13, h / 2 + 57, 0, 0, 25, 25, 25, 25);
 

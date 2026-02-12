@@ -425,6 +425,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.BICI.get());
 				tabData.accept(CumModBlocks.SABBIA_DELLA_NOTTE.get().asItem());
 				tabData.accept(CumModItems.RETURN_HOME.get());
+				tabData.accept(CumModItems.TOMO_DELL_ERUDITO.get());
+				tabData.accept(CumModItems.BACCHETTA.get());
 			}).withTabsBefore(UMANI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -678,6 +680,8 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.SABBIA_DELLA_NOTTE.get().asItem());
 				tabData.accept(CumModItems.RETURN_HOME.get());
 				tabData.accept(CumModItems.LIBRACERCHIO_SPAWN_EGG.get());
+				tabData.accept(CumModItems.TOMO_DELL_ERUDITO.get());
+				tabData.accept(CumModItems.BACCHETTA.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> PIANTE_CONTRO_ZOMBIE = REGISTRY.register("piante_contro_zombie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.piante_contro_zombie")).icon(() -> new ItemStack(CumModItems.SOLE.get())).displayItems((parameters, tabData) -> {
