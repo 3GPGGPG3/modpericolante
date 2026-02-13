@@ -3,14 +3,17 @@ package net.mcreator.cum.procedures;
 import net.minecraft.world.scores.criteria.ObjectiveCriteria;
 import net.minecraft.world.scores.Scoreboard;
 import net.minecraft.world.scores.Objective;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.cum.init.CumModEntities;
 
 public class DanieleLucianoOnEntityTickUpdateProcedure {
-	public static void execute(Entity entity) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
 		if (new Object() {
@@ -22,11 +25,10 @@ public class DanieleLucianoOnEntityTickUpdateProcedure {
 				return 0;
 			}
 		}.getScore("Daniele_incazzato", entity) == 3) {
-			{
-				Entity _ent = entity;
-				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "summon cum:daniele_luciano");
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = CumModEntities.DANIELE_LUCIANO.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+				if (entityToSpawn != null) {
+					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 				}
 			}
 			{

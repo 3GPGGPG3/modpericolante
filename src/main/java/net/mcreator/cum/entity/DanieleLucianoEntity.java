@@ -122,7 +122,7 @@ public class DanieleLucianoEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		DanieleLucianoOnEntityTickUpdateProcedure.execute(this);
+		DanieleLucianoOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {
