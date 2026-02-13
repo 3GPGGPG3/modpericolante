@@ -176,5 +176,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.POLIZIOTTO_IN_BICI.get(), PoliziottoInBiciRenderer::new);
 		event.registerEntityRenderer(CumModEntities.BICICLETTA.get(), BiciclettaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.LIBRACERCHIO.get(), LibracerchioRenderer::new);
+		event.registerEntityRenderer(CumModEntities.PACCOTIRATO.get(), ThrownItemRenderer::new);
 	}
 }

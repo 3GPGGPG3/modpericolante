@@ -53,6 +53,7 @@ import net.mcreator.cum.entity.PerInv1Entity;
 import net.mcreator.cum.entity.PeashooterEntity;
 import net.mcreator.cum.entity.PaperonDePaperoniEntity;
 import net.mcreator.cum.entity.PallottoladoroprojectileEntity;
+import net.mcreator.cum.entity.PaccotiratoEntity;
 import net.mcreator.cum.entity.OrdinamentoGiuridicoEntity;
 import net.mcreator.cum.entity.OliviaEntity;
 import net.mcreator.cum.entity.NocciolinaEntity;
@@ -402,6 +403,8 @@ public class CumModEntities {
 			.setUpdateInterval(3).setCustomClientFactory(BiciclettaEntity::new).fireImmune().sized(0.6f, 1.6f));
 	public static final RegistryObject<EntityType<LibracerchioEntity>> LIBRACERCHIO = register("libracerchio", EntityType.Builder.<LibracerchioEntity>of(LibracerchioEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LibracerchioEntity::new).fireImmune().sized(3.4f, 7f));
+	public static final RegistryObject<EntityType<PaccotiratoEntity>> PACCOTIRATO = register("paccotirato",
+			EntityType.Builder.<PaccotiratoEntity>of(PaccotiratoEntity::new, MobCategory.MISC).setCustomClientFactory(PaccotiratoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.6f, 0.6f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

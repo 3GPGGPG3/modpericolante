@@ -91,6 +91,7 @@ import net.mcreator.cum.item.Pattuglia1Item;
 import net.mcreator.cum.item.PaneIntegraleItem;
 import net.mcreator.cum.item.PaneDerivanteItem;
 import net.mcreator.cum.item.PallottoladoroItem;
+import net.mcreator.cum.item.PaccodifazzolettiItem;
 import net.mcreator.cum.item.PBR32Item;
 import net.mcreator.cum.item.OttoDiQuadriItem;
 import net.mcreator.cum.item.OttoDiPicchieItem;
@@ -579,6 +580,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> TOMO_DELL_ERUDITO = REGISTRY.register("tomo_dell_erudito", () -> new TomoDellEruditoItem());
 	public static final RegistryObject<Item> BACCHETTA = REGISTRY.register("bacchetta", () -> new BacchettaItem());
 	public static final RegistryObject<Item> BLOCCODIFAZZOLETTI = block(CumModBlocks.BLOCCODIFAZZOLETTI);
+	public static final RegistryObject<Item> PACCODIFAZZOLETTI = REGISTRY.register("paccodifazzoletti", () -> new PaccodifazzolettiItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

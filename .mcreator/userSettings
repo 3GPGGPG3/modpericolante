@@ -4,6 +4,23 @@
   "workspacePanelSortAscending": true,
   "projectBrowserSplitPos": 0,
   "projectBrowserState": {
-    "expandedPaths": []
+    "expandedPaths": [
+      "[, Cum]",
+      "[, Cum, Source (Gradle)]",
+      "[, Cum, Source (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\java\\net]",
+      "[, Cum, Source (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\java\\net, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\java\\net\\mcreator]",
+      "[, Cum, Source (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\java\\net, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\java\\net\\mcreator, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\java\\net\\mcreator\\cum]",
+      "[, Cum, Source (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\java\\net, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\java\\net\\mcreator, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\java\\net\\mcreator\\cum, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\java\\net\\mcreator\\cum\\item]",
+      "[, Cum, Resources (Gradle)]",
+      "[, Cum, Resources (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets]",
+      "[, Cum, Resources (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum]",
+      "[, Cum, Resources (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum\\models]",
+      "[, Cum, Resources (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum\\models, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum\\models\\custom]",
+      "[, Cum, Resources (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum\\models, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum\\models\\item]",
+      "[, Cum, Resources (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum\\textures]",
+      "[, Cum, Resources (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum\\textures, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum\\textures\\block]",
+      "[, Cum, Resources (Gradle), C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum\\textures, C:\\Users\\decar\\MCreatorWorkspaces\\modpericolante\\modpericolante\\src\\main\\resources\\assets\\cum\\textures\\item]",
+      "[, Cum, Models]"
+    ]
   }
 }

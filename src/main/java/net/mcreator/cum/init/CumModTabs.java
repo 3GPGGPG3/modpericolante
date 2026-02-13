@@ -428,6 +428,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.TOMO_DELL_ERUDITO.get());
 				tabData.accept(CumModItems.BACCHETTA.get());
 				tabData.accept(CumModBlocks.BLOCCODIFAZZOLETTI.get().asItem());
+				tabData.accept(CumModItems.PACCODIFAZZOLETTI.get());
 			}).withTabsBefore(UMANI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
