@@ -14,11 +14,8 @@
     "damage": 2.0,
     "knockback": 5,
     "entityModel": "Default",
-    "customModelTexture": "fazzoletto_godo.png",
+    "customModelTexture": "",
     "modelWidth": 0.6,
-    "modelHeight": 0.6,
-    "onHitsEntity": {
-      "name": "PaccotiratoProjectileHitsLivingEntity"
-    }
+    "modelHeight": 0.6
   }
 }

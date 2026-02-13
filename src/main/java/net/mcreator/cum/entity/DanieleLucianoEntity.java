@@ -5,9 +5,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
@@ -15,7 +17,9 @@ import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.SpawnGroupData;
 import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -23,14 +27,20 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.DifficultyInstance;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
+import net.minecraft.nbt.CompoundTag;
 
-import net.mcreator.cum.procedures.MirabellaEntityIsHurtProcedure;
+import net.mcreator.cum.procedures.DanieleLucianoOnInitialEntitySpawnProcedure;
+import net.mcreator.cum.procedures.DanieleLucianoOnEntityTickUpdateProcedure;
+import net.mcreator.cum.procedures.DanieleLucianoEntityIsHurtProcedure;
 import net.mcreator.cum.init.CumModItems;
 import net.mcreator.cum.init.CumModEntities;
+
+import javax.annotation.Nullable;
 
 public class DanieleLucianoEntity extends Monster {
 	public DanieleLucianoEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -63,6 +73,7 @@ public class DanieleLucianoEntity extends Monster {
 		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, MirabellaEntity.class, false, false));
 	}
 
 	@Override
@@ -95,10 +106,23 @@ public class DanieleLucianoEntity extends Monster {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		MirabellaEntityIsHurtProcedure.execute(world, x, y, z, entity, sourceentity);
+		DanieleLucianoEntityIsHurtProcedure.execute(entity);
 		if (damagesource.is(DamageTypes.CACTUS))
 			return false;
 		return super.hurt(damagesource, amount);
+	}
+
+	@Override
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
+		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
+		DanieleLucianoOnInitialEntitySpawnProcedure.execute(this);
+		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		DanieleLucianoOnEntityTickUpdateProcedure.execute(this);
 	}
 
 	public static void init() {

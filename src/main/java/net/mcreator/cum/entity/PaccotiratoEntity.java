@@ -23,7 +23,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.cum.procedures.PaccotiratoProjectileHitsLivingEntityProcedure;
 import net.mcreator.cum.init.CumModItems;
 import net.mcreator.cum.init.CumModEntities;
 
@@ -90,12 +89,6 @@ public class PaccotiratoEntity extends AbstractArrow implements ItemSupplier {
 			}
 		}
 		return entity == null ? null : new EntityHitResult(entity);
-	}
-
-	@Override
-	public void onHitEntity(EntityHitResult entityHitResult) {
-		super.onHitEntity(entityHitResult);
-		PaccotiratoProjectileHitsLivingEntityProcedure.execute(entityHitResult.getEntity());
 	}
 
 	@Override
