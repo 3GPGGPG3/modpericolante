@@ -69,7 +69,7 @@
     "knockbackResistance": 0.4,
     "movementSpeed": 0.25,
     "stepHeight": 0.6,
-    "armorBaseValue": 0.5,
+    "armorBaseValue": 0.7999999999999999,
     "trackingRange": 64,
     "followRange": 20,
     "health": 20,

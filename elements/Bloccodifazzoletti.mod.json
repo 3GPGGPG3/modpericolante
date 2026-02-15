@@ -49,9 +49,9 @@
     ],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Paccodifazzoletti"
+      "value": "Blocks.AIR"
     },
-    "dropAmount": 10,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "BloccodifazzolettiBlockDestroyedByPlayer"
+    },
     "generateFeature": true,
     "restrictionBiomes": [],
     "blocksToReplace": [

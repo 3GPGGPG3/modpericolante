@@ -12486,8 +12486,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/entity/DanieleLucianoEntity.java",
-          "src/main/java/net/mcreator/cum/client/renderer/DanieleLucianoRenderer.java",
-          "src/main/resources/assets/cum/models/item/daniele_luciano_spawn_egg.json"
+          "src/main/resources/assets/cum/models/item/daniele_luciano_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/client/renderer/DanieleLucianoRenderer.java"
         ]
       }
     },
@@ -16761,14 +16761,14 @@
       "registry_name": "bloccodifazzoletti",
       "metadata": {
         "files": [
-          "src/main/resources/data/cum/forge/biome_modifier/bloccodifazzoletti_biome_modifier.json",
           "src/main/resources/data/cum/worldgen/configured_feature/bloccodifazzoletti.json",
-          "src/main/resources/assets/cum/blockstates/bloccodifazzoletti.json",
-          "src/main/java/net/mcreator/cum/block/BloccodifazzolettiBlock.java",
-          "src/main/resources/assets/cum/models/item/bloccodifazzoletti.json",
-          "src/main/resources/assets/cum/models/block/bloccodifazzoletti.json",
           "src/main/resources/data/cum/worldgen/placed_feature/bloccodifazzoletti.json",
-          "src/main/resources/data/cum/loot_tables/blocks/bloccodifazzoletti.json"
+          "src/main/resources/assets/cum/models/item/bloccodifazzoletti.json",
+          "src/main/java/net/mcreator/cum/block/BloccodifazzolettiBlock.java",
+          "src/main/resources/assets/cum/blockstates/bloccodifazzoletti.json",
+          "src/main/resources/assets/cum/models/block/bloccodifazzoletti.json",
+          "src/main/resources/data/cum/loot_tables/blocks/bloccodifazzoletti.json",
+          "src/main/resources/data/cum/forge/biome_modifier/bloccodifazzoletti_biome_modifier.json"
         ]
       }
     },
@@ -16786,14 +16786,26 @@
       }
     },
     {
-      "name": "PaccotiratoProjectileHitsLivingEntity",
+      "name": "Paccotirato",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paccotirato",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/entity/PaccotiratoEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DanieleLucianoEntityIsHurt",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "paccotirato_projectile_hits_living_entity",
+      "registry_name": "daniele_luciano_entity_is_hurt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/procedures/PaccotiratoProjectileHitsLivingEntityProcedure.java"
+          "src/main/java/net/mcreator/cum/procedures/DanieleLucianoEntityIsHurtProcedure.java"
         ],
         "dependencies": [
           {
@@ -16804,14 +16816,114 @@
       }
     },
     {
-      "name": "Paccotirato",
-      "type": "projectile",
+      "name": "DanieleLucianoOnEntityTickUpdate",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "paccotirato",
+      "registry_name": "daniele_luciano_on_entity_tick_update",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/entity/PaccotiratoEntity.java"
+          "src/main/java/net/mcreator/cum/procedures/DanieleLucianoOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DanieleLucianoOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daniele_luciano_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/DanieleLucianoOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloccodifazzolettiBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloccodifazzoletti_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/BloccodifazzolettiBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PaccotiratoProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paccotirato_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/PaccotiratoProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }

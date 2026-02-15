@@ -24,9 +24,15 @@ public class DanieleLucianoOnEntityTickUpdateProcedure {
 					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
 				return 0;
 			}
-		}.getScore("Daniele_incazzato", entity) == 3) {
+		}.getScore("Daniele_incazzato", entity) >= 2) {
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = CumModEntities.DANIELE_LUCIANO.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+				Entity entityToSpawn = CumModEntities.SOCIALISTA.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+				if (entityToSpawn != null) {
+					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+				}
+			}
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = CumModEntities.SOCIALISTA.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 				if (entityToSpawn != null) {
 					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 				}

@@ -132,7 +132,7 @@ public class DanieleLucianoEntity extends Monster {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.25);
 		builder = builder.add(Attributes.MAX_HEALTH, 20);
-		builder = builder.add(Attributes.ARMOR, 0.5);
+		builder = builder.add(Attributes.ARMOR, 0.8);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 13);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 20);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.4);

@@ -5,6 +5,14 @@
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2026-02-13 22:43:12 +0100",
+      "minecraft:snowy_plains": "2026-02-13 22:36:21 +0100",
+      "minecraft:snowy_taiga": "2026-02-13 22:35:17 +0100"
+    },
+    "done": false
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2026-02-13 22:37:48 +0100"
@@ -13,6 +21,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:spider": "2026-02-15 22:44:00 +0100",
       "minecraft:creeper": "2026-02-13 22:50:16 +0100",
       "minecraft:stray": "2026-02-13 22:50:35 +0100",
       "minecraft:zombie": "2026-02-13 22:50:12 +0100"
@@ -25,13 +34,77 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/misc/diamond": {
     "criteria": {
-      "minecraft:frozen_river": "2026-02-13 22:43:12 +0100",
-      "minecraft:snowy_plains": "2026-02-13 22:36:21 +0100",
-      "minecraft:snowy_taiga": "2026-02-13 22:35:17 +0100"
+      "has_diamond_block": "2026-02-15 22:49:25 +0100"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-02-15 22:48:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-02-15 22:48:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-02-15 22:42:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2026-02-15 22:48:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-02-15 22:48:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2026-02-15 22:48:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2026-02-15 22:48:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-02-15 22:43:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-02-15 22:43:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-02-15 22:49:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2026-02-15 22:48:29 +0100"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
