@@ -15360,9 +15360,9 @@
       "registry_name": "socialista",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/socialista_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/entity/SocialistaEntity.java",
           "src/main/java/net/mcreator/cum/client/renderer/SocialistaRenderer.java",
-          "src/main/java/net/mcreator/cum/entity/SocialistaEntity.java"
+          "src/main/resources/assets/cum/models/item/socialista_spawn_egg.json"
         ]
       }
     },
@@ -16806,6 +16806,96 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/procedures/DanieleLucianoEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DanieleLucianoOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daniele_luciano_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/DanieleLucianoOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DanieleLucianoOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daniele_luciano_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/DanieleLucianoOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Danieleincazzato",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "danieleincazzato",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/DanieleincazzatoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Socialistaincazzato",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "socialistaincazzato",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/SocialistaincazzatoProcedure.java"
         ],
         "dependencies": [
           {

@@ -16,7 +16,7 @@ public class DanieleLucianoOnInitialEntitySpawnProcedure {
 			Objective _so = _sc.getObjective("Daniele_incazzato");
 			if (_so == null)
 				_so = _sc.addObjective("Daniele_incazzato", ObjectiveCriteria.DUMMY, Component.literal("Daniele_incazzato"), ObjectiveCriteria.RenderType.INTEGER);
-			_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(0);
+			_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(1);
 		}
 	}
 }

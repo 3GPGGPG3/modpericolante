@@ -8,6 +8,7 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
@@ -34,6 +35,7 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
+import net.mcreator.cum.procedures.DanieleincazzatoProcedure;
 import net.mcreator.cum.procedures.DanieleLucianoOnInitialEntitySpawnProcedure;
 import net.mcreator.cum.procedures.DanieleLucianoOnEntityTickUpdateProcedure;
 import net.mcreator.cum.procedures.DanieleLucianoEntityIsHurtProcedure;
@@ -63,17 +65,38 @@ public class DanieleLucianoEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
+		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false) {
+			@Override
+			public boolean canUse() {
+				double x = DanieleLucianoEntity.this.getX();
+				double y = DanieleLucianoEntity.this.getY();
+				double z = DanieleLucianoEntity.this.getZ();
+				Entity entity = DanieleLucianoEntity.this;
+				Level world = DanieleLucianoEntity.this.level();
+				return super.canUse() && DanieleincazzatoProcedure.execute(entity);
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				double x = DanieleLucianoEntity.this.getX();
+				double y = DanieleLucianoEntity.this.getY();
+				double z = DanieleLucianoEntity.this.getZ();
+				Entity entity = DanieleLucianoEntity.this;
+				Level world = DanieleLucianoEntity.this.level();
+				return super.canContinueToUse() && DanieleincazzatoProcedure.execute(entity);
+			}
+		});
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(5, new FloatGoal(this));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, MirabellaEntity.class, false, false));
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1));
+		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(6, new FloatGoal(this));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, MirabellaEntity.class, false, false));
 	}
 
 	@Override
@@ -122,7 +145,7 @@ public class DanieleLucianoEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		DanieleLucianoOnEntityTickUpdateProcedure.execute(this);
+		DanieleLucianoOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {
