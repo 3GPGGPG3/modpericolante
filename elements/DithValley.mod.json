@@ -1,0 +1,125 @@
+{
+  "_fv": 73,
+  "_type": "biome",
+  "definition": {
+    "name": "Dith Valley",
+    "groundBlock": {
+      "value": "Blocks.SAND#1"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.SAND#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.RED_SANDSTONE#0"
+    },
+    "airColor": {
+      "value": -6710785,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -6645012,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -8960742,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -11654130,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -9199927,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -14070674,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Pericolo"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 1.0,
+      "max": 2.0
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 12,
+    "treeStem": {
+      "value": "Blocks.LOG2#0"
+    },
+    "treeBranch": {
+      "value": "Blocks.LOG2#0"
+    },
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeFruits": {
+      "value": "Blocks.LEAVES2#0"
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "DeadBushes"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}
