@@ -39,6 +39,7 @@ import net.mcreator.cum.client.model.Modelanticorpo;
 import net.mcreator.cum.client.model.ModelPreside;
 import net.mcreator.cum.client.model.ModelOlivia;
 import net.mcreator.cum.client.model.ModelCustomModel;
+import net.mcreator.cum.client.model.ModelCaparezza_Guardiano_lunare_maggiore;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class CumModModels {
@@ -51,6 +52,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelpeashooter.LAYER_LOCATION, Modelpeashooter::createBodyLayer);
 		event.registerLayerDefinition(Modelcalcoli_di_libra.LAYER_LOCATION, Modelcalcoli_di_libra::createBodyLayer);
 		event.registerLayerDefinition(Modellibbra.LAYER_LOCATION, Modellibbra::createBodyLayer);
+		event.registerLayerDefinition(ModelCaparezza_Guardiano_lunare_maggiore.LAYER_LOCATION, ModelCaparezza_Guardiano_lunare_maggiore::createBodyLayer);
 		event.registerLayerDefinition(Modelraccogli.LAYER_LOCATION, Modelraccogli::createBodyLayer);
 		event.registerLayerDefinition(Modelgirasole.LAYER_LOCATION, Modelgirasole::createBodyLayer);
 		event.registerLayerDefinition(Modelbicicletta.LAYER_LOCATION, Modelbicicletta::createBodyLayer);

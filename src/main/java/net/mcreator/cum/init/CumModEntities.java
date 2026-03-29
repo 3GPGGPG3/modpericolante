@@ -98,6 +98,7 @@ import net.mcreator.cum.entity.DanieleLucianoEntity;
 import net.mcreator.cum.entity.CumEntity;
 import net.mcreator.cum.entity.CharlieChaplinEntity;
 import net.mcreator.cum.entity.CapitalistaEntity;
+import net.mcreator.cum.entity.CaparezzaguardianolunaremaggioreEntity;
 import net.mcreator.cum.entity.BiciclettaEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
 import net.mcreator.cum.entity.AnticorpoEntity;
@@ -405,6 +406,9 @@ public class CumModEntities {
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LibracerchioEntity::new).fireImmune().sized(3.4f, 7f));
 	public static final RegistryObject<EntityType<PaccotiratoEntity>> PACCOTIRATO = register("paccotirato",
 			EntityType.Builder.<PaccotiratoEntity>of(PaccotiratoEntity::new, MobCategory.MISC).setCustomClientFactory(PaccotiratoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.6f, 0.6f));
+	public static final RegistryObject<EntityType<CaparezzaguardianolunaremaggioreEntity>> CAPAREZZAGUARDIANOLUNAREMAGGIORE = register("caparezzaguardianolunaremaggiore",
+			EntityType.Builder.<CaparezzaguardianolunaremaggioreEntity>of(CaparezzaguardianolunaremaggioreEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(32).setUpdateInterval(3)
+					.setCustomClientFactory(CaparezzaguardianolunaremaggioreEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -488,6 +492,7 @@ public class CumModEntities {
 			PoliziottoInBiciEntity.init();
 			BiciclettaEntity.init();
 			LibracerchioEntity.init();
+			CaparezzaguardianolunaremaggioreEntity.init();
 		});
 	}
 
@@ -566,5 +571,6 @@ public class CumModEntities {
 		event.put(POLIZIOTTO_IN_BICI.get(), PoliziottoInBiciEntity.createAttributes().build());
 		event.put(BICICLETTA.get(), BiciclettaEntity.createAttributes().build());
 		event.put(LIBRACERCHIO.get(), LibracerchioEntity.createAttributes().build());
+		event.put(CAPAREZZAGUARDIANOLUNAREMAGGIORE.get(), CaparezzaguardianolunaremaggioreEntity.createAttributes().build());
 	}
 }

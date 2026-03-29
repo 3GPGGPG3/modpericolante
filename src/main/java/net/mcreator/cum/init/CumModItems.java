@@ -581,6 +581,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> BACCHETTA = REGISTRY.register("bacchetta", () -> new BacchettaItem());
 	public static final RegistryObject<Item> BLOCCODIFAZZOLETTI = block(CumModBlocks.BLOCCODIFAZZOLETTI);
 	public static final RegistryObject<Item> PACCODIFAZZOLETTI = REGISTRY.register("paccodifazzoletti", () -> new PaccodifazzolettiItem());
+	public static final RegistryObject<Item> CAPAREZZAGUARDIANOLUNAREMAGGIORE_SPAWN_EGG = REGISTRY.register("caparezzaguardianolunaremaggiore_spawn_egg",
+			() -> new ForgeSpawnEggItem(CumModEntities.CAPAREZZAGUARDIANOLUNAREMAGGIORE, -6375231, -5233628, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

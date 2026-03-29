@@ -455,5 +455,21 @@
         "stream": true
       }
     ]
+  },
+  "caparezza_fight": {
+    "sounds": [
+      {
+        "name": "cum:caparezza_fight",
+        "stream": false
+      }
+    ]
+  },
+  "caparezza_fight_loop": {
+    "sounds": [
+      {
+        "name": "cum:caparezza_fight_loop",
+        "stream": false
+      }
+    ]
   }
 }

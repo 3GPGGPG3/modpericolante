@@ -79,6 +79,7 @@ import net.mcreator.cum.client.renderer.DaveRenderer;
 import net.mcreator.cum.client.renderer.DanieleLucianoRenderer;
 import net.mcreator.cum.client.renderer.CharlieChaplinRenderer;
 import net.mcreator.cum.client.renderer.CapitalistaRenderer;
+import net.mcreator.cum.client.renderer.CaparezzaguardianolunaremaggioreRenderer;
 import net.mcreator.cum.client.renderer.BiciclettaRenderer;
 import net.mcreator.cum.client.renderer.AssassinaDeiNeriColtelliRenderer;
 import net.mcreator.cum.client.renderer.AnticorpoRenderer;
@@ -177,5 +178,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.BICICLETTA.get(), BiciclettaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.LIBRACERCHIO.get(), LibracerchioRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PACCOTIRATO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.CAPAREZZAGUARDIANOLUNAREMAGGIORE.get(), CaparezzaguardianolunaremaggioreRenderer::new);
 	}
 }
