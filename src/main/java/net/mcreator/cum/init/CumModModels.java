@@ -34,6 +34,7 @@ import net.mcreator.cum.client.model.Modelfilfh;
 import net.mcreator.cum.client.model.Modelcube;
 import net.mcreator.cum.client.model.Modelcharlie_chaplin;
 import net.mcreator.cum.client.model.Modelcalcoli_di_libra;
+import net.mcreator.cum.client.model.Modelbuttigghia_Converted;
 import net.mcreator.cum.client.model.Modelbicicletta;
 import net.mcreator.cum.client.model.Modelanticorpo;
 import net.mcreator.cum.client.model.ModelPreside;
@@ -65,6 +66,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelcube.LAYER_LOCATION, Modelcube::createBodyLayer);
 		event.registerLayerDefinition(Modelanticorpo.LAYER_LOCATION, Modelanticorpo::createBodyLayer);
 		event.registerLayerDefinition(Modelflesh_panopticom.LAYER_LOCATION, Modelflesh_panopticom::createBodyLayer);
+		event.registerLayerDefinition(Modelbuttigghia_Converted.LAYER_LOCATION, Modelbuttigghia_Converted::createBodyLayer);
 		event.registerLayerDefinition(Modelcharlie_chaplin.LAYER_LOCATION, Modelcharlie_chaplin::createBodyLayer);
 		event.registerLayerDefinition(Modellinfocita_b_o_plasmacellula.LAYER_LOCATION, Modellinfocita_b_o_plasmacellula::createBodyLayer);
 		event.registerLayerDefinition(Modellibra_cerchio.LAYER_LOCATION, Modellibra_cerchio::createBodyLayer);

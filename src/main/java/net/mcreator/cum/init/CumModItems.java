@@ -181,6 +181,7 @@ import net.mcreator.cum.item.CazzoRossoItem;
 import net.mcreator.cum.item.CartaDiPietraItem;
 import net.mcreator.cum.item.CampioneDiDNAItem;
 import net.mcreator.cum.item.CampioneDiDNAFrammentatoItem;
+import net.mcreator.cum.item.ButtigghiaDuVostruSanguItem;
 import net.mcreator.cum.item.BologneseConLUovoItem;
 import net.mcreator.cum.item.BoloStabilizzanteItem;
 import net.mcreator.cum.item.BlueOrbItem;
@@ -583,6 +584,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> PACCODIFAZZOLETTI = REGISTRY.register("paccodifazzoletti", () -> new PaccodifazzolettiItem());
 	public static final RegistryObject<Item> CAPAREZZAGUARDIANOLUNAREMAGGIORE_SPAWN_EGG = REGISTRY.register("caparezzaguardianolunaremaggiore_spawn_egg",
 			() -> new ForgeSpawnEggItem(CumModEntities.CAPAREZZAGUARDIANOLUNAREMAGGIORE, -6375231, -5233628, new Item.Properties()));
+	public static final RegistryObject<Item> BUTTIGGHIA_DU_VOSTRU_SANGU = REGISTRY.register("buttigghia_du_vostru_sangu", () -> new ButtigghiaDuVostruSanguItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

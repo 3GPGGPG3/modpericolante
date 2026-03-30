@@ -179,5 +179,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.LIBRACERCHIO.get(), LibracerchioRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PACCOTIRATO.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.CAPAREZZAGUARDIANOLUNAREMAGGIORE.get(), CaparezzaguardianolunaremaggioreRenderer::new);
+		event.registerEntityRenderer(CumModEntities.BUTTIGGHIASANGUTIRATA.get(), ThrownItemRenderer::new);
 	}
 }

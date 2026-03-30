@@ -99,6 +99,7 @@ import net.mcreator.cum.entity.CumEntity;
 import net.mcreator.cum.entity.CharlieChaplinEntity;
 import net.mcreator.cum.entity.CapitalistaEntity;
 import net.mcreator.cum.entity.CaparezzaguardianolunaremaggioreEntity;
+import net.mcreator.cum.entity.ButtigghiasangutirataEntity;
 import net.mcreator.cum.entity.BiciclettaEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
 import net.mcreator.cum.entity.AnticorpoEntity;
@@ -409,6 +410,8 @@ public class CumModEntities {
 	public static final RegistryObject<EntityType<CaparezzaguardianolunaremaggioreEntity>> CAPAREZZAGUARDIANOLUNAREMAGGIORE = register("caparezzaguardianolunaremaggiore",
 			EntityType.Builder.<CaparezzaguardianolunaremaggioreEntity>of(CaparezzaguardianolunaremaggioreEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(32).setUpdateInterval(3)
 					.setCustomClientFactory(CaparezzaguardianolunaremaggioreEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ButtigghiasangutirataEntity>> BUTTIGGHIASANGUTIRATA = register("buttigghiasangutirata", EntityType.Builder.<ButtigghiasangutirataEntity>of(ButtigghiasangutirataEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(ButtigghiasangutirataEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

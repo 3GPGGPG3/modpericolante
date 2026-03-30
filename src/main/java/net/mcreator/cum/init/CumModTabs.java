@@ -663,6 +663,11 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_III.get().asItem());
 				tabData.accept(CumModItems.BICI.get());
 			}).withTabsBefore(SCUOLA_GUIDA.getId()).build());
+	public static final RegistryObject<CreativeModeTab> BUTTIGGHIE = REGISTRY.register("buttigghie",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.buttigghie")).icon(() -> new ItemStack(CumModItems.PROSECCO.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(CumModItems.PROSECCO.get());
+				tabData.accept(CumModItems.BUTTIGGHIA_DU_VOSTRU_SANGU.get());
+			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_ELDENRINGANTI = REGISTRY.register("cose_eldenringanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_eldenringanti")).icon(() -> new ItemStack(CumModItems.ANELLO_ANCESTRALE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.NERO_COLTELLO.get());
@@ -684,7 +689,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.LIBRACERCHIO_SPAWN_EGG.get());
 				tabData.accept(CumModItems.TOMO_DELL_ERUDITO.get());
 				tabData.accept(CumModItems.BACCHETTA.get());
-			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
+			}).withTabsBefore(BUTTIGGHIE.getId()).build());
 	public static final RegistryObject<CreativeModeTab> PIANTE_CONTRO_ZOMBIE = REGISTRY.register("piante_contro_zombie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.piante_contro_zombie")).icon(() -> new ItemStack(CumModItems.SOLE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.PEASHOOTER_SPAWN_EGG.get());
