@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cum:block/pericolante_totipotente",
+    "particle": "cum:block/pericolante_totipotente"
+  },
+  "render_type": "solid"
+}

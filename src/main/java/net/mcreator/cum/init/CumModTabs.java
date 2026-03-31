@@ -96,6 +96,9 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA.get().asItem());
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_II.get().asItem());
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_III.get().asItem());
+				tabData.accept(CumModBlocks.BLOCCO_PERICOLANTE_ELETTRICO.get().asItem());
+				tabData.accept(CumModBlocks.BLOCCO_PERICOLANTE_TERMICO.get().asItem());
+				tabData.accept(CumModBlocks.BLOCCO_PERICOLANTE_TOTIPOTENTE.get().asItem());
 			}).withTabsBefore(COSE_OLIVANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> NORME = REGISTRY.register("norme",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.norme")).icon(() -> new ItemStack(CumModItems.RELAZIONE.get())).displayItems((parameters, tabData) -> {
@@ -429,6 +432,11 @@ public class CumModTabs {
 				tabData.accept(CumModItems.BACCHETTA.get());
 				tabData.accept(CumModBlocks.BLOCCODIFAZZOLETTI.get().asItem());
 				tabData.accept(CumModItems.PACCODIFAZZOLETTI.get());
+				tabData.accept(CumModItems.BUTTIGGHIA_DU_VOSTRU_SANGU.get());
+				tabData.accept(CumModBlocks.BLOCCO_PERICOLANTE_ELETTRICO.get().asItem());
+				tabData.accept(CumModBlocks.BLOCCO_PERICOLANTE_TERMICO.get().asItem());
+				tabData.accept(CumModBlocks.BLOCCO_PERICOLANTE_TOTIPOTENTE.get().asItem());
+				tabData.accept(CumModItems.BUTTIGGHIA_DI_GATTI.get());
 			}).withTabsBefore(UMANI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -666,7 +674,9 @@ public class CumModTabs {
 	public static final RegistryObject<CreativeModeTab> BUTTIGGHIE = REGISTRY.register("buttigghie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.buttigghie")).icon(() -> new ItemStack(CumModItems.PROSECCO.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.PROSECCO.get());
+				tabData.accept(CumModItems.SBIRRA.get());
 				tabData.accept(CumModItems.BUTTIGGHIA_DU_VOSTRU_SANGU.get());
+				tabData.accept(CumModItems.BUTTIGGHIA_DI_GATTI.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_ELDENRINGANTI = REGISTRY.register("cose_eldenringanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_eldenringanti")).icon(() -> new ItemStack(CumModItems.ANELLO_ANCESTRALE.get())).displayItems((parameters, tabData) -> {

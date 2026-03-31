@@ -52,6 +52,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.cum.world.inventory.MiraGuiMenu;
+import net.mcreator.cum.procedures.MirabellaOnEntityTickUpdateProcedure;
 import net.mcreator.cum.procedures.MirabellaEntityIsHurtProcedure;
 import net.mcreator.cum.init.CumModEntities;
 import net.mcreator.cum.init.CumModBlocks;
@@ -208,6 +209,12 @@ public class MirabellaEntity extends Monster {
 		}
 		super.mobInteract(sourceentity, hand);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		MirabellaOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

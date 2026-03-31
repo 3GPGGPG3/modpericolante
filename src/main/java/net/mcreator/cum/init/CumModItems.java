@@ -182,6 +182,7 @@ import net.mcreator.cum.item.CartaDiPietraItem;
 import net.mcreator.cum.item.CampioneDiDNAItem;
 import net.mcreator.cum.item.CampioneDiDNAFrammentatoItem;
 import net.mcreator.cum.item.ButtigghiaDuVostruSanguItem;
+import net.mcreator.cum.item.ButtigghiaDiGattiItem;
 import net.mcreator.cum.item.BologneseConLUovoItem;
 import net.mcreator.cum.item.BoloStabilizzanteItem;
 import net.mcreator.cum.item.BlueOrbItem;
@@ -585,6 +586,10 @@ public class CumModItems {
 	public static final RegistryObject<Item> CAPAREZZAGUARDIANOLUNAREMAGGIORE_SPAWN_EGG = REGISTRY.register("caparezzaguardianolunaremaggiore_spawn_egg",
 			() -> new ForgeSpawnEggItem(CumModEntities.CAPAREZZAGUARDIANOLUNAREMAGGIORE, -6375231, -5233628, new Item.Properties()));
 	public static final RegistryObject<Item> BUTTIGGHIA_DU_VOSTRU_SANGU = REGISTRY.register("buttigghia_du_vostru_sangu", () -> new ButtigghiaDuVostruSanguItem());
+	public static final RegistryObject<Item> BLOCCO_PERICOLANTE_ELETTRICO = block(CumModBlocks.BLOCCO_PERICOLANTE_ELETTRICO);
+	public static final RegistryObject<Item> BLOCCO_PERICOLANTE_TERMICO = block(CumModBlocks.BLOCCO_PERICOLANTE_TERMICO);
+	public static final RegistryObject<Item> BLOCCO_PERICOLANTE_TOTIPOTENTE = block(CumModBlocks.BLOCCO_PERICOLANTE_TOTIPOTENTE);
+	public static final RegistryObject<Item> BUTTIGGHIA_DI_GATTI = REGISTRY.register("buttigghia_di_gatti", () -> new ButtigghiaDiGattiItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

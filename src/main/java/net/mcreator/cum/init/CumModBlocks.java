@@ -84,8 +84,11 @@ import net.mcreator.cum.block.BloccoSicuroBlock;
 import net.mcreator.cum.block.BloccoPericolosoNegativoBlock;
 import net.mcreator.cum.block.BloccoPericolosoInversoBlock;
 import net.mcreator.cum.block.BloccoPericolosoBlock;
+import net.mcreator.cum.block.BloccoPericolanteTotipotenteBlock;
+import net.mcreator.cum.block.BloccoPericolanteTermicoBlock;
 import net.mcreator.cum.block.BloccoPericolanteNegativoBlock;
 import net.mcreator.cum.block.BloccoPericolanteInversoBlock;
+import net.mcreator.cum.block.BloccoPericolanteElettricoBlock;
 import net.mcreator.cum.block.BloccoPericolanteBlock;
 import net.mcreator.cum.block.BloccoNonSicuroBlock;
 import net.mcreator.cum.block.BloccoNeutroBlock;
@@ -218,6 +221,9 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> STATUA_DI_DEMONE_ZANNUTO_USATA = REGISTRY.register("statua_di_demone_zannuto_usata", () -> new StatuaDiDemoneZannutoUsataBlock());
 	public static final RegistryObject<Block> SABBIA_DELLA_NOTTE = REGISTRY.register("sabbia_della_notte", () -> new SabbiaDellaNotteBlock());
 	public static final RegistryObject<Block> BLOCCODIFAZZOLETTI = REGISTRY.register("bloccodifazzoletti", () -> new BloccodifazzolettiBlock());
+	public static final RegistryObject<Block> BLOCCO_PERICOLANTE_ELETTRICO = REGISTRY.register("blocco_pericolante_elettrico", () -> new BloccoPericolanteElettricoBlock());
+	public static final RegistryObject<Block> BLOCCO_PERICOLANTE_TERMICO = REGISTRY.register("blocco_pericolante_termico", () -> new BloccoPericolanteTermicoBlock());
+	public static final RegistryObject<Block> BLOCCO_PERICOLANTE_TOTIPOTENTE = REGISTRY.register("blocco_pericolante_totipotente", () -> new BloccoPericolanteTotipotenteBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -100,6 +100,7 @@ import net.mcreator.cum.entity.CharlieChaplinEntity;
 import net.mcreator.cum.entity.CapitalistaEntity;
 import net.mcreator.cum.entity.CaparezzaguardianolunaremaggioreEntity;
 import net.mcreator.cum.entity.ButtigghiasangutirataEntity;
+import net.mcreator.cum.entity.ButtigghiadigattiProiettileEntity;
 import net.mcreator.cum.entity.BiciclettaEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
 import net.mcreator.cum.entity.AnticorpoEntity;
@@ -412,6 +413,9 @@ public class CumModEntities {
 					.setCustomClientFactory(CaparezzaguardianolunaremaggioreEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<ButtigghiasangutirataEntity>> BUTTIGGHIASANGUTIRATA = register("buttigghiasangutirata", EntityType.Builder.<ButtigghiasangutirataEntity>of(ButtigghiasangutirataEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(ButtigghiasangutirataEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ButtigghiadigattiProiettileEntity>> BUTTIGGHIADIGATTI_PROIETTILE = register("buttigghiadigatti_proiettile",
+			EntityType.Builder.<ButtigghiadigattiProiettileEntity>of(ButtigghiadigattiProiettileEntity::new, MobCategory.MISC).setCustomClientFactory(ButtigghiadigattiProiettileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

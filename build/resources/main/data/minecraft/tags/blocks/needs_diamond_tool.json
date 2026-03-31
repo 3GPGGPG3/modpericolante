@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "cum:blocco_pericolante_totipotente",
+    "cum:blocco_pericolante_termico",
+    "cum:blocco_pericolante_elettrico",
     "cum:blocco_lunare",
     "cum:impalatore",
     "cum:blocco_integrale",
