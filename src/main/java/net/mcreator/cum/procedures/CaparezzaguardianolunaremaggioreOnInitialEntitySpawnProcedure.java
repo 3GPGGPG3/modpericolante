@@ -43,13 +43,24 @@ public class CaparezzaguardianolunaremaggioreOnInitialEntitySpawnProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 320, 1, false, false));
 		});
-		CumMod.queueServerWork(500, () -> {
+		CumMod.queueServerWork(510, () -> {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:caparezza_fight_loop")), SoundSource.AMBIENT, 1, 1);
 				} else {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:caparezza_fight_loop")), SoundSource.AMBIENT, 1, 1, false);
 				}
+			}
+			for (int index0 = 0; index0 < 2; index0++) {
+				CumMod.queueServerWork(250, () -> {
+					if (world instanceof Level _level) {
+						if (!_level.isClientSide()) {
+							_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:caparezza_fight_loop")), SoundSource.AMBIENT, 1, 1);
+						} else {
+							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("cum:caparezza_fight_loop")), SoundSource.AMBIENT, 1, 1, false);
+						}
+					}
+				});
 			}
 		});
 	}

@@ -22,6 +22,8 @@ import net.mcreator.cum.entity.V1Entity;
 import net.mcreator.cum.entity.UomoPrimitivoEntity;
 import net.mcreator.cum.entity.TopoEntity;
 import net.mcreator.cum.entity.StrayEntity;
+import net.mcreator.cum.entity.StellinalunarenegativaEntity;
+import net.mcreator.cum.entity.StellinalunareEntity;
 import net.mcreator.cum.entity.StellinaDelGodoNegativaEntity;
 import net.mcreator.cum.entity.StellinaDelGodoEntity;
 import net.mcreator.cum.entity.StellaPericolosaProiettileEntity;
@@ -416,6 +418,10 @@ public class CumModEntities {
 	public static final RegistryObject<EntityType<ButtigghiadigattiProiettileEntity>> BUTTIGGHIADIGATTI_PROIETTILE = register("buttigghiadigatti_proiettile",
 			EntityType.Builder.<ButtigghiadigattiProiettileEntity>of(ButtigghiadigattiProiettileEntity::new, MobCategory.MISC).setCustomClientFactory(ButtigghiadigattiProiettileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<StellinalunareEntity>> STELLINALUNARE = register("stellinalunare",
+			EntityType.Builder.<StellinalunareEntity>of(StellinalunareEntity::new, MobCategory.MISC).setCustomClientFactory(StellinalunareEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<StellinalunarenegativaEntity>> STELLINALUNARENEGATIVA = register("stellinalunarenegativa", EntityType.Builder.<StellinalunarenegativaEntity>of(StellinalunarenegativaEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(StellinalunarenegativaEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

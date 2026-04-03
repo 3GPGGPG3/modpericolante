@@ -19,9 +19,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/block/BloccoDiSborraBlock.java",
-          "src/main/resources/assets/cum/models/block/blocco_di_sborra.json",
           "src/main/resources/assets/cum/models/item/blocco_di_sborra.json",
           "src/main/resources/assets/cum/blockstates/blocco_di_sborra.json",
+          "src/main/resources/assets/cum/models/block/blocco_di_sborra.json",
           "src/main/resources/data/cum/loot_tables/blocks/blocco_di_sborra.json"
         ]
       }
@@ -1510,9 +1510,9 @@
       "registry_name": "mirabella",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/MirabellaRenderer.java",
           "src/main/java/net/mcreator/cum/entity/MirabellaEntity.java",
-          "src/main/resources/assets/cum/models/item/mirabella_spawn_egg.json"
+          "src/main/resources/assets/cum/models/item/mirabella_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/client/renderer/MirabellaRenderer.java"
         ]
       }
     },
@@ -3172,11 +3172,11 @@
       "registry_name": "blocco_di_sborra_rossa",
       "metadata": {
         "files": [
-          "src/main/resources/data/cum/loot_tables/blocks/blocco_di_sborra_rossa.json",
+          "src/main/resources/assets/cum/blockstates/blocco_di_sborra_rossa.json",
           "src/main/resources/assets/cum/models/block/blocco_di_sborra_rossa.json",
           "src/main/resources/assets/cum/models/item/blocco_di_sborra_rossa.json",
-          "src/main/resources/assets/cum/blockstates/blocco_di_sborra_rossa.json",
-          "src/main/java/net/mcreator/cum/block/BloccoDiSborraRossaBlock.java"
+          "src/main/java/net/mcreator/cum/block/BloccoDiSborraRossaBlock.java",
+          "src/main/resources/data/cum/loot_tables/blocks/blocco_di_sborra_rossa.json"
         ]
       }
     },
@@ -6926,10 +6926,10 @@
       "registry_name": "malicious_face",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/entity/MaliciousFaceEntity.java",
           "src/main/resources/assets/cum/models/item/malicious_face_spawn_egg.json",
           "src/main/java/net/mcreator/cum/client/renderer/MaliciousFaceRenderer.java",
-          "src/main/resources/data/cum/forge/biome_modifier/malicious_face_biome_modifier.json"
+          "src/main/resources/data/cum/forge/biome_modifier/malicious_face_biome_modifier.json",
+          "src/main/java/net/mcreator/cum/entity/MaliciousFaceEntity.java"
         ]
       }
     },
@@ -6971,8 +6971,8 @@
       "registry_name": "gd_cube",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/entity/GdCubeEntity.java",
           "src/main/java/net/mcreator/cum/client/renderer/GdCubeRenderer.java",
+          "src/main/java/net/mcreator/cum/entity/GdCubeEntity.java",
           "src/main/resources/data/cum/forge/biome_modifier/gd_cube_biome_modifier.json"
         ]
       }
@@ -11815,10 +11815,10 @@
       "registry_name": "preside",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/PresideRenderer.java",
           "src/main/resources/data/cum/forge/biome_modifier/preside_biome_modifier.json",
-          "src/main/java/net/mcreator/cum/entity/PresideEntity.java",
-          "src/main/resources/assets/cum/models/item/preside_spawn_egg.json"
+          "src/main/resources/assets/cum/models/item/preside_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/client/renderer/PresideRenderer.java",
+          "src/main/java/net/mcreator/cum/entity/PresideEntity.java"
         ]
       }
     },
@@ -12486,8 +12486,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/entity/DanieleLucianoEntity.java",
-          "src/main/resources/assets/cum/models/item/daniele_luciano_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/client/renderer/DanieleLucianoRenderer.java"
+          "src/main/java/net/mcreator/cum/client/renderer/DanieleLucianoRenderer.java",
+          "src/main/resources/assets/cum/models/item/daniele_luciano_spawn_egg.json"
         ]
       }
     },
@@ -14251,8 +14251,8 @@
       "registry_name": "sbirra",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/sbirra.json",
-          "src/main/java/net/mcreator/cum/item/SbirraItem.java"
+          "src/main/java/net/mcreator/cum/item/SbirraItem.java",
+          "src/main/resources/assets/cum/models/item/sbirra.json"
         ]
       }
     },
@@ -14591,10 +14591,10 @@
       "registry_name": "giocatore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/giocatore_spawn_egg.json",
-          "src/main/resources/data/cum/forge/biome_modifier/giocatore_biome_modifier.json",
+          "src/main/java/net/mcreator/cum/client/renderer/GiocatoreRenderer.java",
           "src/main/java/net/mcreator/cum/entity/GiocatoreEntity.java",
-          "src/main/java/net/mcreator/cum/client/renderer/GiocatoreRenderer.java"
+          "src/main/resources/assets/cum/models/item/giocatore_spawn_egg.json",
+          "src/main/resources/data/cum/forge/biome_modifier/giocatore_biome_modifier.json"
         ]
       }
     },
@@ -14606,10 +14606,10 @@
       "registry_name": "giocatore_ii",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/entity/GiocatoreIIEntity.java",
           "src/main/resources/data/cum/forge/biome_modifier/giocatore_ii_biome_modifier.json",
-          "src/main/java/net/mcreator/cum/client/renderer/GiocatoreIIRenderer.java",
-          "src/main/resources/assets/cum/models/item/giocatore_ii_spawn_egg.json"
+          "src/main/resources/assets/cum/models/item/giocatore_ii_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/entity/GiocatoreIIEntity.java",
+          "src/main/java/net/mcreator/cum/client/renderer/GiocatoreIIRenderer.java"
         ]
       }
     },
@@ -15300,8 +15300,8 @@
       "registry_name": "equilibrious_beast",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/equilibrious_beast.json",
-          "src/main/java/net/mcreator/cum/item/EquilibriousBeastItem.java"
+          "src/main/java/net/mcreator/cum/item/EquilibriousBeastItem.java",
+          "src/main/resources/assets/cum/models/item/equilibrious_beast.json"
         ]
       }
     },
@@ -15374,8 +15374,8 @@
       "registry_name": "il_capitale",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/item/IlCapitaleItem.java",
-          "src/main/resources/assets/cum/models/item/il_capitale.json"
+          "src/main/resources/assets/cum/models/item/il_capitale.json",
+          "src/main/java/net/mcreator/cum/item/IlCapitaleItem.java"
         ]
       }
     },
@@ -15387,9 +15387,9 @@
       "registry_name": "proletario",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/ProletarioRenderer.java",
+          "src/main/resources/assets/cum/models/item/proletario_spawn_egg.json",
           "src/main/java/net/mcreator/cum/entity/ProletarioEntity.java",
-          "src/main/resources/assets/cum/models/item/proletario_spawn_egg.json"
+          "src/main/java/net/mcreator/cum/client/renderer/ProletarioRenderer.java"
         ]
       }
     },
@@ -15402,8 +15402,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/entity/CapitalistaEntity.java",
-          "src/main/java/net/mcreator/cum/client/renderer/CapitalistaRenderer.java",
-          "src/main/resources/assets/cum/models/item/capitalista_spawn_egg.json"
+          "src/main/resources/assets/cum/models/item/capitalista_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/client/renderer/CapitalistaRenderer.java"
         ]
       }
     },
@@ -15581,8 +15581,8 @@
       "registry_name": "cibo_frenetico",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/item/CiboFreneticoItem.java",
-          "src/main/resources/assets/cum/models/item/cibo_frenetico.json"
+          "src/main/resources/assets/cum/models/item/cibo_frenetico.json",
+          "src/main/java/net/mcreator/cum/item/CiboFreneticoItem.java"
         ]
       }
     },
@@ -15991,9 +15991,9 @@
       "registry_name": "poliziotto_in_bici",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/entity/PoliziottoInBiciEntity.java",
           "src/main/resources/assets/cum/models/item/poliziotto_in_bici_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/client/renderer/PoliziottoInBiciRenderer.java"
+          "src/main/java/net/mcreator/cum/client/renderer/PoliziottoInBiciRenderer.java",
+          "src/main/java/net/mcreator/cum/entity/PoliziottoInBiciEntity.java"
         ]
       }
     },
@@ -16173,8 +16173,8 @@
       "registry_name": "bici",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/bici.json",
-          "src/main/java/net/mcreator/cum/item/BiciItem.java"
+          "src/main/java/net/mcreator/cum/item/BiciItem.java",
+          "src/main/resources/assets/cum/models/item/bici.json"
         ]
       }
     },
@@ -16222,8 +16222,8 @@
         "files": [
           "src/main/java/net/mcreator/cum/block/SabbiaDellaNotteBlock.java",
           "src/main/resources/data/cum/loot_tables/blocks/sabbia_della_notte.json",
-          "src/main/resources/assets/cum/models/item/sabbia_della_notte.json",
           "src/main/resources/assets/cum/blockstates/sabbia_della_notte.json",
+          "src/main/resources/assets/cum/models/item/sabbia_della_notte.json",
           "src/main/resources/assets/cum/models/block/sabbia_della_notte.json"
         ]
       }
@@ -16248,9 +16248,9 @@
       "registry_name": "bagliore_della_notte",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/world/dimension/BaglioreDellaNotteDimension.java",
           "src/main/resources/data/cum/dimension_type/bagliore_della_notte.json",
-          "src/main/resources/data/cum/dimension/bagliore_della_notte.json"
+          "src/main/resources/data/cum/dimension/bagliore_della_notte.json",
+          "src/main/java/net/mcreator/cum/world/dimension/BaglioreDellaNotteDimension.java"
         ]
       }
     },
@@ -16262,8 +16262,8 @@
       "registry_name": "return_home",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/item/ReturnHomeItem.java",
-          "src/main/resources/assets/cum/models/item/return_home.json"
+          "src/main/resources/assets/cum/models/item/return_home.json",
+          "src/main/java/net/mcreator/cum/item/ReturnHomeItem.java"
         ]
       }
     },
@@ -16380,9 +16380,9 @@
       "registry_name": "libracerchio",
       "metadata": {
         "files": [
+          "src/main/resources/assets/cum/models/item/libracerchio_spawn_egg.json",
           "src/main/java/net/mcreator/cum/client/renderer/LibracerchioRenderer.java",
-          "src/main/java/net/mcreator/cum/entity/LibracerchioEntity.java",
-          "src/main/resources/assets/cum/models/item/libracerchio_spawn_egg.json"
+          "src/main/java/net/mcreator/cum/entity/LibracerchioEntity.java"
         ]
       }
     },
@@ -16660,8 +16660,8 @@
       "registry_name": "tomo_dell_erudito",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/tomo_dell_erudito.json",
-          "src/main/java/net/mcreator/cum/item/TomoDellEruditoItem.java"
+          "src/main/java/net/mcreator/cum/item/TomoDellEruditoItem.java",
+          "src/main/resources/assets/cum/models/item/tomo_dell_erudito.json"
         ]
       }
     },
@@ -16898,11 +16898,11 @@
       "metadata": {
         "files": [
           "src/main/resources/data/cum/worldgen/configured_feature/dith_valley_tree.json",
-          "src/main/resources/data/cum/worldgen/placed_feature/dith_valley_tree.json",
-          "src/main/java/net/mcreator/cum/world/features/treedecorators/DithValleyLeaveDecorator.java",
+          "src/main/java/net/mcreator/cum/world/features/treedecorators/DithValleyFruitDecorator.java",
           "src/main/resources/data/cum/worldgen/biome/dith_valley.json",
+          "src/main/java/net/mcreator/cum/world/features/treedecorators/DithValleyLeaveDecorator.java",
           "src/main/java/net/mcreator/cum/world/features/treedecorators/DithValleyTrunkDecorator.java",
-          "src/main/java/net/mcreator/cum/world/features/treedecorators/DithValleyFruitDecorator.java"
+          "src/main/resources/data/cum/worldgen/placed_feature/dith_valley_tree.json"
         ]
       }
     },
@@ -17044,8 +17044,8 @@
       "registry_name": "buttigghia_du_vostru_sangu",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/buttigghia_du_vostru_sangu.json",
-          "src/main/java/net/mcreator/cum/item/ButtigghiaDuVostruSanguItem.java"
+          "src/main/java/net/mcreator/cum/item/ButtigghiaDuVostruSanguItem.java",
+          "src/main/resources/assets/cum/models/item/buttigghia_du_vostru_sangu.json"
         ]
       }
     },
@@ -17177,10 +17177,10 @@
       "registry_name": "blocco_pericolante_elettrico",
       "metadata": {
         "files": [
-          "src/main/resources/data/cum/loot_tables/blocks/blocco_pericolante_elettrico.json",
           "src/main/resources/assets/cum/models/block/blocco_pericolante_elettrico.json",
           "src/main/java/net/mcreator/cum/block/BloccoPericolanteElettricoBlock.java",
           "src/main/resources/assets/cum/models/item/blocco_pericolante_elettrico.json",
+          "src/main/resources/data/cum/loot_tables/blocks/blocco_pericolante_elettrico.json",
           "src/main/resources/assets/cum/blockstates/blocco_pericolante_elettrico.json"
         ]
       }
@@ -17193,11 +17193,11 @@
       "registry_name": "blocco_pericolante_termico",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/block/blocco_pericolante_termico.json",
           "src/main/resources/assets/cum/blockstates/blocco_pericolante_termico.json",
-          "src/main/resources/assets/cum/models/item/blocco_pericolante_termico.json",
           "src/main/resources/data/cum/loot_tables/blocks/blocco_pericolante_termico.json",
-          "src/main/java/net/mcreator/cum/block/BloccoPericolanteTermicoBlock.java"
+          "src/main/java/net/mcreator/cum/block/BloccoPericolanteTermicoBlock.java",
+          "src/main/resources/assets/cum/models/item/blocco_pericolante_termico.json",
+          "src/main/resources/assets/cum/models/block/blocco_pericolante_termico.json"
         ]
       }
     },
@@ -17209,11 +17209,11 @@
       "registry_name": "blocco_pericolante_totipotente",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/block/BloccoPericolanteTotipotenteBlock.java",
-          "src/main/resources/assets/cum/models/block/blocco_pericolante_totipotente.json",
-          "src/main/resources/data/cum/loot_tables/blocks/blocco_pericolante_totipotente.json",
+          "src/main/resources/assets/cum/blockstates/blocco_pericolante_totipotente.json",
           "src/main/resources/assets/cum/models/item/blocco_pericolante_totipotente.json",
-          "src/main/resources/assets/cum/blockstates/blocco_pericolante_totipotente.json"
+          "src/main/resources/data/cum/loot_tables/blocks/blocco_pericolante_totipotente.json",
+          "src/main/resources/assets/cum/models/block/blocco_pericolante_totipotente.json",
+          "src/main/java/net/mcreator/cum/block/BloccoPericolanteTotipotenteBlock.java"
         ]
       }
     },
@@ -17395,6 +17395,174 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "Stellalunare",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellalunare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/StellalunareItem.java",
+          "src/main/resources/assets/cum/models/item/stellalunare.json"
+        ]
+      }
+    },
+    {
+      "name": "Coselunanti",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cose_lunanti",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Stellalunarenegativa",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellalunarenegativa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/StellalunarenegativaItem.java",
+          "src/main/resources/assets/cum/models/item/stellalunarenegativa.json"
+        ]
+      }
+    },
+    {
+      "name": "Stellinalunare",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellinalunare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/entity/StellinalunareEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Stellinalunareprojectilehitsblock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellinalunareprojectilehitsblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/StellinalunareprojectilehitsblockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stellinalunarenegativa",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stellinalunarenegativa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/entity/StellinalunarenegativaEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Staffalunare",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staffalunare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/StaffalunareItem.java",
+          "src/main/resources/assets/cum/models/item/staffalunare.json"
+        ]
+      }
+    },
+    {
+      "name": "Staffalunarerangeditemshootprojectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staffalunarerangeditemshootprojectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/StaffalunarerangeditemshootprojectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Staffalunarerightclickedonblock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staffalunarerightclickedonblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/StaffalunarerightclickedonblockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Staffalunarenegativa",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staffalunarenegativa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/StaffalunarenegativaItem.java",
+          "src/main/resources/assets/cum/models/item/staffalunarenegativa.json"
         ]
       }
     }
@@ -18119,13 +18287,7 @@
       "BloccoPericolanteInverso",
       "BloccoMedioInverso",
       "BloccoPericolosoInverso",
-      "BloccoLunare",
       "LunaDelGodo",
-      "SpadaLunare1",
-      "SpadaLunare2",
-      "SpadaLunare3",
-      "SpadaLunare4",
-      "ArmaturaLunare",
       "AssassinaDeiNeriColtelli",
       "NeroColtello",
       "PerInv1",
@@ -18184,23 +18346,23 @@
       "gui.cum.integrazione_gui.label_mettere_loggetto_primitivo": "Mettere l\u0027oggetto derivato.",
       "effect.cum.sanguinamentoeffect": "Sanguinamento",
       "item.cum.qu_di_cuori": "4 di Cuori",
-      "gui.cum.secondafunzioneintegrazione_gui.label_ecori": "ECoRI",
       "block.cum.blocco_pericolante_negativo": "Blocco pericolante negativo",
+      "gui.cum.secondafunzioneintegrazione_gui.label_ecori": "ECoRI",
       "item.cum.spada_super_godevole": "Spada super godevole",
       "entity.cum.plasmacellula": "Plasmacellula",
       "item.cum.gel_di_agarosio_bucket": "Beuta con gel di agarosio caldo",
       "item.cum.dna.description_0": "Se la prima mano del round ha solo 1 carta, aggiunge una copia permanente al mazzo e pescala in mano.",
       "item.cum.sei_di_quadri": "6 di Quadri",
       "biome.cum.bioma_non_sicuro": "Bioma Non Sicuro",
-      "entity.cum.shrek": "Shrek",
-      "gui.cum.integrazione_gui.button_seconda_funzione": "Seconda Funzione",
       "item.cum.bacchetta.description_3": "-20 PA all\u0027uso",
+      "gui.cum.integrazione_gui.button_seconda_funzione": "Seconda Funzione",
+      "entity.cum.shrek": "Shrek",
       "item.cum.bacchetta.description_2": "",
       "block.cum.tbe.description_0": "Tris Borrate EDTA",
       "gui.cum.azioni_del_telefono.label_scegli_cosa_fare_col_tuo_telefon": "Scegli cosa fare col tuo telefono",
       "item.cum.dimensione_pericolante": "Asso di Picche",
-      "block.cum.inizio_ver": "Inizio (verticale)",
       "subtitles.gb_amereobject": "",
+      "block.cum.inizio_ver": "Inizio (verticale)",
       "item.cum.bacchetta.description_1": "Materializza una freccia spettrale infuocata perforante dal nulla.",
       "item.cum.bacchetta.description_0": "La bacchetta più basilare.",
       "gui.cum.derivazione_gui.label_dx": "dx",
@@ -18220,8 +18382,8 @@
       "gui.cum.integrazione_gui.tooltip_mettere_energia_1_per_integrazi": "Mettere energia (1 per integrazione)",
       "item.cum.potere_perforazione_ii.description_2": "(tasto SX) -\u003e perfora entità colpita",
       "gui.cum.integrazione_gui.label_dx": "dx",
-      "subtitles.order1": "",
       "item.cum.tecnologia_v_1nante": "Tecnologia V1nante",
+      "subtitles.order1": "",
       "subtitles.order2": "",
       "item.cum.dieci_di_quadri.description_0": "+10 fiche.",
       "item.cum.qu_di_quadri": "4 di Quadri",
@@ -18231,8 +18393,8 @@
       "item.cum.puntale_contaminato_negativo.description_2": "+1 slot item.",
       "painting.cum.giolitti_quadro.title": "L\u0027ASINO",
       "item.cum.campione_di_dna_frammentato": "Campione di DNA frammentato",
-      "item.cum.potere_perforazione_ii.description_1": "Attacca unicamente un singolo nemico.",
       "item.cum.qu_di_quadri.description_0": "+4 fiche.",
+      "item.cum.potere_perforazione_ii.description_1": "Attacca unicamente un singolo nemico.",
       "item.cum.potere_perforazione_ii.description_0": "Perfora massicciamente le corazze e i totem della non morte del nemico.",
       "item.cum.sisyphus_prime_spawn_egg": "Sisyphus Prime Spawn Egg",
       "item.cum.cubo": "Cubo",
@@ -18270,19 +18432,19 @@
       "gui.cum.spada_balatrante_gui.label_jolly": "Jolly",
       "item.cum.puntale_contaminato_negativo": "Puntale negativo contaminato",
       "subtitles.gb_hurt3": "",
-      "subtitles.gb_hurt2": "",
       "item.cum.armaturadelsangue_boots": "Scarpe del sangue",
+      "subtitles.gb_hurt2": "",
       "subtitles.gb_hurt1": "",
       "advancements.tunonhaiidea.descr": "Crea un artefatto leggendario dalla potenza incredibile... talmente pericoloso da poter terminare la tua stessa esistenza in ceneri.",
       "subtitles.gb_hurt4": "",
       "painting.cum.wanted_il_fu_mattia_pascal.author": "Pirandello",
       "enchantment.cum.negativita": "Negativo",
       "item.cum.plasmidevuoto": "Plasmide vuoto",
-      "item.cum.sei_di_quadri.description_0": "+6 fiche.",
-      "item.cum.red_cum": "Red Cum",
       "item.cum.spada_lunare_4": "Spada Lunare IV",
-      "subtitles.war1": "",
+      "item.cum.red_cum": "Red Cum",
+      "item.cum.sei_di_quadri.description_0": "+6 fiche.",
       "item.cum.genetetracillina.description_0": "Dona ai batteri che lo possiedono resistenza all\u0027ampiccilina",
+      "subtitles.war1": "",
       "subtitles.war2": "",
       "death.attack.rottura_di_minchia": "%1$s si è rotto la minchia.",
       "effect.cum.penalizzato": "Penalizzato",
@@ -18294,8 +18456,8 @@
       "item.cum.spada_lunare_1": "Spada Lunare I",
       "item.cum.spada_lunare_2": "Spada Lunare II",
       "item.cum.spada_lunare_3": "Spada Lunare III",
-      "item.cum.cianografia_negativa.description_0": "Copia le abilità del jolly a destra.",
       "item.cum.disc_libra": "Libra, Creature Of Night Theme",
+      "item.cum.cianografia_negativa.description_0": "Copia le abilità del jolly a destra.",
       "item.cum.cianografia_negativa.description_1": "+1 slot item.",
       "item.cum.cin_di_fiori.description_0": "+5 fiche.",
       "gui.cum.pv_zshop.tooltip_10_seeds": "40 suns",
@@ -18304,8 +18466,8 @@
       "item.cum.frenzied_cum": "Sborra della Frenesia",
       "painting.cum.ferraris.title": "Ferraris",
       "item.cum.otto_di_quadri.description_0": "+8 fiche.",
-      "subtitles.ilfumattia": "",
       "item.cum.sette_di_cuori.description_0": "+7 fiche.",
+      "subtitles.ilfumattia": "",
       "item.cum.normadestudentazione": "Norma destudentazione",
       "gui.cum.micropipetta_gui.button_swap_mode": "Swap Mode",
       "entity.cum.essere_perfettamente_inutile": "Essere perfettamente inutile",
@@ -18314,6 +18476,7 @@
       "biome.cum.bioma_pericolante_inverso": "Bioma Pericolante Inverso",
       "item.cum.due_di_picchie.description_0": "+2 fiche.",
       "item.cum.asso_di_cuori.description_0": "Talismano che quando tenuto aumenta la vita massima.",
+      "item_group.cum.cose_lunanti": "Cose Lunanti",
       "item.cum.nove_di_cuori": "9 di Cuori",
       "item.cum.sole": "Sole",
       "death.attack.marcescenza_scarlattaa": "Il morbo della marcescenza scarlatta ha consumato %1$s",
@@ -18357,8 +18520,8 @@
       "item.cum.occhio_maledetto": "Occhio maledetto",
       "item_group.cum.umani": "Umani",
       "entity.cum.olivia": "Olivia",
-      "item.cum.ago_dorato_di_miquella": "Ago dorato di Miquella",
       "painting.cum.paperone_casino_2.title": "Paperone Balatrante2",
+      "item.cum.ago_dorato_di_miquella": "Ago dorato di Miquella",
       "item.cum.due_di_cuori.description_0": "+2 fiche.",
       "block.cum.matraccio": "Matraccio",
       "item.cum.sbirra.description_0": "Oooo la sbirraaa",
@@ -18374,12 +18537,12 @@
       "item.cum.ilgodo": "IL GODO",
       "item.cum.cazzo_rosso": "Cazzo rosso",
       "item.cum.potere_schiacciata_ii.description_3": "(tasto DX) -\u003e esegui un salto sulla tua posizione",
-      "item.cum.sette_di_fiori": "7 di Fiori",
       "item.cum.potere_schiacciata_ii.description_1": "Attacca un nemico e danneggia coloro che vi stanno attorno.",
-      "entity.cum.uomo_primitivo": "Uomo Primitivo",
+      "item.cum.sette_di_fiori": "7 di Fiori",
       "item.cum.potere_schiacciata_ii.description_2": "(tasto SX) -\u003e schiaccia entità colpita",
-      "gui.cum.mira_gui.button_consegna_il_compito": "Consegna il compito",
+      "entity.cum.uomo_primitivo": "Uomo Primitivo",
       "gui.cum.pv_zshop.button_girasole": "Girasole",
+      "gui.cum.mira_gui.button_consegna_il_compito": "Consegna il compito",
       "item.cum.potere_schiacciata_ii.description_0": "Schiaccia un nemico generando una grande esplosione.",
       "item.cum.genesgun": "Genes Gun",
       "item.cum.gel_di_agarosio_bucket.description_0": "Si deve raffreddare in un contenitore con pettine per formare i pozzetti.",
@@ -18388,8 +18551,8 @@
       "item.cum.dieci_di_fiori.description_0": "+10 fiche.",
       "item.cum.disc_libra.desc": "Libra, Creature Of Night - Elden Ring Nightreign Theme",
       "item.cum.mano_di_malenia": "Mano di Malenia",
-      "subtitles.ilfumattiastory": "",
       "item.cum.cianografia": "Cianografia",
+      "subtitles.ilfumattiastory": "",
       "block.cum.cono_block.description_0": "(non dovresti avere questo \"blocco\")",
       "item.cum.potere_esplosione.description_1": "Non è efficace contro i nemici resistenti alle esplosioni.",
       "item.cum.potere_esplosione.description_0": "Genera una esplosione che NON distrugge blocchi.",
@@ -18412,8 +18575,8 @@
       "item.cum.plasmideamp": "Plasmide con amp+",
       "effect.cum.follia_accumulazione": "Follia Accumulazione",
       "entity.cum.pietra_libra": "Pietra Libra",
-      "item.cum.radiant_power_of_the_sun": "Potere radiante del sole (PRDS)",
       "gui.cum.derivazione_gui.label_d": "d",
+      "item.cum.radiant_power_of_the_sun": "Potere radiante del sole (PRDS)",
       "gui.cum.derivazione_gui.label_c": "+ c",
       "item.cum.spada_godevole.description_0": "Questa spada godevole può essere messa in combinazione con un altra per ottenere una spada ancora più godevole.",
       "gui.cum.consegna_relazione.tooltip_questa_azione_comporta_pericoli": "Questa azione comporta pericoli",
@@ -18433,6 +18596,7 @@
       "item.cum.anticorpo_spawn_egg": "Anticorpo Spawn Egg",
       "item.cum.questoeilgodo_negativo": "QUESTO E\u0027 IL GODO negativo",
       "item.cum.spada_random": "Spada random",
+      "item.cum.stellalunare.description_0": "QUESTA E\u0027 LA LUNA!!!",
       "entity.cum.sei_sette": "67",
       "item.cum.staffa_del_godo_negativa": "Staffa del godo negativa",
       "item.cum.telefono.description_0": "Si possono svolgere varie attività.",
@@ -18457,8 +18621,8 @@
       "item.cum.pattuglia_21": "Pattuglia 2",
       "item.cum.mattia_pascal_spawn_egg": "Mattia Pascal Spawn Egg",
       "item.cum.qu_di_fiori": "4 di Fiori",
-      "entity.cum.giocatore_ii": "Giocatore II",
       "item_group.cum.macchine_utensili": "Macchine / Utensili",
+      "entity.cum.giocatore_ii": "Giocatore II",
       "block.cum.blocco_lunare": "Blocco lunare",
       "subtitles.mp_hurt": "",
       "item.minecraft.lingering_potion.effect.pozione_marcescente": "Pozione marcescente persistente",
@@ -18468,8 +18632,8 @@
       "item.cum.buttigghia_di_gatti": "Buttigghia di gatti",
       "item.cum.spada_gabriellante": "Spada Gabriellante",
       "item.cum.armatura_ultrakillante_leggings.description_1": "Stamina recharges in time. If that doesn\u0027t happen, step on BLOCCO ULTRARIATTIVANTE.",
-      "gui.cum.pv_zshop.button_la_pianta": "La pianta",
       "item.cum.armatura_ultrakillante_leggings.description_0": "Shift to dash. You have 3 stamina.",
+      "gui.cum.pv_zshop.button_la_pianta": "La pianta",
       "biome.cum.bioma_pericolante_negativo": "Bioma Pericolante Negativo",
       "item.cum.il_fu_mattia_pascal_disco": "Oh Mattia Pascal...",
       "item.cum.disc_chaos.desc": "Heaven Pierce Her - CHAOS",
@@ -18784,11 +18948,13 @@
       "item.cum.giocatore_spawn_egg": "Giocatore Spawn Egg",
       "block.cum.tavolo_balatrante": "Tavolo Balatrante",
       "item.cum.potere_esplosione_ii.description_3": "(testo DX) -\u003e esplodere su se stessi",
+      "item.cum.stellalunarenegativa": "Stella lunarenegativa",
       "subtitles.gb_thelightisperfection": "",
       "block.cum.blocco_d_erba_vuoto": "Blocco d\u0027erba vuoto",
       "item.cum.impenetrable_template": "Miglioratore IMPENETRABILE",
       "painting.cum.godoperkeo.author": "Balatro",
       "gui.cum.mira_gui.label_consegna_compito": "Consegna compito",
+      "item.cum.staffalunare": "Staffa lunare",
       "gui.cum.chat_gpt.label_vuoi_che_ti_crei_un_blocco_per_m": "Vuoi che ti crei un blocco per Minecraft? Fammi sapere!",
       "item.cum.radiant_power_of_the_sun.description_0": "It\u0027s close to Sisyphus Prime\u0027s power.",
       "block.cum.pass_obb_dx": "Passaggio obbligatorio a destra",
@@ -18804,7 +18970,9 @@
       "item.cum.tomo_dell_erudito.description_0": "Leggi per acqiusire le basi di conoscenza sulle stregonerie e sugli incantesimi.",
       "item.cum.bolognese_con_l_uovo.description_0": "Si può decidere se mangiarla tutta (riempiendo tutta la barra) o se dare un morso soltanto per ricevere dei benefici.",
       "gui.cum.p_craft.label_choose_your_villager": "Scegli la tua villica",
+      "item.cum.stellalunarenegativa.description_0": "+1 slot item",
       "advancements.pericoloo.descr": "Entra in un bioma pericolante e mangia una stella del godo.",
+      "item.cum.stellalunarenegativa.description_1": "QUESTA E\u0027 LA LUNA!!!",
       "item.cum.otto_di_picchie": "8 di Picchie",
       "item.cum.armatura_lunare_helmet": "Elmetto lunare",
       "block.cum.divtranspubbl": "Divieto di transito per i veicoli adibiti al trasporto pubblico",
@@ -18870,6 +19038,7 @@
       "block.cum.pericolante_vuoto": "Blocco pericolante vuoto",
       "gui.cum.chat_gpt.button_pietra": "Pietra",
       "block.cum.blocco_pericoloso_inverso": "Blocco pericoloso inverso",
+      "item.cum.staffalunarenegativa": "Staffa lunare negativa",
       "effect.cum.follia": "Follia",
       "item.cum.otto_di_cuori.description_0": "+8 fiche.",
       "item.cum.per_inv_1_spawn_egg": "Pericolante Inverso 1 Spawn Egg",
@@ -18987,6 +19156,7 @@
       "item.cum.asso_di_quadri": "Asso di Quadri",
       "entity.cum.gabriel": "Gabriel, judge of Hell",
       "biome.cum.bioma_balatrante": "Bioma Balatrante",
+      "item.cum.stellalunare": "Stella lunare",
       "subtitles.mp_weak": "",
       "block.cum.beker": "Beker",
       "gui.cum.micropipetta_gui.tooltip_currently_shooting1": "Currently: shooting",

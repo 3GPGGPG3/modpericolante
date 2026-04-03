@@ -25,9 +25,13 @@ import net.mcreator.cum.item.TecnologiaV1nanteItem;
 import net.mcreator.cum.item.TacoItem;
 import net.mcreator.cum.item.StraysArmItem;
 import net.mcreator.cum.item.StivaliImmovibiliItem;
+import net.mcreator.cum.item.StellalunarenegativaItem;
+import net.mcreator.cum.item.StellalunareItem;
 import net.mcreator.cum.item.StellaPericolosaItem;
 import net.mcreator.cum.item.StellaDelGodoNegativaItem;
 import net.mcreator.cum.item.StellaDelGodoItem;
+import net.mcreator.cum.item.StaffalunarenegativaItem;
+import net.mcreator.cum.item.StaffalunareItem;
 import net.mcreator.cum.item.StaffaDelGodoNegativaItem;
 import net.mcreator.cum.item.StaffaDelGodoItem;
 import net.mcreator.cum.item.SpadaSuperGodevoleItem;
@@ -590,6 +594,10 @@ public class CumModItems {
 	public static final RegistryObject<Item> BLOCCO_PERICOLANTE_TERMICO = block(CumModBlocks.BLOCCO_PERICOLANTE_TERMICO);
 	public static final RegistryObject<Item> BLOCCO_PERICOLANTE_TOTIPOTENTE = block(CumModBlocks.BLOCCO_PERICOLANTE_TOTIPOTENTE);
 	public static final RegistryObject<Item> BUTTIGGHIA_DI_GATTI = REGISTRY.register("buttigghia_di_gatti", () -> new ButtigghiaDiGattiItem());
+	public static final RegistryObject<Item> STELLALUNARE = REGISTRY.register("stellalunare", () -> new StellalunareItem());
+	public static final RegistryObject<Item> STELLALUNARENEGATIVA = REGISTRY.register("stellalunarenegativa", () -> new StellalunarenegativaItem());
+	public static final RegistryObject<Item> STAFFALUNARE = REGISTRY.register("staffalunare", () -> new StaffalunareItem());
+	public static final RegistryObject<Item> STAFFALUNARENEGATIVA = REGISTRY.register("staffalunarenegativa", () -> new StaffalunarenegativaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

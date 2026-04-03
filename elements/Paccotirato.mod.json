@@ -16,12 +16,6 @@
     "entityModel": "Default",
     "customModelTexture": "",
     "modelWidth": 0.6,
-    "modelHeight": 0.6,
-    "onHitsBlock": {
-      "name": "PaccotiratoProjectileHitsBlock"
-    },
-    "onHitsEntity": {
-      "name": "PaccotiratoProjectileHitsBlock"
-    }
+    "modelHeight": 0.6
   }
 }

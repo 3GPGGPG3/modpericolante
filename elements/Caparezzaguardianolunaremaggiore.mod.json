@@ -39,6 +39,9 @@
     "creativeTabs": [
       {
         "value": "MISC"
+      },
+      {
+        "value": "CUSTOM:Coselunanti"
       }
     ],
     "isBoss": true,
@@ -139,7 +142,7 @@
     "rangedAttackItem": {
       "value": ""
     },
-    "rangedItemType": "StellinaDelGodoNegativa",
+    "rangedItemType": "Stellinalunarenegativa",
     "rangedAttackInterval": 40,
     "rangedAttackRadius": 30.0,
     "spawnThisMob": false,

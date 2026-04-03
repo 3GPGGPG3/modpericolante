@@ -156,7 +156,7 @@ public class CaparezzaguardianolunaremaggioreEntity extends Monster implements R
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		StellinaDelGodoNegativaEntity.shoot(this, target);
+		StellinalunarenegativaEntity.shoot(this, target);
 	}
 
 	@Override

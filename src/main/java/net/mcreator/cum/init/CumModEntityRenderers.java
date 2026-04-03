@@ -181,5 +181,7 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.CAPAREZZAGUARDIANOLUNAREMAGGIORE.get(), CaparezzaguardianolunaremaggioreRenderer::new);
 		event.registerEntityRenderer(CumModEntities.BUTTIGGHIASANGUTIRATA.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.BUTTIGGHIADIGATTI_PROIETTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.STELLINALUNARE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.STELLINALUNARENEGATIVA.get(), ThrownItemRenderer::new);
 	}
 }

@@ -18,6 +18,12 @@
       },
       {
         "value": "CUSTOM:StaffaDelGodoNegativa"
+      },
+      {
+        "value": "CUSTOM:Stellalunarenegativa"
+      },
+      {
+        "value": "CUSTOM:Staffalunarenegativa"
       }
     ],
     "isTreasureEnchantment": false,

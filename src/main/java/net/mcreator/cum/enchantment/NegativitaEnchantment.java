@@ -10,8 +10,8 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.mcreator.cum.init.CumModItems;
 
 public class NegativitaEnchantment extends Enchantment {
-	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("cum_negativita",
-			item -> Ingredient.of(new ItemStack(CumModItems.ECTOPLASMA_NEGATIVO.get()), new ItemStack(CumModItems.STELLA_DEL_GODO_NEGATIVA.get()), new ItemStack(CumModItems.STAFFA_DEL_GODO_NEGATIVA.get())).test(new ItemStack(item)));
+	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("cum_negativita", item -> Ingredient.of(new ItemStack(CumModItems.ECTOPLASMA_NEGATIVO.get()), new ItemStack(CumModItems.STELLA_DEL_GODO_NEGATIVA.get()),
+			new ItemStack(CumModItems.STAFFA_DEL_GODO_NEGATIVA.get()), new ItemStack(CumModItems.STELLALUNARENEGATIVA.get()), new ItemStack(CumModItems.STAFFALUNARENEGATIVA.get())).test(new ItemStack(item)));
 
 	public NegativitaEnchantment() {
 		super(Enchantment.Rarity.UNCOMMON, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
