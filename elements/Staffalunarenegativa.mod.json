@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "staffadelgodonegativa",
+    "texture": "staffa_lunare_negativa",
     "customModelName": "Ranged item",
     "customProperties": {},
     "states": [],

@@ -72,6 +72,5 @@ public class CumModSounds {
 	public static final RegistryObject<SoundEvent> TENEBRE_ROSSO_SANGUE = REGISTRY.register("tenebre_rosso_sangue", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "tenebre_rosso_sangue")));
 	public static final RegistryObject<SoundEvent> SBIRRISOUND = REGISTRY.register("sbirrisound", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "sbirrisound")));
 	public static final RegistryObject<SoundEvent> LIBRA_CREATURE_OF_NIGHT = REGISTRY.register("libra_creature_of_night", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "libra_creature_of_night")));
-	public static final RegistryObject<SoundEvent> CAPAREZZA_FIGHT = REGISTRY.register("caparezza_fight", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "caparezza_fight")));
 	public static final RegistryObject<SoundEvent> CAPAREZZA_FIGHT_LOOP = REGISTRY.register("caparezza_fight_loop", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "caparezza_fight_loop")));
 }

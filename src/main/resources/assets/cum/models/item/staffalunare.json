@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cum:item/staffadelgodo"
+    "layer0": "cum:item/staffa_lunare"
   },
   "display": {
     "thirdperson_righthand": {
