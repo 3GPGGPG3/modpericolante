@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "telefono",
+    "texture": "iphone",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Telefono",
+    "name": "iPhone capitalista",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -18,6 +18,9 @@
       },
       {
         "value": "CUSTOM:CoseOlivanti"
+      },
+      {
+        "value": "CUSTOM:Umani"
       }
     ],
     "stackSize": 1,

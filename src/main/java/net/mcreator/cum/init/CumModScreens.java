@@ -26,9 +26,11 @@ import net.mcreator.cum.client.gui.ImpalatoreGUIScreen;
 import net.mcreator.cum.client.gui.GeneratoreGuiScreen;
 import net.mcreator.cum.client.gui.FrigoGUIScreen;
 import net.mcreator.cum.client.gui.DerivazioneGUIScreen;
+import net.mcreator.cum.client.gui.DeepseekScreen;
 import net.mcreator.cum.client.gui.ConsegnaRelazioneScreen;
 import net.mcreator.cum.client.gui.ChatGPTScreen;
 import net.mcreator.cum.client.gui.BalatroGUIScreen;
+import net.mcreator.cum.client.gui.AzioniDiHuaweiScreen;
 import net.mcreator.cum.client.gui.AzioniDelTelefonoScreen;
 import net.mcreator.cum.client.gui.ArmadiettoGUIScreen;
 
@@ -57,6 +59,8 @@ public class CumModScreens {
 			MenuScreens.register(CumModMenus.SECONDAFUNZIONEINTEGRAZIONE_GUI.get(), SecondafunzioneintegrazioneGUIScreen::new);
 			MenuScreens.register(CumModMenus.VASCA_ELETTROFORETICA_GUI.get(), VascaElettroforeticaGUIScreen::new);
 			MenuScreens.register(CumModMenus.ARMADIETTO_GUI.get(), ArmadiettoGUIScreen::new);
+			MenuScreens.register(CumModMenus.AZIONI_DI_HUAWEI.get(), AzioniDiHuaweiScreen::new);
+			MenuScreens.register(CumModMenus.DEEPSEEK.get(), DeepseekScreen::new);
 		});
 	}
 }

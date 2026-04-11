@@ -35,7 +35,6 @@ public class CumModTabs {
 				tabData.accept(CumModItems.CAZZO_ROSSO.get());
 				tabData.accept(CumModItems.PENE_DELLA_FRENESIA.get());
 				tabData.accept(CumModItems.TERPENE.get());
-				tabData.accept(CumModItems.TELEFONO.get());
 				tabData.accept(CumModItems.CAZZO_ROTTO.get());
 				tabData.accept(CumModItems.CAZZO_ROSSO_ROTTO.get());
 				tabData.accept(CumModItems.OLIVIA_SPAWN_EGG.get());
@@ -43,6 +42,7 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.OLIVIA_BLOCK.get().asItem());
 				tabData.accept(CumModItems.PROSECCO.get());
 				tabData.accept(CumModItems.SBIRRA.get());
+				tabData.accept(CumModItems.TELEFONO.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> COSE_PERICOLANTI = REGISTRY.register("cose_pericolanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_pericolanti")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -94,11 +94,11 @@ public class CumModTabs {
 	public static final RegistryObject<CreativeModeTab> NORME = REGISTRY.register("norme",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.norme")).icon(() -> new ItemStack(CumModItems.RELAZIONE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.ORDINAMENTO_GIURIDICO_SPAWN_EGG.get());
+				tabData.accept(CumModItems.POLIZIOTTO_IN_BICI_SPAWN_EGG.get());
 				tabData.accept(CumModItems.NORMADIVIETOUSOTELEFONO.get());
 				tabData.accept(CumModItems.NORMADIVIETODISESSO.get());
 				tabData.accept(CumModItems.NORMAMOUSEDAY.get());
 				tabData.accept(CumModItems.NORMADESTUDENTAZIONE.get());
-				tabData.accept(CumModItems.POLIZIOTTO_IN_BICI_SPAWN_EGG.get());
 			}).withSearchBar().withTabsBefore(COSE_PERICOLANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> ARTI_ANCESTRALI = REGISTRY.register("arti_ancestrali",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.arti_ancestrali")).icon(() -> new ItemStack(CumModItems.ANELLO_ANCESTRALE.get())).displayItems((parameters, tabData) -> {
@@ -130,7 +130,29 @@ public class CumModTabs {
 				tabData.accept(CumModItems.SOCIALISTA_SPAWN_EGG.get());
 				tabData.accept(CumModItems.PROLETARIO_SPAWN_EGG.get());
 				tabData.accept(CumModItems.CAPITALISTA_SPAWN_EGG.get());
+				tabData.accept(CumModItems.TELEFONO.get());
+				tabData.accept(CumModItems.HUAWEI_CINESE.get());
 			}).withTabsBefore(ARTI_ANCESTRALI.getId()).build());
+	public static final RegistryObject<CreativeModeTab> COSE_LUNANTI = REGISTRY.register("cose_lunanti",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_lunanti")).icon(() -> new ItemStack(CumModItems.LUNA_DEL_GODO.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(CumModBlocks.BLOCCO_LUNARE.get().asItem());
+				tabData.accept(CumModItems.SPADA_LUNARE_1.get());
+				tabData.accept(CumModItems.SPADA_LUNARE_2.get());
+				tabData.accept(CumModItems.SPADA_LUNARE_3.get());
+				tabData.accept(CumModItems.SPADA_LUNARE_4.get());
+				tabData.accept(CumModItems.ARMATURA_LUNARE_HELMET.get());
+				tabData.accept(CumModItems.ARMATURA_LUNARE_CHESTPLATE.get());
+				tabData.accept(CumModItems.ARMATURA_LUNARE_LEGGINGS.get());
+				tabData.accept(CumModItems.ARMATURA_LUNARE_BOOTS.get());
+				tabData.accept(CumModItems.CAPAREZZAGUARDIANOLUNAREMAGGIORE_SPAWN_EGG.get());
+				tabData.accept(CumModItems.STELLALUNARE.get());
+				tabData.accept(CumModItems.STAFFALUNARE.get());
+				tabData.accept(CumModItems.STELLALUNARENEGATIVA.get());
+				tabData.accept(CumModItems.STAFFALUNARENEGATIVA.get());
+				tabData.accept(CumModItems.LUNA_DEL_GODO.get());
+				tabData.accept(CumModItems.ASSASSINA_DEI_NERI_COLTELLI_SPAWN_EGG.get());
+				tabData.accept(CumModItems.NERO_COLTELLO.get());
+			}).withSearchBar().withTabsBefore(UMANI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> IL_FU_MATTIA_PASCAL = REGISTRY.register("il_fu_mattia_pascal",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.il_fu_mattia_pascal")).icon(() -> new ItemStack(CumModBlocks.BLOCCO_DI_SBORRA.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModBlocks.BLOCCO_DI_SBORRA.get().asItem());
@@ -432,7 +454,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.STELLALUNARENEGATIVA.get());
 				tabData.accept(CumModItems.STAFFALUNARE.get());
 				tabData.accept(CumModItems.STAFFALUNARENEGATIVA.get());
-			}).withTabsBefore(UMANI.getId()).build());
+				tabData.accept(CumModItems.HUAWEI_CINESE.get());
+			}).withTabsBefore(COSE_LUNANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.DIMENSIONE_PERICOLANTE.get());
@@ -665,6 +688,7 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_II.get().asItem());
 				tabData.accept(CumModBlocks.BOMBA_ATOMICA_III.get().asItem());
 				tabData.accept(CumModItems.BICI.get());
+				tabData.accept(CumModItems.HUAWEI_CINESE.get());
 			}).withTabsBefore(SCUOLA_GUIDA.getId()).build());
 	public static final RegistryObject<CreativeModeTab> BUTTIGGHIE = REGISTRY.register("buttigghie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.buttigghie")).icon(() -> new ItemStack(CumModItems.PROSECCO.get())).displayItems((parameters, tabData) -> {
@@ -673,23 +697,6 @@ public class CumModTabs {
 				tabData.accept(CumModItems.BUTTIGGHIA_DU_VOSTRU_SANGU.get());
 				tabData.accept(CumModItems.BUTTIGGHIA_DI_GATTI.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
-	public static final RegistryObject<CreativeModeTab> COSE_LUNANTI = REGISTRY.register("cose_lunanti",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_lunanti")).icon(() -> new ItemStack(CumModItems.LUNA_DEL_GODO.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(CumModItems.SPADA_LUNARE_1.get());
-				tabData.accept(CumModItems.SPADA_LUNARE_2.get());
-				tabData.accept(CumModItems.SPADA_LUNARE_3.get());
-				tabData.accept(CumModItems.ARMATURA_LUNARE_HELMET.get());
-				tabData.accept(CumModItems.ARMATURA_LUNARE_CHESTPLATE.get());
-				tabData.accept(CumModItems.ARMATURA_LUNARE_LEGGINGS.get());
-				tabData.accept(CumModItems.ARMATURA_LUNARE_BOOTS.get());
-				tabData.accept(CumModBlocks.BLOCCO_LUNARE.get().asItem());
-				tabData.accept(CumModItems.SPADA_LUNARE_4.get());
-				tabData.accept(CumModItems.CAPAREZZAGUARDIANOLUNAREMAGGIORE_SPAWN_EGG.get());
-				tabData.accept(CumModItems.STELLALUNARE.get());
-				tabData.accept(CumModItems.STELLALUNARENEGATIVA.get());
-				tabData.accept(CumModItems.STAFFALUNARE.get());
-				tabData.accept(CumModItems.STAFFALUNARENEGATIVA.get());
-			}).withSearchBar().withTabsBefore(BUTTIGGHIE.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_ELDENRINGANTI = REGISTRY.register("cose_eldenringanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_eldenringanti")).icon(() -> new ItemStack(CumModItems.ANELLO_ANCESTRALE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.NERO_COLTELLO.get());
@@ -711,7 +718,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.LIBRACERCHIO_SPAWN_EGG.get());
 				tabData.accept(CumModItems.TOMO_DELL_ERUDITO.get());
 				tabData.accept(CumModItems.BACCHETTA.get());
-			}).withTabsBefore(COSE_LUNANTI.getId()).build());
+			}).withTabsBefore(BUTTIGGHIE.getId()).build());
 	public static final RegistryObject<CreativeModeTab> PIANTE_CONTRO_ZOMBIE = REGISTRY.register("piante_contro_zombie",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.piante_contro_zombie")).icon(() -> new ItemStack(CumModItems.SOLE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CumModItems.PEASHOOTER_SPAWN_EGG.get());

@@ -130,6 +130,7 @@ import net.mcreator.cum.item.IlFuMattiaPascalDiscoItem;
 import net.mcreator.cum.item.IlCapitaleItem;
 import net.mcreator.cum.item.IMPENETRAZIONEItem;
 import net.mcreator.cum.item.ILGODOItem;
+import net.mcreator.cum.item.HuaweiCineseItem;
 import net.mcreator.cum.item.GodrilloItem;
 import net.mcreator.cum.item.GenetetracillinaItem;
 import net.mcreator.cum.item.GenesgunItem;
@@ -598,6 +599,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> STELLALUNARENEGATIVA = REGISTRY.register("stellalunarenegativa", () -> new StellalunarenegativaItem());
 	public static final RegistryObject<Item> STAFFALUNARE = REGISTRY.register("staffalunare", () -> new StaffalunareItem());
 	public static final RegistryObject<Item> STAFFALUNARENEGATIVA = REGISTRY.register("staffalunarenegativa", () -> new StaffalunarenegativaItem());
+	public static final RegistryObject<Item> HUAWEI_CINESE = REGISTRY.register("huawei_cinese", () -> new HuaweiCineseItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

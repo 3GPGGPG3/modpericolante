@@ -26,9 +26,11 @@ import net.mcreator.cum.world.inventory.ImpalatoreGUIMenu;
 import net.mcreator.cum.world.inventory.GeneratoreGuiMenu;
 import net.mcreator.cum.world.inventory.FrigoGUIMenu;
 import net.mcreator.cum.world.inventory.DerivazioneGUIMenu;
+import net.mcreator.cum.world.inventory.DeepseekMenu;
 import net.mcreator.cum.world.inventory.ConsegnaRelazioneMenu;
 import net.mcreator.cum.world.inventory.ChatGPTMenu;
 import net.mcreator.cum.world.inventory.BalatroGUIMenu;
+import net.mcreator.cum.world.inventory.AzioniDiHuaweiMenu;
 import net.mcreator.cum.world.inventory.AzioniDelTelefonoMenu;
 import net.mcreator.cum.world.inventory.ArmadiettoGUIMenu;
 import net.mcreator.cum.CumMod;
@@ -55,4 +57,6 @@ public class CumModMenus {
 	public static final RegistryObject<MenuType<SecondafunzioneintegrazioneGUIMenu>> SECONDAFUNZIONEINTEGRAZIONE_GUI = REGISTRY.register("secondafunzioneintegrazione_gui", () -> IForgeMenuType.create(SecondafunzioneintegrazioneGUIMenu::new));
 	public static final RegistryObject<MenuType<VascaElettroforeticaGUIMenu>> VASCA_ELETTROFORETICA_GUI = REGISTRY.register("vasca_elettroforetica_gui", () -> IForgeMenuType.create(VascaElettroforeticaGUIMenu::new));
 	public static final RegistryObject<MenuType<ArmadiettoGUIMenu>> ARMADIETTO_GUI = REGISTRY.register("armadietto_gui", () -> IForgeMenuType.create(ArmadiettoGUIMenu::new));
+	public static final RegistryObject<MenuType<AzioniDiHuaweiMenu>> AZIONI_DI_HUAWEI = REGISTRY.register("azioni_di_huawei", () -> IForgeMenuType.create(AzioniDiHuaweiMenu::new));
+	public static final RegistryObject<MenuType<DeepseekMenu>> DEEPSEEK = REGISTRY.register("deepseek", () -> IForgeMenuType.create(DeepseekMenu::new));
 }
