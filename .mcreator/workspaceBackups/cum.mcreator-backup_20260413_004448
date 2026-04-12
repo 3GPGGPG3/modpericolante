@@ -9169,8 +9169,8 @@
       "registry_name": "nero_coltello",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cum/models/item/nero_coltello.json",
-          "src/main/java/net/mcreator/cum/item/NeroColtelloItem.java"
+          "src/main/java/net/mcreator/cum/item/NeroColtelloItem.java",
+          "src/main/resources/assets/cum/models/item/nero_coltello.json"
         ]
       }
     },
@@ -9182,10 +9182,10 @@
       "registry_name": "assassina_dei_neri_coltelli",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/client/renderer/AssassinaDeiNeriColtelliRenderer.java",
           "src/main/resources/data/cum/forge/biome_modifier/assassina_dei_neri_coltelli_biome_modifier.json",
-          "src/main/resources/assets/cum/models/item/assassina_dei_neri_coltelli_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/AssassinaDeiNeriColtelliEntity.java"
+          "src/main/java/net/mcreator/cum/entity/AssassinaDeiNeriColtelliEntity.java",
+          "src/main/java/net/mcreator/cum/client/renderer/AssassinaDeiNeriColtelliRenderer.java",
+          "src/main/resources/assets/cum/models/item/assassina_dei_neri_coltelli_spawn_egg.json"
         ]
       }
     },
@@ -17626,6 +17626,102 @@
           }
         ]
       }
+    },
+    {
+      "name": "Deepseek",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepseek",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/network/DeepseekButtonMessage.java",
+          "src/main/java/net/mcreator/cum/client/gui/DeepseekScreen.java",
+          "src/main/java/net/mcreator/cum/world/inventory/DeepseekMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepseekOnButton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepseek_on_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/DeepseekOnButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IndietroDeepseek",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indietro_deepseek",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/IndietroDeepseekProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnnaScalia",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anna_scalia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/client/renderer/AnnaScaliaRenderer.java",
+          "src/main/resources/assets/cum/models/item/anna_scalia_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/entity/AnnaScaliaEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -18087,19 +18183,11 @@
       "subtitle": ""
     },
     {
-      "name": "caparezza_fight",
-      "files": [
-        "caparezza_fight"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
       "name": "caparezza_fight_loop",
       "files": [
         "caparezza_fight_loop"
       ],
-      "category": "neutral",
+      "category": "ambient",
       "subtitle": ""
     }
   ],
@@ -18309,7 +18397,6 @@
       "CazzoRosso",
       "PeneDellaFrenesia",
       "Terpene",
-      "Telefono",
       "CazzoRotto",
       "CazzoRossoRotto",
       "Olivia",
@@ -18317,7 +18404,7 @@
       "OliviaBlock",
       "Prosecco",
       "Sbirra",
-      "HuaweiCinese"
+      "Telefono"
     ],
     "CUSTOM:CosePericolanti": [
       "BloccoPericolante",
@@ -18364,11 +18451,11 @@
     ],
     "CUSTOM:Norme": [
       "OrdinamentoGiuridico",
+      "PoliziottoInBici",
       "Normadivietousotelefono",
       "Normadivietodisesso",
       "Normamouseday",
-      "Normadestudentazione",
-      "PoliziottoInBici"
+      "Normadestudentazione"
     ],
     "CUSTOM:ArtiAncestrali": [
       "PoterePerforazione",
@@ -18400,6 +18487,22 @@
       "Capitalista",
       "Telefono",
       "HuaweiCinese"
+    ],
+    "CUSTOM:Coselunanti": [
+      "BloccoLunare",
+      "SpadaLunare1",
+      "SpadaLunare2",
+      "SpadaLunare3",
+      "SpadaLunare4",
+      "ArmaturaLunare",
+      "Caparezzaguardianolunaremaggiore",
+      "Stellalunare",
+      "Staffalunare",
+      "Stellalunarenegativa",
+      "Staffalunarenegativa",
+      "LunaDelGodo",
+      "AssassinaDeiNeriColtelli",
+      "NeroColtello"
     ]
   },
   "language_map": {
@@ -18410,23 +18513,23 @@
       "gui.cum.integrazione_gui.label_mettere_loggetto_primitivo": "Mettere l\u0027oggetto derivato.",
       "effect.cum.sanguinamentoeffect": "Sanguinamento",
       "item.cum.qu_di_cuori": "4 di Cuori",
-      "gui.cum.secondafunzioneintegrazione_gui.label_ecori": "ECoRI",
       "block.cum.blocco_pericolante_negativo": "Blocco pericolante negativo",
+      "gui.cum.secondafunzioneintegrazione_gui.label_ecori": "ECoRI",
       "item.cum.spada_super_godevole": "Spada super godevole",
       "entity.cum.plasmacellula": "Plasmacellula",
       "item.cum.gel_di_agarosio_bucket": "Beuta con gel di agarosio caldo",
       "item.cum.dna.description_0": "Se la prima mano del round ha solo 1 carta, aggiunge una copia permanente al mazzo e pescala in mano.",
       "item.cum.sei_di_quadri": "6 di Quadri",
       "biome.cum.bioma_non_sicuro": "Bioma Non Sicuro",
-      "entity.cum.shrek": "Shrek",
-      "gui.cum.integrazione_gui.button_seconda_funzione": "Seconda Funzione",
       "item.cum.bacchetta.description_3": "-20 PA all\u0027uso",
+      "gui.cum.integrazione_gui.button_seconda_funzione": "Seconda Funzione",
+      "entity.cum.shrek": "Shrek",
       "item.cum.bacchetta.description_2": "",
       "block.cum.tbe.description_0": "Tris Borrate EDTA",
       "gui.cum.azioni_del_telefono.label_scegli_cosa_fare_col_tuo_telefon": "Scegli cosa fare col tuo telefono",
       "item.cum.dimensione_pericolante": "Asso di Picche",
-      "block.cum.inizio_ver": "Inizio (verticale)",
       "subtitles.gb_amereobject": "",
+      "block.cum.inizio_ver": "Inizio (verticale)",
       "item.cum.bacchetta.description_1": "Materializza una freccia spettrale infuocata perforante dal nulla.",
       "item.cum.bacchetta.description_0": "La bacchetta più basilare.",
       "gui.cum.derivazione_gui.label_dx": "dx",
@@ -18446,8 +18549,8 @@
       "gui.cum.integrazione_gui.tooltip_mettere_energia_1_per_integrazi": "Mettere energia (1 per integrazione)",
       "item.cum.potere_perforazione_ii.description_2": "(tasto SX) -\u003e perfora entità colpita",
       "gui.cum.integrazione_gui.label_dx": "dx",
-      "subtitles.order1": "",
       "item.cum.tecnologia_v_1nante": "Tecnologia V1nante",
+      "subtitles.order1": "",
       "subtitles.order2": "",
       "item.cum.dieci_di_quadri.description_0": "+10 fiche.",
       "item.cum.qu_di_quadri": "4 di Quadri",
@@ -18457,8 +18560,8 @@
       "item.cum.puntale_contaminato_negativo.description_2": "+1 slot item.",
       "painting.cum.giolitti_quadro.title": "L\u0027ASINO",
       "item.cum.campione_di_dna_frammentato": "Campione di DNA frammentato",
-      "item.cum.potere_perforazione_ii.description_1": "Attacca unicamente un singolo nemico.",
       "item.cum.qu_di_quadri.description_0": "+4 fiche.",
+      "item.cum.potere_perforazione_ii.description_1": "Attacca unicamente un singolo nemico.",
       "item.cum.potere_perforazione_ii.description_0": "Perfora massicciamente le corazze e i totem della non morte del nemico.",
       "item.cum.sisyphus_prime_spawn_egg": "Sisyphus Prime Spawn Egg",
       "item.cum.cubo": "Cubo",
@@ -18469,6 +18572,7 @@
       "item.cum.disc_war_2": "Disco musicale",
       "item.cum.sei_di_picchie": "6 di Picchie",
       "item.cum.disc_war_1": "Disco musicale",
+      "gui.cum.deepseek.label_oppure_cosa_posso_fare_per_te": "Oppure cosa posso fare per te?",
       "item.minecraft.potion.effect.pozione_frenesia_ii": "Pozione della fiamma della frenesia II",
       "item.cum.pene_della_frenesia": "Pene della Frenesia",
       "item.cum.puntale": "Puntale",
@@ -18496,19 +18600,19 @@
       "gui.cum.spada_balatrante_gui.label_jolly": "Jolly",
       "item.cum.puntale_contaminato_negativo": "Puntale negativo contaminato",
       "subtitles.gb_hurt3": "",
-      "subtitles.gb_hurt2": "",
       "item.cum.armaturadelsangue_boots": "Scarpe del sangue",
+      "subtitles.gb_hurt2": "",
       "subtitles.gb_hurt1": "",
       "advancements.tunonhaiidea.descr": "Crea un artefatto leggendario dalla potenza incredibile... talmente pericoloso da poter terminare la tua stessa esistenza in ceneri.",
       "subtitles.gb_hurt4": "",
       "painting.cum.wanted_il_fu_mattia_pascal.author": "Pirandello",
       "enchantment.cum.negativita": "Negativo",
       "item.cum.plasmidevuoto": "Plasmide vuoto",
-      "item.cum.sei_di_quadri.description_0": "+6 fiche.",
-      "item.cum.red_cum": "Red Cum",
       "item.cum.spada_lunare_4": "Spada Lunare IV",
-      "subtitles.war1": "",
+      "item.cum.red_cum": "Red Cum",
+      "item.cum.sei_di_quadri.description_0": "+6 fiche.",
       "item.cum.genetetracillina.description_0": "Dona ai batteri che lo possiedono resistenza all\u0027ampiccilina",
+      "subtitles.war1": "",
       "subtitles.war2": "",
       "death.attack.rottura_di_minchia": "%1$s si è rotto la minchia.",
       "effect.cum.penalizzato": "Penalizzato",
@@ -18520,8 +18624,8 @@
       "item.cum.spada_lunare_1": "Spada Lunare I",
       "item.cum.spada_lunare_2": "Spada Lunare II",
       "item.cum.spada_lunare_3": "Spada Lunare III",
-      "item.cum.cianografia_negativa.description_0": "Copia le abilità del jolly a destra.",
       "item.cum.disc_libra": "Libra, Creature Of Night Theme",
+      "item.cum.cianografia_negativa.description_0": "Copia le abilità del jolly a destra.",
       "item.cum.cianografia_negativa.description_1": "+1 slot item.",
       "item.cum.cin_di_fiori.description_0": "+5 fiche.",
       "gui.cum.pv_zshop.tooltip_10_seeds": "40 suns",
@@ -18530,8 +18634,8 @@
       "item.cum.frenzied_cum": "Sborra della Frenesia",
       "painting.cum.ferraris.title": "Ferraris",
       "item.cum.otto_di_quadri.description_0": "+8 fiche.",
-      "subtitles.ilfumattia": "",
       "item.cum.sette_di_cuori.description_0": "+7 fiche.",
+      "subtitles.ilfumattia": "",
       "item.cum.normadestudentazione": "Norma destudentazione",
       "gui.cum.micropipetta_gui.button_swap_mode": "Swap Mode",
       "entity.cum.essere_perfettamente_inutile": "Essere perfettamente inutile",
@@ -18539,13 +18643,14 @@
       "gui.cum.integrazione_gui.button_integra": "Integra",
       "biome.cum.bioma_pericolante_inverso": "Bioma Pericolante Inverso",
       "item.cum.due_di_picchie.description_0": "+2 fiche.",
-      "item_group.cum.cose_lunanti": "Cose Lunanti",
       "item.cum.asso_di_cuori.description_0": "Talismano che quando tenuto aumenta la vita massima.",
+      "item_group.cum.cose_lunanti": "Cose Lunanti",
       "item.cum.nove_di_cuori": "9 di Cuori",
       "item.cum.sole": "Sole",
       "death.attack.marcescenza_scarlattaa": "Il morbo della marcescenza scarlatta ha consumato %1$s",
       "entity.cum.charlie_chaplin": "Charlie Chaplin",
       "subtitles.gb_foolishnessmachine": "",
+      "gui.cum.azioni_di_huawei.button_ali_pay": "Ali Pay",
       "gui.cum.chat_gpt.button_plasmide": "Fammi un plasmide",
       "item.cum.cin_di_picchie": "5 di Picchie",
       "item.minecraft.splash_potion.effect.pozione_frenesia_iii": "Pozione lanciabile della fiamma della frenesia III",
@@ -18584,8 +18689,8 @@
       "item.cum.occhio_maledetto": "Occhio maledetto",
       "item_group.cum.umani": "Umani",
       "entity.cum.olivia": "Olivia",
-      "item.cum.ago_dorato_di_miquella": "Ago dorato di Miquella",
       "painting.cum.paperone_casino_2.title": "Paperone Balatrante2",
+      "item.cum.ago_dorato_di_miquella": "Ago dorato di Miquella",
       "item.cum.due_di_cuori.description_0": "+2 fiche.",
       "block.cum.matraccio": "Matraccio",
       "item.cum.sbirra.description_0": "Oooo la sbirraaa",
@@ -18601,22 +18706,23 @@
       "item.cum.ilgodo": "IL GODO",
       "item.cum.cazzo_rosso": "Cazzo rosso",
       "item.cum.potere_schiacciata_ii.description_3": "(tasto DX) -\u003e esegui un salto sulla tua posizione",
-      "item.cum.sette_di_fiori": "7 di Fiori",
       "item.cum.potere_schiacciata_ii.description_1": "Attacca un nemico e danneggia coloro che vi stanno attorno.",
-      "entity.cum.uomo_primitivo": "Uomo Primitivo",
+      "item.cum.sette_di_fiori": "7 di Fiori",
       "item.cum.potere_schiacciata_ii.description_2": "(tasto SX) -\u003e schiaccia entità colpita",
-      "gui.cum.mira_gui.button_consegna_il_compito": "Consegna il compito",
+      "entity.cum.uomo_primitivo": "Uomo Primitivo",
       "gui.cum.pv_zshop.button_girasole": "Girasole",
+      "gui.cum.mira_gui.button_consegna_il_compito": "Consegna il compito",
       "item.cum.potere_schiacciata_ii.description_0": "Schiaccia un nemico generando una grande esplosione.",
       "item.cum.genesgun": "Genes Gun",
       "item.cum.gel_di_agarosio_bucket.description_0": "Si deve raffreddare in un contenitore con pettine per formare i pozzetti.",
+      "item.cum.anna_scalia_spawn_egg": "Anna Scalia Spawn Egg",
       "block.cum.armadietto": "Armadietto",
       "item.cum.nove_di_picchie.description_0": "+9 fiche.",
       "item.cum.dieci_di_fiori.description_0": "+10 fiche.",
       "item.cum.disc_libra.desc": "Libra, Creature Of Night - Elden Ring Nightreign Theme",
       "item.cum.mano_di_malenia": "Mano di Malenia",
-      "subtitles.ilfumattiastory": "",
       "item.cum.cianografia": "Cianografia",
+      "subtitles.ilfumattiastory": "",
       "block.cum.cono_block.description_0": "(non dovresti avere questo \"blocco\")",
       "item.cum.potere_esplosione.description_1": "Non è efficace contro i nemici resistenti alle esplosioni.",
       "item.cum.potere_esplosione.description_0": "Genera una esplosione che NON distrugge blocchi.",
@@ -18637,10 +18743,11 @@
       "item.cum.filfh_err_spawn_egg": "Filfh Err Spawn Egg",
       "item.cum.otto_di_cuori": "8 di Cuori",
       "item.cum.plasmideamp": "Plasmide con amp+",
+      "gui.cum.deepseek.button_fammi_una_relazione": "Fammi una relazione",
       "effect.cum.follia_accumulazione": "Follia Accumulazione",
       "entity.cum.pietra_libra": "Pietra Libra",
-      "item.cum.radiant_power_of_the_sun": "Potere radiante del sole (PRDS)",
       "gui.cum.derivazione_gui.label_d": "d",
+      "item.cum.radiant_power_of_the_sun": "Potere radiante del sole (PRDS)",
       "gui.cum.derivazione_gui.label_c": "+ c",
       "item.cum.spada_godevole.description_0": "Questa spada godevole può essere messa in combinazione con un altra per ottenere una spada ancora più godevole.",
       "gui.cum.consegna_relazione.tooltip_questa_azione_comporta_pericoli": "Questa azione comporta pericoli",
@@ -18687,6 +18794,7 @@
       "item.cum.qu_di_fiori": "4 di Fiori",
       "entity.cum.giocatore_ii": "Giocatore II",
       "item_group.cum.macchine_utensili": "Macchine / Utensili",
+      "gui.cum.deepseek.button_erba": "Erba",
       "block.cum.blocco_lunare": "Blocco lunare",
       "subtitles.mp_hurt": "",
       "item.minecraft.lingering_potion.effect.pozione_marcescente": "Pozione marcescente persistente",
@@ -18738,6 +18846,7 @@
       "item.cum.stella_del_godo_negativa.description_1": "QUESTO E\u0027 BALATRO!!!",
       "item.cum.stella_del_godo_negativa.description_0": "+1 slot item",
       "block.cum.cono_block": "Cono Block",
+      "gui.cum.deepseek.label_vuoi_che_ti_crei_un_blocco_per_m": "Vuoi che ti crei un blocco per Minecraft? Fammi sapere!",
       "item.cum.virus_spawn_egg": "Orthomyxoviridae Spawn Egg",
       "block.cum.dir_obb_dx": "Direzione obbligatoria a destra",
       "item.cum.filfh_spawn_egg": "Filfh Spawn Egg",
@@ -18765,6 +18874,7 @@
       "item.minecraft.splash_potion.effect.pozione_frenesia": "Pozione lanciabile della fiamma della frenesia",
       "block.cum.blocco_pericoloso_negativo": "Blocco pericoloso negativo",
       "entity.cum.poliziotto_in_bici": "Poliziotto in bici",
+      "gui.cum.deepseek.tooltip_qua_verranno_generate_le_cose": "Sono a tua disposizione!",
       "biome.cum.monte_abbummatu": "Monte Abbummatu",
       "block.cum.blocco_pericolante_termico": "Blocco pericolante termico",
       "block.cum.blocco_di_diamante_vuoto": "Blocco di diamante vuoto",
@@ -18906,7 +19016,7 @@
       "entity.cum.alessandro_manzoni": "Alessandro Manzoni",
       "item.cum.runa_maggiore_di_malenia": "Runa Maggiore di Malenia",
       "item.cum.sei_di_fiori.description_0": "+6 fiche.",
-      "gui.cum.azioni_di_huawei.button_carica_la_batteria": "Carica la batteria",
+      "gui.cum.azioni_di_huawei.button_carica_la_batteria": "Contributo alla Patria",
       "gui.cum.derivazione_gui.button_integra": "Deriva",
       "subtitles.sp_hurt": "",
       "item.cum.tre_di_fiori.description_0": "+3 fiche.",
@@ -18928,6 +19038,7 @@
       "subtitles.order": "",
       "item.cum.no": "INSUFFICIENZA",
       "item.cum.topo_spawn_egg": "Topo Spawn Egg",
+      "entity.cum.anna_scalia": "Anna Scalia",
       "painting.cum.un_voto_in_meno.title": "Un Voto In Meno",
       "gui.cum.pv_zshop.label_il_prezzo": "il prezzo.",
       "item.cum.king_rat_spawn_egg": "Rat king Spawn Egg",
@@ -19026,6 +19137,7 @@
       "item.cum.staffalunare": "Staffa lunare",
       "gui.cum.chat_gpt.label_vuoi_che_ti_crei_un_blocco_per_m": "Vuoi che ti crei un blocco per Minecraft? Fammi sapere!",
       "item.cum.radiant_power_of_the_sun.description_0": "It\u0027s close to Sisyphus Prime\u0027s power.",
+      "gui.cum.deepseek.button_terra": "Terra",
       "block.cum.pass_obb_dx": "Passaggio obbligatorio a destra",
       "item.minecraft.splash_potion.effect.pozione_marcescente": "Pozione marcescente lanciabile",
       "item.minecraft.splash_potion.effect.pozione_non_godevole": "Pozione non godevole lanciabile",
@@ -19094,6 +19206,7 @@
       "item.cum.indicatore_al_cavolo_rosso.desc": "Il cavolo rosso è una specie di verdura che contiene delle sostanze chiamate antocianine, che fungono da indicatore.",
       "biome.cum.bioma_sicuro": "Bioma Sicuro",
       "item_group.cum.cose_eldenringanti": "Cose Eldenringanti",
+      "gui.cum.deepseek.button_pericolante": "Pericolante",
       "entity.cum.minos_prime": "Minos Prime",
       "gui.cum.macchina_del_tempo_gui.button_fx": "F(x)",
       "item_group.cum.norme": "Norme",
@@ -19117,6 +19230,7 @@
       "item_group.cum.il_fu_mattia_pascal": "Il Fu Mattia Pascal",
       "biome.cum.bioma_derivato": "Bioma Derivato",
       "item.cum.uomo_primitivo_spawn_egg": "Uomo Primitivo Spawn Egg",
+      "gui.cum.deepseek.button_plasmide": "Fammi un plasmide",
       "item.cum.otto_di_quadri": "8 di Quadri",
       "death.attack.sborrato.player": "%1$s è stato sborrato mentre scappava da %2$s",
       "gui.cum.vasca_elettroforetica_gui.button_avvia_corsa": "Avvia corsa",
@@ -19179,7 +19293,7 @@
       "item.cum.adriano_meis_spawn_egg": "Adriano Meis Spawn Egg",
       "biome.cum.dith_valley": "Dith Valley",
       "effect.cum.vacatiolegis": "Vacatio Legis",
-      "gui.cum.azioni_di_huawei.button_chatgpt": "ChatGPT",
+      "gui.cum.azioni_di_huawei.button_chatgpt": "Deepseek",
       "gui.cum.mira_gui.tooltip_questa_azione_comporta_dei_peric": "Questa azione comporta pericoli!",
       "item.cum.bolo_stabilizzante": "Bolo Stabilizzante",
       "item.cum.giocatore_xii_spawn_egg": "Giocatore XII Spawn Egg",
@@ -19254,6 +19368,7 @@
       "item_group.cum.buttigghie": "Buttigghie",
       "item.cum.ectoplasma_negativo.description_0": "+1 slot item",
       "item.cum.malenia_blade_of_miquella_spawn_egg": "Malenia, Blade Of Miquella Spawn Egg",
+      "gui.cum.deepseek.button_pietra": "Pietra",
       "painting.cum.giudice.title": "Giudice",
       "item.cum.bici": "Bici",
       "biome.cum.bioma_pericollante": "Bioma Pericolante",
@@ -19261,6 +19376,7 @@
       "block.cum.blood": "Sangue",
       "item.cum.telefono": "iPhone capitalista",
       "gui.cum.maps.label_scegli_la_destinazione": "Scegli la destinazione",
+      "gui.cum.deepseek.button_indietro": "INDIETRO",
       "gui.cum.frigo_gui.tooltip_empty": "Mettere energia (1 per raffreddamento)",
       "item.cum.ectoplasma.description_0": "Applica  n e g a t i v o  a certi oggetti -1 oggetto dalla mano",
       "item.cum.ccum": "Sborra",
@@ -19272,6 +19388,7 @@
       "item.minecraft.splash_potion.effect.pozione_frenesia_ii": "Pozione lanciabile della fiamma della frenesia II",
       "gui.cum.frigo_gui.button_raffredda": "Raffredda",
       "item.cum.lancia_di_vike": "Lancia Di Vike",
+      "gui.cum.deepseek.button_diamante": "Diamante",
       "gui.cum.pv_zshop.tooltip_prendi_le_piante_acquistate": "prendi le piante acquistate",
       "item.cum.pericolante_3_spawn_egg": "Pericolante 3 Spawn Egg",
       "block.cum.impalatore.description_0": "Usalo per impilare gli oggetti.",

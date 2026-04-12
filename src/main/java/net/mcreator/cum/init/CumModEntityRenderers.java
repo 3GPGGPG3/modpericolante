@@ -83,6 +83,7 @@ import net.mcreator.cum.client.renderer.CaparezzaguardianolunaremaggioreRenderer
 import net.mcreator.cum.client.renderer.BiciclettaRenderer;
 import net.mcreator.cum.client.renderer.AssassinaDeiNeriColtelliRenderer;
 import net.mcreator.cum.client.renderer.AnticorpoRenderer;
+import net.mcreator.cum.client.renderer.AnnaScaliaRenderer;
 import net.mcreator.cum.client.renderer.AlessandroManzoniRenderer;
 import net.mcreator.cum.client.renderer.AdrianoMeisRenderer;
 
@@ -183,5 +184,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.BUTTIGGHIADIGATTI_PROIETTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.STELLINALUNARE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.STELLINALUNARENEGATIVA.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.ANNA_SCALIA.get(), AnnaScaliaRenderer::new);
 	}
 }

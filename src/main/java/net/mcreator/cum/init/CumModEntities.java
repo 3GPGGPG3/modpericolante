@@ -106,6 +106,7 @@ import net.mcreator.cum.entity.ButtigghiadigattiProiettileEntity;
 import net.mcreator.cum.entity.BiciclettaEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
 import net.mcreator.cum.entity.AnticorpoEntity;
+import net.mcreator.cum.entity.AnnaScaliaEntity;
 import net.mcreator.cum.entity.AltPiercerBeamEntity;
 import net.mcreator.cum.entity.AlessandroManzoniEntity;
 import net.mcreator.cum.entity.AdrianoMeisEntity;
@@ -422,6 +423,10 @@ public class CumModEntities {
 			EntityType.Builder.<StellinalunareEntity>of(StellinalunareEntity::new, MobCategory.MISC).setCustomClientFactory(StellinalunareEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<StellinalunarenegativaEntity>> STELLINALUNARENEGATIVA = register("stellinalunarenegativa", EntityType.Builder.<StellinalunarenegativaEntity>of(StellinalunarenegativaEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(StellinalunarenegativaEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<AnnaScaliaEntity>> ANNA_SCALIA = register("anna_scalia",
+			EntityType.Builder.<AnnaScaliaEntity>of(AnnaScaliaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AnnaScaliaEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -506,6 +511,7 @@ public class CumModEntities {
 			BiciclettaEntity.init();
 			LibracerchioEntity.init();
 			CaparezzaguardianolunaremaggioreEntity.init();
+			AnnaScaliaEntity.init();
 		});
 	}
 
@@ -585,5 +591,6 @@ public class CumModEntities {
 		event.put(BICICLETTA.get(), BiciclettaEntity.createAttributes().build());
 		event.put(LIBRACERCHIO.get(), LibracerchioEntity.createAttributes().build());
 		event.put(CAPAREZZAGUARDIANOLUNAREMAGGIORE.get(), CaparezzaguardianolunaremaggioreEntity.createAttributes().build());
+		event.put(ANNA_SCALIA.get(), AnnaScaliaEntity.createAttributes().build());
 	}
 }

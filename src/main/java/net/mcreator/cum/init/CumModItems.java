@@ -600,6 +600,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> STAFFALUNARE = REGISTRY.register("staffalunare", () -> new StaffalunareItem());
 	public static final RegistryObject<Item> STAFFALUNARENEGATIVA = REGISTRY.register("staffalunarenegativa", () -> new StaffalunarenegativaItem());
 	public static final RegistryObject<Item> HUAWEI_CINESE = REGISTRY.register("huawei_cinese", () -> new HuaweiCineseItem());
+	public static final RegistryObject<Item> ANNA_SCALIA_SPAWN_EGG = REGISTRY.register("anna_scalia_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.ANNA_SCALIA, -1337072, -11225383, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
