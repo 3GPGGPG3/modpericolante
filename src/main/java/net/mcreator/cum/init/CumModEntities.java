@@ -70,6 +70,7 @@ import net.mcreator.cum.entity.LibracerchioEntity;
 import net.mcreator.cum.entity.LibraCreatureOfNightEntity;
 import net.mcreator.cum.entity.KingRatEntity;
 import net.mcreator.cum.entity.KillerEntity;
+import net.mcreator.cum.entity.InettoEntity;
 import net.mcreator.cum.entity.IlFuMattiaPascal2Entity;
 import net.mcreator.cum.entity.GirasoleEntity;
 import net.mcreator.cum.entity.GiolittiEntity;
@@ -427,6 +428,10 @@ public class CumModEntities {
 			EntityType.Builder.<AnnaScaliaEntity>of(AnnaScaliaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AnnaScaliaEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<InettoEntity>> INETTO = register("inetto",
+			EntityType.Builder.<InettoEntity>of(InettoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(1).setUpdateInterval(3).setCustomClientFactory(InettoEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -512,6 +517,7 @@ public class CumModEntities {
 			LibracerchioEntity.init();
 			CaparezzaguardianolunaremaggioreEntity.init();
 			AnnaScaliaEntity.init();
+			InettoEntity.init();
 		});
 	}
 
@@ -592,5 +598,6 @@ public class CumModEntities {
 		event.put(LIBRACERCHIO.get(), LibracerchioEntity.createAttributes().build());
 		event.put(CAPAREZZAGUARDIANOLUNAREMAGGIORE.get(), CaparezzaguardianolunaremaggioreEntity.createAttributes().build());
 		event.put(ANNA_SCALIA.get(), AnnaScaliaEntity.createAttributes().build());
+		event.put(INETTO.get(), InettoEntity.createAttributes().build());
 	}
 }

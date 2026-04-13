@@ -45,7 +45,7 @@ public class ModelAnna_Scalia<T extends Entity> extends EntityModel<T> {
 		PartDefinition gambasinistra = partdefinition.addOrReplaceChild("gambasinistra", CubeListBuilder.create().texOffs(0, 32).addBox(-2.0F, 0.0F, -1.0F, 4.0F, 12.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offset(2.0F, 12.0F, 0.0F));
 		PartDefinition bracciosinistro = partdefinition.addOrReplaceChild("bracciosinistro", CubeListBuilder.create().texOffs(32, 0).addBox(0.0F, -1.0F, -1.0F, 4.0F, 12.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offset(4.0F, 1.0F, 0.0F));
 		PartDefinition bracciodestro = partdefinition.addOrReplaceChild("bracciodestro", CubeListBuilder.create().texOffs(16, 32).addBox(-4.0F, -1.0F, -1.0F, 4.0F, 12.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offset(-4.0F, 1.0F, 0.0F));
-		PartDefinition testa = partdefinition.addOrReplaceChild("testa", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.0F, -1.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, -2.0F));
+		PartDefinition testa = partdefinition.addOrReplaceChild("testa", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -4.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, -4.0F, 1.0F));
 		PartDefinition busto = partdefinition.addOrReplaceChild("busto", CubeListBuilder.create().texOffs(0, 16).addBox(-7.0F, -12.0F, -1.0F, 8.0F, 12.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offset(3.0F, 12.0F, 0.0F));
 		PartDefinition gambadestra = partdefinition.addOrReplaceChild("gambadestra", CubeListBuilder.create().texOffs(24, 16).addBox(-2.0F, 0.0F, -1.0F, 4.0F, 12.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offset(-2.0F, 12.0F, 0.0F));
 		return LayerDefinition.create(meshdefinition, 64, 64);

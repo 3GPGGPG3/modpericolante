@@ -1,30 +1,30 @@
-[13Apr2026 00:34:28.307] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\domyc\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[13Apr2026 00:34:28.310] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[13Apr2026 00:34:28.539] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[13Apr2026 00:34:28.638] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[13Apr2026 00:34:28.725] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[13Apr2026 00:34:28.876] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Arc(TM) Graphics GL version 4.6.0 - Build 32.0.101.8509, Intel
-[13Apr2026 00:34:28.880] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/domyc/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[13Apr2026 00:34:29.360] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[13Apr2026 00:34:29.363] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[13Apr2026 00:34:29.371] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[13Apr2026 00:34:29.374] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[13Apr2026 00:34:29.557] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[13Apr2026 00:34:32.213] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\domyc\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[13Apr2026 00:34:37.261] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 161 milliseconds
-[13Apr2026 00:34:39.400] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/domyc/MCreatorWorkspaces/modpericolante/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[13Apr2026 00:34:39.400] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/domyc/MCreatorWorkspaces/modpericolante/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[13Apr2026 00:34:39.441] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Apr2026 00:34:39.460] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[13Apr2026 00:34:39.677] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[13Apr2026 00:34:39.980] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[13Apr2026 00:34:39.984] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[13Apr2026 00:34:41.684] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[13Apr2026 00:34:41.984] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[13Apr2026 00:34:42.150] [Worker-Main-8/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
-[13Apr2026 00:34:42.247] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[13Apr2026 00:34:42.261] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Apr2026 00:34:42.557] [Worker-Main-15/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
+[13Apr2026 23:28:23.925] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\domyc\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[13Apr2026 23:28:23.928] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[13Apr2026 23:28:24.066] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[13Apr2026 23:28:24.135] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[13Apr2026 23:28:24.216] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[13Apr2026 23:28:24.315] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/domyc/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[13Apr2026 23:28:24.318] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Arc(TM) Graphics GL version 4.6.0 - Build 32.0.101.8509, Intel
+[13Apr2026 23:28:24.805] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[13Apr2026 23:28:24.808] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[13Apr2026 23:28:24.811] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[13Apr2026 23:28:24.813] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\domyc\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[13Apr2026 23:28:24.988] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[13Apr2026 23:28:27.352] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\domyc\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[13Apr2026 23:28:32.415] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 157 milliseconds
+[13Apr2026 23:28:35.354] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/domyc/MCreatorWorkspaces/modpericolante/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[13Apr2026 23:28:35.355] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/domyc/MCreatorWorkspaces/modpericolante/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[13Apr2026 23:28:35.418] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Apr2026 23:28:35.448] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[13Apr2026 23:28:35.844] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[13Apr2026 23:28:36.514] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[13Apr2026 23:28:36.519] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[13Apr2026 23:28:39.032] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[13Apr2026 23:28:39.599] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[13Apr2026 23:28:39.862] [Worker-Main-8/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
+[13Apr2026 23:28:39.945] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[13Apr2026 23:28:40.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Apr2026 23:28:40.340] [Worker-Main-10/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -46,7 +46,7 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Apr2026 00:34:42.560] [Worker-Main-10/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
+[13Apr2026 23:28:40.345] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -68,7 +68,7 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Apr2026 00:34:42.565] [Worker-Main-4/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/di_maleniamano.json
+[13Apr2026 23:28:40.357] [Worker-Main-11/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/di_maleniamano.json
 com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -96,7 +96,7 @@ com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Apr2026 00:34:42.566] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/hand_of_malenia.json
+[13Apr2026 23:28:40.362] [Worker-Main-11/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/hand_of_malenia.json
 com.google.gson.JsonParseException: Invalid rotation -5.5 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -124,7 +124,7 @@ com.google.gson.JsonParseException: Invalid rotation -5.5 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Apr2026 00:34:42.570] [Worker-Main-4/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/malenia_mano.json
+[13Apr2026 23:28:40.365] [Worker-Main-7/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/malenia_mano.json
 com.google.gson.JsonParseException: Invalid rotation -3.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -152,35 +152,7 @@ com.google.gson.JsonParseException: Invalid rotation -3.0 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Apr2026 00:34:42.574] [Worker-Main-5/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
-com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/0/22.5/45 allowed
-	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:82) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
-	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:376) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:305) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
-	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
-	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Apr2026 00:34:42.571] [Worker-Main-15/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/mano_di_malenia.json
+[13Apr2026 23:28:40.370] [Worker-Main-14/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/mano_di_malenia.json
 com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -208,7 +180,35 @@ com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Apr2026 00:34:42.588] [Worker-Main-5/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
+[13Apr2026 23:28:40.369] [Worker-Main-7/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
+com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/0/22.5/45 allowed
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:82) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23130!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:376) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:305) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[13Apr2026 23:28:40.382] [Worker-Main-7/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -230,135 +230,461 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Apr2026 00:34:43.007] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/anello_ancestrale with size 250x250 limits mip level from 2 to 1
-[13Apr2026 00:34:43.008] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/reggisenodiolivia with size 15x15 limits mip level from 1 to 0
-[13Apr2026 00:34:43.380] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.10
-[13Apr2026 00:34:43.402] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
-[13Apr2026 00:34:43.404] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
-[13Apr2026 00:34:45.710] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[13Apr2026 00:34:45.710] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[13Apr2026 00:34:46.178] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[13Apr2026 00:34:46.179] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[13Apr2026 00:34:46.279] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 8192x8192x2 minecraft:textures/atlas/blocks.png-atlas
-[13Apr2026 00:34:46.396] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[13Apr2026 00:34:46.397] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[13Apr2026 00:34:46.398] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[13Apr2026 00:34:46.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[13Apr2026 00:34:46.407] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[13Apr2026 00:34:46.408] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[13Apr2026 00:34:46.408] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[13Apr2026 00:34:46.409] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13Apr2026 00:34:46.580] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[13Apr2026 00:34:46.649] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/particles.png-atlas
-[13Apr2026 00:34:46.663] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/paintings.png-atlas
-[13Apr2026 00:34:46.674] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13Apr2026 00:34:47.224] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[13Apr2026 00:34:53.877] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[13Apr2026 00:34:56.061] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[13Apr2026 00:34:56.142] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@2c841ac4, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@26e588b7}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@40bac624}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
-[13Apr2026 00:34:56.143] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1277 advancements
-[13Apr2026 00:34:56.766] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[13Apr2026 00:34:56.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Apr2026 00:34:58.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Apr2026 00:35:01.223] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2026 00:35:01.223] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2026 00:35:01.223] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2026 00:35:01.223] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2026 00:35:01.223] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2026 00:35:01.223] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2026 00:35:01.283] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Apr2026 00:35:01.775] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[13Apr2026 00:35:02.284] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Apr2026 00:35:02.295] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4032 ms
-[13Apr2026 00:35:02.430] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[13Apr2026 00:35:02.431] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[13Apr2026 00:35:02.636] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[13Apr2026 00:35:03.701] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[13Apr2026 00:35:03.781] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:b003520d] logged in with entity id 103 at (-249.31208448328837, 67.0, -291.9306709560401)
-[13Apr2026 00:35:03.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[13Apr2026 00:35:04.538] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 212 advancements
-[13Apr2026 00:35:35.586] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13Apr2026 00:35:35.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:overworld
-[13Apr2026 00:35:35.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_derivata
-[13Apr2026 00:35:35.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante_negativa
-[13Apr2026 00:35:35.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_balatrante
-[13Apr2026 00:35:35.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_sulla_sicurezza
-[13Apr2026 00:35:35.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_end
-[13Apr2026 00:35:35.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_nether
-[13Apr2026 00:35:35.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_primitiva
-[13Apr2026 00:35:35.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante
-[13Apr2026 00:35:35.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:bagliore_della_notte
-[13Apr2026 00:38:26.286] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13Apr2026 00:38:26.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:overworld
-[13Apr2026 00:38:26.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_derivata
-[13Apr2026 00:38:26.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante_negativa
-[13Apr2026 00:38:26.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_balatrante
-[13Apr2026 00:38:26.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_sulla_sicurezza
-[13Apr2026 00:38:26.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_end
-[13Apr2026 00:38:26.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_nether
-[13Apr2026 00:38:26.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_primitiva
-[13Apr2026 00:38:26.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante
-[13Apr2026 00:38:26.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:bagliore_della_notte
-[13Apr2026 00:38:31.236] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13Apr2026 00:38:31.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:overworld
-[13Apr2026 00:38:31.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_derivata
-[13Apr2026 00:38:31.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante_negativa
-[13Apr2026 00:38:31.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_balatrante
-[13Apr2026 00:38:31.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_sulla_sicurezza
-[13Apr2026 00:38:31.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_end
-[13Apr2026 00:38:31.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_nether
-[13Apr2026 00:38:31.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_primitiva
-[13Apr2026 00:38:31.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante
-[13Apr2026 00:38:31.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:bagliore_della_notte
-[13Apr2026 00:40:01.834] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/40, l='ServerLevel[LA TUTA]', x=-253.35, y=64.00, z=-300.50] died: Preside was slain by Dev
-[13Apr2026 00:41:39.393] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/1006, l='ServerLevel[LA TUTA]', x=-259.88, y=67.56, z=-265.21] died: death.attack.mob.player
-[13Apr2026 00:42:15.787] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13Apr2026 00:42:15.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:overworld
-[13Apr2026 00:42:15.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_derivata
-[13Apr2026 00:42:15.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante_negativa
-[13Apr2026 00:42:15.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_balatrante
-[13Apr2026 00:42:15.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_sulla_sicurezza
-[13Apr2026 00:42:15.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_end
-[13Apr2026 00:42:15.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_nether
-[13Apr2026 00:42:15.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_primitiva
-[13Apr2026 00:42:15.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante
-[13Apr2026 00:42:15.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:bagliore_della_notte
-[13Apr2026 00:44:24.335] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13Apr2026 00:44:24.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:overworld
-[13Apr2026 00:44:24.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_derivata
-[13Apr2026 00:44:24.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante_negativa
-[13Apr2026 00:44:24.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_balatrante
-[13Apr2026 00:44:24.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_sulla_sicurezza
-[13Apr2026 00:44:24.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_end
-[13Apr2026 00:44:24.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_nether
-[13Apr2026 00:44:24.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_primitiva
-[13Apr2026 00:44:24.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante
-[13Apr2026 00:44:24.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:bagliore_della_notte
-[13Apr2026 00:44:25.592] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[13Apr2026 00:44:25.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[13Apr2026 00:44:25.605] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[13Apr2026 00:44:25.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Apr2026 00:44:25.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Apr2026 00:44:25.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Apr2026 00:44:26.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:overworld
-[13Apr2026 00:44:26.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_derivata
-[13Apr2026 00:44:26.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante_negativa
-[13Apr2026 00:44:26.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_balatrante
-[13Apr2026 00:44:26.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_sulla_sicurezza
-[13Apr2026 00:44:26.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_end
-[13Apr2026 00:44:26.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_nether
-[13Apr2026 00:44:26.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_primitiva
-[13Apr2026 00:44:26.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante
-[13Apr2026 00:44:26.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:bagliore_della_notte
-[13Apr2026 00:44:26.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (LA TUTA): All chunks are saved
-[13Apr2026 00:44:26.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
-[13Apr2026 00:44:26.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
-[13Apr2026 00:44:26.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
-[13Apr2026 00:44:26.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
-[13Apr2026 00:44:26.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Apr2026 00:44:26.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Apr2026 00:44:26.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
-[13Apr2026 00:44:26.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
-[13Apr2026 00:44:26.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bagliore_della_notte): All chunks are saved
-[13Apr2026 00:44:26.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13Apr2026 00:44:42.567] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[13Apr2026 23:28:40.709] [Worker-Main-17/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/anello_ancestrale with size 250x250 limits mip level from 2 to 1
+[13Apr2026 23:28:40.710] [Worker-Main-17/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/reggisenodiolivia with size 15x15 limits mip level from 1 to 0
+[13Apr2026 23:28:41.158] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
+[13Apr2026 23:28:41.162] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
+[13Apr2026 23:28:41.381] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.10
+[13Apr2026 23:28:43.797] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[13Apr2026 23:28:43.797] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[13Apr2026 23:28:44.238] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[13Apr2026 23:28:44.239] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[13Apr2026 23:28:44.321] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 8192x8192x2 minecraft:textures/atlas/blocks.png-atlas
+[13Apr2026 23:28:44.403] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[13Apr2026 23:28:44.404] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[13Apr2026 23:28:44.405] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[13Apr2026 23:28:44.406] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[13Apr2026 23:28:44.411] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[13Apr2026 23:28:44.412] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[13Apr2026 23:28:44.412] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[13Apr2026 23:28:44.413] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13Apr2026 23:28:44.591] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[13Apr2026 23:28:44.656] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/particles.png-atlas
+[13Apr2026 23:28:44.670] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/paintings.png-atlas
+[13Apr2026 23:28:44.681] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13Apr2026 23:28:45.252] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[13Apr2026 23:28:48.850] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[13Apr2026 23:28:50.841] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[13Apr2026 23:28:50.926] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@18ac2dfe, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@761d679f}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@2daf650b}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
+[13Apr2026 23:28:50.926] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1277 advancements
+[13Apr2026 23:28:51.565] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[13Apr2026 23:28:51.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Apr2026 23:28:52.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Apr2026 23:28:54.695] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2026 23:28:54.713] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2026 23:28:54.713] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2026 23:28:54.713] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2026 23:28:55.008] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Apr2026 23:28:55.502] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[13Apr2026 23:28:55.712] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Apr2026 23:28:55.723] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2729 ms
+[13Apr2026 23:28:55.826] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[13Apr2026 23:28:55.829] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[13Apr2026 23:28:56.017] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[13Apr2026 23:28:57.273] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[13Apr2026 23:28:57.391] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:6a7b7de4] logged in with entity id 284 at (-395.66489692439836, 64.0, -463.8374708637646)
+[13Apr2026 23:28:57.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[13Apr2026 23:28:58.198] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 214 advancements
+[13Apr2026 23:29:07.163] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/39, l='ServerLevel[LA TUTA]', x=-390.50, y=63.00, z=-457.50] died: Inetto was slain by Dev
+[13Apr2026 23:29:07.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:07.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:08.271] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/41, l='ServerLevel[LA TUTA]', x=-390.50, y=63.00, z=-457.50] died: Inetto was slain by Dev
+[13Apr2026 23:29:08.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:08.279] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:09.209] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/49, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-458.50] died: Inetto was slain by Dev
+[13Apr2026 23:29:09.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:09.217] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.126] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/6, l='ServerLevel[LA TUTA]', x=-390.43, y=63.00, z=-460.78] died: Inetto was killed
+[13Apr2026 23:29:17.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.127] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/7, l='ServerLevel[LA TUTA]', x=-393.18, y=64.00, z=-458.99] died: Inetto was killed
+[13Apr2026 23:29:17.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.127] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.127] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/8, l='ServerLevel[LA TUTA]', x=-393.38, y=63.00, z=-460.04] died: Inetto was killed
+[13Apr2026 23:29:17.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.129] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.129] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/9, l='ServerLevel[LA TUTA]', x=-394.21, y=64.00, z=-461.14] died: Inetto was killed
+[13Apr2026 23:29:17.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.129] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.130] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/10, l='ServerLevel[LA TUTA]', x=-394.70, y=62.00, z=-460.70] died: Inetto was killed
+[13Apr2026 23:29:17.130] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.131] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/11, l='ServerLevel[LA TUTA]', x=-394.70, y=62.00, z=-460.70] died: Inetto was killed
+[13Apr2026 23:29:17.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.131] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.131] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/12, l='ServerLevel[LA TUTA]', x=-392.87, y=64.00, z=-463.28] died: Inetto was killed
+[13Apr2026 23:29:17.131] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.132] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/13, l='ServerLevel[LA TUTA]', x=-392.24, y=64.00, z=-462.89] died: Inetto was killed
+[13Apr2026 23:29:17.132] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.132] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.132] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/14, l='ServerLevel[LA TUTA]', x=-392.74, y=64.00, z=-462.06] died: Inetto was killed
+[13Apr2026 23:29:17.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.133] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/15, l='ServerLevel[LA TUTA]', x=-392.07, y=63.00, z=-460.65] died: Inetto was killed
+[13Apr2026 23:29:17.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.134] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/16, l='ServerLevel[LA TUTA]', x=-392.80, y=64.00, z=-460.71] died: Inetto was killed
+[13Apr2026 23:29:17.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.135] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/17, l='ServerLevel[LA TUTA]', x=-392.71, y=64.00, z=-461.41] died: Inetto was killed
+[13Apr2026 23:29:17.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.136] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/18, l='ServerLevel[LA TUTA]', x=-389.71, y=63.00, z=-462.29] died: Inetto was killed
+[13Apr2026 23:29:17.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.137] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/19, l='ServerLevel[LA TUTA]', x=-392.02, y=63.00, z=-461.87] died: Inetto was killed
+[13Apr2026 23:29:17.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.138] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/20, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-462.50] died: Inetto was killed
+[13Apr2026 23:29:17.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.138] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/21, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-461.50] died: Inetto was killed
+[13Apr2026 23:29:17.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.139] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/22, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-461.50] died: Inetto was killed
+[13Apr2026 23:29:17.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.139] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/23, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-461.50] died: Inetto was killed
+[13Apr2026 23:29:17.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.140] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/24, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-461.50] died: Inetto was killed
+[13Apr2026 23:29:17.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.141] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/25, l='ServerLevel[LA TUTA]', x=-390.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.141] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/26, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.142] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/27, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.143] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/28, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.144] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/29, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.145] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/30, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.145] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.146] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/31, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.146] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/32, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.147] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/34, l='ServerLevel[LA TUTA]', x=-388.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.147] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.147] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/35, l='ServerLevel[LA TUTA]', x=-388.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.147] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.149] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/36, l='ServerLevel[LA TUTA]', x=-388.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.149] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.149] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.149] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/37, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-455.50] died: Inetto was killed
+[13Apr2026 23:29:17.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.150] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.150] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.150] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.151] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.151] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.152] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.152] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.152] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.152] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/40, l='ServerLevel[LA TUTA]', x=-391.49, y=63.00, z=-456.39] died: Olivia was killed
+[13Apr2026 23:29:17.153] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.153] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/42, l='ServerLevel[LA TUTA]', x=-392.50, y=63.00, z=-458.50] died: Inetto was killed
+[13Apr2026 23:29:17.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.153] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.154] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.154] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/43, l='ServerLevel[LA TUTA]', x=-394.70, y=62.00, z=-460.70] died: Inetto was killed
+[13Apr2026 23:29:17.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.154] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.155] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.155] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/44, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-458.50] died: Inetto was killed
+[13Apr2026 23:29:17.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.155] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.155] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/45, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-458.50] died: Inetto was killed
+[13Apr2026 23:29:17.155] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.156] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/46, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-458.50] died: Inetto was killed
+[13Apr2026 23:29:17.156] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.157] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.157] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/47, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-458.50] died: Inetto was killed
+[13Apr2026 23:29:17.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.157] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.157] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/48, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-458.50] died: Inetto was killed
+[13Apr2026 23:29:17.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.158] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.158] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.158] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/50, l='ServerLevel[LA TUTA]', x=-392.50, y=63.00, z=-459.50] died: Inetto was killed
+[13Apr2026 23:29:17.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.159] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.159] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.159] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/53, l='ServerLevel[LA TUTA]', x=-395.64, y=64.00, z=-461.09] died: Inetto was killed
+[13Apr2026 23:29:17.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.159] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.159] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/54, l='ServerLevel[LA TUTA]', x=-395.47, y=64.00, z=-460.37] died: Inetto was killed
+[13Apr2026 23:29:17.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.160] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/55, l='ServerLevel[LA TUTA]', x=-395.64, y=64.00, z=-462.04] died: Inetto was killed
+[13Apr2026 23:29:17.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.161] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/56, l='ServerLevel[LA TUTA]', x=-394.96, y=64.00, z=-461.39] died: Inetto was killed
+[13Apr2026 23:29:17.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.162] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/57, l='ServerLevel[LA TUTA]', x=-394.12, y=64.00, z=-459.26] died: Inetto was killed
+[13Apr2026 23:29:17.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.163] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/58, l='ServerLevel[LA TUTA]', x=-394.19, y=64.00, z=-458.57] died: Inetto was killed
+[13Apr2026 23:29:17.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.164] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/59, l='ServerLevel[LA TUTA]', x=-393.44, y=64.00, z=-458.33] died: Inetto was killed
+[13Apr2026 23:29:17.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.165] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/62, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-461.50] died: Inetto was killed
+[13Apr2026 23:29:17.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.166] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/63, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-462.50] died: Inetto was killed
+[13Apr2026 23:29:17.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.167] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/64, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-461.50] died: Inetto was killed
+[13Apr2026 23:29:17.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.168] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/65, l='ServerLevel[LA TUTA]', x=-394.50, y=64.00, z=-463.50] died: Inetto was killed
+[13Apr2026 23:29:17.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.169] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/66, l='ServerLevel[LA TUTA]', x=-395.50, y=64.00, z=-463.50] died: Inetto was killed
+[13Apr2026 23:29:17.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.174] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/75, l='ServerLevel[LA TUTA]', x=-420.90, y=57.00, z=-424.95] died: Inetto was killed
+[13Apr2026 23:29:17.175] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.175] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.176] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.177] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.177] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/78, l='ServerLevel[LA TUTA]', x=-409.62, y=63.00, z=-419.32] died: Inetto was killed
+[13Apr2026 23:29:17.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.178] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.178] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.179] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.179] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/91, l='ServerLevel[LA TUTA]', x=-411.12, y=67.00, z=-474.96] died: Olivia was killed
+[13Apr2026 23:29:17.179] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.180] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/92, l='ServerLevel[LA TUTA]', x=-405.00, y=66.00, z=-475.75] died: Olivia was killed
+[13Apr2026 23:29:17.180] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.180] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/93, l='ServerLevel[LA TUTA]', x=-394.15, y=66.00, z=-477.70] died: Olivia was killed
+[13Apr2026 23:29:17.181] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/94, l='ServerLevel[LA TUTA]', x=-413.90, y=67.00, z=-474.90] died: Olivia was killed
+[13Apr2026 23:29:17.181] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.181] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/95, l='ServerLevel[LA TUTA]', x=-407.34, y=67.00, z=-476.45] died: Olivia was killed
+[13Apr2026 23:29:17.182] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.182] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/97, l='ServerLevel[LA TUTA]', x=-387.53, y=66.00, z=-475.46] died: Olivia was killed
+[13Apr2026 23:29:17.182] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/98, l='ServerLevel[LA TUTA]', x=-392.58, y=66.00, z=-477.65] died: Olivia was killed
+[13Apr2026 23:29:17.182] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/99, l='ServerLevel[LA TUTA]', x=-401.50, y=66.00, z=-460.75] died: Olivia was killed
+[13Apr2026 23:29:17.183] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/100, l='ServerLevel[LA TUTA]', x=-389.61, y=63.00, z=-464.65] died: Olivia was killed
+[13Apr2026 23:29:17.183] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/102, l='ServerLevel[LA TUTA]', x=-389.67, y=67.00, z=-484.25] died: Olivia was killed
+[13Apr2026 23:29:17.183] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/104, l='ServerLevel[LA TUTA]', x=-406.94, y=67.00, z=-478.49] died: Olivia was killed
+[13Apr2026 23:29:17.183] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/105, l='ServerLevel[LA TUTA]', x=-395.50, y=64.00, z=-464.50] died: Inetto was killed
+[13Apr2026 23:29:17.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.184] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/106, l='ServerLevel[LA TUTA]', x=-395.50, y=64.00, z=-464.50] died: Inetto was killed
+[13Apr2026 23:29:17.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.184] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/107, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-465.50] died: Inetto was killed
+[13Apr2026 23:29:17.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.185] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/108, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-465.50] died: Inetto was killed
+[13Apr2026 23:29:17.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.185] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/109, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-465.50] died: Inetto was killed
+[13Apr2026 23:29:17.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.185] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/110, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-465.50] died: Inetto was killed
+[13Apr2026 23:29:17.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.186] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/111, l='ServerLevel[LA TUTA]', x=-396.50, y=65.00, z=-464.50] died: Inetto was killed
+[13Apr2026 23:29:17.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.186] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/112, l='ServerLevel[LA TUTA]', x=-396.50, y=65.00, z=-464.50] died: Inetto was killed
+[13Apr2026 23:29:17.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.186] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/113, l='ServerLevel[LA TUTA]', x=-397.50, y=65.00, z=-465.50] died: Inetto was killed
+[13Apr2026 23:29:17.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.187] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/114, l='ServerLevel[LA TUTA]', x=-396.50, y=65.00, z=-465.50] died: Inetto was killed
+[13Apr2026 23:29:17.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.187] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/115, l='ServerLevel[LA TUTA]', x=-396.50, y=65.00, z=-464.50] died: Inetto was killed
+[13Apr2026 23:29:17.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.187] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/116, l='ServerLevel[LA TUTA]', x=-394.74, y=64.00, z=-464.24] died: Inetto was killed
+[13Apr2026 23:29:17.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.187] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/118, l='ServerLevel[LA TUTA]', x=-380.41, y=63.00, z=-462.77] died: Olivia was killed
+[13Apr2026 23:29:17.191] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/138, l='ServerLevel[LA TUTA]', x=-414.02, y=67.00, z=-477.49] died: Olivia was killed
+[13Apr2026 23:29:17.191] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/139, l='ServerLevel[LA TUTA]', x=-397.48, y=67.00, z=-490.51] died: Olivia was killed
+[13Apr2026 23:29:17.191] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/140, l='ServerLevel[LA TUTA]', x=-408.44, y=66.00, z=-484.54] died: Olivia was killed
+[13Apr2026 23:29:17.191] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/143, l='ServerLevel[LA TUTA]', x=-390.53, y=68.00, z=-493.80] died: Olivia was killed
+[13Apr2026 23:29:17.191] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/144, l='ServerLevel[LA TUTA]', x=-393.61, y=67.00, z=-479.55] died: Olivia was killed
+[13Apr2026 23:29:17.193] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/160, l='ServerLevel[LA TUTA]', x=-407.49, y=66.00, z=-499.51] died: Olivia was killed
+[13Apr2026 23:29:17.193] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity OliviaEntity['Olivia'/163, l='ServerLevel[LA TUTA]', x=-384.50, y=67.00, z=-494.50] died: Olivia was killed
+[13Apr2026 23:29:17.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
+[13Apr2026 23:29:17.203] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.204] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.204] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.205] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.205] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.205] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.206] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.206] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.206] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.207] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.207] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.207] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:29:17.209] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/482, l='ServerLevel[LA TUTA]', x=-390.50, y=63.00, z=-457.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:17.209] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/487, l='ServerLevel[LA TUTA]', x=-390.50, y=63.00, z=-457.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:17.210] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/491, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-458.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:17.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 228 entities]
+[13Apr2026 23:29:17.213] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
+[13Apr2026 23:29:17.217] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 228 entities
+[13Apr2026 23:29:24.995] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/494, l='ServerLevel[LA TUTA]', x=-390.64, y=63.00, z=-460.18] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.995] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/495, l='ServerLevel[LA TUTA]', x=-394.40, y=64.00, z=-457.49] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.996] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/497, l='ServerLevel[LA TUTA]', x=-393.58, y=63.00, z=-460.70] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.996] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/499, l='ServerLevel[LA TUTA]', x=-394.25, y=64.00, z=-462.52] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.996] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/501, l='ServerLevel[LA TUTA]', x=-394.30, y=62.00, z=-460.30] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.996] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/503, l='ServerLevel[LA TUTA]', x=-394.30, y=62.00, z=-460.30] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.996] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/505, l='ServerLevel[LA TUTA]', x=-392.14, y=64.00, z=-463.71] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.996] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/507, l='ServerLevel[LA TUTA]', x=-392.50, y=63.00, z=-462.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.996] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/510, l='ServerLevel[LA TUTA]', x=-392.50, y=63.00, z=-462.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.997] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/511, l='ServerLevel[LA TUTA]', x=-393.42, y=63.00, z=-459.75] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.997] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/512, l='ServerLevel[LA TUTA]', x=-391.51, y=63.00, z=-460.02] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.997] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/513, l='ServerLevel[LA TUTA]', x=-392.62, y=63.00, z=-460.76] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.997] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/514, l='ServerLevel[LA TUTA]', x=-388.99, y=63.00, z=-462.99] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.997] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/515, l='ServerLevel[LA TUTA]', x=-392.56, y=63.00, z=-461.48] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.997] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/516, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-462.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.998] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/517, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-461.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.998] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/518, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-461.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.998] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/519, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-461.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.998] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/520, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-461.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.998] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/521, l='ServerLevel[LA TUTA]', x=-390.38, y=63.00, z=-458.79] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.998] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/522, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:24.998] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/523, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.000] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/524, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.000] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/525, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.000] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/526, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.001] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/529, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.001] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/531, l='ServerLevel[LA TUTA]', x=-389.50, y=63.00, z=-459.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.001] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/533, l='ServerLevel[LA TUTA]', x=-388.50, y=63.00, z=-459.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.001] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/535, l='ServerLevel[LA TUTA]', x=-388.50, y=63.00, z=-459.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.001] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/537, l='ServerLevel[LA TUTA]', x=-388.50, y=63.00, z=-459.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.001] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/540, l='ServerLevel[LA TUTA]', x=-391.50, y=63.00, z=-455.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.001] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/550, l='ServerLevel[LA TUTA]', x=-392.59, y=63.00, z=-457.95] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.001] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/553, l='ServerLevel[LA TUTA]', x=-394.30, y=62.00, z=-460.30] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.002] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/556, l='ServerLevel[LA TUTA]', x=-389.55, y=63.00, z=-456.70] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.002] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/558, l='ServerLevel[LA TUTA]', x=-390.16, y=63.00, z=-457.23] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.002] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/560, l='ServerLevel[LA TUTA]', x=-391.00, y=63.00, z=-458.02] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.002] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/563, l='ServerLevel[LA TUTA]', x=-391.90, y=63.00, z=-459.37] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.003] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/565, l='ServerLevel[LA TUTA]', x=-392.70, y=63.00, z=-459.07] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.003] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/568, l='ServerLevel[LA TUTA]', x=-392.75, y=63.00, z=-460.13] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.003] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/571, l='ServerLevel[LA TUTA]', x=-395.64, y=64.00, z=-461.48] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.004] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/573, l='ServerLevel[LA TUTA]', x=-395.70, y=64.00, z=-460.43] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.004] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/574, l='ServerLevel[LA TUTA]', x=-395.41, y=64.00, z=-462.81] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.004] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/575, l='ServerLevel[LA TUTA]', x=-394.30, y=64.00, z=-461.87] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.005] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/576, l='ServerLevel[LA TUTA]', x=-394.86, y=64.00, z=-459.73] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.005] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/577, l='ServerLevel[LA TUTA]', x=-394.92, y=64.00, z=-458.41] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.005] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/578, l='ServerLevel[LA TUTA]', x=-393.66, y=64.00, z=-458.04] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.006] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/579, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-461.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.006] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/580, l='ServerLevel[LA TUTA]', x=-393.32, y=64.00, z=-462.81] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.006] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/581, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-461.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.006] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/582, l='ServerLevel[LA TUTA]', x=-394.50, y=64.00, z=-463.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.007] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/583, l='ServerLevel[LA TUTA]', x=-395.50, y=64.00, z=-463.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.007] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/587, l='ServerLevel[LA TUTA]', x=-420.23, y=57.00, z=-424.20] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.007] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/593, l='ServerLevel[LA TUTA]', x=-409.12, y=63.00, z=-420.05] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.007] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/606, l='ServerLevel[LA TUTA]', x=-395.50, y=64.00, z=-464.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.007] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/607, l='ServerLevel[LA TUTA]', x=-395.50, y=64.00, z=-464.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.008] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/608, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-465.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.008] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/609, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-465.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.008] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/610, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-465.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.008] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/611, l='ServerLevel[LA TUTA]', x=-393.50, y=64.00, z=-465.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.009] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/612, l='ServerLevel[LA TUTA]', x=-396.50, y=65.00, z=-464.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.009] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/613, l='ServerLevel[LA TUTA]', x=-396.50, y=65.00, z=-464.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.009] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/614, l='ServerLevel[LA TUTA]', x=-397.50, y=65.00, z=-465.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.009] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/615, l='ServerLevel[LA TUTA]', x=-396.50, y=65.00, z=-465.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.009] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/616, l='ServerLevel[LA TUTA]', x=-396.50, y=65.00, z=-464.50] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.010] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/617, l='ServerLevel[LA TUTA]', x=-394.07, y=64.00, z=-464.72] died: Essere perfettamente inutile was killed
+[13Apr2026 23:29:25.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
+[13Apr2026 23:29:25.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 156 entities]
+[13Apr2026 23:29:25.020] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
+[13Apr2026 23:29:25.021] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 156 entities
+[13Apr2026 23:30:03.810] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1521, l='ServerLevel[LA TUTA]', x=-295.50, y=65.00, z=-329.50] died: Inetto was slain by Dev
+[13Apr2026 23:30:03.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:30:03.815] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:30:16.910] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/1543, l='ServerLevel[LA TUTA]', x=-315.75, y=64.00, z=-331.40] died: Essere perfettamente inutile was slain by Dev
+[13Apr2026 23:30:59.510] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1655, l='ServerLevel[LA TUTA]', x=-300.50, y=64.00, z=-333.50] died: Inetto was slain by Dev
+[13Apr2026 23:30:59.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:30:59.513] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:31:17.660] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1815, l='ServerLevel[LA TUTA]', x=-301.50, y=64.00, z=-341.50] died: Inetto was slain by Dev
+[13Apr2026 23:31:17.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:31:17.663] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:31:18.661] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1825, l='ServerLevel[LA TUTA]', x=-302.50, y=64.00, z=-340.50] died: Inetto was slain by Dev
+[13Apr2026 23:31:18.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:31:18.666] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
+[13Apr2026 23:32:22.011] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
+[13Apr2026 23:32:22.011] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/1746, l='ServerLevel[LA TUTA]', x=-301.43, y=64.00, z=-334.15] died: Essere perfettamente inutile was killed
+[13Apr2026 23:32:22.017] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1785, l='ServerLevel[LA TUTA]', x=-303.50, y=64.00, z=-336.50] died: Inetto was killed
+[13Apr2026 23:32:22.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.018] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1790, l='ServerLevel[LA TUTA]', x=-303.50, y=64.00, z=-337.50] died: Inetto was killed
+[13Apr2026 23:32:22.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.018] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1794, l='ServerLevel[LA TUTA]', x=-302.50, y=64.00, z=-337.50] died: Inetto was killed
+[13Apr2026 23:32:22.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.019] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1796, l='ServerLevel[LA TUTA]', x=-302.50, y=64.00, z=-338.50] died: Inetto was killed
+[13Apr2026 23:32:22.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.019] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1798, l='ServerLevel[LA TUTA]', x=-301.50, y=64.00, z=-338.50] died: Inetto was killed
+[13Apr2026 23:32:22.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.020] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1800, l='ServerLevel[LA TUTA]', x=-301.50, y=64.00, z=-339.50] died: Inetto was killed
+[13Apr2026 23:32:22.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.020] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1804, l='ServerLevel[LA TUTA]', x=-300.50, y=64.00, z=-339.50] died: Inetto was killed
+[13Apr2026 23:32:22.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.021] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1808, l='ServerLevel[LA TUTA]', x=-300.50, y=64.00, z=-339.50] died: Inetto was killed
+[13Apr2026 23:32:22.021] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.021] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1811, l='ServerLevel[LA TUTA]', x=-300.50, y=64.00, z=-340.50] died: Inetto was killed
+[13Apr2026 23:32:22.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1813, l='ServerLevel[LA TUTA]', x=-301.50, y=64.00, z=-340.50] died: Inetto was killed
+[13Apr2026 23:32:22.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.022] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.022] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1823, l='ServerLevel[LA TUTA]', x=-303.50, y=64.00, z=-339.50] died: Inetto was killed
+[13Apr2026 23:32:22.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.023] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.023] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.023] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1828, l='ServerLevel[LA TUTA]', x=-302.50, y=64.00, z=-340.50] died: Inetto was killed
+[13Apr2026 23:32:22.023] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.024] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.024] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1830, l='ServerLevel[LA TUTA]', x=-303.50, y=64.00, z=-340.50] died: Inetto was killed
+[13Apr2026 23:32:22.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.024] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1832, l='ServerLevel[LA TUTA]', x=-304.50, y=64.00, z=-340.50] died: Inetto was killed
+[13Apr2026 23:32:22.024] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.025] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.025] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1838, l='ServerLevel[LA TUTA]', x=-304.50, y=64.00, z=-340.50] died: Inetto was killed
+[13Apr2026 23:32:22.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.025] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.025] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity InettoEntity['Inetto'/1840, l='ServerLevel[LA TUTA]', x=-303.50, y=64.00, z=-341.50] died: Inetto was killed
+[13Apr2026 23:32:22.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.025] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/1856, l='ServerLevel[LA TUTA]', x=-301.14, y=64.00, z=-340.15] died: Essere perfettamente inutile was killed
+[13Apr2026 23:32:22.025] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.025] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EsserePerfettamenteInutileEntity['Essere perfettamente inutile'/1862, l='ServerLevel[LA TUTA]', x=-302.69, y=64.00, z=-339.64] died: Essere perfettamente inutile was killed
+[13Apr2026 23:32:22.026] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.026] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.027] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.027] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.028] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <...> Sono un essere perfettamente inutile
+[13Apr2026 23:32:22.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 125 entities]
+[13Apr2026 23:32:22.039] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 125 entities
+[13Apr2026 23:32:24.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
+[13Apr2026 23:32:24.637] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
+[13Apr2026 23:32:24.638] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/2174, l='ServerLevel[LA TUTA]', x=-502.50, y=28.00, z=-482.50] died: Preside was killed
+[13Apr2026 23:32:24.662] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/2267, l='ServerLevel[LA TUTA]', x=-410.50, y=-7.00, z=-355.50] died: Preside was killed
+[13Apr2026 23:32:24.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 133 entities]
+[13Apr2026 23:32:24.667] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 133 entities
+[13Apr2026 23:32:26.963] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[13Apr2026 23:32:26.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:overworld
+[13Apr2026 23:32:27.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_end
+[13Apr2026 23:32:27.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_sulla_sicurezza
+[13Apr2026 23:32:27.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:bagliore_della_notte
+[13Apr2026 23:32:27.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante
+[13Apr2026 23:32:27.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_nether
+[13Apr2026 23:32:27.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante_negativa
+[13Apr2026 23:32:27.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_balatrante
+[13Apr2026 23:32:27.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_derivata
+[13Apr2026 23:32:27.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_primitiva
+[13Apr2026 23:32:27.520] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[13Apr2026 23:32:27.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[13Apr2026 23:32:27.542] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[13Apr2026 23:32:27.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Apr2026 23:32:27.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Apr2026 23:32:27.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Apr2026 23:32:28.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:overworld
+[13Apr2026 23:32:28.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_end
+[13Apr2026 23:32:28.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_sulla_sicurezza
+[13Apr2026 23:32:28.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:bagliore_della_notte
+[13Apr2026 23:32:28.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante
+[13Apr2026 23:32:28.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/minecraft:the_nether
+[13Apr2026 23:32:28.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_pericolante_negativa
+[13Apr2026 23:32:28.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_balatrante
+[13Apr2026 23:32:28.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_derivata
+[13Apr2026 23:32:28.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[LA TUTA]'/cum:dimensione_primitiva
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (LA TUTA): All chunks are saved
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bagliore_della_notte): All chunks are saved
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
+[13Apr2026 23:32:28.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Apr2026 23:32:29.902] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

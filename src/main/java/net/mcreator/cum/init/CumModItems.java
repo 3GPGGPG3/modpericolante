@@ -169,6 +169,7 @@ import net.mcreator.cum.item.DNAFrammentatoItem;
 import net.mcreator.cum.item.CuffieDiSiofraItem;
 import net.mcreator.cum.item.CuboItem;
 import net.mcreator.cum.item.ConoItemItem;
+import net.mcreator.cum.item.CompagnidiCLASSEItem;
 import net.mcreator.cum.item.ClonatoreItem;
 import net.mcreator.cum.item.CipollaMarciaItem;
 import net.mcreator.cum.item.CinDiQuadriItem;
@@ -209,6 +210,7 @@ import net.mcreator.cum.item.ArmaturaPenalizzataItem;
 import net.mcreator.cum.item.ArmaturaLunareItem;
 import net.mcreator.cum.item.ArmaturaDelGodoItem;
 import net.mcreator.cum.item.AnelloAncestraleItem;
+import net.mcreator.cum.item.AlunnedimodaItem;
 import net.mcreator.cum.item.AltPiercerItem;
 import net.mcreator.cum.item.AlessandroManzoniUovoItem;
 import net.mcreator.cum.item.AgoDoratoDiMiquellaItem;
@@ -601,6 +603,9 @@ public class CumModItems {
 	public static final RegistryObject<Item> STAFFALUNARENEGATIVA = REGISTRY.register("staffalunarenegativa", () -> new StaffalunarenegativaItem());
 	public static final RegistryObject<Item> HUAWEI_CINESE = REGISTRY.register("huawei_cinese", () -> new HuaweiCineseItem());
 	public static final RegistryObject<Item> ANNA_SCALIA_SPAWN_EGG = REGISTRY.register("anna_scalia_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.ANNA_SCALIA, -1337072, -11225383, new Item.Properties()));
+	public static final RegistryObject<Item> COMPAGNIDI_CLASSE = REGISTRY.register("compagnidi_classe", () -> new CompagnidiCLASSEItem());
+	public static final RegistryObject<Item> ALUNNEDIMODA = REGISTRY.register("alunnedimoda", () -> new AlunnedimodaItem());
+	public static final RegistryObject<Item> INETTO_SPAWN_EGG = REGISTRY.register("inetto_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.INETTO, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

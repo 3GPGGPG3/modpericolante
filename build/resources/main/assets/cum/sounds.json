@@ -463,5 +463,13 @@
         "stream": false
       }
     ]
+  },
+  "bandiera_rossa": {
+    "sounds": [
+      {
+        "name": "cum:bandiera-rossa",
+        "stream": false
+      }
+    ]
   }
 }

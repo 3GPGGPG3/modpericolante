@@ -52,6 +52,7 @@ import net.mcreator.cum.client.renderer.LibracerchioRenderer;
 import net.mcreator.cum.client.renderer.LibraCreatureOfNightRenderer;
 import net.mcreator.cum.client.renderer.KingRatRenderer;
 import net.mcreator.cum.client.renderer.KillerRenderer;
+import net.mcreator.cum.client.renderer.InettoRenderer;
 import net.mcreator.cum.client.renderer.IlFuMattiaPascal2Renderer;
 import net.mcreator.cum.client.renderer.GirasoleRenderer;
 import net.mcreator.cum.client.renderer.GiolittiRenderer;
@@ -185,5 +186,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.STELLINALUNARE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.STELLINALUNARENEGATIVA.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.ANNA_SCALIA.get(), AnnaScaliaRenderer::new);
+		event.registerEntityRenderer(CumModEntities.INETTO.get(), InettoRenderer::new);
 	}
 }

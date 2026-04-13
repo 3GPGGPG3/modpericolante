@@ -132,6 +132,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.CAPITALISTA_SPAWN_EGG.get());
 				tabData.accept(CumModItems.TELEFONO.get());
 				tabData.accept(CumModItems.HUAWEI_CINESE.get());
+				tabData.accept(CumModItems.COMPAGNIDI_CLASSE.get());
+				tabData.accept(CumModItems.ALUNNEDIMODA.get());
 			}).withTabsBefore(ARTI_ANCESTRALI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_LUNANTI = REGISTRY.register("cose_lunanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_lunanti")).icon(() -> new ItemStack(CumModItems.LUNA_DEL_GODO.get())).displayItems((parameters, tabData) -> {
@@ -740,6 +742,7 @@ public class CumModTabs {
 			tabData.accept(CumModItems.CHARLIE_CHAPLIN_SPAWN_EGG.get());
 			tabData.accept(CumModItems.CAPAREZZAGUARDIANOLUNAREMAGGIORE_SPAWN_EGG.get());
 			tabData.accept(CumModItems.ANNA_SCALIA_SPAWN_EGG.get());
+			tabData.accept(CumModItems.INETTO_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(CumModItems.TACO.get());
 		}
