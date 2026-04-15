@@ -105,6 +105,7 @@ import net.mcreator.cum.entity.CaparezzaguardianolunaremaggioreEntity;
 import net.mcreator.cum.entity.ButtigghiasangutirataEntity;
 import net.mcreator.cum.entity.ButtigghiadigattiProiettileEntity;
 import net.mcreator.cum.entity.BiciclettaEntity;
+import net.mcreator.cum.entity.BadpiggiesEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
 import net.mcreator.cum.entity.AnticorpoEntity;
 import net.mcreator.cum.entity.AnnaScaliaEntity;
@@ -432,6 +433,10 @@ public class CumModEntities {
 			EntityType.Builder.<InettoEntity>of(InettoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(1).setUpdateInterval(3).setCustomClientFactory(InettoEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BadpiggiesEntity>> BADPIGGIES = register("badpiggies",
+			EntityType.Builder.<BadpiggiesEntity>of(BadpiggiesEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BadpiggiesEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -518,6 +523,7 @@ public class CumModEntities {
 			CaparezzaguardianolunaremaggioreEntity.init();
 			AnnaScaliaEntity.init();
 			InettoEntity.init();
+			BadpiggiesEntity.init();
 		});
 	}
 
@@ -599,5 +605,6 @@ public class CumModEntities {
 		event.put(CAPAREZZAGUARDIANOLUNAREMAGGIORE.get(), CaparezzaguardianolunaremaggioreEntity.createAttributes().build());
 		event.put(ANNA_SCALIA.get(), AnnaScaliaEntity.createAttributes().build());
 		event.put(INETTO.get(), InettoEntity.createAttributes().build());
+		event.put(BADPIGGIES.get(), BadpiggiesEntity.createAttributes().build());
 	}
 }

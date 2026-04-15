@@ -82,6 +82,7 @@ import net.mcreator.cum.client.renderer.CharlieChaplinRenderer;
 import net.mcreator.cum.client.renderer.CapitalistaRenderer;
 import net.mcreator.cum.client.renderer.CaparezzaguardianolunaremaggioreRenderer;
 import net.mcreator.cum.client.renderer.BiciclettaRenderer;
+import net.mcreator.cum.client.renderer.BadpiggiesRenderer;
 import net.mcreator.cum.client.renderer.AssassinaDeiNeriColtelliRenderer;
 import net.mcreator.cum.client.renderer.AnticorpoRenderer;
 import net.mcreator.cum.client.renderer.AnnaScaliaRenderer;
@@ -187,5 +188,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.STELLINALUNARENEGATIVA.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.ANNA_SCALIA.get(), AnnaScaliaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.INETTO.get(), InettoRenderer::new);
+		event.registerEntityRenderer(CumModEntities.BADPIGGIES.get(), BadpiggiesRenderer::new);
 	}
 }

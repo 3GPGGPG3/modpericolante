@@ -36,6 +36,7 @@ import net.mcreator.cum.client.model.Modelcharlie_chaplin;
 import net.mcreator.cum.client.model.Modelcalcoli_di_libra;
 import net.mcreator.cum.client.model.Modelbuttigghia_Converted;
 import net.mcreator.cum.client.model.Modelbicicletta;
+import net.mcreator.cum.client.model.Modelbad_piggies;
 import net.mcreator.cum.client.model.Modelanticorpo;
 import net.mcreator.cum.client.model.ModelPreside;
 import net.mcreator.cum.client.model.ModelOlivia;
@@ -52,6 +53,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelfilfh.LAYER_LOCATION, Modelfilfh::createBodyLayer);
 		event.registerLayerDefinition(Modelpaperon_de_paperoni.LAYER_LOCATION, Modelpaperon_de_paperoni::createBodyLayer);
 		event.registerLayerDefinition(Modelpeashooter.LAYER_LOCATION, Modelpeashooter::createBodyLayer);
+		event.registerLayerDefinition(Modelbad_piggies.LAYER_LOCATION, Modelbad_piggies::createBodyLayer);
 		event.registerLayerDefinition(Modelcalcoli_di_libra.LAYER_LOCATION, Modelcalcoli_di_libra::createBodyLayer);
 		event.registerLayerDefinition(Modellibbra.LAYER_LOCATION, Modellibbra::createBodyLayer);
 		event.registerLayerDefinition(ModelCaparezza_Guardiano_lunare_maggiore.LAYER_LOCATION, ModelCaparezza_Guardiano_lunare_maggiore::createBodyLayer);

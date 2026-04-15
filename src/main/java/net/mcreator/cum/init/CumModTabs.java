@@ -743,6 +743,7 @@ public class CumModTabs {
 			tabData.accept(CumModItems.CAPAREZZAGUARDIANOLUNAREMAGGIORE_SPAWN_EGG.get());
 			tabData.accept(CumModItems.ANNA_SCALIA_SPAWN_EGG.get());
 			tabData.accept(CumModItems.INETTO_SPAWN_EGG.get());
+			tabData.accept(CumModItems.BADPIGGIES_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(CumModItems.TACO.get());
 		}

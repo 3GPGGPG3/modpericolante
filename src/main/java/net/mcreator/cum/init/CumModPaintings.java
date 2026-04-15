@@ -24,4 +24,5 @@ public class CumModPaintings {
 	public static final RegistryObject<PaintingVariant> GIUDICE = REGISTRY.register("giudice", () -> new PaintingVariant(32, 16));
 	public static final RegistryObject<PaintingVariant> POWER_POINT_DNA_ENGLISH = REGISTRY.register("power_point_dna_english", () -> new PaintingVariant(48, 32));
 	public static final RegistryObject<PaintingVariant> FERRARIS = REGISTRY.register("ferraris", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> KOLCHOZ = REGISTRY.register("kolchoz", () -> new PaintingVariant(16, 32));
 }

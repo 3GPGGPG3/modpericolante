@@ -606,6 +606,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> COMPAGNIDI_CLASSE = REGISTRY.register("compagnidi_classe", () -> new CompagnidiCLASSEItem());
 	public static final RegistryObject<Item> ALUNNEDIMODA = REGISTRY.register("alunnedimoda", () -> new AlunnedimodaItem());
 	public static final RegistryObject<Item> INETTO_SPAWN_EGG = REGISTRY.register("inetto_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.INETTO, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> BADPIGGIES_SPAWN_EGG = REGISTRY.register("badpiggies_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.BADPIGGIES, -13395712, -10027162, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

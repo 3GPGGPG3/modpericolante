@@ -17823,8 +17823,52 @@
         "files": [
           "src/main/java/net/mcreator/cum/entity/InettoEntity.java",
           "src/main/resources/assets/cum/models/item/inetto_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/client/renderer/InettoRenderer.java",
-          "src/main/resources/data/cum/forge/biome_modifier/inetto_biome_modifier.json"
+          "src/main/java/net/mcreator/cum/client/renderer/InettoRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "InettoEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inetto_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/InettoEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Badpiggies",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badpiggies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/entity/BadpiggiesEntity.java",
+          "src/main/resources/data/cum/forge/biome_modifier/badpiggies_biome_modifier.json",
+          "src/main/java/net/mcreator/cum/client/renderer/BadpiggiesRenderer.java",
+          "src/main/resources/assets/cum/models/item/badpiggies_spawn_egg.json"
         ]
       }
     }
@@ -18836,6 +18880,7 @@
       "item.cum.nove_di_picchie.description_0": "+9 fiche.",
       "item.cum.dieci_di_fiori.description_0": "+10 fiche.",
       "item.cum.disc_libra.desc": "Libra, Creature Of Night - Elden Ring Nightreign Theme",
+      "item.cum.badpiggies_spawn_egg": "Bad Pig Spawn Egg",
       "item.cum.mano_di_malenia": "Mano di Malenia",
       "subtitles.ilfumattiastory": "",
       "item.cum.cianografia": "Cianografia",
@@ -19305,6 +19350,7 @@
       "subtitles.dave5_contento": "",
       "gui.cum.macchina_del_tempo_gui.label_selezionare_la_funzione_a_cui_ac": "Selezionare la funzione a cui accedere.",
       "item.cum.giocatore_iii_spawn_egg": "Giocatore III Spawn Egg",
+      "entity.cum.badpiggies": "Bad Pig",
       "block.cum.balatro_grass": "Prato balatrante",
       "item.cum.spada_solare": "Spada Solare",
       "item.cum.bastone_paperone": "Bastone di Paperone",
