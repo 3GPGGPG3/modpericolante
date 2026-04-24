@@ -65,6 +65,7 @@ import net.mcreator.cum.entity.MinosPrimeEntity;
 import net.mcreator.cum.entity.MattiaPascalEntity;
 import net.mcreator.cum.entity.MaliciousFaceEntity;
 import net.mcreator.cum.entity.MaleniaBladeOfMiquellaEntity;
+import net.mcreator.cum.entity.MagentaProiettileEntity;
 import net.mcreator.cum.entity.LinfocitaTEntity;
 import net.mcreator.cum.entity.LinfocitaBEntity;
 import net.mcreator.cum.entity.LibracerchioEntity;
@@ -105,6 +106,7 @@ import net.mcreator.cum.entity.CapitalistaEntity;
 import net.mcreator.cum.entity.CaparezzaguardianolunaremaggioreEntity;
 import net.mcreator.cum.entity.ButtigghiasangutirataEntity;
 import net.mcreator.cum.entity.ButtigghiadigattiProiettileEntity;
+import net.mcreator.cum.entity.ButtigghiaDaMiseriaTirataEntity;
 import net.mcreator.cum.entity.BiciclettaEntity;
 import net.mcreator.cum.entity.BadpiggiesEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
@@ -439,9 +441,14 @@ public class CumModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<ProvidenceEntity>> PROVIDENCE = register("providence",
-			EntityType.Builder.<ProvidenceEntity>of(ProvidenceEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ProvidenceEntity::new)
+			EntityType.Builder.<ProvidenceEntity>of(ProvidenceEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(200).setUpdateInterval(3).setCustomClientFactory(ProvidenceEntity::new)
 
 					.sized(2.5f, 3f));
+	public static final RegistryObject<EntityType<MagentaProiettileEntity>> MAGENTA_PROIETTILE = register("magenta_proiettile", EntityType.Builder.<MagentaProiettileEntity>of(MagentaProiettileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(MagentaProiettileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ButtigghiaDaMiseriaTirataEntity>> BUTTIGGHIA_DA_MISERIA_TIRATA = register("buttigghia_da_miseria_tirata",
+			EntityType.Builder.<ButtigghiaDaMiseriaTirataEntity>of(ButtigghiaDaMiseriaTirataEntity::new, MobCategory.MISC).setCustomClientFactory(ButtigghiaDaMiseriaTirataEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

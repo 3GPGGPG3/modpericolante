@@ -70,17 +70,10 @@ public class ProvidenceEntity extends Monster implements RangedAttackMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, V1Entity.class, false, false));
-		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, V2Entity.class, false, false));
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.2, false) {
-			@Override
-			protected double getAttackReachSqr(LivingEntity entity) {
-				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
-			}
-		});
-		this.targetSelector.addGoal(5, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(6, new RandomStrollGoal(this, 1, 20) {
+		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, V1Entity.class, false, false));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, V2Entity.class, false, false));
+		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 1, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				RandomSource random = ProvidenceEntity.this.getRandom();
@@ -88,6 +81,13 @@ public class ProvidenceEntity extends Monster implements RangedAttackMob {
 				double dir_y = ProvidenceEntity.this.getY() + ((random.nextFloat() * 2 - 1) * 16);
 				double dir_z = ProvidenceEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
 				return new Vec3(dir_x, dir_y, dir_z);
+			}
+		});
+		this.targetSelector.addGoal(5, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(6, new MeleeAttackGoal(this, 1.2, false) {
+			@Override
+			protected double getAttackReachSqr(LivingEntity entity) {
+				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 40, 30f) {
@@ -160,12 +160,12 @@ public class ProvidenceEntity extends Monster implements RangedAttackMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		ProvidenceOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
+		ProvidenceOnEntityTickUpdateProcedure.execute(this);
 	}
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		FireballStrayProjEntity.shoot(this, target);
+		MagentaProiettileEntity.shoot(this, target);
 	}
 
 	@Override
@@ -189,9 +189,11 @@ public class ProvidenceEntity extends Monster implements RangedAttackMob {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
 		builder = builder.add(Attributes.MAX_HEALTH, 200);
-		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+		builder = builder.add(Attributes.ARMOR, 4);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 18);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 200);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.8);
+		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.5);
 		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
 		return builder;
 	}

@@ -479,5 +479,13 @@
         "stream": false
       }
     ]
+  },
+  "providence_bullet": {
+    "sounds": [
+      {
+        "name": "cum:providence_bullet",
+        "stream": false
+      }
+    ]
   }
 }

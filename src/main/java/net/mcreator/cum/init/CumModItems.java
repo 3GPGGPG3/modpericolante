@@ -117,6 +117,7 @@ import net.mcreator.cum.item.NeroColtelloItem;
 import net.mcreator.cum.item.MoltItem;
 import net.mcreator.cum.item.MicropipettaItem;
 import net.mcreator.cum.item.ManoDiMaleniaItem;
+import net.mcreator.cum.item.MagentaFireballItem;
 import net.mcreator.cum.item.MacchinaDelTempoItem;
 import net.mcreator.cum.item.LunaDelGodoItem;
 import net.mcreator.cum.item.LingottoUltrakillanteItem;
@@ -189,6 +190,7 @@ import net.mcreator.cum.item.CampioneDiDNAItem;
 import net.mcreator.cum.item.CampioneDiDNAFrammentatoItem;
 import net.mcreator.cum.item.ButtigghiaDuVostruSanguItem;
 import net.mcreator.cum.item.ButtigghiaDiGattiItem;
+import net.mcreator.cum.item.ButtigghiaDaMiseriaItem;
 import net.mcreator.cum.item.BologneseConLUovoItem;
 import net.mcreator.cum.item.BoloStabilizzanteItem;
 import net.mcreator.cum.item.BlueOrbItem;
@@ -608,6 +610,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> INETTO_SPAWN_EGG = REGISTRY.register("inetto_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.INETTO, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> BADPIGGIES_SPAWN_EGG = REGISTRY.register("badpiggies_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.BADPIGGIES, -13395712, -10027162, new Item.Properties()));
 	public static final RegistryObject<Item> PROVIDENCE_SPAWN_EGG = REGISTRY.register("providence_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.PROVIDENCE, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> MAGENTA_FIREBALL = REGISTRY.register("magenta_fireball", () -> new MagentaFireballItem());
+	public static final RegistryObject<Item> BUTTIGGHIA_DA_MISERIA = REGISTRY.register("buttigghia_da_miseria", () -> new ButtigghiaDaMiseriaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

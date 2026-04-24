@@ -457,7 +457,10 @@ public class CumModTabs {
 				tabData.accept(CumModItems.STAFFALUNARE.get());
 				tabData.accept(CumModItems.STAFFALUNARENEGATIVA.get());
 				tabData.accept(CumModItems.HUAWEI_CINESE.get());
+				tabData.accept(CumModItems.BADPIGGIES_SPAWN_EGG.get());
 				tabData.accept(CumModItems.PROVIDENCE_SPAWN_EGG.get());
+				tabData.accept(CumModItems.MAGENTA_FIREBALL.get());
+				tabData.accept(CumModItems.BUTTIGGHIA_DA_MISERIA.get());
 			}).withTabsBefore(COSE_LUNANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -595,6 +598,7 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.SLAB_DI_SANGUE.get().asItem());
 				tabData.accept(CumModItems.RADIANT_POWER_OF_THE_SUN.get());
 				tabData.accept(CumModItems.PROVIDENCE_SPAWN_EGG.get());
+				tabData.accept(CumModItems.MAGENTA_FIREBALL.get());
 			}).withTabsBefore(CARTE_DA_GIOCO.getId()).build());
 	public static final RegistryObject<CreativeModeTab> LABORATORIO = REGISTRY.register("laboratorio",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.laboratorio")).icon(() -> new ItemStack(CumModItems.ECO_RI.get())).displayItems((parameters, tabData) -> {
@@ -700,6 +704,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.SBIRRA.get());
 				tabData.accept(CumModItems.BUTTIGGHIA_DU_VOSTRU_SANGU.get());
 				tabData.accept(CumModItems.BUTTIGGHIA_DI_GATTI.get());
+				tabData.accept(CumModItems.BUTTIGGHIA_DA_MISERIA.get());
 			}).withTabsBefore(MACCHINE_UTENSILI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_ELDENRINGANTI = REGISTRY.register("cose_eldenringanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_eldenringanti")).icon(() -> new ItemStack(CumModItems.ANELLO_ANCESTRALE.get())).displayItems((parameters, tabData) -> {
@@ -745,7 +750,6 @@ public class CumModTabs {
 			tabData.accept(CumModItems.CAPAREZZAGUARDIANOLUNAREMAGGIORE_SPAWN_EGG.get());
 			tabData.accept(CumModItems.ANNA_SCALIA_SPAWN_EGG.get());
 			tabData.accept(CumModItems.INETTO_SPAWN_EGG.get());
-			tabData.accept(CumModItems.BADPIGGIES_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(CumModItems.TACO.get());
 		}

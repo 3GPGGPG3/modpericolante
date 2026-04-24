@@ -191,5 +191,7 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.INETTO.get(), InettoRenderer::new);
 		event.registerEntityRenderer(CumModEntities.BADPIGGIES.get(), BadpiggiesRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PROVIDENCE.get(), ProvidenceRenderer::new);
+		event.registerEntityRenderer(CumModEntities.MAGENTA_PROIETTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.BUTTIGGHIA_DA_MISERIA_TIRATA.get(), ThrownItemRenderer::new);
 	}
 }

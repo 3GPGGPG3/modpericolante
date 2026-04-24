@@ -1,0 +1,27 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:ButtigghiaDaMiseria"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.experience_bottle.throw"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "buttigghia.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "ButtigghiaDaMiseriaTirataProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "ButtigghiaDaMiseriaTirataProjectileHitsLivingEntity"
+    }
+  }
+}
