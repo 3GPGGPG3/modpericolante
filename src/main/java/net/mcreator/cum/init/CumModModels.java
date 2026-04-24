@@ -14,6 +14,7 @@ import net.mcreator.cum.client.model.Modelshrek;
 import net.mcreator.cum.client.model.Modelseisette;
 import net.mcreator.cum.client.model.Modelrat_king;
 import net.mcreator.cum.client.model.Modelraccogli;
+import net.mcreator.cum.client.model.Modelprovidence_vero;
 import net.mcreator.cum.client.model.Modelpoliziotto_in_bici;
 import net.mcreator.cum.client.model.Modelpietra_libra;
 import net.mcreator.cum.client.model.Modelpeashooter;
@@ -74,6 +75,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelcharlie_chaplin.LAYER_LOCATION, Modelcharlie_chaplin::createBodyLayer);
 		event.registerLayerDefinition(Modellinfocita_b_o_plasmacellula.LAYER_LOCATION, Modellinfocita_b_o_plasmacellula::createBodyLayer);
 		event.registerLayerDefinition(Modellibra_cerchio.LAYER_LOCATION, Modellibra_cerchio::createBodyLayer);
+		event.registerLayerDefinition(Modelprovidence_vero.LAYER_LOCATION, Modelprovidence_vero::createBodyLayer);
 		event.registerLayerDefinition(Modelrat_king.LAYER_LOCATION, Modelrat_king::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modelmalicious_face.LAYER_LOCATION, Modelmalicious_face::createBodyLayer);

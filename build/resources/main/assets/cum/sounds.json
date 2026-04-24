@@ -471,5 +471,13 @@
         "stream": false
       }
     ]
+  },
+  "providence_death": {
+    "sounds": [
+      {
+        "name": "cum:prov_death_sound",
+        "stream": false
+      }
+    ]
   }
 }

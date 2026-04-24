@@ -457,6 +457,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.STAFFALUNARE.get());
 				tabData.accept(CumModItems.STAFFALUNARENEGATIVA.get());
 				tabData.accept(CumModItems.HUAWEI_CINESE.get());
+				tabData.accept(CumModItems.PROVIDENCE_SPAWN_EGG.get());
 			}).withTabsBefore(COSE_LUNANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -593,6 +594,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.TECNOLOGIA_V_1NANTE.get());
 				tabData.accept(CumModBlocks.SLAB_DI_SANGUE.get().asItem());
 				tabData.accept(CumModItems.RADIANT_POWER_OF_THE_SUN.get());
+				tabData.accept(CumModItems.PROVIDENCE_SPAWN_EGG.get());
 			}).withTabsBefore(CARTE_DA_GIOCO.getId()).build());
 	public static final RegistryObject<CreativeModeTab> LABORATORIO = REGISTRY.register("laboratorio",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.laboratorio")).icon(() -> new ItemStack(CumModItems.ECO_RI.get())).displayItems((parameters, tabData) -> {
