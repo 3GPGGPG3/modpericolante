@@ -17865,10 +17865,10 @@
       "registry_name": "badpiggies",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/entity/BadpiggiesEntity.java",
           "src/main/resources/data/cum/forge/biome_modifier/badpiggies_biome_modifier.json",
-          "src/main/java/net/mcreator/cum/client/renderer/BadpiggiesRenderer.java",
-          "src/main/resources/assets/cum/models/item/badpiggies_spawn_egg.json"
+          "src/main/resources/assets/cum/models/item/badpiggies_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/entity/BadpiggiesEntity.java",
+          "src/main/java/net/mcreator/cum/client/renderer/BadpiggiesRenderer.java"
         ]
       }
     },
@@ -17940,22 +17940,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -18004,6 +17988,159 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/entity/MagentaProiettileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ButtigghiaDaMiseria",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttigghia_da_miseria",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/item/ButtigghiaDaMiseriaItem.java",
+          "src/main/resources/assets/cum/models/item/buttigghia_da_miseria.json"
+        ]
+      }
+    },
+    {
+      "name": "ButtigghiaDaMiseriaTirata",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttigghia_da_miseria_tirata",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/entity/ButtigghiaDaMiseriaTirataEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ButtigghiaDaMiseriaTirataProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttigghia_da_miseria_tirata_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/ButtigghiaDaMiseriaTirataProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ButtigghiaDaMiseriaTirataProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttigghia_da_miseria_tirata_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/ButtigghiaDaMiseriaTirataProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ButtigghiaDaMiseriaTirataProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttigghia_da_miseria_tirata_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/ButtigghiaDaMiseriaTirataProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ButtigghiaDaMiseriaHitProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttigghia_da_miseria_hit_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/ButtigghiaDaMiseriaHitProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -18961,6 +19098,7 @@
       "death.attack.marcescenza_scarlattaa": "Il morbo della marcescenza scarlatta ha consumato %1$s",
       "entity.cum.charlie_chaplin": "Charlie Chaplin",
       "subtitles.gb_foolishnessmachine": "",
+      "item.cum.buttigghia_da_miseria": "Buttigghia da miseria",
       "gui.cum.azioni_di_huawei.button_ali_pay": "Ali Pay",
       "gui.cum.chat_gpt.button_plasmide": "Fammi un plasmide",
       "item.cum.cin_di_picchie": "5 di Picchie",

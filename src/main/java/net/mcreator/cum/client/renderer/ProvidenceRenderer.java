@@ -8,14 +8,14 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HierarchicalModel;
 
 import net.mcreator.cum.entity.ProvidenceEntity;
-import net.mcreator.cum.client.model.animations.providence_veroAnimation;
-import net.mcreator.cum.client.model.Modelprovidence_vero;
+import net.mcreator.cum.client.model.animations.providence_completoAnimation;
+import net.mcreator.cum.client.model.Modelprovidence_completo;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class ProvidenceRenderer extends MobRenderer<ProvidenceEntity, Modelprovidence_vero<ProvidenceEntity>> {
+public class ProvidenceRenderer extends MobRenderer<ProvidenceEntity, Modelprovidence_completo<ProvidenceEntity>> {
 	public ProvidenceRenderer(EntityRendererProvider.Context context) {
-		super(context, new AnimatedModel(context.bakeLayer(Modelprovidence_vero.LAYER_LOCATION)), 1.8f);
+		super(context, new AnimatedModel(context.bakeLayer(Modelprovidence_completo.LAYER_LOCATION)), 1.8f);
 	}
 
 	@Override
@@ -25,10 +25,10 @@ public class ProvidenceRenderer extends MobRenderer<ProvidenceEntity, Modelprovi
 
 	@Override
 	public ResourceLocation getTextureLocation(ProvidenceEntity entity) {
-		return new ResourceLocation("cum:textures/entities/providence.png");
+		return new ResourceLocation("cum:textures/entities/pro_veerrr.png");
 	}
 
-	private static final class AnimatedModel extends Modelprovidence_vero<ProvidenceEntity> {
+	private static final class AnimatedModel extends Modelprovidence_completo<ProvidenceEntity> {
 		private final ModelPart root;
 		private final HierarchicalModel animator = new HierarchicalModel<ProvidenceEntity>() {
 			@Override
@@ -39,7 +39,7 @@ public class ProvidenceRenderer extends MobRenderer<ProvidenceEntity, Modelprovi
 			@Override
 			public void setupAnim(ProvidenceEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 				this.root().getAllParts().forEach(ModelPart::resetPose);
-				this.animate(entity.animationState0, providence_veroAnimation.idle, ageInTicks, 1f);
+				this.animate(entity.animationState0, providence_completoAnimation.idle, ageInTicks, 1f);
 			}
 		};
 

@@ -15,6 +15,7 @@ import net.mcreator.cum.client.model.Modelseisette;
 import net.mcreator.cum.client.model.Modelrat_king;
 import net.mcreator.cum.client.model.Modelraccogli;
 import net.mcreator.cum.client.model.Modelprovidence_vero;
+import net.mcreator.cum.client.model.Modelprovidence_completo;
 import net.mcreator.cum.client.model.Modelpoliziotto_in_bici;
 import net.mcreator.cum.client.model.Modelpietra_libra;
 import net.mcreator.cum.client.model.Modelpeashooter;
@@ -49,6 +50,7 @@ import net.mcreator.cum.client.model.ModelAnna_Scalia;
 public class CumModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modelprovidence_completo.LAYER_LOCATION, Modelprovidence_completo::createBodyLayer);
 		event.registerLayerDefinition(Modelseisette.LAYER_LOCATION, Modelseisette::createBodyLayer);
 		event.registerLayerDefinition(Modelnocciolina.LAYER_LOCATION, Modelnocciolina::createBodyLayer);
 		event.registerLayerDefinition(Modelfilfh.LAYER_LOCATION, Modelfilfh::createBodyLayer);

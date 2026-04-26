@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Providence",
     "mobLabel": "",
-    "mobModelName": "Modelprovidence_vero",
-    "mobModelTexture": "providence.png",
+    "mobModelName": "Modelprovidence_completo",
+    "mobModelTexture": "pro_veerrr.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -25,7 +25,7 @@
     "animations": [
       {
         "animation": {
-          "value": "CUSTOM:providence_veroAnimation.idle"
+          "value": "CUSTOM:providence_completoAnimation.idle"
         },
         "speed": 1.0,
         "walking": false,
