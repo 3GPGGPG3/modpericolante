@@ -32,17 +32,25 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.cum.procedures.ProvidenceOnEntityTickUpdateProcedure;
 import net.mcreator.cum.procedures.ProvidenceEntityIsHurtProcedure;
 import net.mcreator.cum.procedures.ProvidenceEntityDiesProcedure;
+import net.mcreator.cum.procedures.ProvIdleProcedure;
+import net.mcreator.cum.procedures.ProvAttackProcedure;
 import net.mcreator.cum.init.CumModEntities;
 
 public class ProvidenceEntity extends Monster implements RangedAttackMob {
+	public static final EntityDataAccessor<Boolean> DATA_is_attacking = SynchedEntityData.defineId(ProvidenceEntity.class, EntityDataSerializers.BOOLEAN);
 	public final AnimationState animationState0 = new AnimationState();
+	public final AnimationState animationState1 = new AnimationState();
 
 	public ProvidenceEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(CumModEntities.PROVIDENCE.get(), world);
@@ -60,6 +68,12 @@ public class ProvidenceEntity extends Monster implements RangedAttackMob {
 	@Override
 	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
+	}
+
+	@Override
+	protected void defineSynchedData() {
+		super.defineSynchedData();
+		this.entityData.define(DATA_is_attacking, false);
 	}
 
 	@Override
@@ -82,6 +96,27 @@ public class ProvidenceEntity extends Monster implements RangedAttackMob {
 				double dir_z = ProvidenceEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
+
+			@Override
+			public boolean canUse() {
+				double x = ProvidenceEntity.this.getX();
+				double y = ProvidenceEntity.this.getY();
+				double z = ProvidenceEntity.this.getZ();
+				Entity entity = ProvidenceEntity.this;
+				Level world = ProvidenceEntity.this.level();
+				return super.canUse() && ProvIdleProcedure.execute(entity);
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				double x = ProvidenceEntity.this.getX();
+				double y = ProvidenceEntity.this.getY();
+				double z = ProvidenceEntity.this.getZ();
+				Entity entity = ProvidenceEntity.this;
+				Level world = ProvidenceEntity.this.level();
+				return super.canContinueToUse() && ProvIdleProcedure.execute(entity);
+			}
+
 		});
 		this.targetSelector.addGoal(5, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(6, new MeleeAttackGoal(this, 1.2, false) {
@@ -150,17 +185,31 @@ public class ProvidenceEntity extends Monster implements RangedAttackMob {
 	}
 
 	@Override
+	public void addAdditionalSaveData(CompoundTag compound) {
+		super.addAdditionalSaveData(compound);
+		compound.putBoolean("Datais_attacking", this.entityData.get(DATA_is_attacking));
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundTag compound) {
+		super.readAdditionalSaveData(compound);
+		if (compound.contains("Datais_attacking"))
+			this.entityData.set(DATA_is_attacking, compound.getBoolean("Datais_attacking"));
+	}
+
+	@Override
 	public void tick() {
 		super.tick();
 		if (this.level().isClientSide()) {
-			this.animationState0.animateWhen(true, this.tickCount);
+			this.animationState0.animateWhen(ProvIdleProcedure.execute(this), this.tickCount);
+			this.animationState1.animateWhen(ProvAttackProcedure.execute(this), this.tickCount);
 		}
 	}
 
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		ProvidenceOnEntityTickUpdateProcedure.execute(this);
+		ProvidenceOnEntityTickUpdateProcedure.execute(this.level(), this);
 	}
 
 	@Override

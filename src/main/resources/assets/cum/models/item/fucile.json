@@ -1,0 +1,7 @@
+{
+  "parent": "cum:custom/fucile",
+  "textures": {
+    "0": "cum:block/fucile",
+    "particle": "minecraft:item/bow_pulling_0"
+  }
+}

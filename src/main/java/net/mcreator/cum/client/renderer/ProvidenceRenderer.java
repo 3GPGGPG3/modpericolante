@@ -40,6 +40,7 @@ public class ProvidenceRenderer extends MobRenderer<ProvidenceEntity, Modelprovi
 			public void setupAnim(ProvidenceEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 				this.root().getAllParts().forEach(ModelPart::resetPose);
 				this.animate(entity.animationState0, providence_completoAnimation.idle, ageInTicks, 1f);
+				this.animate(entity.animationState1, providence_completoAnimation.attack, ageInTicks, 1f);
 			}
 		};
 
