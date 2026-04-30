@@ -487,5 +487,37 @@
         "stream": false
       }
     ]
+  },
+  "pig1": {
+    "sounds": [
+      {
+        "name": "cum:pig1",
+        "stream": false
+      }
+    ]
+  },
+  "pig2": {
+    "sounds": [
+      {
+        "name": "cum:pig2",
+        "stream": false
+      }
+    ]
+  },
+  "pig3": {
+    "sounds": [
+      {
+        "name": "cum:pig3",
+        "stream": false
+      }
+    ]
+  },
+  "pig4": {
+    "sounds": [
+      {
+        "name": "cum:pig4",
+        "stream": false
+      }
+    ]
   }
 }

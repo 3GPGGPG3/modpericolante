@@ -439,7 +439,7 @@ public class CumModEntities {
 	public static final RegistryObject<EntityType<BadpiggiesEntity>> BADPIGGIES = register("badpiggies",
 			EntityType.Builder.<BadpiggiesEntity>of(BadpiggiesEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BadpiggiesEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.7f, 1f));
 	public static final RegistryObject<EntityType<ProvidenceEntity>> PROVIDENCE = register("providence",
 			EntityType.Builder.<ProvidenceEntity>of(ProvidenceEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(200).setUpdateInterval(3).setCustomClientFactory(ProvidenceEntity::new)
 

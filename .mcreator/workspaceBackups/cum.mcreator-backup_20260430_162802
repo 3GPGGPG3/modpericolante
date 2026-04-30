@@ -18185,6 +18185,53 @@
           }
         ]
       }
+    },
+    {
+      "name": "Fucile",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fucile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cum/models/item/fucile.json",
+          "src/main/java/net/mcreator/cum/item/FucileItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PigOinks",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_oinks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cum/procedures/PigOinksProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -18676,6 +18723,14 @@
       ],
       "category": "hostile",
       "subtitle": ""
+    },
+    {
+      "name": "pig1",
+      "files": [
+        "pig1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -18975,7 +19030,8 @@
       "Telefono",
       "HuaweiCinese",
       "CompagnidiCLASSE",
-      "Alunnedimoda"
+      "Alunnedimoda",
+      "Fucile"
     ],
     "CUSTOM:Coselunanti": [
       "BloccoLunare",
@@ -19486,6 +19542,7 @@
       "item.cum.giocatore_ii_spawn_egg": "Giocatore II Spawn Egg",
       "block.cum.blocco_non_sicuro": "Blocco non sicuro",
       "item.cum.sei_sette_spawn_egg": "67 Spawn Egg",
+      "item.cum.fucile": "Fucile",
       "item.cum.dispositivo_neutralizzante.description_0": "Dispositivo che se equipaggiato in mano rimuove tutto dall\u0027entità.",
       "item.cum.chiave_di_pietra.description_0": "Usala per aprire le galere eterne.",
       "entity.cum.girasole": "Girasole",
@@ -19855,6 +19912,7 @@
       "gui.cum.vasca_elettroforetica_gui.label_matrice": "Matrice",
       "gui.cum.azioni_di_huawei.button_pncraft": "P##nCraft",
       "item.cum.dispositivo_teletrasportante": "Dispositivo teletrasportante",
+      "subtitles.pig1": "",
       "item.cum.disc_pandemonium": "Disco musicale",
       "block.cum.vasca_elettroforetica": "Vasca elettroforetica",
       "item.cum.dieci_di_picchie": "10 di Picchie",
