@@ -463,6 +463,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.MAGENTA_FIREBALL.get());
 				tabData.accept(CumModItems.BUTTIGGHIA_DA_MISERIA.get());
 				tabData.accept(CumModItems.FUCILE.get());
+				tabData.accept(CumModItems.BLASTERMANDO.get());
 			}).withTabsBefore(COSE_LUNANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -752,6 +753,7 @@ public class CumModTabs {
 			tabData.accept(CumModItems.CAPAREZZAGUARDIANOLUNAREMAGGIORE_SPAWN_EGG.get());
 			tabData.accept(CumModItems.ANNA_SCALIA_SPAWN_EGG.get());
 			tabData.accept(CumModItems.INETTO_SPAWN_EGG.get());
+			tabData.accept(CumModItems.ABRAMO_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(CumModItems.TACO.get());
 		}

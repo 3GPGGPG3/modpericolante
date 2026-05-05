@@ -45,6 +45,7 @@ import net.mcreator.cum.client.model.ModelOlivia;
 import net.mcreator.cum.client.model.ModelCustomModel;
 import net.mcreator.cum.client.model.ModelCaparezza_Guardiano_lunare_maggiore;
 import net.mcreator.cum.client.model.ModelAnna_Scalia;
+import net.mcreator.cum.client.model.ModelAbramo;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class CumModModels {
@@ -70,6 +71,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modeltopo.LAYER_LOCATION, Modeltopo::createBodyLayer);
 		event.registerLayerDefinition(ModelPreside.LAYER_LOCATION, ModelPreside::createBodyLayer);
 		event.registerLayerDefinition(Modelcube.LAYER_LOCATION, Modelcube::createBodyLayer);
+		event.registerLayerDefinition(ModelAbramo.LAYER_LOCATION, ModelAbramo::createBodyLayer);
 		event.registerLayerDefinition(ModelAnna_Scalia.LAYER_LOCATION, ModelAnna_Scalia::createBodyLayer);
 		event.registerLayerDefinition(Modelanticorpo.LAYER_LOCATION, Modelanticorpo::createBodyLayer);
 		event.registerLayerDefinition(Modelflesh_panopticom.LAYER_LOCATION, Modelflesh_panopticom::createBodyLayer);

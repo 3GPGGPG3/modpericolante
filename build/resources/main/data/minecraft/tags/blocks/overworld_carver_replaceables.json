@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:smooth_sandstone",
     "cum:sabbia_della_notte",
     "minecraft:stone",
     "minecraft:dirt",

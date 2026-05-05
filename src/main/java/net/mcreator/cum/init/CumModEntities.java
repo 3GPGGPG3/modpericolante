@@ -107,6 +107,7 @@ import net.mcreator.cum.entity.CaparezzaguardianolunaremaggioreEntity;
 import net.mcreator.cum.entity.ButtigghiasangutirataEntity;
 import net.mcreator.cum.entity.ButtigghiadigattiProiettileEntity;
 import net.mcreator.cum.entity.ButtigghiaDaMiseriaTirataEntity;
+import net.mcreator.cum.entity.BlasterprojectileEntity;
 import net.mcreator.cum.entity.BiciclettaEntity;
 import net.mcreator.cum.entity.BadpiggiesEntity;
 import net.mcreator.cum.entity.AssassinaDeiNeriColtelliEntity;
@@ -115,6 +116,7 @@ import net.mcreator.cum.entity.AnnaScaliaEntity;
 import net.mcreator.cum.entity.AltPiercerBeamEntity;
 import net.mcreator.cum.entity.AlessandroManzoniEntity;
 import net.mcreator.cum.entity.AdrianoMeisEntity;
+import net.mcreator.cum.entity.AbramoEntity;
 import net.mcreator.cum.CumMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -449,6 +451,12 @@ public class CumModEntities {
 	public static final RegistryObject<EntityType<ButtigghiaDaMiseriaTirataEntity>> BUTTIGGHIA_DA_MISERIA_TIRATA = register("buttigghia_da_miseria_tirata",
 			EntityType.Builder.<ButtigghiaDaMiseriaTirataEntity>of(ButtigghiaDaMiseriaTirataEntity::new, MobCategory.MISC).setCustomClientFactory(ButtigghiaDaMiseriaTirataEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<BlasterprojectileEntity>> BLASTERPROJECTILE = register("blasterprojectile", EntityType.Builder.<BlasterprojectileEntity>of(BlasterprojectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(BlasterprojectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<AbramoEntity>> ABRAMO = register("abramo",
+			EntityType.Builder.<AbramoEntity>of(AbramoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AbramoEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -537,6 +545,7 @@ public class CumModEntities {
 			InettoEntity.init();
 			BadpiggiesEntity.init();
 			ProvidenceEntity.init();
+			AbramoEntity.init();
 		});
 	}
 
@@ -620,5 +629,6 @@ public class CumModEntities {
 		event.put(INETTO.get(), InettoEntity.createAttributes().build());
 		event.put(BADPIGGIES.get(), BadpiggiesEntity.createAttributes().build());
 		event.put(PROVIDENCE.get(), ProvidenceEntity.createAttributes().build());
+		event.put(ABRAMO.get(), AbramoEntity.createAttributes().build());
 	}
 }

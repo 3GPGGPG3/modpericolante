@@ -1,0 +1,7 @@
+{
+  "parent": "cum:custom/blaster_mando",
+  "textures": {
+    "0": "cum:block/blaster",
+    "particle": "cum:item/blaster"
+  }
+}

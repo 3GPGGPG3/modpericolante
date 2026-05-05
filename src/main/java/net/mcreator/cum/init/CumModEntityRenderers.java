@@ -89,6 +89,7 @@ import net.mcreator.cum.client.renderer.AnticorpoRenderer;
 import net.mcreator.cum.client.renderer.AnnaScaliaRenderer;
 import net.mcreator.cum.client.renderer.AlessandroManzoniRenderer;
 import net.mcreator.cum.client.renderer.AdrianoMeisRenderer;
+import net.mcreator.cum.client.renderer.AbramoRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CumModEntityRenderers {
@@ -193,5 +194,7 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.PROVIDENCE.get(), ProvidenceRenderer::new);
 		event.registerEntityRenderer(CumModEntities.MAGENTA_PROIETTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.BUTTIGGHIA_DA_MISERIA_TIRATA.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.BLASTERPROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.ABRAMO.get(), AbramoRenderer::new);
 	}
 }

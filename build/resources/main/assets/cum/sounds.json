@@ -519,5 +519,13 @@
         "stream": false
       }
     ]
+  },
+  "blaster_shooting": {
+    "sounds": [
+      {
+        "name": "cum:star_wars_mandalorian_blaster_weapon_sound_effects_mp3cut.net",
+        "stream": false
+      }
+    ]
   }
 }

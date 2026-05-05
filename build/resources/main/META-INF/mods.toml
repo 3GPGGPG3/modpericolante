@@ -21,6 +21,12 @@ authors="Fabio Ferlito, MCreator"
     side="BOTH"
 
 
+[[dependencies.cum]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

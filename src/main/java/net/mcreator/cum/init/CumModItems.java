@@ -196,6 +196,7 @@ import net.mcreator.cum.item.BologneseConLUovoItem;
 import net.mcreator.cum.item.BoloStabilizzanteItem;
 import net.mcreator.cum.item.BlueOrbItem;
 import net.mcreator.cum.item.BloodItem;
+import net.mcreator.cum.item.BlastermandoItem;
 import net.mcreator.cum.item.BiciItem;
 import net.mcreator.cum.item.BatteriaItem;
 import net.mcreator.cum.item.BastonePaperoneItem;
@@ -614,6 +615,8 @@ public class CumModItems {
 	public static final RegistryObject<Item> MAGENTA_FIREBALL = REGISTRY.register("magenta_fireball", () -> new MagentaFireballItem());
 	public static final RegistryObject<Item> BUTTIGGHIA_DA_MISERIA = REGISTRY.register("buttigghia_da_miseria", () -> new ButtigghiaDaMiseriaItem());
 	public static final RegistryObject<Item> FUCILE = REGISTRY.register("fucile", () -> new FucileItem());
+	public static final RegistryObject<Item> BLASTERMANDO = REGISTRY.register("blastermando", () -> new BlastermandoItem());
+	public static final RegistryObject<Item> ABRAMO_SPAWN_EGG = REGISTRY.register("abramo_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.ABRAMO, -5274248, -8809055, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "cum:biomaannaabramante",
+  "spawners": {
+    "type": "cum:anna_scalia",
+    "weight": 20,
+    "minCount": 20,
+    "maxCount": 20
+  }
+}
