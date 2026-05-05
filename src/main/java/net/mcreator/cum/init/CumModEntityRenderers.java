@@ -21,6 +21,7 @@ import net.mcreator.cum.client.renderer.SocialistaRenderer;
 import net.mcreator.cum.client.renderer.SisyphusPrimeRenderer;
 import net.mcreator.cum.client.renderer.ShrekRenderer;
 import net.mcreator.cum.client.renderer.SeiSetteRenderer;
+import net.mcreator.cum.client.renderer.ProvidenceRenderer;
 import net.mcreator.cum.client.renderer.ProletarioRenderer;
 import net.mcreator.cum.client.renderer.PresideRenderer;
 import net.mcreator.cum.client.renderer.PoliziottoInBiciRenderer;
@@ -189,5 +190,8 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.ANNA_SCALIA.get(), AnnaScaliaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.INETTO.get(), InettoRenderer::new);
 		event.registerEntityRenderer(CumModEntities.BADPIGGIES.get(), BadpiggiesRenderer::new);
+		event.registerEntityRenderer(CumModEntities.PROVIDENCE.get(), ProvidenceRenderer::new);
+		event.registerEntityRenderer(CumModEntities.MAGENTA_PROIETTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.BUTTIGGHIA_DA_MISERIA_TIRATA.get(), ThrownItemRenderer::new);
 	}
 }

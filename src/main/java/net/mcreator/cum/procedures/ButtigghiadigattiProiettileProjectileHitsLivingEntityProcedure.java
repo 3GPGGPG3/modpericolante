@@ -33,5 +33,6 @@ public class ButtigghiadigattiProiettileProjectileHitsLivingEntityProcedure {
 				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.glass.break")), SoundSource.NEUTRAL, 1, 1, false);
 			}
 		}
+		world.destroyBlock(BlockPos.containing(x, y, z), false);
 	}
 }
