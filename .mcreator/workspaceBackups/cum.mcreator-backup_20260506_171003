@@ -12558,9 +12558,9 @@
       "registry_name": "sei_sette",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/entity/SeiSetteEntity.java",
           "src/main/java/net/mcreator/cum/client/renderer/SeiSetteRenderer.java",
-          "src/main/resources/assets/cum/models/item/sei_sette_spawn_egg.json"
+          "src/main/resources/assets/cum/models/item/sei_sette_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/entity/SeiSetteEntity.java"
         ]
       }
     },
@@ -17722,9 +17722,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/client/renderer/AnnaScaliaRenderer.java",
-          "src/main/resources/assets/cum/models/item/anna_scalia_spawn_egg.json",
           "src/main/resources/data/cum/forge/biome_modifier/anna_scalia_biome_modifier.json",
-          "src/main/java/net/mcreator/cum/entity/AnnaScaliaEntity.java"
+          "src/main/java/net/mcreator/cum/entity/AnnaScaliaEntity.java",
+          "src/main/resources/assets/cum/models/item/anna_scalia_spawn_egg.json"
         ]
       }
     },
@@ -18310,9 +18310,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/cum/client/renderer/AbramoRenderer.java",
-          "src/main/resources/assets/cum/models/item/abramo_spawn_egg.json",
           "src/main/java/net/mcreator/cum/entity/AbramoEntity.java",
-          "src/main/resources/data/cum/forge/biome_modifier/abramo_biome_modifier.json"
+          "src/main/resources/data/cum/forge/biome_modifier/abramo_biome_modifier.json",
+          "src/main/resources/assets/cum/models/item/abramo_spawn_egg.json"
         ]
       }
     },
@@ -18338,9 +18338,9 @@
       "registry_name": "biomaannaabramante",
       "metadata": {
         "files": [
-          "src/main/resources/data/cum/worldgen/placed_feature/biomaannaabramante_tree.json",
+          "src/main/resources/data/cum/worldgen/biome/biomaannaabramante.json",
           "src/main/resources/data/cum/worldgen/configured_feature/biomaannaabramante_tree.json",
-          "src/main/resources/data/cum/worldgen/biome/biomaannaabramante.json"
+          "src/main/resources/data/cum/worldgen/placed_feature/biomaannaabramante_tree.json"
         ]
       }
     }

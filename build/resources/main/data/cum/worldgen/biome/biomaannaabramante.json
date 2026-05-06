@@ -11,21 +11,21 @@
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [
+    "monster": [],
+    "creature": [
       {
         "type": "cum:abramo",
         "weight": 20,
-        "minCount": 20,
-        "maxCount": 20
+        "minCount": 10,
+        "maxCount": 15
       },
       {
         "type": "cum:anna_scalia",
         "weight": 20,
-        "minCount": 20,
-        "maxCount": 20
+        "minCount": 10,
+        "maxCount": 15
       }
     ],
-    "creature": [],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
