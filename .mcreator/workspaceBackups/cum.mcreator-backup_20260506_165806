@@ -511,6 +511,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -12554,9 +12558,9 @@
       "registry_name": "sei_sette",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cum/entity/SeiSetteEntity.java",
           "src/main/java/net/mcreator/cum/client/renderer/SeiSetteRenderer.java",
-          "src/main/resources/assets/cum/models/item/sei_sette_spawn_egg.json"
+          "src/main/resources/assets/cum/models/item/sei_sette_spawn_egg.json",
+          "src/main/java/net/mcreator/cum/entity/SeiSetteEntity.java"
         ]
       }
     },
@@ -17719,6 +17723,7 @@
         "files": [
           "src/main/java/net/mcreator/cum/client/renderer/AnnaScaliaRenderer.java",
           "src/main/resources/assets/cum/models/item/anna_scalia_spawn_egg.json",
+          "src/main/resources/data/cum/forge/biome_modifier/anna_scalia_biome_modifier.json",
           "src/main/java/net/mcreator/cum/entity/AnnaScaliaEntity.java"
         ]
       }
@@ -18306,7 +18311,36 @@
         "files": [
           "src/main/java/net/mcreator/cum/client/renderer/AbramoRenderer.java",
           "src/main/resources/assets/cum/models/item/abramo_spawn_egg.json",
-          "src/main/java/net/mcreator/cum/entity/AbramoEntity.java"
+          "src/main/java/net/mcreator/cum/entity/AbramoEntity.java",
+          "src/main/resources/data/cum/forge/biome_modifier/abramo_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Dimensioneannabramante",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensioneannabramante",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cum/dimension_type/dimensioneannabramante.json",
+          "src/main/resources/data/cum/dimension/dimensioneannabramante.json",
+          "src/main/java/net/mcreator/cum/world/dimension/DimensioneannabramanteDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "Biomaannaabramante",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biomaannaabramante",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cum/worldgen/placed_feature/biomaannaabramante_tree.json",
+          "src/main/resources/data/cum/worldgen/configured_feature/biomaannaabramante_tree.json",
+          "src/main/resources/data/cum/worldgen/biome/biomaannaabramante.json"
         ]
       }
     }
@@ -18923,6 +18957,7 @@
       "~CUSTOM:BiomaPericollante"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.SMOOTH_SANDSTONE",
       "~CUSTOM:SabbiaDellaNotte",
       "~Blocks.STONE#0",
       "~Blocks.DIRT#0",
@@ -19942,6 +19977,7 @@
       "gui.cum.spada_balatrante_gui.label_mano_di_poker": "Mano",
       "item.cum.equilibrious_beast.description_2": "Right click: you get teleported to the Nightlord dimension.",
       "entity.cum.daniele_luciano": "Daniele Luciano",
+      "biome.cum.biomaannaabramante": "Bioma Annaabramante",
       "block.cum.matrice": "Matrice di agarosio",
       "gui.cum.scommessa.label_scommesse_online": "Scommesse online",
       "block.cum.bomba_atomica_ii": "Bomba Atomica (II)",

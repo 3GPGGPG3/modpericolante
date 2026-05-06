@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "67",
     "mobLabel": "",
-    "mobModelName": "Modelseisette",
+    "mobModelName": "Modelsei_sette_godo",
     "mobModelTexture": "67_meme.png",
     "transparentModelCondition": {
       "fixedValue": false
@@ -22,9 +22,18 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "animations": [],
-    "modelWidth": 0.7,
-    "modelHeight": 3.8000000000000003,
+    "animations": [
+      {
+        "animation": {
+          "value": "CUSTOM:sei_sette_godo_veroAnimation.sixseven"
+        },
+        "speed": 1.0,
+        "walking": false,
+        "amplitude": 1.0
+      }
+    ],
+    "modelWidth": 2.8000000000000003,
+    "modelHeight": 2.8000000000000003,
     "modelShadowSize": 0.7999999999999999,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -95,7 +104,7 @@
     "immuneToDrowning": true,
     "immuneToLightning": true,
     "immuneToPotions": true,
-    "immuneToPlayer": true,
+    "immuneToPlayer": false,
     "immuneToExplosion": true,
     "immuneToTrident": true,
     "immuneToAnvil": true,

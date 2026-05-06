@@ -323,7 +323,7 @@ public class CumModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SeiSetteEntity>> SEI_SETTE = register("sei_sette",
-			EntityType.Builder.<SeiSetteEntity>of(SeiSetteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(SeiSetteEntity::new).fireImmune().sized(0.7f, 3.8f));
+			EntityType.Builder.<SeiSetteEntity>of(SeiSetteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(SeiSetteEntity::new).fireImmune().sized(2.8f, 2.8f));
 	public static final RegistryObject<EntityType<DelirioEntity>> DELIRIO = register("delirio",
 			EntityType.Builder.<DelirioEntity>of(DelirioEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DelirioEntity::new)
 
@@ -431,7 +431,7 @@ public class CumModEntities {
 	public static final RegistryObject<EntityType<StellinalunarenegativaEntity>> STELLINALUNARENEGATIVA = register("stellinalunarenegativa", EntityType.Builder.<StellinalunarenegativaEntity>of(StellinalunarenegativaEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(StellinalunarenegativaEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<AnnaScaliaEntity>> ANNA_SCALIA = register("anna_scalia",
-			EntityType.Builder.<AnnaScaliaEntity>of(AnnaScaliaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AnnaScaliaEntity::new)
+			EntityType.Builder.<AnnaScaliaEntity>of(AnnaScaliaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AnnaScaliaEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<InettoEntity>> INETTO = register("inetto",
@@ -454,7 +454,7 @@ public class CumModEntities {
 	public static final RegistryObject<EntityType<BlasterprojectileEntity>> BLASTERPROJECTILE = register("blasterprojectile", EntityType.Builder.<BlasterprojectileEntity>of(BlasterprojectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(BlasterprojectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<AbramoEntity>> ABRAMO = register("abramo",
-			EntityType.Builder.<AbramoEntity>of(AbramoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AbramoEntity::new)
+			EntityType.Builder.<AbramoEntity>of(AbramoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AbramoEntity::new)
 
 					.sized(0.6f, 1.8f));
 

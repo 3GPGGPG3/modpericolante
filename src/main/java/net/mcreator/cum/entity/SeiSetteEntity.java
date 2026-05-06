@@ -23,6 +23,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.AreaEffectCloud;
+import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
@@ -35,6 +36,7 @@ import net.minecraft.network.protocol.Packet;
 import net.mcreator.cum.init.CumModEntities;
 
 public class SeiSetteEntity extends Monster {
+	public final AnimationState animationState0 = new AnimationState();
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.WHITE, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public SeiSetteEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -96,8 +98,6 @@ public class SeiSetteEntity extends Monster {
 			return false;
 		if (damagesource.getDirectEntity() instanceof AbstractArrow)
 			return false;
-		if (damagesource.getDirectEntity() instanceof Player)
-			return false;
 		if (damagesource.getDirectEntity() instanceof ThrownPotion || damagesource.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
 		if (damagesource.is(DamageTypes.FALL))
@@ -129,6 +129,14 @@ public class SeiSetteEntity extends Monster {
 	@Override
 	public boolean fireImmune() {
 		return true;
+	}
+
+	@Override
+	public void tick() {
+		super.tick();
+		if (this.level().isClientSide()) {
+			this.animationState0.animateWhen(true, this.tickCount);
+		}
 	}
 
 	@Override

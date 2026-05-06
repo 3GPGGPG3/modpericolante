@@ -41,7 +41,7 @@
     },
     "genHumidity": {
       "min": -2.0,
-      "max": -1.9999
+      "max": 2.0
     },
     "genContinentalness": {
       "min": 0.0,
@@ -97,19 +97,19 @@
         "entity": {
           "value": "CUSTOM:Abramo"
         },
-        "minGroup": 20,
-        "maxGroup": 20,
+        "minGroup": 10,
+        "maxGroup": 15,
         "weight": 20,
-        "spawnType": "monster"
+        "spawnType": "creature"
       },
       {
         "entity": {
           "value": "CUSTOM:AnnaScalia"
         },
-        "minGroup": 20,
-        "maxGroup": 20,
+        "minGroup": 10,
+        "maxGroup": 15,
         "weight": 20,
-        "spawnType": "monster"
+        "spawnType": "creature"
       }
     ]
   }

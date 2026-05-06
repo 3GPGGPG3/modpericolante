@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.cum.client.model.Modeltopo;
 import net.mcreator.cum.client.model.Modelshrek;
 import net.mcreator.cum.client.model.Modelseisette;
+import net.mcreator.cum.client.model.Modelsei_sette_godo;
 import net.mcreator.cum.client.model.Modelrat_king;
 import net.mcreator.cum.client.model.Modelraccogli;
 import net.mcreator.cum.client.model.Modelprovidence_vero;
@@ -84,6 +85,7 @@ public class CumModModels {
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modelmalicious_face.LAYER_LOCATION, Modelmalicious_face::createBodyLayer);
 		event.registerLayerDefinition(Modelshrek.LAYER_LOCATION, Modelshrek::createBodyLayer);
+		event.registerLayerDefinition(Modelsei_sette_godo.LAYER_LOCATION, Modelsei_sette_godo::createBodyLayer);
 		event.registerLayerDefinition(Modelil_fu_mattia_pascal.LAYER_LOCATION, Modelil_fu_mattia_pascal::createBodyLayer);
 		event.registerLayerDefinition(Modelpietra_libra.LAYER_LOCATION, Modelpietra_libra::createBodyLayer);
 		event.registerLayerDefinition(Modelorthomyxoviridae.LAYER_LOCATION, Modelorthomyxoviridae::createBodyLayer);
