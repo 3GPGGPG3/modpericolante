@@ -3,8 +3,8 @@
   "_type": "painting",
   "definition": {
     "texture": "kolchoz",
-    "width": 16,
-    "height": 32,
+    "width": 32,
+    "height": 64,
     "title": "Compagno, aderisci al nostro kolchoz!",
     "author": "Josif Stalin"
   }

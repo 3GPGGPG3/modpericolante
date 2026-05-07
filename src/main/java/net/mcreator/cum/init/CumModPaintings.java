@@ -24,5 +24,10 @@ public class CumModPaintings {
 	public static final RegistryObject<PaintingVariant> GIUDICE = REGISTRY.register("giudice", () -> new PaintingVariant(32, 16));
 	public static final RegistryObject<PaintingVariant> POWER_POINT_DNA_ENGLISH = REGISTRY.register("power_point_dna_english", () -> new PaintingVariant(48, 32));
 	public static final RegistryObject<PaintingVariant> FERRARIS = REGISTRY.register("ferraris", () -> new PaintingVariant(16, 16));
-	public static final RegistryObject<PaintingVariant> KOLCHOZ = REGISTRY.register("kolchoz", () -> new PaintingVariant(16, 32));
+	public static final RegistryObject<PaintingVariant> KOLCHOZ = REGISTRY.register("kolchoz", () -> new PaintingVariant(32, 64));
+	public static final RegistryObject<PaintingVariant> DANIELE_FERROVIA_CINESE = REGISTRY.register("daniele_ferrovia_cinese", () -> new PaintingVariant(64, 32));
+	public static final RegistryObject<PaintingVariant> TRUMP_SPADA_LASER = REGISTRY.register("trump_spada_laser", () -> new PaintingVariant(32, 64));
+	public static final RegistryObject<PaintingVariant> I_WAS_LOOKING_FOR_THE_MUSEUM = REGISTRY.register("i_was_looking_for_the_museum", () -> new PaintingVariant(64, 32));
+	public static final RegistryObject<PaintingVariant> VITELLO_DAI_PIEDI_UMANI = REGISTRY.register("vitello_dai_piedi_umani", () -> new PaintingVariant(32, 32));
+	public static final RegistryObject<PaintingVariant> AVETE_LASCIATO_I_MICROSCOPI_ACCESI = REGISTRY.register("avete_lasciato_i_microscopi_accesi", () -> new PaintingVariant(64, 32));
 }
