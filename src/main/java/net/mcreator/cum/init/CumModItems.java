@@ -142,6 +142,10 @@ import net.mcreator.cum.item.FrenziedCumItem;
 import net.mcreator.cum.item.FrammentoDiVetroItem;
 import net.mcreator.cum.item.FireballStrayItem;
 import net.mcreator.cum.item.FicheItem;
+import net.mcreator.cum.item.FazzolettoUsatoItem;
+import net.mcreator.cum.item.FazzolettoAQuattroVeliItem;
+import net.mcreator.cum.item.F2VItem;
+import net.mcreator.cum.item.F1VItem;
 import net.mcreator.cum.item.EquilibriousBeastItem;
 import net.mcreator.cum.item.EnergiaItem;
 import net.mcreator.cum.item.EctoplasmaNegativoItem;
@@ -617,6 +621,10 @@ public class CumModItems {
 	public static final RegistryObject<Item> FUCILE = REGISTRY.register("fucile", () -> new FucileItem());
 	public static final RegistryObject<Item> BLASTERMANDO = REGISTRY.register("blastermando", () -> new BlastermandoItem());
 	public static final RegistryObject<Item> ABRAMO_SPAWN_EGG = REGISTRY.register("abramo_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.ABRAMO, -5274248, -8809055, new Item.Properties()));
+	public static final RegistryObject<Item> FAZZOLETTO_A_QUATTRO_VELI = REGISTRY.register("fazzoletto_a_quattro_veli", () -> new FazzolettoAQuattroVeliItem());
+	public static final RegistryObject<Item> F_2_V = REGISTRY.register("f_2_v", () -> new F2VItem());
+	public static final RegistryObject<Item> F_1_V = REGISTRY.register("f_1_v", () -> new F1VItem());
+	public static final RegistryObject<Item> FAZZOLETTO_USATO = REGISTRY.register("fazzoletto_usato", () -> new FazzolettoUsatoItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

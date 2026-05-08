@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "cum:fazzoletto_a_quattro_veli"
+    }
+  },
+  "result": {
+    "item": "cum:f_2_v",
+    "count": 2
+  }
+}
