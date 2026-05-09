@@ -43,6 +43,7 @@ import net.mcreator.cum.entity.PresideEntity;
 import net.mcreator.cum.entity.PoliziottoInBiciEntity;
 import net.mcreator.cum.entity.PlasmacellulaEntity;
 import net.mcreator.cum.entity.PietraLibraEntity;
+import net.mcreator.cum.entity.PiedidimarcopEntity;
 import net.mcreator.cum.entity.Pericolante7Entity;
 import net.mcreator.cum.entity.Pericolante6Entity;
 import net.mcreator.cum.entity.Pericolante5Entity;
@@ -457,6 +458,8 @@ public class CumModEntities {
 			EntityType.Builder.<AbramoEntity>of(AbramoEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AbramoEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PiedidimarcopEntity>> PIEDIDIMARCOP = register("piedidimarcop",
+			EntityType.Builder.<PiedidimarcopEntity>of(PiedidimarcopEntity::new, MobCategory.MISC).setCustomClientFactory(PiedidimarcopEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

@@ -84,6 +84,7 @@ import net.mcreator.cum.item.PotereEsplosioneIIItem;
 import net.mcreator.cum.item.PlasmidevuotoItem;
 import net.mcreator.cum.item.PlasmidecontetItem;
 import net.mcreator.cum.item.PlasmideampItem;
+import net.mcreator.cum.item.PiedidiMarcoItem;
 import net.mcreator.cum.item.PerkeoNegativoItem;
 import net.mcreator.cum.item.PerkeoItem;
 import net.mcreator.cum.item.PeneItem;
@@ -625,6 +626,7 @@ public class CumModItems {
 	public static final RegistryObject<Item> F_2_V = REGISTRY.register("f_2_v", () -> new F2VItem());
 	public static final RegistryObject<Item> F_1_V = REGISTRY.register("f_1_v", () -> new F1VItem());
 	public static final RegistryObject<Item> FAZZOLETTO_USATO = REGISTRY.register("fazzoletto_usato", () -> new FazzolettoUsatoItem());
+	public static final RegistryObject<Item> PIEDIDI_MARCO = REGISTRY.register("piedidi_marco", () -> new PiedidiMarcoItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

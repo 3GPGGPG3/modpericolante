@@ -468,6 +468,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.F_2_V.get());
 				tabData.accept(CumModItems.F_1_V.get());
 				tabData.accept(CumModItems.FAZZOLETTO_USATO.get());
+				tabData.accept(CumModItems.PIEDIDI_MARCO.get());
 			}).withTabsBefore(COSE_LUNANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {

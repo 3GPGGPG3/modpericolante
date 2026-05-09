@@ -196,5 +196,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.BUTTIGGHIA_DA_MISERIA_TIRATA.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.BLASTERPROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.ABRAMO.get(), AbramoRenderer::new);
+		event.registerEntityRenderer(CumModEntities.PIEDIDIMARCOP.get(), ThrownItemRenderer::new);
 	}
 }

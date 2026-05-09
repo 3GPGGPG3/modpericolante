@@ -81,4 +81,7 @@ public class CumModSounds {
 	public static final RegistryObject<SoundEvent> PIG3 = REGISTRY.register("pig3", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "pig3")));
 	public static final RegistryObject<SoundEvent> PIG4 = REGISTRY.register("pig4", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "pig4")));
 	public static final RegistryObject<SoundEvent> BLASTER_SHOOTING = REGISTRY.register("blaster_shooting", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "blaster_shooting")));
+	public static final RegistryObject<SoundEvent> MARCO = REGISTRY.register("marco", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "marco")));
+	public static final RegistryObject<SoundEvent> MARCO_URLA = REGISTRY.register("marco_urla", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "marco_urla")));
+	public static final RegistryObject<SoundEvent> MARCO_ROMPE = REGISTRY.register("marco_rompe", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("cum", "marco_rompe")));
 }

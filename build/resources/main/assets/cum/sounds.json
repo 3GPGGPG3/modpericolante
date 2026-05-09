@@ -527,5 +527,29 @@
         "stream": false
       }
     ]
+  },
+  "marco": {
+    "sounds": [
+      {
+        "name": "cum:marco",
+        "stream": false
+      }
+    ]
+  },
+  "marco_urla": {
+    "sounds": [
+      {
+        "name": "cum:marco_urla",
+        "stream": false
+      }
+    ]
+  },
+  "marco_rompe": {
+    "sounds": [
+      {
+        "name": "cum:marco_rompe",
+        "stream": false
+      }
+    ]
   }
 }
