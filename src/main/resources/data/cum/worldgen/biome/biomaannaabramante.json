@@ -15,13 +15,13 @@
     "creature": [
       {
         "type": "cum:abramo",
-        "weight": 20,
+        "weight": 50,
         "minCount": 10,
         "maxCount": 15
       },
       {
         "type": "cum:anna_scalia",
-        "weight": 20,
+        "weight": 50,
         "minCount": 10,
         "maxCount": 15
       }
@@ -34,10 +34,18 @@
     "misc": []
   },
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
   "features": [
     [],
-    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
     [],
     [],
     [],

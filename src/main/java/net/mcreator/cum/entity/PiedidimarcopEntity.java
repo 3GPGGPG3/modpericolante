@@ -18,7 +18,9 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.cum.procedures.PiedidimarcopWhileProjectileFlyingTickProcedure;
 import net.mcreator.cum.procedures.PiedidimarcopProjectileHitsBlockProcedure;
+import net.mcreator.cum.procedures.Piedidimarcohitsblock2Procedure;
 import net.mcreator.cum.init.CumModItems;
 import net.mcreator.cum.init.CumModEntities;
 
@@ -67,28 +69,29 @@ public class PiedidimarcopEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		PiedidimarcopProjectileHitsBlockProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		PiedidimarcopProjectileHitsBlockProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entityHitResult.getEntity(), this.getOwner());
 	}
 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		PiedidimarcopProjectileHitsBlockProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		Piedidimarcohitsblock2Procedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
 	}
 
 	@Override
 	public void tick() {
 		super.tick();
+		PiedidimarcopWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 		if (this.inGround)
 			this.discard();
 	}
 
 	public static PiedidimarcopEntity shoot(Level world, LivingEntity entity, RandomSource source) {
-		return shoot(world, entity, source, 1f, 5, 4);
+		return shoot(world, entity, source, 5f, 5, 10);
 	}
 
 	public static PiedidimarcopEntity shoot(Level world, LivingEntity entity, RandomSource source, float pullingPower) {
-		return shoot(world, entity, source, pullingPower * 1f, 5, 4);
+		return shoot(world, entity, source, pullingPower * 5f, 5, 10);
 	}
 
 	public static PiedidimarcopEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
@@ -107,10 +110,10 @@ public class PiedidimarcopEntity extends AbstractArrow implements ItemSupplier {
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
-		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1f * 2, 12.0F);
+		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 5f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(5);
-		entityarrow.setKnockback(4);
+		entityarrow.setKnockback(10);
 		entityarrow.setCritArrow(false);
 		entity.level().addFreshEntity(entityarrow);
 		return entityarrow;

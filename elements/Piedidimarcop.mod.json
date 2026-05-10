@@ -10,18 +10,21 @@
       "value": ""
     },
     "igniteFire": false,
-    "power": 1.0,
+    "power": 5.0,
     "damage": 5.0,
-    "knockback": 4,
+    "knockback": 10,
     "entityModel": "Default",
     "customModelTexture": "",
     "modelWidth": 0.5,
     "modelHeight": 0.5,
     "onHitsBlock": {
-      "name": "PiedidimarcopProjectileHitsBlock"
+      "name": "Piedidimarcohitsblock2"
     },
     "onHitsEntity": {
       "name": "PiedidimarcopProjectileHitsBlock"
+    },
+    "onFlyingTick": {
+      "name": "PiedidimarcopWhileProjectileFlyingTick"
     }
   }
 }

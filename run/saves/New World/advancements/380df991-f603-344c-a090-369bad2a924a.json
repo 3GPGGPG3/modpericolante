@@ -7,6 +7,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-05-10 23:28:14 +0200",
+      "minecraft:deep_cold_ocean": "2026-05-10 23:28:00 +0200",
       "minecraft:windswept_savanna": "2026-02-12 10:17:16 +0100",
       "minecraft:savanna": "2026-02-12 10:19:31 +0100"
     },
@@ -219,6 +221,30 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2026-02-12 10:36:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-05-10 23:27:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-05-10 23:27:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-05-10 23:27:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-05-10 23:27:31 +0200"
     },
     "done": true
   },

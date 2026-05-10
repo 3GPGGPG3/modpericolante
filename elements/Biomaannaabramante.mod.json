@@ -36,24 +36,24 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": 1.0,
-      "max": 2.0
+      "min": -0.5,
+      "max": 0.5
     },
     "genHumidity": {
-      "min": -2.0,
-      "max": 2.0
+      "min": -0.5,
+      "max": 0.5
     },
     "genContinentalness": {
-      "min": 0.0,
+      "min": -0.3,
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.0,
+      "min": -0.5,
       "max": 0.5
     },
     "genWeirdness": {
-      "min": 0.0,
-      "max": 1.0E-4
+      "min": -1.0,
+      "max": 1.0
     },
     "treesPerChunk": 3,
     "vanillaTreeType": "Savanna trees",
@@ -71,7 +71,9 @@
     "treeFruits": {
       "value": ""
     },
-    "defaultFeatures": [],
+    "defaultFeatures": [
+      "Caves"
+    ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
@@ -99,7 +101,7 @@
         },
         "minGroup": 10,
         "maxGroup": 15,
-        "weight": 20,
+        "weight": 50,
         "spawnType": "creature"
       },
       {
@@ -108,7 +110,7 @@
         },
         "minGroup": 10,
         "maxGroup": 15,
-        "weight": 20,
+        "weight": 50,
         "spawnType": "creature"
       }
     ]
