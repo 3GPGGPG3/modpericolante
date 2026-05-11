@@ -11,6 +11,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.cum.client.renderer.VitellosenzapiuipiediRenderer;
+import net.mcreator.cum.client.renderer.VitellodaipiedidibalsaRenderer;
 import net.mcreator.cum.client.renderer.VirusRenderer;
 import net.mcreator.cum.client.renderer.V2Renderer;
 import net.mcreator.cum.client.renderer.V1Renderer;
@@ -197,5 +199,7 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.BLASTERPROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.ABRAMO.get(), AbramoRenderer::new);
 		event.registerEntityRenderer(CumModEntities.PIEDIDIMARCOP.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(CumModEntities.VITELLODAIPIEDIDIBALSA.get(), VitellodaipiedidibalsaRenderer::new);
+		event.registerEntityRenderer(CumModEntities.VITELLOSENZAPIUIPIEDI.get(), VitellosenzapiuipiediRenderer::new);
 	}
 }

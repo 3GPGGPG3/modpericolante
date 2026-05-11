@@ -9,6 +9,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.cum.client.model.Modelvitello_senza_più_i_piedi;
+import net.mcreator.cum.client.model.Modelvitello_dai_piedi_di_balsa;
 import net.mcreator.cum.client.model.Modeltopo;
 import net.mcreator.cum.client.model.Modelshrek;
 import net.mcreator.cum.client.model.Modelseisette;
@@ -63,6 +65,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modellibbra.LAYER_LOCATION, Modellibbra::createBodyLayer);
 		event.registerLayerDefinition(ModelCaparezza_Guardiano_lunare_maggiore.LAYER_LOCATION, ModelCaparezza_Guardiano_lunare_maggiore::createBodyLayer);
 		event.registerLayerDefinition(Modelraccogli.LAYER_LOCATION, Modelraccogli::createBodyLayer);
+		event.registerLayerDefinition(Modelvitello_dai_piedi_di_balsa.LAYER_LOCATION, Modelvitello_dai_piedi_di_balsa::createBodyLayer);
 		event.registerLayerDefinition(Modelgirasole.LAYER_LOCATION, Modelgirasole::createBodyLayer);
 		event.registerLayerDefinition(Modelbicicletta.LAYER_LOCATION, Modelbicicletta::createBodyLayer);
 		event.registerLayerDefinition(Modelpoliziotto_in_bici.LAYER_LOCATION, Modelpoliziotto_in_bici::createBodyLayer);
@@ -83,6 +86,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelprovidence_vero.LAYER_LOCATION, Modelprovidence_vero::createBodyLayer);
 		event.registerLayerDefinition(Modelrat_king.LAYER_LOCATION, Modelrat_king::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
+		event.registerLayerDefinition(Modelvitello_senza_più_i_piedi.LAYER_LOCATION, Modelvitello_senza_più_i_piedi::createBodyLayer);
 		event.registerLayerDefinition(Modelmalicious_face.LAYER_LOCATION, Modelmalicious_face::createBodyLayer);
 		event.registerLayerDefinition(Modelshrek.LAYER_LOCATION, Modelshrek::createBodyLayer);
 		event.registerLayerDefinition(Modelsei_sette_godo.LAYER_LOCATION, Modelsei_sette_godo::createBodyLayer);

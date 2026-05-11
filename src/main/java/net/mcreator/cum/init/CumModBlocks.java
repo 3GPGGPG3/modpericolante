@@ -108,6 +108,7 @@ import net.mcreator.cum.block.BloccoDiCarneBlock;
 import net.mcreator.cum.block.BloccoDerivanteBlock;
 import net.mcreator.cum.block.BloccoDErbaVuotoBlock;
 import net.mcreator.cum.block.BekerBlock;
+import net.mcreator.cum.block.BalsalogBlock;
 import net.mcreator.cum.block.BalatroPlantBlock;
 import net.mcreator.cum.block.BalatroLogBlock;
 import net.mcreator.cum.block.BalatroLeavesBlock;
@@ -224,6 +225,7 @@ public class CumModBlocks {
 	public static final RegistryObject<Block> BLOCCO_PERICOLANTE_ELETTRICO = REGISTRY.register("blocco_pericolante_elettrico", () -> new BloccoPericolanteElettricoBlock());
 	public static final RegistryObject<Block> BLOCCO_PERICOLANTE_TERMICO = REGISTRY.register("blocco_pericolante_termico", () -> new BloccoPericolanteTermicoBlock());
 	public static final RegistryObject<Block> BLOCCO_PERICOLANTE_TOTIPOTENTE = REGISTRY.register("blocco_pericolante_totipotente", () -> new BloccoPericolanteTotipotenteBlock());
+	public static final RegistryObject<Block> BALSALOG = REGISTRY.register("balsalog", () -> new BalsalogBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

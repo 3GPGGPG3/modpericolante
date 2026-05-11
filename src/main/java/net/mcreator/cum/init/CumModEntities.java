@@ -16,6 +16,8 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.cum.entity.VitellosenzapiuipiediEntity;
+import net.mcreator.cum.entity.VitellodaipiedidibalsaEntity;
 import net.mcreator.cum.entity.VirusEntity;
 import net.mcreator.cum.entity.V2Entity;
 import net.mcreator.cum.entity.V1Entity;
@@ -460,6 +462,16 @@ public class CumModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<PiedidimarcopEntity>> PIEDIDIMARCOP = register("piedidimarcop",
 			EntityType.Builder.<PiedidimarcopEntity>of(PiedidimarcopEntity::new, MobCategory.MISC).setCustomClientFactory(PiedidimarcopEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<VitellodaipiedidibalsaEntity>> VITELLODAIPIEDIDIBALSA = register("vitellodaipiedidibalsa",
+			EntityType.Builder.<VitellodaipiedidibalsaEntity>of(VitellodaipiedidibalsaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(VitellodaipiedidibalsaEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<VitellosenzapiuipiediEntity>> VITELLOSENZAPIUIPIEDI = register("vitellosenzapiuipiedi",
+			EntityType.Builder.<VitellosenzapiuipiediEntity>of(VitellosenzapiuipiediEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(VitellosenzapiuipiediEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -549,6 +561,8 @@ public class CumModEntities {
 			BadpiggiesEntity.init();
 			ProvidenceEntity.init();
 			AbramoEntity.init();
+			VitellodaipiedidibalsaEntity.init();
+			VitellosenzapiuipiediEntity.init();
 		});
 	}
 
@@ -633,5 +647,7 @@ public class CumModEntities {
 		event.put(BADPIGGIES.get(), BadpiggiesEntity.createAttributes().build());
 		event.put(PROVIDENCE.get(), ProvidenceEntity.createAttributes().build());
 		event.put(ABRAMO.get(), AbramoEntity.createAttributes().build());
+		event.put(VITELLODAIPIEDIDIBALSA.get(), VitellodaipiedidibalsaEntity.createAttributes().build());
+		event.put(VITELLOSENZAPIUIPIEDI.get(), VitellosenzapiuipiediEntity.createAttributes().build());
 	}
 }

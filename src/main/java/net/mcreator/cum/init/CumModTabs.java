@@ -469,6 +469,8 @@ public class CumModTabs {
 				tabData.accept(CumModItems.F_1_V.get());
 				tabData.accept(CumModItems.FAZZOLETTO_USATO.get());
 				tabData.accept(CumModItems.PIEDIDI_MARCO.get());
+				tabData.accept(CumModBlocks.BALSALOG.get().asItem());
+				tabData.accept(CumModItems.PIEDIDIBALSA.get());
 			}).withTabsBefore(COSE_LUNANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {
@@ -759,6 +761,8 @@ public class CumModTabs {
 			tabData.accept(CumModItems.ANNA_SCALIA_SPAWN_EGG.get());
 			tabData.accept(CumModItems.INETTO_SPAWN_EGG.get());
 			tabData.accept(CumModItems.ABRAMO_SPAWN_EGG.get());
+			tabData.accept(CumModItems.VITELLODAIPIEDIDIBALSA_SPAWN_EGG.get());
+			tabData.accept(CumModItems.VITELLOSENZAPIUIPIEDI_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(CumModItems.TACO.get());
 		}

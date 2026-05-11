@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cum:block/balsa_log",
+    "up": "cum:block/balsa_log",
+    "north": "cum:block/balsa_log_2",
+    "east": "cum:block/balsa_log_2",
+    "south": "cum:block/balsa_log_2",
+    "west": "cum:block/balsa_log_2",
+    "particle": "cum:block/balsa_log"
+  },
+  "render_type": "solid"
+}
