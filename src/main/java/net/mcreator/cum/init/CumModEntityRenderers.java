@@ -44,6 +44,7 @@ import net.mcreator.cum.client.renderer.PaperonDePaperoniRenderer;
 import net.mcreator.cum.client.renderer.OrdinamentoGiuridicoRenderer;
 import net.mcreator.cum.client.renderer.OliviaRenderer;
 import net.mcreator.cum.client.renderer.NocciolinaRenderer;
+import net.mcreator.cum.client.renderer.MiraldiRenderer;
 import net.mcreator.cum.client.renderer.MirabellaRenderer;
 import net.mcreator.cum.client.renderer.MinosPrimeRenderer;
 import net.mcreator.cum.client.renderer.MattiaPascalRenderer;
@@ -201,5 +202,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.PIEDIDIMARCOP.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(CumModEntities.VITELLODAIPIEDIDIBALSA.get(), VitellodaipiedidibalsaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.VITELLOSENZAPIUIPIEDI.get(), VitellosenzapiuipiediRenderer::new);
+		event.registerEntityRenderer(CumModEntities.MIRALDI.get(), MiraldiRenderer::new);
 	}
 }

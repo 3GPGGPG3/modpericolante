@@ -63,6 +63,7 @@ import net.mcreator.cum.entity.PaccotiratoEntity;
 import net.mcreator.cum.entity.OrdinamentoGiuridicoEntity;
 import net.mcreator.cum.entity.OliviaEntity;
 import net.mcreator.cum.entity.NocciolinaEntity;
+import net.mcreator.cum.entity.MiraldiEntity;
 import net.mcreator.cum.entity.MirabellaEntity;
 import net.mcreator.cum.entity.MinosPrimeEntity;
 import net.mcreator.cum.entity.MattiaPascalEntity;
@@ -472,6 +473,10 @@ public class CumModEntities {
 					.setCustomClientFactory(VitellosenzapiuipiediEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<MiraldiEntity>> MIRALDI = register("miraldi",
+			EntityType.Builder.<MiraldiEntity>of(MiraldiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(MiraldiEntity::new)
+
+					.sized(1f, 2.2f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -563,6 +568,7 @@ public class CumModEntities {
 			AbramoEntity.init();
 			VitellodaipiedidibalsaEntity.init();
 			VitellosenzapiuipiediEntity.init();
+			MiraldiEntity.init();
 		});
 	}
 
@@ -649,5 +655,6 @@ public class CumModEntities {
 		event.put(ABRAMO.get(), AbramoEntity.createAttributes().build());
 		event.put(VITELLODAIPIEDIDIBALSA.get(), VitellodaipiedidibalsaEntity.createAttributes().build());
 		event.put(VITELLOSENZAPIUIPIEDI.get(), VitellosenzapiuipiediEntity.createAttributes().build());
+		event.put(MIRALDI.get(), MiraldiEntity.createAttributes().build());
 	}
 }

@@ -26,6 +26,7 @@ import net.mcreator.cum.client.model.Modelpaperon_de_paperoni;
 import net.mcreator.cum.client.model.Modelorthomyxoviridae;
 import net.mcreator.cum.client.model.Modelordinamentogiuridico;
 import net.mcreator.cum.client.model.Modelnocciolina;
+import net.mcreator.cum.client.model.Modelmiraldi;
 import net.mcreator.cum.client.model.Modelmalicious_face;
 import net.mcreator.cum.client.model.Modellinfocita_b_o_plasmacellula;
 import net.mcreator.cum.client.model.Modellibra_cerchio;
@@ -93,6 +94,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelil_fu_mattia_pascal.LAYER_LOCATION, Modelil_fu_mattia_pascal::createBodyLayer);
 		event.registerLayerDefinition(Modelpietra_libra.LAYER_LOCATION, Modelpietra_libra::createBodyLayer);
 		event.registerLayerDefinition(Modelorthomyxoviridae.LAYER_LOCATION, Modelorthomyxoviridae::createBodyLayer);
+		event.registerLayerDefinition(Modelmiraldi.LAYER_LOCATION, Modelmiraldi::createBodyLayer);
 		event.registerLayerDefinition(ModelOlivia.LAYER_LOCATION, ModelOlivia::createBodyLayer);
 	}
 }
