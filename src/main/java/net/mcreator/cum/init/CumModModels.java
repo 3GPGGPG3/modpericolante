@@ -27,6 +27,7 @@ import net.mcreator.cum.client.model.Modelorthomyxoviridae;
 import net.mcreator.cum.client.model.Modelordinamentogiuridico;
 import net.mcreator.cum.client.model.Modelnocciolina;
 import net.mcreator.cum.client.model.Modelmiraldi;
+import net.mcreator.cum.client.model.Modelmarco_vero;
 import net.mcreator.cum.client.model.Modelmalicious_face;
 import net.mcreator.cum.client.model.Modellinfocita_b_o_plasmacellula;
 import net.mcreator.cum.client.model.Modellibra_cerchio;
@@ -87,6 +88,7 @@ public class CumModModels {
 		event.registerLayerDefinition(Modelprovidence_vero.LAYER_LOCATION, Modelprovidence_vero::createBodyLayer);
 		event.registerLayerDefinition(Modelrat_king.LAYER_LOCATION, Modelrat_king::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
+		event.registerLayerDefinition(Modelmarco_vero.LAYER_LOCATION, Modelmarco_vero::createBodyLayer);
 		event.registerLayerDefinition(Modelvitello_senza_più_i_piedi.LAYER_LOCATION, Modelvitello_senza_più_i_piedi::createBodyLayer);
 		event.registerLayerDefinition(Modelmalicious_face.LAYER_LOCATION, Modelmalicious_face::createBodyLayer);
 		event.registerLayerDefinition(Modelshrek.LAYER_LOCATION, Modelshrek::createBodyLayer);

@@ -26,7 +26,7 @@ public class MiraldiRenderer extends MobRenderer<MiraldiEntity, Modelmiraldi<Mir
 
 	@Override
 	public ResourceLocation getTextureLocation(MiraldiEntity entity) {
-		return new ResourceLocation("cum:textures/entities/miraldi.png");
+		return new ResourceLocation("cum:textures/entities/miraldi_vera.png");
 	}
 
 	private static final class AnimatedModel extends Modelmiraldi<MiraldiEntity> {

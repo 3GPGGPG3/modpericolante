@@ -135,6 +135,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.COMPAGNIDI_CLASSE.get());
 				tabData.accept(CumModItems.ALUNNEDIMODA.get());
 				tabData.accept(CumModItems.FUCILE.get());
+				tabData.accept(CumModItems.MARCO_SPAWN_EGG.get());
 			}).withTabsBefore(ARTI_ANCESTRALI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> COSE_LUNANTI = REGISTRY.register("cose_lunanti",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.cose_lunanti")).icon(() -> new ItemStack(CumModItems.LUNA_DEL_GODO.get())).displayItems((parameters, tabData) -> {
@@ -472,6 +473,7 @@ public class CumModTabs {
 				tabData.accept(CumModBlocks.BALSALOG.get().asItem());
 				tabData.accept(CumModItems.PIEDIDIBALSA.get());
 				tabData.accept(CumModItems.MIRALDI_SPAWN_EGG.get());
+				tabData.accept(CumModItems.MARCO_SPAWN_EGG.get());
 			}).withTabsBefore(COSE_LUNANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {

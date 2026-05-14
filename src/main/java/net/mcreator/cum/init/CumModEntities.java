@@ -67,6 +67,7 @@ import net.mcreator.cum.entity.MiraldiEntity;
 import net.mcreator.cum.entity.MirabellaEntity;
 import net.mcreator.cum.entity.MinosPrimeEntity;
 import net.mcreator.cum.entity.MattiaPascalEntity;
+import net.mcreator.cum.entity.MarcoEntity;
 import net.mcreator.cum.entity.MaliciousFaceEntity;
 import net.mcreator.cum.entity.MaleniaBladeOfMiquellaEntity;
 import net.mcreator.cum.entity.MagentaProiettileEntity;
@@ -477,6 +478,10 @@ public class CumModEntities {
 			EntityType.Builder.<MiraldiEntity>of(MiraldiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(MiraldiEntity::new)
 
 					.sized(1f, 2.2f));
+	public static final RegistryObject<EntityType<MarcoEntity>> MARCO = register("marco",
+			EntityType.Builder.<MarcoEntity>of(MarcoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(MarcoEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -569,6 +574,7 @@ public class CumModEntities {
 			VitellodaipiedidibalsaEntity.init();
 			VitellosenzapiuipiediEntity.init();
 			MiraldiEntity.init();
+			MarcoEntity.init();
 		});
 	}
 
@@ -656,5 +662,6 @@ public class CumModEntities {
 		event.put(VITELLODAIPIEDIDIBALSA.get(), VitellodaipiedidibalsaEntity.createAttributes().build());
 		event.put(VITELLOSENZAPIUIPIEDI.get(), VitellosenzapiuipiediEntity.createAttributes().build());
 		event.put(MIRALDI.get(), MiraldiEntity.createAttributes().build());
+		event.put(MARCO.get(), MarcoEntity.createAttributes().build());
 	}
 }

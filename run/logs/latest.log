@@ -1,31 +1,32 @@
-[13May2026 23:31:26.393] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[13May2026 23:31:26.402] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[13May2026 23:31:26.670] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[13May2026 23:31:26.826] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[13May2026 23:31:27.033] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[13May2026 23:31:27.293] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Fabio%20Ferlito/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[13May2026 23:31:27.348] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.5186, Intel
-[13May2026 23:31:28.006] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[13May2026 23:31:28.010] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[13May2026 23:31:28.019] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[13May2026 23:31:28.025] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[13May2026 23:31:28.309] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[13May2026 23:31:32.952] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13May2026 23:31:32.955] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[13May2026 23:31:33.680] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo/build/createSrgToMcp/output.srg
-[13May2026 23:31:45.288] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 2294 milliseconds
-[13May2026 23:31:46.468] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[13May2026 23:31:46.469] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[13May2026 23:31:46.508] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13May2026 23:31:46.518] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[13May2026 23:31:46.694] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[13May2026 23:31:47.398] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[13May2026 23:31:47.450] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[13May2026 23:31:51.354] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[13May2026 23:31:52.336] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[13May2026 23:31:53.510] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[13May2026 23:31:54.124] [Worker-Main-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
-[13May2026 23:31:55.515] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
+[14May2026 23:51:14.990] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[14May2026 23:51:15.006] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[14May2026 23:51:15.272] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[14May2026 23:51:15.399] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[14May2026 23:51:15.623] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[14May2026 23:51:17.431] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Fabio%20Ferlito/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[14May2026 23:51:17.440] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 31.0.101.5186, Intel
+[14May2026 23:51:17.930] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14May2026 23:51:17.934] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14May2026 23:51:17.938] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[14May2026 23:51:17.946] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fabio Ferlito\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[14May2026 23:51:18.135] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[14May2026 23:51:21.044] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14May2026 23:51:21.046] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Fabio Ferlito\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[14May2026 23:51:22.874] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\Fabio Ferlito\MCreatorWorkspaces\godo/build/createSrgToMcp/output.srg
+[14May2026 23:51:32.701] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 3150 milliseconds
+[14May2026 23:51:33.690] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[14May2026 23:51:33.691] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Fabio%20Ferlito/MCreatorWorkspaces/godo/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[14May2026 23:51:33.723] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14May2026 23:51:33.744] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[14May2026 23:51:33.942] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[14May2026 23:51:38.016] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[14May2026 23:51:38.018] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[14May2026 23:51:40.863] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[14May2026 23:51:41.641] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[14May2026 23:51:42.252] [Worker-Main-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File cum:sounds/gab_hurt2.wav.ogg does not exist, cannot add it to event cum:gb_hurt2
+[14May2026 23:51:42.255] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[14May2026 23:51:42.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14May2026 23:51:43.594] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/balatro_tavolo_ufficiale.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -47,7 +48,7 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13May2026 23:31:55.523] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
+[14May2026 23:51:43.599] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/beker.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -69,7 +70,7 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13May2026 23:31:55.545] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/blaster_mando2.json
+[14May2026 23:51:43.610] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/blaster_mando2.json
 com.google.gson.JsonParseException: Invalid rotation -5.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -97,7 +98,7 @@ com.google.gson.JsonParseException: Invalid rotation -5.0 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13May2026 23:31:55.559] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/cecchino_mando.json
+[14May2026 23:51:43.619] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/cecchino_mando.json
 com.google.gson.JsonSyntaxException: Missing axis, expected to find a string
 	at net.minecraft.util.GsonHelper.getAsString(GsonHelper.java:102) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAxis(BlockElement.java:119) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -126,7 +127,7 @@ com.google.gson.JsonSyntaxException: Missing axis, expected to find a string
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13May2026 23:31:55.647] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/di_maleniamano.json
+[14May2026 23:51:43.647] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/di_maleniamano.json
 com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -154,7 +155,7 @@ com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13May2026 23:31:55.722] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/hand_of_malenia.json
+[14May2026 23:51:43.709] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/hand_of_malenia.json
 com.google.gson.JsonParseException: Invalid rotation -5.5 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -182,7 +183,7 @@ com.google.gson.JsonParseException: Invalid rotation -5.5 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13May2026 23:31:55.732] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/malenia_mano.json
+[14May2026 23:51:43.723] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/malenia_mano.json
 com.google.gson.JsonParseException: Invalid rotation -3.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -210,7 +211,7 @@ com.google.gson.JsonParseException: Invalid rotation -3.0 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13May2026 23:31:55.739] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/mano_di_malenia.json
+[14May2026 23:51:43.740] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/mano_di_malenia.json
 com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -238,7 +239,7 @@ com.google.gson.JsonParseException: Invalid rotation -35.0 found, only -45/-22.5
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13May2026 23:31:55.774] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
+[14May2026 23:51:43.743] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/manoscritto.json
 com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/0/22.5/45 allowed
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:112) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:101) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -266,7 +267,7 @@ com.google.gson.JsonParseException: Invalid rotation 15.0 found, only -45/-22.5/
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13May2026 23:31:55.843] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
+[14May2026 23:51:43.802] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model cum:models/custom/tavolobalatranteee.json
 net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:Block
 	at net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:236) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -288,158 +289,122 @@ net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of l
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13May2026 23:31:57.782] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13May2026 23:31:58.117] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
-[13May2026 23:31:58.121] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
-[13May2026 23:31:58.918] [Worker-Main-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/anello_ancestrale with size 250x250 limits mip level from 2 to 1
-[13May2026 23:31:58.919] [Worker-Main-2/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/reggisenodiolivia with size 15x15 limits mip level from 1 to 0
-[13May2026 23:32:03.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.10
-[13May2026 23:32:06.596] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[13May2026 23:32:06.596] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[13May2026 23:32:07.446] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
-[13May2026 23:32:07.448] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[13May2026 23:32:07.698] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 8192x8192x2 minecraft:textures/atlas/blocks.png-atlas
-[13May2026 23:32:08.634] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[13May2026 23:32:08.639] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[13May2026 23:32:08.654] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[13May2026 23:32:08.669] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[13May2026 23:32:08.758] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[13May2026 23:32:08.763] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[13May2026 23:32:08.767] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13May2026 23:32:08.780] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[13May2026 23:32:09.412] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[13May2026 23:32:09.668] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/particles.png-atlas
-[13May2026 23:32:09.858] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x0 minecraft:textures/atlas/paintings.png-atlas
-[13May2026 23:32:10.243] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13May2026 23:32:10.655] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[13May2026 23:33:00.330] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[13May2026 23:33:05.661] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[13May2026 23:33:05.919] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@667ce5fa, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2298af09}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@708f4d81}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
-[13May2026 23:33:05.919] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1277 advancements
-[13May2026 23:33:07.254] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[13May2026 23:33:07.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13May2026 23:33:12.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13May2026 23:33:17.815] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:17.850] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:17.850] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:17.850] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:17.852] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:17.976] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:17.977] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:17.977] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:17.977] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:17.977] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:17.977] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:18.483] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:18.912] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:19.441] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:20.190] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:20.385] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:21.133] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:21.416] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13May2026 23:33:21.897] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[13May2026 23:33:22.581] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13May2026 23:33:22.590] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9714 ms
-[13May2026 23:33:22.949] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[13May2026 23:33:22.954] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[13May2026 23:33:23.123] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[13May2026 23:33:25.442] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[13May2026 23:33:25.587] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:83e0452e] logged in with entity id 45 at (436.63929444560944, 65.24918707874468, -4.442146007494329)
-[13May2026 23:33:25.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[13May2026 23:33:28.109] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 118 advancements
-[13May2026 23:33:34.784] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[13May2026 23:35:47.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
-[13May2026 23:35:48.531] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13May2026 23:35:48.588] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
-[13May2026 23:35:48.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13May2026 23:35:49.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[13May2026 23:35:49.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[13May2026 23:35:49.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[13May2026 23:35:49.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13May2026 23:35:49.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:bagliore_della_notte
-[13May2026 23:35:49.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[13May2026 23:35:49.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensioneannabramante
-[13May2026 23:35:49.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[13May2026 23:35:49.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13May2026 23:35:49.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[13May2026 23:36:25.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev blew up
-[13May2026 23:36:25.813] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev blew up
-[13May2026 23:36:32.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[13May2026 23:36:32.645] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[13May2026 23:37:59.366] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 120 advancements
-[13May2026 23:37:59.542] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 123 advancements
-[13May2026 23:39:31.240] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[13May2026 23:40:50.712] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/16, l='ServerLevel[New World]', x=-78.18, y=29.00, z=109.95] died: Preside was killed
-[13May2026 23:40:50.755] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1166, l='ServerLevel[New World]', x=604.42, y=63.00, z=75.39] died: ! 1 ! was killed
-[13May2026 23:40:50.756] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante1Entity['! 1 !'/1167, l='ServerLevel[New World]', x=607.32, y=63.00, z=72.64] died: ! 1 ! was killed
-[13May2026 23:40:50.757] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/1168, l='ServerLevel[New World]', x=600.50, y=83.00, z=45.50] died: !! 3 !! was killed
-[13May2026 23:40:50.757] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/1169, l='ServerLevel[New World]', x=600.31, y=83.00, z=37.37] died: !! 3 !! was killed
-[13May2026 23:40:50.758] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pericolante3Entity['!! 3 !!'/1170, l='ServerLevel[New World]', x=600.75, y=83.00, z=36.32] died: !! 3 !! was killed
-[13May2026 23:40:50.765] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PresideEntity['Preside'/1907, l='ServerLevel[New World]', x=426.67, y=0.00, z=64.52] died: Preside was killed
-[13May2026 23:40:50.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 169 entities]
-[13May2026 23:40:50.792] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 169 entities
-[13May2026 23:41:09.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Barrier] to Dev]
-[13May2026 23:41:09.344] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Barrier] to Dev
-[13May2026 23:41:11.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Barrier] to Dev]
-[13May2026 23:41:11.203] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Barrier] to Dev
-[13May2026 23:41:12.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 168 entities]
-[13May2026 23:41:12.362] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 168 entities
-[13May2026 23:42:15.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[13May2026 23:42:15.763] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[13May2026 23:44:25.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev blew up
-[13May2026 23:44:25.371] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev blew up
-[13May2026 23:47:59.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
-[13May2026 23:47:59.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
-[13May2026 23:48:02.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the weather to clear]
-[13May2026 23:48:02.754] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the weather to clear
-[13May2026 23:48:13.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gamerule doWeatherCycle is now set to: false]
-[13May2026 23:48:13.354] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gamerule doWeatherCycle is now set to: false
-[13May2026 23:48:19.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gamerule doDaylightCycle is now set to: false]
-[13May2026 23:48:19.727] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gamerule doDaylightCycle is now set to: false
-[13May2026 23:48:29.167] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gamerule doDashInCreative is currently set to: false
-[13May2026 23:48:35.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[13May2026 23:48:35.171] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[13May2026 23:50:52.390] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 130 advancements
-[13May2026 23:53:05.188] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 134 advancements
-[13May2026 23:54:50.631] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13May2026 23:54:50.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13May2026 23:54:50.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[13May2026 23:54:50.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[13May2026 23:54:50.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[13May2026 23:54:50.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13May2026 23:54:50.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:bagliore_della_notte
-[13May2026 23:54:50.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[13May2026 23:54:50.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensioneannabramante
-[13May2026 23:54:50.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[13May2026 23:54:50.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13May2026 23:54:50.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[13May2026 23:54:50.984] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[13May2026 23:54:51.122] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[13May2026 23:54:51.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[13May2026 23:54:51.147] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[13May2026 23:54:51.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13May2026 23:54:51.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13May2026 23:54:51.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13May2026 23:54:52.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13May2026 23:54:54.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
-[13May2026 23:54:54.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
-[13May2026 23:54:54.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
-[13May2026 23:54:54.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13May2026 23:54:54.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:bagliore_della_notte
-[13May2026 23:54:54.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
-[13May2026 23:54:54.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensioneannabramante
-[13May2026 23:54:54.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
-[13May2026 23:54:54.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13May2026 23:54:54.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
-[13May2026 23:54:54.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[13May2026 23:54:54.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
-[13May2026 23:54:54.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
-[13May2026 23:54:54.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
-[13May2026 23:54:54.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13May2026 23:54:54.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bagliore_della_notte): All chunks are saved
-[13May2026 23:54:54.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
-[13May2026 23:54:54.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensioneannabramante): All chunks are saved
-[13May2026 23:54:54.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
-[13May2026 23:54:54.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13May2026 23:54:54.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
-[13May2026 23:54:54.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14May2026 23:51:45.818] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/beker' referenced from: cum:beker#: java.io.FileNotFoundException: cum:models/custom/beker.json
+[14May2026 23:51:45.820] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'cum:custom/balatro_tavolo_ufficiale' referenced from: cum:tavolo_balatrante#facing=north: java.io.FileNotFoundException: cum:models/custom/balatro_tavolo_ufficiale.json
+[14May2026 23:51:46.219] [Worker-Main-1/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/anello_ancestrale with size 250x250 limits mip level from 2 to 1
+[14May2026 23:51:46.220] [Worker-Main-1/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture cum:item/reggisenodiolivia with size 15x15 limits mip level from 1 to 0
+[14May2026 23:51:49.651] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.10
+[14May2026 23:51:51.499] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[14May2026 23:51:51.499] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14May2026 23:51:52.291] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
+[14May2026 23:51:52.293] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[14May2026 23:51:52.470] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 8192x8192x2 minecraft:textures/atlas/blocks.png-atlas
+[14May2026 23:51:53.214] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[14May2026 23:51:53.218] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[14May2026 23:51:53.222] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[14May2026 23:51:53.229] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[14May2026 23:51:53.275] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[14May2026 23:51:53.278] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[14May2026 23:51:53.279] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14May2026 23:51:53.282] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[14May2026 23:51:53.700] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[14May2026 23:51:54.028] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/particles.png-atlas
+[14May2026 23:51:54.117] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x0 minecraft:textures/atlas/paintings.png-atlas
+[14May2026 23:51:54.311] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14May2026 23:51:57.259] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[14May2026 23:52:01.218] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[14May2026 23:52:05.751] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[14May2026 23:52:05.933] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement cum:tunonhaiidea: Task Advancement{parentId=cum:tunonhaiidea, display=net.minecraft.advancements.DisplayInfo@8fe054, rewards=AdvancementRewards{experience=12, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@629fc74d}, criteria={tunonhaiidea_0=net.minecraft.advancements.Criterion@428169d}, requirements=[[tunonhaiidea_0]], sends_telemetry_event=false}
+[14May2026 23:52:05.933] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1277 advancements
+[14May2026 23:52:07.216] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[14May2026 23:52:07.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14May2026 23:52:12.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14May2026 23:52:17.097] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:17.097] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:17.097] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:17.097] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:17.097] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:17.389] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:17.392] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:17.392] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:17.392] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:17.444] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:17.444] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:18.069] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:19.704] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:19.704] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:19.704] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:19.855] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:20.372] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14May2026 23:52:20.867] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[14May2026 23:52:21.624] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9289 ms
+[14May2026 23:52:21.674] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14May2026 23:52:23.292] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[14May2026 23:52:23.295] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[14May2026 23:52:23.461] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[14May2026 23:52:25.011] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[14May2026 23:52:25.355] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:dc4ddc2c] logged in with entity id 38 at (478.26683325860637, 62.2287618957123, 38.863029193386986)
+[14May2026 23:52:25.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[14May2026 23:52:27.381] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 134 advancements
+[14May2026 23:52:28.776] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[14May2026 23:52:30.482] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[14May2026 23:52:38.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
+[14May2026 23:52:38.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 461 entities]
+[14May2026 23:52:38.387] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
+[14May2026 23:52:38.502] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 461 entities
+[14May2026 23:52:42.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was killed
+[14May2026 23:52:42.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 288 entities]
+[14May2026 23:52:42.571] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was killed
+[14May2026 23:52:42.572] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 288 entities
+[14May2026 23:52:57.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set spawn point to 451, 64, 12 [0.0] in minecraft:overworld for Dev]
+[14May2026 23:52:57.577] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set spawn point to 451, 64, 12 [0.0] in minecraft:overworld for Dev
+[14May2026 23:53:15.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[14May2026 23:53:15.192] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[14May2026 23:54:17.143] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Expected end of options
+[14May2026 23:54:17.145] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...=cum:marco+<--[HERE]
+[14May2026 23:54:19.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed 2 entities]
+[14May2026 23:54:19.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 2 entities
+[14May2026 23:54:29.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed Marco]
+[14May2026 23:54:29.782] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed Marco
+[14May2026 23:55:14.859] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[14May2026 23:55:14.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14May2026 23:55:14.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14May2026 23:55:14.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
+[14May2026 23:55:14.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:bagliore_della_notte
+[14May2026 23:55:14.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
+[14May2026 23:55:14.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
+[14May2026 23:55:14.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
+[14May2026 23:55:14.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14May2026 23:55:14.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
+[14May2026 23:55:14.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensioneannabramante
+[14May2026 23:55:14.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
+[14May2026 23:55:15.724] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[14May2026 23:55:15.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[14May2026 23:55:15.746] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[14May2026 23:55:15.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14May2026 23:55:15.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14May2026 23:55:15.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14May2026 23:55:16.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14May2026 23:55:17.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14May2026 23:55:17.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_primitiva
+[14May2026 23:55:17.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:bagliore_della_notte
+[14May2026 23:55:17.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_sulla_sicurezza
+[14May2026 23:55:17.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_balatrante
+[14May2026 23:55:17.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante_negativa
+[14May2026 23:55:17.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14May2026 23:55:17.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_derivata
+[14May2026 23:55:17.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensioneannabramante
+[14May2026 23:55:17.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/cum:dimensione_pericolante
+[14May2026 23:55:18.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[14May2026 23:55:18.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14May2026 23:55:18.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_primitiva): All chunks are saved
+[14May2026 23:55:18.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bagliore_della_notte): All chunks are saved
+[14May2026 23:55:18.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_sulla_sicurezza): All chunks are saved
+[14May2026 23:55:18.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_balatrante): All chunks are saved
+[14May2026 23:55:18.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante_negativa): All chunks are saved
+[14May2026 23:55:18.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14May2026 23:55:18.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_derivata): All chunks are saved
+[14May2026 23:55:18.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensioneannabramante): All chunks are saved
+[14May2026 23:55:18.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimensione_pericolante): All chunks are saved
+[14May2026 23:55:18.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14May2026 23:55:20.262] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

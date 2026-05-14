@@ -5,7 +5,7 @@
     "mobName": "Miraldi",
     "mobLabel": "",
     "mobModelName": "Modelmiraldi",
-    "mobModelTexture": "miraldi.png",
+    "mobModelTexture": "miraldi_vera.png",
     "transparentModelCondition": {
       "fixedValue": false
     },

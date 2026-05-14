@@ -48,6 +48,7 @@ import net.mcreator.cum.client.renderer.MiraldiRenderer;
 import net.mcreator.cum.client.renderer.MirabellaRenderer;
 import net.mcreator.cum.client.renderer.MinosPrimeRenderer;
 import net.mcreator.cum.client.renderer.MattiaPascalRenderer;
+import net.mcreator.cum.client.renderer.MarcoRenderer;
 import net.mcreator.cum.client.renderer.MaliciousFaceRenderer;
 import net.mcreator.cum.client.renderer.MaleniaBladeOfMiquellaRenderer;
 import net.mcreator.cum.client.renderer.LinfocitaTRenderer;
@@ -203,5 +204,6 @@ public class CumModEntityRenderers {
 		event.registerEntityRenderer(CumModEntities.VITELLODAIPIEDIDIBALSA.get(), VitellodaipiedidibalsaRenderer::new);
 		event.registerEntityRenderer(CumModEntities.VITELLOSENZAPIUIPIEDI.get(), VitellosenzapiuipiediRenderer::new);
 		event.registerEntityRenderer(CumModEntities.MIRALDI.get(), MiraldiRenderer::new);
+		event.registerEntityRenderer(CumModEntities.MARCO.get(), MarcoRenderer::new);
 	}
 }
