@@ -551,5 +551,13 @@
         "stream": false
       }
     ]
+  },
+  "asportatore_di_piedi": {
+    "sounds": [
+      {
+        "name": "cum:asportatore_di_piedi",
+        "stream": false
+      }
+    ]
   }
 }

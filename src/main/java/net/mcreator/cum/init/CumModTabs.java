@@ -474,6 +474,7 @@ public class CumModTabs {
 				tabData.accept(CumModItems.PIEDIDIBALSA.get());
 				tabData.accept(CumModItems.MIRALDI_SPAWN_EGG.get());
 				tabData.accept(CumModItems.MARCO_SPAWN_EGG.get());
+				tabData.accept(CumModItems.ASPORTATOREDIPIEDI.get());
 			}).withTabsBefore(COSE_LUNANTI.getId()).build());
 	public static final RegistryObject<CreativeModeTab> TALISMANI = REGISTRY.register("talismani",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cum.talismani")).icon(() -> new ItemStack(CumModItems.DIMENSIONE_PERICOLANTE.get())).displayItems((parameters, tabData) -> {

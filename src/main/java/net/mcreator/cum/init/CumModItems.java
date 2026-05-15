@@ -214,6 +214,7 @@ import net.mcreator.cum.item.AssoDiFioriItem;
 import net.mcreator.cum.item.AssoDiFioriDiVetroItem;
 import net.mcreator.cum.item.AssoDiCuoriItem;
 import net.mcreator.cum.item.AssoDiCuoriDiVetroItem;
+import net.mcreator.cum.item.AsportatoredipiediItem;
 import net.mcreator.cum.item.ArmaturadelsangueItem;
 import net.mcreator.cum.item.ArmaturaUltrakillanteItem;
 import net.mcreator.cum.item.ArmaturaPenalizzataItem;
@@ -630,10 +631,11 @@ public class CumModItems {
 	public static final RegistryObject<Item> PIEDIDI_MARCO = REGISTRY.register("piedidi_marco", () -> new PiedidiMarcoItem());
 	public static final RegistryObject<Item> BALSALOG = block(CumModBlocks.BALSALOG);
 	public static final RegistryObject<Item> PIEDIDIBALSA = REGISTRY.register("piedidibalsa", () -> new PiedidibalsaItem());
-	public static final RegistryObject<Item> VITELLODAIPIEDIDIBALSA_SPAWN_EGG = REGISTRY.register("vitellodaipiedidibalsa_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.VITELLODAIPIEDIDIBALSA, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> VITELLODAIPIEDIDIBALSA_SPAWN_EGG = REGISTRY.register("vitellodaipiedidibalsa_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.VITELLODAIPIEDIDIBALSA, -1, -5065080, new Item.Properties()));
 	public static final RegistryObject<Item> VITELLOSENZAPIUIPIEDI_SPAWN_EGG = REGISTRY.register("vitellosenzapiuipiedi_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.VITELLOSENZAPIUIPIEDI, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> MIRALDI_SPAWN_EGG = REGISTRY.register("miraldi_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.MIRALDI, -26215, -10066330, new Item.Properties()));
 	public static final RegistryObject<Item> MARCO_SPAWN_EGG = REGISTRY.register("marco_spawn_egg", () -> new ForgeSpawnEggItem(CumModEntities.MARCO, -16724788, -10066330, new Item.Properties()));
+	public static final RegistryObject<Item> ASPORTATOREDIPIEDI = REGISTRY.register("asportatoredipiedi", () -> new AsportatoredipiediItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

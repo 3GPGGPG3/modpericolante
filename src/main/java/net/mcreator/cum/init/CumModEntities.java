@@ -465,12 +465,12 @@ public class CumModEntities {
 	public static final RegistryObject<EntityType<PiedidimarcopEntity>> PIEDIDIMARCOP = register("piedidimarcop",
 			EntityType.Builder.<PiedidimarcopEntity>of(PiedidimarcopEntity::new, MobCategory.MISC).setCustomClientFactory(PiedidimarcopEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<VitellodaipiedidibalsaEntity>> VITELLODAIPIEDIDIBALSA = register("vitellodaipiedidibalsa",
-			EntityType.Builder.<VitellodaipiedidibalsaEntity>of(VitellodaipiedidibalsaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<VitellodaipiedidibalsaEntity>of(VitellodaipiedidibalsaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(VitellodaipiedidibalsaEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<VitellosenzapiuipiediEntity>> VITELLOSENZAPIUIPIEDI = register("vitellosenzapiuipiedi",
-			EntityType.Builder.<VitellosenzapiuipiediEntity>of(VitellosenzapiuipiediEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<VitellosenzapiuipiediEntity>of(VitellosenzapiuipiediEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(VitellosenzapiuipiediEntity::new)
 
 					.sized(0.6f, 1.8f));
