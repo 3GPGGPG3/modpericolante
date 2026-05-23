@@ -1,9 +1,0 @@
-{
-  "parent": "cum:custom/cono",
-  "textures": {
-    "all": "cum:block/cono",
-    "particle": "cum:block/cono",
-    "0": "cum:block/cono"
-  },
-  "render_type": "solid"
-}

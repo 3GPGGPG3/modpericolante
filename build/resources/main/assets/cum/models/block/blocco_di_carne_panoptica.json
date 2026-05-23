@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cum:block/bloccodicarnepanoptica",
-    "particle": "cum:block/bloccodicarnepanoptica"
-  },
-  "render_type": "solid"
-}

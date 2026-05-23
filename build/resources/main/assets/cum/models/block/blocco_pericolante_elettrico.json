@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cum:block/pericolante_elettrico",
-    "particle": "cum:block/pericolante_elettrico"
-  },
-  "render_type": "solid"
-}

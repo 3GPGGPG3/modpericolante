@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cum:block/balatro_leaved",
-    "particle": "cum:block/balatro_leaved"
-  },
-  "render_type": "solid"
-}

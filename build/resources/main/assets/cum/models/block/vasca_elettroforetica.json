@@ -1,9 +1,0 @@
-{
-  "parent": "cum:custom/vasca_elettroforetica",
-  "textures": {
-    "all": "cum:block/vasca_elettroforetica",
-    "particle": "cum:block/vasca_elettroforetica",
-    "0": "cum:block/vasca_elettroforetica"
-  },
-  "render_type": "solid"
-}

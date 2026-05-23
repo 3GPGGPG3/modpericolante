@@ -1,7 +1,0 @@
-{
-  "parent": "cum:custom/gene_gun",
-  "textures": {
-    "1": "cum:block/genes_gun",
-    "particle": "cum:item/texture_gene_gun"
-  }
-}

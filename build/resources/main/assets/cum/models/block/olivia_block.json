@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cum:block/oliviablock",
-    "particle": "cum:block/oliviablock"
-  },
-  "render_type": "solid"
-}

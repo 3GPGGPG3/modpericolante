@@ -1,7 +1,0 @@
-{
-  "parent": "cum:custom/bastone_paperone",
-  "textures": {
-    "0": "cum:block/bastone_paperone",
-    "particle": "cum:item/bastone_paperone"
-  }
-}

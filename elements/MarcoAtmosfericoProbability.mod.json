@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "MarcoAtmosfericoProbability",
+    "description": "Set the probability of the kick happening. The number set gets divided by 10000. You can set it from 1 to 20. If you set it in other values, you'll end up getting it set to 1. Default: 1",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 1
+  }
+}

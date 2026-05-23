@@ -1,8 +1,0 @@
-{
-  "parent": "block/crop",
-  "textures": {
-    "crop": "cum:block/cavolorosso",
-    "particle": "cum:block/cavolorosso"
-  },
-  "render_type": "cutout"
-}

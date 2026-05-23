@@ -1,7 +1,0 @@
-{
-  "parent": "cum:custom/buttigghia",
-  "textures": {
-    "0": "cum:block/buttigghia",
-    "particle": "minecraft:item/glass_bottle"
-  }
-}

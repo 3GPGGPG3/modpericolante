@@ -1,7 +1,0 @@
-{
-  "parent": "cum:custom/lancia_di_vike",
-  "textures": {
-    "0": "cum:block/lancia_di_vike",
-    "particle": "minecraft:item/iron_sword"
-  }
-}

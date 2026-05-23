@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cum:block/blocco_integrante",
-    "particle": "cum:block/blocco_integrante"
-  },
-  "render_type": "solid"
-}

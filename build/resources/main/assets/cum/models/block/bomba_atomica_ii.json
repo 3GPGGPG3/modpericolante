@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cum:block/bomba_atomica_ii",
-    "particle": "cum:block/bomba_atomica_ii"
-  },
-  "render_type": "solid"
-}

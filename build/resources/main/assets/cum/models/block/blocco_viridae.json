@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cum:block/bloccoviridae",
-    "particle": "cum:block/bloccoviridae"
-  },
-  "render_type": "solid"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cum:block/pericolosonegativo",
-    "particle": "cum:block/pericolosonegativo"
-  },
-  "render_type": "solid"
-}
